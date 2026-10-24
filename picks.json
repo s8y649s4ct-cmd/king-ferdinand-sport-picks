@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24 14:00 UTC",
+ "updated": "2026-10-24 14:01 UTC",
  "date": "2026-10-24",
  "legs": [
   {
@@ -168,8 +168,8 @@
    "src": "https://oddsjet.com/en-gb/premier-league/odds",
    "game": "Everton at Arsenal",
    "event": "401878768",
-   "status": "Scheduled",
-   "state": "pre",
+   "status": "1'",
+   "state": "in",
    "odds": "1.44 (~-227) best UK price, OddsJet - check FanDuel",
    "verified": false
   },
@@ -4147,8 +4147,8 @@
    "sport": "eng.1",
    "name": "Everton at Arsenal",
    "start": "2026-10-24T14:00Z",
-   "state": "pre",
-   "status": "Scheduled",
+   "state": "in",
+   "status": "1'",
    "venue": "Emirates Stadium",
    "indoor": null,
    "city": {
@@ -4156,23 +4156,23 @@
     "country": "England"
    },
    "espn_wx": null,
-   "line": "ARS -285",
-   "total": 2.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": "Bet 365",
    "teams": {
     "Arsenal": {
      "side": "home",
      "score": "0",
      "winner": false,
-     "ml_open": "-265",
-     "ml": "-285"
+     "ml_open": null,
+     "ml": null
     },
     "Everton": {
      "side": "away",
      "score": "0",
      "winner": false,
-     "ml_open": "+750",
-     "ml": "+800"
+     "ml_open": null,
+     "ml": null
     }
    }
   },
@@ -4320,6 +4320,11 @@
    "team": "Pittsburgh Panthers",
    "t": "QB M. Heintschel listed out-for-season",
    "src": "havoc.football"
+  },
+  {
+   "team": "UCLA Bruins",
+   "t": "vs Michigan State: MSU QBs Alessio Milivojevic and Cam Fancher out, true freshman Kayd Coffman to start; UCLA also starting backup QB Ty Dieffenbach. UCLA leg kept but recheck line before kickoff.",
+   "src": "X news 10/24 (Pete Thamel reports)"
   },
   {
    "team": "Atlanta Hawks",
@@ -5260,17 +5265,17 @@
   },
   {
    "g": "Manchester City at Aston Villa",
-   "w": "48.4F, wind 14.8 mph, rain 85%",
+   "w": "48.0F, wind 14.1 mph, rain 81%",
    "src": "open-meteo (kickoff hour)"
   },
   {
    "g": "Everton at Arsenal",
-   "w": "52.5F, wind 12.1 mph, rain 100%",
+   "w": "52.5F, wind 11.9 mph, rain 100%",
    "src": "open-meteo (kickoff hour)"
   },
   {
    "g": "Fulham at Coventry City",
-   "w": "51.1F, wind 17.0 mph, rain 100%",
+   "w": "51.3F, wind 17.4 mph, rain 100%",
    "src": "open-meteo (kickoff hour)"
   },
   {
@@ -5965,18 +5970,6 @@
    "now": "-148"
   },
   {
-   "g": "Everton at Arsenal",
-   "team": "Arsenal",
-   "open": "-265",
-   "now": "-285"
-  },
-  {
-   "g": "Everton at Arsenal",
-   "team": "Everton",
-   "open": "+750",
-   "now": "+800"
-  },
-  {
    "g": "Tottenham Hotspur at Chelsea",
    "team": "Chelsea",
    "open": "-135",
@@ -6001,5 +5994,5 @@
    "now": "+100"
   }
  ],
- "note": "33 legs pass the 60% bar with one leg per game, so the longest parlay here is 27 legs (target 27)."
+ "note": "32 legs pass the 60% bar with one leg per game, so the longest parlay here is 27 legs (target 27)."
 }
