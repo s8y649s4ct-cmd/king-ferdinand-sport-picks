@@ -13,3 +13,5 @@ $('lines').innerHTML='<div class=card>Moneyline open → now (ESPN/DraftKings fe
 })}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x==b));document.querySelectorAll('main section').forEach(s=>s.hidden=s.id!=b.dataset.t)});
 load();setInterval(load,120000);
+const tb=$('theme'),setT=t=>{document.documentElement.dataset.theme=t;tb.textContent=t=='light'?'🌙':'☀️';tb.title=t=='light'?'Switch to dark':'Switch to light'};
+setT(document.documentElement.dataset.theme);tb.onclick=()=>{const t=document.documentElement.dataset.theme=='light'?'dark':'light';localStorage.setItem('kfsp-theme',t);setT(t)};
