@@ -1,16 +1,67 @@
-{"date":"2026-10-24","min_prob":0.6,"auto_ml_max":-280,
-"legs":[
-{"id":"nba-cle","sport":"nba","team":"Cleveland Cavaliers","type":"ml","market":"Cavaliers moneyline","fd":"-500","prob":0.85,"why":"numberFire 87.5%. Nets' Bilodeau out; Cavs' Diop/Tomlin out (bench pieces).","src":"https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"},
-{"id":"nba-sas","sport":"nba","team":"San Antonio Spurs","type":"ml","market":"Spurs moneyline","fd":"-699","prob":0.81,"why":"Spurs -12.5 on FanDuel, numberFire 80.3%. Recheck injury report before tip.","src":"https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"},
-{"id":"nba-den","sport":"nba","team":"Denver Nuggets","type":"ml","market":"Nuggets moneyline","fd":"-521","prob":0.82,"why":"numberFire 82.9%; home vs Pelicans.","src":"https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"},
-{"id":"nba-phx","sport":"nba","team":"Phoenix Suns","type":"ml","market":"Suns moneyline","fd":"-429","prob":0.74,"why":"numberFire 71.6%; Suns -9.5. Kennard Q, Ighodaro doubtful.","src":"https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"},
-{"id":"nba-phi","sport":"nba","team":"Philadelphia 76ers","type":"ml","market":"76ers moneyline","fd":"-649","prob":0.74,"why":"numberFire 76.1%. LeBron James (now on PHI per NBA report & ESPN) questionable, back.","src":"https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-24_12_00AM.pdf"},
-{"id":"nhl-bos","sport":"nhl","team":"Boston Bruins","type":"ml","market":"Bruins moneyline","fd":"-184","prob":0.68,"why":"numberFire 79.7% (I shade down); BOS 8-2-1; SJS without Chernyshov, Wennberg.","src":"https://www.fanduel.com/research/bruins-vs-sharks-prediction-nhl-odds-10-24-2026"},
-{"id":"nhl-pit","sport":"nhl","team":"Pittsburgh Penguins","type":"ml","market":"Penguins moneyline","fd":"-144","prob":0.6,"why":"numberFire 60.7%; Nashville's projected goalie Annunen -1.08 GSAx/60.","src":"https://www.fanduel.com/research/penguins-vs-predators-prediction-nhl-odds-10-24-2026"},
-{"id":"nhl-car","sport":"nhl","team":"Carolina Hurricanes","type":"ml","market":"Hurricanes moneyline","fd":"-154","prob":0.59,"why":"numberFire 59.1%; CAR 8-2-2 but Staal, Hall out.","src":"https://www.fanduel.com/research/hurricanes-vs-blues-prediction-nhl-odds-10-24-2026"},
-{"id":"mlb-hend","sport":"mlb","team":"Milwaukee Brewers","type":"prop","market":"Logan Henderson over 14.5 pitching outs","fd":"-140","prob":0.62,"why":"FanDuel Research pick; 15+ outs in 8 of last 10 regular-season starts; 1.84 ERA at home. Risk: only 4 IP in NLCS.","src":"https://www.fanduel.com/research/rays-vs-brewers-prediction-today-mlb-picks-and-props-for-world-series-game-2"},
-{"id":"epl-ars","sport":"eng.1","team":"Arsenal","type":"ml","market":"Arsenal to win (90 min)","fd":null,"alt":"1.44 (~-227) best UK price, OddsJet","prob":0.66,"why":"6 straight home league wins; Everton without Grealish, Branthwaite. Arsenal missing Saka, Saliba.","src":"https://oddsjet.com/en-gb/premier-league/odds"},
-{"id":"epl-che","sport":"eng.1","team":"Chelsea","type":"ml","market":"Chelsea to win (90 min)","fd":"-120","prob":0.52,"why":"Chelsea won last 6 league games vs Spurs; draw risk is high. Below threshold, shown for info.","src":"https://picksmammoth.com/games/premier-league/2026-10-24-tottenham-hotspur-vs-chelsea/"},
-{"id":"cfb-mia","sport":"college-football","team":"Miami Hurricanes","type":"ml","market":"Miami moneyline","why":"#1 Miami 6-0; Pitt QB M. Heintschel listed out for season (havoc). 82F partly sunny.","src":"https://havoc.football/?day=2026-10-24"},
-{"id":"cfb-ttu","sport":"college-football","team":"Texas Tech Red Raiders","type":"ml","market":"Texas Tech moneyline","why":"#8 TTU 6-0; Option Country model gives Cincinnati only 13%.","src":"https://www.optioncountry.com/odds?week=8&year=2026"}
-]}
+{
+ "date": "2026-10-24",
+ "odds_floor": -1000,
+ "odds_ceiling": 300,
+ "model_weight": 0.5,
+ "models": {
+  "Cleveland Cavaliers": {
+   "prob": 0.85,
+   "why": "numberFire 87.5%. Nets' Bilodeau out; Cavs' Diop/Tomlin out (bench pieces).",
+   "src": "https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"
+  },
+  "San Antonio Spurs": {
+   "prob": 0.81,
+   "why": "Spurs -12.5 on FanDuel, numberFire 80.3%. Recheck injury report before tip.",
+   "src": "https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"
+  },
+  "Denver Nuggets": {
+   "prob": 0.82,
+   "why": "numberFire 82.9%; home vs Pelicans.",
+   "src": "https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"
+  },
+  "Phoenix Suns": {
+   "prob": 0.74,
+   "why": "numberFire 71.6%; Suns -9.5. Kennard Q, Ighodaro doubtful.",
+   "src": "https://www.fanduel.com/research/nba-predictions-odds-10-24-2026"
+  },
+  "Philadelphia 76ers": {
+   "prob": 0.74,
+   "why": "numberFire 76.1%. LeBron James (now on PHI per NBA report & ESPN) questionable, back.",
+   "src": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-24_12_00AM.pdf"
+  },
+  "Boston Bruins": {
+   "prob": 0.68,
+   "why": "numberFire 79.7% (I shade down); BOS 8-2-1; SJS without Chernyshov, Wennberg.",
+   "src": "https://www.fanduel.com/research/bruins-vs-sharks-prediction-nhl-odds-10-24-2026"
+  },
+  "Pittsburgh Penguins": {
+   "prob": 0.6,
+   "why": "numberFire 60.7%; Nashville's projected goalie Annunen -1.08 GSAx/60.",
+   "src": "https://www.fanduel.com/research/penguins-vs-predators-prediction-nhl-odds-10-24-2026"
+  },
+  "Carolina Hurricanes": {
+   "prob": 0.59,
+   "why": "numberFire 59.1%; CAR 8-2-2 but Staal, Hall out.",
+   "src": "https://www.fanduel.com/research/hurricanes-vs-blues-prediction-nhl-odds-10-24-2026"
+  },
+  "Arsenal": {
+   "prob": 0.66,
+   "why": "6 straight home league wins; Everton without Grealish, Branthwaite. Arsenal missing Saka, Saliba.",
+   "src": "https://oddsjet.com/en-gb/premier-league/odds"
+  },
+  "Chelsea": {
+   "prob": 0.52,
+   "why": "Chelsea won last 6 league games vs Spurs; draw risk is high. Below threshold, shown for info.",
+   "src": "https://picksmammoth.com/games/premier-league/2026-10-24-tottenham-hotspur-vs-chelsea/"
+  },
+  "Milwaukee Brewers": {
+   "prob": 0.516,
+   "why": "numberFire 51.6%",
+   "src": "https://www.fanduel.com/research/mlb-playoff-betting-odds-10-24-2026"
+  }
+ },
+ "notes": {
+  "Milwaukee Brewers": "Henderson 15+ outs in 8 of last 10 starts (FanDuel Research).",
+  "Philadelphia 76ers": "LeBron James questionable (back)."
+ }
+}
