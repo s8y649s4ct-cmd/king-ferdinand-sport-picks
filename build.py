@@ -176,6 +176,49 @@ for n in range(3,7):
   if len(bpool)<n: break
   P=math.prod(x['prob'] for x in bpool[:n]); D=math.prod(dec(x['odds']) for x in bpool[:n])
   if D>=3.5 and (not bestp or P*math.log(D)>bestp['score']): bestp={'n':n,'legs':[x['id'] for x in bpool[:n]],'est_prob':round(P,4),'fd_payout_x':round(D,2),'score':P*math.log(D)}
+# ---------- lottery tickets: max sum log(p) s.t. sum log(dec) >= log(target), <=27 legs, one per game ----------
+def lottery(cands,G,target,maxn=27):
+  byg={}
+  for L in cands:
+    if G[L['event']]['state']!='pre' or not L.get('verified',True): continue
+    byg.setdefault(L['event'],[]).append(L)
+  LT=math.log(target); bestt=None
+  for i in range(0,401):
+    lam=i*0.025  # Lagrangian sweep: value = log p + lam*log d
+    pick=[]
+    for ls in byg.values():
+      v,L=max(((math.log(L['prob'])+lam*math.log(dec(L['odds'])),L) for L in ls),key=lambda t:t[0])
+      pick.append((v,L))
+    pick.sort(key=lambda t:-t[0]); sel=[]; S=0
+    for v,L in pick:
+      if S>=LT or len(sel)>=maxn: break
+      sel.append(L); S+=math.log(dec(L['odds']))
+    if S<LT: continue
+    # local improvement: drop legs whose removal keeps target
+    for L in sorted(sel,key=lambda L:L['prob']):
+      if S-math.log(dec(L['odds']))>=LT: sel.remove(L); S-=math.log(dec(L['odds']))
+    P=math.prod(L['prob'] for L in sel)
+    if not bestt or P>bestt[0]: bestt=(P,sel)
+  return bestt
+def edge(L): return L['prob']-L['fd_prob'] if L.get('fd_prob') else 0
+def tix(sel,label,target=None):
+  P=math.prod(L['prob'] for L in sel); D=math.prod(dec(L['odds']) for L in sel)
+  return {'label':label,'target_x':target,'n':len(sel),'legs':[L['id'] for L in sel],'est_prob':P,'fd_payout_x':round(D,2),
+    'one_in':round(1/P) if P>0 else None,'fd_odds':'+'+str(round((D-1)*100)),'ev':round(P*D-1,3)}
+lot=[]; lotlegs={}
+for T in cfg.get('lottery_tiers',[25,100,500,1000,10000,100000,1000000]):
+  r=lottery(cands,G,T)
+  if r: lot.append(tix(r[1],f'~{T:,}x',T)); lotlegs.update({L['id']:L for L in r[1]})
+# 27-leg (or max) lottery: best-edge leg per game, top 27 by edge then prob
+eg={}
+for L in cands:
+  if G[L['event']]['state']!='pre' or not L.get('verified',True): continue
+  k=L['event']
+  if k not in eg or (edge(L),L['prob'])>(edge(eg[k]),eg[k]['prob']): eg[k]=L
+e27=sorted(eg.values(),key=lambda L:(-edge(L),-L['prob']))[:27]
+if e27: lot.append(tix(e27,f'{len(e27)}-leg best-edge lottery')); lotlegs.update({L['id']:L for L in e27})
+for L in lotlegs.values():
+  L.setdefault('why',f"FanDuel no-vig {L.get('fd_prob',0)*100:.1f}%"+(f", line model {L['dist_prob']*100:.1f}%" if L.get('dist_prob') is not None else '')+(f", team model {L['model']*100:.1f}%" if L.get('model') is not None else '')+f" -> est. {L['prob']*100:.1f}% (edge {edge(L)*100:+.1f} pts)")
 # ---------- injuries, weather, lines (unchanged logic) ----------
 slate={t['name'] for g in games for t in g['teams'].values()}; inj=list(notes['injuries'])
 for lg in ['nba','nhl']:
@@ -273,7 +316,7 @@ stats={'updated':NOW,'graded_legs':len(seen),'calibration':agg(lambda l:bucket(l
 json.dump(stats,open('stats.json','w'),indent=1)
 # ---------- output ----------
 kinds=sorted({L['kind'] for L in cands})
-out={'updated':NOW,'date':DATE,'legs':{**{L['id']:L for L in best.values()},**({i:next(x for x in bpool if x['id']==i) for i in bestp['legs']} if bestp else {})},'parlays':pars,'best':bestp,'started':[L['id'] for L in started],
+out={'updated':NOW,'date':DATE,'legs':{**{L['id']:L for L in best.values()},**({i:next(x for x in bpool if x['id']==i) for i in bestp['legs']} if bestp else {}),**lotlegs},'parlays':pars,'lottery':lot,'best':bestp,'started':[L['id'] for L in started],
  'games':games,'injuries':inj,'weather':wx,'moves':moves,'stats':stats,'feature':None,
  'note':f"{len(cands)} FanDuel-priced candidates ({', '.join(kinds)}) across {len(best)} games; best single market per game kept (odds {FLOOR} to +{CEIL}); {len(pool)} not-yet-started games -> parlays up to {len(pars)} legs."}
 import feature
