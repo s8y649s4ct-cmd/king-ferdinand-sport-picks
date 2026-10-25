@@ -1,114 +1,44 @@
 {
- "updated": "2026-10-25 03:26 UTC",
+ "updated": "2026-10-25 03:34 UTC",
  "date": "2026-10-24",
  "legs": {
-  "401856732:484725:734.192147839": {
-   "kind": "ml",
-   "side": "home",
-   "id": "401856732:484725:734.192147839",
-   "event": "401856732",
-   "sport": "college-football",
-   "game": "Ole Miss Rebels at Texas Longhorns",
-   "start": "2026-10-24T23:30Z",
-   "market": "Moneyline",
-   "pick": "Texas",
-   "odds": -720,
-   "fd_prob": 0.8285,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202464, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8285,
-   "prob": 0.8285
-  },
-  "401862811:6695309:734.192150529": {
-   "kind": "spread",
-   "side": "away",
-   "line": -22.5,
-   "id": "401862811:6695309:734.192150529",
-   "event": "401862811",
-   "sport": "college-football",
-   "game": "UTSA Roadrunners at Tulane Green Wave",
-   "start": "2026-10-25T00:00Z",
-   "market": "Spread",
-   "pick": "UTSA -22.5",
-   "odds": -500,
-   "fd_prob": 0.7778,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202521, fetched 2026-10-25 03:26 UTC",
-   "dist_prob": 0.5,
-   "market_prob": 0.6389,
-   "prob": 0.6389
-  },
-  "401856837:12194309:734.192564974": {
+  "401864527:12194315:734.192564904": {
    "kind": "total",
    "ou": "under",
-   "line": 50.5,
-   "id": "401856837:12194309:734.192564974",
-   "event": "401856837",
-   "sport": "college-football",
-   "game": "Houston Cougars at Utah Utes",
-   "start": "2026-10-25T02:15Z",
-   "market": "Alternate Total Points",
-   "pick": "Under (50.5)",
-   "odds": -850,
-   "fd_prob": 0.8562,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 03:26 UTC",
-   "dist_prob": 0.8413,
-   "market_prob": 0.8488,
-   "prob": 0.8488
-  },
-  "401864527:12194307:734.192564904": {
-   "kind": "total",
-   "ou": "under",
-   "line": 46.5,
-   "id": "401864527:12194307:734.192564904",
+   "line": 42.5,
+   "id": "401864527:12194315:734.192564904",
    "event": "401864527",
    "sport": "college-football",
    "game": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
    "market": "Alternate Total Points",
-   "pick": "Under (46.5)",
-   "odds": -1000,
-   "fd_prob": 0.8699,
+   "pick": "Under (42.5)",
+   "odds": -950,
+   "fd_prob": 0.8658,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 03:26 UTC",
-   "dist_prob": 0.8234,
-   "market_prob": 0.8467,
-   "prob": 0.8467
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 03:34 UTC",
+   "dist_prob": 0.8043,
+   "market_prob": 0.8351,
+   "prob": 0.8351
   },
-  "401860906:484725:734.192147839": {
+  "401909859:237492:734.193240337": {
    "kind": "ml",
    "side": "home",
-   "id": "401860906:484725:734.192147839",
-   "event": "401860906",
-   "sport": "college-football",
-   "game": "Utah State Aggies at Texas State Bobcats",
-   "start": "2026-10-24T23:30Z",
-   "market": "Moneyline",
-   "pick": "Texas",
-   "odds": -720,
-   "fd_prob": 0.8285,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202464, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8285,
-   "prob": 0.8285
-  },
-  "401909859:7379341:734.193240337": {
-   "kind": "ml",
-   "side": "away",
-   "id": "401909859:7379341:734.193240337",
+   "id": "401909859:237492:734.193240337",
    "event": "401909859",
    "sport": "nba",
    "game": "New Orleans Pelicans at Denver Nuggets",
    "start": "2026-10-25T01:00Z",
    "market": "Moneyline",
-   "pick": "New Orleans Pelicans",
-   "odds": -800,
-   "fd_prob": 0.8375,
+   "pick": "Denver Nuggets",
+   "odds": -265,
+   "fd_prob": 0.6853,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36224420, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8375,
-   "prob": 0.8375
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36224420, fetched 2026-10-25 03:34 UTC",
+   "model": 0.82,
+   "why_model": "numberFire 82.9%; home vs Pelicans.",
+   "market_prob": 0.6853,
+   "prob": 0.7527
   },
   "401909860:237487:734.193240332": {
    "kind": "ml",
@@ -120,14 +50,14 @@
    "start": "2026-10-25T02:00Z",
    "market": "Moneyline",
    "pick": "Phoenix Suns",
-   "odds": -430,
-   "fd_prob": 0.7644,
+   "odds": -530,
+   "fd_prob": 0.7947,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36224418, fetched 2026-10-25 03:26 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36224418, fetched 2026-10-25 03:34 UTC",
    "model": 0.77,
    "why_model": "Warriors without Curry (rest) and Podziemski (back); Draymond doubtful. numberFire 71.6% pre-news.",
-   "market_prob": 0.7644,
-   "prob": 0.7672
+   "market_prob": 0.7947,
+   "prob": 0.7823
   },
   "401892575:7000420:734.193620552": {
    "kind": "spread",
@@ -140,48 +70,48 @@
    "start": "2026-10-25T01:00Z",
    "market": "Alternate Puck Line",
    "pick": "Tampa Bay Lightning +1.5",
-   "odds": -600,
-   "fd_prob": 0.8202,
+   "odds": -1000,
+   "fd_prob": 0.8699,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36229695, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8202,
-   "prob": 0.8202
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36229695, fetched 2026-10-25 03:34 UTC",
+   "market_prob": 0.8699,
+   "prob": 0.8699
   },
-  "401892576:7000400:734.193620953": {
-   "kind": "spread",
-   "side": "home",
-   "line": 1.5,
-   "id": "401892576:7000400:734.193620953",
+  "401892576:7669430:734.193620952": {
+   "kind": "total",
+   "ou": "over",
+   "line": 4.5,
+   "id": "401892576:7669430:734.193620952",
    "event": "401892576",
    "sport": "nhl",
    "game": "Detroit Red Wings at Calgary Flames",
    "start": "2026-10-25T02:00Z",
-   "market": "Alternate Puck Line",
-   "pick": "Calgary Flames +1.5",
-   "odds": -1000,
-   "fd_prob": 0.8699,
+   "market": "Alternate Total Goals",
+   "pick": "Over 4.5",
+   "odds": -950,
+   "fd_prob": 0.8658,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36229697, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8699,
-   "prob": 0.8699
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36229697, fetched 2026-10-25 03:34 UTC",
+   "market_prob": 0.8658,
+   "prob": 0.8658
   },
-  "401892577:8359772:734.193620688": {
-   "kind": "total",
-   "ou": "over",
-   "line": 5.5,
-   "id": "401892577:8359772:734.193620688",
+  "401892577:7742136:734.193620670": {
+   "kind": "spread",
+   "side": "away",
+   "line": -2.5,
+   "id": "401892577:7742136:734.193620670",
    "event": "401892577",
    "sport": "nhl",
    "game": "Minnesota Wild at Seattle Kraken",
    "start": "2026-10-25T02:00Z",
-   "market": "Alternate Total Goals",
-   "pick": "Over 5.5",
-   "odds": -600,
-   "fd_prob": 0.8202,
+   "market": "Alternate Puck Line",
+   "pick": "Minnesota Wild -2.5",
+   "odds": -550,
+   "fd_prob": 0.8097,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36229696, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8202,
-   "prob": 0.8202
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36229696, fetched 2026-10-25 03:34 UTC",
+   "market_prob": 0.8097,
+   "prob": 0.8097
   },
   "401908043:29162:734.192879757": {
    "kind": "spread",
@@ -194,47 +124,12 @@
    "start": "2026-10-25T00:00Z",
    "market": "Run Line",
    "pick": "Tampa Bay Rays +1.5",
-   "odds": -205,
-   "fd_prob": 0.6288,
+   "odds": -550,
+   "fd_prob": 0.792,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36218894, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.6288,
-   "prob": 0.6288
-  },
-  "761897:171911:734.192334347": {
-   "kind": "ml3",
-   "side": "home",
-   "id": "761897:171911:734.192334347",
-   "event": "761897",
-   "sport": "usa.1",
-   "game": "Vancouver Whitecaps at Colorado Rapids",
-   "start": "2026-10-25T01:30Z",
-   "market": "Moneyline (3-way)",
-   "pick": "Colorado",
-   "odds": -1000,
-   "fd_prob": 0.8596,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36207402, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8596,
-   "prob": 0.8596
-  },
-  "761898:1222344:734.192324486": {
-   "kind": "total",
-   "ou": "under",
-   "line": 3.5,
-   "id": "761898:1222344:734.192324486",
-   "event": "761898",
-   "sport": "usa.1",
-   "game": "St. Louis CITY SC at Real Salt Lake",
-   "start": "2026-10-25T01:30Z",
-   "market": "Over/Under 3.5 Goals",
-   "pick": "Under 3.5 Goals",
-   "odds": -350,
-   "fd_prob": 0.7341,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36207247, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.7341,
-   "prob": 0.7341
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36218894, fetched 2026-10-25 03:34 UTC",
+   "market_prob": 0.792,
+   "prob": 0.792
   },
   "761902:1222345:734.192333516": {
    "kind": "total",
@@ -247,12 +142,12 @@
    "start": "2026-10-25T02:30Z",
    "market": "Over/Under 3.5 Goals",
    "pick": "Over 3.5 Goals",
-   "odds": -1000,
-   "fd_prob": 0.8571,
+   "odds": -800,
+   "fd_prob": 0.8375,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36207396, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.8571,
-   "prob": 0.8571
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36207396, fetched 2026-10-25 03:34 UTC",
+   "market_prob": 0.8375,
+   "prob": 0.8375
   },
   "761901:1222344:734.192334632": {
    "kind": "total",
@@ -265,31 +160,25 @@
    "start": "2026-10-25T02:30Z",
    "market": "Over/Under 3.5 Goals",
    "pick": "Under 3.5 Goals",
-   "odds": -900,
-   "fd_prob": 0.848,
+   "odds": -1000,
+   "fd_prob": 0.8571,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36207403, fetched 2026-10-25 03:26 UTC",
-   "market_prob": 0.848,
-   "prob": 0.848
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36207403, fetched 2026-10-25 03:34 UTC",
+   "market_prob": 0.8571,
+   "prob": 0.8571
   }
  },
  "parlays": [],
  "lottery": [],
  "best": null,
  "started": [
-  "401856732:484725:734.192147839",
-  "401862811:6695309:734.192150529",
-  "401856837:12194309:734.192564974",
-  "401864527:12194307:734.192564904",
-  "401860906:484725:734.192147839",
-  "401909859:7379341:734.193240337",
+  "401864527:12194315:734.192564904",
+  "401909859:237492:734.193240337",
   "401909860:237487:734.193240332",
   "401892575:7000420:734.193620552",
-  "401892576:7000400:734.193620953",
-  "401892577:8359772:734.193620688",
+  "401892576:7669430:734.193620952",
+  "401892577:7742136:734.193620670",
   "401908043:29162:734.192879757",
-  "761897:171911:734.192334347",
-  "761898:1222344:734.192324486",
   "761902:1222345:734.192333516",
   "761901:1222344:734.192334632"
  ],
@@ -300,7 +189,7 @@
    "name": "Ole Miss Rebels at Texas Longhorns",
    "start": "2026-10-24T23:30Z",
    "state": "in",
-   "status": "1:15 - 4th",
+   "status": "0:02 - 4th",
    "venue": "DKR-Texas Memorial Stadium",
    "indoor": false,
    "city": {
@@ -310,8 +199,8 @@
    },
    "espn_wx": {
     "displayValue": "33",
-    "temperature": 76,
-    "highTemperature": 76,
+    "temperature": 74,
+    "highTemperature": 74,
     "conditionId": "Clear",
     "link": {
      "language": "en-US",
@@ -355,7 +244,7 @@
    "name": "UTSA Roadrunners at Tulane Green Wave",
    "start": "2026-10-25T00:00Z",
    "state": "in",
-   "status": "2:00 - 4th",
+   "status": "End of 4th",
    "venue": "Yulman Stadium",
    "indoor": false,
    "city": {
@@ -365,8 +254,8 @@
    },
    "espn_wx": {
     "displayValue": "33",
-    "temperature": 55,
-    "highTemperature": 55,
+    "temperature": 65,
+    "highTemperature": 65,
     "conditionId": "Clear",
     "link": {
      "language": "en-US",
@@ -410,7 +299,7 @@
    "name": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "state": "in",
-   "status": "3:52 - 2nd",
+   "status": "2:58 - 2nd",
    "venue": "Rice-Eccles Stadium",
    "indoor": false,
    "city": {
@@ -420,8 +309,8 @@
    },
    "espn_wx": {
     "displayValue": "34",
-    "temperature": 46,
-    "highTemperature": 46,
+    "temperature": 43,
+    "highTemperature": 43,
     "conditionId": "Mostly clear",
     "link": {
      "language": "en-US",
@@ -451,7 +340,7 @@
     "away": {
      "name": "Houston Cougars",
      "short": "Houston",
-     "score": "0",
+     "score": "3",
      "winner": null,
      "record": "6-1",
      "ml_open": null,
@@ -465,7 +354,7 @@
    "name": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
    "state": "in",
-   "status": "5:30 - 2nd",
+   "status": "1:58 - 2nd",
    "venue": "University Stadium (NM)",
    "indoor": false,
    "city": {
@@ -2308,7 +2197,7 @@
    "name": "New Orleans Pelicans at Denver Nuggets",
    "start": "2026-10-25T01:00Z",
    "state": "in",
-   "status": "1:59 - 4th",
+   "status": "1.0 - 4th",
    "venue": "Ball Arena",
    "indoor": true,
    "city": {
@@ -2323,7 +2212,7 @@
     "home": {
      "name": "Denver Nuggets",
      "short": "Nuggets",
-     "score": "116",
+     "score": "126",
      "winner": null,
      "record": "0-1",
      "ml_open": null,
@@ -2332,7 +2221,7 @@
     "away": {
      "name": "New Orleans Pelicans",
      "short": "Pelicans",
-     "score": "121",
+     "score": "126",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -2346,7 +2235,7 @@
    "name": "Golden State Warriors at Phoenix Suns",
    "start": "2026-10-25T02:00Z",
    "state": "in",
-   "status": "12:00 - 3rd",
+   "status": "10:10 - 3rd",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2361,7 +2250,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "57",
+     "score": "62",
      "winner": null,
      "record": "0-1",
      "ml_open": null,
@@ -2370,7 +2259,7 @@
     "away": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "54",
+     "score": "57",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -2735,7 +2624,7 @@
    "name": "Tampa Bay Lightning at Utah Mammoth",
    "start": "2026-10-25T01:00Z",
    "state": "in",
-   "status": "10:53 - 3rd",
+   "status": "8:25 - 3rd",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -2774,7 +2663,7 @@
    "name": "Detroit Red Wings at Calgary Flames",
    "start": "2026-10-25T02:00Z",
    "state": "in",
-   "status": "8:53 - 2nd",
+   "status": "4:09 - 2nd",
    "venue": "Scotiabank Saddledome",
    "indoor": true,
    "city": {
@@ -2813,7 +2702,7 @@
    "name": "Minnesota Wild at Seattle Kraken",
    "start": "2026-10-25T02:00Z",
    "state": "in",
-   "status": "7:45 - 2nd",
+   "status": "5:29 - 2nd",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -2838,7 +2727,7 @@
     "away": {
      "name": "Minnesota Wild",
      "short": "Wild",
-     "score": "3",
+     "score": "4",
      "winner": null,
      "record": "6-3-2",
      "ml_open": null,
@@ -2860,10 +2749,10 @@
     "state": "Wisconsin"
    },
    "espn_wx": {
-    "displayValue": "38",
+    "displayValue": "35",
     "temperature": 55,
     "highTemperature": 55,
-    "conditionId": "Mostly cloudy",
+    "conditionId": "Partly cloudy",
     "link": {
      "language": "en-US",
      "rel": [
@@ -4008,7 +3897,7 @@
    "name": "Vancouver Whitecaps at Colorado Rapids",
    "start": "2026-10-25T01:30Z",
    "state": "in",
-   "status": "87'",
+   "status": "90'+4'",
    "venue": "Dick's Sporting Goods Park",
    "indoor": null,
    "city": {
@@ -4046,7 +3935,7 @@
    "name": "St. Louis CITY SC at Real Salt Lake",
    "start": "2026-10-25T01:30Z",
    "state": "in",
-   "status": "88'",
+   "status": "90'+5'",
    "venue": "America First Field",
    "indoor": null,
    "city": {
@@ -4084,7 +3973,7 @@
    "name": "Charlotte FC at Portland Timbers",
    "start": "2026-10-25T02:30Z",
    "state": "in",
-   "status": "45'+1'",
+   "status": "HT",
    "venue": "Providence Park",
    "indoor": null,
    "city": {
@@ -4970,17 +4859,17 @@
  "weather": [
   {
    "g": "Ole Miss Rebels at Texas Longhorns",
-   "w": "33, 76F",
+   "w": "33, 74F",
    "src": "ESPN/AccuWeather"
   },
   {
    "g": "UTSA Roadrunners at Tulane Green Wave",
-   "w": "33, 55F",
+   "w": "33, 65F",
    "src": "ESPN/AccuWeather"
   },
   {
    "g": "Houston Cougars at Utah Utes",
-   "w": "34, 46F",
+   "w": "34, 43F",
    "src": "ESPN/AccuWeather"
   },
   {
@@ -5070,37 +4959,23 @@
    "src": "ESPN/DraftKings"
   },
   {
-   "g": "Ole Miss Rebels at Texas Longhorns",
-   "team": "Texas",
-   "open": -1000,
-   "now": -720,
-   "src": "FanDuel (since first snapshot)"
-  },
-  {
    "g": "New Orleans Pelicans at Denver Nuggets",
-   "team": "New Orleans Pelicans",
-   "open": -260,
-   "now": -800,
+   "team": "Denver Nuggets",
+   "open": -490,
+   "now": -265,
    "src": "FanDuel (since first snapshot)"
   },
   {
    "g": "Golden State Warriors at Phoenix Suns",
    "team": "Phoenix Suns",
    "open": -330,
-   "now": -430,
+   "now": -530,
    "src": "FanDuel (since first snapshot)"
   },
   {
    "g": "Tampa Bay Lightning at Utah Mammoth",
    "team": "Tampa Bay Lightning +1.5",
    "open": -750,
-   "now": -600,
-   "src": "FanDuel (since first snapshot)"
-  },
-  {
-   "g": "Detroit Red Wings at Calgary Flames",
-   "team": "Calgary Flames +1.5",
-   "open": -800,
    "now": -1000,
    "src": "FanDuel (since first snapshot)"
   },
@@ -5108,33 +4983,26 @@
    "g": "Tampa Bay Rays at Milwaukee Brewers",
    "team": "Tampa Bay Rays +1.5",
    "open": -440,
-   "now": -205,
-   "src": "FanDuel (since first snapshot)"
-  },
-  {
-   "g": "St. Louis CITY SC at Real Salt Lake",
-   "team": "Under 3.5 Goals",
-   "open": -178,
-   "now": -350,
+   "now": -550,
    "src": "FanDuel (since first snapshot)"
   },
   {
    "g": "Charlotte FC at Portland Timbers",
    "team": "Over 3.5 Goals",
    "open": -670,
-   "now": -1000,
+   "now": -800,
    "src": "FanDuel (since first snapshot)"
   },
   {
    "g": "Seattle Sounders FC at San Diego FC",
    "team": "Under 3.5 Goals",
    "open": -590,
-   "now": -900,
+   "now": -1000,
    "src": "FanDuel (since first snapshot)"
   }
  ],
  "stats": {
-  "updated": "2026-10-25 03:26 UTC",
+  "updated": "2026-10-25 03:34 UTC",
   "graded_legs": 19,
   "calibration": {
    "85-90%": {
@@ -5191,5 +5059,5 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "255 FanDuel-priced candidates (dc, dnb, ml, ml3, spread, total) across 15 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
+ "note": "147 FanDuel-priced candidates (dc, dnb, ml, ml3, spread, total) across 9 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
 }
