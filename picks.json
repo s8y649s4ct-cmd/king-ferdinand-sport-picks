@@ -1,42 +1,44 @@
 {
- "updated": "2026-10-25 04:53 UTC",
+ "updated": "2026-10-25 05:09 UTC",
  "date": "2026-10-24",
  "legs": {
-  "401856837:12213226:734.192564974": {
+  "401856837:12197168:734.192564974": {
    "kind": "total",
    "ou": "under",
-   "line": 48.5,
-   "id": "401856837:12213226:734.192564974",
+   "line": 45.5,
+   "id": "401856837:12197168:734.192564974",
    "event": "401856837",
    "sport": "college-football",
    "game": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "market": "Alternate Total Points",
-   "pick": "Under (48.5)",
+   "pick": "Under (45.5)",
    "odds": -1000,
    "fd_prob": 0.8699,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 04:53 UTC",
-   "dist_prob": 0.8043,
-   "market_prob": 0.8371,
-   "prob": 0.8371
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:09 UTC",
+   "dist_prob": 0.784,
+   "market_prob": 0.827,
+   "prob": 0.827
   },
-  "401864527:602744:734.192148623": {
-   "kind": "ml",
-   "side": "home",
-   "id": "401864527:602744:734.192148623",
+  "401864527:12197172:734.192564904": {
+   "kind": "total",
+   "ou": "under",
+   "line": 43.5,
+   "id": "401864527:12197172:734.192564904",
    "event": "401864527",
    "sport": "college-football",
    "game": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
-   "market": "Moneyline",
-   "pick": "New Mexico",
-   "odds": -900,
-   "fd_prob": 0.848,
+   "market": "Alternate Total Points",
+   "pick": "Under (43.5)",
+   "odds": -850,
+   "fd_prob": 0.8562,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 04:53 UTC",
-   "market_prob": 0.848,
-   "prob": 0.848
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 05:09 UTC",
+   "dist_prob": 0.6915,
+   "market_prob": 0.7738,
+   "prob": 0.7738
   },
   "401892575:12197205:734.192564974": {
    "kind": "total",
@@ -52,7 +54,7 @@
    "odds": -1000,
    "fd_prob": 0.8699,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 04:53 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:09 UTC",
    "market_prob": 0.8699,
    "prob": 0.8699
   }
@@ -61,8 +63,8 @@
  "lottery": [],
  "best": null,
  "started": [
-  "401856837:12213226:734.192564974",
-  "401864527:602744:734.192148623",
+  "401856837:12197168:734.192564974",
+  "401864527:12197172:734.192564904",
   "401892575:12197205:734.192564974"
  ],
  "games": [
@@ -72,7 +74,7 @@
    "name": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "state": "in",
-   "status": "14:11 - 4th",
+   "status": "9:59 - 4th",
    "venue": "Rice-Eccles Stadium",
    "indoor": false,
    "city": {
@@ -104,7 +106,7 @@
     "home": {
      "name": "Utah Utes",
      "short": "Utah",
-     "score": "7",
+     "score": "14",
      "winner": null,
      "record": "6-0",
      "ml_open": null,
@@ -127,7 +129,7 @@
    "name": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
    "state": "in",
-   "status": "12:27 - 4th",
+   "status": "7:55 - 4th",
    "venue": "University Stadium (NM)",
    "indoor": false,
    "city": {
@@ -159,7 +161,7 @@
     "home": {
      "name": "New Mexico Lobos",
      "short": "New Mexico",
-     "score": "14",
+     "score": "21",
      "winner": null,
      "record": "5-1",
      "ml_open": null,
@@ -4092,6 +4094,11 @@
   },
   {
    "team": "Golden State Warriors",
+   "t": "Gui Santos - Day-To-Day: Santos exited Saturday's 131-122 loss to the Suns with an undisclosed injury and did not return, Anthony Slater of ESPN.com reports.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Golden State Warriors",
    "t": "Draymond Green - Out: Green (back) won't play Saturday in Phoenix.",
    "src": "ESPN injuries feed"
   },
@@ -4738,9 +4745,17 @@
    "src": "open-meteo"
   }
  ],
- "moves": [],
+ "moves": [
+  {
+   "g": "North Dakota State Bison at New Mexico Lobos",
+   "team": "Under (43.5)",
+   "open": -950,
+   "now": -850,
+   "src": "FanDuel (since first snapshot)"
+  }
+ ],
  "stats": {
-  "updated": "2026-10-25 04:53 UTC",
+  "updated": "2026-10-25 05:09 UTC",
   "graded_legs": 35,
   "calibration": {
    "85-90%": {
@@ -4827,5 +4842,5 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "187 FanDuel-priced candidates (ml, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
+ "note": "144 FanDuel-priced candidates (ml, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
 }
