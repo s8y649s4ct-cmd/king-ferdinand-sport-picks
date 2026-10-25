@@ -1,49 +1,11 @@
 {
- "updated": "2026-10-25 05:30 UTC",
+ "updated": "2026-10-25 05:38 UTC",
  "date": "2026-10-24",
- "legs": {
-  "401856837:532780:734.192147020": {
-   "kind": "ml",
-   "side": "home",
-   "id": "401856837:532780:734.192147020",
-   "event": "401856837",
-   "sport": "college-football",
-   "game": "Houston Cougars at Utah Utes",
-   "start": "2026-10-25T02:15Z",
-   "market": "Moneyline",
-   "pick": "Utah",
-   "odds": -330,
-   "fd_prob": 0.7229,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:30 UTC",
-   "market_prob": 0.7229,
-   "prob": 0.7229
-  },
-  "401892575:532780:734.192147020": {
-   "kind": "ml",
-   "side": "home",
-   "id": "401892575:532780:734.192147020",
-   "event": "401892575",
-   "sport": "nhl",
-   "game": "Tampa Bay Lightning at Utah Mammoth",
-   "start": "2026-10-25T01:00Z",
-   "market": "Moneyline",
-   "pick": "Utah",
-   "odds": -330,
-   "fd_prob": 0.7229,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:30 UTC",
-   "market_prob": 0.7229,
-   "prob": 0.7229
-  }
- },
+ "legs": {},
  "parlays": [],
  "lottery": [],
  "best": null,
- "started": [
-  "401856837:532780:734.192147020",
-  "401892575:532780:734.192147020"
- ],
+ "started": [],
  "games": [
   {
    "id": "401856837",
@@ -51,7 +13,7 @@
    "name": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "state": "in",
-   "status": "2:27 - 4th",
+   "status": "2:06 - 4th",
    "venue": "Rice-Eccles Stadium",
    "indoor": false,
    "city": {
@@ -61,8 +23,8 @@
    },
    "espn_wx": {
     "displayValue": "33",
-    "temperature": 44,
-    "highTemperature": 44,
+    "temperature": 41,
+    "highTemperature": 41,
     "conditionId": "Clear",
     "link": {
      "language": "en-US",
@@ -83,7 +45,7 @@
     "home": {
      "name": "Utah Utes",
      "short": "Utah",
-     "score": "14",
+     "score": "21",
      "winner": null,
      "record": "6-0",
      "ml_open": null,
@@ -105,8 +67,8 @@
    "sport": "college-football",
    "name": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
-   "state": "in",
-   "status": "0:35 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "University Stadium (NM)",
    "indoor": false,
    "city": {
@@ -114,23 +76,7 @@
     "state": "NM",
     "country": "USA"
    },
-   "espn_wx": {
-    "displayValue": "15",
-    "temperature": 59,
-    "highTemperature": 59,
-    "conditionId": "Thunderstorm",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "87106"
-     ],
-     "href": "http://www.accuweather.com/en/us/university-stadium-nm/87102/current-weather/53610_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
+   "espn_wx": null,
    "line": null,
    "total": null,
    "book": null,
@@ -139,8 +85,8 @@
      "name": "New Mexico Lobos",
      "short": "New Mexico",
      "score": "21",
-     "winner": null,
-     "record": "5-1",
+     "winner": true,
+     "record": "6-1",
      "ml_open": null,
      "ml": null
     },
@@ -148,8 +94,8 @@
      "name": "North Dakota State Bison",
      "short": "N Dakota St",
      "score": "16",
-     "winner": null,
-     "record": "6-1",
+     "winner": false,
+     "record": "6-2",
      "ml_open": null,
      "ml": null
     }
@@ -4683,13 +4629,13 @@
  "weather": [
   {
    "g": "Houston Cougars at Utah Utes",
-   "w": "33, 44F",
+   "w": "33, 41F",
    "src": "ESPN/AccuWeather"
   },
   {
    "g": "North Dakota State Bison at New Mexico Lobos",
-   "w": "15, 59F",
-   "src": "ESPN/AccuWeather"
+   "w": "60.8F, wind 9.0 mph, rain 45%",
+   "src": "open-meteo"
   },
   {
    "g": "UTSA Roadrunners at Tulane Green Wave",
@@ -4727,24 +4673,16 @@
    "src": "open-meteo"
   }
  ],
- "moves": [
-  {
-   "g": "Houston Cougars at Utah Utes",
-   "team": "Utah",
-   "open": -245,
-   "now": -330,
-   "src": "FanDuel (since first snapshot)"
-  }
- ],
+ "moves": [],
  "stats": {
-  "updated": "2026-10-25 05:30 UTC",
-  "graded_legs": 35,
+  "updated": "2026-10-25 05:38 UTC",
+  "graded_legs": 36,
   "calibration": {
    "85-90%": {
-    "n": 28,
-    "wins": 27,
-    "pred": 0.88,
-    "hit": 0.964
+    "n": 29,
+    "wins": 28,
+    "pred": 0.879,
+    "hit": 0.966
    },
    "75-80%": {
     "n": 1,
@@ -4766,6 +4704,12 @@
     "pred": 0.836,
     "hit": 1.0
    },
+   "college-football": {
+    "n": 9,
+    "wins": 9,
+    "pred": 0.883,
+    "hit": 1.0
+   },
    "nba": {
     "n": 12,
     "wins": 12,
@@ -4778,12 +4722,6 @@
     "pred": 0.862,
     "hit": 0.75
    },
-   "college-football": {
-    "n": 8,
-    "wins": 8,
-    "pred": 0.885,
-    "hit": 1.0
-   },
    "mlb": {
     "n": 1,
     "wins": 1,
@@ -4793,9 +4731,9 @@
   },
   "by_market": {
    "total": {
-    "n": 20,
-    "wins": 20,
-    "pred": 0.864,
+    "n": 21,
+    "wins": 21,
+    "pred": 0.865,
     "hit": 1.0
    },
    "spread": {
@@ -4824,5 +4762,5 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "8 FanDuel-priced candidates (ml, total) across 2 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
+ "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
 }
