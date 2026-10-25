@@ -411,5 +411,20 @@ import feature
 try: out['feature']=feature.build(bestp,out['legs'],games,cands,moves,wx,inj,get,SPORTS,CTX)
 except Exception as e: print('feature fail',e)
 for g in out['games']: g.pop('fd',None)
+# FanDuel add-to-betslip links (format used by FanDuel's own shared-bet links)
+def fdlink(ids):
+    ms=[];ss=[]
+    for i in ids:
+        L=out['legs'].get(i) if isinstance(i,str) else i
+        if not L: continue
+        p=L['id'].split(':')
+        if len(p)<3: continue
+        ms.append(p[2]);ss.append(p[1])
+    if not ms: return None
+    return 'https://sportsbook.fanduel.com/addToBetslip?'+'&'.join(f'marketId={m}' for m in ms)+'&'+'&'.join(f'selectionId={x}' for x in ss)
+for L in out['legs'].values():
+    p=L['id'].split(':'); L['fd_market_id']=p[2] if len(p)>2 else None; L['fd_selection_id']=p[1] if len(p)>2 else None; L['fd_link']=fdlink([L['id']])
+for p in out['parlays']+(out['lottery'] or []): p['fd_link']=fdlink(p['legs'])
+if out['best']: out['best']['fd_link']=fdlink(out['best']['legs'])
 json.dump(out,open('picks.json','w'),indent=1)
 print('cands',len(cands),'games w/ leg',len(best),'pool',len(pool),'parlays',len(pars),'best',bestp and bestp['n'],'kinds',kinds)
