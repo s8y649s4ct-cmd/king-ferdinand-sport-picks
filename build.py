@@ -427,7 +427,7 @@ def fdlink(ids):
         if len(p)<3: continue
         ms.append(p[2]);ss.append(p[1])
     if not ms: return None
-    return 'https://sportsbook.fanduel.com/addToBetslip?'+'&'.join([f'marketId={m}' for m in ms]+[f'selectionId={x}' for x in ss])
+    return 'https://sportsbook.fanduel.com/addToBetslip?'+'&'.join(f'marketId%5B{i}%5D={m}&selectionId%5B{i}%5D={x}' for i,(m,x) in enumerate(zip(ms,ss)))
 for L in out['legs'].values():
     p=L['id'].split(':'); L['fd_market_id']=p[2] if len(p)>2 else None; L['fd_selection_id']=p[1] if len(p)>2 else None; L['fd_link']=fdlink([L['id']]); L['fd_region']='PA' if (L['fd_market_id'] or '').startswith('742.') else 'NJ-fallback (not PA-verified)'
 for p in out['parlays']+(out['lottery'] or []): p['fd_link']=fdlink(p['legs'])
