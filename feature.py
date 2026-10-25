@@ -2,7 +2,15 @@
 NF='not found'
 def M(x,t,ab):
   tm=x.get('team',{}); return t['name'] in (tm.get('displayName'),tm.get('name')) or ab in (tm.get('abbreviation'),tm.get('shortDisplayName'))
-def build(bestp,legs,games,cands,moves,wx,inj,get,SPORTS):
+def RT(c,g):
+  if not c: return NF
+  o=[]
+  for sd in('away','home'):
+    x=c['sides'].get(sd,{})
+    if x.get('rest_days') is not None: o.append(f"{g['teams'][sd]['name']}: {x['rest_days']}d rest{' (back-to-back)' if x.get('b2b') else ''}"+(f", {x['travel_mi']} mi travel" if x.get('travel_mi') is not None else ''))
+  return '; '.join(o) or NF
+def build(bestp,legs,games,cands,moves,wx,inj,get,SPORTS,CTX=None):
+  CTX=CTX or {}
   if not bestp: return None
   G={g['id']:g for g in games}; out=[]
   for i in bestp['legs']:
@@ -29,7 +37,7 @@ def build(bestp,legs,games,cands,moves,wx,inj,get,SPORTS):
     w=next((x for x in wx if x.get('g')==g['name']),None)
     out.append({'id':i,'game':g['name'],'start':g['start'],'pick':L['pick'],'market':L['market'],'odds':L['odds'],
       'odds_status':'FanDuel-verified (FanDuel public sportsbook API, NJ)' if L.get('verified') else 'check FanDuel',
-      'teams':teams,'h2h':ss,'rest_travel':NF,'coaching':NF,
+      'teams':teams,'h2h':ss,'rest_travel':RT(CTX.get(g['id']),g),'coaching':'no free structured source (not scored)','research':L.get('research') or [],'research_adj':L.get('research_adj'),
       'venue':f"{g.get('venue') or NF}{' (indoor)' if g.get('indoor') else ''}",'weather':'indoor - n/a' if g.get('indoor') else (w and f"{w.get('w')} ({w.get('src')})") or NF,
       'line_moves':'; '.join(mv) or 'no recorded move','sharp_public':NF+' (no free public betting-split source)',
       'espn_line':f"{g.get('book') or 'ESPN'}: {g.get('line') or NF}, O/U {g.get('total') or NF}",'predictor':pred,

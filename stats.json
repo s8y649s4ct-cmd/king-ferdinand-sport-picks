@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-25 05:47 UTC",
- "graded_legs": 36,
+ "updated": "2026-10-25 05:58 UTC",
+ "graded_legs": 37,
  "calibration": {
   "85-90%": {
-   "n": 29,
-   "wins": 28,
-   "pred": 0.879,
-   "hit": 0.966
+   "n": 30,
+   "wins": 29,
+   "pred": 0.88,
+   "hit": 0.967
   },
   "75-80%": {
    "n": 1,
@@ -29,9 +29,9 @@
    "hit": 1.0
   },
   "college-football": {
-   "n": 9,
-   "wins": 9,
-   "pred": 0.883,
+   "n": 10,
+   "wins": 10,
+   "pred": 0.884,
    "hit": 1.0
   },
   "nba": {
@@ -55,9 +55,9 @@
  },
  "by_market": {
   "total": {
-   "n": 21,
-   "wins": 21,
-   "pred": 0.865,
+   "n": 22,
+   "wins": 22,
+   "pred": 0.866,
    "hit": 1.0
   },
   "spread": {
@@ -80,18 +80,18 @@
   }
  },
  "parlays": {
-  "graded": 23,
-  "won": 2,
-  "expected": 4.01,
-  "pending": 40,
+  "graded": 27,
+  "won": 6,
+  "expected": 6.16,
+  "pending": 36,
   "by_type": {
    "ladder": {
-    "graded": 23,
-    "won": 2,
-    "expected": 4.0
+    "graded": 27,
+    "won": 6,
+    "expected": 6.15
    }
   },
-  "note": "Ladder tickets are nested (each adds one leg to the last), so one losing leg sinks every larger ticket at once."
+  "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }

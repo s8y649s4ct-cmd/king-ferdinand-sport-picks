@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """KFSP build: fetch ESPN + FanDuel public JSON, build per-game best legs, parlays 1-27,
 lines/history/stats. Idempotent; slow fetches cached (FanDuel 4 min, geocode/boxscores forever)."""
-import json,os,re,time,datetime,unicodedata,urllib.request,urllib.parse
+import json,os,re,time,math,datetime,unicodedata,urllib.request,urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 UTC=datetime.timezone.utc; now=datetime.datetime.now(UTC); NOW=now.strftime('%Y-%m-%d %H:%M UTC')
 cfg=json.load(open('legs.json')); notes=json.load(open('notes.json'))
@@ -44,7 +44,13 @@ def parse(e,lg):
     for t in c['competitors']:
       m=ml.get(t['homeAway']) or {}
       g['teams'][t['homeAway']]={'name':t['team']['displayName'],'short':t['team'].get('shortDisplayName',''),'score':t.get('score'),'winner':t.get('winner'),
-        'record':(t.get('records') or [{}])[0].get('summary'),'ml_open':(m.get('open') or {}).get('odds'),'ml':(m.get('close') or {}).get('odds')}
+        'record':(t.get('records') or [{}])[0].get('summary'),'ml_open':(m.get('open') or {}).get('odds'),'ml':(m.get('close') or {}).get('odds'),
+        'tid':t['team'].get('id'),'abbr':t['team'].get('abbreviation'),
+        'home_rec':next((r.get('summary') for r in t.get('records') or [] if r.get('type')=='home'),None),'road_rec':next((r.get('summary') for r in t.get('records') or [] if r.get('type') in('road','away')),None)}
+    try:  # ESPN/DraftKings home spread from details like "PIT -3"
+      ab,v=o['details'].rsplit(' ',1); v=float(v)
+      if g['sport'] in('nfl','college-football','nba'): g['espn_hs']=v if ab==g['teams']['home']['abbr'] else -v if ab==g['teams']['away']['abbr'] else None
+    except Exception: pass
     return g
 games=[]
 for lg,sp in SPORTS.items():
@@ -87,6 +93,26 @@ for g in games:
 def fdpage(g): return get(f"{FD}event-page?_ak={K}&eventId={g['fd']['id']}&tab=popular",ttl=240) if g['fd'] else None
 with ThreadPoolExecutor(12) as ex: pagesd=dict(zip([g['id'] for g in games],ex.map(fdpage,games)))
 print('games',len(games),'fd matched',sum(1 for g in games if g['fd']))
+# ---------- weather + research context ----------
+wxc=load('.cache/geo.json',{}); wx=[]; wxs={}
+for g in games:
+  if g['indoor']: continue
+  ew=g['espn_wx']
+  if ew: wx.append({'g':g['name'],'w':f"{ew['displayValue']}, {ew['temperature']}F",'src':'ESPN/AccuWeather'})
+  city=g['city'].get('city')
+  if not city: continue
+  if city not in wxc:
+    r=get('https://geocoding-api.open-meteo.com/v1/search?count=1&name='+urllib.parse.quote(city)); wxc[city]=(r.get('results') or [None])[0] if r else None
+  loc=wxc[city]
+  if not loc: continue
+  f=get(f"https://api.open-meteo.com/v1/forecast?latitude={loc['latitude']}&longitude={loc['longitude']}&hourly=temperature_2m,precipitation_probability,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=2",ttl=1800)
+  try:
+    i=f['hourly']['time'].index(g['start'][:13]+':00'); wxs[g['name']]={'wind':f['hourly']['wind_speed_10m'][i],'rain':f['hourly']['precipitation_probability'][i]}
+    if not ew: wx.append({'g':g['name'],'w':f"{f['hourly']['temperature_2m'][i]}F, wind {f['hourly']['wind_speed_10m'][i]} mph, rain {f['hourly']['precipitation_probability'][i]}%",'src':'open-meteo'})
+  except Exception: pass
+import research
+CTX=research.build_ctx(games,get,SPORTS,wxc,wxs)
+json.dump(wxc,open('.cache/geo.json','w'))
 # ---------- candidate legs ----------
 PROP_VIG=1.07; ALT_VIG=1.045
 def side_of(g,txt):
@@ -96,7 +122,7 @@ def side_of(g,txt):
 def num(s):
   m=re.search(r'([+-]?\d+(?:\.\d+)?)\)?\s*(?:goals?)?\s*$',s,re.I); return float(m.group(1)) if m else None
 models=cfg['models']
-SD={'nba':(12.0,17.0),'college-football':(15.0,14.0),'nfl':(13.5,13.0)}
+SD={'nba':(12.0,17.0),'college-football':(15.0,14.0),'nfl':(13.5,13.0),'nhl':(2.6,2.4)}  # NHL wide: one goal decides puck lines
 from math import erf,sqrt
 def ncdf(x): return 0.5*(1+erf(x/sqrt(2)))
 MAIN={}
@@ -167,6 +193,15 @@ for g in games:
       if L['kind']=='ml' and tn in models: w=cfg['model_weight']; q=(1-w)*q+w*models[tn]['prob']; L['model']=models[tn]['prob']; L['why_model']=models[tn]['why']
       L['market_prob']=round(sum(parts)/len(parts),4); L['prob']=round(q,4)
       cands.append(L)
+# ---------- research adjustments (modest, capped -6..+2 pts) ----------
+LF=load('lines.first.json',{}); 
+if LF.get('date')!=DATE: LF={'date':DATE,'odds':{}}
+for L in cands: LF['odds'].setdefault(L['id'],L['odds'])
+json.dump(LF,open('lines.first.json','w'))
+for L in cands:
+  dlt,R=research.adjust(L,G[L['event']],CTX.get(L['event']),MAIN.get(L['event'],{}),LF['odds'],imp)
+  L['pre_research']=L['prob']; L['research']=R; L['research_adj']=round(dlt,4)
+  L['prob']=round(max(0.01,min(0.99,L['prob']+dlt)),4)
 # ---------- calibration ----------
 hist=load('picks.history.json',[]); hist=hist if isinstance(hist,list) and (not hist or 'legs_detail' in hist[0]) else []
 stats=load('stats.json',{})
@@ -183,12 +218,41 @@ for L in cands:
 pool=sorted([L for L in best.values() if G[L['event']]['state']=='pre'],key=lambda L:-L['prob'])
 started=[L for L in best.values() if G[L['event']]['state']!='pre']
 def dec(o): return 1+(o/100 if o>0 else 100/-o)
-pars=[];P=1;D=1
-for n in range(1,min(27,len(pool))+1):
-  P*=pool[n-1]['prob']; D*=dec(pool[n-1]['odds'])
-  pars.append({'n':n,'legs':[x['id'] for x in pool[:n]],'est_prob':round(P,5),'fd_payout_x':round(D,2),'ev':round(P*D-1,3)})
+# Ladder: each size built separately, spreading legs so one loss can't sink every ticket.
+# Greedy from 1 leg up: unused games first (best leg), then least-used games; prefer a different market than before;
+# per-game cap; never two legs from one game in a ticket.
+byg={}
+for L in cands:
+  if G[L['event']]['state']=='pre': byg.setdefault(L['event'],[]).append(L)
+for v in byg.values(): v.sort(key=lambda L:-L['prob'])
+NG=len(byg); NMAX=min(27,NG); CAP=max(1,math.ceil(sum(range(1,NMAX+1))/max(NG,1)))+1
+guse={}; luse={}; pars=[]
+for n in range(1,NMAX+1):
+  opts=[]
+  for e,ls in byg.items():
+    if guse.get(e,0)>=CAP: continue
+    L=max([x for x in ls[:6] if x['prob']>=ls[0]['prob']-0.05],key=lambda L:L['prob']-0.04*luse.get(L['id'],0))
+    opts.append((L['prob']-0.15*guse.get(e,0)-0.04*luse.get(L['id'],0),L))
+  if len(opts)<n:  # relax cap
+    opts=[(ls[0]['prob']-0.15*guse.get(e,0),ls[0]) for e,ls in byg.items()]
+  sel=[L for _,L in sorted(opts,key=lambda t:-t[0])[:n]]
+  for L in sel: guse[L['event']]=guse.get(L['event'],0)+1; luse[L['id']]=luse.get(L['id'],0)+1
+  sel.sort(key=lambda L:-L['prob'])
+  P=math.prod(L['prob'] for L in sel); D=math.prod(dec(L['odds']) for L in sel)
+  pars.append({'n':n,'legs':[x['id'] for x in sel],'est_prob':round(P,5),'fd_payout_x':round(D,2),'ev':round(P*D-1,3)})
+for p in pars:
+  p['shared_legs']=sum(1 for i in p['legs'] if luse[i]>1); p['shared_games']=sum(1 for i in p['legs'] if guse[i.split(':')[0]]>1)
+ladlegs={i:L for v in byg.values() for L in v for i in [L['id']] if i in luse}
+ladder_stats={'tickets':len(pars),'leg_slots':sum(luse.values()),'unique_legs':len(luse),'unique_games':len(guse),'games_available':NG,
+  'max_leg_reuse':max(luse.values(),default=0),'max_game_reuse':max(guse.values(),default=0),'game_cap':CAP,
+  'disjoint_up_to':0}
+_seen=set()
+for p in pars:
+  gs={i.split(':')[0] for i in p['legs']}
+  if gs&_seen: break
+  _seen|=gs; ladder_stats['disjoint_up_to']=p['n']
+print('ladder',ladder_stats)
 # Best parlay: per game, highest-prob leg priced -300 or longer (real payout); pick n in 3..6 maximizing prob*ln(payout), payout >= 3.5x
-import math
 BF=cfg.get('best_floor',-300); bb={}
 for L in cands:
   if L['odds']<BF or G[L['event']]['state']!='pre': continue
@@ -240,8 +304,8 @@ for L in cands:
   if k not in eg or (edge(L),L['prob'])>(edge(eg[k]),eg[k]['prob']): eg[k]=L
 e27=sorted(eg.values(),key=lambda L:(-edge(L),-L['prob']))[:27]
 if e27: lot.append(tix(e27,f'{len(e27)}-leg best-edge lottery')); lotlegs.update({L['id']:L for L in e27})
-for L in lotlegs.values():
-  L.setdefault('why',f"FanDuel no-vig {L.get('fd_prob',0)*100:.1f}%"+(f", line model {L['dist_prob']*100:.1f}%" if L.get('dist_prob') is not None else '')+(f", team model {L['model']*100:.1f}%" if L.get('model') is not None else '')+f" -> est. {L['prob']*100:.1f}% (edge {edge(L)*100:+.1f} pts)")
+for L in {**ladlegs,**lotlegs,**bb}.values():
+  L.setdefault('why',f"FanDuel no-vig {L.get('fd_prob',0)*100:.1f}%"+(f", line model {L['dist_prob']*100:.1f}%" if L.get('dist_prob') is not None else '')+(f", team model {L['model']*100:.1f}%" if L.get('model') is not None else '')+f" -> est. {L['prob']*100:.1f}% (edge {edge(L)*100:+.1f} pts)"+(f"; research {L['research_adj']*100:+.1f} pts: "+'; '.join(L['research']) if L.get('research') else ''))
 # ---------- injuries, weather, lines (unchanged logic) ----------
 slate={t['name'] for g in games for t in g['teams'].values()}; inj=list(notes['injuries'])
 for lg in ['nba','nhl']:
@@ -249,20 +313,6 @@ for lg in ['nba','nhl']:
   for t in d.get('injuries',[]):
     if t['displayName'] in slate:
       for i in t['injuries']: inj.append({'team':t['displayName'],'t':f"{i['athlete']['displayName']} - {i['status']}: {i.get('shortComment','')}",'src':'ESPN injuries feed'})
-wxc=load('.cache/geo.json',{}); wx=[]
-for g in games:
-  if g['indoor']: continue
-  if g['espn_wx']: wx.append({'g':g['name'],'w':f"{g['espn_wx']['displayValue']}, {g['espn_wx']['temperature']}F",'src':'ESPN/AccuWeather'}); continue
-  city=g['city'].get('city')
-  if not city: continue
-  if city not in wxc:
-    r=get('https://geocoding-api.open-meteo.com/v1/search?count=1&name='+urllib.parse.quote(city)); wxc[city]=(r.get('results') or [None])[0] if r else None
-  loc=wxc[city]
-  if not loc: continue
-  f=get(f"https://api.open-meteo.com/v1/forecast?latitude={loc['latitude']}&longitude={loc['longitude']}&hourly=temperature_2m,precipitation_probability,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=2",ttl=1800)
-  try: i=f['hourly']['time'].index(g['start'][:13]+':00'); wx.append({'g':g['name'],'w':f"{f['hourly']['temperature_2m'][i]}F, wind {f['hourly']['wind_speed_10m'][i]} mph, rain {f['hourly']['precipitation_probability'][i]}%",'src':'open-meteo'})
-  except Exception: pass
-json.dump(wxc,open('.cache/geo.json','w'))
 lh=load('lines.history.json',[]); snap={'at':NOW,'fd':{L['id']:L['odds'] for L in best.values()},'espn':{g['id']:{t['name']:t['ml'] for t in g['teams'].values()} for g in games}}
 if not lh or lh[-1].get('fd')!=snap['fd'] or lh[-1].get('espn')!=snap['espn']: lh.append(snap)
 lh=lh[-400:]; json.dump(lh,open('lines.history.json','w'))
@@ -350,15 +400,15 @@ bytype={}
 for x in par:
   b=bytype.setdefault(x.get('type','ladder'),{'graded':0,'won':0,'expected':0}); b['graded']+=1; b['won']+=x['result']=='win'; b['expected']=round(b['expected']+x['est_prob'],2)
 stats={'updated':NOW,'graded_legs':len(seen),'calibration':agg(lambda l:bucket(l['prob'])),'by_sport':agg(lambda l:l['sport']),'by_market':agg(lambda l:l['kind']),
- 'parlays':{'graded':len(par),'won':sum(x['result']=='win' for x in par),'expected':round(exp,2),'pending':sum(1 for x in hist if not x['result']),'by_type':bytype,'note':'Ladder tickets are nested (each adds one leg to the last), so one losing leg sinks every larger ticket at once.'},'note':'Calibration factor applied to a probability bucket once it has 30+ graded legs.'}
+ 'parlays':{'graded':len(par),'won':sum(x['result']=='win' for x in par),'expected':round(exp,2),'pending':sum(1 for x in hist if not x['result']),'by_type':bytype,'note':'Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket).'},'note':'Calibration factor applied to a probability bucket once it has 30+ graded legs.'}
 json.dump(stats,open('stats.json','w'),indent=1)
 # ---------- output ----------
 kinds=sorted({L['kind'] for L in cands})
-out={'updated':NOW,'date':DATE,'legs':{**{L['id']:L for L in best.values()},**({i:next(x for x in bpool if x['id']==i) for i in bestp['legs']} if bestp else {}),**lotlegs},'parlays':pars,'lottery':lot,'best':bestp,'started':[L['id'] for L in started],
+out={'updated':NOW,'date':DATE,'ladder_stats':ladder_stats,'legs':{**{L['id']:L for L in best.values()},**ladlegs,**({i:next(x for x in bpool if x['id']==i) for i in bestp['legs']} if bestp else {}),**lotlegs},'parlays':pars,'lottery':lot,'best':bestp,'started':[L['id'] for L in started],
  'games':games,'injuries':inj,'weather':wx,'moves':moves,'stats':stats,'feature':None,
  'note':f"{len(cands)} FanDuel-priced candidates ({', '.join(kinds)}) across {len(best)} games; best single market per game kept (odds {FLOOR} to +{CEIL}); {len(pool)} not-yet-started games -> parlays up to {len(pars)} legs."}
 import feature
-try: out['feature']=feature.build(bestp,out['legs'],games,cands,moves,wx,inj,get,SPORTS)
+try: out['feature']=feature.build(bestp,out['legs'],games,cands,moves,wx,inj,get,SPORTS,CTX)
 except Exception as e: print('feature fail',e)
 for g in out['games']: g.pop('fd',None)
 json.dump(out,open('picks.json','w'),indent=1)
