@@ -5610,8 +5610,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.226,
-  "fd_payout_x": 4.33,
+  "est_prob": 0.2285,
+  "fd_payout_x": 4.29,
   "legs_detail": [
    {
     "id": "401909861:7889101:734.193760612",
@@ -5636,9 +5636,23 @@
     "line": 1.5,
     "pick": "Indiana Pacers +1.5",
     "market": "Alternate Spread",
-    "odds": -290,
-    "prob": 0.7475,
+    "odds": -300,
+    "prob": 0.7505,
     "game": "Indiana Pacers at Brooklyn Nets",
+    "result": null
+   },
+   {
+    "id": "401909864:7695584:734.193761336",
+    "event": "401909864",
+    "sport": "nba",
+    "kind": "total",
+    "line": 244.5,
+    "ou": "under",
+    "pick": "Under 244.5",
+    "market": "Alternate Total Points",
+    "odds": -300,
+    "prob": 0.7438,
+    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -5656,20 +5670,6 @@
     "result": null
    },
    {
-    "id": "401909864:7695584:734.193761336",
-    "event": "401909864",
-    "sport": "nba",
-    "kind": "total",
-    "line": 244.5,
-    "ou": "under",
-    "pick": "Under 244.5",
-    "market": "Alternate Total Points",
-    "odds": -300,
-    "prob": 0.7388,
-    "game": "Toronto Raptors at Minnesota Timberwolves",
-    "result": null
-   },
-   {
     "id": "401909866:7888498:734.193760739",
     "event": "401909866",
     "sport": "nba",
@@ -5684,7 +5684,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -5693,35 +5693,8 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.9808,
-  "fd_payout_x": 1.11,
-  "legs_detail": [
-   {
-    "id": "401909862:7883521:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 9.5,
-    "pick": "Indiana Pacers +9.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9808,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   }
-  ],
-  "logged": "2026-10-25 06:18 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-2",
-  "date": "2026-10-25",
-  "type": "ladder",
-  "n": 2,
-  "est_prob": 0.95199,
-  "fd_payout_x": 1.22,
+  "est_prob": 0.976,
+  "fd_payout_x": 1.1,
   "legs_detail": [
    {
     "id": "401909861:7884437:734.193760612",
@@ -5736,7 +5709,20 @@
     "prob": 0.976,
     "game": "Los Angeles Lakers at Utah Jazz",
     "result": null
-   },
+   }
+  ],
+  "logged": "2026-10-25 06:31 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-2",
+  "date": "2026-10-25",
+  "type": "ladder",
+  "n": 2,
+  "est_prob": 0.94984,
+  "fd_payout_x": 1.22,
+  "legs_detail": [
    {
     "id": "401909864:7891270:734.193761328",
     "event": "401909864",
@@ -5750,9 +5736,23 @@
     "prob": 0.9754,
     "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
+   },
+   {
+    "id": "401909862:7883426:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 8.5,
+    "pick": "Indiana Pacers +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9738,
+    "game": "Indiana Pacers at Brooklyn Nets",
+    "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -5807,7 +5807,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -5876,7 +5876,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -5959,7 +5959,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6055,7 +6055,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6164,7 +6164,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6173,23 +6173,9 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 8,
-  "est_prob": 0.39586,
-  "fd_payout_x": 2.55,
+  "est_prob": 0.3325,
+  "fd_payout_x": 2.67,
   "legs_detail": [
-   {
-    "id": "401909862:7883426:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Indiana Pacers +8.5",
-    "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.9685,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
    {
     "id": "401909867:7890684:734.193760395",
     "event": "401909867",
@@ -6286,9 +6272,23 @@
     "prob": 0.818,
     "game": "Real Betis at Celta Vigo",
     "result": null
+   },
+   {
+    "id": "401878766:1222347:734.190978877",
+    "event": "401878766",
+    "sport": "eng.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -590,
+    "prob": 0.8135,
+    "game": "Brentford at Hull City",
+    "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6297,8 +6297,8 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.34383,
-  "fd_payout_x": 3.15,
+  "est_prob": 0.40592,
+  "fd_payout_x": 2.97,
   "legs_detail": [
    {
     "id": "401909864:7891258:734.193761328",
@@ -6326,6 +6326,20 @@
     "odds": -1000,
     "prob": 0.9611,
     "game": "Orlando Magic at New York Knicks",
+    "result": null
+   },
+   {
+    "id": "401909862:7711063:734.193760941",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "total",
+    "line": 211.5,
+    "ou": "over",
+    "pick": "Over 211.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9604,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -6371,20 +6385,6 @@
     "result": null
    },
    {
-    "id": "401878766:1222347:734.190978877",
-    "event": "401878766",
-    "sport": "eng.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -590,
-    "prob": 0.8135,
-    "game": "Brentford at Hull City",
-    "result": null
-   },
-   {
     "id": "401882832:18345386:734.191107738",
     "event": "401882832",
     "sport": "esp.1",
@@ -6426,7 +6426,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6579,7 +6579,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6741,7 +6741,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6750,7 +6750,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 12,
-  "est_prob": 0.25012,
+  "est_prob": 0.25155,
   "fd_payout_x": 4.32,
   "legs_detail": [
    {
@@ -6765,6 +6765,20 @@
     "odds": -900,
     "prob": 0.9618,
     "game": "Los Angeles Lakers at Utah Jazz",
+    "result": null
+   },
+   {
+    "id": "401909864:7792066:734.193761336",
+    "event": "401909864",
+    "sport": "nba",
+    "kind": "total",
+    "line": 253.5,
+    "ou": "under",
+    "pick": "Under 253.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9618,
+    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -6820,20 +6834,6 @@
     "odds": -1000,
     "prob": 0.9567,
     "game": "LA Clippers at Oklahoma City Thunder",
-    "result": null
-   },
-   {
-    "id": "401909864:7792066:734.193761336",
-    "event": "401909864",
-    "sport": "nba",
-    "kind": "total",
-    "line": 253.5,
-    "ou": "under",
-    "pick": "Under 253.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9563,
-    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -6918,7 +6918,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -6927,7 +6927,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 13,
-  "est_prob": 0.08858,
+  "est_prob": 0.08903,
   "fd_payout_x": 7.5,
   "legs_detail": [
    {
@@ -7064,7 +7064,7 @@
     "pick": "Brentford And Draw",
     "market": "Double Chance",
     "odds": -600,
-    "prob": 0.7892,
+    "prob": 0.7932,
     "game": "Brentford at Hull City",
     "result": null
    },
@@ -7110,7 +7110,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -7317,7 +7317,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -7326,8 +7326,8 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 15,
-  "est_prob": 0.09358,
-  "fd_payout_x": 9.91,
+  "est_prob": 0.09374,
+  "fd_payout_x": 10.21,
   "legs_detail": [
    {
     "id": "401909861:7889011:734.193760612",
@@ -7358,6 +7358,20 @@
     "result": null
    },
    {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
+    "result": null
+   },
+   {
     "id": "401909865:7711074:734.193761057",
     "event": "401909865",
     "sport": "nba",
@@ -7369,20 +7383,6 @@
     "odds": -1000,
     "prob": 0.9537,
     "game": "LA Clippers at Oklahoma City Thunder",
-    "result": null
-   },
-   {
-    "id": "401909864:7733132:734.193761336",
-    "event": "401909864",
-    "sport": "nba",
-    "kind": "total",
-    "line": 212.5,
-    "ou": "over",
-    "pick": "Over 212.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.9526,
-    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -7400,17 +7400,17 @@
     "result": null
    },
    {
-    "id": "401909862:7913666:734.193760975",
-    "event": "401909862",
+    "id": "401909864:7913250:734.193761328",
+    "event": "401909864",
     "sport": "nba",
     "kind": "spread",
-    "side": "home",
-    "line": 22.5,
-    "pick": "Brooklyn Nets +22.5",
+    "side": "away",
+    "line": 15.5,
+    "pick": "Toronto Raptors +15.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9516,
-    "game": "Indiana Pacers at Brooklyn Nets",
+    "odds": -950,
+    "prob": 0.9515,
+    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -7534,7 +7534,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -7768,7 +7768,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -8014,7 +8014,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -8023,7 +8023,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 18,
-  "est_prob": 0.15481,
+  "est_prob": 0.15376,
   "fd_payout_x": 7.69,
   "legs_detail": [
    {
@@ -8069,20 +8069,6 @@
     "result": null
    },
    {
-    "id": "401909864:7913250:734.193761328",
-    "event": "401909864",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 15.5,
-    "pick": "Toronto Raptors +15.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9515,
-    "game": "Toronto Raptors at Minnesota Timberwolves",
-    "result": null
-   },
-   {
     "id": "401909861:7711020:734.193760593",
     "event": "401909861",
     "sport": "nba",
@@ -8111,20 +8097,6 @@
     "result": null
    },
    {
-    "id": "401909862:7733132:734.193760941",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "total",
-    "line": 212.5,
-    "ou": "over",
-    "pick": "Over 212.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.949,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
-   {
     "id": "401873013:12197174:734.192671629",
     "event": "401873013",
     "sport": "nfl",
@@ -8136,6 +8108,34 @@
     "odds": -1000,
     "prob": 0.9488,
     "game": "Cleveland Browns at Tennessee Titans",
+    "result": null
+   },
+   {
+    "id": "401909864:7733132:734.193761336",
+    "event": "401909864",
+    "sport": "nba",
+    "kind": "total",
+    "line": 212.5,
+    "ou": "over",
+    "pick": "Over 212.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.9471,
+    "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7913666:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 22.5,
+    "pick": "Brooklyn Nets +22.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.9469,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -8273,7 +8273,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -8282,7 +8282,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 19,
-  "est_prob": 0.04677,
+  "est_prob": 0.047,
   "fd_payout_x": 15.92,
   "legs_detail": [
    {
@@ -8475,7 +8475,7 @@
     "pick": "Brentford And Draw",
     "market": "Double Chance",
     "odds": -600,
-    "prob": 0.7892,
+    "prob": 0.7932,
     "game": "Brentford at Hull City",
     "result": null
    },
@@ -8549,7 +8549,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -8558,8 +8558,8 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 20,
-  "est_prob": 0.01553,
-  "fd_payout_x": 50.97,
+  "est_prob": 0.0156,
+  "fd_payout_x": 48.69,
   "legs_detail": [
    {
     "id": "401873012:12197194:734.192671954",
@@ -8618,6 +8618,20 @@
     "result": null
    },
    {
+    "id": "401909864:7807551:734.193761336",
+    "event": "401909864",
+    "sport": "nba",
+    "kind": "total",
+    "line": 252.5,
+    "ou": "under",
+    "pick": "Under 252.5",
+    "market": "Alternate Total Points",
+    "odds": -750,
+    "prob": 0.9466,
+    "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
     "id": "401909867:7913403:734.193760395",
     "event": "401909867",
     "sport": "nba",
@@ -8632,16 +8646,16 @@
     "result": null
    },
    {
-    "id": "401909862:7883433:734.193760975",
+    "id": "401909862:7733132:734.193760941",
     "event": "401909862",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
+    "kind": "total",
+    "line": 212.5,
+    "ou": "over",
+    "pick": "Over 212.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.9462,
     "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
@@ -8671,20 +8685,6 @@
     "odds": -900,
     "prob": 0.9436,
     "game": "LA Clippers at Oklahoma City Thunder",
-    "result": null
-   },
-   {
-    "id": "401909864:7891235:734.193761328",
-    "event": "401909864",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 13.5,
-    "pick": "Minnesota Timberwolves +13.5",
-    "market": "Alternate Spread",
-    "odds": -670,
-    "prob": 0.9424,
-    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -8838,7 +8838,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -9140,7 +9140,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -9149,23 +9149,9 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 22,
-  "est_prob": 0.0174,
+  "est_prob": 0.01728,
   "fd_payout_x": 45.64,
   "legs_detail": [
-   {
-    "id": "401909862:7883521:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 9.5,
-    "pick": "Indiana Pacers +9.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9808,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
    {
     "id": "401909861:7884437:734.193760612",
     "event": "401909861",
@@ -9192,6 +9178,20 @@
     "odds": -950,
     "prob": 0.9754,
     "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7883426:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 8.5,
+    "pick": "Indiana Pacers +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9738,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -9456,7 +9456,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -9465,7 +9465,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 23,
-  "est_prob": 0.01708,
+  "est_prob": 0.01716,
   "fd_payout_x": 29.65,
   "legs_detail": [
    {
@@ -9695,7 +9695,7 @@
     "pick": "Brentford And Draw",
     "market": "Double Chance",
     "odds": -600,
-    "prob": 0.7892,
+    "prob": 0.7932,
     "game": "Brentford at Hull City",
     "result": null
    },
@@ -9784,7 +9784,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -9793,23 +9793,9 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 24,
-  "est_prob": 0.02006,
-  "fd_payout_x": 45.97,
+  "est_prob": 0.01989,
+  "fd_payout_x": 45.24,
   "legs_detail": [
-   {
-    "id": "401909862:7883426:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Indiana Pacers +8.5",
-    "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.9685,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
    {
     "id": "401909867:7890684:734.193760395",
     "event": "401909867",
@@ -9878,6 +9864,20 @@
     "odds": -1000,
     "prob": 0.9611,
     "game": "Orlando Magic at New York Knicks",
+    "result": null
+   },
+   {
+    "id": "401909862:7711063:734.193760941",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "total",
+    "line": 211.5,
+    "ou": "over",
+    "pick": "Over 211.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9604,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -10125,7 +10125,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -10483,7 +10483,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -10492,7 +10492,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 26,
-  "est_prob": 0.01085,
+  "est_prob": 0.01091,
   "fd_payout_x": 72.48,
   "legs_detail": [
    {
@@ -10507,6 +10507,20 @@
     "odds": -900,
     "prob": 0.9618,
     "game": "Los Angeles Lakers at Utah Jazz",
+    "result": null
+   },
+   {
+    "id": "401909864:7792066:734.193761336",
+    "event": "401909864",
+    "sport": "nba",
+    "kind": "total",
+    "line": 253.5,
+    "ou": "under",
+    "pick": "Under 253.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9618,
+    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -10576,20 +10590,6 @@
     "odds": -1000,
     "prob": 0.9567,
     "game": "LA Clippers at Oklahoma City Thunder",
-    "result": null
-   },
-   {
-    "id": "401909864:7792066:734.193761336",
-    "event": "401909864",
-    "sport": "nba",
-    "kind": "total",
-    "line": 253.5,
-    "ou": "under",
-    "pick": "Under 253.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9563,
-    "game": "Toronto Raptors at Minnesota Timberwolves",
     "result": null
    },
    {
@@ -10854,7 +10854,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -10863,7 +10863,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 27,
-  "est_prob": 0.00756,
+  "est_prob": 0.0076,
   "fd_payout_x": 76.25,
   "legs_detail": [
    {
@@ -11109,7 +11109,7 @@
     "pick": "Brentford And Draw",
     "market": "Double Chance",
     "odds": -600,
-    "prob": 0.7892,
+    "prob": 0.7932,
     "game": "Brentford at Hull City",
     "result": null
    },
@@ -11238,7 +11238,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -11248,8 +11248,8 @@
   "type": "lottery",
   "label": "~1,000,000x",
   "n": 17,
-  "est_prob": 3.2929703937032683e-06,
-  "fd_payout_x": 1050922.62,
+  "est_prob": 3.321511094716234e-06,
+  "fd_payout_x": 1032239.56,
   "legs_detail": [
    {
     "id": "401891807:25598:734.193522821",
@@ -11322,20 +11322,6 @@
     "result": null
    },
    {
-    "id": "401909862:7883433:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
-   {
     "id": "401909864:7891235:734.193761328",
     "event": "401909864",
     "sport": "nba",
@@ -11347,6 +11333,20 @@
     "odds": -670,
     "prob": 0.9424,
     "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -11490,7 +11490,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -11499,9 +11499,9 @@
   "date": "2026-10-25",
   "type": "lottery",
   "label": "~500x",
-  "n": 18,
-  "est_prob": 0.007193112185384236,
-  "fd_payout_x": 507.12,
+  "n": 19,
+  "est_prob": 0.006845522772810737,
+  "fd_payout_x": 547.92,
   "legs_detail": [
    {
     "id": "401891807:25598:734.193522821",
@@ -11518,17 +11518,17 @@
     "result": null
    },
    {
-    "id": "401909862:7883433:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
+    "id": "401873017:12214928:734.192672295",
+    "event": "401873017",
+    "sport": "nfl",
     "kind": "spread",
     "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
+    "line": -8.5,
+    "pick": "San Francisco 49ers (-8.5)",
     "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
-    "game": "Indiana Pacers at Brooklyn Nets",
+    "odds": 280,
+    "prob": 0.3001,
+    "game": "San Francisco 49ers at Atlanta Falcons",
     "result": null
    },
    {
@@ -11543,6 +11543,34 @@
     "odds": -670,
     "prob": 0.9424,
     "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401873012:12213410:734.192671938",
+    "event": "401873012",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": -8.5,
+    "pick": "Cincinnati Bengals (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 265,
+    "prob": 0.3053,
+    "game": "Cincinnati Bengals at Baltimore Ravens",
+    "result": null
+   },
+   {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -11571,286 +11599,6 @@
     "odds": -670,
     "prob": 0.9391,
     "game": "LA Clippers at Oklahoma City Thunder",
-    "result": null
-   },
-   {
-    "id": "401909861:7884317:734.193760612",
-    "event": "401909861",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Los Angeles Lakers +8.5",
-    "market": "Alternate Spread",
-    "odds": -700,
-    "prob": 0.9416,
-    "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null
-   },
-   {
-    "id": "401873017:12214928:734.192672295",
-    "event": "401873017",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": -8.5,
-    "pick": "San Francisco 49ers (-8.5)",
-    "market": "Alternate Spread",
-    "odds": 280,
-    "prob": 0.3001,
-    "game": "San Francisco 49ers at Atlanta Falcons",
-    "result": null
-   },
-   {
-    "id": "401909863:7891221:734.193761216",
-    "event": "401909863",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 22.5,
-    "pick": "Orlando Magic +22.5",
-    "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.9522,
-    "game": "Orlando Magic at New York Knicks",
-    "result": null
-   },
-   {
-    "id": "401873011:12194325:734.192670445",
-    "event": "401873011",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 58.5,
-    "ou": "under",
-    "pick": "Under (58.5)",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.9666,
-    "game": "Pittsburgh Steelers at New Orleans Saints",
-    "result": null
-   },
-   {
-    "id": "401873020:12247072:734.192671061",
-    "event": "401873020",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 70.5,
-    "ou": "under",
-    "pick": "Under (70.5)",
-    "market": "Alternate Total Points",
-    "odds": -800,
-    "prob": 0.9447,
-    "game": "Green Bay Packers at Detroit Lions",
-    "result": null
-   },
-   {
-    "id": "401873018:12197190:734.192672952",
-    "event": "401873018",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 59.5,
-    "ou": "under",
-    "pick": "Under (59.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9477,
-    "game": "Tampa Bay Buccaneers at Carolina Panthers",
-    "result": null
-   },
-   {
-    "id": "401873016:12197186:734.192672381",
-    "event": "401873016",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 57.5,
-    "ou": "under",
-    "pick": "Under (57.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9477,
-    "game": "New York Giants at Houston Texans",
-    "result": null
-   },
-   {
-    "id": "401873021:12197198:734.192671114",
-    "event": "401873021",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 63.5,
-    "ou": "under",
-    "pick": "Under (63.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9477,
-    "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null
-   },
-   {
-    "id": "401873012:12213410:734.192671938",
-    "event": "401873012",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": -8.5,
-    "pick": "Cincinnati Bengals (-8.5)",
-    "market": "Alternate Spread",
-    "odds": 265,
-    "prob": 0.3053,
-    "game": "Cincinnati Bengals at Baltimore Ravens",
-    "result": null
-   },
-   {
-    "id": "401873014:12194321:734.192671449",
-    "event": "401873014",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 56.5,
-    "ou": "under",
-    "pick": "Under (56.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9524,
-    "game": "Indianapolis Colts at Minnesota Vikings",
-    "result": null
-   },
-   {
-    "id": "401873019:12194325:734.192671284",
-    "event": "401873019",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 58.5,
-    "ou": "under",
-    "pick": "Under (58.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9524,
-    "game": "Denver Broncos at Arizona Cardinals",
-    "result": null
-   },
-   {
-    "id": "401873013:12197174:734.192671629",
-    "event": "401873013",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 51.5,
-    "ou": "under",
-    "pick": "Under (51.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9488,
-    "game": "Cleveland Browns at Tennessee Titans",
-    "result": null
-   },
-   {
-    "id": "401892578:25608:734.193522769",
-    "event": "401892578",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Florida Panthers -1.5",
-    "market": "Puck Line",
-    "odds": 132,
-    "prob": 0.4368,
-    "game": "Florida Panthers at Chicago Blackhawks",
-    "result": null
-   }
-  ],
-  "logged": "2026-10-25 06:18 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-lottery-~1,000x",
-  "date": "2026-10-25",
-  "type": "lottery",
-  "label": "~1,000x",
-  "n": 19,
-  "est_prob": 0.003222436514308573,
-  "fd_payout_x": 1096.97,
-  "legs_detail": [
-   {
-    "id": "401891807:25598:734.193522821",
-    "event": "401891807",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Montreal Canadiens -1.5",
-    "market": "Puck Line",
-    "odds": 210,
-    "prob": 0.3788,
-    "game": "Montreal Canadiens at Winnipeg Jets",
-    "result": null
-   },
-   {
-    "id": "401873017:12214928:734.192672295",
-    "event": "401873017",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": -8.5,
-    "pick": "San Francisco 49ers (-8.5)",
-    "market": "Alternate Spread",
-    "odds": 280,
-    "prob": 0.3001,
-    "game": "San Francisco 49ers at Atlanta Falcons",
-    "result": null
-   },
-   {
-    "id": "401909862:7883433:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
-   {
-    "id": "401909864:7891235:734.193761328",
-    "event": "401909864",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 13.5,
-    "pick": "Minnesota Timberwolves +13.5",
-    "market": "Alternate Spread",
-    "odds": -670,
-    "prob": 0.9424,
-    "game": "Toronto Raptors at Minnesota Timberwolves",
-    "result": null
-   },
-   {
-    "id": "401873012:12213410:734.192671938",
-    "event": "401873012",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": -8.5,
-    "pick": "Cincinnati Bengals (-8.5)",
-    "market": "Alternate Spread",
-    "odds": 265,
-    "prob": 0.3053,
-    "game": "Cincinnati Bengals at Baltimore Ravens",
-    "result": null
-   },
-   {
-    "id": "401909867:7890687:734.193760395",
-    "event": "401909867",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 10.5,
-    "pick": "Memphis Grizzlies +10.5",
-    "market": "Alternate Spread",
-    "odds": -700,
-    "prob": 0.9449,
-    "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null
    },
    {
@@ -12020,49 +11768,21 @@
     "prob": 0.4368,
     "game": "Florida Panthers at Chicago Blackhawks",
     "result": null
-   },
-   {
-    "id": "401892579:25612:734.193522809",
-    "event": "401892579",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Dallas Stars -1.5",
-    "market": "Puck Line",
-    "odds": 126,
-    "prob": 0.4459,
-    "game": "New York Islanders at Dallas Stars",
-    "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
  {
-  "id": "2026-10-25-lottery-~100x",
+  "id": "2026-10-25-lottery-~1,000x",
   "date": "2026-10-25",
   "type": "lottery",
-  "label": "~100x",
-  "n": 21,
-  "est_prob": 0.03151236114768333,
-  "fd_payout_x": 109.18,
+  "label": "~1,000x",
+  "n": 19,
+  "est_prob": 0.0032503658869090695,
+  "fd_payout_x": 1077.47,
   "legs_detail": [
-   {
-    "id": "401909862:7883433:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
    {
     "id": "401891807:25598:734.193522821",
     "event": "401891807",
@@ -12089,6 +11809,300 @@
     "odds": -670,
     "prob": 0.9424,
     "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
+    "result": null
+   },
+   {
+    "id": "401909867:7890687:734.193760395",
+    "event": "401909867",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 10.5,
+    "pick": "Memphis Grizzlies +10.5",
+    "market": "Alternate Spread",
+    "odds": -700,
+    "prob": 0.9449,
+    "game": "Memphis Grizzlies at Sacramento Kings",
+    "result": null
+   },
+   {
+    "id": "401909861:7884317:734.193760612",
+    "event": "401909861",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 8.5,
+    "pick": "Los Angeles Lakers +8.5",
+    "market": "Alternate Spread",
+    "odds": -700,
+    "prob": 0.9416,
+    "game": "Los Angeles Lakers at Utah Jazz",
+    "result": null
+   },
+   {
+    "id": "401873017:12214928:734.192672295",
+    "event": "401873017",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": -8.5,
+    "pick": "San Francisco 49ers (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 280,
+    "prob": 0.3001,
+    "game": "San Francisco 49ers at Atlanta Falcons",
+    "result": null
+   },
+   {
+    "id": "401909863:7891221:734.193761216",
+    "event": "401909863",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 22.5,
+    "pick": "Orlando Magic +22.5",
+    "market": "Alternate Spread",
+    "odds": -800,
+    "prob": 0.9522,
+    "game": "Orlando Magic at New York Knicks",
+    "result": null
+   },
+   {
+    "id": "401873011:12194325:734.192670445",
+    "event": "401873011",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 58.5,
+    "ou": "under",
+    "pick": "Under (58.5)",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.9666,
+    "game": "Pittsburgh Steelers at New Orleans Saints",
+    "result": null
+   },
+   {
+    "id": "401873020:12247072:734.192671061",
+    "event": "401873020",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 70.5,
+    "ou": "under",
+    "pick": "Under (70.5)",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.9447,
+    "game": "Green Bay Packers at Detroit Lions",
+    "result": null
+   },
+   {
+    "id": "401873018:12197190:734.192672952",
+    "event": "401873018",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 59.5,
+    "ou": "under",
+    "pick": "Under (59.5)",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9477,
+    "game": "Tampa Bay Buccaneers at Carolina Panthers",
+    "result": null
+   },
+   {
+    "id": "401873016:12197186:734.192672381",
+    "event": "401873016",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 57.5,
+    "ou": "under",
+    "pick": "Under (57.5)",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9477,
+    "game": "New York Giants at Houston Texans",
+    "result": null
+   },
+   {
+    "id": "401873021:12197198:734.192671114",
+    "event": "401873021",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 63.5,
+    "ou": "under",
+    "pick": "Under (63.5)",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9477,
+    "game": "Los Angeles Rams at Las Vegas Raiders",
+    "result": null
+   },
+   {
+    "id": "401873012:12213410:734.192671938",
+    "event": "401873012",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": -8.5,
+    "pick": "Cincinnati Bengals (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 265,
+    "prob": 0.3053,
+    "game": "Cincinnati Bengals at Baltimore Ravens",
+    "result": null
+   },
+   {
+    "id": "401873014:12194321:734.192671449",
+    "event": "401873014",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 56.5,
+    "ou": "under",
+    "pick": "Under (56.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9524,
+    "game": "Indianapolis Colts at Minnesota Vikings",
+    "result": null
+   },
+   {
+    "id": "401873019:12194325:734.192671284",
+    "event": "401873019",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 58.5,
+    "ou": "under",
+    "pick": "Under (58.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9524,
+    "game": "Denver Broncos at Arizona Cardinals",
+    "result": null
+   },
+   {
+    "id": "401873013:12197174:734.192671629",
+    "event": "401873013",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 51.5,
+    "ou": "under",
+    "pick": "Under (51.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9488,
+    "game": "Cleveland Browns at Tennessee Titans",
+    "result": null
+   },
+   {
+    "id": "401873015:15330693:734.192671841",
+    "event": "401873015",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": 19.5,
+    "pick": "Miami Dolphins (+19.5)",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.9435,
+    "game": "Miami Dolphins at New York Jets",
+    "result": null
+   },
+   {
+    "id": "401892578:25608:734.193522769",
+    "event": "401892578",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Florida Panthers -1.5",
+    "market": "Puck Line",
+    "odds": 132,
+    "prob": 0.4368,
+    "game": "Florida Panthers at Chicago Blackhawks",
+    "result": null
+   },
+   {
+    "id": "401892579:25612:734.193522809",
+    "event": "401892579",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Dallas Stars -1.5",
+    "market": "Puck Line",
+    "odds": 126,
+    "prob": 0.4459,
+    "game": "New York Islanders at Dallas Stars",
+    "result": null
+   }
+  ],
+  "logged": "2026-10-25 06:31 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-lottery-~100x",
+  "date": "2026-10-25",
+  "type": "lottery",
+  "label": "~100x",
+  "n": 21,
+  "est_prob": 0.03178548382119671,
+  "fd_payout_x": 107.24,
+  "legs_detail": [
+   {
+    "id": "401891807:25598:734.193522821",
+    "event": "401891807",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Montreal Canadiens -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3788,
+    "game": "Montreal Canadiens at Winnipeg Jets",
+    "result": null
+   },
+   {
+    "id": "401909864:7891235:734.193761328",
+    "event": "401909864",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 13.5,
+    "pick": "Minnesota Timberwolves +13.5",
+    "market": "Alternate Spread",
+    "odds": -670,
+    "prob": 0.9424,
+    "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -12344,7 +12358,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -12354,23 +12368,9 @@
   "type": "lottery",
   "label": "~25x",
   "n": 22,
-  "est_prob": 0.14771515949115255,
+  "est_prob": 0.1466609118194172,
   "fd_payout_x": 25.53,
   "legs_detail": [
-   {
-    "id": "401909862:7883521:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 9.5,
-    "pick": "Indiana Pacers +9.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9808,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
    {
     "id": "401909864:7891270:734.193761328",
     "event": "401909864",
@@ -12383,6 +12383,20 @@
     "odds": -950,
     "prob": 0.9754,
     "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7883426:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 8.5,
+    "pick": "Indiana Pacers +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9738,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -12665,7 +12679,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -12675,8 +12689,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 23,
-  "est_prob": 3.5995267305019905e-05,
-  "fd_payout_x": 107595.59,
+  "est_prob": 3.630724404310378e-05,
+  "fd_payout_x": 105682.78,
   "legs_detail": [
    {
     "id": "401891807:25598:734.193522821",
@@ -12721,20 +12735,6 @@
     "result": null
    },
    {
-    "id": "401909862:7883433:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
-   {
     "id": "401909864:7891235:734.193761328",
     "event": "401909864",
     "sport": "nba",
@@ -12746,6 +12746,20 @@
     "odds": -670,
     "prob": 0.9424,
     "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -12999,7 +13013,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -13009,8 +13023,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 26,
-  "est_prob": 0.0004199129380920381,
-  "fd_payout_x": 10197.78,
+  "est_prob": 0.0004235523906788202,
+  "fd_payout_x": 10016.48,
   "legs_detail": [
    {
     "id": "401891807:25598:734.193522821",
@@ -13041,20 +13055,6 @@
     "result": null
    },
    {
-    "id": "401909862:7883433:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
-   {
     "id": "401909864:7891235:734.193761328",
     "event": "401909864",
     "sport": "nba",
@@ -13080,6 +13080,20 @@
     "odds": 265,
     "prob": 0.3053,
     "game": "Cincinnati Bengals at Baltimore Ravens",
+    "result": null
+   },
+   {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -13374,7 +13388,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  },
@@ -13384,23 +13398,9 @@
   "type": "lottery",
   "label": "27-leg best-edge lottery",
   "n": 27,
-  "est_prob": 0.007489578871947505,
-  "fd_payout_x": 453.32,
+  "est_prob": 0.007554492249761658,
+  "fd_payout_x": 445.27,
   "legs_detail": [
-   {
-    "id": "401909862:7883433:734.193760975",
-    "event": "401909862",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Indiana Pacers +7.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9461,
-    "game": "Indiana Pacers at Brooklyn Nets",
-    "result": null
-   },
    {
     "id": "401909864:7891270:734.193761328",
     "event": "401909864",
@@ -13413,6 +13413,20 @@
     "odds": -950,
     "prob": 0.9754,
     "game": "Toronto Raptors at Minnesota Timberwolves",
+    "result": null
+   },
+   {
+    "id": "401909862:7883433:734.193760975",
+    "event": "401909862",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9543,
+    "game": "Indiana Pacers at Brooklyn Nets",
     "result": null
    },
    {
@@ -13762,7 +13776,7 @@
     "result": null
    }
   ],
-  "logged": "2026-10-25 06:18 UTC",
+  "logged": "2026-10-25 06:31 UTC",
   "locked": false,
   "result": null
  }
