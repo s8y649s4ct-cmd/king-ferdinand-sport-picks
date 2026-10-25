@@ -5610,8 +5610,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.1588,
-  "fd_payout_x": 4.91,
+  "est_prob": 0.1973,
+  "fd_payout_x": 4.75,
   "legs_detail": [
    {
     "id": "401909867:7890749:742.193756853",
@@ -5622,40 +5622,26 @@
     "line": 5.5,
     "pick": "Memphis Grizzlies +5.5",
     "market": "Alternate Spread",
-    "odds": -280,
-    "prob": 0.7392,
+    "odds": -290,
+    "prob": 0.7966,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -280
+    "close_odds": -290
    },
    {
-    "id": "401873022:12194328:742.192667308",
+    "id": "401873022:12352152:742.192667331",
     "event": "401873022",
     "sport": "nfl",
-    "kind": "total",
-    "line": 36.5,
-    "ou": "over",
-    "pick": "Over (36.5)",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7048,
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Kansas City Chiefs (+7.5)",
+    "market": "Alternate Spread",
+    "odds": -280,
+    "prob": 0.7475,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -295
-   },
-   {
-    "id": "401892580:25602:742.193519370",
-    "event": "401892580",
-    "sport": "nhl",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Colorado Avalanche",
-    "market": "Moneyline",
-    "odds": -245,
-    "prob": 0.6956,
-    "game": "Colorado Avalanche at Nashville Predators",
-    "result": null,
-    "close_odds": -245
+    "close_odds": -280
    },
    {
     "id": "401892581:8359780:742.193790372",
@@ -5667,10 +5653,25 @@
     "pick": "Under 7.5",
     "market": "Alternate Total Goals",
     "odds": -290,
-    "prob": 0.6716,
+    "prob": 0.7116,
     "game": "Minnesota Wild at Vancouver Canucks",
     "result": null,
     "close_odds": -290
+   },
+   {
+    "id": "401892580:8359780:742.193788879",
+    "event": "401892580",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 7.5,
+    "ou": "under",
+    "pick": "Under 7.5",
+    "market": "Alternate Total Goals",
+    "odds": -280,
+    "prob": 0.6976,
+    "game": "Colorado Avalanche at Nashville Predators",
+    "result": null,
+    "close_odds": -280
    },
    {
     "id": "761904:47973:742.192524687",
@@ -5682,13 +5683,13 @@
     "pick": "Over 2.5 Goals",
     "market": "Over/Under 2.5 Goals",
     "odds": -235,
-    "prob": 0.6524,
+    "prob": 0.6674,
     "game": "LA Galaxy at LAFC",
     "result": null,
     "close_odds": -235
    }
   ],
-  "logged": "2026-10-25 23:34 UTC",
+  "logged": "2026-10-25 23:48 UTC",
   "locked": false,
   "result": null
  },
@@ -5697,7 +5698,7 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.9658,
+  "est_prob": 0.9188,
   "fd_payout_x": 1.11,
   "legs_detail": [
    {
@@ -5709,14 +5710,14 @@
     "line": 12.5,
     "pick": "Memphis Grizzlies +12.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.9658,
+    "odds": -950,
+    "prob": 0.9188,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    }
   ],
-  "logged": "2026-10-25 23:34 UTC",
+  "logged": "2026-10-25 23:48 UTC",
   "locked": false,
   "result": null
  },
@@ -5725,41 +5726,41 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.88754,
-  "fd_payout_x": 1.25,
+  "est_prob": 0.77366,
+  "fd_payout_x": 1.23,
   "legs_detail": [
    {
-    "id": "401892580:7000403:742.193788897",
-    "event": "401892580",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Colorado Avalanche +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -800,
-    "prob": 0.9457,
-    "game": "Colorado Avalanche at Nashville Predators",
-    "result": null,
-    "close_odds": -800
-   },
-   {
-    "id": "401873022:12197186:742.192667308",
+    "id": "401873022:15742636:742.192667331",
     "event": "401873022",
     "sport": "nfl",
-    "kind": "total",
-    "line": 57.5,
-    "ou": "under",
-    "pick": "Under (57.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9385,
+    "kind": "spread",
+    "side": "away",
+    "line": 16.5,
+    "pick": "Kansas City Chiefs (+16.5)",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.9088,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -900
+    "close_odds": -1000
+   },
+   {
+    "id": "761904:1221386:742.192524662",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -850,
+    "prob": 0.8513,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": -850
    }
   ],
-  "logged": "2026-10-25 23:34 UTC",
+  "logged": "2026-10-25 23:48 UTC",
   "locked": false,
   "result": null
  },
@@ -5768,81 +5769,23 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 3,
-  "est_prob": 0.65869,
-  "fd_payout_x": 1.43,
+  "est_prob": 0.63866,
+  "fd_payout_x": 1.5,
   "legs_detail": [
    {
-    "id": "401909867:7889755:742.193756903",
+    "id": "401909867:7890684:742.193756853",
     "event": "401909867",
     "sport": "nba",
-    "kind": "total",
-    "line": 256.5,
-    "ou": "under",
-    "pick": "Under 256.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.9644,
-    "game": "Memphis Grizzlies at Sacramento Kings",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "761904:1221386:742.192524662",
-    "event": "761904",
-    "sport": "usa.1",
-    "kind": "total",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -850,
-    "prob": 0.8363,
-    "game": "LA Galaxy at LAFC",
-    "result": null,
-    "close_odds": -850
-   },
-   {
-    "id": "401892581:7000410:742.193790423",
-    "event": "401892581",
-    "sport": "nhl",
     "kind": "spread",
     "side": "away",
-    "line": 1.5,
-    "pick": "Minnesota Wild +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -650,
-    "prob": 0.8167,
-    "game": "Minnesota Wild at Vancouver Canucks",
-    "result": null,
-    "close_odds": -650
-   }
-  ],
-  "logged": "2026-10-25 23:34 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-4",
-  "date": "2026-10-25",
-  "type": "ladder",
-  "n": 4,
-  "est_prob": 0.71396,
-  "fd_payout_x": 1.52,
-  "legs_detail": [
-   {
-    "id": "401909867:7913403:742.193756853",
-    "event": "401909867",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 18.5,
-    "pick": "Sacramento Kings +18.5",
+    "line": 11.5,
+    "pick": "Memphis Grizzlies +11.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9626,
+    "odds": -800,
+    "prob": 0.9058,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    },
    {
     "id": "401892580:7000403:742.193788897",
@@ -5854,112 +5797,10 @@
     "pick": "Colorado Avalanche +1.5",
     "market": "Alternate Puck Line",
     "odds": -800,
-    "prob": 0.9457,
+    "prob": 0.8442,
     "game": "Colorado Avalanche at Nashville Predators",
     "result": null,
     "close_odds": -800
-   },
-   {
-    "id": "401873022:12197201:742.192667308",
-    "event": "401873022",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 29.5,
-    "ou": "over",
-    "pick": "Over (29.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9378,
-    "game": "Kansas City Chiefs at Seattle Seahawks",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "761904:1221386:742.192524662",
-    "event": "761904",
-    "sport": "usa.1",
-    "kind": "total",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -850,
-    "prob": 0.8363,
-    "game": "LA Galaxy at LAFC",
-    "result": null,
-    "close_odds": -850
-   }
-  ],
-  "logged": "2026-10-25 23:34 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-5",
-  "date": "2026-10-25",
-  "type": "ladder",
-  "n": 5,
-  "est_prob": 0.52543,
-  "fd_payout_x": 1.91,
-  "legs_detail": [
-   {
-    "id": "401909867:7711347:742.193756903",
-    "event": "401909867",
-    "sport": "nba",
-    "kind": "total",
-    "line": 214.5,
-    "ou": "over",
-    "pick": "Over 214.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9508,
-    "game": "Memphis Grizzlies at Sacramento Kings",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401892580:7000403:742.193788897",
-    "event": "401892580",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Colorado Avalanche +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -800,
-    "prob": 0.9457,
-    "game": "Colorado Avalanche at Nashville Predators",
-    "result": null,
-    "close_odds": -800
-   },
-   {
-    "id": "401873022:12197186:742.192667308",
-    "event": "401873022",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 57.5,
-    "ou": "under",
-    "pick": "Under (57.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9385,
-    "game": "Kansas City Chiefs at Seattle Seahawks",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "761904:17395372:742.192524708",
-    "event": "761904",
-    "sport": "usa.1",
-    "kind": "dc",
-    "side": "home",
-    "pick": "Los Angeles FC And Draw",
-    "market": "Double Chance",
-    "odds": -600,
-    "prob": 0.7952,
-    "game": "LA Galaxy at LAFC",
-    "result": null,
-    "close_odds": -600
    },
    {
     "id": "401892581:8359782:742.193790372",
@@ -5971,13 +5812,173 @@
     "pick": "Under 8.5",
     "market": "Alternate Total Goals",
     "odds": -550,
-    "prob": 0.783,
+    "prob": 0.8352,
     "game": "Minnesota Wild at Vancouver Canucks",
     "result": null,
     "close_odds": -550
    }
   ],
-  "logged": "2026-10-25 23:34 UTC",
+  "logged": "2026-10-25 23:48 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-4",
+  "date": "2026-10-25",
+  "type": "ladder",
+  "n": 4,
+  "est_prob": 0.52035,
+  "fd_payout_x": 1.7,
+  "legs_detail": [
+   {
+    "id": "401873022:14700954:742.192667331",
+    "event": "401873022",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": 15.5,
+    "pick": "Kansas City Chiefs (+15.5)",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.896,
+    "game": "Kansas City Chiefs at Seattle Seahawks",
+    "result": null,
+    "close_odds": -850
+   },
+   {
+    "id": "761904:1221386:742.192524662",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -850,
+    "prob": 0.8513,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": -850
+   },
+   {
+    "id": "401892581:7745163:742.193790423",
+    "event": "401892581",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 3.5,
+    "pick": "Vancouver Canucks +3.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.827,
+    "game": "Minnesota Wild at Vancouver Canucks",
+    "result": null,
+    "close_odds": -650
+   },
+   {
+    "id": "401892580:8359782:742.193788879",
+    "event": "401892580",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -550,
+    "prob": 0.8249,
+    "game": "Colorado Avalanche at Nashville Predators",
+    "result": null,
+    "close_odds": -550
+   }
+  ],
+  "logged": "2026-10-25 23:48 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-5",
+  "date": "2026-10-25",
+  "type": "ladder",
+  "n": 5,
+  "est_prob": 0.44806,
+  "fd_payout_x": 1.9,
+  "legs_detail": [
+   {
+    "id": "401909867:7889755:742.193756903",
+    "event": "401909867",
+    "sport": "nba",
+    "kind": "total",
+    "line": 256.5,
+    "ou": "under",
+    "pick": "Under 256.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8994,
+    "game": "Memphis Grizzlies at Sacramento Kings",
+    "result": null,
+    "close_odds": -900
+   },
+   {
+    "id": "401873022:14700953:742.192667331",
+    "event": "401873022",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": 14.5,
+    "pick": "Kansas City Chiefs (+14.5)",
+    "market": "Alternate Spread",
+    "odds": -770,
+    "prob": 0.882,
+    "game": "Kansas City Chiefs at Seattle Seahawks",
+    "result": null,
+    "close_odds": -770
+   },
+   {
+    "id": "401892580:7000403:742.193788897",
+    "event": "401892580",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Colorado Avalanche +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -800,
+    "prob": 0.8442,
+    "game": "Colorado Avalanche at Nashville Predators",
+    "result": null,
+    "close_odds": -800
+   },
+   {
+    "id": "401892581:7000410:742.193790423",
+    "event": "401892581",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Minnesota Wild +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8258,
+    "game": "Minnesota Wild at Vancouver Canucks",
+    "result": null,
+    "close_odds": -650
+   },
+   {
+    "id": "761904:17395372:742.192524708",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "dc",
+    "side": "home",
+    "pick": "Los Angeles FC And Draw",
+    "market": "Double Chance",
+    "odds": -600,
+    "prob": 0.8102,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": -600
+   }
+  ],
+  "logged": "2026-10-25 23:48 UTC",
   "locked": false,
   "result": null
  },
@@ -6222,7 +6223,7 @@
     "prob": 0.9603,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909866:7914511:742.193757204",
@@ -6547,7 +6548,7 @@
     "prob": 0.9499,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -800
+    "close_odds": -750
    },
    {
     "id": "401909863:7711503:742.193757684",
@@ -6694,7 +6695,7 @@
     "prob": 0.9499,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -800
+    "close_odds": -750
    },
    {
     "id": "401892580:7000403:742.193788897",
@@ -7049,7 +7050,7 @@
     "prob": 0.9658,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909861:7695550:742.193757052",
@@ -7063,7 +7064,7 @@
     "odds": -950,
     "prob": 0.9647,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -7257,7 +7258,7 @@
     "prob": 0.9658,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909861:7695550:742.193757052",
@@ -7271,7 +7272,7 @@
     "odds": -950,
     "prob": 0.9647,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -7331,7 +7332,7 @@
     "odds": -950,
     "prob": 0.9529,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -7392,7 +7393,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "761904:1221386:742.192524662",
@@ -7495,7 +7496,7 @@
     "prob": 0.9626,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909861:7711020:742.193757052",
@@ -7509,7 +7510,7 @@
     "odds": -1000,
     "prob": 0.9611,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -7599,7 +7600,7 @@
     "odds": -1000,
     "prob": 0.9378,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -7630,7 +7631,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "761904:17395372:742.192524708",
@@ -7732,7 +7733,7 @@
     "prob": 0.9626,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909861:7711020:742.193757052",
@@ -7746,7 +7747,7 @@
     "odds": -1000,
     "prob": 0.9611,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -7867,7 +7868,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401873021:12197198:742.192667583",
@@ -7881,7 +7882,7 @@
     "odds": -770,
     "prob": 0.9344,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -800
    },
    {
@@ -7955,7 +7956,7 @@
     "prob": 0.9618,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909861:7889011:742.193757079",
@@ -7969,7 +7970,7 @@
     "odds": -800,
     "prob": 0.9601,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -800
    },
    {
@@ -8014,7 +8015,7 @@
     "odds": -900,
     "prob": 0.9559,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -8135,7 +8136,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "761904:1221386:742.192524662",
@@ -8223,7 +8224,7 @@
     "prob": 0.9626,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909863:7711983:742.193757684",
@@ -8252,7 +8253,7 @@
     "odds": -900,
     "prob": 0.9559,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -8282,7 +8283,7 @@
     "odds": -850,
     "prob": 0.9529,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -720
    },
    {
@@ -8403,7 +8404,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401882832:18345386:742.191104186",
@@ -8577,7 +8578,7 @@
     "odds": -950,
     "prob": 0.9515,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -8652,7 +8653,7 @@
     "odds": -900,
     "prob": 0.9385,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -8683,7 +8684,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401874779:1222347:742.192404176",
@@ -8845,7 +8846,7 @@
     "prob": 0.9522,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -750
+    "close_odds": -800
    },
    {
     "id": "401909861:7711020:742.193757052",
@@ -8859,7 +8860,7 @@
     "odds": -900,
     "prob": 0.9508,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -8934,7 +8935,7 @@
     "odds": -900,
     "prob": 0.9477,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -800
    },
    {
@@ -9171,7 +9172,7 @@
     "prob": 0.9603,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909865:7890532:742.193757556",
@@ -9200,7 +9201,7 @@
     "odds": -750,
     "prob": 0.9567,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -800
    },
    {
@@ -9290,7 +9291,7 @@
     "odds": -850,
     "prob": 0.9359,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -9555,7 +9556,7 @@
     "odds": -850,
     "prob": 0.9529,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -720
    },
    {
@@ -9585,7 +9586,7 @@
     "odds": -1000,
     "prob": 0.9524,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -9838,7 +9839,7 @@
     "prob": 0.9522,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -750
+    "close_odds": -800
    },
    {
     "id": "401909861:7711020:742.193757052",
@@ -10018,7 +10019,7 @@
     "prob": 0.9385,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401891807:7735244:742.193788351",
@@ -10148,7 +10149,7 @@
     "odds": -1000,
     "prob": 0.9524,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -800
    },
    {
@@ -10269,7 +10270,7 @@
     "prob": 0.9499,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -800
+    "close_odds": -750
    },
    {
     "id": "401909862:7913666:742.193757442",
@@ -10298,7 +10299,7 @@
     "odds": -900,
     "prob": 0.9491,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -10548,7 +10549,7 @@
     "odds": -950,
     "prob": 0.9754,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -10594,7 +10595,7 @@
     "prob": 0.9683,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401873013:12197174:742.192668089",
@@ -10699,7 +10700,7 @@
     "prob": 0.9385,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401873021:12194332:742.192667583",
@@ -10713,7 +10714,7 @@
     "odds": -850,
     "prob": 0.9359,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -10995,7 +10996,7 @@
     "prob": 0.9522,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -750
+    "close_odds": -800
    },
    {
     "id": "401909864:7913250:742.193757793",
@@ -11130,7 +11131,7 @@
     "prob": 0.9385,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401873015:12197178:742.192668281",
@@ -11409,7 +11410,7 @@
     "prob": 0.9466,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -800
+    "close_odds": -750
    },
    {
     "id": "401909865:7884551:742.193757556",
@@ -11682,117 +11683,54 @@
   "date": "2026-10-25",
   "type": "lottery",
   "label": "~25x",
-  "n": 3,
-  "est_prob": 0.03675969675,
-  "fd_payout_x": 26.57,
+  "n": 4,
+  "est_prob": 0.03963493315082401,
+  "fd_payout_x": 29.16,
   "legs_detail": [
    {
-    "id": "401873022:12215056:742.192667331",
+    "id": "401873022:12197141:742.192667331",
     "event": "401873022",
     "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -8.5,
-    "pick": "Seattle Seahawks (-8.5)",
-    "market": "Alternate Spread",
-    "odds": 250,
-    "prob": 0.2919,
-    "game": "Kansas City Chiefs at Seattle Seahawks",
-    "result": null,
-    "close_odds": 250
-   },
-   {
-    "id": "401909867:26799224:742.193749626",
-    "event": "401909867",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 9.5,
-    "ou": "over",
-    "player": "Precious Achiuwa",
-    "stat": "REB",
-    "pick": "Precious Achiuwa",
-    "market": "To Record 10+ Rebounds",
-    "odds": 265,
-    "prob": 0.261,
-    "game": "Memphis Grizzlies at Sacramento Kings",
-    "result": null,
-    "close_odds": 265
-   },
-   {
-    "id": "401892580:25602:742.193519373",
-    "event": "401892580",
-    "sport": "nhl",
     "kind": "spread",
     "side": "away",
-    "line": -1.5,
-    "pick": "Colorado Avalanche -1.5",
-    "market": "Puck Line",
-    "odds": 108,
-    "prob": 0.4825,
-    "game": "Colorado Avalanche at Nashville Predators",
-    "result": null,
-    "close_odds": 108
-   }
-  ],
-  "logged": "2026-10-25 23:34 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-lottery-~100x",
-  "date": "2026-10-25",
-  "type": "lottery",
-  "label": "~100x",
-  "n": 4,
-  "est_prob": 0.005626126060506,
-  "fd_payout_x": 144.87,
-  "legs_detail": [
-   {
-    "id": "401873022:12215056:742.192667331",
-    "event": "401873022",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -8.5,
-    "pick": "Seattle Seahawks (-8.5)",
+    "line": -4.5,
+    "pick": "Kansas City Chiefs (-4.5)",
     "market": "Alternate Spread",
-    "odds": 250,
-    "prob": 0.2919,
+    "odds": 260,
+    "prob": 0.3035,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": 250
+    "close_odds": 260
    },
    {
-    "id": "401909867:26799224:742.193749626",
+    "id": "401909867:7890724:742.193756853",
     "event": "401909867",
     "sport": "nba",
-    "kind": "prop",
-    "line": 9.5,
-    "ou": "over",
-    "player": "Precious Achiuwa",
-    "stat": "REB",
-    "pick": "Precious Achiuwa",
-    "market": "To Record 10+ Rebounds",
-    "odds": 265,
-    "prob": 0.261,
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Memphis Grizzlies +1.5",
+    "market": "Alternate Spread",
+    "odds": -170,
+    "prob": 0.6941,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": 265
+    "close_odds": -170
    },
    {
-    "id": "401892581:8359774:742.193790372",
+    "id": "401892581:7745188:742.193790423",
     "event": "401892581",
     "sport": "nhl",
-    "kind": "total",
-    "line": 7.5,
-    "ou": "over",
-    "pick": "Over 7.5",
-    "market": "Alternate Total Goals",
-    "odds": 215,
-    "prob": 0.2961,
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Vancouver Canucks +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -240,
+    "prob": 0.7116,
     "game": "Minnesota Wild at Vancouver Canucks",
     "result": null,
-    "close_odds": 215
+    "close_odds": -240
    },
    {
     "id": "761904:1222346:742.192524650",
@@ -11804,13 +11742,101 @@
     "pick": "Over 4.5 Goals",
     "market": "Over/Under 4.5 Goals",
     "odds": 260,
-    "prob": 0.2494,
+    "prob": 0.2644,
     "game": "LA Galaxy at LAFC",
     "result": null,
     "close_odds": 260
    }
   ],
-  "logged": "2026-10-25 23:34 UTC",
+  "logged": "2026-10-25 23:48 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-lottery-~100x",
+  "date": "2026-10-25",
+  "type": "lottery",
+  "label": "~100x",
+  "n": 5,
+  "est_prob": 0.008286722542101107,
+  "fd_payout_x": 127.98,
+  "legs_detail": [
+   {
+    "id": "401873022:12197144:742.192667331",
+    "event": "401873022",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": -5.5,
+    "pick": "Kansas City Chiefs (-5.5)",
+    "market": "Alternate Spread",
+    "odds": 290,
+    "prob": 0.2784,
+    "game": "Kansas City Chiefs at Seattle Seahawks",
+    "result": null,
+    "close_odds": 290
+   },
+   {
+    "id": "401909867:7890724:742.193756853",
+    "event": "401909867",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Memphis Grizzlies +1.5",
+    "market": "Alternate Spread",
+    "odds": -170,
+    "prob": 0.6941,
+    "game": "Memphis Grizzlies at Sacramento Kings",
+    "result": null,
+    "close_odds": -170
+   },
+   {
+    "id": "761904:1222346:742.192524650",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": 260,
+    "prob": 0.2644,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": 260
+   },
+   {
+    "id": "401892580:25594:742.193519370",
+    "event": "401892580",
+    "sport": "nhl",
+    "kind": "ml",
+    "side": "home",
+    "pick": "Nashville Predators",
+    "market": "Moneyline",
+    "odds": 198,
+    "prob": 0.3213,
+    "game": "Colorado Avalanche at Nashville Predators",
+    "result": null,
+    "close_odds": 198
+   },
+   {
+    "id": "401892581:7017911:742.193519428",
+    "event": "401892581",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 6.5,
+    "ou": "over",
+    "pick": "Over 6.5",
+    "market": "Total Goals",
+    "odds": -108,
+    "prob": 0.5048,
+    "game": "Minnesota Wild at Vancouver Canucks",
+    "result": null,
+    "close_odds": -108
+   }
+  ],
+  "logged": "2026-10-25 23:48 UTC",
   "locked": false,
   "result": null
  },
@@ -11820,35 +11846,35 @@
   "type": "lottery",
   "label": "~500x",
   "n": 5,
-  "est_prob": 0.0012800410324519103,
-  "fd_payout_x": 562.46,
+  "est_prob": 0.0015933438257238833,
+  "fd_payout_x": 527.17,
   "legs_detail": [
    {
-    "id": "401873022:12215064:742.192667331",
+    "id": "401873022:12197144:742.192667331",
     "event": "401873022",
     "sport": "nfl",
     "kind": "spread",
-    "side": "home",
-    "line": -10.5,
-    "pick": "Seattle Seahawks (-10.5)",
+    "side": "away",
+    "line": -5.5,
+    "pick": "Kansas City Chiefs (-5.5)",
     "market": "Alternate Spread",
-    "odds": 300,
-    "prob": 0.2485,
+    "odds": 290,
+    "prob": 0.2784,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": 300
+    "close_odds": 290
    },
    {
-    "id": "401909867:11855335:742.193749625",
+    "id": "401909867:76580475:742.193749578",
     "event": "401909867",
     "sport": "nba",
     "kind": "prop",
-    "line": 9.5,
+    "line": 2.5,
     "ou": "over",
-    "player": "Domantas Sabonis",
-    "stat": "ASS",
-    "pick": "Domantas Sabonis",
-    "market": "To Record 10+ Assists",
+    "player": "Cedric Coward",
+    "stat": "3PM",
+    "pick": "Cedric Coward",
+    "market": "3+ Made Threes",
     "odds": 300,
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Sacramento Kings",
@@ -11865,10 +11891,24 @@
     "pick": "Over 4.5 Goals",
     "market": "Over/Under 4.5 Goals",
     "odds": 260,
-    "prob": 0.2494,
+    "prob": 0.2644,
     "game": "LA Galaxy at LAFC",
     "result": null,
     "close_odds": 260
+   },
+   {
+    "id": "401892580:25594:742.193519370",
+    "event": "401892580",
+    "sport": "nhl",
+    "kind": "ml",
+    "side": "home",
+    "pick": "Nashville Predators",
+    "market": "Moneyline",
+    "odds": 198,
+    "prob": 0.3213,
+    "game": "Colorado Avalanche at Nashville Predators",
+    "result": null,
+    "close_odds": 198
    },
    {
     "id": "401892581:8359774:742.193790372",
@@ -11880,28 +11920,13 @@
     "pick": "Over 7.5",
     "market": "Alternate Total Goals",
     "odds": 215,
-    "prob": 0.2961,
+    "prob": 0.2884,
     "game": "Minnesota Wild at Vancouver Canucks",
     "result": null,
     "close_odds": 215
-   },
-   {
-    "id": "401892580:8359774:742.193788879",
-    "event": "401892580",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 7.5,
-    "ou": "over",
-    "pick": "Over 7.5",
-    "market": "Alternate Total Goals",
-    "odds": 210,
-    "prob": 0.2986,
-    "game": "Colorado Avalanche at Nashville Predators",
-    "result": null,
-    "close_odds": 210
    }
   ],
-  "logged": "2026-10-25 23:34 UTC",
+  "logged": "2026-10-25 23:48 UTC",
   "locked": false,
   "result": null
  },
@@ -11911,85 +11936,86 @@
   "type": "lottery",
   "label": "5-leg best-edge lottery",
   "n": 5,
-  "est_prob": 0.2234697862059684,
-  "fd_payout_x": 4.75,
+  "est_prob": 0.30589806270392456,
+  "fd_payout_x": 3.43,
   "legs_detail": [
    {
-    "id": "401909867:7890696:742.193756853",
+    "id": "401909867:7890702:742.193756853",
     "event": "401909867",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 12.5,
-    "pick": "Memphis Grizzlies +12.5",
+    "line": 3.5,
+    "pick": "Memphis Grizzlies +3.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.9658,
+    "odds": -215,
+    "prob": 0.748,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -215
    },
    {
-    "id": "401892580:7000403:742.193788897",
+    "id": "401873022:14700951:742.192667331",
+    "event": "401873022",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": 12.5,
+    "pick": "Kansas City Chiefs (+12.5)",
+    "market": "Alternate Spread",
+    "odds": -500,
+    "prob": 0.8501,
+    "game": "Kansas City Chiefs at Seattle Seahawks",
+    "result": null,
+    "close_odds": -500
+   },
+   {
+    "id": "401892581:8359782:742.193790372",
+    "event": "401892581",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -550,
+    "prob": 0.8352,
+    "game": "Minnesota Wild at Vancouver Canucks",
+    "result": null,
+    "close_odds": -550
+   },
+   {
+    "id": "401892580:7744999:742.193788897",
     "event": "401892580",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Colorado Avalanche +1.5",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Nashville Predators +2.5",
     "market": "Alternate Puck Line",
-    "odds": -800,
-    "prob": 0.9457,
+    "odds": -210,
+    "prob": 0.6766,
     "game": "Colorado Avalanche at Nashville Predators",
     "result": null,
-    "close_odds": -800
+    "close_odds": -210
    },
    {
-    "id": "401873022:12197186:742.192667308",
-    "event": "401873022",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 57.5,
-    "ou": "under",
-    "pick": "Under (57.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9385,
-    "game": "Kansas City Chiefs at Seattle Seahawks",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401892581:25604:742.193519427",
-    "event": "401892581",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Minnesota Wild -1.5",
-    "market": "Puck Line",
-    "odds": 124,
-    "prob": 0.4327,
-    "game": "Minnesota Wild at Vancouver Canucks",
-    "result": null,
-    "close_odds": 124
-   },
-   {
-    "id": "761904:17268707:742.192524521",
+    "id": "761904:1221386:742.192524662",
     "event": "761904",
     "sport": "usa.1",
-    "kind": "ml3",
-    "side": "home",
-    "pick": "Los Angeles FC",
-    "market": "Moneyline (3-way)",
-    "odds": -190,
-    "prob": 0.6025,
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -850,
+    "prob": 0.8513,
     "game": "LA Galaxy at LAFC",
     "result": null,
-    "close_odds": -190
+    "close_odds": -850
    }
   ],
-  "logged": "2026-10-25 23:34 UTC",
+  "logged": "2026-10-25 23:48 UTC",
   "locked": false,
   "result": null
  },
@@ -12015,7 +12041,7 @@
     "prob": 0.2919,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": 250
+    "close_odds": 240
    },
    {
     "id": "401909867:26799224:742.193749626",
@@ -12032,7 +12058,7 @@
     "prob": 0.261,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": 265
+    "close_odds": 280
    },
    {
     "id": "401909866:71473481:742.193740501",
@@ -12138,7 +12164,7 @@
     "prob": 0.9658,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401892580:7000403:742.193788897",
@@ -12241,7 +12267,7 @@
     "prob": 0.2638,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": 265
+    "close_odds": 290
    },
    {
     "id": "401909863:237475:742.193465115",
@@ -12380,7 +12406,7 @@
     "prob": 0.2638,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": 265
+    "close_odds": 290
    },
    {
     "id": "401909863:37394213:742.193751756",
@@ -12702,7 +12728,7 @@
     "prob": 0.2638,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": 265
+    "close_odds": 290
    },
    {
     "id": "401892579:7742395:742.193787320",
@@ -12819,7 +12845,7 @@
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": 255
+    "close_odds": 260
    },
    {
     "id": "401892580:25602:742.193519373",
@@ -13085,7 +13111,7 @@
     "odds": -950,
     "prob": 0.9754,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -13293,7 +13319,7 @@
     "odds": -950,
     "prob": 0.9754,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -13428,7 +13454,7 @@
     "odds": -950,
     "prob": 0.9529,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -13444,7 +13470,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892579:25612:742.193519276",
@@ -13531,7 +13557,7 @@
     "odds": -950,
     "prob": 0.9754,
     "game": "Los Angeles Lakers at Utah Jazz",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -13666,7 +13692,7 @@
     "odds": -900,
     "prob": 0.9504,
     "game": "Los Angeles Rams at Las Vegas Raiders",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -13697,7 +13723,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892579:7000432:742.193787320",
@@ -13950,7 +13976,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892579:7000432:742.193787320",
@@ -14217,7 +14243,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892579:7000432:742.193787320",
@@ -14498,7 +14524,7 @@
     "prob": 0.9359,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892579:7000432:742.193787320",
@@ -14719,7 +14745,7 @@
     "prob": 0.9683,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401873020:12247074:742.192667520",
@@ -14794,7 +14820,7 @@
     "prob": 0.9385,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892579:7000432:742.193787320",
@@ -15014,7 +15040,7 @@
     "prob": 0.9683,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909865:7913405:742.193757556",
@@ -15194,7 +15220,7 @@
     "prob": 0.9385,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401873015:12197178:742.192668281",
@@ -15416,7 +15442,7 @@
     "prob": 0.9683,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401873020:12247074:742.192667520",
@@ -15595,7 +15621,7 @@
     "prob": 0.9385,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892579:8359782:742.193787302",
