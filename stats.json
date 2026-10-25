@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25 16:30 UTC",
- "graded_legs": 37,
+ "updated": "2026-10-25 16:33 UTC",
+ "graded_legs": 40,
  "calibration": {
   "85-90%": {
    "n": 30,
@@ -19,6 +19,24 @@
    "wins": 6,
    "pred": 0.826,
    "hit": 1.0
+  },
+  "70-75%": {
+   "n": 1,
+   "wins": 1,
+   "pred": 0.734,
+   "hit": 1.0
+  },
+  "65-70%": {
+   "n": 1,
+   "wins": 0,
+   "pred": 0.69,
+   "hit": 0.0
+  },
+  "45-50%": {
+   "n": 1,
+   "wins": 0,
+   "pred": 0.466,
+   "hit": 0.0
   }
  },
  "by_sport": {
@@ -51,6 +69,12 @@
    "wins": 1,
    "pred": 0.87,
    "hit": 1.0
+  },
+  "ger.1": {
+   "n": 3,
+   "wins": 1,
+   "pred": 0.63,
+   "hit": 0.333
   }
  },
  "by_market": {
@@ -67,28 +91,39 @@
    "hit": 0.923
   },
   "dc": {
-   "n": 1,
-   "wins": 1,
-   "pred": 0.766,
-   "hit": 1.0
+   "n": 3,
+   "wins": 2,
+   "pred": 0.73,
+   "hit": 0.667
   },
   "ml": {
    "n": 1,
    "wins": 1,
    "pred": 0.809,
    "hit": 1.0
+  },
+  "ml3": {
+   "n": 1,
+   "wins": 0,
+   "pred": 0.466,
+   "hit": 0.0
   }
  },
  "parlays": {
-  "graded": 27,
+  "graded": 29,
   "won": 6,
-  "expected": 6.16,
-  "pending": 37,
+  "expected": 6.18,
+  "pending": 35,
   "by_type": {
    "ladder": {
-    "graded": 27,
+    "graded": 28,
     "won": 6,
-    "expected": 6.15
+    "expected": 6.16
+   },
+   "lottery": {
+    "graded": 1,
+    "won": 0,
+    "expected": 0.01
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
