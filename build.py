@@ -12,7 +12,7 @@ DATE=cfg.get('date_override') or (ET-datetime.timedelta(hours=1)).strftime('%Y-%
 NEXT=(datetime.date.fromisoformat(DATE)+datetime.timedelta(days=1)).strftime('%Y-%m-%d')
 # manual team estimates only apply to the slate they were written for
 if cfg.get('date')!=DATE: cfg['models']={}
-FLOOR,CEIL=cfg['odds_floor'],cfg['odds_ceiling']; K='FhMFpcPWXMeyZxOx'; FD='https://sbapi.nj.sportsbook.fanduel.com/api/'
+FLOOR,CEIL=cfg['odds_floor'],cfg['odds_ceiling']; K='FhMFpcPWXMeyZxOx'; FD='https://sbapi.pa.sportsbook.fanduel.com/api/'; FDNJ='https://sbapi.nj.sportsbook.fanduel.com/api/'
 os.makedirs('.cache',exist_ok=True)
 def load(f,d):
   try: return json.load(open(f))
@@ -74,14 +74,14 @@ pages=[('CUSTOM','nfl'),('CUSTOM','nba'),('CUSTOM','nhl'),('CUSTOM','ncaaf'),('C
 fdev=[]
 for typ,pid in pages:
   q=f"page={typ}&"+(f"customPageId={pid}" if typ=='CUSTOM' else f"eventTypeId={pid}")
-  d=get(f"{FD}content-managed-page?{q}&_ak={K}&timezone=America/New_York",ttl=240) or {}
+  d=get(f"{FD}content-managed-page?{q}&_ak={K}&timezone=America/New_York",ttl=240) or get(f"{FDNJ}content-managed-page?{q}&_ak={K}&timezone=America/New_York",ttl=240) or {}
   for e in (d.get('attachments') or {}).get('events',{}).values():
     n=e['name']
     if ' @ ' in n: a,h=n.split(' @ ',1)
     elif ' v ' in n: h,a=n.split(' v ',1)
     else: continue
     a=re.sub(r'\s*\(.*?\)','',a); h=re.sub(r'\s*\(.*?\)','',h)
-    fdev.append({'id':e['eventId'],'name':n,'home':h,'away':a,'start':e['openDate']})
+    fdev.append({'id':e['eventId'],'name':n,'home':h,'away':a,'start':e['openDate'],'inPlay':bool(e.get('inPlay'))})
 def ts(s): return datetime.datetime.fromisoformat(s.replace('Z','+00:00'))
 for g in games:
   best=None
@@ -90,7 +90,13 @@ for g in games:
     sc=len(toks(f['home'])&toks(g['teams']['home']['name']+' '+g['teams']['home']['short']))+len(toks(f['away'])&toks(g['teams']['away']['name']+' '+g['teams']['away']['short']))
     if sc>=1 and (not best or sc>best[0]): best=(sc,f)
   g['fd']=best[1] if best else None
-def fdpage(g): return get(f"{FD}event-page?_ak={K}&eventId={g['fd']['id']}&tab=popular",ttl=240) if g['fd'] else None
+  # hard-exclude started games: ESPN state, FanDuel inPlay flag, or start time passed
+  if g['state']=='pre' and ((g['fd'] and g['fd'].get('inPlay')) or ts(g['start'])<=datetime.datetime.now(datetime.timezone.utc)): g['state']='in'
+def fdpage(g):
+  if not g['fd']: return None
+  d=get(f"{FD}event-page?_ak={K}&eventId={g['fd']['id']}&tab=popular",ttl=240)
+  if d and (d.get('attachments') or {}).get('markets'): return d
+  return get(f"{FDNJ}event-page?_ak={K}&eventId={g['fd']['id']}&tab=popular",ttl=240)
 with ThreadPoolExecutor(12) as ex: pagesd=dict(zip([g['id'] for g in games],ex.map(fdpage,games)))
 print('games',len(games),'fd matched',sum(1 for g in games if g['fd']))
 # ---------- weather + research context ----------
@@ -147,7 +153,7 @@ for g in games:
   if not d: continue
   for m in (d.get('attachments') or {}).get('markets',{}).values():
     mt=m['marketType']; rs=[r for r in m['runners'] if r.get('runnerStatus')=='ACTIVE' and r.get('winRunnerOdds')]
-    if not rs or m.get('marketStatus')!='OPEN': continue
+    if not rs or m.get('marketStatus')!='OPEN' or m.get('inPlay') or m.get('inplay'): continue
     od=lambda r:r['winRunnerOdds']['americanDisplayOdds']['americanOddsInt']
     S=sum(imp(od(r)) for r in rs)
     for r in rs:
@@ -421,9 +427,9 @@ def fdlink(ids):
         if len(p)<3: continue
         ms.append(p[2]);ss.append(p[1])
     if not ms: return None
-    return 'https://sportsbook.fanduel.com/addToBetslip?'+'&'.join(f'marketId={m}' for m in ms)+'&'+'&'.join(f'selectionId={x}' for x in ss)
+    return 'https://pa.sportsbook.fanduel.com/addToBetslip?'+'&'.join(f'marketId[{k}]={m}&selectionId[{k}]={x}' for k,(m,x) in enumerate(zip(ms,ss)))
 for L in out['legs'].values():
-    p=L['id'].split(':'); L['fd_market_id']=p[2] if len(p)>2 else None; L['fd_selection_id']=p[1] if len(p)>2 else None; L['fd_link']=fdlink([L['id']])
+    p=L['id'].split(':'); L['fd_market_id']=p[2] if len(p)>2 else None; L['fd_selection_id']=p[1] if len(p)>2 else None; L['fd_link']=fdlink([L['id']]); L['fd_region']='PA' if (L['fd_market_id'] or '').startswith('742.') else 'NJ-fallback (not PA-verified)'
 for p in out['parlays']+(out['lottery'] or []): p['fd_link']=fdlink(p['legs'])
 if out['best']: out['best']['fd_link']=fdlink(out['best']['legs'])
 json.dump(out,open('picks.json','w'),indent=1)
