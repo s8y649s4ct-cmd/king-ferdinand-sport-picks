@@ -5610,24 +5610,9 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.1839,
-  "fd_payout_x": 4.59,
+  "est_prob": 0.1588,
+  "fd_payout_x": 4.91,
   "legs_detail": [
-   {
-    "id": "401909866:7890088:742.193757204",
-    "event": "401909866",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Detroit Pistons +7.5",
-    "market": "Alternate Spread",
-    "odds": -300,
-    "prob": 0.7555,
-    "game": "Detroit Pistons at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -300
-   },
    {
     "id": "401909867:7890749:742.193756853",
     "event": "401909867",
@@ -5686,9 +5671,24 @@
     "game": "Minnesota Wild at Vancouver Canucks",
     "result": null,
     "close_odds": -290
+   },
+   {
+    "id": "761904:47973:742.192524687",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 2.5,
+    "ou": "over",
+    "pick": "Over 2.5 Goals",
+    "market": "Over/Under 2.5 Goals",
+    "odds": -235,
+    "prob": 0.6524,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": -235
    }
   ],
-  "logged": "2026-10-25 23:29 UTC",
+  "logged": "2026-10-25 23:34 UTC",
   "locked": false,
   "result": null
  },
@@ -5697,36 +5697,8 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.9793,
+  "est_prob": 0.9658,
   "fd_payout_x": 1.11,
-  "legs_detail": [
-   {
-    "id": "401909866:7890179:742.193757204",
-    "event": "401909866",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 14.5,
-    "pick": "Detroit Pistons +14.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9793,
-    "game": "Detroit Pistons at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -950
-   }
-  ],
-  "logged": "2026-10-25 23:29 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-2",
-  "date": "2026-10-25",
-  "type": "ladder",
-  "n": 2,
-  "est_prob": 0.91336,
-  "fd_payout_x": 1.25,
   "legs_detail": [
    {
     "id": "401909867:7890696:742.193756853",
@@ -5742,7 +5714,20 @@
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
     "close_odds": -900
-   },
+   }
+  ],
+  "logged": "2026-10-25 23:34 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-2",
+  "date": "2026-10-25",
+  "type": "ladder",
+  "n": 2,
+  "est_prob": 0.88754,
+  "fd_payout_x": 1.25,
+  "legs_detail": [
    {
     "id": "401892580:7000403:742.193788897",
     "event": "401892580",
@@ -5757,20 +5742,7 @@
     "game": "Colorado Avalanche at Nashville Predators",
     "result": null,
     "close_odds": -800
-   }
-  ],
-  "logged": "2026-10-25 23:29 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-3",
-  "date": "2026-10-25",
-  "type": "ladder",
-  "n": 3,
-  "est_prob": 0.641,
-  "fd_payout_x": 1.43,
-  "legs_detail": [
+   },
    {
     "id": "401873022:12197186:742.192667308",
     "event": "401873022",
@@ -5785,6 +5757,34 @@
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
     "close_odds": -900
+   }
+  ],
+  "logged": "2026-10-25 23:34 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-3",
+  "date": "2026-10-25",
+  "type": "ladder",
+  "n": 3,
+  "est_prob": 0.65869,
+  "fd_payout_x": 1.43,
+  "legs_detail": [
+   {
+    "id": "401909867:7889755:742.193756903",
+    "event": "401909867",
+    "sport": "nba",
+    "kind": "total",
+    "line": 256.5,
+    "ou": "under",
+    "pick": "Under 256.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.9644,
+    "game": "Memphis Grizzlies at Sacramento Kings",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "761904:1221386:742.192524662",
@@ -5817,7 +5817,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-10-25 23:29 UTC",
+  "logged": "2026-10-25 23:34 UTC",
   "locked": false,
   "result": null
  },
@@ -5826,38 +5826,23 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.82383,
-  "fd_payout_x": 1.54,
+  "est_prob": 0.71396,
+  "fd_payout_x": 1.52,
   "legs_detail": [
    {
-    "id": "401909867:7889755:742.193756903",
+    "id": "401909867:7913403:742.193756853",
     "event": "401909867",
     "sport": "nba",
-    "kind": "total",
-    "line": 256.5,
-    "ou": "under",
-    "pick": "Under 256.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.9644,
+    "kind": "spread",
+    "side": "home",
+    "line": 18.5,
+    "pick": "Sacramento Kings +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.9626,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909866:7914511:742.193757204",
-    "event": "401909866",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 13.5,
-    "pick": "Detroit Pistons +13.5",
-    "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.9632,
-    "game": "Detroit Pistons at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -800
+    "close_odds": -1000
    },
    {
     "id": "401892580:7000403:742.193788897",
@@ -5888,9 +5873,24 @@
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "761904:1221386:742.192524662",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -850,
+    "prob": 0.8363,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": -850
    }
   ],
-  "logged": "2026-10-25 23:29 UTC",
+  "logged": "2026-10-25 23:34 UTC",
   "locked": false,
   "result": null
  },
@@ -5899,38 +5899,38 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 5,
-  "est_prob": 0.56856,
-  "fd_payout_x": 1.78,
+  "est_prob": 0.52543,
+  "fd_payout_x": 1.91,
   "legs_detail": [
    {
-    "id": "401909867:7913403:742.193756853",
+    "id": "401909867:7711347:742.193756903",
     "event": "401909867",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 18.5,
-    "pick": "Sacramento Kings +18.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9626,
+    "kind": "total",
+    "line": 214.5,
+    "ou": "over",
+    "pick": "Over 214.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9508,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
-    "id": "401909866:7733045:742.193757199",
-    "event": "401909866",
-    "sport": "nba",
-    "kind": "total",
-    "line": 207.5,
-    "ou": "over",
-    "pick": "Over 207.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9611,
-    "game": "Detroit Pistons at Philadelphia 76ers",
+    "id": "401892580:7000403:742.193788897",
+    "event": "401892580",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Colorado Avalanche +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -800,
+    "prob": 0.9457,
+    "game": "Colorado Avalanche at Nashville Predators",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    },
    {
     "id": "401873022:12197186:742.192667308",
@@ -5948,19 +5948,18 @@
     "close_odds": -900
    },
    {
-    "id": "761904:1221386:742.192524662",
+    "id": "761904:17395372:742.192524708",
     "event": "761904",
     "sport": "usa.1",
-    "kind": "total",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -850,
-    "prob": 0.8363,
+    "kind": "dc",
+    "side": "home",
+    "pick": "Los Angeles FC And Draw",
+    "market": "Double Chance",
+    "odds": -600,
+    "prob": 0.7952,
     "game": "LA Galaxy at LAFC",
     "result": null,
-    "close_odds": -850
+    "close_odds": -600
    },
    {
     "id": "401892581:8359782:742.193790372",
@@ -5978,7 +5977,7 @@
     "close_odds": -550
    }
   ],
-  "logged": "2026-10-25 23:29 UTC",
+  "logged": "2026-10-25 23:34 UTC",
   "locked": false,
   "result": null
  },
@@ -6081,7 +6080,7 @@
    }
   ],
   "logged": "2026-10-25 23:29 UTC",
-  "locked": false,
+  "locked": true,
   "result": null
  },
  {
@@ -7347,7 +7346,7 @@
     "odds": -1000,
     "prob": 0.9474,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -7585,7 +7584,7 @@
     "odds": -770,
     "prob": 0.9399,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -770
    },
    {
@@ -7792,7 +7791,7 @@
     "odds": -900,
     "prob": 0.9559,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -900
    },
    {
@@ -8000,7 +7999,7 @@
     "odds": -950,
     "prob": 0.9584,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -900
    },
    {
@@ -8373,7 +8372,7 @@
     "odds": -800,
     "prob": 0.9418,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -770
    },
    {
@@ -8503,7 +8502,7 @@
     "odds": -1000,
     "prob": 0.9682,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -8800,7 +8799,7 @@
     "odds": -1000,
     "prob": 0.9682,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -9111,7 +9110,7 @@
     "odds": -1000,
     "prob": 0.9682,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -9541,7 +9540,7 @@
     "odds": -850,
     "prob": 0.9532,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -900
    },
    {
@@ -9913,7 +9912,7 @@
     "odds": -950,
     "prob": 0.9501,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "loss",
     "close_odds": -900
    },
    {
@@ -10112,7 +10111,7 @@
   ],
   "logged": "2026-10-25 16:59 UTC",
   "locked": true,
-  "result": null
+  "result": "loss"
  },
  {
   "id": "2026-10-25-24",
@@ -10744,7 +10743,7 @@
     "odds": -700,
     "prob": 0.9347,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -770
    },
    {
@@ -11679,13 +11678,13 @@
   "result": "loss"
  },
  {
-  "id": "2026-10-25-lottery-~100x",
+  "id": "2026-10-25-lottery-~25x",
   "date": "2026-10-25",
   "type": "lottery",
-  "label": "~100x",
-  "n": 4,
-  "est_prob": 0.0085870651608,
-  "fd_payout_x": 106.29,
+  "label": "~25x",
+  "n": 3,
+  "est_prob": 0.03675969675,
+  "fd_payout_x": 26.57,
   "legs_detail": [
    {
     "id": "401873022:12215056:742.192667331",
@@ -11718,23 +11717,6 @@
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
     "close_odds": 265
-   },
-   {
-    "id": "401909866:71473481:742.193740501",
-    "event": "401909866",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 5.5,
-    "ou": "over",
-    "player": "Ron Holland II",
-    "stat": "REB",
-    "pick": "Ron Holland II",
-    "market": "To Record 6+ Rebounds",
-    "odds": 300,
-    "prob": 0.2336,
-    "game": "Detroit Pistons at Philadelphia 76ers",
-    "result": null,
-    "close_odds": 300
    },
    {
     "id": "401892580:25602:742.193519373",
@@ -11752,18 +11734,18 @@
     "close_odds": 108
    }
   ],
-  "logged": "2026-10-25 23:29 UTC",
+  "logged": "2026-10-25 23:34 UTC",
   "locked": false,
   "result": null
  },
  {
-  "id": "2026-10-25-lottery-~500x",
+  "id": "2026-10-25-lottery-~100x",
   "date": "2026-10-25",
   "type": "lottery",
-  "label": "~500x",
-  "n": 5,
-  "est_prob": 0.0013142630477342016,
-  "fd_payout_x": 579.47,
+  "label": "~100x",
+  "n": 4,
+  "est_prob": 0.005626126060506,
+  "fd_payout_x": 144.87,
   "legs_detail": [
    {
     "id": "401873022:12215056:742.192667331",
@@ -11796,23 +11778,6 @@
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
     "close_odds": 265
-   },
-   {
-    "id": "401909866:71473481:742.193740501",
-    "event": "401909866",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 5.5,
-    "ou": "over",
-    "player": "Ron Holland II",
-    "stat": "REB",
-    "pick": "Ron Holland II",
-    "market": "To Record 6+ Rebounds",
-    "odds": 300,
-    "prob": 0.2336,
-    "game": "Detroit Pistons at Philadelphia 76ers",
-    "result": null,
-    "close_odds": 300
    },
    {
     "id": "401892581:8359774:742.193790372",
@@ -11845,63 +11810,124 @@
     "close_odds": 260
    }
   ],
-  "logged": "2026-10-25 23:29 UTC",
+  "logged": "2026-10-25 23:34 UTC",
   "locked": false,
   "result": null
  },
  {
-  "id": "2026-10-25-lottery-~25x",
+  "id": "2026-10-25-lottery-~500x",
   "date": "2026-10-25",
   "type": "lottery",
-  "label": "~25x",
-  "n": 6,
-  "est_prob": 0.04190600094298792,
-  "fd_payout_x": 27.1,
+  "label": "~500x",
+  "n": 5,
+  "est_prob": 0.0012800410324519103,
+  "fd_payout_x": 562.46,
   "legs_detail": [
    {
-    "id": "401909866:7890351:742.193757204",
-    "event": "401909866",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 12.5,
-    "pick": "Detroit Pistons +12.5",
-    "market": "Alternate Spread",
-    "odds": -650,
-    "prob": 0.9428,
-    "game": "Detroit Pistons at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -650
-   },
-   {
-    "id": "401873022:12215056:742.192667331",
+    "id": "401873022:12215064:742.192667331",
     "event": "401873022",
     "sport": "nfl",
     "kind": "spread",
     "side": "home",
-    "line": -8.5,
-    "pick": "Seattle Seahawks (-8.5)",
+    "line": -10.5,
+    "pick": "Seattle Seahawks (-10.5)",
     "market": "Alternate Spread",
-    "odds": 250,
-    "prob": 0.2919,
+    "odds": 300,
+    "prob": 0.2485,
     "game": "Kansas City Chiefs at Seattle Seahawks",
     "result": null,
-    "close_odds": 250
+    "close_odds": 300
    },
    {
-    "id": "401909867:7890684:742.193756853",
+    "id": "401909867:11855335:742.193749625",
+    "event": "401909867",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 9.5,
+    "ou": "over",
+    "player": "Domantas Sabonis",
+    "stat": "ASS",
+    "pick": "Domantas Sabonis",
+    "market": "To Record 10+ Assists",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Memphis Grizzlies at Sacramento Kings",
+    "result": null,
+    "close_odds": 300
+   },
+   {
+    "id": "761904:1222346:742.192524650",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": 260,
+    "prob": 0.2494,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": 260
+   },
+   {
+    "id": "401892581:8359774:742.193790372",
+    "event": "401892581",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 7.5,
+    "ou": "over",
+    "pick": "Over 7.5",
+    "market": "Alternate Total Goals",
+    "odds": 215,
+    "prob": 0.2961,
+    "game": "Minnesota Wild at Vancouver Canucks",
+    "result": null,
+    "close_odds": 215
+   },
+   {
+    "id": "401892580:8359774:742.193788879",
+    "event": "401892580",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 7.5,
+    "ou": "over",
+    "pick": "Over 7.5",
+    "market": "Alternate Total Goals",
+    "odds": 210,
+    "prob": 0.2986,
+    "game": "Colorado Avalanche at Nashville Predators",
+    "result": null,
+    "close_odds": 210
+   }
+  ],
+  "logged": "2026-10-25 23:34 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-lottery-5-leg best-edge lottery",
+  "date": "2026-10-25",
+  "type": "lottery",
+  "label": "5-leg best-edge lottery",
+  "n": 5,
+  "est_prob": 0.2234697862059684,
+  "fd_payout_x": 4.75,
+  "legs_detail": [
+   {
+    "id": "401909867:7890696:742.193756853",
     "event": "401909867",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 11.5,
-    "pick": "Memphis Grizzlies +11.5",
+    "line": 12.5,
+    "pick": "Memphis Grizzlies +12.5",
     "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.9488,
+    "odds": -900,
+    "prob": 0.9658,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -750
+    "close_odds": -900
    },
    {
     "id": "401892580:7000403:742.193788897",
@@ -11919,6 +11945,21 @@
     "close_odds": -800
    },
    {
+    "id": "401873022:12197186:742.192667308",
+    "event": "401873022",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 57.5,
+    "ou": "under",
+    "pick": "Under (57.5)",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9385,
+    "game": "Kansas City Chiefs at Seattle Seahawks",
+    "result": null,
+    "close_odds": -900
+   },
+   {
     "id": "401892581:25604:742.193519427",
     "event": "401892581",
     "sport": "nhl",
@@ -11934,21 +11975,21 @@
     "close_odds": 124
    },
    {
-    "id": "761904:13131321:742.192524708",
+    "id": "761904:17268707:742.192524521",
     "event": "761904",
     "sport": "usa.1",
-    "kind": "dc",
-    "side": "away",
-    "pick": "LA Galaxy And Draw",
-    "market": "Double Chance",
-    "odds": 135,
-    "prob": 0.3922,
+    "kind": "ml3",
+    "side": "home",
+    "pick": "Los Angeles FC",
+    "market": "Moneyline (3-way)",
+    "odds": -190,
+    "prob": 0.6025,
     "game": "LA Galaxy at LAFC",
     "result": null,
-    "close_odds": 135
+    "close_odds": -190
    }
   ],
-  "logged": "2026-10-25 23:29 UTC",
+  "logged": "2026-10-25 23:34 UTC",
   "locked": false,
   "result": null
  },
@@ -12057,7 +12098,7 @@
    }
   ],
   "logged": "2026-10-25 23:29 UTC",
-  "locked": false,
+  "locked": true,
   "result": null
  },
  {
@@ -12160,7 +12201,7 @@
    }
   ],
   "logged": "2026-10-25 23:29 UTC",
-  "locked": false,
+  "locked": true,
   "result": null
  },
  {
@@ -13372,7 +13413,7 @@
     "odds": -900,
     "prob": 0.9559,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -900
    },
    {
@@ -13610,7 +13651,7 @@
     "odds": -900,
     "prob": 0.9559,
     "game": "Green Bay Packers at Detroit Lions",
-    "result": null,
+    "result": "win",
     "close_odds": -900
    },
    {
