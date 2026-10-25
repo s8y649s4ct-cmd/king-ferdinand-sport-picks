@@ -216,6 +216,18 @@ cal=stats.get('calibration',{})
 for L in cands:
   b=cal.get(bucket(L['prob']))
   if b and b['n']>=30: L['prob']=round(min(.99,L['prob']*max(.85,min(1.1,b['hit']/b['pred']))),4); L['calibrated']=True
+# ---------- v2 shadow engine (Pinnacle anchor + power ratings + player impact) ----------
+import v2
+try: V2INFO=v2.score(cands,games,G,get,SPORTS,toks,cfg)
+except Exception as e: print('v2 fail',e); V2INFO={'error':str(e)}
+ALLC={L['id']:L for L in cands}
+MC0=v2.evaluate(v2.load('shadow.json',{'legs':{}})['legs'],cfg)
+LIVE='v2' if MC0['switch'] else 'v1'
+if LIVE=='v2':
+  for L in cands:
+    if L.get('v2_prob') is not None: L['prob']=L['v2_prob']
+cands,DROPPED=v2.sharp_filter(cands,cfg)
+print('v2',V2INFO,'live',LIVE,'sharp-filtered',len(DROPPED))
 # ---------- per-game best leg; parlays ----------
 best={}
 for L in cands:
@@ -362,11 +374,14 @@ def grade(L):
     if not s: return 'void'
     v=(s[L['stat']]-L['line'])*(1 if L['ou']=='over' else -1); return 'win' if v>0 else 'loss'
 GH={}
-for d0 in sorted({x['date'] for x in hist if x.get('result') is None and x['date']!=DATE}):
+_sh=v2.load('shadow.json',{'legs':{}})['legs']
+for d0 in sorted({x['date'] for x in hist if x.get('result') is None and x['date']!=DATE}|{r['date'] for r in _sh.values() if r.get('result') is None and r['date']!=DATE}):
   for lg,sp in SPORTS.items():
     for e in espn_events(lg,sp,d0,ttl=300): GH[e['id']]=parse(e,lg)
 G={**GH,**G}
 json.dump(box,open('.cache/box.json','w'))
+try: MC=v2.shadow(list(ALLC.values()),G,grade,DATE,NOW,cfg,best)
+except Exception as e: print('shadow fail',e); MC=MC0
 # history: one entry per date+n, overwritten until any leg's game starts (then locked)
 H={x['id']:x for x in hist}; LD={L['id']:L for L in cands}
 for p in pars:
@@ -388,7 +403,7 @@ for x in H.values():
     if 'loss' in r: x['result']='loss'
     elif r and all(v in('win','void') for v in r): x['result']='win'
 H={k:v for k,v in H.items() if v.get('locked') or v['date']==DATE}
-hist=sorted(H.values(),key=lambda x:(x['date'],x.get('type','ladder'),x['n'])); json.dump(hist,open('picks.history.json','w'),indent=1)
+hist=sorted(H.values(),key=lambda x:(x['date'],x.get('type','ladder'),x['n'])); CLVH=v2.hist_clv(hist,ALLC,G); json.dump(hist,open('picks.history.json','w'),indent=1)
 # stats (unique graded legs)
 seen={}
 for x in hist:
@@ -407,7 +422,7 @@ bytype={}
 for x in par:
   b=bytype.setdefault(x.get('type','ladder'),{'graded':0,'won':0,'expected':0}); b['graded']+=1; b['won']+=x['result']=='win'; b['expected']=round(b['expected']+x['est_prob'],2)
 stats={'updated':NOW,'graded_legs':len(seen),'calibration':agg(lambda l:bucket(l['prob'])),'by_sport':agg(lambda l:l['sport']),'by_market':agg(lambda l:l['kind']),
- 'parlays':{'graded':len(par),'won':sum(x['result']=='win' for x in par),'expected':round(exp,2),'pending':sum(1 for x in hist if not x['result']),'by_type':bytype,'note':'Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket).'},'note':'Calibration factor applied to a probability bucket once it has 30+ graded legs.'}
+ 'parlays':{'graded':len(par),'won':sum(x['result']=='win' for x in par),'expected':round(exp,2),'pending':sum(1 for x in hist if not x['result']),'by_type':bytype,'note':'Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket).'},'clv':CLVH,'note':'Calibration factor applied to a probability bucket once it has 30+ graded legs.'}
 json.dump(stats,open('stats.json','w'),indent=1)
 # ---------- output ----------
 kinds=sorted({L['kind'] for L in cands})
@@ -441,6 +456,13 @@ _c=sorted([p for p in out['parlays'] if p['est_prob']>=0.5 and p['n']>=2],key=la
 for p in _c: p['favorite']=True
 if out['best']: out['best']['favorite']=True
 if out['feature']: out['feature']['favorite']=True
+for p in out['parlays']+([out['best']] if out['best'] else []):
+  try: p['corr_prob']=round(v2.corr_prob([out['legs'][i] for i in p['legs']],rho=cfg.get('v2',{}).get('league_rho',0.04)),5)
+  except Exception as e: p['corr_prob']=None
+_ex=sorted(DROPPED,key=lambda L:L['sharp_edge'])[:8]
+out['model_check']={**MC,'live_model':LIVE,'v2_info':V2INFO,'clv_v1_history':CLVH,
+  'sharp_filter':{'active':bool(cfg.get('v2',{}).get('sharp_filter',False)),'note':'Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.','dropped':len(DROPPED),'of':len(ALLC),'rule':f"Legs dropped when FanDuel's price implies a chance more than {-cfg.get('v2',{}).get('filter_edge',-0.03)*100:.0f} pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
+    'examples':[f"{L['pick']} ({L['game']}) {L['odds']:+d}: FanDuel implies {v2.imp(L['odds'])*100:.1f}% vs Pinnacle fair {L['sharp_prob']*100:.1f}%" for L in _ex]}}
 out['favorite_rule']="Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with an estimated hit chance of 50% or more."
 json.dump(out,open('picks.json','w'),indent=1)
 print('cands',len(cands),'games w/ leg',len(best),'pool',len(pool),'parlays',len(pars),'best',bestp and bestp['n'],'kinds',kinds)
