@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25 21:22 UTC",
- "graded_legs": 56,
+ "updated": "2026-10-25 21:39 UTC",
+ "graded_legs": 59,
  "calibration": {
   "85-90%": {
    "n": 30,
@@ -9,15 +9,15 @@
    "hit": 0.967
   },
   "75-80%": {
-   "n": 1,
-   "wins": 1,
-   "pred": 0.766,
+   "n": 2,
+   "wins": 2,
+   "pred": 0.78,
    "hit": 1.0
   },
   "80-85%": {
-   "n": 11,
-   "wins": 11,
-   "pred": 0.825,
+   "n": 12,
+   "wins": 12,
+   "pred": 0.826,
    "hit": 1.0
   },
   "95-100%": {
@@ -43,6 +43,12 @@
    "wins": 0,
    "pred": 0.689,
    "hit": 0.0
+  },
+  "55-60%": {
+   "n": 1,
+   "wins": 1,
+   "pred": 0.551,
+   "hit": 1.0
   },
   "60-65%": {
    "n": 1,
@@ -88,6 +94,12 @@
    "pred": 0.87,
    "hit": 1.0
   },
+  "ita.1": {
+   "n": 6,
+   "wins": 6,
+   "pred": 0.775,
+   "hit": 1.0
+  },
   "esp.1": {
    "n": 4,
    "wins": 3,
@@ -100,12 +112,6 @@
    "pred": 0.948,
    "hit": 1.0
   },
-  "ita.1": {
-   "n": 3,
-   "wins": 3,
-   "pred": 0.825,
-   "hit": 1.0
-  },
   "ger.1": {
    "n": 3,
    "wins": 1,
@@ -115,9 +121,9 @@
  },
  "by_market": {
   "total": {
-   "n": 32,
-   "wins": 32,
-   "pred": 0.885,
+   "n": 33,
+   "wins": 33,
+   "pred": 0.883,
    "hit": 1.0
   },
   "spread": {
@@ -127,10 +133,10 @@
    "hit": 0.929
   },
   "dc": {
-   "n": 6,
-   "wins": 4,
-   "pred": 0.755,
-   "hit": 0.667
+   "n": 7,
+   "wins": 5,
+   "pred": 0.76,
+   "hit": 0.714
   },
   "ml": {
    "n": 1,
@@ -145,10 +151,10 @@
    "hit": 1.0
   },
   "ml3": {
-   "n": 2,
-   "wins": 1,
-   "pred": 0.548,
-   "hit": 0.5
+   "n": 3,
+   "wins": 2,
+   "pred": 0.549,
+   "hit": 0.667
   }
  },
  "parlays": {
@@ -171,10 +177,10 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 149,
-  "avg_clv_pts": -0.16,
-  "beat_close": 36,
-  "worse_than_close": 46
+  "legs_tracked": 156,
+  "avg_clv_pts": -0.19,
+  "beat_close": 35,
+  "worse_than_close": 52
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
