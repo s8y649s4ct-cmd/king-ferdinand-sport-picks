@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KFSP build: fetch ESPN + FanDuel public JSON, build per-game best legs, parlays 1-27,
+"""KFSP build: fetch ESPN + FanDuel public JSON, build per-game best legs, parlays 1-25,
 lines/history/stats. Idempotent; slow fetches cached (FanDuel 4 min, geocode/boxscores forever)."""
 import json,os,re,time,math,datetime,unicodedata,urllib.request,urllib.parse
 from concurrent.futures import ThreadPoolExecutor
@@ -223,6 +223,7 @@ for L in cands:
   if k not in best or (L['prob'],-abs(L['odds']))>(best[k]['prob'],-abs(best[k]['odds'])): best[k]=L
 pool=sorted([L for L in best.values() if G[L['event']]['state']=='pre'],key=lambda L:-L['prob'])
 started=[L for L in best.values() if G[L['event']]['state']!='pre']
+MAXLEGS=25  # FanDuel max selections per bet slip
 def dec(o): return 1+(o/100 if o>0 else 100/-o)
 # Ladder: each size built separately, spreading legs so one loss can't sink every ticket.
 # Greedy from 1 leg up: unused games first (best leg), then least-used games; prefer a different market than before;
@@ -231,7 +232,7 @@ byg={}
 for L in cands:
   if G[L['event']]['state']=='pre': byg.setdefault(L['event'],[]).append(L)
 for v in byg.values(): v.sort(key=lambda L:-L['prob'])
-NG=len(byg); NMAX=min(27,NG); CAP=max(1,math.ceil(sum(range(1,NMAX+1))/max(NG,1)))+1
+NG=len(byg); NMAX=min(MAXLEGS,NG); CAP=max(1,math.ceil(sum(range(1,NMAX+1))/max(NG,1)))+1
 guse={}; luse={}; pars=[]
 for n in range(1,NMAX+1):
   opts=[]
@@ -269,8 +270,8 @@ for n in range(3,7):
   if len(bpool)<n: break
   P=math.prod(x['prob'] for x in bpool[:n]); D=math.prod(dec(x['odds']) for x in bpool[:n])
   if D>=3.5 and (not bestp or P*math.log(D)>bestp['score']): bestp={'n':n,'legs':[x['id'] for x in bpool[:n]],'est_prob':round(P,4),'fd_payout_x':round(D,2),'score':P*math.log(D)}
-# ---------- lottery tickets: max sum log(p) s.t. sum log(dec) >= log(target), <=27 legs, one per game ----------
-def lottery(cands,G,target,maxn=27):
+# ---------- lottery tickets: max sum log(p) s.t. sum log(dec) >= log(target), <=25 legs, one per game ----------
+def lottery(cands,G,target,maxn=25):
   byg={}
   for L in cands:
     if G[L['event']]['state']!='pre' or not L.get('verified',True): continue
@@ -302,13 +303,13 @@ lot=[]; lotlegs={}
 for T in cfg.get('lottery_tiers',[25,100,500,1000,10000,100000,1000000]):
   r=lottery(cands,G,T)
   if r: lot.append(tix(r[1],f'~{T:,}x',T)); lotlegs.update({L['id']:L for L in r[1]})
-# 27-leg (or max) lottery: best-edge leg per game, top 27 by edge then prob
+# 25-leg (FanDuel max) lottery: best-edge leg per game, top 25 by edge then prob
 eg={}
 for L in cands:
   if G[L['event']]['state']!='pre' or not L.get('verified',True): continue
   k=L['event']
   if k not in eg or (edge(L),L['prob'])>(edge(eg[k]),eg[k]['prob']): eg[k]=L
-e27=sorted(eg.values(),key=lambda L:(-edge(L),-L['prob']))[:27]
+e27=sorted(eg.values(),key=lambda L:(-edge(L),-L['prob']))[:MAXLEGS]
 if e27: lot.append(tix(e27,f'{len(e27)}-leg best-edge lottery')); lotlegs.update({L['id']:L for L in e27})
 for L in {**ladlegs,**lotlegs,**bb}.values():
   L.setdefault('why',f"FanDuel no-vig {L.get('fd_prob',0)*100:.1f}%"+(f", line model {L['dist_prob']*100:.1f}%" if L.get('dist_prob') is not None else '')+(f", team model {L['model']*100:.1f}%" if L.get('model') is not None else '')+f" -> est. {L['prob']*100:.1f}% (edge {edge(L)*100:+.1f} pts)"+(f"; research {L['research_adj']*100:+.1f} pts: "+'; '.join(L['research']) if L.get('research') else ''))
@@ -426,11 +427,20 @@ def fdlink(ids):
         p=L['id'].split(':')
         if len(p)<3: continue
         ms.append(p[2]);ss.append(p[1])
+    ms,ss=ms[:MAXLEGS],ss[:MAXLEGS]
     if not ms: return None
     return 'https://sportsbook.fanduel.com/addToBetslip?'+'&'.join(f'marketId%5B{i}%5D={m}&selectionId%5B{i}%5D={x}' for i,(m,x) in enumerate(zip(ms,ss)))
 for L in out['legs'].values():
     p=L['id'].split(':'); L['fd_market_id']=p[2] if len(p)>2 else None; L['fd_selection_id']=p[1] if len(p)>2 else None; L['fd_link']=fdlink([L['id']]); L['fd_region']='PA' if (L['fd_market_id'] or '').startswith('742.') else 'NJ-fallback (not PA-verified)'
 for p in out['parlays']+(out['lottery'] or []): p['fd_link']=fdlink(p['legs'])
 if out['best']: out['best']['fd_link']=fdlink(out['best']['legs'])
+# King's Favorites: Best Parlay + top 3 ladder tickets by EV among est. chance >= 50%
+for p in out['parlays']: p['favorite']=False
+for t in out['lottery'] or []: t['favorite']=False
+_c=sorted([p for p in out['parlays'] if p['est_prob']>=0.5 and p['n']>=2],key=lambda p:-p['ev'])[:3]
+for p in _c: p['favorite']=True
+if out['best']: out['best']['favorite']=True
+if out['feature']: out['feature']['favorite']=True
+out['favorite_rule']="Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with an estimated hit chance of 50% or more."
 json.dump(out,open('picks.json','w'),indent=1)
 print('cands',len(cands),'games w/ leg',len(best),'pool',len(pool),'parlays',len(pars),'best',bestp and bestp['n'],'kinds',kinds)
