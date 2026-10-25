@@ -1,7 +1,13 @@
 {
- "updated": "2026-10-25 02:32 UTC",
- "graded_legs": 6,
+ "updated": "2026-10-25 02:42 UTC",
+ "graded_legs": 9,
  "calibration": {
+  "80-85%": {
+   "n": 3,
+   "wins": 3,
+   "pred": 0.83,
+   "hit": 1.0
+  },
   "85-90%": {
    "n": 6,
    "wins": 6,
@@ -10,30 +16,30 @@
   }
  },
  "by_sport": {
+  "usa.1": {
+   "n": 5,
+   "wins": 5,
+   "pred": 0.841,
+   "hit": 1.0
+  },
   "nba": {
    "n": 4,
    "wins": 4,
    "pred": 0.889,
    "hit": 1.0
-  },
-  "usa.1": {
-   "n": 2,
-   "wins": 2,
-   "pred": 0.857,
-   "hit": 1.0
   }
  },
  "by_market": {
+  "total": {
+   "n": 5,
+   "wins": 5,
+   "pred": 0.841,
+   "hit": 1.0
+  },
   "spread": {
    "n": 4,
    "wins": 4,
    "pred": 0.889,
-   "hit": 1.0
-  },
-  "total": {
-   "n": 2,
-   "wins": 2,
-   "pred": 0.857,
    "hit": 1.0
   }
  },
