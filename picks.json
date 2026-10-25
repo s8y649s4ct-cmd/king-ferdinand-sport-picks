@@ -1,60 +1,58 @@
 {
- "updated": "2026-10-25 04:41 UTC",
+ "updated": "2026-10-25 04:50 UTC",
  "date": "2026-10-24",
  "legs": {
-  "401856837:12213370:734.192564974": {
+  "401856837:12213226:734.192564974": {
    "kind": "total",
    "ou": "under",
-   "line": 47.5,
-   "id": "401856837:12213370:734.192564974",
+   "line": 48.5,
+   "id": "401856837:12213226:734.192564974",
    "event": "401856837",
    "sport": "college-football",
    "game": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "market": "Alternate Total Points",
-   "pick": "Under (47.5)",
-   "odds": -850,
-   "fd_prob": 0.8562,
+   "pick": "Under (48.5)",
+   "odds": -1000,
+   "fd_prob": 0.8699,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 04:41 UTC",
-   "dist_prob": 0.7625,
-   "market_prob": 0.8093,
-   "prob": 0.8093
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 04:50 UTC",
+   "dist_prob": 0.8043,
+   "market_prob": 0.8371,
+   "prob": 0.8371
   },
-  "401864527:12194315:734.192564904": {
-   "kind": "total",
-   "ou": "under",
-   "line": 42.5,
-   "id": "401864527:12194315:734.192564904",
+  "401864527:602744:734.192148623": {
+   "kind": "ml",
+   "side": "home",
+   "id": "401864527:602744:734.192148623",
    "event": "401864527",
    "sport": "college-football",
    "game": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
-   "market": "Alternate Total Points",
-   "pick": "Under (42.5)",
-   "odds": -950,
-   "fd_prob": 0.8658,
+   "market": "Moneyline",
+   "pick": "New Mexico",
+   "odds": -900,
+   "fd_prob": 0.848,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 04:41 UTC",
-   "dist_prob": 0.7398,
-   "market_prob": 0.8028,
-   "prob": 0.8028
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 04:50 UTC",
+   "market_prob": 0.848,
+   "prob": 0.848
   },
-  "401892575:48094062:734.192564959": {
-   "kind": "spread",
-   "side": "home",
-   "line": 11.5,
-   "id": "401892575:48094062:734.192564959",
+  "401892575:12197205:734.192564974": {
+   "kind": "total",
+   "ou": "over",
+   "line": 27.5,
+   "id": "401892575:12197205:734.192564974",
    "event": "401892575",
    "sport": "nhl",
    "game": "Tampa Bay Lightning at Utah Mammoth",
    "start": "2026-10-25T01:00Z",
-   "market": "Alternate Spread",
-   "pick": "Utah (+11.5)",
+   "market": "Alternate Total Points",
+   "pick": "Over (27.5)",
    "odds": -1000,
    "fd_prob": 0.8699,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 04:41 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 04:50 UTC",
    "market_prob": 0.8699,
    "prob": 0.8699
   }
@@ -63,9 +61,9 @@
  "lottery": [],
  "best": null,
  "started": [
-  "401856837:12213370:734.192564974",
-  "401864527:12194315:734.192564904",
-  "401892575:48094062:734.192564959"
+  "401856837:12213226:734.192564974",
+  "401864527:602744:734.192148623",
+  "401892575:12197205:734.192564974"
  ],
  "games": [
   {
@@ -74,7 +72,7 @@
    "name": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "state": "in",
-   "status": "3:29 - 3rd",
+   "status": "End of 3rd",
    "venue": "Rice-Eccles Stadium",
    "indoor": false,
    "city": {
@@ -115,7 +113,7 @@
     "away": {
      "name": "Houston Cougars",
      "short": "Houston",
-     "score": "10",
+     "score": "13",
      "winner": null,
      "record": "6-1",
      "ml_open": null,
@@ -129,7 +127,7 @@
    "name": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
    "state": "in",
-   "status": "2:10 - 3rd",
+   "status": "14:54 - 4th",
    "venue": "University Stadium (NM)",
    "indoor": false,
    "city": {
@@ -4742,7 +4740,7 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-10-25 04:41 UTC",
+  "updated": "2026-10-25 04:50 UTC",
   "graded_legs": 35,
   "calibration": {
    "85-90%": {
@@ -4829,5 +4827,5 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "194 FanDuel-priced candidates (ml, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
+ "note": "187 FanDuel-priced candidates (ml, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
 }
