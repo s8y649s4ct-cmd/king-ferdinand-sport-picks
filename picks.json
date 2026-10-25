@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25 05:18 UTC",
+ "updated": "2026-10-25 05:30 UTC",
  "date": "2026-10-24",
  "legs": {
   "401856837:532780:734.192147020": {
@@ -12,49 +12,29 @@
    "start": "2026-10-25T02:15Z",
    "market": "Moneyline",
    "pick": "Utah",
-   "odds": -245,
-   "fd_prob": 0.6701,
+   "odds": -330,
+   "fd_prob": 0.7229,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:18 UTC",
-   "market_prob": 0.6701,
-   "prob": 0.6701
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:30 UTC",
+   "market_prob": 0.7229,
+   "prob": 0.7229
   },
-  "401864527:6868752:734.192148622": {
-   "kind": "spread",
-   "side": "away",
-   "line": 5.5,
-   "id": "401864527:6868752:734.192148622",
-   "event": "401864527",
-   "sport": "college-football",
-   "game": "North Dakota State Bison at New Mexico Lobos",
-   "start": "2026-10-25T02:20Z",
-   "market": "Spread",
-   "pick": "North Dakota State +5.5",
-   "odds": -500,
-   "fd_prob": 0.7778,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 05:18 UTC",
-   "dist_prob": 0.5,
-   "market_prob": 0.6389,
-   "prob": 0.6389
-  },
-  "401892575:36045494:734.192147018": {
-   "kind": "spread",
-   "side": "away",
-   "line": 1.5,
-   "id": "401892575:36045494:734.192147018",
+  "401892575:532780:734.192147020": {
+   "kind": "ml",
+   "side": "home",
+   "id": "401892575:532780:734.192147020",
    "event": "401892575",
    "sport": "nhl",
    "game": "Tampa Bay Lightning at Utah Mammoth",
    "start": "2026-10-25T01:00Z",
-   "market": "Spread",
-   "pick": "Houston +1.5",
+   "market": "Moneyline",
+   "pick": "Utah",
    "odds": -330,
-   "fd_prob": 0.72,
+   "fd_prob": 0.7229,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:18 UTC",
-   "market_prob": 0.72,
-   "prob": 0.72
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:30 UTC",
+   "market_prob": 0.7229,
+   "prob": 0.7229
   }
  },
  "parlays": [],
@@ -62,8 +42,7 @@
  "best": null,
  "started": [
   "401856837:532780:734.192147020",
-  "401864527:6868752:734.192148622",
-  "401892575:36045494:734.192147018"
+  "401892575:532780:734.192147020"
  ],
  "games": [
   {
@@ -72,7 +51,7 @@
    "name": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "state": "in",
-   "status": "5:41 - 4th",
+   "status": "2:27 - 4th",
    "venue": "Rice-Eccles Stadium",
    "indoor": false,
    "city": {
@@ -127,7 +106,7 @@
    "name": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
    "state": "in",
-   "status": "4:23 - 4th",
+   "status": "0:35 - 4th",
    "venue": "University Stadium (NM)",
    "indoor": false,
    "city": {
@@ -4592,6 +4571,11 @@
   },
   {
    "team": "Tampa Bay Lightning",
+   "t": "Zemgus Girgensons - Day-To-Day: day-to-day",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Tampa Bay Lightning",
    "t": "Victor Hedman - Out: Hedman (lower body) won't play Saturday versus the Mammoth.",
    "src": "ESPN injuries feed"
   },
@@ -4743,9 +4727,17 @@
    "src": "open-meteo"
   }
  ],
- "moves": [],
+ "moves": [
+  {
+   "g": "Houston Cougars at Utah Utes",
+   "team": "Utah",
+   "open": -245,
+   "now": -330,
+   "src": "FanDuel (since first snapshot)"
+  }
+ ],
  "stats": {
-  "updated": "2026-10-25 05:18 UTC",
+  "updated": "2026-10-25 05:30 UTC",
   "graded_legs": 35,
   "calibration": {
    "85-90%": {
@@ -4832,5 +4824,5 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "15 FanDuel-priced candidates (ml, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
+ "note": "8 FanDuel-priced candidates (ml, total) across 2 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
 }
