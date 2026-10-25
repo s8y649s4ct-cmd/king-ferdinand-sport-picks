@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25 05:38 UTC",
+ "updated": "2026-10-25 05:47 UTC",
  "graded_legs": 36,
  "calibration": {
   "85-90%": {
@@ -81,7 +81,17 @@
  },
  "parlays": {
   "graded": 23,
-  "won": 2
+  "won": 2,
+  "expected": 4.01,
+  "pending": 49,
+  "by_type": {
+   "ladder": {
+    "graded": 23,
+    "won": 2,
+    "expected": 4.0
+   }
+  },
+  "note": "Ladder tickets are nested (each adds one leg to the last), so one losing leg sinks every larger ticket at once."
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }

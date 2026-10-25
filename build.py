@@ -4,7 +4,14 @@ lines/history/stats. Idempotent; slow fetches cached (FanDuel 4 min, geocode/box
 import json,os,re,time,datetime,unicodedata,urllib.request,urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 UTC=datetime.timezone.utc; now=datetime.datetime.now(UTC); NOW=now.strftime('%Y-%m-%d %H:%M UTC')
-cfg=json.load(open('legs.json')); notes=json.load(open('notes.json')); DATE=cfg['date']
+cfg=json.load(open('legs.json')); notes=json.load(open('notes.json'))
+from zoneinfo import ZoneInfo
+ET=now.astimezone(ZoneInfo('America/New_York'))
+# slate rolls over at 1 AM ET (older slates keep grading from history); override with legs.json "date_override"
+DATE=cfg.get('date_override') or (ET-datetime.timedelta(hours=1)).strftime('%Y-%m-%d')
+NEXT=(datetime.date.fromisoformat(DATE)+datetime.timedelta(days=1)).strftime('%Y-%m-%d')
+# manual team estimates only apply to the slate they were written for
+if cfg.get('date')!=DATE: cfg['models']={}
 FLOOR,CEIL=cfg['odds_floor'],cfg['odds_ceiling']; K='FhMFpcPWXMeyZxOx'; FD='https://sbapi.nj.sportsbook.fanduel.com/api/'
 os.makedirs('.cache',exist_ok=True)
 def load(f,d):
@@ -24,12 +31,28 @@ def imp(o):
 def norm(s): return unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
 STOP={'fc','cf','city','united','utd','state','the','de','afc','sc','st','university','club','real'}
 def toks(s): return {w for w in re.findall(r'[a-z]+',norm(s)) if len(w)>2 and w not in STOP}
-SPORTS={'college-football':'football','nba':'basketball','nhl':'hockey','mlb':'baseball','eng.1':'soccer','esp.1':'soccer','ita.1':'soccer','ger.1':'soccer','fra.1':'soccer','usa.1':'soccer'}
+SPORTS={'nfl':'football','college-football':'football','nba':'basketball','nhl':'hockey','mlb':'baseball','eng.1':'soccer','esp.1':'soccer','ita.1':'soccer','ger.1':'soccer','fra.1':'soccer','usa.1':'soccer'}
 # ---------- ESPN games ----------
+def espn_events(lg,sp,day,ttl=0):
+  d=get(f'https://site.api.espn.com/apis/site/v2/sports/{sp}/{lg}/scoreboard?dates={day.replace("-","")}&limit=300',ttl=ttl) or {}
+  return d.get('events',[])
+def parse(e,lg):
+    c=e['competitions'][0]; o=(c.get('odds') or [{}])[0] or {}; ml=o.get('moneyline') or {}
+    g={'id':e['id'],'sport':lg,'name':e['name'],'start':e['date'],'state':e['status']['type']['state'],'status':e['status']['type']['shortDetail'],
+       'venue':c.get('venue',{}).get('fullName'),'indoor':c.get('venue',{}).get('indoor'),'city':c.get('venue',{}).get('address') or {},
+       'espn_wx':e.get('weather'),'line':o.get('details'),'total':o.get('overUnder'),'book':(o.get('provider') or {}).get('name'),'teams':{}}
+    for t in c['competitors']:
+      m=ml.get(t['homeAway']) or {}
+      g['teams'][t['homeAway']]={'name':t['team']['displayName'],'short':t['team'].get('shortDisplayName',''),'score':t.get('score'),'winner':t.get('winner'),
+        'record':(t.get('records') or [{}])[0].get('summary'),'ml_open':(m.get('open') or {}).get('odds'),'ml':(m.get('close') or {}).get('odds')}
+    return g
 games=[]
 for lg,sp in SPORTS.items():
-  d=get(f'https://site.api.espn.com/apis/site/v2/sports/{sp}/{lg}/scoreboard?dates={DATE.replace("-","")}&limit=300') or {}
-  for e in d.get('events',[]):
+  evs=espn_events(lg,sp,DATE)
+  # also next day's games starting within 18h (e.g. early slate) so the board isn't empty late at night
+  evs+=[e for e in espn_events(lg,sp,NEXT,ttl=600) if (datetime.datetime.fromisoformat(e['date'].replace('Z','+00:00'))-now).total_seconds()<18*3600]
+  for e in {e['id']:e for e in evs}.values():
+    games.append(parse(e,lg)); continue
     c=e['competitions'][0]; o=(c.get('odds') or [{}])[0] or {}; ml=o.get('moneyline') or {}
     g={'id':e['id'],'sport':lg,'name':e['name'],'start':e['date'],'state':e['status']['type']['state'],'status':e['status']['type']['shortDetail'],
        'venue':c.get('venue',{}).get('fullName'),'indoor':c.get('venue',{}).get('indoor'),'city':c.get('venue',{}).get('address') or {},
@@ -41,7 +64,7 @@ for lg,sp in SPORTS.items():
     games.append(g)
 G={g['id']:g for g in games}
 # ---------- FanDuel events ----------
-pages=[('CUSTOM','nba'),('CUSTOM','nhl'),('CUSTOM','ncaaf'),('CUSTOM','mlb'),('SPORT','1')]
+pages=[('CUSTOM','nfl'),('CUSTOM','nba'),('CUSTOM','nhl'),('CUSTOM','ncaaf'),('CUSTOM','mlb'),('SPORT','1')]
 fdev=[]
 for typ,pid in pages:
   q=f"page={typ}&"+(f"customPageId={pid}" if typ=='CUSTOM' else f"eventTypeId={pid}")
@@ -73,7 +96,7 @@ def side_of(g,txt):
 def num(s):
   m=re.search(r'([+-]?\d+(?:\.\d+)?)\)?\s*(?:goals?)?\s*$',s,re.I); return float(m.group(1)) if m else None
 models=cfg['models']
-SD={'nba':(12.0,17.0),'college-football':(15.0,14.0)}
+SD={'nba':(12.0,17.0),'college-football':(15.0,14.0),'nfl':(13.5,13.0)}
 from math import erf,sqrt
 def ncdf(x): return 0.5*(1+erf(x/sqrt(2)))
 MAIN={}
@@ -113,13 +136,13 @@ for g in games:
       elif mt=='MATCH_HANDICAP_(2-WAY)' and len(rs)==2:
         p=imp(o)/S; L={'kind':'spread','side':side_of(g,nm),'line':r.get('handicap')}
       elif mt in('ALTERNATE_HANDICAP','ALTERNATE_HANDICAPS','ALTERNATE_RUN_LINES','ALTERNATE_PUCK_LINE','ALTERNATE_PUCK_LINES','ALTERNATE_SPREAD'):
-        p=imp(o)/ALT_VIG; L={'kind':'spread','side':side_of(g,nm),'line':num(nm)}
+        p=imp(o)/(ALT_VIG if o>-500 else 1.06); L={'kind':'spread','side':side_of(g,nm),'line':num(nm)}
       elif mt=='TOTAL_POINTS_(OVER/UNDER)' and len(rs)==2:
         p=imp(o)/S; L={'kind':'total','ou':nm.split()[0].lower(),'line':r.get('handicap')}
       elif re.fullmatch(r'OVER_UNDER_\d+',mt) and len(rs)==2:
         p=imp(o)/S; L={'kind':'total','ou':nm.split()[0].lower(),'line':num(nm.replace(' Goals',''))}
       elif mt in('ALTERNATE_TOTAL','ALTERNATE_TOTAL_POINTS','ALTERNATE_TOTAL_RUNS','ALTERNATE_TOTAL_GOALS'):
-        p=imp(o)/ALT_VIG; L={'kind':'total','ou':nm.split()[0].lower(),'line':num(nm)}
+        p=imp(o)/(ALT_VIG if o>-500 else 1.06); L={'kind':'total','ou':nm.split()[0].lower(),'line':num(nm)}
       elif g['sport']=='nba':
         mm=re.fullmatch(r'TO_(?:SCORE|RECORD)_(\d+)\+_(POINTS|REBOUNDS|ASSISTS)',mt) or re.fullmatch(r'(\d+)\+_MADE_(THREES)',mt)
         if mm: p=imp(o)/PROP_VIG; L={'kind':'prop','player':nm,'stat':mm.group(2)[:3].replace('THR','3PM'),'ou':'over','line':int(mm.group(1))-0.5}
@@ -281,23 +304,34 @@ def grade(L):
     s=boxstats(g).get(norm(L['player']))
     if not s: return 'void'
     v=(s[L['stat']]-L['line'])*(1 if L['ou']=='over' else -1); return 'win' if v>0 else 'loss'
+GH={}
+for d0 in sorted({x['date'] for x in hist if x.get('result') is None and x['date']!=DATE}):
+  for lg,sp in SPORTS.items():
+    for e in espn_events(lg,sp,d0,ttl=300): GH[e['id']]=parse(e,lg)
+G={**GH,**G}
 json.dump(box,open('.cache/box.json','w'))
 # history: one entry per date+n, overwritten until any leg's game starts (then locked)
 H={x['id']:x for x in hist}; LD={L['id']:L for L in cands}
 for p in pars:
   pid=f"{DATE}-{p['n']}"; old=H.get(pid)
   if old and old.get('locked'): continue
-  H[pid]={'id':pid,'date':DATE,'n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
+  H[pid]={'id':pid,'date':DATE,'type':'ladder','n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
+for typ,lab,p in ([('best','best',bestp)] if bestp else [])+[('lottery',t['label'],t) for t in lot]:
+  pid=f"{DATE}-{typ}-{lab}"; old=H.get(pid)
+  if old and old.get('locked'): continue
+  H[pid]={'id':pid,'date':DATE,'type':typ,'label':lab,'n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
 for x in H.values():
-  if not x.get('locked') and any(G.get(l['event'],{}).get('state')!='pre' for l in x['legs_detail']): x['locked']=True
-  if x['result'] is None and x['date']==DATE:
+  if not x.get('locked') and x['date']==DATE and any(G.get(l['event'],{}).get('state')!='pre' for l in x['legs_detail']): x['locked']=True
+  if x['date']!=DATE: x['locked']=True
+  if x['result'] is None:
     for l in x['legs_detail']:
       if l.get('result') is None:
         l['result']=grade(l)
     r=[l.get('result') for l in x['legs_detail']]
     if 'loss' in r: x['result']='loss'
     elif r and all(v in('win','void') for v in r): x['result']='win'
-hist=sorted(H.values(),key=lambda x:(x['date'],x['n'])); json.dump(hist,open('picks.history.json','w'),indent=1)
+H={k:v for k,v in H.items() if v.get('locked') or v['date']==DATE}
+hist=sorted(H.values(),key=lambda x:(x['date'],x.get('type','ladder'),x['n'])); json.dump(hist,open('picks.history.json','w'),indent=1)
 # stats (unique graded legs)
 seen={}
 for x in hist:
@@ -311,8 +345,12 @@ def agg(key):
   for b in o.values(): b['hit']=round(b['wins']/b['n'],3); b['pred']=round(b['pred']/b['n'],3)
   return o
 par=[x for x in hist if x['result']]
+exp=sum(x['est_prob'] for x in par)
+bytype={}
+for x in par:
+  b=bytype.setdefault(x.get('type','ladder'),{'graded':0,'won':0,'expected':0}); b['graded']+=1; b['won']+=x['result']=='win'; b['expected']=round(b['expected']+x['est_prob'],2)
 stats={'updated':NOW,'graded_legs':len(seen),'calibration':agg(lambda l:bucket(l['prob'])),'by_sport':agg(lambda l:l['sport']),'by_market':agg(lambda l:l['kind']),
- 'parlays':{'graded':len(par),'won':sum(x['result']=='win' for x in par)},'note':'Calibration factor applied to a probability bucket once it has 30+ graded legs.'}
+ 'parlays':{'graded':len(par),'won':sum(x['result']=='win' for x in par),'expected':round(exp,2),'pending':sum(1 for x in hist if not x['result']),'by_type':bytype,'note':'Ladder tickets are nested (each adds one leg to the last), so one losing leg sinks every larger ticket at once.'},'note':'Calibration factor applied to a probability bucket once it has 30+ graded legs.'}
 json.dump(stats,open('stats.json','w'),indent=1)
 # ---------- output ----------
 kinds=sorted({L['kind'] for L in cands})
