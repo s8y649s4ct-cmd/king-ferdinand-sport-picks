@@ -1,71 +1,69 @@
 {
- "updated": "2026-10-25 05:09 UTC",
+ "updated": "2026-10-25 05:18 UTC",
  "date": "2026-10-24",
  "legs": {
-  "401856837:12197168:734.192564974": {
-   "kind": "total",
-   "ou": "under",
-   "line": 45.5,
-   "id": "401856837:12197168:734.192564974",
+  "401856837:532780:734.192147020": {
+   "kind": "ml",
+   "side": "home",
+   "id": "401856837:532780:734.192147020",
    "event": "401856837",
    "sport": "college-football",
    "game": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
-   "market": "Alternate Total Points",
-   "pick": "Under (45.5)",
-   "odds": -1000,
-   "fd_prob": 0.8699,
+   "market": "Moneyline",
+   "pick": "Utah",
+   "odds": -245,
+   "fd_prob": 0.6701,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:09 UTC",
-   "dist_prob": 0.784,
-   "market_prob": 0.827,
-   "prob": 0.827
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:18 UTC",
+   "market_prob": 0.6701,
+   "prob": 0.6701
   },
-  "401864527:12197172:734.192564904": {
-   "kind": "total",
-   "ou": "under",
-   "line": 43.5,
-   "id": "401864527:12197172:734.192564904",
+  "401864527:6868752:734.192148622": {
+   "kind": "spread",
+   "side": "away",
+   "line": 5.5,
+   "id": "401864527:6868752:734.192148622",
    "event": "401864527",
    "sport": "college-football",
    "game": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
-   "market": "Alternate Total Points",
-   "pick": "Under (43.5)",
-   "odds": -850,
-   "fd_prob": 0.8562,
+   "market": "Spread",
+   "pick": "North Dakota State +5.5",
+   "odds": -500,
+   "fd_prob": 0.7778,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 05:09 UTC",
-   "dist_prob": 0.6915,
-   "market_prob": 0.7738,
-   "prob": 0.7738
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202476, fetched 2026-10-25 05:18 UTC",
+   "dist_prob": 0.5,
+   "market_prob": 0.6389,
+   "prob": 0.6389
   },
-  "401892575:12197205:734.192564974": {
-   "kind": "total",
-   "ou": "over",
-   "line": 27.5,
-   "id": "401892575:12197205:734.192564974",
+  "401892575:36045494:734.192147018": {
+   "kind": "spread",
+   "side": "away",
+   "line": 1.5,
+   "id": "401892575:36045494:734.192147018",
    "event": "401892575",
    "sport": "nhl",
    "game": "Tampa Bay Lightning at Utah Mammoth",
    "start": "2026-10-25T01:00Z",
-   "market": "Alternate Total Points",
-   "pick": "Over (27.5)",
-   "odds": -1000,
-   "fd_prob": 0.8699,
+   "market": "Spread",
+   "pick": "Houston +1.5",
+   "odds": -330,
+   "fd_prob": 0.72,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:09 UTC",
-   "market_prob": 0.8699,
-   "prob": 0.8699
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36202449, fetched 2026-10-25 05:18 UTC",
+   "market_prob": 0.72,
+   "prob": 0.72
   }
  },
  "parlays": [],
  "lottery": [],
  "best": null,
  "started": [
-  "401856837:12197168:734.192564974",
-  "401864527:12197172:734.192564904",
-  "401892575:12197205:734.192564974"
+  "401856837:532780:734.192147020",
+  "401864527:6868752:734.192148622",
+  "401892575:36045494:734.192147018"
  ],
  "games": [
   {
@@ -74,7 +72,7 @@
    "name": "Houston Cougars at Utah Utes",
    "start": "2026-10-25T02:15Z",
    "state": "in",
-   "status": "9:59 - 4th",
+   "status": "5:41 - 4th",
    "venue": "Rice-Eccles Stadium",
    "indoor": false,
    "city": {
@@ -83,10 +81,10 @@
     "country": "USA"
    },
    "espn_wx": {
-    "displayValue": "34",
-    "temperature": 42,
-    "highTemperature": 42,
-    "conditionId": "Mostly clear",
+    "displayValue": "33",
+    "temperature": 44,
+    "highTemperature": 44,
+    "conditionId": "Clear",
     "link": {
      "language": "en-US",
      "rel": [
@@ -129,7 +127,7 @@
    "name": "North Dakota State Bison at New Mexico Lobos",
    "start": "2026-10-25T02:20Z",
    "state": "in",
-   "status": "7:55 - 4th",
+   "status": "4:23 - 4th",
    "venue": "University Stadium (NM)",
    "indoor": false,
    "city": {
@@ -138,10 +136,10 @@
     "country": "USA"
    },
    "espn_wx": {
-    "displayValue": "7",
+    "displayValue": "15",
     "temperature": 59,
     "highTemperature": 59,
-    "conditionId": "Cloudy",
+    "conditionId": "Thunderstorm",
     "link": {
      "language": "en-US",
      "rel": [
@@ -170,7 +168,7 @@
     "away": {
      "name": "North Dakota State Bison",
      "short": "N Dakota St",
-     "score": "9",
+     "score": "16",
      "winner": null,
      "record": "6-1",
      "ml_open": null,
@@ -4701,12 +4699,12 @@
  "weather": [
   {
    "g": "Houston Cougars at Utah Utes",
-   "w": "34, 42F",
+   "w": "33, 44F",
    "src": "ESPN/AccuWeather"
   },
   {
    "g": "North Dakota State Bison at New Mexico Lobos",
-   "w": "7, 59F",
+   "w": "15, 59F",
    "src": "ESPN/AccuWeather"
   },
   {
@@ -4745,17 +4743,9 @@
    "src": "open-meteo"
   }
  ],
- "moves": [
-  {
-   "g": "North Dakota State Bison at New Mexico Lobos",
-   "team": "Under (43.5)",
-   "open": -950,
-   "now": -850,
-   "src": "FanDuel (since first snapshot)"
-  }
- ],
+ "moves": [],
  "stats": {
-  "updated": "2026-10-25 05:09 UTC",
+  "updated": "2026-10-25 05:18 UTC",
   "graded_legs": 35,
   "calibration": {
    "85-90%": {
@@ -4842,5 +4832,5 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "144 FanDuel-priced candidates (ml, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
+ "note": "15 FanDuel-priced candidates (ml, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs."
 }
