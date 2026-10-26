@@ -390,6 +390,7 @@ json.dump(box,open('.cache/box.json','w'))
 try: MC=v2.shadow(list(ALLC.values()),G,grade,DATE,NOW,cfg,best,LIVE)
 except Exception as e: print('shadow fail',e); MC=MC0
 # history: one entry per date+n, overwritten until any leg's game starts (then locked)
+_oldfav={x['id']:{'favorite':x.get('favorite'),'favorite_source':x.get('favorite_source'),'locked':x.get('locked')} for x in hist}
 H={x['id']:x for x in hist}; LD={L['id']:L for L in cands}
 for p in pars:
   pid=f"{DATE}-{p['n']}"; old=H.get(pid)
@@ -409,6 +410,14 @@ for x in H.values():
     r=[l.get('result') for l in x['legs_detail']]
     if 'loss' in r: x['result']='loss'
     elif r and all(v in('win','void') for v in r): x['result']='win'
+# King's Favorites flag on history (same rule as the board): logged at lock time, sticky once True
+_favids={f"{DATE}-{p['n']}" for p in sorted([p for p in pars if p['est_prob']>=0.5 and p['n']>=2],key=lambda p:-p.get('ev',p['est_prob']*p['fd_payout_x']))[:3]}
+if bestp: _favids.add(f"{DATE}-best-best")
+for k,x in H.items():
+  o=_oldfav.get(k)
+  if o and o.get('favorite'): x['favorite']=True; x['favorite_source']=o.get('favorite_source','logged')
+  elif x['date']==DATE and not (o or {}).get('locked') and k in _favids: x['favorite']=True; x['favorite_source']='logged'
+  else: x.setdefault('favorite',False)
 H={k:v for k,v in H.items() if v.get('locked') or v['date']==DATE}
 hist=sorted(H.values(),key=lambda x:(x['date'],x.get('type','ladder'),x['n'])); CLVH=v2.hist_clv(hist,ALLC,G); json.dump(hist,open('picks.history.json','w'),indent=1)
 # stats (unique graded legs)
@@ -431,10 +440,16 @@ for x in par:
 stats={'updated':NOW,'graded_legs':len(seen),'calibration':agg(lambda l:bucket(l['prob'])),'by_sport':agg(lambda l:l['sport']),'by_market':agg(lambda l:l['kind']),
  'parlays':{'graded':len(par),'won':sum(x['result']=='win' for x in par),'expected':round(exp,2),'pending':sum(1 for x in hist if not x['result']),'by_type':bytype,'note':'Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket).'},'clv':CLVH,'note':'Calibration factor applied to a probability bucket once it has 30+ graded legs.'}
 json.dump(stats,open('stats.json','w'),indent=1)
+_fv=[x for x in hist if x.get('favorite')]
+def _fr(xs):
+  w=sum(x['result']=='win' for x in xs); l=sum(x['result']=='loss' for x in xs); return {'won':w,'lost':l,'pending':sum(1 for x in xs if not x['result']),'win_pct':round(w/(w+l),3) if w+l else None}
+FAVREC={**_fr(_fv),'by_legs':{str(n):_fr([x for x in _fv if x['n']==n]) for n in sorted({x['n'] for x in _fv})},
+ 'tickets':[{'id':x['id'],'date':x['date'],'type':x.get('type') or 'ladder','n':x['n'],'est_prob':x['est_prob'],'fd_payout_x':x['fd_payout_x'],'result':x['result'],'source':x.get('favorite_source','logged'),
+   'legs':[{'pick':l.get('pick'),'game':l.get('game'),'odds':l.get('odds'),'result':l.get('result')} for l in x['legs_detail']]} for x in sorted(_fv,key=lambda x:(x['date'],x['n']),reverse=True)]}
 # ---------- output ----------
 kinds=sorted({L['kind'] for L in cands})
 out={'updated':NOW,'date':DATE,'ladder_stats':ladder_stats,'legs':{**{L['id']:L for L in best.values()},**ladlegs,**({i:next(x for x in bpool if x['id']==i) for i in bestp['legs']} if bestp else {}),**lotlegs},'parlays':pars,'lottery':lot,'best':bestp,'started':[L['id'] for L in started],
- 'games':games,'injuries':inj,'weather':wx,'moves':moves,'stats':stats,'feature':None,
+ 'games':games,'injuries':inj,'weather':wx,'moves':moves,'stats':stats,'favorites_record':FAVREC,'feature':None,
  'note':f"{len(cands)} FanDuel-priced candidates ({', '.join(kinds)}) across {len(best)} games; best single market per game kept (odds {FLOOR} to +{CEIL}); {len(pool)} not-yet-started games -> parlays up to {len(pars)} legs."}
 import feature
 try: out['feature']=feature.build(bestp,out['legs'],games,cands,moves,wx,inj,get,SPORTS,CTX)
