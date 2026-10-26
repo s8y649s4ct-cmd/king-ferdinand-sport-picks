@@ -471,6 +471,10 @@ for L in out['legs'].values():
     p=L['id'].split(':'); L['fd_market_id']=p[2] if len(p)>2 else None; L['fd_selection_id']=p[1] if len(p)>2 else None; L['fd_link']=fdlink([L['id']]); L['fd_region']='PA' if (L['fd_market_id'] or '').startswith('742.') else 'NJ-fallback (not PA-verified)'
 for p in out['parlays']+(out['lottery'] or []): p['fd_link']=fdlink(p['legs'])
 if out['best']: out['best']['fd_link']=fdlink(out['best']['legs'])
+if out.get('feature'):
+  _fl=[x['id'] for x in out['feature']['legs'] if len(x['id'].split(':'))>2]
+  out['feature']['fd_link']=fdlink(_fl) if len(_fl)==len(out['feature']['legs']) else None
+  for x in out['feature']['legs']: x['fd_link']=fdlink([x['id']]) if len(x['id'].split(':'))>2 else None
 # King's Favorites: Best Parlay + top 3 ladder tickets by EV among est. chance >= 50%
 for p in out['parlays']: p['favorite']=False
 for t in out['lottery'] or []: t['favorite']=False
