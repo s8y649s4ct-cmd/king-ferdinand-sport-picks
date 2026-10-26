@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-26 01:19 UTC",
+ "updated": "2026-10-26 01:32 UTC",
  "date": "2026-10-25",
  "ladder_stats": {
-  "tickets": 1,
-  "leg_slots": 1,
-  "unique_legs": 1,
-  "unique_games": 1,
-  "games_available": 1,
-  "max_leg_reuse": 1,
-  "max_game_reuse": 1,
-  "game_cap": 2,
+  "tickets": 2,
+  "leg_slots": 3,
+  "unique_legs": 2,
+  "unique_games": 2,
+  "games_available": 2,
+  "max_leg_reuse": 2,
+  "max_game_reuse": 2,
+  "game_cap": 3,
   "disjoint_up_to": 1
  },
  "legs": {
@@ -27,7 +27,7 @@
    "odds": -600,
    "fd_prob": 0.8086,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:19 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:32 UTC",
    "dist_prob": 0.8757,
    "market_prob": 0.8422,
    "prob": 0.8122,
@@ -45,16 +45,52 @@
    ],
    "research_adj": -0.03,
    "v1_prob": 0.8122,
-   "v2_prob": 0.8276,
+   "v2_prob": 0.8299,
    "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.8273,
-   "sharp_edge": -0.0298,
+   "sharp_prob": 0.83,
+   "sharp_edge": -0.0271,
    "power_prob": 0.8292,
    "power_margin_home": -1.0,
    "why": "FanDuel no-vig 80.9%, line model 87.6% -> est. 81.2% (edge +0.4 pts); research -3.0 pts: rest 1.0d vs 3.0d; we are on a back-to-back (-1.5); travel 119 mi since last game; form 5-5 last 10, avg margin +0.4 vs 1-9 last 10, avg margin -2.0; form edge (+1.0); away record 3-3-2; our key player: G Filip Gustavsson Injured Reserve (-1.0); opponent key player: G Thatcher Demko Injured Reserve; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.193790423",
    "fd_selection_id": "7000410",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193790423&selectionId%5B0%5D=7000410",
+   "fd_region": "PA"
+  },
+  "401876422:21972208:742.191107542": {
+   "kind": "dc",
+   "side": "home",
+   "id": "401876422:21972208:742.191107542",
+   "event": "401876422",
+   "sport": "fra.1",
+   "game": "Lyon at Paris Saint-Germain",
+   "start": "2026-10-26T19:30Z",
+   "market": "Double Chance",
+   "pick": "Paris St-G And Draw",
+   "odds": -1000,
+   "fd_prob": 0.8672,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 01:32 UTC",
+   "market_prob": 0.8672,
+   "prob": 0.9365,
+   "pre_research": 0.8672,
+   "research": [
+    "rest 9.2d vs 8.0d",
+    "travel 247 mi since last game",
+    "form 4-1-2 last 7, avg margin +0.7 vs 4-1-2 last 7, avg margin +1.1",
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.015,
+   "calibrated": true,
+   "v1_prob": 0.9365,
+   "v2_prob": 0.8746,
+   "v2_src": "Pinnacle: Pinnacle 3-way de-vig",
+   "sharp_prob": 0.8746,
+   "sharp_edge": -0.0345,
+   "why": "FanDuel no-vig 86.7% -> est. 93.7% (edge +6.9 pts); research -1.5 pts: rest 9.2d vs 8.0d; travel 247 mi since last game; form 4-1-2 last 7, avg margin +0.7 vs 4-1-2 last 7, avg margin +1.1; low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.191107542",
+   "fd_selection_id": "21972208",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208",
    "fd_region": "PA"
   },
   "401892581:25604:742.193519427": {
@@ -71,7 +107,7 @@
    "odds": 126,
    "fd_prob": 0.4219,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:19 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:32 UTC",
    "dist_prob": 0.5,
    "market_prob": 0.4609,
    "prob": 0.4309,
@@ -89,10 +125,10 @@
    ],
    "research_adj": -0.03,
    "v1_prob": 0.4309,
-   "v2_prob": 0.4203,
+   "v2_prob": 0.4242,
    "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.4205,
-   "sharp_edge": -0.022,
+   "sharp_prob": 0.425,
+   "sharp_edge": -0.0175,
    "power_prob": 0.4196,
    "power_margin_home": -1.0,
    "why": "FanDuel no-vig 42.2%, line model 50.0% -> est. 43.1% (edge +0.9 pts); research -3.0 pts: rest 1.0d vs 3.0d; we are on a back-to-back (-1.5); travel 119 mi since last game; form 5-5 last 10, avg margin +0.4 vs 1-9 last 10, avg margin -2.0; form edge (+1.0); away record 3-3-2; our key player: G Filip Gustavsson Injured Reserve (-1.0); opponent key player: G Thatcher Demko Injured Reserve; low-scoring sport, one goal decides line (-1.5 volatility)",
@@ -106,32 +142,48 @@
   {
    "n": 1,
    "legs": [
+    "401876422:21972208:742.191107542"
+   ],
+   "est_prob": 0.9365,
+   "fd_payout_x": 1.1,
+   "ev": 0.03,
+   "shared_legs": 1,
+   "shared_games": 1,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208",
+   "favorite": false,
+   "corr_prob": 0.93585
+  },
+  {
+   "n": 2,
+   "legs": [
+    "401876422:21972208:742.191107542",
     "401892581:7000410:742.193790423"
    ],
-   "est_prob": 0.8122,
-   "fd_payout_x": 1.17,
-   "ev": -0.052,
-   "shared_legs": 0,
-   "shared_games": 0,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193790423&selectionId%5B0%5D=7000410",
-   "favorite": false,
-   "corr_prob": 0.81088
+   "est_prob": 0.76063,
+   "fd_payout_x": 1.28,
+   "ev": -0.024,
+   "shared_legs": 1,
+   "shared_games": 1,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208&marketId%5B1%5D=742.193790423&selectionId%5B1%5D=7000410",
+   "favorite": true,
+   "corr_prob": 0.76077
   }
  ],
  "lottery": [
   {
-   "label": "1-leg best-edge lottery",
+   "label": "2-leg best-edge lottery",
    "target_x": null,
-   "n": 1,
+   "n": 2,
    "legs": [
+    "401876422:21972208:742.191107542",
     "401892581:25604:742.193519427"
    ],
-   "est_prob": 0.4309,
-   "fd_payout_x": 2.26,
+   "est_prob": 0.40353785000000003,
+   "fd_payout_x": 2.49,
    "one_in": 2,
-   "fd_odds": "+126",
-   "ev": -0.026,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193519427&selectionId%5B0%5D=25604",
+   "fd_odds": "+149",
+   "ev": 0.003,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208&marketId%5B1%5D=742.193519427&selectionId%5B1%5D=25604",
    "favorite": false
   }
  ],
@@ -144,7 +196,7 @@
    "name": "Kansas City Chiefs at Seattle Seahawks",
    "start": "2026-10-26T00:20Z",
    "state": "in",
-   "status": "2:00 - 2nd",
+   "status": "1:29 - 2nd",
    "venue": "Lumen Field",
    "indoor": false,
    "city": {
@@ -176,7 +228,7 @@
     "home": {
      "name": "Seattle Seahawks",
      "short": "Seahawks",
-     "score": "3",
+     "score": "10",
      "winner": null,
      "record": "3-3",
      "ml_open": null,
@@ -815,7 +867,7 @@
    "name": "Orlando Magic at New York Knicks",
    "start": "2026-10-25T23:00Z",
    "state": "in",
-   "status": "3:22 - 4th",
+   "status": "56.7 - 4th",
    "venue": "Madison Square Garden",
    "indoor": true,
    "city": {
@@ -830,7 +882,7 @@
     "home": {
      "name": "New York Knicks",
      "short": "Knicks",
-     "score": "91",
+     "score": "95",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -843,7 +895,7 @@
     "away": {
      "name": "Orlando Magic",
      "short": "Magic",
-     "score": "98",
+     "score": "104",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -861,7 +913,7 @@
    "name": "Toronto Raptors at Minnesota Timberwolves",
    "start": "2026-10-25T23:00Z",
    "state": "in",
-   "status": "6:23 - 4th",
+   "status": "1:38 - 4th",
    "venue": "Target Center",
    "indoor": true,
    "city": {
@@ -876,7 +928,7 @@
     "home": {
      "name": "Minnesota Timberwolves",
      "short": "Timberwolves",
-     "score": "103",
+     "score": "114",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -889,7 +941,7 @@
     "away": {
      "name": "Toronto Raptors",
      "short": "Raptors",
-     "score": "75",
+     "score": "89",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -906,8 +958,8 @@
    "sport": "nba",
    "name": "LA Clippers at Oklahoma City Thunder",
    "start": "2026-10-25T23:00Z",
-   "state": "in",
-   "status": "1:14 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Paycom Center",
    "indoor": true,
    "city": {
@@ -922,28 +974,28 @@
     "home": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "103",
-     "winner": null,
-     "record": "2-0",
+     "score": "108",
+     "winner": true,
+     "record": "3-0",
      "ml_open": null,
      "ml": null,
      "tid": "25",
      "abbr": "OKC",
-     "home_rec": "1-0",
+     "home_rec": "2-0",
      "road_rec": "1-0"
     },
     "away": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "99",
-     "winner": null,
-     "record": "1-1",
+     "score": "101",
+     "winner": false,
+     "record": "1-2",
      "ml_open": null,
      "ml": null,
      "tid": "12",
      "abbr": "LAC",
      "home_rec": "1-0",
-     "road_rec": "0-1"
+     "road_rec": "0-2"
     }
    }
   },
@@ -953,7 +1005,7 @@
    "name": "Detroit Pistons at Philadelphia 76ers",
    "start": "2026-10-25T23:30Z",
    "state": "in",
-   "status": "5:44 - 3rd",
+   "status": "1:24 - 3rd",
    "venue": "Xfinity Mobile Arena",
    "indoor": true,
    "city": {
@@ -968,7 +1020,7 @@
     "home": {
      "name": "Philadelphia 76ers",
      "short": "76ers",
-     "score": "58",
+     "score": "67",
      "winner": null,
      "record": "3-0",
      "ml_open": null,
@@ -981,7 +1033,7 @@
     "away": {
      "name": "Detroit Pistons",
      "short": "Pistons",
-     "score": "67",
+     "score": "74",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -999,7 +1051,7 @@
    "name": "Memphis Grizzlies at Sacramento Kings",
    "start": "2026-10-26T01:00Z",
    "state": "in",
-   "status": "7:25 - 1st",
+   "status": "2:51 - 1st",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -1014,7 +1066,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "11",
+     "score": "21",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -1027,7 +1079,7 @@
     "away": {
      "name": "Memphis Grizzlies",
      "short": "Grizzlies",
-     "score": "13",
+     "score": "19",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -1139,7 +1191,7 @@
    "name": "Montreal Canadiens at Winnipeg Jets",
    "start": "2026-10-25T23:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "15:11 - 3rd",
    "venue": "Princess Auto Stadium",
    "indoor": false,
    "city": {
@@ -1186,7 +1238,7 @@
    "name": "Colorado Avalanche at Nashville Predators",
    "start": "2026-10-26T00:00Z",
    "state": "in",
-   "status": "13:07 - 2nd",
+   "status": "6:03 - 2nd",
    "venue": "Bridgestone Arena",
    "indoor": true,
    "city": {
@@ -2287,12 +2339,58 @@
    }
   },
   {
+   "id": "401876422",
+   "sport": "fra.1",
+   "name": "Lyon at Paris Saint-Germain",
+   "start": "2026-10-26T19:30Z",
+   "state": "pre",
+   "status": "Scheduled",
+   "venue": "Parc des Princes",
+   "indoor": null,
+   "city": {
+    "city": "Paris",
+    "country": "France"
+   },
+   "espn_wx": null,
+   "line": "PSG -265",
+   "total": 3.5,
+   "book": "DraftKings",
+   "teams": {
+    "home": {
+     "name": "Paris Saint-Germain",
+     "short": "PSG",
+     "score": "0",
+     "winner": false,
+     "record": "4-2-1",
+     "ml_open": "-260",
+     "ml": "-265",
+     "tid": "160",
+     "abbr": "PSG",
+     "home_rec": null,
+     "road_rec": null
+    },
+    "away": {
+     "name": "Lyon",
+     "short": "Lyon",
+     "score": "0",
+     "winner": false,
+     "record": "4-2-1",
+     "ml_open": "+550",
+     "ml": "+600",
+     "tid": "167",
+     "abbr": "LYON",
+     "home_rec": null,
+     "road_rec": null
+    }
+   }
+  },
+  {
    "id": "761904",
    "sport": "usa.1",
    "name": "LA Galaxy at LAFC",
    "start": "2026-10-26T01:00Z",
    "state": "in",
-   "status": "6'",
+   "status": "19'",
    "venue": "BMO Stadium",
    "indoor": null,
    "city": {
@@ -2581,7 +2679,7 @@
   },
   {
    "team": "Oklahoma City Thunder",
-   "t": "Jaylin Williams - Out: Williams won't return to Sunday's game against the Clippers due to right wrist soreness, Nick Crain of SLAM reports.",
+   "t": "Jaylin Williams - Day-To-Day: Williams won't return to Sunday's game against the Clippers due to right wrist soreness, Nick Crain of SLAM reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2872,6 +2970,11 @@
    "src": "ESPN/AccuWeather"
   },
   {
+   "g": "Lyon at Paris Saint-Germain",
+   "w": "56.2F, wind 7.4 mph, rain 0%",
+   "src": "open-meteo"
+  },
+  {
    "g": "LA Galaxy at LAFC",
    "w": "71.3F, wind 6.9 mph, rain 0%",
    "src": "open-meteo"
@@ -2893,6 +2996,20 @@
    "src": "ESPN/DraftKings"
   },
   {
+   "g": "Lyon at Paris Saint-Germain",
+   "team": "Paris Saint-Germain",
+   "open": "-260",
+   "now": "-265",
+   "src": "ESPN/DraftKings"
+  },
+  {
+   "g": "Lyon at Paris Saint-Germain",
+   "team": "Lyon",
+   "open": "+550",
+   "now": "+600",
+   "src": "ESPN/DraftKings"
+  },
+  {
    "g": "LA Galaxy at LAFC",
    "team": "LAFC",
    "open": "-210",
@@ -2908,8 +3025,8 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-26 01:19 UTC",
-  "graded_legs": 98,
+  "updated": "2026-10-26 01:32 UTC",
+  "graded_legs": 107,
   "calibration": {
    "85-90%": {
     "n": 30,
@@ -2930,10 +3047,10 @@
     "hit": 1.0
    },
    "95-100%": {
-    "n": 22,
-    "wins": 21,
-    "pred": 0.957,
-    "hit": 0.955
+    "n": 29,
+    "wins": 28,
+    "pred": 0.958,
+    "hit": 0.966
    },
    "90-95%": {
     "n": 11,
@@ -2953,17 +3070,23 @@
     "pred": 0.689,
     "hit": 0.0
    },
+   "25-30%": {
+    "n": 1,
+    "wins": 0,
+    "pred": 0.28,
+    "hit": 0.0
+   },
+   "20-25%": {
+    "n": 2,
+    "wins": 0,
+    "pred": 0.238,
+    "hit": 0.0
+   },
    "30-35%": {
     "n": 1,
     "wins": 1,
     "pred": 0.307,
     "hit": 1.0
-   },
-   "20-25%": {
-    "n": 1,
-    "wins": 0,
-    "pred": 0.234,
-    "hit": 0.0
    },
    "40-45%": {
     "n": 3,
@@ -3004,10 +3127,10 @@
     "hit": 1.0
    },
    "nba": {
-    "n": 25,
-    "wins": 23,
-    "pred": 0.894,
-    "hit": 0.92
+    "n": 34,
+    "wins": 30,
+    "pred": 0.87,
+    "hit": 0.882
    },
    "nhl": {
     "n": 15,
@@ -3048,16 +3171,16 @@
   },
   "by_market": {
    "total": {
-    "n": 54,
-    "wins": 52,
-    "pred": 0.898,
-    "hit": 0.963
+    "n": 57,
+    "wins": 55,
+    "pred": 0.9,
+    "hit": 0.965
    },
    "spread": {
-    "n": 29,
-    "wins": 26,
-    "pred": 0.827,
-    "hit": 0.897
+    "n": 33,
+    "wins": 30,
+    "pred": 0.844,
+    "hit": 0.909
    },
    "dc": {
     "n": 8,
@@ -3078,9 +3201,9 @@
     "hit": 1.0
    },
    "prop": {
-    "n": 1,
+    "n": 3,
     "wins": 0,
-    "pred": 0.234,
+    "pred": 0.252,
     "hit": 0.0
    },
    "ml3": {
@@ -3091,10 +3214,10 @@
    }
   },
   "parlays": {
-   "graded": 41,
+   "graded": 43,
    "won": 6,
    "expected": 7.1,
-   "pending": 37,
+   "pending": 36,
    "by_type": {
     "ladder": {
      "graded": 34,
@@ -3102,7 +3225,7 @@
      "expected": 6.99
     },
     "lottery": {
-     "graded": 7,
+     "graded": 9,
      "won": 0,
      "expected": 0.1
     }
@@ -3110,7 +3233,7 @@
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
   },
   "clv": {
-   "legs_tracked": 171,
+   "legs_tracked": 172,
    "avg_clv_pts": -0.13,
    "beat_close": 52,
    "worse_than_close": 53
@@ -3118,47 +3241,47 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "20 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 1 legs.",
+ "note": "31 FanDuel-priced candidates (dc, dnb, ml, ml3, spread, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 177,
-   "brier": 0.1363,
-   "logloss": 0.447,
-   "picks": 38,
+   "n": 188,
+   "brier": 0.1286,
+   "logloss": 0.4241,
+   "picks": 39,
    "avg_clv_fd_pts": -0.01,
    "avg_clv_sharp_pts": 0.12,
-   "top_picks_graded": 26,
-   "top_picks_won": 26,
-   "top_picks_expected": 22.99,
+   "top_picks_graded": 27,
+   "top_picks_won": 27,
+   "top_picks_expected": 23.97,
    "top_win_rate": 1.0
   },
   "v2": {
-   "n": 177,
-   "brier": 0.137,
-   "logloss": 0.4465,
-   "picks": 36,
+   "n": 188,
+   "brier": 0.1296,
+   "logloss": 0.4269,
+   "picks": 37,
    "avg_clv_fd_pts": 0.16,
-   "avg_clv_sharp_pts": 0.04,
-   "top_picks_graded": 26,
-   "top_picks_won": 23,
-   "top_picks_expected": 22.68,
-   "top_win_rate": 0.8846153846153846
+   "avg_clv_sharp_pts": 0.05,
+   "top_picks_graded": 27,
+   "top_picks_won": 24,
+   "top_picks_expected": 23.62,
+   "top_win_rate": 0.8888888888888888
   },
-  "graded": 177,
+  "graded": 188,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 177,
-    "v2": 177,
+    "v1": 188,
+    "v2": 188,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.447,
-    "v2": 0.4465,
-    "pass": true
+    "v1": 0.4241,
+    "v2": 0.4269,
+    "pass": false
    },
    {
     "name": "v2 higher avg CLV vs FanDuel",
@@ -3169,19 +3292,19 @@
    {
     "name": "v2 higher avg CLV vs Pinnacle",
     "v1": 0.12,
-    "v2": 0.04,
+    "v2": 0.05,
     "pass": false
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 26,
-    "v2": 26,
+    "v1": 27,
+    "v2": 27,
     "pass": false
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "26/26",
-    "v2": "23/26",
+    "v1": "27/27",
+    "v2": "24/27",
     "pass": false
    }
   ],
@@ -3191,13 +3314,13 @@
   "live_model": "v1",
   "v2_info": {
    "pinnacle": {
-    "leagues_ok": 1,
-    "leagues": 1,
-    "games_matched": 1,
-    "games_pre": 1
+    "leagues_ok": 2,
+    "leagues": 2,
+    "games_matched": 2,
+    "games_pre": 2
    },
-   "candidates_pre": 20,
-   "sharp_covered": 20,
+   "candidates_pre": 31,
+   "sharp_covered": 31,
    "sharp_coverage_pct": 100.0,
    "power": {
     "nhl": {
@@ -3208,7 +3331,7 @@
    "injury_adjusted_teams": 0
   },
   "clv_v1_history": {
-   "legs_tracked": 171,
+   "legs_tracked": 172,
    "avg_clv_pts": -0.13,
    "beat_close": 52,
    "worse_than_close": 53
@@ -3216,16 +3339,18 @@
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 6,
-   "of": 20,
+   "dropped": 15,
+   "of": 31,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
-    "Over 4.5 (Minnesota Wild at Vancouver Canucks) -650: FanDuel implies 86.7% vs Pinnacle fair 75.8%",
-    "Minnesota Wild -2.5 (Minnesota Wild at Vancouver Canucks) +174: FanDuel implies 36.5% vs Pinnacle fair 29.5%",
-    "Over 5.5 (Minnesota Wild at Vancouver Canucks) -196: FanDuel implies 66.2% vs Pinnacle fair 61.1%",
-    "Over 7.5 (Minnesota Wild at Vancouver Canucks) +200: FanDuel implies 33.3% vs Pinnacle fair 28.9%",
-    "Vancouver Canucks +3.5 (Minnesota Wild at Vancouver Canucks) -650: FanDuel implies 86.7% vs Pinnacle fair 82.2%",
-    "Over 6.5 (Minnesota Wild at Vancouver Canucks) -118: FanDuel implies 54.1% vs Pinnacle fair 50.5%"
+    "Over 4.5 (Minnesota Wild at Vancouver Canucks) -650: FanDuel implies 86.7% vs Pinnacle fair 75.6%",
+    "Minnesota Wild -2.5 (Minnesota Wild at Vancouver Canucks) +174: FanDuel implies 36.5% vs Pinnacle fair 29.8%",
+    "Over 5.5 (Minnesota Wild at Vancouver Canucks) -196: FanDuel implies 66.2% vs Pinnacle fair 61.0%",
+    "Paris St-G (Lyon at Paris Saint-Germain) -900: FanDuel implies 90.0% vs Pinnacle fair 85.1%",
+    "Vancouver Canucks +3.5 (Minnesota Wild at Vancouver Canucks) -650: FanDuel implies 86.7% vs Pinnacle fair 82.0%",
+    "Over 7.5 (Minnesota Wild at Vancouver Canucks) +200: FanDuel implies 33.3% vs Pinnacle fair 28.7%",
+    "Paris St-G (Lyon at Paris Saint-Germain) -320: FanDuel implies 76.2% vs Pinnacle fair 71.8%",
+    "Over 6.5 (Minnesota Wild at Vancouver Canucks) -118: FanDuel implies 54.1% vs Pinnacle fair 50.0%"
    ]
   }
  },

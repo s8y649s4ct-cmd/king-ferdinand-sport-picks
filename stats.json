@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26 01:19 UTC",
- "graded_legs": 98,
+ "updated": "2026-10-26 01:32 UTC",
+ "graded_legs": 107,
  "calibration": {
   "85-90%": {
    "n": 30,
@@ -21,10 +21,10 @@
    "hit": 1.0
   },
   "95-100%": {
-   "n": 22,
-   "wins": 21,
-   "pred": 0.957,
-   "hit": 0.955
+   "n": 29,
+   "wins": 28,
+   "pred": 0.958,
+   "hit": 0.966
   },
   "90-95%": {
    "n": 11,
@@ -44,17 +44,23 @@
    "pred": 0.689,
    "hit": 0.0
   },
+  "25-30%": {
+   "n": 1,
+   "wins": 0,
+   "pred": 0.28,
+   "hit": 0.0
+  },
+  "20-25%": {
+   "n": 2,
+   "wins": 0,
+   "pred": 0.238,
+   "hit": 0.0
+  },
   "30-35%": {
    "n": 1,
    "wins": 1,
    "pred": 0.307,
    "hit": 1.0
-  },
-  "20-25%": {
-   "n": 1,
-   "wins": 0,
-   "pred": 0.234,
-   "hit": 0.0
   },
   "40-45%": {
    "n": 3,
@@ -95,10 +101,10 @@
    "hit": 1.0
   },
   "nba": {
-   "n": 25,
-   "wins": 23,
-   "pred": 0.894,
-   "hit": 0.92
+   "n": 34,
+   "wins": 30,
+   "pred": 0.87,
+   "hit": 0.882
   },
   "nhl": {
    "n": 15,
@@ -139,16 +145,16 @@
  },
  "by_market": {
   "total": {
-   "n": 54,
-   "wins": 52,
-   "pred": 0.898,
-   "hit": 0.963
+   "n": 57,
+   "wins": 55,
+   "pred": 0.9,
+   "hit": 0.965
   },
   "spread": {
-   "n": 29,
-   "wins": 26,
-   "pred": 0.827,
-   "hit": 0.897
+   "n": 33,
+   "wins": 30,
+   "pred": 0.844,
+   "hit": 0.909
   },
   "dc": {
    "n": 8,
@@ -169,9 +175,9 @@
    "hit": 1.0
   },
   "prop": {
-   "n": 1,
+   "n": 3,
    "wins": 0,
-   "pred": 0.234,
+   "pred": 0.252,
    "hit": 0.0
   },
   "ml3": {
@@ -182,10 +188,10 @@
   }
  },
  "parlays": {
-  "graded": 41,
+  "graded": 43,
   "won": 6,
   "expected": 7.1,
-  "pending": 37,
+  "pending": 36,
   "by_type": {
    "ladder": {
     "graded": 34,
@@ -193,7 +199,7 @@
     "expected": 6.99
    },
    "lottery": {
-    "graded": 7,
+    "graded": 9,
     "won": 0,
     "expected": 0.1
    }
@@ -201,7 +207,7 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 171,
+  "legs_tracked": 172,
   "avg_clv_pts": -0.13,
   "beat_close": 52,
   "worse_than_close": 53
