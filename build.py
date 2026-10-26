@@ -410,14 +410,14 @@ for x in H.values():
     r=[l.get('result') for l in x['legs_detail']]
     if 'loss' in r: x['result']='loss'
     elif r and all(v in('win','void') for v in r): x['result']='win'
-# King's Favorites flag on history (same rule as the board): logged at lock time, sticky once True
+# King's Favorites flag on history: tracks the board until the ticket locks, then frozen (green at lock = favorite)
 _favids={f"{DATE}-{p['n']}" for p in sorted([p for p in pars if p['est_prob']>=0.5 and p['n']>=2],key=lambda p:-p.get('ev',p['est_prob']*p['fd_payout_x']))[:3]}
 if bestp: _favids.add(f"{DATE}-best-best")
 for k,x in H.items():
   o=_oldfav.get(k)
-  if o and o.get('favorite'): x['favorite']=True; x['favorite_source']=o.get('favorite_source','logged')
-  elif x['date']==DATE and not (o or {}).get('locked') and k in _favids: x['favorite']=True; x['favorite_source']='logged'
-  else: x.setdefault('favorite',False)
+  if o and o.get('locked'): continue  # frozen at lock: keep whatever it was when its games started
+  if x['date']==DATE and k in _favids: x['favorite']=True; x['favorite_source']='logged'
+  else: x['favorite']=False; x.pop('favorite_source',None)  # not green right now (unlocked tickets follow the board until lock)
 H={k:v for k,v in H.items() if v.get('locked') or v['date']==DATE}
 hist=sorted(H.values(),key=lambda x:(x['date'],x.get('type','ladder'),x['n'])); CLVH=v2.hist_clv(hist,ALLC,G); json.dump(hist,open('picks.history.json','w'),indent=1)
 # stats (unique graded legs)

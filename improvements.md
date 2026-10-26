@@ -29,5 +29,5 @@
 **Expected effect:** higher ladder ticket win rate (backtest 8 -> 14 of 25 on one slate); unproven, re-check daily. Nothing guaranteed.
 
 ## 2026-10-26: King's Favorites tracking
-- picks.history.json entries now carry `favorite` (bool) and `favorite_source` ('logged' = flagged at lock time by build.py; 'reconstructed' = backfilled with the green rule). Sticky once True.
+- picks.history.json entries now carry `favorite` (bool) and `favorite_source` ('logged' = flagged at lock time by build.py; 'reconstructed' = backfilled with the green rule). Tracks the board until the ticket locks, then frozen: favorite = green at lock time.
 - picks.json `favorites_record` has won/lost/pending/win_pct, `by_legs`, and per-ticket legs. Daily review should grade green tickets from these fields.
