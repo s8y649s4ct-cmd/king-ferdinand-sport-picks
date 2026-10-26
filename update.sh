@@ -10,4 +10,5 @@ exec 9>.update.lock; flock -n 9 || { echo "another refresh running; skip"; exit 
 python3 build.py
 timeout 300 python3 extra.py || echo "extra.py failed; live/props board left as-is"
 timeout 300 python3 extra2.py || echo "extra2.py failed; TD / NBA 3s & rebounds board left as-is"
+timeout 120 python3 md.py || echo "md.py failed; Maryland links left as-is"
 ./publish.sh
