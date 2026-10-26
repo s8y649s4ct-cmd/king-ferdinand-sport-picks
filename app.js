@@ -62,5 +62,5 @@ function applyRegion(root){(root||document).querySelectorAll('a.fdbtn[data-pa]')
  else{a.href=pa;a.textContent=a.dataset.t;a.classList.remove('off');a.removeAttribute('aria-disabled');}});}
 function setRegion(r){REG=r;localStorage.setItem('fdRegion',r);const b=document.getElementById('region');if(b){b.textContent='FanDuel: '+r;b.setAttribute('aria-label','FanDuel state '+r+', tap to switch');}applyRegion();}
 function loadMd(){fetch('md.json?'+Date.now()).then(r=>r.json()).then(d=>{MDMAP=d.map||{};applyRegion();}).catch(()=>{MDMAP={};applyRegion();});}
-document.addEventListener('DOMContentLoaded',()=>{const b=document.getElementById('region');if(b)b.onclick=()=>setRegion(REG==='PA'?'MD':'PA');setRegion(REG);loadMd();setInterval(loadMd,600000);
- new MutationObserver(ms=>{if(REG==='MD')ms.forEach(m=>m.addedNodes.forEach(n=>n.nodeType===1&&applyRegion(n)));}).observe(document.body,{childList:true,subtree:true});});
+(function initRegion(){const b=document.getElementById('region');if(b)b.onclick=()=>setRegion(REG==='PA'?'MD':'PA');setRegion(REG);loadMd();setInterval(loadMd,600000);
+ new MutationObserver(ms=>{if(REG==='MD')ms.forEach(m=>m.addedNodes.forEach(n=>n.nodeType===1&&applyRegion(n)));}).observe(document.body,{childList:true,subtree:true});})();
