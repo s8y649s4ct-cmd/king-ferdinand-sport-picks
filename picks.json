@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 02:05 UTC",
+ "updated": "2026-10-26 02:20 UTC",
  "date": "2026-10-25",
  "ladder_stats": {
   "tickets": 2,
@@ -13,35 +13,6 @@
   "disjoint_up_to": 1
  },
  "legs": {
-  "401892581:7000410:742.193790423": {
-   "kind": "spread",
-   "side": "away",
-   "line": 1.5,
-   "id": "401892581:7000410:742.193790423",
-   "event": "401892581",
-   "sport": "nhl",
-   "game": "Minnesota Wild at Vancouver Canucks",
-   "start": "2026-10-26T02:00Z",
-   "market": "Alternate Puck Line",
-   "pick": "Minnesota Wild +1.5",
-   "odds": -600,
-   "fd_prob": 0.8086,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 02:05 UTC",
-   "dist_prob": 0.8757,
-   "market_prob": 0.8422,
-   "prob": 0.8422,
-   "pre_research": 0.8422,
-   "research": [
-    "research: game started or no data"
-   ],
-   "research_adj": 0,
-   "v1_prob": 0.8422,
-   "fd_market_id": "742.193790423",
-   "fd_selection_id": "7000410",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193790423&selectionId%5B0%5D=7000410",
-   "fd_region": "PA"
-  },
   "401882828:13579486:742.191108229": {
    "kind": "dc",
    "side": "home",
@@ -55,7 +26,7 @@
    "odds": -475,
    "fd_prob": 0.7744,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 02:05 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 02:20 UTC",
    "market_prob": 0.7744,
    "prob": 0.7627,
    "pre_research": 0.7744,
@@ -91,7 +62,7 @@
    "odds": -1000,
    "fd_prob": 0.8672,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 02:05 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 02:20 UTC",
    "market_prob": 0.8672,
    "prob": 0.9365,
    "pre_research": 0.8672,
@@ -127,7 +98,7 @@
    "odds": -115,
    "fd_prob": 0.5088,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 02:05 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 02:20 UTC",
    "market_prob": 0.5088,
    "prob": 0.5121,
    "pre_research": 0.5088,
@@ -200,9 +171,7 @@
   }
  ],
  "best": null,
- "started": [
-  "401892581:7000410:742.193790423"
- ],
+ "started": [],
  "games": [
   {
    "id": "401873022",
@@ -210,7 +179,7 @@
    "name": "Kansas City Chiefs at Seattle Seahawks",
    "start": "2026-10-26T00:20Z",
    "state": "in",
-   "status": "11:19 - 3rd",
+   "status": "5:47 - 3rd",
    "venue": "Lumen Field",
    "indoor": false,
    "city": {
@@ -219,10 +188,10 @@
     "country": "USA"
    },
    "espn_wx": {
-    "displayValue": "38",
-    "temperature": 55,
-    "highTemperature": 55,
-    "conditionId": "Mostly cloudy",
+    "displayValue": "34",
+    "temperature": 53,
+    "highTemperature": 53,
+    "conditionId": "Mostly clear",
     "link": {
      "language": "en-US",
      "rel": [
@@ -242,7 +211,7 @@
     "home": {
      "name": "Seattle Seahawks",
      "short": "Seahawks",
-     "score": "10",
+     "score": "13",
      "winner": null,
      "record": "3-3",
      "ml_open": null,
@@ -1018,8 +987,8 @@
    "sport": "nba",
    "name": "Detroit Pistons at Philadelphia 76ers",
    "start": "2026-10-25T23:30Z",
-   "state": "in",
-   "status": "2:48 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Xfinity Mobile Arena",
    "indoor": true,
    "city": {
@@ -1034,28 +1003,28 @@
     "home": {
      "name": "Philadelphia 76ers",
      "short": "76ers",
-     "score": "91",
-     "winner": null,
-     "record": "3-0",
+     "score": "93",
+     "winner": false,
+     "record": "3-1",
      "ml_open": null,
      "ml": null,
      "tid": "20",
      "abbr": "PHI",
-     "home_rec": "2-0",
+     "home_rec": "2-1",
      "road_rec": "1-0"
     },
     "away": {
      "name": "Detroit Pistons",
      "short": "Pistons",
-     "score": "99",
-     "winner": null,
-     "record": "2-0",
+     "score": "106",
+     "winner": true,
+     "record": "3-0",
      "ml_open": null,
      "ml": null,
      "tid": "8",
      "abbr": "DET",
      "home_rec": "1-0",
-     "road_rec": "1-0"
+     "road_rec": "2-0"
     }
    }
   },
@@ -1065,7 +1034,7 @@
    "name": "Memphis Grizzlies at Sacramento Kings",
    "start": "2026-10-26T01:00Z",
    "state": "in",
-   "status": "1:42 - 2nd",
+   "status": "Halftime",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -1080,7 +1049,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "53",
+     "score": "59",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -1093,7 +1062,7 @@
     "away": {
      "name": "Memphis Grizzlies",
      "short": "Grizzlies",
-     "score": "63",
+     "score": "67",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -1252,7 +1221,7 @@
    "name": "Colorado Avalanche at Nashville Predators",
    "start": "2026-10-26T00:00Z",
    "state": "in",
-   "status": "19:55 - 3rd",
+   "status": "11:24 - 3rd",
    "venue": "Bridgestone Arena",
    "indoor": true,
    "city": {
@@ -1281,7 +1250,7 @@
     "away": {
      "name": "Colorado Avalanche",
      "short": "Avalanche",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "6-4-1",
      "ml_open": null,
@@ -1299,7 +1268,7 @@
    "name": "Minnesota Wild at Vancouver Canucks",
    "start": "2026-10-26T02:00Z",
    "state": "in",
-   "status": "10/25 - 10:00 PM EDT",
+   "status": "13:06 - 1st",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -1308,9 +1277,9 @@
     "country": "Canada"
    },
    "espn_wx": null,
-   "line": "MIN -205",
-   "total": 6.5,
-   "book": "Draft Kings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "Vancouver Canucks",
@@ -1318,8 +1287,8 @@
      "score": "0",
      "winner": null,
      "record": "2-9-1",
-     "ml_open": "+142",
-     "ml": "+170",
+     "ml_open": null,
+     "ml": null,
      "tid": "22",
      "abbr": "VAN",
      "home_rec": "1-4-0",
@@ -1331,8 +1300,8 @@
      "score": "0",
      "winner": null,
      "record": "7-3-2",
-     "ml_open": "-170",
-     "ml": "-205",
+     "ml_open": null,
+     "ml": null,
      "tid": "30",
      "abbr": "MIN",
      "home_rec": "4-0-0",
@@ -2450,7 +2419,7 @@
    "name": "LA Galaxy at LAFC",
    "start": "2026-10-26T01:00Z",
    "state": "in",
-   "status": "HT",
+   "status": "46'",
    "venue": "BMO Stadium",
    "indoor": null,
    "city": {
@@ -2794,11 +2763,6 @@
   },
   {
    "team": "Philadelphia 76ers",
-   "t": "Kentavious Caldwell-Pope - Day-To-Day: Caldwell-Pope left Sunday's game against the Pistons due to an apparent right wrist injury, Chris Hine of The Philly Inquirer reports.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "Philadelphia 76ers",
    "t": "VJ Edgecombe - Out: Edgecombe (abdomen) is out for Sunday's game against the Pistons, Adam Aaronson of PhillyVoice.com reports.",
    "src": "ESPN injuries feed"
   },
@@ -3041,7 +3005,7 @@
  "weather": [
   {
    "g": "Kansas City Chiefs at Seattle Seahawks",
-   "w": "38, 55F",
+   "w": "34, 53F",
    "src": "ESPN/AccuWeather"
   },
   {
@@ -3061,20 +3025,6 @@
   }
  ],
  "moves": [
-  {
-   "g": "Minnesota Wild at Vancouver Canucks",
-   "team": "Vancouver Canucks",
-   "open": "+142",
-   "now": "+170",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Minnesota Wild at Vancouver Canucks",
-   "team": "Minnesota Wild",
-   "open": "-170",
-   "now": "-205",
-   "src": "ESPN/DraftKings"
-  },
   {
    "g": "Osasuna at Sevilla",
    "team": "Sevilla",
@@ -3119,8 +3069,8 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-26 02:05 UTC",
-  "graded_legs": 128,
+  "updated": "2026-10-26 02:20 UTC",
+  "graded_legs": 137,
   "calibration": {
    "85-90%": {
     "n": 30,
@@ -3141,16 +3091,16 @@
     "hit": 1.0
    },
    "95-100%": {
-    "n": 44,
-    "wins": 42,
-    "pred": 0.959,
-    "hit": 0.955
+    "n": 50,
+    "wins": 47,
+    "pred": 0.96,
+    "hit": 0.94
    },
    "90-95%": {
-    "n": 15,
-    "wins": 13,
-    "pred": 0.943,
-    "hit": 0.867
+    "n": 18,
+    "wins": 15,
+    "pred": 0.944,
+    "hit": 0.833
    },
    "70-75%": {
     "n": 1,
@@ -3227,10 +3177,10 @@
     "hit": 1.0
    },
    "nba": {
-    "n": 52,
-    "wins": 46,
-    "pred": 0.901,
-    "hit": 0.885
+    "n": 61,
+    "wins": 53,
+    "pred": 0.91,
+    "hit": 0.869
    },
    "nhl": {
     "n": 18,
@@ -3271,16 +3221,16 @@
   },
   "by_market": {
    "total": {
-    "n": 66,
-    "wins": 64,
-    "pred": 0.906,
-    "hit": 0.97
+    "n": 70,
+    "wins": 66,
+    "pred": 0.909,
+    "hit": 0.943
    },
    "spread": {
-    "n": 45,
-    "wins": 39,
-    "pred": 0.863,
-    "hit": 0.867
+    "n": 50,
+    "wins": 44,
+    "pred": 0.873,
+    "hit": 0.88
    },
    "dc": {
     "n": 8,
@@ -3314,15 +3264,15 @@
    }
   },
   "parlays": {
-   "graded": 50,
+   "graded": 53,
    "won": 6,
-   "expected": 8.19,
-   "pending": 29,
+   "expected": 9.26,
+   "pending": 26,
    "by_type": {
     "ladder": {
-     "graded": 36,
+     "graded": 39,
      "won": 6,
-     "expected": 7.74
+     "expected": 8.81
     },
     "lottery": {
      "graded": 14,
@@ -3341,46 +3291,46 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "feature": null,
- "note": "42 FanDuel-priced candidates (dc, dnb, ml, ml3, spread, total) across 3 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
+ "note": "22 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 222,
+   "n": 235,
    "brier": 0.1409,
-   "logloss": 0.4685,
+   "logloss": 0.471,
    "picks": 40,
    "avg_clv_fd_pts": -0.01,
    "avg_clv_sharp_pts": 0.12,
-   "top_picks_graded": 30,
-   "top_picks_won": 30,
-   "top_picks_expected": 26.77,
+   "top_picks_graded": 31,
+   "top_picks_won": 31,
+   "top_picks_expected": 27.75,
    "top_win_rate": 1.0
   },
   "v2": {
-   "n": 222,
-   "brier": 0.1401,
-   "logloss": 0.4556,
+   "n": 235,
+   "brier": 0.1397,
+   "logloss": 0.4547,
    "picks": 38,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.04,
-   "top_picks_graded": 30,
-   "top_picks_won": 26,
-   "top_picks_expected": 26.34,
-   "top_win_rate": 0.8666666666666667
+   "top_picks_graded": 31,
+   "top_picks_won": 27,
+   "top_picks_expected": 27.24,
+   "top_win_rate": 0.8709677419354839
   },
-  "graded": 222,
+  "graded": 235,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 222,
-    "v2": 222,
+    "v1": 235,
+    "v2": 235,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4685,
-    "v2": 0.4556,
+    "v1": 0.471,
+    "v2": 0.4547,
     "pass": true
    },
    {
@@ -3397,14 +3347,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 30,
-    "v2": 30,
+    "v1": 31,
+    "v2": 31,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "30/30",
-    "v2": "26/30",
+    "v1": "31/31",
+    "v2": "27/31",
     "pass": false
    }
   ],
@@ -3435,7 +3385,7 @@
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
    "dropped": 11,
-   "of": 42,
+   "of": 22,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
     "Osasuna And Draw (Osasuna at Sevilla) -120: FanDuel implies 54.5% vs Pinnacle fair 49.0%",
