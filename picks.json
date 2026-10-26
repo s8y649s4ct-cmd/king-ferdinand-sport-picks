@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 03:30 UTC",
+ "updated": "2026-10-26 03:32 UTC",
  "date": "2026-10-25",
  "ladder_stats": {
   "tickets": 2,
@@ -26,7 +26,7 @@
    "odds": -475,
    "fd_prob": 0.7744,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:30 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:32 UTC",
    "market_prob": 0.7744,
    "prob": 0.7627,
    "pre_research": 0.7744,
@@ -62,9 +62,9 @@
    "odds": -1000,
    "fd_prob": 0.8672,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 03:30 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 03:32 UTC",
    "market_prob": 0.8672,
-   "prob": 0.9365,
+   "prob": 0.9104,
    "pre_research": 0.8672,
    "research": [
     "rest 9.2d vs 8.0d",
@@ -74,12 +74,12 @@
    ],
    "research_adj": -0.015,
    "calibrated": true,
-   "v1_prob": 0.9365,
+   "v1_prob": 0.9104,
    "v2_prob": 0.8743,
    "v2_src": "Pinnacle: Pinnacle 3-way de-vig",
    "sharp_prob": 0.8743,
    "sharp_edge": -0.0348,
-   "why": "FanDuel no-vig 86.7% -> est. 93.7% (edge +6.9 pts); research -1.5 pts: rest 9.2d vs 8.0d; travel 247 mi since last game; form 4-1-2 last 7, avg margin +0.7 vs 4-1-2 last 7, avg margin +1.1; low-scoring sport, one goal decides line (-1.5 volatility)",
+   "why": "FanDuel no-vig 86.7% -> est. 91.0% (edge +4.3 pts); research -1.5 pts: rest 9.2d vs 8.0d; travel 247 mi since last game; form 4-1-2 last 7, avg margin +0.7 vs 4-1-2 last 7, avg margin +1.1; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.191107542",
    "fd_selection_id": "21972208",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208",
@@ -98,7 +98,7 @@
    "odds": -115,
    "fd_prob": 0.5088,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:30 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:32 UTC",
    "market_prob": 0.5088,
    "prob": 0.5121,
    "pre_research": 0.5088,
@@ -127,14 +127,14 @@
    "legs": [
     "401876422:21972208:742.191107542"
    ],
-   "est_prob": 0.9365,
+   "est_prob": 0.9104,
    "fd_payout_x": 1.1,
-   "ev": 0.03,
+   "ev": 0.001,
    "shared_legs": 1,
    "shared_games": 1,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208",
    "favorite": false,
-   "corr_prob": 0.93585
+   "corr_prob": 0.90917
   },
   {
    "n": 2,
@@ -142,14 +142,14 @@
     "401876422:21972208:742.191107542",
     "401882828:13579486:742.191108229"
    ],
-   "est_prob": 0.71427,
+   "est_prob": 0.69436,
    "fd_payout_x": 1.33,
-   "ev": -0.049,
+   "ev": -0.075,
    "shared_legs": 1,
    "shared_games": 1,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208&marketId%5B1%5D=742.191108229&selectionId%5B1%5D=13579486",
    "favorite": true,
-   "corr_prob": 0.7144
+   "corr_prob": 0.69478
   }
  ],
  "lottery": [
@@ -161,11 +161,11 @@
     "401876422:21972208:742.191107542",
     "401882828:52480974:742.191108218"
    ],
-   "est_prob": 0.47958165,
+   "est_prob": 0.46621584,
    "fd_payout_x": 2.06,
    "one_in": 2,
    "fd_odds": "+106",
-   "ev": -0.014,
+   "ev": -0.041,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.191107542&selectionId%5B0%5D=21972208&marketId%5B1%5D=742.191108218&selectionId%5B1%5D=52480974",
    "favorite": false
   }
@@ -1017,8 +1017,8 @@
    "sport": "nba",
    "name": "Memphis Grizzlies at Sacramento Kings",
    "start": "2026-10-26T01:00Z",
-   "state": "in",
-   "status": "7.0 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -1034,27 +1034,27 @@
      "name": "Sacramento Kings",
      "short": "Kings",
      "score": "112",
-     "winner": null,
-     "record": "0-2",
+     "winner": false,
+     "record": "0-3",
      "ml_open": null,
      "ml": null,
      "tid": "23",
      "abbr": "SAC",
-     "home_rec": "0-1",
+     "home_rec": "0-2",
      "road_rec": "0-1"
     },
     "away": {
      "name": "Memphis Grizzlies",
      "short": "Grizzlies",
      "score": "123",
-     "winner": null,
-     "record": "2-0",
+     "winner": true,
+     "record": "3-0",
      "ml_open": null,
      "ml": null,
      "tid": "29",
      "abbr": "MEM",
      "home_rec": "1-0",
-     "road_rec": "1-0"
+     "road_rec": "2-0"
     }
    }
   },
@@ -1252,7 +1252,7 @@
    "name": "Minnesota Wild at Vancouver Canucks",
    "start": "2026-10-26T02:00Z",
    "state": "in",
-   "status": "5:05 - 2nd",
+   "status": "3:05 - 2nd",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -3039,8 +3039,8 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-26 03:30 UTC",
-  "graded_legs": 152,
+  "updated": "2026-10-26 03:32 UTC",
+  "graded_legs": 155,
   "calibration": {
    "85-90%": {
     "n": 32,
@@ -3066,17 +3066,17 @@
     "pred": 0.688,
     "hit": 0.25
    },
+   "95-100%": {
+    "n": 53,
+    "wins": 50,
+    "pred": 0.961,
+    "hit": 0.943
+   },
    "90-95%": {
     "n": 22,
     "wins": 17,
     "pred": 0.943,
     "hit": 0.773
-   },
-   "95-100%": {
-    "n": 50,
-    "wins": 47,
-    "pred": 0.96,
-    "hit": 0.94
    },
    "70-75%": {
     "n": 1,
@@ -3147,10 +3147,10 @@
     "hit": 1.0
    },
    "nba": {
-    "n": 61,
-    "wins": 53,
-    "pred": 0.91,
-    "hit": 0.869
+    "n": 64,
+    "wins": 56,
+    "pred": 0.913,
+    "hit": 0.875
    },
    "nhl": {
     "n": 23,
@@ -3191,16 +3191,16 @@
   },
   "by_market": {
    "total": {
-    "n": 75,
-    "wins": 69,
-    "pred": 0.897,
-    "hit": 0.92
+    "n": 76,
+    "wins": 70,
+    "pred": 0.898,
+    "hit": 0.921
    },
    "spread": {
-    "n": 57,
-    "wins": 46,
-    "pred": 0.844,
-    "hit": 0.807
+    "n": 59,
+    "wins": 48,
+    "pred": 0.848,
+    "hit": 0.814
    },
    "dc": {
     "n": 9,
@@ -3269,43 +3269,43 @@
  "note": "22 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 258,
-   "brier": 0.1613,
-   "logloss": 0.5223,
+   "n": 267,
+   "brier": 0.156,
+   "logloss": 0.5064,
    "picks": 40,
    "avg_clv_fd_pts": -0.01,
    "avg_clv_sharp_pts": 0.12,
-   "top_picks_graded": 35,
-   "top_picks_won": 34,
-   "top_picks_expected": 31.28,
-   "top_win_rate": 0.9714285714285714
+   "top_picks_graded": 37,
+   "top_picks_won": 36,
+   "top_picks_expected": 33.22,
+   "top_win_rate": 0.972972972972973
   },
   "v2": {
-   "n": 258,
-   "brier": 0.1615,
-   "logloss": 0.5105,
+   "n": 267,
+   "brier": 0.1564,
+   "logloss": 0.4969,
    "picks": 38,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.04,
-   "top_picks_graded": 34,
-   "top_picks_won": 28,
-   "top_picks_expected": 29.81,
-   "top_win_rate": 0.8235294117647058
+   "top_picks_graded": 35,
+   "top_picks_won": 29,
+   "top_picks_expected": 30.74,
+   "top_win_rate": 0.8285714285714286
   },
-  "graded": 258,
+  "graded": 267,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 258,
-    "v2": 258,
+    "v1": 267,
+    "v2": 267,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.5223,
-    "v2": 0.5105,
+    "v1": 0.5064,
+    "v2": 0.4969,
     "pass": true
    },
    {
@@ -3322,14 +3322,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 35,
-    "v2": 34,
+    "v1": 37,
+    "v2": 35,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "34/35",
-    "v2": "28/34",
+    "v1": "36/37",
+    "v2": "29/35",
     "pass": false
    }
   ],
