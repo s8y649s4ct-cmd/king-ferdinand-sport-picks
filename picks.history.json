@@ -5698,26 +5698,26 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.9724,
-  "fd_payout_x": 1.1,
+  "est_prob": 0.8122,
+  "fd_payout_x": 1.17,
   "legs_detail": [
    {
-    "id": "401909867:7867411:742.193756903",
-    "event": "401909867",
-    "sport": "nba",
-    "kind": "total",
-    "line": 257.5,
-    "ou": "under",
-    "pick": "Under 257.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9724,
-    "game": "Memphis Grizzlies at Sacramento Kings",
+    "id": "401892581:7000410:742.193790423",
+    "event": "401892581",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Minnesota Wild +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -600,
+    "prob": 0.8122,
+    "game": "Minnesota Wild at Vancouver Canucks",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -600
    }
   ],
-  "logged": "2026-10-26 00:55 UTC",
+  "logged": "2026-10-26 01:05 UTC",
   "locked": false,
   "result": null
  },
@@ -5761,7 +5761,7 @@
    }
   ],
   "logged": "2026-10-26 00:55 UTC",
-  "locked": false,
+  "locked": true,
   "result": null
  },
  {
@@ -5818,7 +5818,7 @@
    }
   ],
   "logged": "2026-10-26 00:55 UTC",
-  "locked": false,
+  "locked": true,
   "result": null
  },
  {
@@ -11678,6 +11678,35 @@
   "result": "loss"
  },
  {
+  "id": "2026-10-25-lottery-1-leg best-edge lottery",
+  "date": "2026-10-25",
+  "type": "lottery",
+  "label": "1-leg best-edge lottery",
+  "n": 1,
+  "est_prob": 0.4362,
+  "fd_payout_x": 2.2,
+  "legs_detail": [
+   {
+    "id": "401892581:25604:742.193519427",
+    "event": "401892581",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Minnesota Wild -1.5",
+    "market": "Puck Line",
+    "odds": 120,
+    "prob": 0.4362,
+    "game": "Minnesota Wild at Vancouver Canucks",
+    "result": null,
+    "close_odds": 120
+   }
+  ],
+  "logged": "2026-10-26 01:05 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
   "id": "2026-10-25-lottery-~25x",
   "date": "2026-10-25",
   "type": "lottery",
@@ -11735,7 +11764,7 @@
    }
   ],
   "logged": "2026-10-26 00:55 UTC",
-  "locked": false,
+  "locked": true,
   "result": null
  },
  {
@@ -11793,7 +11822,7 @@
    }
   ],
   "logged": "2026-10-26 00:55 UTC",
-  "locked": false,
+  "locked": true,
   "result": null
  },
  {
