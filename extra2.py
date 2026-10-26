@@ -319,5 +319,17 @@ out={'updated':NOW,
   'rule':"Pregame only, FanDuel PA 'Any Time Touchdown Scorer' (rushing/receiving TDs; ESPN grading also counts only those). Chance = 50% market (Pinnacle no-vig 'Total Touchdowns over 0.5' when listed, else FanDuel price minus ~22% margin) + 50% ESPN game-log TD rate (this season, 2025 at half weight, shrunk toward market), then adjustments: implied team total from ESPN spread/total (±3 pts), opponent rush/receiving TDs allowed in its last 6 games (±2), touches trend, same-position teammate Out (+2); total adjustment capped ±5 pts and never more than 8 pts above the market. Out/Doubtful/Questionable/IR excluded. Max 1 leg per team, 2 per game; legs priced +250 or shorter with est. chance ≥25%. 2+ TD markets skipped (too unlikely). TD legs are coin flips at best, so read each ticket's chance honestly."},
  'nba3r':{'legs':{L['id']:L for L in npool},'parlays':nb_tix,'coverage':ncov,'stats':st('nba3r'),
   'rule':"Pregame only, FanDuel PA made-threes and rebounds (main and alt lines). One leg per player (his highest-chance line −1000 to +150), max 2 per game, each leg in at most 5 tickets, est. chance ≥60% and not more than 2 pts below FanDuel's no-vig. Chance = 50% market (FanDuel no-vig, averaged with Pinnacle's line converted to this threshold when listed) + 50% ESPN game-log hit rate (this season + last 20 games of 2025-26 at 40% weight, shrunk), then: minutes trend, opponent 3PA / rebounds allowed and pace from their last ≤10 box scores (±3/±3/±2 pts), teammates out (+1), back-to-back (−2). Out/Doubtful/Questionable/Day-To-Day excluded."}}
+# Keep last board when a fetch failure empties a tab but its prior legs are still pregame.
+try:
+  _prev=json.load(open('extra2.json'))
+  _iso=now.strftime('%Y-%m-%dT%H:%MZ')
+  for _k in ('td','nba3r'):
+    _pl=(_prev.get(_k) or {}).get('legs') or {}
+    if not out[_k]['legs'] and _pl:
+      _keep={i:L for i,L in _pl.items() if L.get('start','')>_iso}
+      if _keep:
+        _ok=set(_keep); _pt=[t for t in (_prev[_k].get('parlays') or []) if all((x if isinstance(x,str) else x.get('id')) in _ok for x in (t.get('legs') or []))]
+        out[_k].update({'legs':_keep,'parlays':_pt,'coverage':dict(_prev[_k].get('coverage') or {},stale_since=_prev.get('updated'))}); print('kept last',_k,'board (fetch empty):',len(_keep),'legs',len(_pt),'tix')
+except Exception as _e: print('keep-last check failed',_e)
 json.dump(out,open('extra2.json','w'),indent=1)
 print('TD games',len(tpairs),'sel',tcov['fd_selections'],'scored',len(td),'pool',len(tpool),'tix',len(td_tix),'pin',tcov['pinnacle_priced'],'| NBA games',len(npairs),'lines',ncov['fd_lines'],'scored',len(nb),'pool',len(npool),'tix',len(nb_tix),'pin',ncov['pinnacle_priced'])
