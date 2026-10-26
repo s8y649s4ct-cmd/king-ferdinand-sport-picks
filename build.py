@@ -251,7 +251,10 @@ for n in range(1,NMAX+1):
   opts=[]
   for e,ls in byg.items():
     if guse.get(e,0)>=CAP: continue
-    L=max([x for x in ls[:6] if x['prob']>=ls[0]['prob']-0.05],key=lambda L:L['prob']-0.04*luse.get(L['id'],0))
+    # 2026-10-26 review: alternates only within 2 pts of the game's top leg, and never the opposite side of the same market
+    # (graded data: game's top leg won 94%, near-top alternates ~80%, same-market opposite-side alternates 58%).
+    alts=[x for x in ls[:6] if x['prob']>=ls[0]['prob']-0.02 and not(x['kind']==ls[0]['kind'] and (x.get('side'),x.get('ou'))!=(ls[0].get('side'),ls[0].get('ou')))] or ls[:1]
+    L=max(alts,key=lambda L:L['prob']-0.04*luse.get(L['id'],0))
     opts.append((L['prob']-0.15*guse.get(e,0)-0.04*luse.get(L['id'],0),L))
   if len(opts)<n:  # relax cap
     opts=[(ls[0]['prob']-0.15*guse.get(e,0),ls[0]) for e,ls in byg.items()]
@@ -376,7 +379,10 @@ def grade(L):
     v=(s[L['stat']]-L['line'])*(1 if L['ou']=='over' else -1); return 'win' if v>0 else 'loss'
 GH={}
 _sh=v2.load('shadow.json',{'legs':{}})['legs']
-for d0 in sorted({x['date'] for x in hist if x.get('result') is None and x['date']!=DATE}|{r['date'] for r in _sh.values() if r.get('result') is None and r['date']!=DATE}):
+_pend={x['date'] for x in hist if x.get('result') is None and x['date']!=DATE}|{r['date'] for r in _sh.values() if r.get('result') is None and r['date']!=DATE}
+# 2026-10-26 review: a board can include next-day games (e.g. a Monday kickoff on Sunday's board), so also fetch the following day
+_pend|={(datetime.date.fromisoformat(d)+datetime.timedelta(days=1)).isoformat() for d in list(_pend)}
+for d0 in sorted(d for d in _pend if d!=DATE):
   for lg,sp in SPORTS.items():
     for e in espn_events(lg,sp,d0,ttl=300): GH[e['id']]=parse(e,lg)
 G={**GH,**G}
