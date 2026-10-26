@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26 00:28 UTC",
- "graded_legs": 84,
+ "updated": "2026-10-26 00:41 UTC",
+ "graded_legs": 98,
  "calibration": {
   "85-90%": {
    "n": 30,
@@ -9,28 +9,28 @@
    "hit": 0.967
   },
   "75-80%": {
-   "n": 5,
-   "wins": 5,
-   "pred": 0.784,
-   "hit": 1.0
+   "n": 8,
+   "wins": 7,
+   "pred": 0.786,
+   "hit": 0.875
   },
   "80-85%": {
-   "n": 14,
-   "wins": 14,
-   "pred": 0.825,
+   "n": 15,
+   "wins": 15,
+   "pred": 0.826,
    "hit": 1.0
   },
   "95-100%": {
-   "n": 17,
-   "wins": 16,
-   "pred": 0.956,
-   "hit": 0.941
+   "n": 22,
+   "wins": 21,
+   "pred": 0.957,
+   "hit": 0.955
   },
   "90-95%": {
-   "n": 10,
+   "n": 11,
    "wins": 10,
-   "pred": 0.941,
-   "hit": 1.0
+   "pred": 0.942,
+   "hit": 0.909
   },
   "70-75%": {
    "n": 1,
@@ -44,6 +44,24 @@
    "pred": 0.689,
    "hit": 0.0
   },
+  "30-35%": {
+   "n": 1,
+   "wins": 1,
+   "pred": 0.307,
+   "hit": 1.0
+  },
+  "20-25%": {
+   "n": 1,
+   "wins": 0,
+   "pred": 0.234,
+   "hit": 0.0
+  },
+  "40-45%": {
+   "n": 3,
+   "wins": 2,
+   "pred": 0.436,
+   "hit": 0.667
+  },
   "60-65%": {
    "n": 2,
    "wins": 1,
@@ -55,12 +73,6 @@
    "wins": 1,
    "pred": 0.551,
    "hit": 1.0
-  },
-  "40-45%": {
-   "n": 1,
-   "wins": 0,
-   "pred": 0.438,
-   "hit": 0.0
   },
   "45-50%": {
    "n": 1,
@@ -83,16 +95,16 @@
    "hit": 1.0
   },
   "nba": {
-   "n": 18,
-   "wins": 18,
-   "pred": 0.908,
-   "hit": 1.0
+   "n": 25,
+   "wins": 23,
+   "pred": 0.894,
+   "hit": 0.92
   },
   "nhl": {
-   "n": 8,
-   "wins": 6,
-   "pred": 0.785,
-   "hit": 0.75
+   "n": 15,
+   "wins": 12,
+   "pred": 0.71,
+   "hit": 0.8
   },
   "mlb": {
    "n": 1,
@@ -127,16 +139,16 @@
  },
  "by_market": {
   "total": {
-   "n": 49,
-   "wins": 48,
+   "n": 54,
+   "wins": 52,
    "pred": 0.898,
-   "hit": 0.98
+   "hit": 0.963
   },
   "spread": {
-   "n": 21,
-   "wins": 19,
-   "pred": 0.872,
-   "hit": 0.905
+   "n": 29,
+   "wins": 26,
+   "pred": 0.827,
+   "hit": 0.897
   },
   "dc": {
    "n": 8,
@@ -156,6 +168,12 @@
    "pred": 0.803,
    "hit": 1.0
   },
+  "prop": {
+   "n": 1,
+   "wins": 0,
+   "pred": 0.234,
+   "hit": 0.0
+  },
   "ml3": {
    "n": 4,
    "wins": 2,
@@ -164,18 +182,18 @@
   }
  },
  "parlays": {
-  "graded": 36,
+  "graded": 41,
   "won": 6,
-  "expected": 6.48,
-  "pending": 41,
+  "expected": 7.1,
+  "pending": 36,
   "by_type": {
    "ladder": {
-    "graded": 30,
+    "graded": 34,
     "won": 6,
-    "expected": 6.36
+    "expected": 6.99
    },
    "lottery": {
-    "graded": 6,
+    "graded": 7,
     "won": 0,
     "expected": 0.1
    }
@@ -184,9 +202,9 @@
  },
  "clv": {
   "legs_tracked": 170,
-  "avg_clv_pts": -0.18,
+  "avg_clv_pts": -0.17,
   "beat_close": 49,
-  "worse_than_close": 52
+  "worse_than_close": 51
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
