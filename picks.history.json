@@ -15994,8 +15994,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2259,
-  "fd_payout_x": 4.31,
+  "est_prob": 0.2264,
+  "fd_payout_x": 4.29,
   "legs_detail": [
    {
     "id": "401909872:7711029:742.193925356",
@@ -16043,6 +16043,21 @@
     "close_odds": -300
    },
    {
+    "id": "401909875:7890755:742.193914944",
+    "event": "401909875",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 7.5,
+    "pick": "Memphis Grizzlies +7.5",
+    "market": "Alternate Spread",
+    "odds": -280,
+    "prob": 0.7392,
+    "game": "Memphis Grizzlies at Utah Jazz",
+    "result": null,
+    "close_odds": -280
+   },
+   {
     "id": "401909873:7711204:742.193925527",
     "event": "401909873",
     "sport": "nba",
@@ -16056,24 +16071,9 @@
     "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
     "close_odds": -300
-   },
-   {
-    "id": "401909875:7890755:742.193914944",
-    "event": "401909875",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Memphis Grizzlies +7.5",
-    "market": "Alternate Spread",
-    "odds": -275,
-    "prob": 0.7376,
-    "game": "Memphis Grizzlies at Utah Jazz",
-    "result": null,
-    "close_odds": -275
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -16084,37 +16084,8 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.9542,
+  "est_prob": 0.9519,
   "fd_payout_x": 1.1,
-  "legs_detail": [
-   {
-    "id": "401909873:7890161:742.193925531",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 24.5,
-    "pick": "Phoenix Suns +24.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9542,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": -1000
-   }
-  ],
-  "logged": "2026-10-26 23:48 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-10-26-2",
-  "date": "2026-10-26",
-  "type": "ladder",
-  "n": 2,
-  "est_prob": 0.90478,
-  "fd_payout_x": 1.21,
   "legs_detail": [
    {
     "id": "401909872:7889857:742.193925372",
@@ -16130,7 +16101,21 @@
     "game": "Indiana Pacers at Milwaukee Bucks",
     "result": null,
     "close_odds": -1000
-   },
+   }
+  ],
+  "logged": "2026-10-26 23:56 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-26-2",
+  "date": "2026-10-26",
+  "type": "ladder",
+  "n": 2,
+  "est_prob": 0.90041,
+  "fd_payout_x": 1.22,
+  "legs_detail": [
    {
     "id": "401909876:7914258:742.193903300",
     "event": "401909876",
@@ -16145,9 +16130,24 @@
     "game": "Golden State Warriors at Denver Nuggets",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909873:7949837:742.193925531",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 23.5,
+    "pick": "Phoenix Suns +23.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.9473,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": -900
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16157,9 +16157,24 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 3,
-  "est_prob": 0.83464,
+  "est_prob": 0.83819,
   "fd_payout_x": 1.34,
   "legs_detail": [
+   {
+    "id": "401909874:7711029:742.193912601",
+    "event": "401909874",
+    "sport": "nba",
+    "kind": "total",
+    "line": 251.5,
+    "ou": "under",
+    "pick": "Under 251.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9454,
+    "game": "Atlanta Hawks at Houston Rockets",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "401909875:7695550:742.193914952",
     "event": "401909875",
@@ -16174,21 +16189,6 @@
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909874:7891512:742.193912643",
-    "event": "401909874",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "Houston Rockets +11.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9414,
-    "game": "Atlanta Hawks at Houston Rockets",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401892584:7735512:742.193940399",
@@ -16206,7 +16206,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -16217,7 +16217,7 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.57045,
+  "est_prob": 0.5681,
   "fd_payout_x": 1.65,
   "legs_detail": [
    {
@@ -16274,14 +16274,14 @@
     "ou": "under",
     "pick": "Under 4.5 Goals",
     "market": "Over/Under 4.5 Goals",
-    "odds": -600,
-    "prob": 0.8018,
+    "odds": -590,
+    "prob": 0.7985,
     "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": -600
+    "close_odds": -590
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16291,24 +16291,9 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 5,
-  "est_prob": 0.74416,
-  "fd_payout_x": 1.64,
+  "est_prob": 0.73503,
+  "fd_payout_x": 1.63,
   "legs_detail": [
-   {
-    "id": "401909873:7949837:742.193925531",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 23.5,
-    "pick": "Phoenix Suns +23.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.9473,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": -900
-   },
    {
     "id": "401909872:7710962:742.193925356",
     "event": "401909872",
@@ -16340,6 +16325,21 @@
     "close_odds": -950
    },
    {
+    "id": "401909874:7891512:742.193912643",
+    "event": "401909874",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 11.5,
+    "pick": "Houston Rockets +11.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9414,
+    "game": "Atlanta Hawks at Houston Rockets",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401909876:7674032:742.193903267",
     "event": "401909876",
     "sport": "nba",
@@ -16355,22 +16355,22 @@
     "close_odds": -1000
    },
    {
-    "id": "401909874:7711029:742.193912601",
-    "event": "401909874",
+    "id": "401909873:7760688:742.193925527",
+    "event": "401909873",
     "sport": "nba",
     "kind": "total",
-    "line": 251.5,
+    "line": 242.5,
     "ou": "under",
-    "pick": "Under 251.5",
+    "pick": "Under 242.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.9379,
-    "game": "Atlanta Hawks at Houston Rockets",
+    "prob": 0.9322,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
     "close_odds": -950
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -16475,7 +16475,7 @@
     "close_odds": -720
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16485,8 +16485,8 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.52076,
-  "fd_payout_x": 2.24,
+  "est_prob": 0.52053,
+  "fd_payout_x": 2.27,
   "legs_detail": [
    {
     "id": "401909872:7889870:742.193925372",
@@ -16519,19 +16519,19 @@
     "close_odds": -950
    },
    {
-    "id": "401909873:7707476:742.193925527",
-    "event": "401909873",
+    "id": "401909874:7891030:742.193912643",
+    "event": "401909874",
     "sport": "nba",
-    "kind": "total",
-    "line": 200.5,
-    "ou": "over",
-    "pick": "Over 200.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9344,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "kind": "spread",
+    "side": "away",
+    "line": 19.5,
+    "pick": "Atlanta Hawks +19.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9336,
+    "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401873009:12197190:742.192668004",
@@ -16549,19 +16549,19 @@
     "close_odds": -950
    },
    {
-    "id": "401909874:7915067:742.193912643",
-    "event": "401909874",
+    "id": "401909873:7889940:742.193925531",
+    "event": "401909873",
     "sport": "nba",
     "kind": "spread",
-    "side": "home",
-    "line": 10.5,
-    "pick": "Houston Rockets +10.5",
+    "side": "away",
+    "line": 22.5,
+    "pick": "Phoenix Suns +22.5",
     "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.9257,
-    "game": "Atlanta Hawks at Houston Rockets",
+    "odds": -750,
+    "prob": 0.9299,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": -800
+    "close_odds": -750
    },
    {
     "id": "401892583:7735283:742.193940198",
@@ -16587,14 +16587,14 @@
     "ou": "under",
     "pick": "Under 4.5 Goals",
     "market": "Over/Under 4.5 Goals",
-    "odds": -600,
-    "prob": 0.8018,
+    "odds": -590,
+    "prob": 0.7985,
     "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": -600
+    "close_odds": -590
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -16605,9 +16605,24 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 8,
-  "est_prob": 0.43152,
-  "fd_payout_x": 2.55,
+  "est_prob": 0.43964,
+  "fd_payout_x": 2.56,
   "legs_detail": [
+   {
+    "id": "401909873:7949837:742.193925531",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 23.5,
+    "pick": "Phoenix Suns +23.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.9473,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": -900
+   },
    {
     "id": "401909875:7890665:742.193914944",
     "event": "401909875",
@@ -16639,21 +16654,6 @@
     "close_odds": -850
    },
    {
-    "id": "401909873:7760688:742.193925527",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "total",
-    "line": 242.5,
-    "ou": "under",
-    "pick": "Under 242.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9344,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401909872:4516620:742.193925356",
     "event": "401909872",
     "sport": "nba",
@@ -16677,11 +16677,11 @@
     "ou": "under",
     "pick": "Under 250.5",
     "market": "Alternate Total Points",
-    "odds": -800,
-    "prob": 0.9242,
+    "odds": -850,
+    "prob": 0.9326,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401873009:12194325:742.192668004",
@@ -16722,14 +16722,14 @@
     "ou": "under",
     "pick": "Under 4.5 Goals",
     "market": "Over/Under 4.5 Goals",
-    "odds": -600,
-    "prob": 0.8018,
+    "odds": -590,
+    "prob": 0.7985,
     "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": -600
+    "close_odds": -590
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16739,24 +16739,9 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.48698,
-  "fd_payout_x": 2.61,
+  "est_prob": 0.47673,
+  "fd_payout_x": 2.66,
   "legs_detail": [
-   {
-    "id": "401909873:7890161:742.193925531",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 24.5,
-    "pick": "Phoenix Suns +24.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9542,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": -1000
-   },
    {
     "id": "401909872:7889857:742.193925372",
     "event": "401909872",
@@ -16818,6 +16803,21 @@
     "close_odds": -900
    },
    {
+    "id": "401909873:7760688:742.193925527",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "total",
+    "line": 242.5,
+    "ou": "under",
+    "pick": "Under 242.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.9322,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401873009:12197190:742.192668004",
     "event": "401873009",
     "sport": "nfl",
@@ -16833,19 +16833,19 @@
     "close_odds": -950
    },
    {
-    "id": "401909874:7711204:742.193912601",
+    "id": "401909874:7915067:742.193912643",
     "event": "401909874",
     "sport": "nba",
-    "kind": "total",
-    "line": 209.5,
-    "ou": "over",
-    "pick": "Over 209.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9238,
+    "kind": "spread",
+    "side": "home",
+    "line": 10.5,
+    "pick": "Houston Rockets +10.5",
+    "market": "Alternate Spread",
+    "odds": -800,
+    "prob": 0.9257,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -900
+    "close_odds": -800
    },
    {
     "id": "401892583:7735283:742.193940198",
@@ -16878,7 +16878,7 @@
     "close_odds": -720
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16888,23 +16888,23 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 10,
-  "est_prob": 0.39287,
-  "fd_payout_x": 3.04,
+  "est_prob": 0.3857,
+  "fd_payout_x": 3.1,
   "legs_detail": [
    {
-    "id": "401909873:7949837:742.193925531",
-    "event": "401909873",
+    "id": "401909874:7711029:742.193912601",
+    "event": "401909874",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 23.5,
-    "pick": "Phoenix Suns +23.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.9473,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "kind": "total",
+    "line": 251.5,
+    "ou": "under",
+    "pick": "Under 251.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9454,
+    "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -900
+    "close_odds": -1000
    },
    {
     "id": "401909875:7695550:742.193914952",
@@ -16937,21 +16937,6 @@
     "close_odds": -1000
    },
    {
-    "id": "401909874:7891512:742.193912643",
-    "event": "401909874",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "Houston Rockets +11.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9414,
-    "game": "Atlanta Hawks at Houston Rockets",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401909876:7674032:742.193903267",
     "event": "401909876",
     "sport": "nba",
@@ -16980,6 +16965,21 @@
     "game": "Detroit Red Wings at Edmonton Oilers",
     "result": null,
     "close_odds": -950
+   },
+   {
+    "id": "401909873:7889940:742.193925531",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 22.5,
+    "pick": "Phoenix Suns +22.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.9299,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": -750
    },
    {
     "id": "401892583:7735283:742.193940198",
@@ -17035,14 +17035,14 @@
     "ou": "under",
     "pick": "Under 4.5 Goals",
     "market": "Over/Under 4.5 Goals",
-    "odds": -600,
-    "prob": 0.8018,
+    "odds": -590,
+    "prob": 0.7985,
     "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": -600
+    "close_odds": -590
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -17352,7 +17352,7 @@
     "prob": 0.9344,
     "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909876:7867411:742.193903267",
@@ -17516,7 +17516,7 @@
     "prob": 0.94,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401892584:7735512:742.193940399",
@@ -17561,7 +17561,7 @@
     "prob": 0.9337,
     "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401909870:7733132:742.193915447",
@@ -17770,7 +17770,7 @@
     "prob": 0.9299,
     "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": -700
+    "close_odds": -750
    },
    {
     "id": "401909871:7710962:742.193925188",
@@ -17800,7 +17800,7 @@
     "prob": 0.9298,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401892582:7745284:742.193948880",
@@ -17949,7 +17949,7 @@
     "prob": 0.9322,
     "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909872:7889857:742.193925372",
@@ -18172,7 +18172,7 @@
     "prob": 0.9322,
     "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909872:7889857:742.193925372",
@@ -18202,7 +18202,7 @@
     "prob": 0.9272,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909868:7929051:742.193911718",
@@ -18350,8 +18350,8 @@
   "type": "lottery",
   "label": "~100x",
   "n": 6,
-  "est_prob": 0.01091636313801686,
-  "fd_payout_x": 110.75,
+  "est_prob": 0.011055819870794932,
+  "fd_payout_x": 107.68,
   "legs_detail": [
    {
     "id": "401892583:25600:742.193519549",
@@ -18369,20 +18369,6 @@
     "close_odds": 160
    },
    {
-    "id": "401909873:237487:742.193598595",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Phoenix Suns",
-    "market": "Moneyline",
-    "odds": 260,
-    "prob": 0.2818,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": 260
-   },
-   {
     "id": "401873009:12197188:742.192668004",
     "event": "401873009",
     "sport": "nfl",
@@ -18396,6 +18382,20 @@
     "game": "Dallas Cowboys at Philadelphia Eagles",
     "result": null,
     "close_odds": 285
+   },
+   {
+    "id": "401909873:237487:742.193598595",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Phoenix Suns",
+    "market": "Moneyline",
+    "odds": 250,
+    "prob": 0.2854,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": 250
    },
    {
     "id": "401892584:25603:742.193519588",
@@ -18443,7 +18443,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -18454,8 +18454,8 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 6,
-  "est_prob": 0.0009882185074879546,
-  "fd_payout_x": 1002.83,
+  "est_prob": 0.0009453349060844382,
+  "fd_payout_x": 1032.97,
   "legs_detail": [
    {
     "id": "401892583:25600:742.193519549",
@@ -18473,20 +18473,6 @@
     "close_odds": 160
    },
    {
-    "id": "401909873:237487:742.193598595",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Phoenix Suns",
-    "market": "Moneyline",
-    "odds": 260,
-    "prob": 0.2818,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": 260
-   },
-   {
     "id": "401873009:12197188:742.192668004",
     "event": "401873009",
     "sport": "nfl",
@@ -18500,6 +18486,20 @@
     "game": "Dallas Cowboys at Philadelphia Eagles",
     "result": null,
     "close_odds": 285
+   },
+   {
+    "id": "401909873:237487:742.193598595",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Phoenix Suns",
+    "market": "Moneyline",
+    "odds": 250,
+    "prob": 0.2854,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": 250
    },
    {
     "id": "401892584:25603:742.193519588",
@@ -18517,6 +18517,23 @@
     "close_odds": 134
    },
    {
+    "id": "401909874:40126264:742.193904821",
+    "event": "401909874",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 11.5,
+    "ou": "over",
+    "player": "Alperen Sengun",
+    "stat": "REB",
+    "pick": "Alperen Sengun",
+    "market": "12+ Rebounds",
+    "odds": 260,
+    "prob": 0.2646,
+    "game": "Atlanta Hawks at Houston Rockets",
+    "result": null,
+    "close_odds": 260
+   },
+   {
     "id": "401909872:41472501:742.193917956",
     "event": "401909872",
     "sport": "nba",
@@ -18527,31 +18544,14 @@
     "stat": "REB",
     "pick": "Jaime Jaquez Jr.",
     "market": "8+ Rebounds",
-    "odds": 255,
-    "prob": 0.2683,
+    "odds": 250,
+    "prob": 0.272,
     "game": "Indiana Pacers at Milwaukee Bucks",
     "result": null,
-    "close_odds": 255
-   },
-   {
-    "id": "401909874:25982065:742.193904852",
-    "event": "401909874",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 5.5,
-    "ou": "over",
-    "player": "Jock Landale",
-    "stat": "REB",
-    "pick": "Jock Landale",
-    "market": "6+ Rebounds",
-    "odds": 235,
-    "prob": 0.284,
-    "game": "Atlanta Hawks at Houston Rockets",
-    "result": null,
-    "close_odds": 235
+    "close_odds": 250
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -18561,36 +18561,22 @@
   "date": "2026-10-26",
   "type": "lottery",
   "label": "~10,000x",
-  "n": 8,
-  "est_prob": 7.100879661420968e-05,
-  "fd_payout_x": 12635.61,
+  "n": 7,
+  "est_prob": 7.053112481123615e-05,
+  "fd_payout_x": 11176.7,
   "legs_detail": [
    {
-    "id": "401892583:25600:742.193519549",
+    "id": "401892583:7735245:742.193940198",
     "event": "401892583",
     "sport": "nhl",
     "kind": "spread",
     "side": "away",
-    "line": -1.5,
-    "pick": "Toronto Maple Leafs -1.5",
-    "market": "Puck Line",
-    "odds": 160,
-    "prob": 0.4079,
-    "game": "Toronto Maple Leafs at Calgary Flames",
-    "result": null,
-    "close_odds": 160
-   },
-   {
-    "id": "401909873:237487:742.193598595",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Phoenix Suns",
-    "market": "Moneyline",
+    "line": -2.5,
+    "pick": "Toronto Maple Leafs -2.5",
+    "market": "Alternate Puck Line",
     "odds": 260,
-    "prob": 0.2818,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "prob": 0.283,
+    "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
     "close_odds": 260
    },
@@ -18610,87 +18596,89 @@
     "close_odds": 285
    },
    {
-    "id": "401892584:25603:742.193519588",
-    "event": "401892584",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Edmonton Oilers -1.5",
-    "market": "Puck Line",
-    "odds": 134,
-    "prob": 0.4358,
-    "game": "Detroit Red Wings at Edmonton Oilers",
-    "result": null,
-    "close_odds": 134
-   },
-   {
-    "id": "401909876:237493:742.193598607",
-    "event": "401909876",
+    "id": "401909873:237487:742.193598595",
+    "event": "401909873",
     "sport": "nba",
     "kind": "ml",
     "side": "away",
-    "pick": "Golden State Warriors",
+    "pick": "Phoenix Suns",
     "market": "Moneyline",
-    "odds": 215,
-    "prob": 0.3076,
-    "game": "Golden State Warriors at Denver Nuggets",
+    "odds": 250,
+    "prob": 0.2854,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": 215
+    "close_odds": 250
    },
    {
-    "id": "401909872:41472501:742.193917956",
-    "event": "401909872",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 7.5,
-    "ou": "over",
-    "player": "Jaime Jaquez Jr.",
-    "stat": "REB",
-    "pick": "Jaime Jaquez Jr.",
-    "market": "8+ Rebounds",
-    "odds": 255,
-    "prob": 0.2683,
-    "game": "Indiana Pacers at Milwaukee Bucks",
-    "result": null,
-    "close_odds": 255
-   },
-   {
-    "id": "401909874:25982065:742.193904852",
+    "id": "401909874:40126264:742.193904821",
     "event": "401909874",
     "sport": "nba",
     "kind": "prop",
-    "line": 5.5,
+    "line": 11.5,
     "ou": "over",
-    "player": "Jock Landale",
+    "player": "Alperen Sengun",
     "stat": "REB",
-    "pick": "Jock Landale",
-    "market": "6+ Rebounds",
-    "odds": 235,
-    "prob": 0.284,
+    "pick": "Alperen Sengun",
+    "market": "12+ Rebounds",
+    "odds": 260,
+    "prob": 0.2646,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": 235
+    "close_odds": 260
    },
    {
-    "id": "401909875:38262438:742.193912939",
+    "id": "401909872:12234480:742.193917873",
+    "event": "401909872",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 2.5,
+    "ou": "over",
+    "player": "Pascal Siakam",
+    "stat": "3PM",
+    "pick": "Pascal Siakam",
+    "market": "3+ Threes",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Indiana Pacers at Milwaukee Bucks",
+    "result": null,
+    "close_odds": 300
+   },
+   {
+    "id": "401909875:13323011:742.193913054",
     "event": "401909875",
     "sport": "nba",
     "kind": "prop",
-    "line": 5.5,
+    "line": 9.5,
     "ou": "over",
-    "player": "Scotty Pippen Jr.",
-    "stat": "ASS",
-    "pick": "Scotty Pippen Jr.",
-    "market": "6+ Assists",
+    "player": "Lauri Markkanen",
+    "stat": "REB",
+    "pick": "Lauri Markkanen",
+    "market": "10+ Rebounds",
     "odds": 300,
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
     "close_odds": 300
+   },
+   {
+    "id": "401909876:8659734:742.193910782",
+    "event": "401909876",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 7.5,
+    "ou": "over",
+    "player": "Aaron Gordon",
+    "stat": "REB",
+    "pick": "Aaron Gordon",
+    "market": "8+ Rebounds",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Golden State Warriors at Denver Nuggets",
+    "result": null,
+    "close_odds": 300
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -18701,8 +18689,8 @@
   "type": "lottery",
   "label": "~500x",
   "n": 9,
-  "est_prob": 0.0021957839069395315,
-  "fd_payout_x": 535.07,
+  "est_prob": 0.0021821879458317948,
+  "fd_payout_x": 530.0,
   "legs_detail": [
    {
     "id": "401892583:25600:742.193519549",
@@ -18720,20 +18708,6 @@
     "close_odds": 160
    },
    {
-    "id": "401909873:237487:742.193598595",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Phoenix Suns",
-    "market": "Moneyline",
-    "odds": 260,
-    "prob": 0.2818,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": 260
-   },
-   {
     "id": "401873009:12197188:742.192668004",
     "event": "401873009",
     "sport": "nfl",
@@ -18747,6 +18721,20 @@
     "game": "Dallas Cowboys at Philadelphia Eagles",
     "result": null,
     "close_odds": 285
+   },
+   {
+    "id": "401909873:237487:742.193598595",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Phoenix Suns",
+    "market": "Moneyline",
+    "odds": 250,
+    "prob": 0.2854,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": 250
    },
    {
     "id": "401892584:25603:742.193519588",
@@ -18794,19 +18782,19 @@
     "close_odds": -700
    },
    {
-    "id": "401909872:7695550:742.193925356",
-    "event": "401909872",
+    "id": "401909874:7755153:742.193912601",
+    "event": "401909874",
     "sport": "nba",
     "kind": "total",
-    "line": 259.5,
+    "line": 249.5,
     "ou": "under",
-    "pick": "Under 259.5",
+    "pick": "Under 249.5",
     "market": "Alternate Total Points",
-    "odds": -720,
-    "prob": 0.9188,
-    "game": "Indiana Pacers at Milwaukee Bucks",
+    "odds": -750,
+    "prob": 0.9203,
+    "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -720
+    "close_odds": -750
    },
    {
     "id": "401908044:29172:742.192919129",
@@ -18830,14 +18818,14 @@
     "side": "away",
     "pick": "Lazio",
     "market": "Moneyline (3-way)",
-    "odds": 110,
-    "prob": 0.4526,
+    "odds": 115,
+    "prob": 0.4434,
     "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": 110
+    "close_odds": 115
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -18848,8 +18836,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 9,
-  "est_prob": 6.876054892128762e-06,
-  "fd_payout_x": 106369.97,
+  "est_prob": 6.789508553223388e-06,
+  "fd_payout_x": 106066.92,
   "legs_detail": [
    {
     "id": "401892583:7735245:742.193940198",
@@ -18863,20 +18851,6 @@
     "odds": 260,
     "prob": 0.283,
     "game": "Toronto Maple Leafs at Calgary Flames",
-    "result": null,
-    "close_odds": 260
-   },
-   {
-    "id": "401909873:237487:742.193598595",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Phoenix Suns",
-    "market": "Moneyline",
-    "odds": 260,
-    "prob": 0.2818,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
     "close_odds": 260
    },
@@ -18896,6 +18870,37 @@
     "close_odds": 285
    },
    {
+    "id": "401909873:237487:742.193598595",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Phoenix Suns",
+    "market": "Moneyline",
+    "odds": 250,
+    "prob": 0.2854,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": 250
+   },
+   {
+    "id": "401909872:12234480:742.193917873",
+    "event": "401909872",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 2.5,
+    "ou": "over",
+    "player": "Pascal Siakam",
+    "stat": "3PM",
+    "pick": "Pascal Siakam",
+    "market": "3+ Threes",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Indiana Pacers at Milwaukee Bucks",
+    "result": null,
+    "close_odds": 300
+   },
+   {
     "id": "401909874:2387617:742.193904834",
     "event": "401909874",
     "sport": "nba",
@@ -18913,16 +18918,16 @@
     "close_odds": 300
    },
    {
-    "id": "401909875:38262438:742.193912939",
+    "id": "401909875:13323011:742.193913054",
     "event": "401909875",
     "sport": "nba",
     "kind": "prop",
-    "line": 5.5,
+    "line": 9.5,
     "ou": "over",
-    "player": "Scotty Pippen Jr.",
-    "stat": "ASS",
-    "pick": "Scotty Pippen Jr.",
-    "market": "6+ Assists",
+    "player": "Lauri Markkanen",
+    "stat": "REB",
+    "pick": "Lauri Markkanen",
+    "market": "10+ Rebounds",
     "odds": 300,
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Utah Jazz",
@@ -18947,21 +18952,19 @@
     "close_odds": 300
    },
    {
-    "id": "401909872:12234480:742.193917873",
-    "event": "401909872",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 2.5,
-    "ou": "over",
-    "player": "Pascal Siakam",
-    "stat": "3PM",
-    "pick": "Pascal Siakam",
-    "market": "3+ Threes",
-    "odds": 290,
-    "prob": 0.2396,
-    "game": "Indiana Pacers at Milwaukee Bucks",
+    "id": "401892584:25603:742.193519588",
+    "event": "401892584",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Edmonton Oilers -1.5",
+    "market": "Puck Line",
+    "odds": 134,
+    "prob": 0.4358,
+    "game": "Detroit Red Wings at Edmonton Oilers",
     "result": null,
-    "close_odds": 290
+    "close_odds": 134
    },
    {
     "id": "401908044:7687312:742.192919557",
@@ -18977,24 +18980,9 @@
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
     "close_odds": 265
-   },
-   {
-    "id": "401892584:25603:742.193519588",
-    "event": "401892584",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Edmonton Oilers -1.5",
-    "market": "Puck Line",
-    "odds": 134,
-    "prob": 0.4358,
-    "game": "Detroit Red Wings at Edmonton Oilers",
-    "result": null,
-    "close_odds": 134
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -19005,8 +18993,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 9,
-  "est_prob": 0.05097821863433901,
-  "fd_payout_x": 27.13,
+  "est_prob": 0.05269914763305005,
+  "fd_payout_x": 26.4,
   "legs_detail": [
    {
     "id": "401892583:25600:742.193519549",
@@ -19024,6 +19012,21 @@
     "close_odds": 160
    },
    {
+    "id": "401909873:7890011:742.193925531",
+    "event": "401909873",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 21.5,
+    "pick": "Phoenix Suns +21.5",
+    "market": "Alternate Spread",
+    "odds": -620,
+    "prob": 0.9097,
+    "game": "Phoenix Suns at Oklahoma City Thunder",
+    "result": null,
+    "close_odds": -620
+   },
+   {
     "id": "401909876:7889675:742.193903300",
     "event": "401909876",
     "sport": "nba",
@@ -19037,21 +19040,6 @@
     "game": "Golden State Warriors at Denver Nuggets",
     "result": null,
     "close_odds": -670
-   },
-   {
-    "id": "401909873:7889940:742.193925531",
-    "event": "401909873",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 22.5,
-    "pick": "Phoenix Suns +22.5",
-    "market": "Alternate Spread",
-    "odds": -700,
-    "prob": 0.9208,
-    "game": "Phoenix Suns at Oklahoma City Thunder",
-    "result": null,
-    "close_odds": -700
    },
    {
     "id": "401909875:7890837:742.193914944",
@@ -19069,19 +19057,19 @@
     "close_odds": -700
    },
    {
-    "id": "401909872:7695550:742.193925356",
+    "id": "401909872:7889857:742.193925372",
     "event": "401909872",
     "sport": "nba",
-    "kind": "total",
-    "line": 259.5,
-    "ou": "under",
-    "pick": "Under 259.5",
-    "market": "Alternate Total Points",
-    "odds": -720,
-    "prob": 0.9188,
+    "kind": "spread",
+    "side": "home",
+    "line": 18.5,
+    "pick": "Milwaukee Bucks +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.9519,
     "game": "Indiana Pacers at Milwaukee Bucks",
     "result": null,
-    "close_odds": -720
+    "close_odds": -1000
    },
    {
     "id": "401909874:7755153:742.193912601",
@@ -19092,11 +19080,11 @@
     "ou": "under",
     "pick": "Under 249.5",
     "market": "Alternate Total Points",
-    "odds": -700,
-    "prob": 0.9112,
+    "odds": -750,
+    "prob": 0.9203,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -700
+    "close_odds": -750
    },
    {
     "id": "401892584:25603:742.193519588",
@@ -19143,7 +19131,7 @@
     "close_odds": 102
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -19154,8 +19142,8 @@
   "type": "lottery",
   "label": "10-leg best-edge lottery",
   "n": 10,
-  "est_prob": 0.12269658078977602,
-  "fd_payout_x": 10.74,
+  "est_prob": 0.11907890067601601,
+  "fd_payout_x": 11.12,
   "legs_detail": [
    {
     "id": "401909873:7949837:742.193925531",
@@ -19233,19 +19221,19 @@
     "close_odds": -700
    },
    {
-    "id": "401909874:7891512:742.193912643",
+    "id": "401909874:7729460:742.193912601",
     "event": "401909874",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "Houston Rockets +11.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9414,
+    "kind": "total",
+    "line": 250.5,
+    "ou": "under",
+    "pick": "Under 250.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.9326,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -950
+    "close_odds": -850
    },
    {
     "id": "401892584:7735512:742.193940399",
@@ -19285,11 +19273,11 @@
     "side": "away",
     "pick": "Lazio",
     "market": "Moneyline (3-way)",
-    "odds": 110,
-    "prob": 0.4526,
+    "odds": 115,
+    "prob": 0.4434,
     "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": 110
+    "close_odds": 115
    },
    {
     "id": "401908044:29172:742.192919129",
@@ -19306,7 +19294,7 @@
     "close_odds": 102
    }
   ],
-  "logged": "2026-10-26 23:48 UTC",
+  "logged": "2026-10-26 23:56 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -19332,7 +19320,7 @@
     "prob": 0.2731,
     "game": "Phoenix Suns at Oklahoma City Thunder",
     "result": null,
-    "close_odds": 260
+    "close_odds": 250
    },
    {
     "id": "401873009:12197188:742.192668004",
@@ -19410,7 +19398,7 @@
     "prob": 0.2336,
     "game": "Indiana Pacers at Milwaukee Bucks",
     "result": null,
-    "close_odds": 280
+    "close_odds": 285
    },
    {
     "id": "401909874:2387617:742.193904834",
@@ -19444,7 +19432,7 @@
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": 285
+    "close_odds": 300
    },
    {
     "id": "401909871:36981613:742.193916414",
