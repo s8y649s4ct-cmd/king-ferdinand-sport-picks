@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 03:12 UTC",
+ "updated": "2026-10-26 03:30 UTC",
  "date": "2026-10-25",
  "ladder_stats": {
   "tickets": 2,
@@ -26,7 +26,7 @@
    "odds": -475,
    "fd_prob": 0.7744,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:12 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:30 UTC",
    "market_prob": 0.7744,
    "prob": 0.7627,
    "pre_research": 0.7744,
@@ -62,7 +62,7 @@
    "odds": -1000,
    "fd_prob": 0.8672,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 03:12 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 03:30 UTC",
    "market_prob": 0.8672,
    "prob": 0.9365,
    "pre_research": 0.8672,
@@ -75,10 +75,10 @@
    "research_adj": -0.015,
    "calibrated": true,
    "v1_prob": 0.9365,
-   "v2_prob": 0.8746,
+   "v2_prob": 0.8743,
    "v2_src": "Pinnacle: Pinnacle 3-way de-vig",
-   "sharp_prob": 0.8746,
-   "sharp_edge": -0.0345,
+   "sharp_prob": 0.8743,
+   "sharp_edge": -0.0348,
    "why": "FanDuel no-vig 86.7% -> est. 93.7% (edge +6.9 pts); research -1.5 pts: rest 9.2d vs 8.0d; travel 247 mi since last game; form 4-1-2 last 7, avg margin +0.7 vs 4-1-2 last 7, avg margin +1.1; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.191107542",
    "fd_selection_id": "21972208",
@@ -98,7 +98,7 @@
    "odds": -115,
    "fd_prob": 0.5088,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:12 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 03:30 UTC",
    "market_prob": 0.5088,
    "prob": 0.5121,
    "pre_research": 0.5088,
@@ -173,69 +173,6 @@
  "best": null,
  "started": [],
  "games": [
-  {
-   "id": "401873022",
-   "sport": "nfl",
-   "name": "Kansas City Chiefs at Seattle Seahawks",
-   "start": "2026-10-26T00:20Z",
-   "state": "in",
-   "status": "2:00 - 4th",
-   "venue": "Lumen Field",
-   "indoor": false,
-   "city": {
-    "city": "Seattle",
-    "state": "WA",
-    "country": "USA"
-   },
-   "espn_wx": {
-    "displayValue": "12",
-    "temperature": 52,
-    "highTemperature": 52,
-    "conditionId": "A shower",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "98134"
-     ],
-     "href": "http://www.accuweather.com/en/us/lumen-field-wa/98104/current-weather/53660_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "Seattle Seahawks",
-     "short": "Seahawks",
-     "score": "20",
-     "winner": null,
-     "record": "3-3",
-     "ml_open": null,
-     "ml": null,
-     "tid": "26",
-     "abbr": "SEA",
-     "home_rec": "2-1",
-     "road_rec": "1-2"
-    },
-    "away": {
-     "name": "Kansas City Chiefs",
-     "short": "Chiefs",
-     "score": "3",
-     "winner": null,
-     "record": "5-0",
-     "ml_open": null,
-     "ml": null,
-     "tid": "12",
-     "abbr": "KC",
-     "home_rec": "3-0",
-     "road_rec": "2-0"
-    }
-   }
-  },
   {
    "id": "401873011",
    "sport": "nfl",
@@ -753,6 +690,53 @@
    }
   },
   {
+   "id": "401873022",
+   "sport": "nfl",
+   "name": "Kansas City Chiefs at Seattle Seahawks",
+   "start": "2026-10-26T00:20Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Lumen Field",
+   "indoor": false,
+   "city": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "Seattle Seahawks",
+     "short": "Seahawks",
+     "score": "20",
+     "winner": true,
+     "record": "4-3",
+     "ml_open": null,
+     "ml": null,
+     "tid": "26",
+     "abbr": "SEA",
+     "home_rec": "3-1",
+     "road_rec": "1-2"
+    },
+    "away": {
+     "name": "Kansas City Chiefs",
+     "short": "Chiefs",
+     "score": "3",
+     "winner": false,
+     "record": "5-1",
+     "ml_open": null,
+     "ml": null,
+     "tid": "12",
+     "abbr": "KC",
+     "home_rec": "3-0",
+     "road_rec": "2-1"
+    }
+   }
+  },
+  {
    "id": "401909861",
    "sport": "nba",
    "name": "Los Angeles Lakers at Utah Jazz",
@@ -1034,7 +1018,7 @@
    "name": "Memphis Grizzlies at Sacramento Kings",
    "start": "2026-10-26T01:00Z",
    "state": "in",
-   "status": "6:51 - 4th",
+   "status": "7.0 - 4th",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -1049,7 +1033,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "101",
+     "score": "112",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -1062,7 +1046,7 @@
     "away": {
      "name": "Memphis Grizzlies",
      "short": "Grizzlies",
-     "score": "104",
+     "score": "123",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -1268,7 +1252,7 @@
    "name": "Minnesota Wild at Vancouver Canucks",
    "start": "2026-10-26T02:00Z",
    "state": "in",
-   "status": "14:01 - 2nd",
+   "status": "5:05 - 2nd",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -1297,7 +1281,7 @@
     "away": {
      "name": "Minnesota Wild",
      "short": "Wild",
-     "score": "2",
+     "score": "3",
      "winner": null,
      "record": "7-3-2",
      "ml_open": null,
@@ -2418,8 +2402,8 @@
    "sport": "usa.1",
    "name": "LA Galaxy at LAFC",
    "start": "2026-10-26T01:00Z",
-   "state": "in",
-   "status": "90'+8'",
+   "state": "post",
+   "status": "FT",
    "venue": "BMO Stadium",
    "indoor": null,
    "city": {
@@ -2427,18 +2411,18 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "LAFC -180",
-   "total": 3.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "LAFC",
      "short": "LAFC",
      "score": "2",
      "winner": false,
-     "record": "12-10-9",
-     "ml_open": "-210",
-     "ml": "-180",
+     "record": "12-11-9",
+     "ml_open": null,
+     "ml": null,
      "tid": "18966",
      "abbr": "LAFC",
      "home_rec": null,
@@ -2449,9 +2433,9 @@
      "short": "LA Galaxy",
      "score": "2",
      "winner": false,
-     "record": "10-10-11",
-     "ml_open": "+400",
-     "ml": "+390",
+     "record": "10-11-11",
+     "ml_open": null,
+     "ml": null,
      "tid": "187",
      "abbr": "LA",
      "home_rec": null,
@@ -3005,17 +2989,17 @@
  "weather": [
   {
    "g": "Kansas City Chiefs at Seattle Seahawks",
-   "w": "12, 52F",
-   "src": "ESPN/AccuWeather"
+   "w": "55.9F, wind 3.7 mph, rain 8%",
+   "src": "open-meteo"
   },
   {
    "g": "Osasuna at Sevilla",
-   "w": "67.0F, wind 2.5 mph, rain 0%",
+   "w": "67.9F, wind 2.3 mph, rain 0%",
    "src": "open-meteo"
   },
   {
    "g": "Lyon at Paris Saint-Germain",
-   "w": "56.3F, wind 7.2 mph, rain 0%",
+   "w": "56.2F, wind 6.9 mph, rain 0%",
    "src": "open-meteo"
   },
   {
@@ -3052,37 +3036,23 @@
    "open": "+550",
    "now": "+600",
    "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "LA Galaxy at LAFC",
-   "team": "LAFC",
-   "open": "-210",
-   "now": "-180",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "LA Galaxy at LAFC",
-   "team": "LA Galaxy",
-   "open": "+400",
-   "now": "+390",
-   "src": "ESPN/DraftKings"
   }
  ],
  "stats": {
-  "updated": "2026-10-26 03:12 UTC",
-  "graded_legs": 142,
+  "updated": "2026-10-26 03:30 UTC",
+  "graded_legs": 152,
   "calibration": {
    "85-90%": {
-    "n": 30,
-    "wins": 29,
-    "pred": 0.88,
-    "hit": 0.967
+    "n": 32,
+    "wins": 30,
+    "pred": 0.878,
+    "hit": 0.938
    },
    "75-80%": {
-    "n": 8,
-    "wins": 7,
-    "pred": 0.786,
-    "hit": 0.875
+    "n": 9,
+    "wins": 8,
+    "pred": 0.787,
+    "hit": 0.889
    },
    "80-85%": {
     "n": 16,
@@ -3097,10 +3067,10 @@
     "hit": 0.25
    },
    "90-95%": {
-    "n": 19,
-    "wins": 15,
-    "pred": 0.944,
-    "hit": 0.789
+    "n": 22,
+    "wins": 17,
+    "pred": 0.943,
+    "hit": 0.773
    },
    "95-100%": {
     "n": 50,
@@ -3114,6 +3084,18 @@
     "pred": 0.734,
     "hit": 1.0
    },
+   "25-30%": {
+    "n": 4,
+    "wins": 1,
+    "pred": 0.28,
+    "hit": 0.25
+   },
+   "60-65%": {
+    "n": 3,
+    "wins": 1,
+    "pred": 0.616,
+    "hit": 0.333
+   },
    "30-35%": {
     "n": 2,
     "wins": 2,
@@ -3124,12 +3106,6 @@
     "n": 2,
     "wins": 0,
     "pred": 0.474,
-    "hit": 0.0
-   },
-   "25-30%": {
-    "n": 1,
-    "wins": 0,
-    "pred": 0.28,
     "hit": 0.0
    },
    "20-25%": {
@@ -3150,12 +3126,6 @@
     "pred": 0.436,
     "hit": 0.667
    },
-   "60-65%": {
-    "n": 2,
-    "wins": 1,
-    "pred": 0.622,
-    "hit": 0.5
-   },
    "55-60%": {
     "n": 1,
     "wins": 1,
@@ -3165,10 +3135,10 @@
   },
   "by_sport": {
    "usa.1": {
-    "n": 10,
-    "wins": 10,
-    "pred": 0.836,
-    "hit": 1.0
+    "n": 14,
+    "wins": 12,
+    "pred": 0.777,
+    "hit": 0.857
    },
    "college-football": {
     "n": 10,
@@ -3195,10 +3165,10 @@
     "hit": 1.0
    },
    "nfl": {
-    "n": 21,
-    "wins": 20,
-    "pred": 0.948,
-    "hit": 0.952
+    "n": 27,
+    "wins": 23,
+    "pred": 0.895,
+    "hit": 0.852
    },
    "esp.1": {
     "n": 7,
@@ -3221,22 +3191,22 @@
   },
   "by_market": {
    "total": {
-    "n": 71,
-    "wins": 66,
-    "pred": 0.906,
-    "hit": 0.93
+    "n": 75,
+    "wins": 69,
+    "pred": 0.897,
+    "hit": 0.92
    },
    "spread": {
-    "n": 53,
-    "wins": 45,
-    "pred": 0.864,
-    "hit": 0.849
+    "n": 57,
+    "wins": 46,
+    "pred": 0.844,
+    "hit": 0.807
    },
    "dc": {
-    "n": 8,
-    "wins": 6,
-    "pred": 0.768,
-    "hit": 0.75
+    "n": 9,
+    "wins": 7,
+    "pred": 0.771,
+    "hit": 0.778
    },
    "ml": {
     "n": 2,
@@ -3250,29 +3220,29 @@
     "pred": 0.803,
     "hit": 1.0
    },
+   "ml3": {
+    "n": 5,
+    "wins": 2,
+    "pred": 0.573,
+    "hit": 0.4
+   },
    "prop": {
     "n": 3,
     "wins": 0,
     "pred": 0.252,
     "hit": 0.0
-   },
-   "ml3": {
-    "n": 4,
-    "wins": 2,
-    "pred": 0.565,
-    "hit": 0.5
    }
   },
   "parlays": {
-   "graded": 65,
+   "graded": 72,
    "won": 6,
-   "expected": 12.31,
-   "pending": 14,
+   "expected": 13.55,
+   "pending": 7,
    "by_type": {
     "ladder": {
-     "graded": 48,
+     "graded": 49,
      "won": 6,
-     "expected": 11.43
+     "expected": 11.85
     },
     "best": {
      "graded": 1,
@@ -3280,9 +3250,9 @@
      "expected": 0.2
     },
     "lottery": {
-     "graded": 16,
+     "graded": 22,
      "won": 0,
-     "expected": 0.65
+     "expected": 1.49
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -3299,43 +3269,43 @@
  "note": "22 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 241,
-   "brier": 0.1456,
-   "logloss": 0.4841,
+   "n": 258,
+   "brier": 0.1613,
+   "logloss": 0.5223,
    "picks": 40,
    "avg_clv_fd_pts": -0.01,
    "avg_clv_sharp_pts": 0.12,
-   "top_picks_graded": 32,
-   "top_picks_won": 31,
-   "top_picks_expected": 28.69,
-   "top_win_rate": 0.96875
+   "top_picks_graded": 35,
+   "top_picks_won": 34,
+   "top_picks_expected": 31.28,
+   "top_win_rate": 0.9714285714285714
   },
   "v2": {
-   "n": 241,
-   "brier": 0.1436,
-   "logloss": 0.4636,
+   "n": 258,
+   "brier": 0.1615,
+   "logloss": 0.5105,
    "picks": 38,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.04,
-   "top_picks_graded": 32,
-   "top_picks_won": 27,
-   "top_picks_expected": 28.08,
-   "top_win_rate": 0.84375
+   "top_picks_graded": 34,
+   "top_picks_won": 28,
+   "top_picks_expected": 29.81,
+   "top_win_rate": 0.8235294117647058
   },
-  "graded": 241,
+  "graded": 258,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 241,
-    "v2": 241,
+    "v1": 258,
+    "v2": 258,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4841,
-    "v2": 0.4636,
+    "v1": 0.5223,
+    "v2": 0.5105,
     "pass": true
    },
    {
@@ -3352,14 +3322,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 32,
-    "v2": 32,
+    "v1": 35,
+    "v2": 34,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "31/32",
-    "v2": "27/32",
+    "v1": "34/35",
+    "v2": "28/34",
     "pass": false
    }
   ],
@@ -3389,18 +3359,18 @@
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 11,
+   "dropped": 10,
    "of": 22,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
     "Osasuna And Draw (Osasuna at Sevilla) -120: FanDuel implies 54.5% vs Pinnacle fair 49.0%",
-    "Under 3.5 Goals (Osasuna at Sevilla) -420: FanDuel implies 80.8% vs Pinnacle fair 75.9%",
     "Paris St-G (Lyon at Paris Saint-Germain) -900: FanDuel implies 90.0% vs Pinnacle fair 85.1%",
-    "Paris St-G (Lyon at Paris Saint-Germain) -320: FanDuel implies 76.2% vs Pinnacle fair 71.8%",
+    "Under 3.5 Goals (Osasuna at Sevilla) -420: FanDuel implies 80.8% vs Pinnacle fair 75.9%",
+    "Paris St-G (Lyon at Paris Saint-Germain) -320: FanDuel implies 76.2% vs Pinnacle fair 71.7%",
     "Sevilla (Osasuna at Sevilla) -295: FanDuel implies 74.7% vs Pinnacle fair 70.3%",
     "Sevilla And Draw (Osasuna at Sevilla) -475: FanDuel implies 82.6% vs Pinnacle fair 78.5%",
     "Sevilla And Osasuna (Osasuna at Sevilla) -320: FanDuel implies 76.2% vs Pinnacle fair 72.4%",
-    "Under 4.5 Goals (Lyon at Paris Saint-Germain) -290: FanDuel implies 74.4% vs Pinnacle fair 70.9%"
+    "Paris St-G And Draw (Lyon at Paris Saint-Germain) -1000: FanDuel implies 90.9% vs Pinnacle fair 87.4%"
    ]
   }
  },
