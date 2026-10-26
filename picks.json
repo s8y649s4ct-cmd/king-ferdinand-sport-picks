@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 04:31 UTC",
+ "updated": "2026-10-26 04:40 UTC",
  "date": "2026-10-25",
  "ladder_stats": {
   "tickets": 2,
@@ -26,7 +26,7 @@
    "odds": -475,
    "fd_prob": 0.7744,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 04:31 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 04:40 UTC",
    "market_prob": 0.7744,
    "prob": 0.7627,
    "pre_research": 0.7744,
@@ -62,7 +62,7 @@
    "odds": -1000,
    "fd_prob": 0.8672,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 04:31 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 04:40 UTC",
    "market_prob": 0.8672,
    "prob": 0.9104,
    "pre_research": 0.8672,
@@ -75,10 +75,10 @@
    "research_adj": -0.015,
    "calibrated": true,
    "v1_prob": 0.9104,
-   "v2_prob": 0.8769,
+   "v2_prob": 0.8775,
    "v2_src": "Pinnacle: Pinnacle 3-way de-vig",
-   "sharp_prob": 0.8769,
-   "sharp_edge": -0.0322,
+   "sharp_prob": 0.8775,
+   "sharp_edge": -0.0316,
    "why": "FanDuel no-vig 86.7% -> est. 91.0% (edge +4.3 pts); research -1.5 pts: rest 9.2d vs 8.0d; travel 247 mi since last game; form 4-1-2 last 7, avg margin +0.7 vs 4-1-2 last 7, avg margin +1.1; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.191107542",
    "fd_selection_id": "21972208",
@@ -98,7 +98,7 @@
    "odds": -115,
    "fd_prob": 0.5088,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 04:31 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180858, fetched 2026-10-26 04:40 UTC",
    "market_prob": 0.5088,
    "prob": 0.5121,
    "pre_research": 0.5088,
@@ -1251,8 +1251,8 @@
    "sport": "nhl",
    "name": "Minnesota Wild at Vancouver Canucks",
    "start": "2026-10-26T02:00Z",
-   "state": "in",
-   "status": "0:30 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -1269,27 +1269,27 @@
      "name": "Vancouver Canucks",
      "short": "Canucks",
      "score": "2",
-     "winner": null,
-     "record": "2-9-1",
+     "winner": false,
+     "record": "2-10-1",
      "ml_open": null,
      "ml": null,
      "tid": "22",
      "abbr": "VAN",
-     "home_rec": "1-4-0",
+     "home_rec": "1-5-0",
      "road_rec": "1-5-1"
     },
     "away": {
      "name": "Minnesota Wild",
      "short": "Wild",
      "score": "4",
-     "winner": null,
-     "record": "7-3-2",
+     "winner": true,
+     "record": "8-3-2",
      "ml_open": null,
      "ml": null,
      "tid": "30",
      "abbr": "MIN",
      "home_rec": "4-0-0",
-     "road_rec": "3-3-2"
+     "road_rec": "4-3-2"
     }
    }
   },
@@ -3039,8 +3039,8 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-26 04:31 UTC",
-  "graded_legs": 155,
+  "updated": "2026-10-26 04:40 UTC",
+  "graded_legs": 159,
   "calibration": {
    "85-90%": {
     "n": 32,
@@ -3049,15 +3049,15 @@
     "hit": 0.938
    },
    "75-80%": {
-    "n": 9,
-    "wins": 8,
-    "pred": 0.787,
-    "hit": 0.889
+    "n": 11,
+    "wins": 10,
+    "pred": 0.786,
+    "hit": 0.909
    },
    "80-85%": {
-    "n": 16,
-    "wins": 16,
-    "pred": 0.827,
+    "n": 17,
+    "wins": 17,
+    "pred": 0.826,
     "hit": 1.0
    },
    "65-70%": {
@@ -3083,6 +3083,12 @@
     "wins": 1,
     "pred": 0.734,
     "hit": 1.0
+   },
+   "40-45%": {
+    "n": 4,
+    "wins": 3,
+    "pred": 0.435,
+    "hit": 0.75
    },
    "25-30%": {
     "n": 4,
@@ -3120,12 +3126,6 @@
     "pred": 0.381,
     "hit": 0.0
    },
-   "40-45%": {
-    "n": 3,
-    "wins": 2,
-    "pred": 0.436,
-    "hit": 0.667
-   },
    "55-60%": {
     "n": 1,
     "wins": 1,
@@ -3153,10 +3153,10 @@
     "hit": 0.875
    },
    "nhl": {
-    "n": 23,
-    "wins": 16,
-    "pred": 0.693,
-    "hit": 0.696
+    "n": 27,
+    "wins": 20,
+    "pred": 0.694,
+    "hit": 0.741
    },
    "mlb": {
     "n": 1,
@@ -3191,16 +3191,16 @@
   },
   "by_market": {
    "total": {
-    "n": 76,
-    "wins": 70,
-    "pred": 0.898,
-    "hit": 0.921
+    "n": 78,
+    "wins": 72,
+    "pred": 0.895,
+    "hit": 0.923
    },
    "spread": {
-    "n": 59,
-    "wins": 48,
-    "pred": 0.848,
-    "hit": 0.814
+    "n": 61,
+    "wins": 50,
+    "pred": 0.841,
+    "hit": 0.82
    },
    "dc": {
     "n": 9,
@@ -3234,15 +3234,15 @@
    }
   },
   "parlays": {
-   "graded": 72,
-   "won": 6,
-   "expected": 13.55,
-   "pending": 7,
+   "graded": 77,
+   "won": 11,
+   "expected": 16.05,
+   "pending": 2,
    "by_type": {
     "ladder": {
-     "graded": 49,
-     "won": 6,
-     "expected": 11.85
+     "graded": 53,
+     "won": 10,
+     "expected": 13.93
     },
     "best": {
      "graded": 1,
@@ -3250,9 +3250,9 @@
      "expected": 0.2
     },
     "lottery": {
-     "graded": 22,
-     "won": 0,
-     "expected": 1.49
+     "graded": 23,
+     "won": 1,
+     "expected": 1.92
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -3269,43 +3269,43 @@
  "note": "22 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 267,
-   "brier": 0.156,
-   "logloss": 0.5064,
+   "n": 273,
+   "brier": 0.1542,
+   "logloss": 0.502,
    "picks": 40,
    "avg_clv_fd_pts": -0.01,
    "avg_clv_sharp_pts": 0.13,
-   "top_picks_graded": 37,
-   "top_picks_won": 36,
-   "top_picks_expected": 33.22,
-   "top_win_rate": 0.972972972972973
+   "top_picks_graded": 38,
+   "top_picks_won": 37,
+   "top_picks_expected": 34.04,
+   "top_win_rate": 0.9736842105263158
   },
   "v2": {
-   "n": 267,
-   "brier": 0.1564,
-   "logloss": 0.4969,
+   "n": 273,
+   "brier": 0.1542,
+   "logloss": 0.4916,
    "picks": 38,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.05,
-   "top_picks_graded": 35,
-   "top_picks_won": 29,
-   "top_picks_expected": 30.74,
-   "top_win_rate": 0.8285714285714286
+   "top_picks_graded": 36,
+   "top_picks_won": 30,
+   "top_picks_expected": 31.57,
+   "top_win_rate": 0.8333333333333334
   },
-  "graded": 267,
+  "graded": 273,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 267,
-    "v2": 267,
+    "v1": 273,
+    "v2": 273,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.5064,
-    "v2": 0.4969,
+    "v1": 0.502,
+    "v2": 0.4916,
     "pass": true
    },
    {
@@ -3322,14 +3322,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 37,
-    "v2": 35,
+    "v1": 38,
+    "v2": 36,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "36/37",
-    "v2": "29/35",
+    "v1": "37/38",
+    "v2": "30/36",
     "pass": false
    }
   ],
@@ -3359,18 +3359,18 @@
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 11,
+   "dropped": 12,
    "of": 22,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
     "Osasuna And Draw (Osasuna at Sevilla) -120: FanDuel implies 54.5% vs Pinnacle fair 48.8%",
     "Under 3.5 Goals (Osasuna at Sevilla) -420: FanDuel implies 80.8% vs Pinnacle fair 75.8%",
-    "Paris St-G (Lyon at Paris Saint-Germain) -900: FanDuel implies 90.0% vs Pinnacle fair 85.4%",
-    "Paris St-G (Lyon at Paris Saint-Germain) -320: FanDuel implies 76.2% vs Pinnacle fair 72.1%",
+    "Paris St-G (Lyon at Paris Saint-Germain) -900: FanDuel implies 90.0% vs Pinnacle fair 85.5%",
+    "Under 4.5 Goals (Lyon at Paris Saint-Germain) -290: FanDuel implies 74.4% vs Pinnacle fair 70.1%",
     "Sevilla (Osasuna at Sevilla) -295: FanDuel implies 74.7% vs Pinnacle fair 70.7%",
+    "Paris St-G (Lyon at Paris Saint-Germain) -320: FanDuel implies 76.2% vs Pinnacle fair 72.3%",
     "Sevilla And Draw (Osasuna at Sevilla) -475: FanDuel implies 82.6% vs Pinnacle fair 78.7%",
-    "Sevilla And Osasuna (Osasuna at Sevilla) -320: FanDuel implies 76.2% vs Pinnacle fair 72.5%",
-    "Under 4.5 Goals (Lyon at Paris Saint-Germain) -290: FanDuel implies 74.4% vs Pinnacle fair 70.8%"
+    "Sevilla And Osasuna (Osasuna at Sevilla) -320: FanDuel implies 76.2% vs Pinnacle fair 72.5%"
    ]
   }
  },
