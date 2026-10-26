@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26 01:58 UTC",
- "graded_legs": 125,
+ "updated": "2026-10-26 02:05 UTC",
+ "graded_legs": 128,
  "calibration": {
   "85-90%": {
    "n": 30,
@@ -15,9 +15,9 @@
    "hit": 0.875
   },
   "80-85%": {
-   "n": 15,
-   "wins": 15,
-   "pred": 0.826,
+   "n": 16,
+   "wins": 16,
+   "pred": 0.827,
    "hit": 1.0
   },
   "95-100%": {
@@ -27,10 +27,10 @@
    "hit": 0.955
   },
   "90-95%": {
-   "n": 14,
-   "wins": 12,
-   "pred": 0.944,
-   "hit": 0.857
+   "n": 15,
+   "wins": 13,
+   "pred": 0.943,
+   "hit": 0.867
   },
   "70-75%": {
    "n": 1,
@@ -54,6 +54,12 @@
    "n": 2,
    "wins": 0,
    "pred": 0.238,
+   "hit": 0.0
+  },
+  "35-40%": {
+   "n": 1,
+   "wins": 0,
+   "pred": 0.381,
    "hit": 0.0
   },
   "30-35%": {
@@ -107,10 +113,10 @@
    "hit": 0.885
   },
   "nhl": {
-   "n": 15,
-   "wins": 12,
-   "pred": 0.71,
-   "hit": 0.8
+   "n": 18,
+   "wins": 14,
+   "pred": 0.712,
+   "hit": 0.778
   },
   "mlb": {
    "n": 1,
@@ -145,16 +151,16 @@
  },
  "by_market": {
   "total": {
-   "n": 65,
-   "wins": 63,
-   "pred": 0.907,
-   "hit": 0.969
+   "n": 66,
+   "wins": 64,
+   "pred": 0.906,
+   "hit": 0.97
   },
   "spread": {
-   "n": 43,
-   "wins": 38,
-   "pred": 0.872,
-   "hit": 0.884
+   "n": 45,
+   "wins": 39,
+   "pred": 0.863,
+   "hit": 0.867
   },
   "dc": {
    "n": 8,
@@ -188,10 +194,10 @@
   }
  },
  "parlays": {
-  "graded": 48,
+  "graded": 50,
   "won": 6,
-  "expected": 8.08,
-  "pending": 31,
+  "expected": 8.19,
+  "pending": 29,
   "by_type": {
    "ladder": {
     "graded": 36,
@@ -199,15 +205,15 @@
     "expected": 7.74
    },
    "lottery": {
-    "graded": 12,
+    "graded": 14,
     "won": 0,
-    "expected": 0.32
+    "expected": 0.43
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 172,
+  "legs_tracked": 173,
   "avg_clv_pts": -0.13,
   "beat_close": 52,
   "worse_than_close": 53
