@@ -227,7 +227,7 @@ def sharp_filter(cands,cfg):
   ids={L['id'] for L in drop}; return [L for L in cands if L['id'] not in ids],drop
 # ---------------- shadow log, grading, CLV, switch ----------------
 def ll(p,y): p=min(max(p,0.01),0.99); return -math.log(p if y else 1-p)
-def shadow(cands,G,grade,DATE,NOW,cfg,v1best):
+def shadow(cands,G,grade,DATE,NOW,cfg,v1best,live='v1'):
   S=load('shadow.json',{'legs':{}}); LG=S['legs']
   byg={}
   for L in cands:
@@ -243,6 +243,7 @@ def shadow(cands,G,grade,DATE,NOW,cfg,v1best):
       r.update({'odds_last':L['odds'],'sharp_last':L.get('sharp_prob'),'v1':L['v1_prob'],'v2':L['v2_prob'],'seen':NOW})
     for r in LG.values():
       if r['event']==e: r['v1_top']=r['id']==top1; r['v2_top']=r['id']==top2
+    if e in v1best and v1best[e]['id'] in LG: LG[v1best[e]['id']][live+'_best']=True  # King's Favorite/Best Parlay pool leg of the live model
   for r in LG.values():
     if r['result'] is None:
       g=G.get(r['event'])
@@ -260,7 +261,7 @@ def evaluate(LG,cfg):
   def m(key,top):
     ps=[(r[key],r['result']=='win') for r in gr]
     out={'n':len(ps),'brier':round(sum((p-y)**2 for p,y in ps)/len(ps),4) if ps else None,'logloss':round(sum(ll(p,y) for p,y in ps)/len(ps),4) if ps else None}
-    tp=[r for r in LG.values() if r.get(top)]
+    tp=[r for r in LG.values() if r.get(top) or r.get(key+'_best')]
     cl=[clv(r) for r in tp]
     out['picks']=len(tp); out['avg_clv_fd_pts']=round(100*sum(c['fd'] for c in cl)/len(cl),2) if cl else None
     cs=[c['sharp'] for c in cl if 'sharp' in c]; out['avg_clv_sharp_pts']=round(100*sum(cs)/len(cs),2) if cs else None
@@ -268,9 +269,21 @@ def evaluate(LG,cfg):
     out['top_picks_expected']=round(sum(r[key] for r in tg),2)
     return out
   v1=m('v1','v1_top'); v2=m('v2','v2_top')
-  ok=v1['n']>=need and v2['logloss'] is not None and v2['logloss']<v1['logloss'] and (v2['avg_clv_fd_pts'] or -99)>(v1['avg_clv_fd_pts'] or -99)
-  return {'v1':v1,'v2':v2,'graded':len(gr),'need':need,'switch':bool(ok) and C.get('allow_switch',True),
-          'rule':f"v2 replaces v1 only after {need}+ graded shadow legs AND v2 has lower log loss AND higher average closing-line value than v1. Until then v1 stays live."}
+  ntop=C.get('switch_min_top',30)
+  wr=lambda x:(x['top_picks_won']/x['top_picks_graded']) if x['top_picks_graded'] else None
+  v1['top_win_rate']=wr(v1); v2['top_win_rate']=wr(v2)
+  lt=lambda a,b:a is not None and b is not None and a<b
+  conds=[
+    {'name':f'At least {need} graded legs','v1':len(gr),'v2':len(gr),'pass':len(gr)>=need},
+    {'name':'v2 lower log loss','v1':v1['logloss'],'v2':v2['logloss'],'pass':lt(v2['logloss'],v1['logloss'])},
+    {'name':'v2 higher avg CLV vs FanDuel','v1':v1['avg_clv_fd_pts'],'v2':v2['avg_clv_fd_pts'],'pass':lt(v1['avg_clv_fd_pts'],v2['avg_clv_fd_pts'])},
+    {'name':'v2 higher avg CLV vs Pinnacle','v1':v1['avg_clv_sharp_pts'],'v2':v2['avg_clv_sharp_pts'],'pass':lt(v1['avg_clv_sharp_pts'],v2['avg_clv_sharp_pts'])},
+    {'name':f'At least {ntop} top picks graded (each model)','v1':v1['top_picks_graded'],'v2':v2['top_picks_graded'],'pass':min(v1['top_picks_graded'],v2['top_picks_graded'])>=ntop},
+    {'name':'v2 top-pick win rate >= v1','v1':f"{v1['top_picks_won']}/{v1['top_picks_graded']}",'v2':f"{v2['top_picks_won']}/{v2['top_picks_graded']}",'pass':wr(v1) is not None and wr(v2) is not None and wr(v2)>=wr(v1)}]
+  ready=all(c['pass'] for c in conds)
+  return {'v1':v1,'v2':v2,'graded':len(gr),'need':need,'need_top':ntop,'conditions':conds,'switch_ready':ready,
+          'switch':ready and C.get('allow_switch',False),
+          'rule':f"v1 is live. v2 is only PROPOSED (switch_ready) when ALL hold on the same graded legs: {need}+ graded legs, lower log loss, higher avg CLV vs FanDuel AND vs Pinnacle, {ntop}+ top picks graded and a top-pick win rate (King's Favorite/Best Parlay legs + top leg per game) at least v1's. Even then the user is asked first; it never switches on its own."}
 def hist_clv(hist,allc,G):
   """record last pre-game FanDuel price on every logged pick (v1 history) while its game hasn't started"""
   for x in hist:

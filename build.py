@@ -222,7 +222,8 @@ try: V2INFO=v2.score(cands,games,G,get,SPORTS,toks,cfg)
 except Exception as e: print('v2 fail',e); V2INFO={'error':str(e)}
 ALLC={L['id']:L for L in cands}
 MC0=v2.evaluate(v2.load('shadow.json',{'legs':{}})['legs'],cfg)
-LIVE='v2' if MC0['switch'] else 'v1'
+LIVE='v2' if (cfg.get('v2',{}).get('live_model')=='v2' and cfg.get('v2',{}).get('allow_switch')) else 'v1'  # manual only
+if MC0.get('switch_ready'): print('NOTABLE: v2 switch_ready - ask the user; not switching')
 if LIVE=='v2':
   for L in cands:
     if L.get('v2_prob') is not None: L['prob']=L['v2_prob']
@@ -380,7 +381,7 @@ for d0 in sorted({x['date'] for x in hist if x.get('result') is None and x['date
     for e in espn_events(lg,sp,d0,ttl=300): GH[e['id']]=parse(e,lg)
 G={**GH,**G}
 json.dump(box,open('.cache/box.json','w'))
-try: MC=v2.shadow(list(ALLC.values()),G,grade,DATE,NOW,cfg,best)
+try: MC=v2.shadow(list(ALLC.values()),G,grade,DATE,NOW,cfg,best,LIVE)
 except Exception as e: print('shadow fail',e); MC=MC0
 # history: one entry per date+n, overwritten until any leg's game starts (then locked)
 H={x['id']:x for x in hist}; LD={L['id']:L for L in cands}
