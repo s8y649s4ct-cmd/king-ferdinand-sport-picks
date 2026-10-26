@@ -5698,8 +5698,36 @@
   "date": "2026-10-25",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.9683,
-  "fd_payout_x": 1.11,
+  "est_prob": 0.9724,
+  "fd_payout_x": 1.1,
+  "legs_detail": [
+   {
+    "id": "401909867:7867411:742.193756903",
+    "event": "401909867",
+    "sport": "nba",
+    "kind": "total",
+    "line": 257.5,
+    "ou": "under",
+    "pick": "Under 257.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9724,
+    "game": "Memphis Grizzlies at Sacramento Kings",
+    "result": null,
+    "close_odds": -1000
+   }
+  ],
+  "logged": "2026-10-26 00:48 UTC",
+  "locked": false,
+  "result": null
+ },
+ {
+  "id": "2026-10-25-2",
+  "date": "2026-10-25",
+  "type": "ladder",
+  "n": 2,
+  "est_prob": 0.81608,
+  "fd_payout_x": 1.23,
   "legs_detail": [
    {
     "id": "401909867:7890696:742.193756853",
@@ -5715,20 +5743,50 @@
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
     "close_odds": -950
+   },
+   {
+    "id": "761904:1221386:742.192524662",
+    "event": "761904",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -900,
+    "prob": 0.8428,
+    "game": "LA Galaxy at LAFC",
+    "result": null,
+    "close_odds": -900
    }
   ],
-  "logged": "2026-10-26 00:41 UTC",
+  "logged": "2026-10-26 00:48 UTC",
   "locked": false,
   "result": null
  },
  {
-  "id": "2026-10-25-2",
+  "id": "2026-10-25-3",
   "date": "2026-10-25",
   "type": "ladder",
-  "n": 2,
-  "est_prob": 0.68452,
-  "fd_payout_x": 1.3,
+  "n": 3,
+  "est_prob": 0.65892,
+  "fd_payout_x": 1.43,
   "legs_detail": [
+   {
+    "id": "401909867:7913403:742.193756853",
+    "event": "401909867",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 18.5,
+    "pick": "Sacramento Kings +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.9626,
+    "game": "Memphis Grizzlies at Sacramento Kings",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "761904:1221386:742.192524662",
     "event": "761904",
@@ -5760,65 +5818,7 @@
     "close_odds": -600
    }
   ],
-  "logged": "2026-10-26 00:41 UTC",
-  "locked": false,
-  "result": null
- },
- {
-  "id": "2026-10-25-3",
-  "date": "2026-10-25",
-  "type": "ladder",
-  "n": 3,
-  "est_prob": 0.63211,
-  "fd_payout_x": 1.49,
-  "legs_detail": [
-   {
-    "id": "401909867:7889755:742.193756903",
-    "event": "401909867",
-    "sport": "nba",
-    "kind": "total",
-    "line": 256.5,
-    "ou": "under",
-    "pick": "Under 256.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9618,
-    "game": "Memphis Grizzlies at Sacramento Kings",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "761904:1221386:742.192524662",
-    "event": "761904",
-    "sport": "usa.1",
-    "kind": "total",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -900,
-    "prob": 0.8428,
-    "game": "LA Galaxy at LAFC",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401892581:8359782:742.193790372",
-    "event": "401892581",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -480,
-    "prob": 0.7798,
-    "game": "Minnesota Wild at Vancouver Canucks",
-    "result": null,
-    "close_odds": -480
-   }
-  ],
-  "logged": "2026-10-26 00:41 UTC",
+  "logged": "2026-10-26 00:48 UTC",
   "locked": false,
   "result": null
  },
@@ -5843,7 +5843,7 @@
     "prob": 0.9603,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401873022:12197186:742.192667308",
@@ -6223,7 +6223,7 @@
     "prob": 0.9603,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909866:7914511:742.193757204",
@@ -7496,7 +7496,7 @@
     "prob": 0.9626,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909861:7711020:742.193757052",
@@ -7733,7 +7733,7 @@
     "prob": 0.9626,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909861:7711020:742.193757052",
@@ -8224,7 +8224,7 @@
     "prob": 0.9626,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909863:7711983:742.193757684",
@@ -9172,7 +9172,7 @@
     "prob": 0.9603,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909865:7890532:742.193757556",
@@ -11684,40 +11684,40 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.02958914718,
-  "fd_payout_x": 27.7,
+  "est_prob": 0.018835010178,
+  "fd_payout_x": 41.18,
   "legs_detail": [
    {
-    "id": "401909867:26799224:742.193749626",
+    "id": "401909867:23316222:742.193749584",
     "event": "401909867",
     "sport": "nba",
     "kind": "prop",
-    "line": 9.5,
+    "line": 3.5,
     "ou": "over",
-    "player": "Precious Achiuwa",
-    "stat": "REB",
-    "pick": "Precious Achiuwa",
-    "market": "To Record 10+ Rebounds",
-    "odds": 265,
-    "prob": 0.261,
+    "player": "De'Andre Hunter",
+    "stat": "ASS",
+    "pick": "De'Andre Hunter",
+    "market": "To Record 4+ Assists",
+    "odds": 285,
+    "prob": 0.2427,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": 265
+    "close_odds": 285
    },
    {
-    "id": "401892581:25604:742.193519427",
+    "id": "401892581:8359774:742.193790372",
     "event": "401892581",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Minnesota Wild -1.5",
-    "market": "Puck Line",
-    "odds": 120,
-    "prob": 0.4362,
+    "kind": "total",
+    "line": 7.5,
+    "ou": "over",
+    "pick": "Over 7.5",
+    "market": "Alternate Total Goals",
+    "odds": 210,
+    "prob": 0.2986,
     "game": "Minnesota Wild at Vancouver Canucks",
     "result": null,
-    "close_odds": 120
+    "close_odds": 210
    },
    {
     "id": "761904:1222346:742.192524650",
@@ -11735,7 +11735,7 @@
     "close_odds": 245
    }
   ],
-  "logged": "2026-10-26 00:41 UTC",
+  "logged": "2026-10-26 00:48 UTC",
   "locked": false,
   "result": null
  },
@@ -11745,23 +11745,23 @@
   "type": "lottery",
   "label": "3-leg best-edge lottery",
   "n": 3,
-  "est_prob": 0.25447940715,
-  "fd_payout_x": 3.71,
+  "est_prob": 0.25555693020000003,
+  "fd_payout_x": 3.69,
   "legs_detail": [
    {
-    "id": "401909867:7890696:742.193756853",
+    "id": "401909867:7867411:742.193756903",
     "event": "401909867",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 12.5,
-    "pick": "Memphis Grizzlies +12.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9683,
+    "kind": "total",
+    "line": 257.5,
+    "ou": "under",
+    "pick": "Under 257.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9724,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401892581:25604:742.193519427",
@@ -11793,7 +11793,7 @@
     "close_odds": -190
    }
   ],
-  "logged": "2026-10-26 00:41 UTC",
+  "logged": "2026-10-26 00:48 UTC",
   "locked": false,
   "result": null
  },
@@ -11836,7 +11836,7 @@
     "prob": 0.2646,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": 265
+    "close_odds": 280
    },
    {
     "id": "401892581:8359774:742.193790372",
@@ -11985,7 +11985,7 @@
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": 300
+    "close_odds": 290
    },
    {
     "id": "761904:1222346:742.192524650",
@@ -12164,7 +12164,7 @@
     "prob": 0.261,
     "game": "Memphis Grizzlies at Sacramento Kings",
     "result": null,
-    "close_odds": 265
+    "close_odds": 280
    },
    {
     "id": "401909866:71473481:742.193740501",
