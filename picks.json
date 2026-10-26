@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 01:34 UTC",
+ "updated": "2026-10-26 01:46 UTC",
  "date": "2026-10-25",
  "ladder_stats": {
   "tickets": 2,
@@ -27,7 +27,7 @@
    "odds": -600,
    "fd_prob": 0.8086,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:34 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:46 UTC",
    "dist_prob": 0.8757,
    "market_prob": 0.8422,
    "prob": 0.8122,
@@ -70,7 +70,7 @@
    "odds": -1000,
    "fd_prob": 0.8672,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 01:34 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36180829, fetched 2026-10-26 01:46 UTC",
    "market_prob": 0.8672,
    "prob": 0.9365,
    "pre_research": 0.8672,
@@ -107,7 +107,7 @@
    "odds": 126,
    "fd_prob": 0.4219,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:34 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230576, fetched 2026-10-26 01:46 UTC",
    "dist_prob": 0.5,
    "market_prob": 0.4609,
    "prob": 0.4309,
@@ -196,7 +196,7 @@
    "name": "Kansas City Chiefs at Seattle Seahawks",
    "start": "2026-10-26T00:20Z",
    "state": "in",
-   "status": "1:16 - 2nd",
+   "status": "Halftime",
    "venue": "Lumen Field",
    "indoor": false,
    "city": {
@@ -866,8 +866,8 @@
    "sport": "nba",
    "name": "Orlando Magic at New York Knicks",
    "start": "2026-10-25T23:00Z",
-   "state": "in",
-   "status": "18.6 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Madison Square Garden",
    "indoor": true,
    "city": {
@@ -882,28 +882,28 @@
     "home": {
      "name": "New York Knicks",
      "short": "Knicks",
-     "score": "100",
-     "winner": null,
-     "record": "0-2",
+     "score": "102",
+     "winner": false,
+     "record": "0-3",
      "ml_open": null,
      "ml": null,
      "tid": "18",
      "abbr": "NY",
-     "home_rec": "0-1",
+     "home_rec": "0-2",
      "road_rec": "0-1"
     },
     "away": {
      "name": "Orlando Magic",
      "short": "Magic",
-     "score": "107",
-     "winner": null,
-     "record": "0-2",
+     "score": "111",
+     "winner": true,
+     "record": "1-2",
      "ml_open": null,
      "ml": null,
      "tid": "19",
      "abbr": "ORL",
      "home_rec": "0-2",
-     "road_rec": "0-0"
+     "road_rec": "1-0"
     }
    }
   },
@@ -912,8 +912,8 @@
    "sport": "nba",
    "name": "Toronto Raptors at Minnesota Timberwolves",
    "start": "2026-10-25T23:00Z",
-   "state": "in",
-   "status": "36.4 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Target Center",
    "indoor": true,
    "city": {
@@ -928,28 +928,28 @@
     "home": {
      "name": "Minnesota Timberwolves",
      "short": "Timberwolves",
-     "score": "116",
-     "winner": null,
-     "record": "2-0",
+     "score": "117",
+     "winner": true,
+     "record": "3-0",
      "ml_open": null,
      "ml": null,
      "tid": "16",
      "abbr": "MIN",
-     "home_rec": "0-0",
+     "home_rec": "1-0",
      "road_rec": "2-0"
     },
     "away": {
      "name": "Toronto Raptors",
      "short": "Raptors",
      "score": "94",
-     "winner": null,
-     "record": "2-0",
+     "winner": false,
+     "record": "2-1",
      "ml_open": null,
      "ml": null,
      "tid": "28",
      "abbr": "TOR",
      "home_rec": "1-0",
-     "road_rec": "1-0"
+     "road_rec": "1-1"
     }
    }
   },
@@ -1005,7 +1005,7 @@
    "name": "Detroit Pistons at Philadelphia 76ers",
    "start": "2026-10-25T23:30Z",
    "state": "in",
-   "status": "End of 3rd",
+   "status": "8:50 - 4th",
    "venue": "Xfinity Mobile Arena",
    "indoor": true,
    "city": {
@@ -1020,7 +1020,7 @@
     "home": {
      "name": "Philadelphia 76ers",
      "short": "76ers",
-     "score": "69",
+     "score": "78",
      "winner": null,
      "record": "3-0",
      "ml_open": null,
@@ -1033,7 +1033,7 @@
     "away": {
      "name": "Detroit Pistons",
      "short": "Pistons",
-     "score": "78",
+     "score": "82",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -1051,7 +1051,7 @@
    "name": "Memphis Grizzlies at Sacramento Kings",
    "start": "2026-10-26T01:00Z",
    "state": "in",
-   "status": "59.7 - 1st",
+   "status": "0.0 - 2nd",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -1066,7 +1066,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "26",
+     "score": "33",
      "winner": null,
      "record": "0-2",
      "ml_open": null,
@@ -1079,7 +1079,7 @@
     "away": {
      "name": "Memphis Grizzlies",
      "short": "Grizzlies",
-     "score": "22",
+     "score": "36",
      "winner": null,
      "record": "2-0",
      "ml_open": null,
@@ -1191,7 +1191,7 @@
    "name": "Montreal Canadiens at Winnipeg Jets",
    "start": "2026-10-25T23:00Z",
    "state": "in",
-   "status": "13:14 - 3rd",
+   "status": "8:02 - 3rd",
    "venue": "Princess Auto Stadium",
    "indoor": false,
    "city": {
@@ -1238,7 +1238,7 @@
    "name": "Colorado Avalanche at Nashville Predators",
    "start": "2026-10-26T00:00Z",
    "state": "in",
-   "status": "4:59 - 2nd",
+   "status": "End of 2nd",
    "venue": "Bridgestone Arena",
    "indoor": true,
    "city": {
@@ -1254,7 +1254,7 @@
     "home": {
      "name": "Nashville Predators",
      "short": "Predators",
-     "score": "3",
+     "score": "5",
      "winner": null,
      "record": "3-3-4",
      "ml_open": null,
@@ -1267,7 +1267,7 @@
     "away": {
      "name": "Colorado Avalanche",
      "short": "Avalanche",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "6-4-1",
      "ml_open": null,
@@ -2390,7 +2390,7 @@
    "name": "LA Galaxy at LAFC",
    "start": "2026-10-26T01:00Z",
    "state": "in",
-   "status": "22'",
+   "status": "33'",
    "venue": "BMO Stadium",
    "indoor": null,
    "city": {
@@ -2679,6 +2679,11 @@
   },
   {
    "team": "Oklahoma City Thunder",
+   "t": "Jalen Williams - Day-To-Day: Williams was stretchered off the floor during Sunday's game against the Clippers due to an apparent left ankle injury, NBA writer Justin Russo reports.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Oklahoma City Thunder",
    "t": "Jaylin Williams - Day-To-Day: Williams won't return to Sunday's game against the Clippers due to right wrist soreness, Nick Crain of SLAM reports.",
    "src": "ESPN injuries feed"
   },
@@ -2700,6 +2705,11 @@
   {
    "team": "Oklahoma City Thunder",
    "t": "Thomas Sorber - Out: Sorber (knee) is listed as out for Thursday's game against Denver.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Orlando Magic",
+   "t": "Jalen Suggs - Day-To-Day: Suggs racked up six points (2-8 FG, 0-2 3Pt, 2-2 FT), three rebounds, five assists and two steals over 32 minutes during Wednesday's 132-125 loss to the Hawks.",
    "src": "ESPN injuries feed"
   },
   {
@@ -3025,8 +3035,8 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-26 01:34 UTC",
-  "graded_legs": 107,
+  "updated": "2026-10-26 01:46 UTC",
+  "graded_legs": 125,
   "calibration": {
    "85-90%": {
     "n": 30,
@@ -3047,16 +3057,16 @@
     "hit": 1.0
    },
    "95-100%": {
-    "n": 29,
-    "wins": 28,
-    "pred": 0.958,
-    "hit": 0.966
+    "n": 44,
+    "wins": 42,
+    "pred": 0.959,
+    "hit": 0.955
    },
    "90-95%": {
-    "n": 11,
-    "wins": 10,
-    "pred": 0.942,
-    "hit": 0.909
+    "n": 14,
+    "wins": 12,
+    "pred": 0.944,
+    "hit": 0.857
    },
    "70-75%": {
     "n": 1,
@@ -3127,10 +3137,10 @@
     "hit": 1.0
    },
    "nba": {
-    "n": 34,
-    "wins": 30,
-    "pred": 0.87,
-    "hit": 0.882
+    "n": 52,
+    "wins": 46,
+    "pred": 0.901,
+    "hit": 0.885
    },
    "nhl": {
     "n": 15,
@@ -3171,16 +3181,16 @@
   },
   "by_market": {
    "total": {
-    "n": 57,
-    "wins": 55,
-    "pred": 0.9,
-    "hit": 0.965
+    "n": 65,
+    "wins": 63,
+    "pred": 0.907,
+    "hit": 0.969
    },
    "spread": {
-    "n": 33,
-    "wins": 30,
-    "pred": 0.844,
-    "hit": 0.909
+    "n": 43,
+    "wins": 38,
+    "pred": 0.872,
+    "hit": 0.884
    },
    "dc": {
     "n": 8,
@@ -3214,20 +3224,20 @@
    }
   },
   "parlays": {
-   "graded": 43,
+   "graded": 48,
    "won": 6,
-   "expected": 7.1,
-   "pending": 36,
+   "expected": 8.08,
+   "pending": 31,
    "by_type": {
     "ladder": {
-     "graded": 34,
+     "graded": 36,
      "won": 6,
-     "expected": 6.99
+     "expected": 7.74
     },
     "lottery": {
-     "graded": 9,
+     "graded": 12,
      "won": 0,
-     "expected": 0.1
+     "expected": 0.32
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -3244,44 +3254,44 @@
  "note": "31 FanDuel-priced candidates (dc, dnb, ml, ml3, spread, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 188,
-   "brier": 0.1286,
-   "logloss": 0.4241,
+   "n": 216,
+   "brier": 0.1407,
+   "logloss": 0.4687,
    "picks": 39,
    "avg_clv_fd_pts": -0.01,
    "avg_clv_sharp_pts": 0.12,
-   "top_picks_graded": 27,
-   "top_picks_won": 27,
-   "top_picks_expected": 23.97,
+   "top_picks_graded": 29,
+   "top_picks_won": 29,
+   "top_picks_expected": 25.92,
    "top_win_rate": 1.0
   },
   "v2": {
-   "n": 188,
-   "brier": 0.1296,
-   "logloss": 0.4269,
+   "n": 216,
+   "brier": 0.1395,
+   "logloss": 0.4535,
    "picks": 37,
    "avg_clv_fd_pts": 0.16,
    "avg_clv_sharp_pts": 0.05,
-   "top_picks_graded": 27,
-   "top_picks_won": 24,
-   "top_picks_expected": 23.62,
-   "top_win_rate": 0.8888888888888888
+   "top_picks_graded": 29,
+   "top_picks_won": 26,
+   "top_picks_expected": 25.46,
+   "top_win_rate": 0.896551724137931
   },
-  "graded": 188,
+  "graded": 216,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 188,
-    "v2": 188,
+    "v1": 216,
+    "v2": 216,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4241,
-    "v2": 0.4269,
-    "pass": false
+    "v1": 0.4687,
+    "v2": 0.4535,
+    "pass": true
    },
    {
     "name": "v2 higher avg CLV vs FanDuel",
@@ -3297,14 +3307,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 27,
-    "v2": 27,
+    "v1": 29,
+    "v2": 29,
     "pass": false
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "27/27",
-    "v2": "24/27",
+    "v1": "29/29",
+    "v2": "26/29",
     "pass": false
    }
   ],
