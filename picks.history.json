@@ -21519,8 +21519,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2223,
-  "fd_payout_x": 4.37,
+  "est_prob": 0.2203,
+  "fd_payout_x": 4.4,
   "legs_detail": [
    {
     "id": "401909878:7889788:742.194123527",
@@ -21555,22 +21555,6 @@
     "close_odds": -290
    },
    {
-    "id": "401909879:7989077:742.194124041",
-    "event": "401909879",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 26.5,
-    "pick": "Sacramento Kings +26.5",
-    "market": "Alternate Spread",
-    "odds": -300,
-    "prob": 0.7376,
-    "raw_prob": 0.7376,
-    "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
-    "close_odds": -300
-   },
-   {
     "id": "401909877:7978200:742.194124456",
     "event": "401909877",
     "sport": "nba",
@@ -21585,6 +21569,22 @@
     "game": "Brooklyn Nets at Boston Celtics",
     "result": null,
     "close_odds": -275
+   },
+   {
+    "id": "401909879:7747629:742.194124052",
+    "event": "401909879",
+    "sport": "nba",
+    "kind": "total",
+    "line": 241.5,
+    "ou": "under",
+    "pick": "Under 241.5",
+    "market": "Alternate Total Points",
+    "odds": -290,
+    "prob": 0.7307,
+    "raw_prob": 0.7307,
+    "game": "Sacramento Kings at San Antonio Spurs",
+    "result": null,
+    "close_odds": -290
    },
    {
     "id": "401871071:12194341:742.193828151",
@@ -21603,7 +21603,7 @@
     "close_odds": -295
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -21635,7 +21635,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -21682,7 +21682,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -21746,7 +21746,7 @@
     "close_odds": -900
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -21757,9 +21757,9 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.50096,
-  "est_raw": 0.4689,
-  "fd_payout_x": 1.72,
+  "est_prob": 0.50396,
+  "est_raw": 0.47171,
+  "fd_payout_x": 1.71,
   "legs_detail": [
    {
     "id": "401892585:7746352:742.193940323",
@@ -21786,12 +21786,12 @@
     "ou": "under",
     "pick": "Under 11.5",
     "market": "Alternate Total Runs",
-    "odds": -850,
-    "prob": 0.8341,
-    "raw_prob": 0.8341,
+    "odds": -900,
+    "prob": 0.8391,
+    "raw_prob": 0.8391,
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401874780:16290097:742.193034331",
@@ -21825,7 +21825,7 @@
     "close_odds": -600
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -21835,8 +21835,8 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 5,
-  "est_prob": 0.62626,
-  "est_raw": 0.48074,
+  "est_prob": 0.62977,
+  "est_raw": 0.48346,
   "fd_payout_x": 1.8,
   "legs_detail": [
    {
@@ -21849,8 +21849,8 @@
     "pick": "Under 259.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.9453,
-    "raw_prob": 0.8848,
+    "prob": 0.9506,
+    "raw_prob": 0.8898,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -1000
@@ -21920,7 +21920,7 @@
     "close_odds": -590
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -21930,10 +21930,26 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.3383,
-  "est_raw": 0.27745,
-  "fd_payout_x": 2.65,
+  "est_prob": 0.40252,
+  "est_raw": 0.309,
+  "fd_payout_x": 2.49,
   "legs_detail": [
+   {
+    "id": "401909880:7889006:742.194124175",
+    "event": "401909880",
+    "sport": "nba",
+    "kind": "total",
+    "line": 258.5,
+    "ou": "under",
+    "pick": "Under 258.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9408,
+    "raw_prob": 0.8806,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -900
+   },
    {
     "id": "401871072:59955531:742.193830534",
     "event": "401871072",
@@ -21999,22 +22015,6 @@
     "close_odds": -900
    },
    {
-    "id": "401874780:1222347:742.193034334",
-    "event": "401874780",
-    "sport": "ita.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -550,
-    "prob": 0.7907,
-    "raw_prob": 0.7907,
-    "game": "Cagliari at AS Roma",
-    "result": null,
-    "close_odds": -550
-   },
-   {
     "id": "401892594:2294077:742.193519889",
     "event": "401892594",
     "sport": "nhl",
@@ -22030,7 +22030,7 @@
     "close_odds": -210
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -22040,26 +22040,10 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.35672,
-  "est_raw": 0.25634,
-  "fd_payout_x": 2.92,
+  "est_prob": 0.29958,
+  "est_raw": 0.22998,
+  "fd_payout_x": 3.17,
   "legs_detail": [
-   {
-    "id": "401909880:7889051:742.194124136",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 13.5,
-    "pick": "Los Angeles Lakers +13.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.9406,
-    "raw_prob": 0.8804,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": -900
-   },
    {
     "id": "401909877:7707476:742.194124449",
     "event": "401909877",
@@ -22093,20 +22077,20 @@
     "close_odds": -1000
    },
    {
-    "id": "401909878:7711399:742.194123532",
+    "id": "401909878:7889872:742.194123527",
     "event": "401909878",
     "sport": "nba",
-    "kind": "total",
-    "line": 239.5,
-    "ou": "under",
-    "pick": "Under 239.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.929,
-    "raw_prob": 0.8696,
+    "kind": "spread",
+    "side": "home",
+    "line": 11.5,
+    "pick": "New York Knicks +11.5",
+    "market": "Alternate Spread",
+    "odds": -800,
+    "prob": 0.9281,
+    "raw_prob": 0.8687,
     "game": "Detroit Pistons at New York Knicks",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    },
    {
     "id": "401871072:59955525:742.193830534",
@@ -22141,6 +22125,22 @@
     "close_odds": -600
    },
    {
+    "id": "401874780:1222347:742.193034334",
+    "event": "401874780",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -550,
+    "prob": 0.7907,
+    "raw_prob": 0.7907,
+    "game": "Cagliari at AS Roma",
+    "result": null,
+    "close_odds": -550
+   },
+   {
     "id": "401892586:25607:742.193519673",
     "event": "401892586",
     "sport": "nhl",
@@ -22156,7 +22156,7 @@
     "close_odds": -192
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -22298,7 +22298,7 @@
     "close_odds": -220
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -22308,9 +22308,9 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.09995,
-  "est_raw": 0.07182,
-  "fd_payout_x": 6.92,
+  "est_prob": 0.10071,
+  "est_raw": 0.07236,
+  "fd_payout_x": 6.79,
   "legs_detail": [
    {
     "id": "401909877:7978183:742.194124456",
@@ -22329,17 +22329,17 @@
     "close_odds": -950
    },
    {
-    "id": "401909880:7889006:742.194124175",
+    "id": "401909880:7889051:742.194124136",
     "event": "401909880",
     "sport": "nba",
-    "kind": "total",
-    "line": 258.5,
-    "ou": "under",
-    "pick": "Under 258.5",
-    "market": "Alternate Total Points",
+    "kind": "spread",
+    "side": "home",
+    "line": 13.5,
+    "pick": "Los Angeles Lakers +13.5",
+    "market": "Alternate Spread",
     "odds": -900,
-    "prob": 0.9354,
-    "raw_prob": 0.8756,
+    "prob": 0.9406,
+    "raw_prob": 0.8804,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -900
@@ -22361,20 +22361,20 @@
     "close_odds": -900
    },
    {
-    "id": "401909878:7889872:742.194123527",
+    "id": "401909878:7711399:742.194123532",
     "event": "401909878",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "New York Knicks +11.5",
-    "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.9281,
-    "raw_prob": 0.8687,
+    "kind": "total",
+    "line": 239.5,
+    "ou": "under",
+    "pick": "Under 239.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9244,
+    "raw_prob": 0.8653,
     "game": "Detroit Pistons at New York Knicks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -900
    },
    {
     "id": "401871072:12197206:742.193830527",
@@ -22401,12 +22401,12 @@
     "ou": "under",
     "pick": "Under 11.5",
     "market": "Alternate Total Runs",
-    "odds": -850,
-    "prob": 0.8341,
-    "raw_prob": 0.8341,
+    "odds": -900,
+    "prob": 0.8391,
+    "raw_prob": 0.8391,
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401892592:25604:742.193519795",
@@ -22456,7 +22456,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -22627,7 +22627,7 @@
     "close_odds": -205
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -22816,7 +22816,7 @@
     "close_odds": -130
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -23019,7 +23019,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -23029,9 +23029,9 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 13,
-  "est_prob": 0.05032,
-  "est_raw": 0.03168,
-  "fd_payout_x": 11.26,
+  "est_prob": 0.0509,
+  "est_raw": 0.03205,
+  "fd_payout_x": 11.2,
   "legs_detail": [
    {
     "id": "401909880:7695550:742.194124175",
@@ -23043,8 +23043,8 @@
     "pick": "Under 259.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.9453,
-    "raw_prob": 0.8848,
+    "prob": 0.9506,
+    "raw_prob": 0.8898,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -1000
@@ -23154,12 +23154,12 @@
     "ou": "under",
     "pick": "Under 11.5",
     "market": "Alternate Total Runs",
-    "odds": -850,
-    "prob": 0.8341,
-    "raw_prob": 0.8341,
+    "odds": -900,
+    "prob": 0.8391,
+    "raw_prob": 0.8391,
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401874780:16290097:742.193034331",
@@ -23240,7 +23240,7 @@
     "close_odds": -220
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -23255,17 +23255,17 @@
   "fd_payout_x": 86.93,
   "legs_detail": [
    {
-    "id": "401909880:7889051:742.194124136",
+    "id": "401909880:7889006:742.194124175",
     "event": "401909880",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 13.5,
-    "pick": "Los Angeles Lakers +13.5",
-    "market": "Alternate Spread",
+    "kind": "total",
+    "line": 258.5,
+    "ou": "under",
+    "pick": "Under 258.5",
+    "market": "Alternate Total Points",
     "odds": -900,
-    "prob": 0.9406,
-    "raw_prob": 0.8804,
+    "prob": 0.9408,
+    "raw_prob": 0.8806,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -900
@@ -23475,7 +23475,7 @@
     "close_odds": -130
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -23485,9 +23485,9 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 15,
-  "est_prob": 0.02222,
-  "est_raw": 0.01399,
-  "fd_payout_x": 26.86,
+  "est_prob": 0.02232,
+  "est_raw": 0.01405,
+  "fd_payout_x": 27.47,
   "legs_detail": [
    {
     "id": "401909877:7978183:742.194124456",
@@ -23522,17 +23522,17 @@
     "close_odds": -1000
    },
    {
-    "id": "401909880:7889006:742.194124175",
+    "id": "401909880:7889051:742.194124136",
     "event": "401909880",
     "sport": "nba",
-    "kind": "total",
-    "line": 258.5,
-    "ou": "under",
-    "pick": "Under 258.5",
-    "market": "Alternate Total Points",
+    "kind": "spread",
+    "side": "home",
+    "line": 13.5,
+    "pick": "Los Angeles Lakers +13.5",
+    "market": "Alternate Spread",
     "odds": -900,
-    "prob": 0.9354,
-    "raw_prob": 0.8756,
+    "prob": 0.9406,
+    "raw_prob": 0.8804,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -900
@@ -23570,20 +23570,20 @@
     "close_odds": -750
    },
    {
-    "id": "401909878:7711399:742.194123532",
+    "id": "401909878:7889872:742.194123527",
     "event": "401909878",
     "sport": "nba",
-    "kind": "total",
-    "line": 239.5,
-    "ou": "under",
-    "pick": "Under 239.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.929,
-    "raw_prob": 0.8696,
+    "kind": "spread",
+    "side": "home",
+    "line": 11.5,
+    "pick": "New York Knicks +11.5",
+    "market": "Alternate Spread",
+    "odds": -800,
+    "prob": 0.9281,
+    "raw_prob": 0.8687,
     "game": "Detroit Pistons at New York Knicks",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    },
    {
     "id": "401871072:59955525:742.193830534",
@@ -23727,7 +23727,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -23737,9 +23737,9 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 16,
-  "est_prob": 0.00302,
+  "est_prob": 0.00303,
   "est_raw": 0.00217,
-  "fd_payout_x": 105.44,
+  "fd_payout_x": 103.53,
   "legs_detail": [
    {
     "id": "401909877:7913642:742.194124456",
@@ -23774,20 +23774,20 @@
     "close_odds": -900
    },
    {
-    "id": "401909878:7889872:742.194123527",
+    "id": "401909878:7711399:742.194123532",
     "event": "401909878",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "New York Knicks +11.5",
-    "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.9281,
-    "raw_prob": 0.8687,
+    "kind": "total",
+    "line": 239.5,
+    "ou": "under",
+    "pick": "Under 239.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9244,
+    "raw_prob": 0.8653,
     "game": "Detroit Pistons at New York Knicks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -900
    },
    {
     "id": "401871072:12197206:742.193830527",
@@ -23830,12 +23830,12 @@
     "ou": "under",
     "pick": "Under 11.5",
     "market": "Alternate Total Runs",
-    "odds": -850,
-    "prob": 0.8341,
-    "raw_prob": 0.8341,
+    "odds": -900,
+    "prob": 0.8391,
+    "raw_prob": 0.8391,
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401874780:16290097:742.193034331",
@@ -23993,7 +23993,7 @@
     "close_odds": -130
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -24278,7 +24278,7 @@
     "close_odds": -220
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -24288,9 +24288,9 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 18,
-  "est_prob": 0.00408,
-  "est_raw": 0.00275,
-  "fd_payout_x": 84.1,
+  "est_prob": 0.00413,
+  "est_raw": 0.00278,
+  "fd_payout_x": 83.61,
   "legs_detail": [
    {
     "id": "401909877:7978183:742.194124456",
@@ -24318,8 +24318,8 @@
     "pick": "Under 259.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.9453,
-    "raw_prob": 0.8848,
+    "prob": 0.9506,
+    "raw_prob": 0.8898,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -1000
@@ -24397,12 +24397,12 @@
     "ou": "under",
     "pick": "Under 11.5",
     "market": "Alternate Total Runs",
-    "odds": -850,
-    "prob": 0.8341,
-    "raw_prob": 0.8341,
+    "odds": -900,
+    "prob": 0.8391,
+    "raw_prob": 0.8391,
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401874780:16290097:742.193034331",
@@ -24576,7 +24576,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -24588,7 +24588,7 @@
   "n": 19,
   "est_prob": 0.0019,
   "est_raw": 0.00128,
-  "fd_payout_x": 166.47,
+  "fd_payout_x": 170.25,
   "legs_detail": [
    {
     "id": "401909877:7913642:742.194124456",
@@ -24607,17 +24607,17 @@
     "close_odds": -800
    },
    {
-    "id": "401909880:7889051:742.194124136",
+    "id": "401909880:7889006:742.194124175",
     "event": "401909880",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 13.5,
-    "pick": "Los Angeles Lakers +13.5",
-    "market": "Alternate Spread",
+    "kind": "total",
+    "line": 258.5,
+    "ou": "under",
+    "pick": "Under 258.5",
+    "market": "Alternate Total Points",
     "odds": -900,
-    "prob": 0.9406,
-    "raw_prob": 0.8804,
+    "prob": 0.9408,
+    "raw_prob": 0.8806,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -900
@@ -24639,20 +24639,20 @@
     "close_odds": -1000
    },
    {
-    "id": "401909878:7711399:742.194123532",
+    "id": "401909878:7889872:742.194123527",
     "event": "401909878",
     "sport": "nba",
-    "kind": "total",
-    "line": 239.5,
-    "ou": "under",
-    "pick": "Under 239.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.929,
-    "raw_prob": 0.8696,
+    "kind": "spread",
+    "side": "home",
+    "line": 11.5,
+    "pick": "New York Knicks +11.5",
+    "market": "Alternate Spread",
+    "odds": -800,
+    "prob": 0.9281,
+    "raw_prob": 0.8687,
     "game": "Detroit Pistons at New York Knicks",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    },
    {
     "id": "401871072:59955525:742.193830534",
@@ -24890,7 +24890,7 @@
     "close_odds": -130
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -24900,9 +24900,9 @@
   "date": "2026-10-27",
   "type": "ladder",
   "n": 20,
-  "est_prob": 0.00199,
-  "est_raw": 0.00126,
-  "fd_payout_x": 144.25,
+  "est_prob": 0.00201,
+  "est_raw": 0.00127,
+  "fd_payout_x": 141.63,
   "legs_detail": [
    {
     "id": "401871071:12386721:742.193828151",
@@ -24921,6 +24921,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401909880:7889051:742.194124136",
+    "event": "401909880",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 13.5,
+    "pick": "Los Angeles Lakers +13.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.9406,
+    "raw_prob": 0.8804,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -900
+   },
+   {
     "id": "401909877:7707476:742.194124449",
     "event": "401909877",
     "sport": "nba",
@@ -24935,22 +24951,6 @@
     "game": "Brooklyn Nets at Boston Celtics",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909880:7889006:742.194124175",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "total",
-    "line": 258.5,
-    "ou": "under",
-    "pick": "Under 258.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9354,
-    "raw_prob": 0.8756,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401909879:7711029:742.194124052",
@@ -24985,20 +24985,20 @@
     "close_odds": -750
    },
    {
-    "id": "401909878:7889872:742.194123527",
+    "id": "401909878:7711399:742.194123532",
     "event": "401909878",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "New York Knicks +11.5",
-    "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.9281,
-    "raw_prob": 0.8687,
+    "kind": "total",
+    "line": 239.5,
+    "ou": "under",
+    "pick": "Under 239.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.9244,
+    "raw_prob": 0.8653,
     "game": "Detroit Pistons at New York Knicks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -900
    },
    {
     "id": "401871072:12197206:742.193830527",
@@ -25025,12 +25025,12 @@
     "ou": "under",
     "pick": "Under 11.5",
     "market": "Alternate Total Runs",
-    "odds": -850,
-    "prob": 0.8341,
-    "raw_prob": 0.8341,
+    "odds": -900,
+    "prob": 0.8391,
+    "raw_prob": 0.8391,
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401874780:16290097:742.193034331",
@@ -25220,7 +25220,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -25232,7 +25232,7 @@
   "n": 21,
   "est_prob": 0.00127,
   "est_raw": 0.0008,
-  "fd_payout_x": 190.94,
+  "fd_payout_x": 189.82,
   "legs_detail": [
    {
     "id": "401909877:7978183:742.194124456",
@@ -25355,12 +25355,12 @@
     "ou": "under",
     "pick": "Under 11.5",
     "market": "Alternate Total Runs",
-    "odds": -850,
-    "prob": 0.8341,
-    "raw_prob": 0.8341,
+    "odds": -900,
+    "prob": 0.8391,
+    "raw_prob": 0.8391,
     "game": "Milwaukee Brewers at Tampa Bay Rays",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401874780:16290097:742.193034331",
@@ -25566,7 +25566,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -25576,9 +25576,9 @@
   "date": "2026-10-27",
   "type": "lottery",
   "label": "~100x",
-  "n": 7,
-  "est_prob": 0.020907861280125617,
-  "fd_payout_x": 105.29,
+  "n": 6,
+  "est_prob": 0.02094855304565472,
+  "fd_payout_x": 102.54,
   "legs_detail": [
    {
     "id": "401892585:25592:742.193519606",
@@ -25597,52 +25597,115 @@
     "close_odds": 205
    },
    {
-    "id": "401871071:12386721:742.193828151",
-    "event": "401871071",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 77.5,
-    "ou": "under",
-    "pick": "Under (77.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9514,
-    "raw_prob": 0.8905,
-    "game": "Delaware Blue Hens at Western Kentucky Hilltoppers",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909880:7884408:742.194124136",
-    "event": "401909880",
-    "sport": "nba",
+    "id": "401892589:25594:742.193519730",
+    "event": "401892589",
+    "sport": "nhl",
     "kind": "spread",
     "side": "home",
-    "line": 14.5,
-    "pick": "Los Angeles Lakers +14.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9512,
-    "raw_prob": 0.8904,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "line": -1.5,
+    "pick": "Nashville Predators -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.3881,
+    "raw_prob": 0.3881,
+    "game": "New York Islanders at Nashville Predators",
     "result": null,
-    "close_odds": -1000
+    "close_odds": 205
    },
    {
-    "id": "401909879:7889620:742.194124041",
-    "event": "401909879",
+    "id": "401892588:25595:742.193519773",
+    "event": "401892588",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "St. Louis Blues -1.5",
+    "market": "Puck Line",
+    "odds": 198,
+    "prob": 0.3948,
+    "raw_prob": 0.3948,
+    "game": "Montreal Canadiens at St. Louis Blues",
+    "result": null,
+    "close_odds": 198
+   },
+   {
+    "id": "401909877:7888945:742.194124456",
+    "event": "401909877",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 34.5,
-    "pick": "Sacramento Kings +34.5",
+    "line": 26.5,
+    "pick": "Brooklyn Nets +26.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9468,
-    "raw_prob": 0.8862,
-    "game": "Sacramento Kings at San Antonio Spurs",
+    "odds": -670,
+    "prob": 0.9269,
+    "raw_prob": 0.8676,
+    "game": "Brooklyn Nets at Boston Celtics",
     "result": null,
-    "close_odds": -950
+    "close_odds": -670
+   },
+   {
+    "id": "401892590:25612:742.193519743",
+    "event": "401892590",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Dallas Stars -1.5",
+    "market": "Puck Line",
+    "odds": 184,
+    "prob": 0.4072,
+    "raw_prob": 0.4072,
+    "game": "New Jersey Devils at Dallas Stars",
+    "result": null,
+    "close_odds": 184
+   },
+   {
+    "id": "401909880:7867411:742.194124175",
+    "event": "401909880",
+    "sport": "nba",
+    "kind": "total",
+    "line": 257.5,
+    "ou": "under",
+    "pick": "Under 257.5",
+    "market": "Alternate Total Points",
+    "odds": -750,
+    "prob": 0.9262,
+    "raw_prob": 0.867,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -750
+   }
+  ],
+  "logged": "2026-10-27 10:21 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-27-lottery-~1,000x",
+  "date": "2026-10-27",
+  "type": "lottery",
+  "label": "~1,000x",
+  "n": 10,
+  "est_prob": 0.002933157750790121,
+  "fd_payout_x": 1010.54,
+  "legs_detail": [
+   {
+    "id": "401892585:25592:742.193519606",
+    "event": "401892585",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Columbus Blue Jackets -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.3911,
+    "raw_prob": 0.3911,
+    "game": "Columbus Blue Jackets at Philadelphia Flyers",
+    "result": null,
+    "close_odds": 205
    },
    {
     "id": "401892589:25594:742.193519730",
@@ -25691,9 +25754,105 @@
     "game": "New Jersey Devils at Dallas Stars",
     "result": null,
     "close_odds": 184
+   },
+   {
+    "id": "401909877:7888945:742.194124456",
+    "event": "401909877",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 26.5,
+    "pick": "Brooklyn Nets +26.5",
+    "market": "Alternate Spread",
+    "odds": -670,
+    "prob": 0.9269,
+    "raw_prob": 0.8676,
+    "game": "Brooklyn Nets at Boston Celtics",
+    "result": null,
+    "close_odds": -670
+   },
+   {
+    "id": "401892587:25613:742.193519651",
+    "event": "401892587",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Los Angeles Kings -1.5",
+    "market": "Puck Line",
+    "odds": 198,
+    "prob": 0.3838,
+    "raw_prob": 0.3838,
+    "game": "Los Angeles Kings at Chicago Blackhawks",
+    "result": null,
+    "close_odds": 198
+   },
+   {
+    "id": "401909880:7867411:742.194124175",
+    "event": "401909880",
+    "sport": "nba",
+    "kind": "total",
+    "line": 257.5,
+    "ou": "under",
+    "pick": "Under 257.5",
+    "market": "Alternate Total Points",
+    "odds": -750,
+    "prob": 0.9262,
+    "raw_prob": 0.867,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -750
+   },
+   {
+    "id": "401871071:12386721:742.193828151",
+    "event": "401871071",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 77.5,
+    "ou": "under",
+    "pick": "Under (77.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9514,
+    "raw_prob": 0.8905,
+    "game": "Delaware Blue Hens at Western Kentucky Hilltoppers",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401909879:7889620:742.194124041",
+    "event": "401909879",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 34.5,
+    "pick": "Sacramento Kings +34.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9468,
+    "raw_prob": 0.8862,
+    "game": "Sacramento Kings at San Antonio Spurs",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401892592:83920082:742.193519795",
+    "event": "401892592",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Utah Mammoth -1.5",
+    "market": "Puck Line",
+    "odds": 172,
+    "prob": 0.405,
+    "raw_prob": 0.405,
+    "game": "Minnesota Wild at Utah Mammoth",
+    "result": null,
+    "close_odds": 172
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -25883,198 +26042,7 @@
     "close_odds": 205
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-10-27-lottery-~1,000x",
-  "date": "2026-10-27",
-  "type": "lottery",
-  "label": "~1,000x",
-  "n": 11,
-  "est_prob": 0.0028156244539407752,
-  "fd_payout_x": 1089.79,
-  "legs_detail": [
-   {
-    "id": "401892585:25592:742.193519606",
-    "event": "401892585",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3911,
-    "raw_prob": 0.3911,
-    "game": "Columbus Blue Jackets at Philadelphia Flyers",
-    "result": null,
-    "close_odds": 205
-   },
-   {
-    "id": "401892589:25594:742.193519730",
-    "event": "401892589",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Nashville Predators -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3881,
-    "raw_prob": 0.3881,
-    "game": "New York Islanders at Nashville Predators",
-    "result": null,
-    "close_odds": 205
-   },
-   {
-    "id": "401892588:25595:742.193519773",
-    "event": "401892588",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "St. Louis Blues -1.5",
-    "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3948,
-    "raw_prob": 0.3948,
-    "game": "Montreal Canadiens at St. Louis Blues",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401892590:25612:742.193519743",
-    "event": "401892590",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Dallas Stars -1.5",
-    "market": "Puck Line",
-    "odds": 184,
-    "prob": 0.4072,
-    "raw_prob": 0.4072,
-    "game": "New Jersey Devils at Dallas Stars",
-    "result": null,
-    "close_odds": 184
-   },
-   {
-    "id": "401909877:7888945:742.194124456",
-    "event": "401909877",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 26.5,
-    "pick": "Brooklyn Nets +26.5",
-    "market": "Alternate Spread",
-    "odds": -670,
-    "prob": 0.9269,
-    "raw_prob": 0.8676,
-    "game": "Brooklyn Nets at Boston Celtics",
-    "result": null,
-    "close_odds": -670
-   },
-   {
-    "id": "401892587:25613:742.193519651",
-    "event": "401892587",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Los Angeles Kings -1.5",
-    "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3838,
-    "raw_prob": 0.3838,
-    "game": "Los Angeles Kings at Chicago Blackhawks",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401871071:12386721:742.193828151",
-    "event": "401871071",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 77.5,
-    "ou": "under",
-    "pick": "Under (77.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9514,
-    "raw_prob": 0.8905,
-    "game": "Delaware Blue Hens at Western Kentucky Hilltoppers",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909880:7884408:742.194124136",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 14.5,
-    "pick": "Los Angeles Lakers +14.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9512,
-    "raw_prob": 0.8904,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909879:7889620:742.194124041",
-    "event": "401909879",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 34.5,
-    "pick": "Sacramento Kings +34.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9468,
-    "raw_prob": 0.8862,
-    "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401871072:12194345:742.193830527",
-    "event": "401871072",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 68.5,
-    "ou": "under",
-    "pick": "Under (68.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.9347,
-    "raw_prob": 0.8749,
-    "game": "Sam Houston Bearkats at Missouri State Bears",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401892592:83920082:742.193519795",
-    "event": "401892592",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Utah Mammoth -1.5",
-    "market": "Puck Line",
-    "odds": 172,
-    "prob": 0.405,
-    "raw_prob": 0.405,
-    "game": "Minnesota Wild at Utah Mammoth",
-    "result": null,
-    "close_odds": 172
-   }
-  ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -26296,7 +26264,7 @@
     "close_odds": 172
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -26307,8 +26275,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 14,
-  "est_prob": 0.0003584088111738696,
-  "fd_payout_x": 10638.47,
+  "est_prob": 0.00036737706266745765,
+  "fd_payout_x": 10374.98,
   "legs_detail": [
    {
     "id": "401892585:25592:742.193519606",
@@ -26423,6 +26391,22 @@
     "close_odds": 172
    },
    {
+    "id": "401909880:7889755:742.194124175",
+    "event": "401909880",
+    "sport": "nba",
+    "kind": "total",
+    "line": 256.5,
+    "ou": "under",
+    "pick": "Under 256.5",
+    "market": "Alternate Total Points",
+    "odds": -670,
+    "prob": 0.9141,
+    "raw_prob": 0.8556,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -670
+   },
+   {
     "id": "401892591:25608:742.193519708",
     "event": "401892591",
     "sport": "nhl",
@@ -26437,22 +26421,6 @@
     "game": "Florida Panthers at Winnipeg Jets",
     "result": null,
     "close_odds": 176
-   },
-   {
-    "id": "401909879:8007036:742.194124041",
-    "event": "401909879",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 32.5,
-    "pick": "Sacramento Kings +32.5",
-    "market": "Alternate Spread",
-    "odds": -670,
-    "prob": 0.913,
-    "raw_prob": 0.8546,
-    "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
-    "close_odds": -670
    },
    {
     "id": "401871071:12291344:742.193828151",
@@ -26487,20 +26455,20 @@
     "close_odds": -650
    },
    {
-    "id": "401909880:7884326:742.194124136",
-    "event": "401909880",
+    "id": "401909879:7889620:742.194124041",
+    "event": "401909879",
     "sport": "nba",
     "kind": "spread",
-    "side": "home",
-    "line": 12.5,
-    "pick": "Los Angeles Lakers +12.5",
+    "side": "away",
+    "line": 34.5,
+    "pick": "Sacramento Kings +34.5",
     "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.9248,
-    "raw_prob": 0.8656,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "odds": -950,
+    "prob": 0.9468,
+    "raw_prob": 0.8862,
+    "game": "Sacramento Kings at San Antonio Spurs",
     "result": null,
-    "close_odds": -750
+    "close_odds": -950
    },
    {
     "id": "401871072:12197206:742.193830527",
@@ -26535,7 +26503,7 @@
     "close_odds": 164
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -26546,8 +26514,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 16,
-  "est_prob": 3.6551479657006655e-05,
-  "fd_payout_x": 102684.95,
+  "est_prob": 3.746608569292741e-05,
+  "fd_payout_x": 100141.67,
   "legs_detail": [
    {
     "id": "401892585:25592:742.193519606",
@@ -26678,18 +26646,18 @@
     "close_odds": -580
    },
    {
-    "id": "401909879:8007036:742.194124041",
-    "event": "401909879",
+    "id": "401909880:7889755:742.194124175",
+    "event": "401909880",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 32.5,
-    "pick": "Sacramento Kings +32.5",
-    "market": "Alternate Spread",
+    "kind": "total",
+    "line": 256.5,
+    "ou": "under",
+    "pick": "Under 256.5",
+    "market": "Alternate Total Points",
     "odds": -670,
-    "prob": 0.913,
-    "raw_prob": 0.8546,
-    "game": "Sacramento Kings at San Antonio Spurs",
+    "prob": 0.9141,
+    "raw_prob": 0.8556,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
     "close_odds": -670
    },
@@ -26710,22 +26678,6 @@
     "close_odds": -670
    },
    {
-    "id": "401909880:7884326:742.194124136",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 12.5,
-    "pick": "Los Angeles Lakers +12.5",
-    "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.9248,
-    "raw_prob": 0.8656,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": -750
-   },
-   {
     "id": "401892595:25597:742.193519961",
     "event": "401892595",
     "sport": "nhl",
@@ -26740,6 +26692,22 @@
     "game": "Buffalo Sabres at San Jose Sharks",
     "result": null,
     "close_odds": 164
+   },
+   {
+    "id": "401909879:7889620:742.194124041",
+    "event": "401909879",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 34.5,
+    "pick": "Sacramento Kings +34.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9468,
+    "raw_prob": 0.8862,
+    "game": "Sacramento Kings at San Antonio Spurs",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401892593:13305501:742.193519819",
@@ -26806,7 +26774,7 @@
     "close_odds": 106
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -26817,8 +26785,8 @@
   "type": "lottery",
   "label": "~1,000,000x",
   "n": 17,
-  "est_prob": 3.4966802303047904e-06,
-  "fd_payout_x": 1039283.4,
+  "est_prob": 3.465687317546214e-06,
+  "fd_payout_x": 1048016.87,
   "legs_detail": [
    {
     "id": "401892585:25592:742.193519606",
@@ -27013,6 +26981,22 @@
     "close_odds": 240
    },
    {
+    "id": "401909880:7889755:742.194124175",
+    "event": "401909880",
+    "sport": "nba",
+    "kind": "total",
+    "line": 256.5,
+    "ou": "under",
+    "pick": "Under 256.5",
+    "market": "Alternate Total Points",
+    "odds": -670,
+    "prob": 0.9141,
+    "raw_prob": 0.8556,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -670
+   },
+   {
     "id": "401909878:7901027:742.194123527",
     "event": "401909878",
     "sport": "nba",
@@ -27037,28 +27021,12 @@
     "line": 32.5,
     "pick": "Sacramento Kings +32.5",
     "market": "Alternate Spread",
-    "odds": -670,
-    "prob": 0.913,
-    "raw_prob": 0.8546,
+    "odds": -700,
+    "prob": 0.9155,
+    "raw_prob": 0.8569,
     "game": "Sacramento Kings at San Antonio Spurs",
     "result": null,
-    "close_odds": -670
-   },
-   {
-    "id": "401909880:7884326:742.194124136",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 12.5,
-    "pick": "Los Angeles Lakers +12.5",
-    "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.9248,
-    "raw_prob": 0.8656,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401892586:25607:742.193519675",
@@ -27093,7 +27061,7 @@
     "close_odds": 106
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -27104,8 +27072,8 @@
   "type": "lottery",
   "label": "21-leg best-edge lottery",
   "n": 21,
-  "est_prob": 9.42311045144494e-06,
-  "fd_payout_x": 302135.87,
+  "est_prob": 9.214261353093019e-06,
+  "fd_payout_x": 311291.51,
   "legs_detail": [
    {
     "id": "401909877:7888945:742.194124456",
@@ -27156,20 +27124,20 @@
     "close_odds": -1000
    },
    {
-    "id": "401909880:7884408:742.194124136",
+    "id": "401909880:7867411:742.194124175",
     "event": "401909880",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 14.5,
-    "pick": "Los Angeles Lakers +14.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.9512,
-    "raw_prob": 0.8904,
+    "kind": "total",
+    "line": 257.5,
+    "ou": "under",
+    "pick": "Under 257.5",
+    "market": "Alternate Total Points",
+    "odds": -750,
+    "prob": 0.9262,
+    "raw_prob": 0.867,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -750
    },
    {
     "id": "401909879:7889620:742.194124041",
@@ -27433,14 +27401,14 @@
     "pick": "Como",
     "market": "Moneyline (3-way)",
     "odds": -145,
-    "prob": 0.5437,
-    "raw_prob": 0.5437,
+    "prob": 0.546,
+    "raw_prob": 0.546,
     "game": "Como at Torino",
     "result": null,
     "close_odds": -145
    }
   ],
-  "logged": "2026-10-27 10:07 UTC",
+  "logged": "2026-10-27 10:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
