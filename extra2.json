@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27 03:43 UTC",
+ "updated": "2026-10-27 04:02 UTC",
  "td": {
   "legs": {},
   "parlays": [],
@@ -12,27 +12,27 @@
    "unmatched": 0
   },
   "stats": {
-   "graded_legs": 52,
-   "won": 21,
-   "hit": 0.4038,
-   "expected": 0.4141,
-   "tickets_graded": 6,
-   "tickets_won": 0,
+   "graded_legs": 58,
+   "won": 24,
+   "hit": 0.4138,
+   "expected": 0.4123,
+   "tickets_graded": 8,
+   "tickets_won": 1,
    "buckets": {
     "20-30%": {
-     "n": 11,
-     "hit": 0.4545,
-     "pred": 0.2837
+     "n": 13,
+     "hit": 0.3846,
+     "pred": 0.2829
     },
     "30-40%": {
-     "n": 14,
-     "hit": 0.2857,
-     "pred": 0.3409
+     "n": 16,
+     "hit": 0.3125,
+     "pred": 0.3444
     },
     "40-50%": {
-     "n": 18,
-     "hit": 0.5,
-     "pred": 0.4487
+     "n": 19,
+     "hit": 0.5263,
+     "pred": 0.4475
     },
     "50-60%": {
      "n": 4,
@@ -40,9 +40,9 @@
      "pred": 0.5388
     },
     "60-70%": {
-     "n": 3,
-     "hit": 0.3333,
-     "pred": 0.6286
+     "n": 4,
+     "hit": 0.5,
+     "pred": 0.6354
     },
     "70-80%": {
      "n": 2,
@@ -54,44 +54,123 @@
   "rule": "Pregame only, FanDuel PA 'Any Time Touchdown Scorer' (rushing/receiving TDs; ESPN grading also counts only those). Chance = 50% market (Pinnacle no-vig 'Total Touchdowns over 0.5' when listed, else FanDuel price minus ~22% margin) + 50% ESPN game-log TD rate (this season, 2025 at half weight, shrunk toward market), then adjustments: implied team total from ESPN spread/total (\u00b13 pts), opponent rush/receiving TDs allowed in its last 6 games (\u00b12), touches trend, same-position teammate Out (+2); total adjustment capped \u00b15 pts and never more than 8 pts above the market. Out/Doubtful/Questionable/IR excluded. Max 1 leg per team, 2 per game; legs priced +250 or shorter with est. chance \u226525%. 2+ TD markets skipped (too unlikely). TD legs are coin flips at best, so read each ticket's chance honestly."
  },
  "nba3r": {
-  "legs": {},
-  "parlays": [],
+  "legs": {
+   "401909880:18821276:742.194116446": {
+    "id": "401909880:18821276:742.194116446",
+    "event": "401909880",
+    "sport": "nba",
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "start": "2026-10-28T03:00Z",
+    "market": "6+ Rebounds",
+    "player": "Luka Doncic",
+    "team": "Los Angeles Lakers",
+    "pick": "Luka Doncic 6+ rebounds",
+    "stat": "totalRebounds",
+    "line": 5.5,
+    "ou": "over",
+    "odds": -390,
+    "fd_prob": 0.7438,
+    "pin_prob": null,
+    "emp_prob": 0.8155,
+    "prob": 0.7807,
+    "why": "this season 3/3 (avg 7.3); last 5 3/3; last 10 incl. 2025-26 7/10; Trail Blazers allow 40.5 opp reb/g vs 41.8; expected pace 101 poss vs 100; teammates out: Cameron Carr, Adou Thiero (+1 pt)",
+    "asof": "2026-10-27 04:02 UTC",
+    "injury": "none listed",
+    "aid": "3945274",
+    "fd_market_id": "742.194116446",
+    "fd_selection_id": 18821276,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194116446&selectionId%5B0%5D=18821276"
+   },
+   "401909880:36981620:742.194116431": {
+    "id": "401909880:36981620:742.194116431",
+    "event": "401909880",
+    "sport": "nba",
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "start": "2026-10-28T03:00Z",
+    "market": "2+ Threes",
+    "player": "Austin Reaves",
+    "team": "Los Angeles Lakers",
+    "pick": "Austin Reaves 2+ made threes",
+    "stat": "threePointFieldGoalsMade",
+    "line": 1.5,
+    "ou": "over",
+    "odds": -215,
+    "fd_prob": 0.6379,
+    "pin_prob": null,
+    "emp_prob": 0.6957,
+    "prob": 0.6506,
+    "why": "this season 2/3 (avg 2.7); last 5 2/3; last 10 incl. 2025-26 8/10; 3PA 4.3/g this season vs 6.0 late 2025-26; Trail Blazers allow 31.5 opp 3PA/g vs 36.9 slate avg; expected pace 101 poss vs 100; teammates out: Cameron Carr, Adou Thiero (+1 pt)",
+    "asof": "2026-10-27 04:02 UTC",
+    "injury": "none listed",
+    "aid": "4066457",
+    "fd_market_id": "742.194116431",
+    "fd_selection_id": 36981620,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194116431&selectionId%5B0%5D=36981620"
+   }
+  },
+  "parlays": [
+   {
+    "n": 1,
+    "legs": [
+     "401909880:18821276:742.194116446"
+    ],
+    "est_prob": 0.7807,
+    "fd_payout_x": 1.26,
+    "ev": -0.0191,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194116446&selectionId%5B0%5D=18821276",
+    "type": "nba3r",
+    "favorite": false
+   },
+   {
+    "n": 2,
+    "legs": [
+     "401909880:18821276:742.194116446",
+     "401909880:36981620:742.194116431"
+    ],
+    "est_prob": 0.5079,
+    "fd_payout_x": 1.84,
+    "ev": -0.065,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194116446&selectionId%5B0%5D=18821276&marketId%5B1%5D=742.194116431&selectionId%5B1%5D=36981620",
+    "type": "nba3r",
+    "favorite": true
+   }
+  ],
   "coverage": {
    "games": 4,
-   "fd_lines": 0,
-   "players_matched": 0,
+   "fd_lines": 37,
+   "players_matched": 3,
    "pinnacle_priced": 0,
    "excluded_injury": [],
    "unmatched": 0,
-   "lines_scored": 0
+   "lines_scored": 37
   },
   "stats": {
-   "graded_legs": 171,
-   "won": 120,
-   "hit": 0.7018,
-   "expected": 0.752,
-   "tickets_graded": 23,
-   "tickets_won": 6,
+   "graded_legs": 192,
+   "won": 133,
+   "hit": 0.6927,
+   "expected": 0.7556,
+   "tickets_graded": 28,
+   "tickets_won": 10,
    "buckets": {
     "60-70%": {
-     "n": 50,
-     "hit": 0.54,
-     "pred": 0.6466
+     "n": 56,
+     "hit": 0.5179,
+     "pred": 0.6461
     },
     "70-80%": {
-     "n": 63,
-     "hit": 0.7937,
-     "pred": 0.7521
+     "n": 67,
+     "hit": 0.7761,
+     "pred": 0.7537
     },
     "80-90%": {
-     "n": 56,
-     "hit": 0.7321,
-     "pred": 0.8398
+     "n": 65,
+     "hit": 0.7385,
+     "pred": 0.8418
     },
     "90-100%": {
-     "n": 2,
+     "n": 4,
      "hit": 1.0,
-     "pred": 0.9202
+     "pred": 0.9194
     }
    }
   },
