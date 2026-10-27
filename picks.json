@@ -1,86 +1,91 @@
 {
- "updated": "2026-10-27 00:22 UTC",
+ "updated": "2026-10-27 00:37 UTC",
  "date": "2026-10-26",
  "ladder_stats": {
-  "tickets": 6,
-  "leg_slots": 21,
-  "unique_legs": 15,
-  "unique_games": 6,
-  "games_available": 6,
-  "max_leg_reuse": 3,
-  "max_game_reuse": 4,
-  "game_cap": 5,
-  "disjoint_up_to": 3
+  "tickets": 4,
+  "leg_slots": 10,
+  "unique_legs": 8,
+  "unique_games": 4,
+  "games_available": 4,
+  "max_leg_reuse": 2,
+  "max_game_reuse": 3,
+  "game_cap": 4,
+  "disjoint_up_to": 2
  },
  "legs": {
-  "401909874:7711029:742.193912601": {
-   "kind": "total",
-   "ou": "under",
-   "line": 251.5,
-   "id": "401909874:7711029:742.193912601",
+  "401909874:7891512:742.193912643": {
+   "kind": "spread",
+   "side": "home",
+   "line": 11.5,
+   "id": "401909874:7891512:742.193912643",
    "event": "401909874",
    "sport": "nba",
    "game": "Atlanta Hawks at Houston Rockets",
    "start": "2026-10-27T00:30Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 251.5",
-   "odds": -1000,
-   "fd_prob": 0.8576,
+   "market": "Alternate Spread",
+   "pick": "Houston Rockets +11.5",
+   "odds": -950,
+   "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.9022,
-   "market_prob": 0.8799,
-   "prob": 0.9454,
-   "pre_research": 0.8799,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:37 UTC",
+   "dist_prob": 0.9088,
+   "market_prob": 0.8812,
+   "prob": 0.9414,
+   "pre_research": 0.8812,
    "research": [
-    "DraftKings total 228.5 vs FanDuel 229.5 (+0.5)"
+    "research: game started or no data"
    ],
-   "research_adj": 0.005,
+   "research_adj": 0,
    "calibrated": true,
-   "v1_prob": 0.9454,
-   "v2_prob": 0.9089,
-   "v2_src": "Pinnacle: Pinnacle total 232 extrapolated",
-   "sharp_prob": 0.9089,
-   "sharp_edge": -0.0002,
-   "why": "FanDuel no-vig 85.8%, line model 90.2% -> est. 94.5% (edge +8.8 pts); research +0.5 pts: DraftKings total 228.5 vs FanDuel 229.5 (+0.5)",
-   "fd_market_id": "742.193912601",
-   "fd_selection_id": "7711029",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7711029",
+   "v1_prob": 0.9414,
+   "fd_market_id": "742.193912643",
+   "fd_selection_id": "7891512",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912643&selectionId%5B0%5D=7891512",
    "fd_region": "PA"
   },
-  "401909875:7695550:742.193914952": {
-   "kind": "total",
-   "ou": "under",
-   "line": 259.5,
-   "id": "401909875:7695550:742.193914952",
+  "401909875:7933807:742.193914944": {
+   "kind": "spread",
+   "side": "away",
+   "line": 15.5,
+   "id": "401909875:7933807:742.193914944",
    "event": "401909875",
    "sport": "nba",
    "game": "Memphis Grizzlies at Utah Jazz",
    "start": "2026-10-27T01:00Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 259.5",
+   "market": "Alternate Spread",
+   "pick": "Memphis Grizzlies +15.5",
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.9022,
-   "market_prob": 0.8799,
-   "prob": 0.9454,
-   "pre_research": 0.8799,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:37 UTC",
+   "dist_prob": 0.9217,
+   "market_prob": 0.8897,
+   "prob": 0.9505,
+   "pre_research": 0.8897,
    "research": [
-    "FanDuel price moved our way -720 -> -1000 (+0.5)"
+    "rest 1.0d vs 1.2d",
+    "travel 532 mi since last game",
+    "form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3",
+    "away record 2-0",
+    "DraftKings line -1.5 vs FanDuel +1.5 (-0.5)",
+    "FanDuel price moved our way -800 -> -1000 (+0.5)"
    ],
-   "research_adj": 0.005,
+   "research_adj": 0.0,
    "calibrated": true,
-   "v1_prob": 0.9454,
-   "v2_prob": 0.9061,
-   "v2_src": "Pinnacle: Pinnacle total 240 extrapolated",
-   "sharp_prob": 0.9061,
-   "sharp_edge": -0.003,
-   "why": "FanDuel no-vig 85.8%, line model 90.2% -> est. 94.5% (edge +8.8 pts); research +0.5 pts: FanDuel price moved our way -720 -> -1000 (+0.5)",
-   "fd_market_id": "742.193914952",
-   "fd_selection_id": "7695550",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914952&selectionId%5B0%5D=7695550",
+   "v1_prob": 0.9505,
+   "v2_prob": 0.9046,
+   "v2_src": "Pinnacle: Pinnacle -3 line extrapolated 12.5 pts",
+   "sharp_prob": 0.9001,
+   "sharp_edge": -0.0089,
+   "power_prob": 0.9299,
+   "power_margin_home": -2.2,
+   "v2_injuries": [
+    "Jaxson Hayes Out (7p/4r/1a, 17 min): -1.3 pts"
+   ],
+   "why": "FanDuel no-vig 85.8%, line model 92.2% -> est. 95.0% (edge +9.3 pts); research +0.0 pts: rest 1.0d vs 1.2d; travel 532 mi since last game; form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3; away record 2-0; DraftKings line -1.5 vs FanDuel +1.5 (-0.5); FanDuel price moved our way -800 -> -1000 (+0.5)",
+   "fd_market_id": "742.193914944",
+   "fd_selection_id": "7933807",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7933807",
    "fd_region": "PA"
   },
   "401909876:7914258:742.193903300": {
@@ -94,14 +99,14 @@
    "start": "2026-10-27T02:00Z",
    "market": "Alternate Spread",
    "pick": "Denver Nuggets +9.5",
-   "odds": -1000,
-   "fd_prob": 0.8576,
+   "odds": -950,
+   "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.9217,
-   "market_prob": 0.8897,
-   "prob": 0.9505,
-   "pre_research": 0.8897,
+   "market_prob": 0.8876,
+   "prob": 0.9483,
+   "pre_research": 0.8876,
    "research": [
     "rest 2.0d vs 2.0d",
     "travel 0 mi since last game",
@@ -110,11 +115,11 @@
    ],
    "research_adj": 0.0,
    "calibrated": true,
-   "v1_prob": 0.9505,
+   "v1_prob": 0.9483,
    "v2_prob": 0.9333,
    "v2_src": "Pinnacle: Pinnacle -4.5 line extrapolated 14 pts",
    "sharp_prob": 0.926,
-   "sharp_edge": 0.017,
+   "sharp_edge": 0.0213,
    "power_prob": 0.9744,
    "power_margin_home": 13.9,
    "v2_injuries": [
@@ -128,7 +133,7 @@
     "Moses Moody Out (8p/2r/1a, 18 min): -1.5 pts",
     "Jimmy Butler III Out (18p/5r/4a, 33 min): -6.0 pts"
    ],
-   "why": "FanDuel no-vig 85.8%, line model 92.2% -> est. 95.0% (edge +9.3 pts); research +0.0 pts: rest 2.0d vs 2.0d; travel 0 mi since last game; form 1-1 last 2, avg margin -3.0 vs 0-3 last 3, avg margin -11.3; home record 1-0",
+   "why": "FanDuel no-vig 85.4%, line model 92.2% -> est. 94.8% (edge +9.5 pts); research +0.0 pts: rest 2.0d vs 2.0d; travel 0 mi since last game; form 1-1 last 2, avg margin -3.0 vs 0-3 last 3, avg margin -11.3; home record 1-0",
    "fd_market_id": "742.193903300",
    "fd_selection_id": "7914258",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903300&selectionId%5B0%5D=7914258",
@@ -148,31 +153,17 @@
    "odds": -700,
    "fd_prob": 0.8255,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230579, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230579, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.938,
    "market_prob": 0.8818,
-   "prob": 0.9154,
+   "prob": 0.9421,
    "pre_research": 0.8818,
    "research": [
-    "rest 2.1d vs 1.9d",
-    "travel 175 mi since last game",
-    "form 6-4 last 10, avg margin +1.0 vs 4-6 last 10, avg margin -1.6",
-    "form edge (+1.0)",
-    "away record 3-1-1",
-    "our key player: G Elvis Merzlikins Injured Reserve (-1.0)",
-    "FanDuel price moved against us -950 -> -700 (-1.0)",
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
+    "research: game started or no data"
    ],
-   "research_adj": -0.025,
+   "research_adj": 0,
    "calibrated": true,
-   "v1_prob": 0.9154,
-   "v2_prob": 0.8622,
-   "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.8551,
-   "sharp_edge": -0.0199,
-   "power_prob": 0.9024,
-   "power_margin_home": -0.9,
-   "why": "FanDuel no-vig 82.5%, line model 93.8% -> est. 91.5% (edge +9.0 pts); research -2.5 pts: rest 2.1d vs 1.9d; travel 175 mi since last game; form 6-4 last 10, avg margin +1.0 vs 4-6 last 10, avg margin -1.6; form edge (+1.0); away record 3-1-1; our key player: G Elvis Merzlikins Injured Reserve (-1.0); FanDuel price moved against us -950 -> -700 (-1.0); low-scoring sport, one goal decides line (-1.5 volatility)",
+   "v1_prob": 0.9421,
    "fd_market_id": "742.193940198",
    "fd_selection_id": "7735283",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940198&selectionId%5B0%5D=7735283",
@@ -192,7 +183,7 @@
    "odds": -950,
    "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230580, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230580, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.938,
    "market_prob": 0.8958,
    "prob": 0.9378,
@@ -210,12 +201,12 @@
    "research_adj": -0.018,
    "calibrated": true,
    "v1_prob": 0.9378,
-   "v2_prob": 0.8894,
+   "v2_prob": 0.8887,
    "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.8875,
-   "sharp_edge": -0.0173,
-   "power_prob": 0.9,
-   "power_margin_home": 0.8,
+   "sharp_prob": 0.8878,
+   "sharp_edge": -0.0169,
+   "power_prob": 0.8935,
+   "power_margin_home": 0.7,
    "why": "FanDuel no-vig 85.4%, line model 93.8% -> est. 93.8% (edge +8.4 pts); research -1.8 pts: rest 2.1d vs 2.0d; travel 0 mi since last game; form 8-2 last 10, avg margin +1.1 vs 4-6 last 10, avg margin -0.3; form edge (+0.7); home record 3-2-1; our key player: G Devon Levi Injured Reserve; G Frederik Andersen Injured Reserve (-1.0); opponent key player: G Daniil Tarasov Day-To-Day; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.193940399",
    "fd_selection_id": "7735512",
@@ -236,7 +227,7 @@
    "odds": -590,
    "fd_prob": 0.8135,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221180, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221180, fetched 2026-10-27 00:37 UTC",
    "market_prob": 0.8135,
    "prob": 0.7985,
    "pre_research": 0.8135,
@@ -256,174 +247,39 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193033897&selectionId%5B0%5D=1222347",
    "fd_region": "PA"
   },
-  "401909874:7891512:742.193912643": {
-   "kind": "spread",
-   "side": "home",
-   "line": 11.5,
-   "id": "401909874:7891512:742.193912643",
-   "event": "401909874",
-   "sport": "nba",
-   "game": "Atlanta Hawks at Houston Rockets",
-   "start": "2026-10-27T00:30Z",
-   "market": "Alternate Spread",
-   "pick": "Houston Rockets +11.5",
-   "odds": -950,
-   "fd_prob": 0.8535,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.9088,
-   "market_prob": 0.8812,
-   "prob": 0.9414,
-   "pre_research": 0.8812,
-   "research": [
-    "rest 2.0d vs 2.0d",
-    "travel 701 mi since last game",
-    "form 3-0 last 3, avg margin +9.7 vs 2-1 last 3, avg margin +15.7",
-    "home record 1-0"
-   ],
-   "research_adj": 0.0,
-   "calibrated": true,
-   "v1_prob": 0.9414,
-   "v2_prob": 0.8873,
-   "v2_src": "Pinnacle: Pinnacle -2 line extrapolated 13.5 pts",
-   "sharp_prob": 0.916,
-   "sharp_edge": 0.0112,
-   "power_prob": 0.7245,
-   "power_margin_home": -4.3,
-   "v2_injuries": [
-    "Steven Adams Out (9p/8r/2a, 26 min): -2.9 pts",
-    "Marcus Smart Out (10p/3r/4a, 29 min): -3.8 pts",
-    "Mouhamed Gueye Out (5p/4r/1a, 15 min): -0.9 pts"
-   ],
-   "why": "FanDuel no-vig 85.4%, line model 90.9% -> est. 94.1% (edge +8.8 pts); research +0.0 pts: rest 2.0d vs 2.0d; travel 701 mi since last game; form 3-0 last 3, avg margin +9.7 vs 2-1 last 3, avg margin +15.7; home record 1-0",
-   "fd_market_id": "742.193912643",
-   "fd_selection_id": "7891512",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912643&selectionId%5B0%5D=7891512",
-   "fd_region": "PA"
-  },
-  "401909874:7891030:742.193912643": {
-   "kind": "spread",
-   "side": "away",
-   "line": 19.5,
-   "id": "401909874:7891030:742.193912643",
-   "event": "401909874",
-   "sport": "nba",
-   "game": "Atlanta Hawks at Houston Rockets",
-   "start": "2026-10-27T00:30Z",
-   "market": "Alternate Spread",
-   "pick": "Atlanta Hawks +19.5",
-   "odds": -950,
-   "fd_prob": 0.8535,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.8944,
-   "market_prob": 0.8739,
-   "prob": 0.9336,
-   "pre_research": 0.8739,
-   "research": [
-    "rest 2.0d vs 2.0d",
-    "travel 701 mi since last game",
-    "form 2-1 last 3, avg margin +15.7 vs 3-0 last 3, avg margin +9.7",
-    "away record 2-0"
-   ],
-   "research_adj": 0.0,
-   "calibrated": true,
-   "v1_prob": 0.9336,
-   "v2_prob": 0.9086,
-   "v2_src": "Pinnacle: Pinnacle -7 line extrapolated 12.5 pts",
-   "sharp_prob": 0.8967,
-   "sharp_edge": -0.0081,
-   "power_prob": 0.9765,
-   "power_margin_home": -4.3,
-   "v2_injuries": [
-    "Steven Adams Out (9p/8r/2a, 26 min): -2.9 pts",
-    "Marcus Smart Out (10p/3r/4a, 29 min): -3.8 pts",
-    "Mouhamed Gueye Out (5p/4r/1a, 15 min): -0.9 pts"
-   ],
-   "why": "FanDuel no-vig 85.4%, line model 89.4% -> est. 93.4% (edge +8.0 pts); research +0.0 pts: rest 2.0d vs 2.0d; travel 701 mi since last game; form 2-1 last 3, avg margin +15.7 vs 3-0 last 3, avg margin +9.7; away record 2-0",
-   "fd_market_id": "742.193912643",
-   "fd_selection_id": "7891030",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912643&selectionId%5B0%5D=7891030",
-   "fd_region": "PA"
-  },
-  "401909874:7729460:742.193912601": {
+  "401909875:7695550:742.193914952": {
    "kind": "total",
    "ou": "under",
-   "line": 250.5,
-   "id": "401909874:7729460:742.193912601",
-   "event": "401909874",
-   "sport": "nba",
-   "game": "Atlanta Hawks at Houston Rockets",
-   "start": "2026-10-27T00:30Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 250.5",
-   "odds": -850,
-   "fd_prob": 0.8441,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.8916,
-   "market_prob": 0.8679,
-   "prob": 0.9326,
-   "pre_research": 0.8679,
-   "research": [
-    "DraftKings total 228.5 vs FanDuel 229.5 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "calibrated": true,
-   "v1_prob": 0.9326,
-   "v2_prob": 0.8988,
-   "v2_src": "Pinnacle: Pinnacle total 232 extrapolated",
-   "sharp_prob": 0.8988,
-   "sharp_edge": 0.0041,
-   "why": "FanDuel no-vig 84.4%, line model 89.2% -> est. 93.3% (edge +8.9 pts); research +0.5 pts: DraftKings total 228.5 vs FanDuel 229.5 (+0.5)",
-   "fd_market_id": "742.193912601",
-   "fd_selection_id": "7729460",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7729460",
-   "fd_region": "PA"
-  },
-  "401909875:7933807:742.193914944": {
-   "kind": "spread",
-   "side": "away",
-   "line": 15.5,
-   "id": "401909875:7933807:742.193914944",
+   "line": 259.5,
+   "id": "401909875:7695550:742.193914952",
    "event": "401909875",
    "sport": "nba",
    "game": "Memphis Grizzlies at Utah Jazz",
    "start": "2026-10-27T01:00Z",
-   "market": "Alternate Spread",
-   "pick": "Memphis Grizzlies +15.5",
-   "odds": -950,
-   "fd_prob": 0.8535,
+   "market": "Alternate Total Points",
+   "pick": "Under 259.5",
+   "odds": -1000,
+   "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.9217,
-   "market_prob": 0.8876,
-   "prob": 0.9429,
-   "pre_research": 0.8876,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:37 UTC",
+   "dist_prob": 0.9022,
+   "market_prob": 0.8799,
+   "prob": 0.9454,
+   "pre_research": 0.8799,
    "research": [
-    "rest 1.0d vs 1.2d",
-    "travel 532 mi since last game",
-    "form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3",
-    "away record 2-0",
-    "DraftKings line -1.5 vs FanDuel +1.5 (-0.5)"
+    "FanDuel price moved our way -720 -> -1000 (+0.5)"
    ],
-   "research_adj": -0.005,
+   "research_adj": 0.005,
    "calibrated": true,
-   "v1_prob": 0.9429,
-   "v2_prob": 0.9005,
-   "v2_src": "Pinnacle: Pinnacle -3 line extrapolated 12.5 pts",
-   "sharp_prob": 0.899,
-   "sharp_edge": -0.0058,
-   "power_prob": 0.9087,
-   "power_margin_home": -0.5,
-   "v2_injuries": [
-    "Jaxson Hayes Day-To-Day (7p/4r/1a, 17 min): -0.4 pts",
-    "Isaiah Stewart Day-To-Day (9p/7r/1a, 24 min): -0.8 pts"
-   ],
-   "why": "FanDuel no-vig 85.4%, line model 92.2% -> est. 94.3% (edge +8.9 pts); research -0.5 pts: rest 1.0d vs 1.2d; travel 532 mi since last game; form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3; away record 2-0; DraftKings line -1.5 vs FanDuel +1.5 (-0.5)",
-   "fd_market_id": "742.193914944",
-   "fd_selection_id": "7933807",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7933807",
+   "v1_prob": 0.9454,
+   "v2_prob": 0.9073,
+   "v2_src": "Pinnacle: Pinnacle total 240 extrapolated",
+   "sharp_prob": 0.9073,
+   "sharp_edge": -0.0018,
+   "why": "FanDuel no-vig 85.8%, line model 90.2% -> est. 94.5% (edge +8.8 pts); research +0.5 pts: FanDuel price moved our way -720 -> -1000 (+0.5)",
+   "fd_market_id": "742.193914952",
+   "fd_selection_id": "7695550",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914952&selectionId%5B0%5D=7695550",
    "fd_region": "PA"
   },
   "401909875:7890665:742.193914944": {
@@ -437,74 +293,38 @@
    "start": "2026-10-27T01:00Z",
    "market": "Alternate Spread",
    "pick": "Memphis Grizzlies +14.5",
-   "odds": -850,
-   "fd_prob": 0.8441,
+   "odds": -900,
+   "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.9088,
-   "market_prob": 0.8764,
-   "prob": 0.9363,
-   "pre_research": 0.8764,
+   "market_prob": 0.8789,
+   "prob": 0.939,
+   "pre_research": 0.8789,
    "research": [
     "rest 1.0d vs 1.2d",
     "travel 532 mi since last game",
     "form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3",
     "away record 2-0",
     "DraftKings line -1.5 vs FanDuel +1.5 (-0.5)",
-    "FanDuel price moved our way -650 -> -850 (+0.5)"
+    "FanDuel price moved our way -650 -> -900 (+0.5)"
    ],
    "research_adj": 0.0,
    "calibrated": true,
-   "v1_prob": 0.9363,
-   "v2_prob": 0.8851,
+   "v1_prob": 0.939,
+   "v2_prob": 0.8897,
    "v2_src": "Pinnacle: Pinnacle -3 line extrapolated 11.5 pts",
-   "sharp_prob": 0.8835,
-   "sharp_edge": -0.0113,
-   "power_prob": 0.8943,
-   "power_margin_home": -0.5,
+   "sharp_prob": 0.8847,
+   "sharp_edge": -0.0153,
+   "power_prob": 0.918,
+   "power_margin_home": -2.2,
    "v2_injuries": [
-    "Jaxson Hayes Day-To-Day (7p/4r/1a, 17 min): -0.4 pts",
-    "Isaiah Stewart Day-To-Day (9p/7r/1a, 24 min): -0.8 pts"
+    "Jaxson Hayes Out (7p/4r/1a, 17 min): -1.3 pts"
    ],
-   "why": "FanDuel no-vig 84.4%, line model 90.9% -> est. 93.6% (edge +9.2 pts); research +0.0 pts: rest 1.0d vs 1.2d; travel 532 mi since last game; form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3; away record 2-0; DraftKings line -1.5 vs FanDuel +1.5 (-0.5); FanDuel price moved our way -650 -> -850 (+0.5)",
+   "why": "FanDuel no-vig 84.9%, line model 90.9% -> est. 93.9% (edge +9.0 pts); research +0.0 pts: rest 1.0d vs 1.2d; travel 532 mi since last game; form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3; away record 2-0; DraftKings line -1.5 vs FanDuel +1.5 (-0.5); FanDuel price moved our way -650 -> -900 (+0.5)",
    "fd_market_id": "742.193914944",
    "fd_selection_id": "7890665",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7890665",
-   "fd_region": "PA"
-  },
-  "401909875:7889006:742.193914952": {
-   "kind": "total",
-   "ou": "under",
-   "line": 258.5,
-   "id": "401909875:7889006:742.193914952",
-   "event": "401909875",
-   "sport": "nba",
-   "game": "Memphis Grizzlies at Utah Jazz",
-   "start": "2026-10-27T01:00Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 258.5",
-   "odds": -850,
-   "fd_prob": 0.8441,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.8916,
-   "market_prob": 0.8679,
-   "prob": 0.9326,
-   "pre_research": 0.8679,
-   "research": [
-    "FanDuel price moved our way -620 -> -850 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "calibrated": true,
-   "v1_prob": 0.9326,
-   "v2_prob": 0.8959,
-   "v2_src": "Pinnacle: Pinnacle total 240 extrapolated",
-   "sharp_prob": 0.8959,
-   "sharp_edge": 0.0011,
-   "why": "FanDuel no-vig 84.4%, line model 89.2% -> est. 93.3% (edge +8.9 pts); research +0.5 pts: FanDuel price moved our way -620 -> -850 (+0.5)",
-   "fd_market_id": "742.193914952",
-   "fd_selection_id": "7889006",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914952&selectionId%5B0%5D=7889006",
    "fd_region": "PA"
   },
   "401909876:7674032:742.193903267": {
@@ -521,7 +341,7 @@
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.8916,
    "market_prob": 0.8746,
    "prob": 0.9397,
@@ -542,41 +362,6 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903267&selectionId%5B0%5D=7674032",
    "fd_region": "PA"
   },
-  "401909876:7867411:742.193903267": {
-   "kind": "total",
-   "ou": "under",
-   "line": 257.5,
-   "id": "401909876:7867411:742.193903267",
-   "event": "401909876",
-   "sport": "nba",
-   "game": "Golden State Warriors at Denver Nuggets",
-   "start": "2026-10-27T02:00Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 257.5",
-   "odds": -1000,
-   "fd_prob": 0.8576,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.8916,
-   "market_prob": 0.8746,
-   "prob": 0.9397,
-   "pre_research": 0.8746,
-   "research": [
-    "FanDuel price moved our way -800 -> -1000 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "calibrated": true,
-   "v1_prob": 0.9397,
-   "v2_prob": 0.895,
-   "v2_src": "Pinnacle: Pinnacle total 239 extrapolated",
-   "sharp_prob": 0.895,
-   "sharp_edge": -0.0141,
-   "why": "FanDuel no-vig 85.8%, line model 89.2% -> est. 94.0% (edge +8.2 pts); research +0.5 pts: FanDuel price moved our way -800 -> -1000 (+0.5)",
-   "fd_market_id": "742.193903267",
-   "fd_selection_id": "7867411",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903267&selectionId%5B0%5D=7867411",
-   "fd_region": "PA"
-  },
   "401909876:7889495:742.193903300": {
    "kind": "spread",
    "side": "home",
@@ -591,7 +376,7 @@
    "odds": -850,
    "fd_prob": 0.8441,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.9088,
    "market_prob": 0.8764,
    "prob": 0.9363,
@@ -628,40 +413,6 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903300&selectionId%5B0%5D=7889495",
    "fd_region": "PA"
   },
-  "401909874:7747629:742.193912601": {
-   "kind": "total",
-   "ou": "under",
-   "line": 241.5,
-   "id": "401909874:7747629:742.193912601",
-   "event": "401909874",
-   "sport": "nba",
-   "game": "Atlanta Hawks at Houston Rockets",
-   "start": "2026-10-27T00:30Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 241.5",
-   "odds": -300,
-   "fd_prob": 0.7177,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.7599,
-   "market_prob": 0.7388,
-   "prob": 0.7438,
-   "pre_research": 0.7388,
-   "research": [
-    "DraftKings total 228.5 vs FanDuel 229.5 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "v1_prob": 0.7438,
-   "v2_prob": 0.772,
-   "v2_src": "Pinnacle: Pinnacle total 232 extrapolated",
-   "sharp_prob": 0.772,
-   "sharp_edge": 0.022,
-   "why": "FanDuel no-vig 71.8%, line model 76.0% -> est. 74.4% (edge +2.6 pts); research +0.5 pts: DraftKings total 228.5 vs FanDuel 229.5 (+0.5)",
-   "fd_market_id": "742.193912601",
-   "fd_selection_id": "7747629",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7747629",
-   "fd_region": "PA"
-  },
   "401909876:7711322:742.193903267": {
    "kind": "total",
    "ou": "over",
@@ -676,7 +427,7 @@
    "odds": -300,
    "fd_prob": 0.7177,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.7599,
    "market_prob": 0.7388,
    "prob": 0.7438,
@@ -710,7 +461,7 @@
    "odds": -280,
    "fd_prob": 0.7051,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.7734,
    "market_prob": 0.7392,
    "prob": 0.7392,
@@ -725,54 +476,19 @@
    ],
    "research_adj": 0.0,
    "v1_prob": 0.7392,
-   "v2_prob": 0.7316,
+   "v2_prob": 0.7399,
    "v2_src": "Pinnacle: Pinnacle -3 line extrapolated 4.5 pts",
-   "sharp_prob": 0.7288,
-   "sharp_edge": -0.008,
-   "power_prob": 0.7474,
-   "power_margin_home": -0.5,
+   "sharp_prob": 0.731,
+   "sharp_edge": -0.0059,
+   "power_prob": 0.7906,
+   "power_margin_home": -2.2,
    "v2_injuries": [
-    "Jaxson Hayes Day-To-Day (7p/4r/1a, 17 min): -0.4 pts",
-    "Isaiah Stewart Day-To-Day (9p/7r/1a, 24 min): -0.8 pts"
+    "Jaxson Hayes Out (7p/4r/1a, 17 min): -1.3 pts"
    ],
    "why": "FanDuel no-vig 70.5%, line model 77.3% -> est. 73.9% (edge +3.4 pts); research +0.0 pts: rest 1.0d vs 1.2d; travel 532 mi since last game; form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3; away record 2-0; DraftKings line -1.5 vs FanDuel +1.5 (-0.5); FanDuel price moved our way -230 -> -280 (+0.5)",
    "fd_market_id": "742.193914944",
    "fd_selection_id": "7890755",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7890755",
-   "fd_region": "PA"
-  },
-  "401892583:8359780:742.193940219": {
-   "kind": "total",
-   "ou": "under",
-   "line": 7.5,
-   "id": "401892583:8359780:742.193940219",
-   "event": "401892583",
-   "sport": "nhl",
-   "game": "Toronto Maple Leafs at Calgary Flames",
-   "start": "2026-10-27T00:30Z",
-   "market": "Alternate Total Goals",
-   "pick": "Under 7.5",
-   "odds": -260,
-   "fd_prob": 0.6911,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230579, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.6615,
-   "market_prob": 0.6763,
-   "prob": 0.6613,
-   "pre_research": 0.6763,
-   "research": [
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
-   ],
-   "research_adj": -0.015,
-   "v1_prob": 0.6613,
-   "v2_prob": 0.6848,
-   "v2_src": "Pinnacle: Pinnacle exact total",
-   "sharp_prob": 0.6848,
-   "sharp_edge": -0.0374,
-   "why": "FanDuel no-vig 69.1%, line model 66.1% -> est. 66.1% (edge -3.0 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
-   "fd_market_id": "742.193940219",
-   "fd_selection_id": "8359780",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940219&selectionId%5B0%5D=8359780",
    "fd_region": "PA"
   },
   "401892584:7737379:742.193940399": {
@@ -789,7 +505,7 @@
    "odds": -290,
    "fd_prob": 0.7116,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230580, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230580, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.6497,
    "market_prob": 0.6807,
    "prob": 0.6387,
@@ -807,16 +523,50 @@
    ],
    "research_adj": -0.042,
    "v1_prob": 0.6387,
-   "v2_prob": 0.7115,
+   "v2_prob": 0.714,
    "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.7065,
-   "sharp_edge": -0.0371,
-   "power_prob": 0.7394,
-   "power_margin_home": 0.8,
+   "sharp_prob": 0.7074,
+   "sharp_edge": -0.0362,
+   "power_prob": 0.751,
+   "power_margin_home": 0.7,
    "why": "FanDuel no-vig 71.2%, line model 65.0% -> est. 63.9% (edge -7.3 pts); research -4.2 pts: rest 2.0d vs 2.1d; travel 175 mi since last game; form 4-6 last 10, avg margin -0.3 vs 8-2 last 10, avg margin +1.1; form edge (-0.7); away record 1-1-2; our key player: G Daniil Tarasov Day-To-Day (-2.5); opponent key player: G Devon Levi Injured Reserve; G Frederik Andersen Injured Reserve; FanDuel price moved our way -250 -> -290 (+0.5); low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.193940399",
    "fd_selection_id": "7737379",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940399&selectionId%5B0%5D=7737379",
+   "fd_region": "PA"
+  },
+  "401874980:1222344:742.193033972": {
+   "kind": "total",
+   "ou": "under",
+   "line": 3.5,
+   "id": "401874980:1222344:742.193033972",
+   "event": "401874980",
+   "sport": "ita.1",
+   "game": "Lazio at Sassuolo",
+   "start": "2026-10-27T17:30Z",
+   "market": "Over/Under 3.5 Goals",
+   "pick": "Under 3.5 Goals",
+   "odds": -215,
+   "fd_prob": 0.6499,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221180, fetched 2026-10-27 00:37 UTC",
+   "market_prob": 0.6499,
+   "prob": 0.6349,
+   "pre_research": 0.6499,
+   "research": [
+    "weather fine (wind 2.2 mph, rain 0%)",
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.015,
+   "v1_prob": 0.6349,
+   "v2_prob": 0.6445,
+   "v2_src": "Pinnacle: Pinnacle exact total",
+   "sharp_prob": 0.6445,
+   "sharp_edge": -0.038,
+   "why": "FanDuel no-vig 65.0% -> est. 63.5% (edge -1.5 pts); research -1.5 pts: weather fine (wind 2.2 mph, rain 0%); low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.193033972",
+   "fd_selection_id": "1222344",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193033972&selectionId%5B0%5D=1222344",
    "fd_region": "PA"
   },
   "401892584:25603:742.193519588": {
@@ -833,7 +583,7 @@
    "odds": 134,
    "fd_prob": 0.4076,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230580, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230580, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.5,
    "market_prob": 0.4538,
    "prob": 0.4358,
@@ -850,12 +600,12 @@
    ],
    "research_adj": -0.018,
    "v1_prob": 0.4358,
-   "v2_prob": 0.4127,
+   "v2_prob": 0.4106,
    "v2_src": "Pinnacle: Pinnacle exact line",
    "sharp_prob": 0.4152,
    "sharp_edge": -0.0122,
-   "power_prob": 0.3986,
-   "power_margin_home": 0.8,
+   "power_prob": 0.3848,
+   "power_margin_home": 0.7,
    "why": "FanDuel no-vig 40.8%, line model 50.0% -> est. 43.6% (edge +2.8 pts); research -1.8 pts: rest 2.1d vs 2.0d; travel 0 mi since last game; form 8-2 last 10, avg margin +1.1 vs 4-6 last 10, avg margin -0.3; form edge (+0.7); home record 3-2-1; our key player: G Devon Levi Injured Reserve; G Frederik Andersen Injured Reserve (-1.0); opponent key player: G Daniil Tarasov Day-To-Day; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.193519588",
    "fd_selection_id": "25603",
@@ -875,7 +625,7 @@
    "odds": 215,
    "fd_prob": 0.3053,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:37 UTC",
    "market_prob": 0.3026,
    "prob": 0.3076,
    "pre_research": 0.3026,
@@ -911,82 +661,6 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193598607&selectionId%5B0%5D=237493",
    "fd_region": "PA"
   },
-  "401909874:40126264:742.193904821": {
-   "kind": "prop",
-   "player": "Alperen Sengun",
-   "stat": "REB",
-   "ou": "over",
-   "line": 11.5,
-   "id": "401909874:40126264:742.193904821",
-   "event": "401909874",
-   "sport": "nba",
-   "game": "Atlanta Hawks at Houston Rockets",
-   "start": "2026-10-27T00:30Z",
-   "market": "12+ Rebounds",
-   "pick": "Alperen Sengun",
-   "odds": 265,
-   "fd_prob": 0.256,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "market_prob": 0.256,
-   "prob": 0.261,
-   "pre_research": 0.256,
-   "research": [
-    "FanDuel price moved our way +300 -> +265 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "v1_prob": 0.261,
-   "v2_prob": 0.256,
-   "v2_src": "no sharp price -> FanDuel no-vig/line model",
-   "why": "FanDuel no-vig 25.6% -> est. 26.1% (edge +0.5 pts); research +0.5 pts: FanDuel price moved our way +300 -> +265 (+0.5)",
-   "fd_market_id": "742.193904821",
-   "fd_selection_id": "40126264",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193904821&selectionId%5B0%5D=40126264",
-   "fd_region": "PA"
-  },
-  "401892583:7735245:742.193940198": {
-   "kind": "spread",
-   "side": "away",
-   "line": -2.5,
-   "id": "401892583:7735245:742.193940198",
-   "event": "401892583",
-   "sport": "nhl",
-   "game": "Toronto Maple Leafs at Calgary Flames",
-   "start": "2026-10-27T00:30Z",
-   "market": "Alternate Puck Line",
-   "pick": "Toronto Maple Leafs -2.5",
-   "odds": 260,
-   "fd_prob": 0.2658,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36230579, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.3503,
-   "market_prob": 0.308,
-   "prob": 0.283,
-   "pre_research": 0.308,
-   "research": [
-    "rest 2.1d vs 1.9d",
-    "travel 175 mi since last game",
-    "form 6-4 last 10, avg margin +1.0 vs 4-6 last 10, avg margin -1.6",
-    "form edge (+1.0)",
-    "away record 3-1-1",
-    "our key player: G Elvis Merzlikins Injured Reserve (-1.0)",
-    "FanDuel price moved against us +220 -> +260 (-1.0)",
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
-   ],
-   "research_adj": -0.025,
-   "v1_prob": 0.283,
-   "v2_prob": 0.2438,
-   "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.24,
-   "sharp_edge": -0.0377,
-   "power_prob": 0.2651,
-   "power_margin_home": -0.9,
-   "why": "FanDuel no-vig 26.6%, line model 35.0% -> est. 28.3% (edge +1.7 pts); research -2.5 pts: rest 2.1d vs 1.9d; travel 175 mi since last game; form 6-4 last 10, avg margin +1.0 vs 4-6 last 10, avg margin -1.6; form edge (+1.0); away record 3-1-1; our key player: G Elvis Merzlikins Injured Reserve (-1.0); FanDuel price moved against us +220 -> +260 (-1.0); low-scoring sport, one goal decides line (-1.5 volatility)",
-   "fd_market_id": "742.193940198",
-   "fd_selection_id": "7735245",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940198&selectionId%5B0%5D=7735245",
-   "fd_region": "PA"
-  },
   "401909875:91091125:742.193912943": {
    "kind": "prop",
    "player": "Darryn Peterson",
@@ -1003,7 +677,7 @@
    "odds": 300,
    "fd_prob": 0.2336,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:37 UTC",
    "market_prob": 0.2336,
    "prob": 0.2336,
    "pre_research": 0.2336,
@@ -1016,37 +690,6 @@
    "fd_market_id": "742.193912943",
    "fd_selection_id": "91091125",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912943&selectionId%5B0%5D=91091125",
-   "fd_region": "PA"
-  },
-  "401909874:2387617:742.193904834": {
-   "kind": "prop",
-   "player": "Kevin Durant",
-   "stat": "POI",
-   "ou": "over",
-   "line": 29.5,
-   "id": "401909874:2387617:742.193904834",
-   "event": "401909874",
-   "sport": "nba",
-   "game": "Atlanta Hawks at Houston Rockets",
-   "start": "2026-10-27T00:30Z",
-   "market": "30+ Points",
-   "pick": "Kevin Durant",
-   "odds": 300,
-   "fd_prob": 0.2336,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "market_prob": 0.2336,
-   "prob": 0.2336,
-   "pre_research": 0.2336,
-   "research": [],
-   "research_adj": 0.0,
-   "v1_prob": 0.2336,
-   "v2_prob": 0.2336,
-   "v2_src": "no sharp price -> FanDuel no-vig/line model",
-   "why": "FanDuel no-vig 23.4% -> est. 23.4% (edge +0.0 pts)",
-   "fd_market_id": "742.193904834",
-   "fd_selection_id": "2387617",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193904834&selectionId%5B0%5D=2387617",
    "fd_region": "PA"
   },
   "401909876:3910855:742.193910807": {
@@ -1065,7 +708,7 @@
    "odds": 300,
    "fd_prob": 0.2336,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:37 UTC",
    "market_prob": 0.2336,
    "prob": 0.2336,
    "pre_research": 0.2336,
@@ -1093,7 +736,7 @@
    "odds": 220,
    "fd_prob": 0.2916,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221180, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221180, fetched 2026-10-27 00:37 UTC",
    "market_prob": 0.2916,
    "prob": 0.2822,
    "pre_research": 0.2916,
@@ -1129,7 +772,7 @@
    "odds": -700,
    "fd_prob": 0.8255,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232232, fetched 2026-10-27 00:37 UTC",
    "dist_prob": 0.8944,
    "market_prob": 0.8599,
    "prob": 0.9187,
@@ -1145,106 +788,19 @@
    "research_adj": 0.0,
    "calibrated": true,
    "v1_prob": 0.9187,
-   "v2_prob": 0.8681,
+   "v2_prob": 0.8733,
    "v2_src": "Pinnacle: Pinnacle -3 line extrapolated 10.5 pts",
-   "sharp_prob": 0.8663,
-   "sharp_edge": -0.0087,
-   "power_prob": 0.8783,
-   "power_margin_home": -0.5,
+   "sharp_prob": 0.8677,
+   "sharp_edge": -0.0073,
+   "power_prob": 0.9047,
+   "power_margin_home": -2.2,
    "v2_injuries": [
-    "Jaxson Hayes Day-To-Day (7p/4r/1a, 17 min): -0.4 pts",
-    "Isaiah Stewart Day-To-Day (9p/7r/1a, 24 min): -0.8 pts"
+    "Jaxson Hayes Out (7p/4r/1a, 17 min): -1.3 pts"
    ],
    "why": "FanDuel no-vig 82.5%, line model 89.4% -> est. 91.9% (edge +9.3 pts); research +0.0 pts: rest 1.0d vs 1.2d; travel 532 mi since last game; form 3-0 last 3, avg margin +11.3 vs 1-2 last 3, avg margin -9.3; away record 2-0; DraftKings line -1.5 vs FanDuel +1.5 (-0.5); FanDuel price moved our way -580 -> -700 (+0.5)",
    "fd_market_id": "742.193914944",
    "fd_selection_id": "7890837",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7890837",
-   "fd_region": "PA"
-  },
-  "401909876:7889675:742.193903300": {
-   "kind": "spread",
-   "side": "home",
-   "line": 7.5,
-   "id": "401909876:7889675:742.193903300",
-   "event": "401909876",
-   "sport": "nba",
-   "game": "Golden State Warriors at Denver Nuggets",
-   "start": "2026-10-27T02:00Z",
-   "market": "Alternate Spread",
-   "pick": "Denver Nuggets +7.5",
-   "odds": -700,
-   "fd_prob": 0.8255,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232231, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.8944,
-   "market_prob": 0.8599,
-   "prob": 0.9187,
-   "pre_research": 0.8599,
-   "research": [
-    "rest 2.0d vs 2.0d",
-    "travel 0 mi since last game",
-    "form 1-1 last 2, avg margin -3.0 vs 0-3 last 3, avg margin -11.3",
-    "home record 1-0"
-   ],
-   "research_adj": 0.0,
-   "calibrated": true,
-   "v1_prob": 0.9187,
-   "v2_prob": 0.9092,
-   "v2_src": "Pinnacle: Pinnacle -4.5 line extrapolated 12 pts",
-   "sharp_prob": 0.8998,
-   "sharp_edge": 0.0248,
-   "power_prob": 0.9627,
-   "power_margin_home": 13.9,
-   "v2_injuries": [
-    "Alpha Diallo Out (4p/2r/3a, 22 min): -1.3 pts",
-    "Cameron Johnson Day-To-Day (13p/4r/2a, 27 min): -1.1 pts",
-    "Spencer Jones Out (4p/3r/1a, 18 min): -1.0 pts",
-    "Julian Strawther Out (7p/2r/1a, 16 min): -1.2 pts",
-    "Gui Santos Day-To-Day (6p/3r/2a, 16 min): -0.4 pts",
-    "Brandon Williams Day-To-Day (11p/2r/3a, 19 min): -0.7 pts",
-    "Kristaps Porzingis Out (20p/8r/2a, 30 min): -6.0 pts",
-    "Moses Moody Out (8p/2r/1a, 18 min): -1.5 pts",
-    "Jimmy Butler III Out (18p/5r/4a, 33 min): -6.0 pts"
-   ],
-   "why": "FanDuel no-vig 82.5%, line model 89.4% -> est. 91.9% (edge +9.3 pts); research +0.0 pts: rest 2.0d vs 2.0d; travel 0 mi since last game; form 1-1 last 2, avg margin -3.0 vs 0-3 last 3, avg margin -11.3; home record 1-0",
-   "fd_market_id": "742.193903300",
-   "fd_selection_id": "7889675",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903300&selectionId%5B0%5D=7889675",
-   "fd_region": "PA"
-  },
-  "401909874:7755153:742.193912601": {
-   "kind": "total",
-   "ou": "under",
-   "line": 249.5,
-   "id": "401909874:7755153:742.193912601",
-   "event": "401909874",
-   "sport": "nba",
-   "game": "Atlanta Hawks at Houston Rockets",
-   "start": "2026-10-27T00:30Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 249.5",
-   "odds": -720,
-   "fd_prob": 0.8283,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36232233, fetched 2026-10-27 00:22 UTC",
-   "dist_prob": 0.8803,
-   "market_prob": 0.8543,
-   "prob": 0.918,
-   "pre_research": 0.8543,
-   "research": [
-    "DraftKings total 228.5 vs FanDuel 229.5 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "calibrated": true,
-   "v1_prob": 0.918,
-   "v2_prob": 0.888,
-   "v2_src": "Pinnacle: Pinnacle total 232 extrapolated",
-   "sharp_prob": 0.888,
-   "sharp_edge": 0.01,
-   "why": "FanDuel no-vig 82.8%, line model 88.0% -> est. 91.8% (edge +9.0 pts); research +0.5 pts: DraftKings total 228.5 vs FanDuel 229.5 (+0.5)",
-   "fd_market_id": "742.193912601",
-   "fd_selection_id": "7755153",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7755153",
    "fd_region": "PA"
   },
   "401874980:56966:742.193033920": {
@@ -1260,7 +816,7 @@
    "odds": 115,
    "fd_prob": 0.434,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221180, fetched 2026-10-27 00:22 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221180, fetched 2026-10-27 00:37 UTC",
    "market_prob": 0.434,
    "prob": 0.4434,
    "pre_research": 0.434,
@@ -1287,101 +843,64 @@
   {
    "n": 1,
    "legs": [
-    "401909876:7914258:742.193903300"
+    "401909875:7933807:742.193914944"
    ],
    "est_prob": 0.9505,
    "fd_payout_x": 1.1,
    "ev": 0.046,
    "shared_legs": 0,
    "shared_games": 1,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903300&selectionId%5B0%5D=7914258",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7933807",
    "favorite": false,
    "corr_prob": 0.94978
   },
   {
    "n": 2,
    "legs": [
-    "401909874:7711029:742.193912601",
-    "401909875:7695550:742.193914952"
+    "401909876:7914258:742.193903300",
+    "401892584:7735512:742.193940399"
    ],
-   "est_prob": 0.89378,
-   "fd_payout_x": 1.21,
-   "ev": 0.081,
-   "shared_legs": 0,
+   "est_prob": 0.88932,
+   "fd_payout_x": 1.22,
+   "ev": 0.086,
+   "shared_legs": 1,
    "shared_games": 2,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7711029&marketId%5B1%5D=742.193914952&selectionId%5B1%5D=7695550",
-   "favorite": false,
-   "corr_prob": 0.89272
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903300&selectionId%5B0%5D=7914258&marketId%5B1%5D=742.193940399&selectionId%5B1%5D=7735512",
+   "favorite": true,
+   "corr_prob": 0.88915
   },
   {
    "n": 3,
    "legs": [
-    "401892584:7735512:742.193940399",
-    "401892583:7735283:742.193940198",
+    "401909875:7695550:742.193914952",
+    "401909876:7674032:742.193903267",
     "401874980:1222347:742.193033897"
    ],
-   "est_prob": 0.68548,
-   "fd_payout_x": 1.48,
-   "ev": 0.013,
-   "shared_legs": 3,
+   "est_prob": 0.70938,
+   "fd_payout_x": 1.42,
+   "ev": 0.004,
+   "shared_legs": 1,
    "shared_games": 3,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940399&selectionId%5B0%5D=7735512&marketId%5B1%5D=742.193940198&selectionId%5B1%5D=7735283&marketId%5B2%5D=742.193033897&selectionId%5B2%5D=1222347",
-   "favorite": false,
-   "corr_prob": 0.6878
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914952&selectionId%5B0%5D=7695550&marketId%5B1%5D=742.193903267&selectionId%5B1%5D=7674032&marketId%5B2%5D=742.193033897&selectionId%5B2%5D=1222347",
+   "favorite": true,
+   "corr_prob": 0.70967
   },
   {
    "n": 4,
    "legs": [
-    "401909875:7933807:742.193914944",
-    "401909874:7891512:742.193912643",
-    "401909876:7674032:742.193903267",
-    "401892584:7735512:742.193940399"
-   ],
-   "est_prob": 0.78224,
-   "fd_payout_x": 1.49,
-   "ev": 0.162,
-   "shared_legs": 1,
-   "shared_games": 4,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7933807&marketId%5B1%5D=742.193912643&selectionId%5B1%5D=7891512&marketId%5B2%5D=742.193903267&selectionId%5B2%5D=7674032&marketId%5B3%5D=742.193940399&selectionId%5B3%5D=7735512",
-   "favorite": true,
-   "corr_prob": 0.7826
-  },
-  {
-   "n": 5,
-   "legs": [
-    "401909876:7867411:742.193903267",
     "401909875:7890665:742.193914944",
-    "401909874:7891030:742.193912643",
-    "401892583:7735283:742.193940198",
-    "401874980:1222347:742.193033897"
-   ],
-   "est_prob": 0.60041,
-   "fd_payout_x": 1.82,
-   "ev": 0.09,
-   "shared_legs": 2,
-   "shared_games": 5,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903267&selectionId%5B0%5D=7867411&marketId%5B1%5D=742.193914944&selectionId%5B1%5D=7890665&marketId%5B2%5D=742.193912643&selectionId%5B2%5D=7891030&marketId%5B3%5D=742.193940198&selectionId%5B3%5D=7735283&marketId%5B4%5D=742.193033897&selectionId%5B4%5D=1222347",
-   "favorite": true,
-   "corr_prob": 0.60335
-  },
-  {
-   "n": 6,
-   "legs": [
     "401892584:7735512:742.193940399",
     "401909876:7889495:742.193903300",
-    "401909874:7729460:742.193912601",
-    "401909875:7889006:742.193914952",
-    "401892583:7735283:742.193940198",
     "401874980:1222347:742.193033897"
    ],
-   "est_prob": 0.55822,
-   "fd_payout_x": 2.06,
-   "ev": 0.151,
-   "shared_legs": 3,
-   "shared_games": 6,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940399&selectionId%5B0%5D=7735512&marketId%5B1%5D=742.193903300&selectionId%5B1%5D=7889495&marketId%5B2%5D=742.193912601&selectionId%5B2%5D=7729460&marketId%5B3%5D=742.193914952&selectionId%5B3%5D=7889006&marketId%5B4%5D=742.193940198&selectionId%5B4%5D=7735283&marketId%5B5%5D=742.193033897&selectionId%5B5%5D=1222347",
+   "est_prob": 0.65836,
+   "fd_payout_x": 1.61,
+   "ev": 0.057,
+   "shared_legs": 2,
+   "shared_games": 4,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7890665&marketId%5B1%5D=742.193940399&selectionId%5B1%5D=7735512&marketId%5B2%5D=742.193903300&selectionId%5B2%5D=7889495&marketId%5B3%5D=742.193033897&selectionId%5B3%5D=1222347",
    "favorite": true,
-   "corr_prob": 0.5588
+   "corr_prob": 0.65917
   }
  ],
  "lottery": [
@@ -1392,14 +911,14 @@
    "legs": [
     "401892584:25603:742.193519588",
     "401909876:237493:742.193598607",
-    "401909874:40126264:742.193904821"
+    "401909875:91091125:742.193912943"
    ],
-   "est_prob": 0.03498759288,
-   "fd_payout_x": 26.9,
-   "one_in": 29,
-   "fd_odds": "+2590",
-   "ev": -0.059,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193519588&selectionId%5B0%5D=25603&marketId%5B1%5D=742.193598607&selectionId%5B1%5D=237493&marketId%5B2%5D=742.193904821&selectionId%5B2%5D=40126264",
+   "est_prob": 0.031314565887999996,
+   "fd_payout_x": 29.48,
+   "one_in": 32,
+   "fd_odds": "+2848",
+   "ev": -0.077,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193519588&selectionId%5B0%5D=25603&marketId%5B1%5D=742.193598607&selectionId%5B1%5D=237493&marketId%5B2%5D=742.193912943&selectionId%5B2%5D=91091125",
    "favorite": false
   },
   {
@@ -1407,96 +926,57 @@
    "target_x": 100,
    "n": 4,
    "legs": [
-    "401892583:7735245:742.193940198",
-    "401892584:25603:742.193519588",
-    "401909876:237493:742.193598607",
-    "401909875:91091125:742.193912943"
-   ],
-   "est_prob": 0.008862022146303999,
-   "fd_payout_x": 106.14,
-   "one_in": 113,
-   "fd_odds": "+10514",
-   "ev": -0.059,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940198&selectionId%5B0%5D=7735245&marketId%5B1%5D=742.193519588&selectionId%5B1%5D=25603&marketId%5B2%5D=742.193598607&selectionId%5B2%5D=237493&marketId%5B3%5D=742.193912943&selectionId%5B3%5D=91091125",
-   "favorite": false
-  },
-  {
-   "label": "~500x",
-   "target_x": 500,
-   "n": 5,
-   "legs": [
-    "401892583:7735245:742.193940198",
-    "401909874:2387617:742.193904834",
     "401909875:91091125:742.193912943",
     "401909876:3910855:742.193910807",
-    "401892584:25603:742.193519588"
-   ],
-   "est_prob": 0.0015721434721091584,
-   "fd_payout_x": 539.14,
-   "one_in": 636,
-   "fd_odds": "+53814",
-   "ev": -0.152,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940198&selectionId%5B0%5D=7735245&marketId%5B1%5D=742.193904834&selectionId%5B1%5D=2387617&marketId%5B2%5D=742.193912943&selectionId%5B2%5D=91091125&marketId%5B3%5D=742.193910807&selectionId%5B3%5D=3910855&marketId%5B4%5D=742.193519588&selectionId%5B4%5D=25603",
-   "favorite": false
-  },
-  {
-   "label": "~1,000x",
-   "target_x": 1000,
-   "n": 6,
-   "legs": [
-    "401892583:7735245:742.193940198",
     "401892584:25603:742.193519588",
-    "401909874:40126264:742.193904821",
-    "401909876:237493:742.193598607",
-    "401909875:91091125:742.193912943",
     "401874980:2013140:742.193033920"
    ],
-   "est_prob": 0.000652725151568304,
-   "fd_payout_x": 1239.74,
-   "one_in": 1532,
-   "fd_odds": "+123874",
-   "ev": -0.191,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940198&selectionId%5B0%5D=7735245&marketId%5B1%5D=742.193519588&selectionId%5B1%5D=25603&marketId%5B2%5D=742.193904821&selectionId%5B2%5D=40126264&marketId%5B3%5D=742.193598607&selectionId%5B3%5D=237493&marketId%5B4%5D=742.193912943&selectionId%5B4%5D=91091125&marketId%5B5%5D=742.193033920&selectionId%5B5%5D=2013140",
+   "est_prob": 0.0067110413111296004,
+   "fd_payout_x": 119.81,
+   "one_in": 149,
+   "fd_odds": "+11881",
+   "ev": -0.196,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912943&selectionId%5B0%5D=91091125&marketId%5B1%5D=742.193910807&selectionId%5B1%5D=3910855&marketId%5B2%5D=742.193519588&selectionId%5B2%5D=25603&marketId%5B3%5D=742.193033920&selectionId%5B3%5D=2013140",
    "favorite": false
   },
   {
-   "label": "6-leg best-edge lottery",
+   "label": "4-leg best-edge lottery",
    "target_x": null,
-   "n": 6,
+   "n": 4,
    "legs": [
+    "401909876:7914258:742.193903300",
     "401909875:7890837:742.193914944",
-    "401909876:7889675:742.193903300",
-    "401892583:7735283:742.193940198",
-    "401909874:7755153:742.193912601",
     "401892584:7735512:742.193940399",
     "401874980:56966:742.193033920"
    ],
-   "est_prob": 0.29492184301995117,
-   "fd_payout_x": 4.04,
+   "est_prob": 0.3622641718078692,
+   "fd_payout_x": 3.0,
    "one_in": 3,
-   "fd_odds": "+304",
-   "ev": 0.191,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7890837&marketId%5B1%5D=742.193903300&selectionId%5B1%5D=7889675&marketId%5B2%5D=742.193940198&selectionId%5B2%5D=7735283&marketId%5B3%5D=742.193912601&selectionId%5B3%5D=7755153&marketId%5B4%5D=742.193940399&selectionId%5B4%5D=7735512&marketId%5B5%5D=742.193033920&selectionId%5B5%5D=56966",
+   "fd_odds": "+200",
+   "ev": 0.087,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903300&selectionId%5B0%5D=7914258&marketId%5B1%5D=742.193914944&selectionId%5B1%5D=7890837&marketId%5B2%5D=742.193940399&selectionId%5B2%5D=7735512&marketId%5B3%5D=742.193033920&selectionId%5B3%5D=56966",
    "favorite": false
   }
  ],
  "best": {
-  "n": 5,
+  "n": 4,
   "legs": [
-   "401909874:7747629:742.193912601",
    "401909876:7711322:742.193903267",
    "401909875:7890755:742.193914944",
-   "401892583:8359780:742.193940219",
-   "401892584:7737379:742.193940399"
+   "401892584:7737379:742.193940399",
+   "401874980:1222344:742.193033972"
   ],
-  "est_prob": 0.1727,
-  "fd_payout_x": 4.49,
-  "score": 0.2595166051681131,
-  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7747629&marketId%5B1%5D=742.193903267&selectionId%5B1%5D=7711322&marketId%5B2%5D=742.193914944&selectionId%5B2%5D=7890755&marketId%5B3%5D=742.193940219&selectionId%5B3%5D=8359780&marketId%5B4%5D=742.193940399&selectionId%5B4%5D=7737379",
+  "est_prob": 0.223,
+  "fd_payout_x": 3.57,
+  "score": 0.28343676008531915,
+  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903267&selectionId%5B0%5D=7711322&marketId%5B1%5D=742.193914944&selectionId%5B1%5D=7890755&marketId%5B2%5D=742.193940399&selectionId%5B2%5D=7737379&marketId%5B3%5D=742.193033972&selectionId%5B3%5D=1222344",
   "favorite": true,
-  "corr_prob": 0.17008
+  "corr_prob": 0.2206
  },
- "started": [],
+ "started": [
+  "401909874:7891512:742.193912643",
+  "401892583:7735283:742.193940198"
+ ],
  "games": [
   {
    "id": "401873009",
@@ -1504,7 +984,7 @@
    "name": "Dallas Cowboys at Philadelphia Eagles",
    "start": "2026-10-27T00:15Z",
    "state": "in",
-   "status": "12:30 - 1st",
+   "status": "7:02 - 1st",
    "venue": "Lincoln Financial Field",
    "indoor": false,
    "city": {
@@ -1536,7 +1016,7 @@
     "home": {
      "name": "Philadelphia Eagles",
      "short": "Eagles",
-     "score": "0",
+     "score": "7",
      "winner": null,
      "record": "2-4",
      "ml_open": null,
@@ -1567,7 +1047,7 @@
    "name": "Washington Wizards at Charlotte Hornets",
    "start": "2026-10-26T23:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "6:35 - 3rd",
    "venue": "Spectrum Center",
    "indoor": true,
    "city": {
@@ -1582,7 +1062,7 @@
     "home": {
      "name": "Charlotte Hornets",
      "short": "Hornets",
-     "score": "54",
+     "score": "61",
      "winner": null,
      "record": "2-1",
      "ml_open": null,
@@ -1595,7 +1075,7 @@
     "away": {
      "name": "Washington Wizards",
      "short": "Wizards",
-     "score": "44",
+     "score": "59",
      "winner": null,
      "record": "2-1",
      "ml_open": null,
@@ -1613,7 +1093,7 @@
    "name": "Minnesota Timberwolves at Cleveland Cavaliers",
    "start": "2026-10-26T23:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "7:49 - 3rd",
    "venue": "Rocket Arena",
    "indoor": true,
    "city": {
@@ -1628,7 +1108,7 @@
     "home": {
      "name": "Cleveland Cavaliers",
      "short": "Cavaliers",
-     "score": "50",
+     "score": "56",
      "winner": null,
      "record": "1-1",
      "ml_open": null,
@@ -1641,7 +1121,7 @@
     "away": {
      "name": "Minnesota Timberwolves",
      "short": "Timberwolves",
-     "score": "60",
+     "score": "67",
      "winner": null,
      "record": "3-0",
      "ml_open": null,
@@ -1659,7 +1139,7 @@
    "name": "Chicago Bulls at Boston Celtics",
    "start": "2026-10-26T23:30Z",
    "state": "in",
-   "status": "5:06 - 2nd",
+   "status": "14.4 - 2nd",
    "venue": "TD Garden",
    "indoor": true,
    "city": {
@@ -1674,7 +1154,7 @@
     "home": {
      "name": "Boston Celtics",
      "short": "Celtics",
-     "score": "46",
+     "score": "63",
      "winner": null,
      "record": "1-1",
      "ml_open": null,
@@ -1687,7 +1167,7 @@
     "away": {
      "name": "Chicago Bulls",
      "short": "Bulls",
-     "score": "43",
+     "score": "52",
      "winner": null,
      "record": "1-2",
      "ml_open": null,
@@ -1705,7 +1185,7 @@
    "name": "Dallas Mavericks at Miami Heat",
    "start": "2026-10-26T23:30Z",
    "state": "in",
-   "status": "5:58 - 2nd",
+   "status": "1:15 - 2nd",
    "venue": "Kaseya Center",
    "indoor": true,
    "city": {
@@ -1720,7 +1200,7 @@
     "home": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "45",
+     "score": "50",
      "winner": null,
      "record": "0-3",
      "ml_open": null,
@@ -1733,7 +1213,7 @@
     "away": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "36",
+     "score": "47",
      "winner": null,
      "record": "1-2",
      "ml_open": null,
@@ -1751,7 +1231,7 @@
    "name": "Indiana Pacers at Milwaukee Bucks",
    "start": "2026-10-27T00:00Z",
    "state": "in",
-   "status": "6:15 - 1st",
+   "status": "0.0 - 1st",
    "venue": "Fiserv Forum",
    "indoor": true,
    "city": {
@@ -1766,7 +1246,7 @@
     "home": {
      "name": "Milwaukee Bucks",
      "short": "Bucks",
-     "score": "17",
+     "score": "31",
      "winner": null,
      "record": "0-3",
      "ml_open": null,
@@ -1779,7 +1259,7 @@
     "away": {
      "name": "Indiana Pacers",
      "short": "Pacers",
-     "score": "10",
+     "score": "29",
      "winner": null,
      "record": "2-1",
      "ml_open": null,
@@ -1797,7 +1277,7 @@
    "name": "Phoenix Suns at Oklahoma City Thunder",
    "start": "2026-10-27T00:00Z",
    "state": "in",
-   "status": "5:42 - 1st",
+   "status": "End of 1st",
    "venue": "Paycom Center",
    "indoor": true,
    "city": {
@@ -1812,7 +1292,7 @@
     "home": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "12",
+     "score": "33",
      "winner": null,
      "record": "3-0",
      "ml_open": null,
@@ -1825,7 +1305,7 @@
     "away": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "9",
+     "score": "27",
      "winner": null,
      "record": "1-1",
      "ml_open": null,
@@ -1842,7 +1322,7 @@
    "sport": "nba",
    "name": "Atlanta Hawks at Houston Rockets",
    "start": "2026-10-27T00:30Z",
-   "state": "pre",
+   "state": "in",
    "status": "10/26 - 8:30 PM EDT",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
@@ -1984,7 +1464,7 @@
    "name": "Los Angeles Kings at New York Rangers",
    "start": "2026-10-26T23:00Z",
    "state": "in",
-   "status": "12:34 - 2nd",
+   "status": "6:26 - 2nd",
    "venue": "Madison Square Garden",
    "indoor": true,
    "city": {
@@ -2000,7 +1480,7 @@
     "home": {
      "name": "New York Rangers",
      "short": "Rangers",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "7-5-1",
      "ml_open": null,
@@ -2013,7 +1493,7 @@
     "away": {
      "name": "Los Angeles Kings",
      "short": "Kings",
-     "score": "6",
+     "score": "5",
      "winner": null,
      "record": "2-5-2",
      "ml_open": null,
@@ -2030,7 +1510,7 @@
    "sport": "nhl",
    "name": "Toronto Maple Leafs at Calgary Flames",
    "start": "2026-10-27T00:30Z",
-   "state": "pre",
+   "state": "in",
    "status": "10/26 - 8:30 PM EDT",
    "venue": "Scotiabank Saddledome",
    "indoor": true,
@@ -2125,7 +1605,7 @@
    "name": "Milwaukee Brewers at Tampa Bay Rays",
    "start": "2026-10-27T00:00Z",
    "state": "in",
-   "status": "Bot 1st",
+   "status": "Top 2nd",
    "venue": "Tropicana Field",
    "indoor": true,
    "city": {
@@ -2133,10 +1613,10 @@
     "state": "Florida"
    },
    "espn_wx": {
-    "displayValue": "38",
-    "temperature": 77,
-    "highTemperature": 77,
-    "conditionId": "Mostly cloudy",
+    "displayValue": "35",
+    "temperature": 76,
+    "highTemperature": 76,
+    "conditionId": "Partly cloudy",
     "link": {
      "language": "en-US",
      "rel": [
@@ -2513,6 +1993,11 @@
   },
   {
    "team": "Dallas Mavericks",
+   "t": "Sergio de Larrea - Day-To-Day: De Larrea went to the locker room during the second quarter of Monday's game against the Heat with an apparent right injury, Grant Afseth of DallasHoopsJournal.com reports.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Dallas Mavericks",
    "t": "Caleb Martin - Out: Martin (thumb) is out for Monday's game against the Heat, Mike Curtis of The Dallas Morning News reports.",
    "src": "ESPN injuries feed"
   },
@@ -2622,16 +2107,6 @@
    "src": "ESPN injuries feed"
   },
   {
-   "team": "Memphis Grizzlies",
-   "t": "Isaiah Stewart - Day-To-Day: Stewart is listed as questionable for Monday's game against the Jazz due to left ankle injury management.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "Memphis Grizzlies",
-   "t": "Karim Lopez - Day-To-Day: Lopez (knee) is questionable for Monday's game in Utah.",
-   "src": "ESPN injuries feed"
-  },
-  {
    "team": "Minnesota Timberwolves",
    "t": "Donte DiVincenzo - Out: DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
    "src": "ESPN injuries feed"
@@ -2678,7 +2153,7 @@
   },
   {
    "team": "Utah Jazz",
-   "t": "Jaxson Hayes - Day-To-Day: Hayes is listed as questionable for Monday's game against the Grizzlies due to right shoulder soreness, Shreyas Laddha of The Salt Lake Tribune reports.",
+   "t": "Jaxson Hayes - Out: Hayes (shoulder) is out for Monday's game against the Grizzlies.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2693,7 +2168,7 @@
   },
   {
    "team": "Washington Wizards",
-   "t": "Justin Champagnie - Day-To-Day: Champagnie went to the locker room during the first quarter of Monday's game against the Hornets with an apparent ankle injury, Greg Finberg of Wizards Central reports.",
+   "t": "Justin Champagnie - Day-To-Day: Champagnie has been ruled out for the remainder of Monday's game against Charlotte due to a right foot injury, Josh Robbins of The Athletic reports. He'll finish with two points (1-1 FG) and two rebounds in four minutes.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2709,11 +2184,6 @@
   {
    "team": "Washington Wizards",
    "t": "Jamir Watkins - Out: The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "Calgary Flames",
-   "t": "Mikael Backlund - Day-To-Day: Backlund (upper body) will be a game-time decision against Toronto on Monday, per Pat Steinberg of QR Calgary 770 AM.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2971,6 +2441,20 @@
    "src": "ESPN/DraftKings"
   },
   {
+   "g": "Memphis Grizzlies at Utah Jazz",
+   "team": "Memphis Grizzlies +15.5",
+   "open": -950,
+   "now": -1000,
+   "src": "FanDuel (since first snapshot)"
+  },
+  {
+   "g": "Golden State Warriors at Denver Nuggets",
+   "team": "Denver Nuggets +9.5",
+   "open": -1000,
+   "now": -950,
+   "src": "FanDuel (since first snapshot)"
+  },
+  {
    "g": "Toronto Maple Leafs at Calgary Flames",
    "team": "Toronto Maple Leafs +2.5",
    "open": -950,
@@ -2993,7 +2477,7 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-27 00:22 UTC",
+  "updated": "2026-10-27 00:37 UTC",
   "graded_legs": 165,
   "calibration": {
    "85-90%": {
@@ -3197,7 +2681,7 @@
    "graded": 79,
    "won": 13,
    "expected": 17.43,
-   "pending": 31,
+   "pending": 32,
    "by_type": {
     "ladder": {
      "graded": 54,
@@ -3218,10 +2702,10 @@
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
   },
   "clv": {
-   "legs_tracked": 270,
+   "legs_tracked": 269,
    "avg_clv_pts": -0.1,
-   "beat_close": 71,
-   "worse_than_close": 71
+   "beat_close": 73,
+   "worse_than_close": 72
   },
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
@@ -3234,31 +2718,31 @@
    "2": {
     "won": 2,
     "lost": 0,
-    "pending": 0,
+    "pending": 1,
     "win_pct": 1.0
    },
    "3": {
     "won": 1,
     "lost": 0,
-    "pending": 0,
+    "pending": 1,
     "win_pct": 1.0
    },
    "4": {
     "won": 1,
     "lost": 0,
-    "pending": 1,
+    "pending": 2,
     "win_pct": 1.0
    },
    "5": {
     "won": 0,
     "lost": 1,
-    "pending": 2,
+    "pending": 0,
     "win_pct": 0.0
    },
    "6": {
     "won": 0,
     "lost": 1,
-    "pending": 1,
+    "pending": 0,
     "win_pct": 0.0
    },
    "7": {
@@ -3270,69 +2754,15 @@
   },
   "tickets": [
    {
-    "id": "2026-10-26-6",
-    "date": "2026-10-26",
-    "type": "ladder",
-    "n": 6,
-    "est_prob": 0.55822,
-    "fd_payout_x": 2.06,
-    "result": null,
-    "source": "logged",
-    "legs": [
-     {
-      "pick": "Edmonton Oilers +2.5",
-      "game": "Detroit Red Wings at Edmonton Oilers",
-      "odds": -950,
-      "result": null
-     },
-     {
-      "pick": "Denver Nuggets +8.5",
-      "game": "Golden State Warriors at Denver Nuggets",
-      "odds": -850,
-      "result": null
-     },
-     {
-      "pick": "Under 250.5",
-      "game": "Atlanta Hawks at Houston Rockets",
-      "odds": -850,
-      "result": null
-     },
-     {
-      "pick": "Under 258.5",
-      "game": "Memphis Grizzlies at Utah Jazz",
-      "odds": -850,
-      "result": null
-     },
-     {
-      "pick": "Toronto Maple Leafs +2.5",
-      "game": "Toronto Maple Leafs at Calgary Flames",
-      "odds": -700,
-      "result": null
-     },
-     {
-      "pick": "Under 4.5 Goals",
-      "game": "Lazio at Sassuolo",
-      "odds": -590,
-      "result": null
-     }
-    ]
-   },
-   {
     "id": "2026-10-26-best-best",
     "date": "2026-10-26",
     "type": "best",
-    "n": 5,
-    "est_prob": 0.1727,
-    "fd_payout_x": 4.49,
+    "n": 4,
+    "est_prob": 0.223,
+    "fd_payout_x": 3.57,
     "result": null,
     "source": "logged",
     "legs": [
-     {
-      "pick": "Under 241.5",
-      "game": "Atlanta Hawks at Houston Rockets",
-      "odds": -300,
-      "result": null
-     },
      {
       "pick": "Over 224.5",
       "game": "Golden State Warriors at Denver Nuggets",
@@ -3346,51 +2776,45 @@
       "result": null
      },
      {
-      "pick": "Under 7.5",
-      "game": "Toronto Maple Leafs at Calgary Flames",
-      "odds": -260,
-      "result": null
-     },
-     {
       "pick": "Detroit Red Wings +2.5",
       "game": "Detroit Red Wings at Edmonton Oilers",
       "odds": -290,
+      "result": null
+     },
+     {
+      "pick": "Under 3.5 Goals",
+      "game": "Lazio at Sassuolo",
+      "odds": -215,
       "result": null
      }
     ]
    },
    {
-    "id": "2026-10-26-5",
+    "id": "2026-10-26-4",
     "date": "2026-10-26",
     "type": "ladder",
-    "n": 5,
-    "est_prob": 0.60041,
-    "fd_payout_x": 1.82,
+    "n": 4,
+    "est_prob": 0.65836,
+    "fd_payout_x": 1.61,
     "result": null,
     "source": "logged",
     "legs": [
      {
-      "pick": "Under 257.5",
-      "game": "Golden State Warriors at Denver Nuggets",
-      "odds": -1000,
-      "result": null
-     },
-     {
       "pick": "Memphis Grizzlies +14.5",
       "game": "Memphis Grizzlies at Utah Jazz",
-      "odds": -850,
+      "odds": -900,
       "result": null
      },
      {
-      "pick": "Atlanta Hawks +19.5",
-      "game": "Atlanta Hawks at Houston Rockets",
+      "pick": "Edmonton Oilers +2.5",
+      "game": "Detroit Red Wings at Edmonton Oilers",
       "odds": -950,
       "result": null
      },
      {
-      "pick": "Toronto Maple Leafs +2.5",
-      "game": "Toronto Maple Leafs at Calgary Flames",
-      "odds": -700,
+      "pick": "Denver Nuggets +8.5",
+      "game": "Golden State Warriors at Denver Nuggets",
+      "odds": -850,
       "result": null
      },
      {
@@ -3402,31 +2826,49 @@
     ]
    },
    {
-    "id": "2026-10-26-4",
+    "id": "2026-10-26-3",
     "date": "2026-10-26",
     "type": "ladder",
-    "n": 4,
-    "est_prob": 0.78224,
-    "fd_payout_x": 1.49,
+    "n": 3,
+    "est_prob": 0.70938,
+    "fd_payout_x": 1.42,
     "result": null,
     "source": "logged",
     "legs": [
      {
-      "pick": "Memphis Grizzlies +15.5",
+      "pick": "Under 259.5",
       "game": "Memphis Grizzlies at Utah Jazz",
-      "odds": -950,
-      "result": null
-     },
-     {
-      "pick": "Houston Rockets +11.5",
-      "game": "Atlanta Hawks at Houston Rockets",
-      "odds": -950,
+      "odds": -1000,
       "result": null
      },
      {
       "pick": "Over 215.5",
       "game": "Golden State Warriors at Denver Nuggets",
       "odds": -1000,
+      "result": null
+     },
+     {
+      "pick": "Under 4.5 Goals",
+      "game": "Lazio at Sassuolo",
+      "odds": -590,
+      "result": null
+     }
+    ]
+   },
+   {
+    "id": "2026-10-26-2",
+    "date": "2026-10-26",
+    "type": "ladder",
+    "n": 2,
+    "est_prob": 0.88932,
+    "fd_payout_x": 1.22,
+    "result": null,
+    "source": "logged",
+    "legs": [
+     {
+      "pick": "Denver Nuggets +9.5",
+      "game": "Golden State Warriors at Denver Nuggets",
+      "odds": -950,
       "result": null
      },
      {
@@ -3699,58 +3141,10 @@
  },
  "feature": {
   "criteria": "Per game, the highest-probability FanDuel market priced -300 or longer (so each leg pays something); one leg per game, games not started; choose 3-6 legs maximizing P(win) x ln(payout) with payout >= 3.5x.",
-  "n": 5,
-  "est_prob": 0.1727,
-  "fd_payout_x": 4.49,
+  "n": 4,
+  "est_prob": 0.223,
+  "fd_payout_x": 3.57,
   "legs": [
-   {
-    "id": "401909874:7747629:742.193912601",
-    "game": "Atlanta Hawks at Houston Rockets",
-    "start": "2026-10-27T00:30Z",
-    "pick": "Under 241.5",
-    "market": "Alternate Total Points",
-    "odds": -300,
-    "odds_status": "FanDuel-verified (FanDuel public sportsbook API, NJ)",
-    "teams": {
-     "away": {
-      "name": "Atlanta Hawks",
-      "record": "2-1",
-      "last5": "W 113-110 vs OKC, W 135-111 @ DAL, W 132-125 @ ORL, W 128-81 @ CHA, L 121-114 vs HOU (ESPN; may include preseason)",
-      "injuries": "Mouhamed Gueye: Out; Henri Veesaar: Out",
-      "injuries_none_listed": false,
-      "leaders": "Points: Jalen Johnson 21.7; Assists: Jalen Johnson 10.0; Rebounds: Jalen Johnson 10.0"
-     },
-     "home": {
-      "name": "Houston Rockets",
-      "record": "3-0",
-      "last5": "L 132-115 vs DAL, W 116-89 vs OKC, W 128-110 vs DAL, W 114-110 @ SA, W 121-114 @ ATL (ESPN; may include preseason)",
-      "injuries": "Steven Adams: Out; Marcus Smart: Out",
-      "injuries_none_listed": false,
-      "leaders": "Points: Kevin Durant 24.0; Assists: Fred VanVleet 8.0; Rebounds: Amen Thompson 10.3"
-     }
-    },
-    "h2h": "HOU leads series 1-0",
-    "rest_travel": "Atlanta Hawks: 2.0d rest, 701 mi travel; Houston Rockets: 2.0d rest, 701 mi travel",
-    "coaching": "no free structured source (not scored)",
-    "research": [
-     "DraftKings total 228.5 vs FanDuel 229.5 (+0.5)"
-    ],
-    "research_adj": 0.005,
-    "venue": "Toyota Center (Houston) (indoor)",
-    "weather": "indoor - n/a",
-    "line_moves": "Houston Rockets ML -218 -> -192 (ESPN/DraftKings); Atlanta Hawks ML +180 -> +160 (ESPN/DraftKings)",
-    "sharp_public": "not found (no free public betting-split source)",
-    "espn_line": "Draft Kings: HOU -4.5, O/U 228.5",
-    "predictor": "ESPN BPI: home 56.7% / away 43.3%",
-    "probs": {
-     "fanduel_no_vig": 0.7177,
-     "distribution_model": 0.7599,
-     "team_model": null,
-     "final": 0.7438
-    },
-    "why": "Highest blended win probability of 211 FanDuel markets priced -300 or longer for this game. Next best: Houston Rockets +4.5 (Alternate Spread, -290, 74.2%); Under 240.5 (Alternate Total Points, -275, 72.7%); Over 218.5 (Alternate Total Points, -295, 72.3%)",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7747629"
-   },
    {
     "id": "401909876:7711322:742.193903267",
     "game": "Golden State Warriors at Denver Nuggets",
@@ -3786,7 +3180,7 @@
     "research_adj": 0.005,
     "venue": "Ball Arena (indoor)",
     "weather": "indoor - n/a",
-    "line_moves": "Denver Nuggets ML -290 -> -270 (ESPN/DraftKings); Golden State Warriors ML +235 -> +220 (ESPN/DraftKings)",
+    "line_moves": "Denver Nuggets ML -290 -> -270 (ESPN/DraftKings); Golden State Warriors ML +235 -> +220 (ESPN/DraftKings); Denver Nuggets +9.5 ML -1000 -> -950 (FanDuel (since first snapshot))",
     "sharp_public": "not found (no free public betting-split source)",
     "espn_line": "Draft Kings: DEN -7.5, O/U 236.5",
     "predictor": "ESPN BPI: home 75.7% / away 24.3%",
@@ -3796,7 +3190,7 @@
      "team_model": null,
      "final": 0.7438
     },
-    "why": "Highest blended win probability of 184 FanDuel markets priced -300 or longer for this game. Next best: Denver Nuggets +1.5 (Alternate Spread, -280, 73.9%); Over 225.5 (Alternate Total Points, -275, 72.7%); Golden State Warriors +14.5 (Alternate Spread, -290, 72.1%)",
+    "why": "Highest blended win probability of 183 FanDuel markets priced -300 or longer for this game. Next best: Denver Nuggets +1.5 (Alternate Spread, -280, 73.9%); Over 225.5 (Alternate Total Points, -275, 72.7%); Golden State Warriors +14.5 (Alternate Spread, -300, 72.4%)",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903267&selectionId%5B0%5D=7711322"
    },
    {
@@ -3839,7 +3233,7 @@
     "research_adj": 0.0,
     "venue": "Delta Center (indoor)",
     "weather": "indoor - n/a",
-    "line_moves": "Utah Jazz ML -115 -> -110 (ESPN/DraftKings); Memphis Grizzlies ML -105 -> -110 (ESPN/DraftKings)",
+    "line_moves": "Utah Jazz ML -115 -> -110 (ESPN/DraftKings); Memphis Grizzlies ML -105 -> -110 (ESPN/DraftKings); Memphis Grizzlies +15.5 ML -950 -> -1000 (FanDuel (since first snapshot))",
     "sharp_public": "not found (no free public betting-split source)",
     "espn_line": "Draft Kings: UTAH -1.5, O/U 237.5",
     "predictor": "ESPN BPI: home 55.3% / away 44.7%",
@@ -3849,56 +3243,8 @@
      "team_model": null,
      "final": 0.7392
     },
-    "why": "Highest blended win probability of 208 FanDuel markets priced -300 or longer for this game. Next best: Under 248.5 (Alternate Total Points, -280, 72.8%); Over 225.5 (Alternate Total Points, -295, 72.7%); Utah Jazz +8.5 (Alternate Spread, -300, 71.4%)",
+    "why": "Highest blended win probability of 209 FanDuel markets priced -300 or longer for this game. Next best: Under 248.5 (Alternate Total Points, -290, 73.1%); Over 225.5 (Alternate Total Points, -300, 72.9%); Under 247.5 (Alternate Total Points, -265, 71.3%)",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193914944&selectionId%5B0%5D=7890755"
-   },
-   {
-    "id": "401892583:8359780:742.193940219",
-    "game": "Toronto Maple Leafs at Calgary Flames",
-    "start": "2026-10-27T00:30Z",
-    "pick": "Under 7.5",
-    "market": "Alternate Total Goals",
-    "odds": -260,
-    "odds_status": "FanDuel-verified (FanDuel public sportsbook API, NJ)",
-    "teams": {
-     "away": {
-      "name": "Toronto Maple Leafs",
-      "record": "7-4-2",
-      "last5": "L 4-1 vs NYI, W 3-1 vs SJ, W 6-2 @ CBJ, W 5-4 vs NYR, W 7-2 @ EDM (ESPN; may include preseason)",
-      "injuries": "Nick Blankenburg: Injured Reserve; Marshall Rifai: Injured Reserve; John Tavares: Injured Reserve; Dakota Joshua: Injured Reserve; Miles Wood: Injured Reserve",
-      "injuries_none_listed": false,
-      "leaders": "Goals: Auston Matthews 9; Assists: Auston Matthews 10; Points: Auston Matthews 19"
-     },
-     "home": {
-      "name": "Calgary Flames",
-      "record": "4-6-0",
-      "last5": "W 4-2 @ ANA, L 6-2 @ VGK, W 3-2 vs CAR, W 2-1 vs MIN, W 4-1 vs DET (ESPN; may include preseason)",
-      "injuries": "Mikael Backlund: Day-To-Day; Jonathan Huberdeau: Injured Reserve; Samuel Honzek: Injured Reserve",
-      "injuries_none_listed": false,
-      "leaders": "Goals: Morgan Frost 3; Assists: Joel Farabee 7; Points: Joel Farabee 9"
-     }
-    },
-    "h2h": "Series starts 10/26",
-    "rest_travel": "Toronto Maple Leafs: 2.1d rest, 175 mi travel; Calgary Flames: 1.9d rest, 0 mi travel",
-    "coaching": "no free structured source (not scored)",
-    "research": [
-     "low-scoring sport, one goal decides line (-1.5 volatility)"
-    ],
-    "research_adj": -0.015,
-    "venue": "Scotiabank Saddledome (indoor)",
-    "weather": "indoor - n/a",
-    "line_moves": "Toronto Maple Leafs +2.5 ML -950 -> -700 (FanDuel (since first snapshot))",
-    "sharp_public": "not found (no free public betting-split source)",
-    "espn_line": "Draft Kings: TOR -135, O/U 6.5",
-    "predictor": "not found",
-    "probs": {
-     "fanduel_no_vig": 0.6911,
-     "distribution_model": 0.6615,
-     "team_model": null,
-     "final": 0.6613
-    },
-    "why": "Highest blended win probability of 17 FanDuel markets priced -300 or longer for this game. Next best: Over 5.5 (Alternate Total Goals, -210, 63.0%); Calgary Flames +1.5 (Alternate Puck Line, -205, 55.2%); Calgary Flames +1.5 (Puck Line, -200, 54.7%)",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940219&selectionId%5B0%5D=8359780"
    },
    {
     "id": "401892584:7737379:742.193940399",
@@ -3955,19 +3301,68 @@
     },
     "why": "Highest blended win probability of 17 FanDuel markets priced -300 or longer for this game. Next best: Under 7.5 (Alternate Total Goals, -225, 63.7%); Over 5.5 (Alternate Total Goals, -220, 63.5%); Edmonton Oilers (Moneyline, -178, 61.1%)",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193940399&selectionId%5B0%5D=7737379"
+   },
+   {
+    "id": "401874980:1222344:742.193033972",
+    "game": "Lazio at Sassuolo",
+    "start": "2026-10-27T17:30Z",
+    "pick": "Under 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": -215,
+    "odds_status": "FanDuel-verified (FanDuel public sportsbook API, NJ)",
+    "teams": {
+     "away": {
+      "name": "Lazio",
+      "record": "7-1-0",
+      "last5": "W 2-0 vs ARE, D 3-3 vs JVS, W 3-1 vs MON, W 3-0 @ JUV, W 2-1 vs PAR (ESPN; may include preseason)",
+      "injuries": "not found",
+      "injuries_none_listed": false,
+      "leaders": "Goals: Davide Frattesi Matches: 8, Goals: 3; Assists: Mattia Zaccagni Matches: 8, Assists: 3; Total Shots: Mattia Zaccagni 21"
+     },
+     "home": {
+      "name": "Sassuolo",
+      "record": "2-2-4",
+      "last5": "W 3-2 vs JUV, L 2-1 @ MON, D 1-1 vs MIL, L 4-2 @ FRO, L 2-0 @ COMO (ESPN; may include preseason)",
+      "injuries": "not found",
+      "injuries_none_listed": false,
+      "leaders": "Goals: Vasilije Adzic Matches: 7, Goals: 3; Assists: Darryl Bakola Matches: 7, Assists: 2; Total Shots: Armand Laurient\u00e9 24"
+     }
+    },
+    "h2h": "LAZ leads series 3-1-1",
+    "rest_travel": "Lazio: 2.9d rest, 791 mi travel; Sassuolo: 3.2d rest, 107 mi travel",
+    "coaching": "no free structured source (not scored)",
+    "research": [
+     "weather fine (wind 2.2 mph, rain 0%)",
+     "low-scoring sport, one goal decides line (-1.5 volatility)"
+    ],
+    "research_adj": -0.015,
+    "venue": "Mapei Stadium",
+    "weather": "58.1F, wind 2.2 mph, rain 0% (open-meteo)",
+    "line_moves": "Sassuolo ML +175 -> +210 (ESPN/DraftKings); Lazio ML +135 -> +110 (ESPN/DraftKings); Under 4.5 Goals ML -600 -> -590 (FanDuel (since first snapshot))",
+    "sharp_public": "not found (no free public betting-split source)",
+    "espn_line": "DraftKings: LAZ +110, O/U 2.5",
+    "predictor": "not found",
+    "probs": {
+     "fanduel_no_vig": 0.6499,
+     "distribution_model": null,
+     "team_model": null,
+     "final": 0.6349
+    },
+    "why": "Highest blended win probability of 9 FanDuel markets priced -300 or longer for this game. Next best: Lazio (Tie No Bet, -184, 60.5%); Over 2.5 Goals (Over/Under 2.5 Goals, -152, 56.0%); Sassuolo And Draw (Double Chance, -155, 54.6%)",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193033972&selectionId%5B0%5D=1222344"
    }
   ],
-  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193912601&selectionId%5B0%5D=7747629&marketId%5B1%5D=742.193903267&selectionId%5B1%5D=7711322&marketId%5B2%5D=742.193914944&selectionId%5B2%5D=7890755&marketId%5B3%5D=742.193940219&selectionId%5B3%5D=8359780&marketId%5B4%5D=742.193940399&selectionId%5B4%5D=7737379",
+  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193903267&selectionId%5B0%5D=7711322&marketId%5B1%5D=742.193914944&selectionId%5B1%5D=7890755&marketId%5B2%5D=742.193940399&selectionId%5B2%5D=7737379&marketId%5B3%5D=742.193033972&selectionId%5B3%5D=1222344",
   "favorite": true
  },
- "note": "849 FanDuel-priced candidates (dc, dnb, ml, ml3, prop, spread, total) across 6 games; best single market per game kept (odds -1000 to +300); 6 not-yet-started games -> parlays up to 6 legs.",
+ "note": "854 FanDuel-priced candidates (dc, dnb, ml, ml3, prop, spread, total) across 6 games; best single market per game kept (odds -1000 to +300); 4 not-yet-started games -> parlays up to 4 legs.",
  "model_check": {
   "v1": {
    "n": 286,
    "brier": 0.1529,
    "logloss": 0.4982,
    "picks": 108,
-   "avg_clv_fd_pts": 0.05,
+   "avg_clv_fd_pts": 0.04,
    "avg_clv_sharp_pts": 0.23,
    "top_picks_graded": 42,
    "top_picks_won": 41,
@@ -3979,8 +3374,8 @@
    "brier": 0.1528,
    "logloss": 0.4878,
    "picks": 53,
-   "avg_clv_fd_pts": 0.25,
-   "avg_clv_sharp_pts": 0.23,
+   "avg_clv_fd_pts": 0.24,
+   "avg_clv_sharp_pts": 0.24,
    "top_picks_graded": 38,
    "top_picks_won": 32,
    "top_picks_expected": 33.2,
@@ -4004,15 +3399,15 @@
    },
    {
     "name": "v2 higher avg CLV vs FanDuel",
-    "v1": 0.05,
-    "v2": 0.25,
+    "v1": 0.04,
+    "v2": 0.24,
     "pass": true
    },
    {
     "name": "v2 higher avg CLV vs Pinnacle",
     "v1": 0.23,
-    "v2": 0.23,
-    "pass": false
+    "v2": 0.24,
+    "pass": true
    },
    {
     "name": "At least 30 top picks graded (each model)",
@@ -4035,45 +3430,45 @@
    "pinnacle": {
     "leagues_ok": 3,
     "leagues": 3,
-    "games_matched": 6,
-    "games_pre": 6
+    "games_matched": 4,
+    "games_pre": 4
    },
-   "candidates_pre": 849,
-   "sharp_covered": 451,
-   "sharp_coverage_pct": 53.1,
+   "candidates_pre": 555,
+   "sharp_covered": 299,
+   "sharp_coverage_pct": 53.9,
    "power": {
-    "nba": {
-     "teams": 6,
-     "games": 17
-    },
     "nhl": {
+     "teams": 2,
+     "games": 22
+    },
+    "nba": {
      "teams": 4,
-     "games": 45
+     "games": 11
     }
    },
-   "injury_adjusted_teams": 6
+   "injury_adjusted_teams": 3
   },
   "clv_v1_history": {
-   "legs_tracked": 270,
+   "legs_tracked": 269,
    "avg_clv_pts": -0.1,
-   "beat_close": 71,
-   "worse_than_close": 71
+   "beat_close": 73,
+   "worse_than_close": 72
   },
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 173,
-   "of": 849,
+   "dropped": 113,
+   "of": 854,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
+    "Golden State Warriors -3.5 (Golden State Warriors at Denver Nuggets) +245: FanDuel implies 29.0% vs Pinnacle fair 17.2%",
     "Golden State Warriors -4.5 (Golden State Warriors at Denver Nuggets) +280: FanDuel implies 26.3% vs Pinnacle fair 15.1%",
-    "Atlanta Hawks -3.5 (Atlanta Hawks at Houston Rockets) +186: FanDuel implies 35.0% vs Pinnacle fair 23.8%",
-    "Golden State Warriors -3.5 (Golden State Warriors at Denver Nuggets) +255: FanDuel implies 28.2% vs Pinnacle fair 17.2%",
-    "Atlanta Hawks -5.5 (Atlanta Hawks at Houston Rockets) +235: FanDuel implies 29.9% vs Pinnacle fair 19.0%",
-    "Atlanta Hawks -1.5 (Atlanta Hawks at Houston Rockets) +150: FanDuel implies 40.0% vs Pinnacle fair 29.3%",
-    "Atlanta Hawks -6.5 (Atlanta Hawks at Houston Rockets) +265: FanDuel implies 27.4% vs Pinnacle fair 16.8%",
-    "Golden State Warriors -1.5 (Golden State Warriors at Denver Nuggets) +210: FanDuel implies 32.3% vs Pinnacle fair 21.8%",
-    "Golden State Warriors -2.5 (Golden State Warriors at Denver Nuggets) +235: FanDuel implies 29.9% vs Pinnacle fair 19.4%"
+    "Golden State Warriors -1.5 (Golden State Warriors at Denver Nuggets) +205: FanDuel implies 32.8% vs Pinnacle fair 21.8%",
+    "Over 4.5 (Detroit Red Wings at Edmonton Oilers) -800: FanDuel implies 88.9% vs Pinnacle fair 78.0%",
+    "Golden State Warriors -2.5 (Golden State Warriors at Denver Nuggets) +235: FanDuel implies 29.9% vs Pinnacle fair 19.4%",
+    "Over 8.5 (Detroit Red Wings at Edmonton Oilers) +270: FanDuel implies 27.0% vs Pinnacle fair 18.4%",
+    "Over 252.5 (Memphis Grizzlies at Utah Jazz) +290: FanDuel implies 25.6% vs Pinnacle fair 18.1%",
+    "Over 251.5 (Golden State Warriors at Denver Nuggets) +290: FanDuel implies 25.6% vs Pinnacle fair 18.4%"
    ]
   }
  },
