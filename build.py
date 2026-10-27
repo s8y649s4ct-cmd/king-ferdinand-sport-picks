@@ -209,6 +209,8 @@ for L in cands:
   L['pre_research']=L['prob']; L['research']=R; L['research_adj']=round(dlt,4)
   L['prob']=round(max(0.01,min(0.99,L['prob']+dlt)),4)
 # ---------- calibration ----------
+# 2026-10-27 review: keep the pre-calibration (raw) chance on every leg so tickets also get an honest raw estimate
+for L in cands: L['raw_prob']=L['prob']
 hist=load('picks.history.json',[]); hist=hist if isinstance(hist,list) and (not hist or 'legs_detail' in hist[0]) else []
 stats=load('stats.json',{})
 def bucket(p): return f"{int(p*20)*5}-{int(p*20)*5+5}%"
@@ -262,7 +264,8 @@ for n in range(1,NMAX+1):
   for L in sel: guse[L['event']]=guse.get(L['event'],0)+1; luse[L['id']]=luse.get(L['id'],0)+1
   sel.sort(key=lambda L:-L['prob'])
   P=math.prod(L['prob'] for L in sel); D=math.prod(dec(L['odds']) for L in sel)
-  pars.append({'n':n,'legs':[x['id'] for x in sel],'est_prob':round(P,5),'fd_payout_x':round(D,2),'ev':round(P*D-1,3)})
+  PR=math.prod(L.get('raw_prob',L['prob']) for L in sel)
+  pars.append({'n':n,'legs':[x['id'] for x in sel],'est_prob':round(P,5),'est_raw':round(PR,5),'fd_payout_x':round(D,2),'ev':round(P*D-1,3)})
 for p in pars:
   p['shared_legs']=sum(1 for i in p['legs'] if luse[i]>1); p['shared_games']=sum(1 for i in p['legs'] if guse[i.split(':')[0]]>1)
 ladlegs={i:L for v in byg.values() for L in v for i in [L['id']] if i in luse}
@@ -397,11 +400,11 @@ H={x['id']:x for x in hist}; LD={L['id']:L for L in cands}
 for p in pars:
   pid=f"{DATE}-{p['n']}"; old=H.get(pid)
   if old and old.get('locked'): continue
-  H[pid]={'id':pid,'date':DATE,'type':'ladder','n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
+  H[pid]={'id':pid,'date':DATE,'type':'ladder','n':p['n'],'est_prob':p['est_prob'],'est_raw':p.get('est_raw'),'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','raw_prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
 for typ,lab,p in ([('best','best',bestp)] if bestp else [])+[('lottery',t['label'],t) for t in lot]:
   pid=f"{DATE}-{typ}-{lab}"; old=H.get(pid)
   if old and old.get('locked'): continue
-  H[pid]={'id':pid,'date':DATE,'type':typ,'label':lab,'n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
+  H[pid]={'id':pid,'date':DATE,'type':typ,'label':lab,'n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','raw_prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
 for x in H.values():
   if not x.get('locked') and x['date']==DATE and any(G.get(l['event'],{}).get('state')!='pre' for l in x['legs_detail']): x['locked']=True
   if x['date']!=DATE: x['locked']=True
@@ -413,11 +416,18 @@ for x in H.values():
     if 'loss' in r: x['result']='loss'
     elif r and all(v in('win','void') for v in r): x['result']='win'
 # King's Favorites flag on history: tracks the board until the ticket locks, then frozen (green at lock = favorite)
-_favids={f"{DATE}-{p['n']}" for p in sorted([p for p in pars if p['est_prob']>=0.5 and p['n']>=2],key=lambda p:-p.get('ev',p['est_prob']*p['fd_payout_x']))[:3]}
+# 2026-10-27 review: green ladder picks use the raw (un-boosted) estimate; the 85-90% bucket boost made 6-7 leg tickets
+# look >=50% when their raw chance was 32-36% (King's Favorites were 4-0 at 2-4 legs, 0-6 at 5-7 legs through 10-26).
+def _favkey(p): return -(p.get('est_raw',p['est_prob'])*p['fd_payout_x'])
+_favids={f"{DATE}-{p['n']}" for p in sorted([p for p in pars if p.get('est_raw',p['est_prob'])>=0.5 and p['n']>=2],key=_favkey)[:3]}
 if bestp: _favids.add(f"{DATE}-best-best")
 for k,x in H.items():
   o=_oldfav.get(k)
   if o and o.get('locked'): continue  # frozen at lock: keep whatever it was when its games started
+  if o and x.get('locked'):  # 2026-10-27 review fix: locking now -> keep the flag it had on the board before its games started
+    x['favorite']=bool(o.get('favorite'))
+    if o.get('favorite_source'): x['favorite_source']=o['favorite_source']
+    continue
   if x['date']==DATE and k in _favids: x['favorite']=True; x['favorite_source']='logged'
   else: x['favorite']=False; x.pop('favorite_source',None)  # not green right now (unlocked tickets follow the board until lock)
 H={k:v for k,v in H.items() if v.get('locked') or v['date']==DATE}
@@ -480,7 +490,7 @@ if out.get('feature'):
 # King's Favorites: Best Parlay + top 3 ladder tickets by EV among est. chance >= 50%
 for p in out['parlays']: p['favorite']=False
 for t in out['lottery'] or []: t['favorite']=False
-_c=sorted([p for p in out['parlays'] if p['est_prob']>=0.5 and p['n']>=2],key=lambda p:-p['ev'])[:3]
+_c=sorted([p for p in out['parlays'] if p.get('est_raw',p['est_prob'])>=0.5 and p['n']>=2],key=_favkey)[:3]
 for p in _c: p['favorite']=True
 if out['best']: out['best']['favorite']=True
 if out['feature']: out['feature']['favorite']=True
@@ -491,6 +501,6 @@ _ex=sorted(DROPPED,key=lambda L:L['sharp_edge'])[:8]
 out['model_check']={**MC,'live_model':LIVE,'v2_info':V2INFO,'clv_v1_history':CLVH,
   'sharp_filter':{'active':bool(cfg.get('v2',{}).get('sharp_filter',False)),'note':'Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.','dropped':len(DROPPED),'of':len(ALLC),'rule':f"Legs dropped when FanDuel's price implies a chance more than {-cfg.get('v2',{}).get('filter_edge',-0.03)*100:.0f} pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
     'examples':[f"{L['pick']} ({L['game']}) {L['odds']:+d}: FanDuel implies {v2.imp(L['odds'])*100:.1f}% vs Pinnacle fair {L['sharp_prob']*100:.1f}%" for L in _ex]}}
-out['favorite_rule']="Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with an estimated hit chance of 50% or more."
+out['favorite_rule']="Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with a raw (un-boosted) estimated hit chance of 50% or more."
 json.dump(out,open('picks.json','w'),indent=1)
 print('cands',len(cands),'games w/ leg',len(best),'pool',len(pool),'parlays',len(pars),'best',bestp and bestp['n'],'kinds',kinds)
