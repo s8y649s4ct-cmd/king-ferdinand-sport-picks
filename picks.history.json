@@ -15994,20 +15994,20 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.1968,
+  "est_prob": 0.1727,
   "fd_payout_x": 4.49,
   "legs_detail": [
    {
-    "id": "401909874:7891583:742.193912643",
+    "id": "401909874:7747629:742.193912601",
     "event": "401909874",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 4.5,
-    "pick": "Houston Rockets +4.5",
-    "market": "Alternate Spread",
+    "kind": "total",
+    "line": 241.5,
+    "ou": "under",
+    "pick": "Under 241.5",
+    "market": "Alternate Total Points",
     "odds": -300,
-    "prob": 0.7455,
+    "prob": 0.7438,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
     "close_odds": -300
@@ -16036,26 +16036,11 @@
     "line": 7.5,
     "pick": "Memphis Grizzlies +7.5",
     "market": "Alternate Spread",
-    "odds": -275,
-    "prob": 0.7426,
+    "odds": -280,
+    "prob": 0.7392,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": -275
-   },
-   {
-    "id": "401873009:12197174:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 51.5,
-    "ou": "under",
-    "pick": "Under (51.5)",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7228,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
-    "result": null,
-    "close_odds": -295
+    "close_odds": -280
    },
    {
     "id": "401892583:8359780:742.193940219",
@@ -16071,9 +16056,24 @@
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
     "close_odds": -260
+   },
+   {
+    "id": "401892584:7737379:742.193940399",
+    "event": "401892584",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 2.5,
+    "pick": "Detroit Red Wings +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -290,
+    "prob": 0.6387,
+    "game": "Detroit Red Wings at Edmonton Oilers",
+    "result": null,
+    "close_odds": -290
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -16103,7 +16103,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16113,24 +16113,9 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.89652,
-  "fd_payout_x": 1.22,
+  "est_prob": 0.89378,
+  "fd_payout_x": 1.21,
   "legs_detail": [
-   {
-    "id": "401909875:7933807:742.193914944",
-    "event": "401909875",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 15.5,
-    "pick": "Memphis Grizzlies +15.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9483,
-    "game": "Memphis Grizzlies at Utah Jazz",
-    "result": null,
-    "close_odds": -950
-   },
    {
     "id": "401909874:7711029:742.193912601",
     "event": "401909874",
@@ -16145,9 +16130,24 @@
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909875:7695550:742.193914952",
+    "event": "401909875",
+    "sport": "nba",
+    "kind": "total",
+    "line": 259.5,
+    "ou": "under",
+    "pick": "Under 259.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.9454,
+    "game": "Memphis Grizzlies at Utah Jazz",
+    "result": null,
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16157,8 +16157,8 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 3,
-  "est_prob": 0.80487,
-  "fd_payout_x": 1.38,
+  "est_prob": 0.68548,
+  "fd_payout_x": 1.48,
   "legs_detail": [
    {
     "id": "401892584:7735512:742.193940399",
@@ -16176,21 +16176,6 @@
     "close_odds": -950
    },
    {
-    "id": "401873009:12197190:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 59.5,
-    "ou": "under",
-    "pick": "Under (59.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9339,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401892583:7735283:742.193940198",
     "event": "401892583",
     "sport": "nhl",
@@ -16199,14 +16184,29 @@
     "line": 2.5,
     "pick": "Toronto Maple Leafs +2.5",
     "market": "Alternate Puck Line",
-    "odds": -750,
-    "prob": 0.919,
+    "odds": -700,
+    "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
+   },
+   {
+    "id": "401874980:1222347:742.193033897",
+    "event": "401874980",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -590,
+    "prob": 0.7985,
+    "game": "Lazio at Sassuolo",
+    "result": null,
+    "close_odds": -590
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -16216,23 +16216,23 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.66513,
-  "fd_payout_x": 1.59,
+  "est_prob": 0.78224,
+  "fd_payout_x": 1.49,
   "legs_detail": [
    {
-    "id": "401909875:7890665:742.193914944",
+    "id": "401909875:7933807:742.193914944",
     "event": "401909875",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 14.5,
-    "pick": "Memphis Grizzlies +14.5",
+    "line": 15.5,
+    "pick": "Memphis Grizzlies +15.5",
     "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.9416,
+    "odds": -950,
+    "prob": 0.9429,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": -850
+    "close_odds": -950
    },
    {
     "id": "401909874:7891512:742.193912643",
@@ -16265,33 +16265,34 @@
     "close_odds": -1000
    },
    {
-    "id": "401874980:1222347:742.193033897",
-    "event": "401874980",
-    "sport": "ita.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -590,
-    "prob": 0.7985,
-    "game": "Lazio at Sassuolo",
+    "id": "401892584:7735512:742.193940399",
+    "event": "401892584",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Edmonton Oilers +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -950,
+    "prob": 0.9378,
+    "game": "Detroit Red Wings at Edmonton Oilers",
     "result": null,
-    "close_odds": -590
+    "close_odds": -950
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
-  "favorite": false
+  "favorite": true,
+  "favorite_source": "logged"
  },
  {
   "id": "2026-10-26-5",
   "date": "2026-10-26",
   "type": "ladder",
   "n": 5,
-  "est_prob": 0.69782,
-  "fd_payout_x": 1.7,
+  "est_prob": 0.60041,
+  "fd_payout_x": 1.82,
   "legs_detail": [
    {
     "id": "401909876:7867411:742.193903267",
@@ -16309,32 +16310,32 @@
     "close_odds": -1000
    },
    {
-    "id": "401909875:7674032:742.193914952",
+    "id": "401909875:7890665:742.193914944",
     "event": "401909875",
     "sport": "nba",
-    "kind": "total",
-    "line": 215.5,
-    "ou": "over",
-    "pick": "Over 215.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.9379,
+    "kind": "spread",
+    "side": "away",
+    "line": 14.5,
+    "pick": "Memphis Grizzlies +14.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.9363,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": -950
+    "close_odds": -850
    },
    {
-    "id": "401892584:7735512:742.193940399",
-    "event": "401892584",
-    "sport": "nhl",
+    "id": "401909874:7891030:742.193912643",
+    "event": "401909874",
+    "sport": "nba",
     "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Edmonton Oilers +2.5",
-    "market": "Alternate Puck Line",
+    "side": "away",
+    "line": 19.5,
+    "pick": "Atlanta Hawks +19.5",
+    "market": "Alternate Spread",
     "odds": -950,
-    "prob": 0.9378,
-    "game": "Detroit Red Wings at Edmonton Oilers",
+    "prob": 0.9336,
+    "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
     "close_odds": -950
    },
@@ -16347,29 +16348,29 @@
     "line": 2.5,
     "pick": "Toronto Maple Leafs +2.5",
     "market": "Alternate Puck Line",
-    "odds": -750,
-    "prob": 0.919,
+    "odds": -700,
+    "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
-    "id": "401873009:12194325:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
+    "id": "401874980:1222347:742.193033897",
+    "event": "401874980",
+    "sport": "ita.1",
     "kind": "total",
-    "line": 58.5,
+    "line": 4.5,
     "ou": "under",
-    "pick": "Under (58.5)",
-    "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.9187,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -590,
+    "prob": 0.7985,
+    "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": -850
+    "close_odds": -590
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -16380,8 +16381,8 @@
   "date": "2026-10-26",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.56179,
-  "fd_payout_x": 1.99,
+  "est_prob": 0.55822,
+  "fd_payout_x": 2.06,
   "legs_detail": [
    {
     "id": "401892584:7735512:742.193940399",
@@ -16414,34 +16415,34 @@
     "close_odds": -850
    },
    {
-    "id": "401873009:12197190:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 59.5,
-    "ou": "under",
-    "pick": "Under (59.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.9339,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909874:7891030:742.193912643",
+    "id": "401909874:7729460:742.193912601",
     "event": "401909874",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 19.5,
-    "pick": "Atlanta Hawks +19.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9336,
+    "kind": "total",
+    "line": 250.5,
+    "ou": "under",
+    "pick": "Under 250.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.9326,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -950
+    "close_odds": -850
+   },
+   {
+    "id": "401909875:7889006:742.193914952",
+    "event": "401909875",
+    "sport": "nba",
+    "kind": "total",
+    "line": 258.5,
+    "ou": "under",
+    "pick": "Under 258.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.9326,
+    "game": "Memphis Grizzlies at Utah Jazz",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401892583:7735283:742.193940198",
@@ -16452,11 +16453,11 @@
     "line": 2.5,
     "pick": "Toronto Maple Leafs +2.5",
     "market": "Alternate Puck Line",
-    "odds": -750,
-    "prob": 0.919,
+    "odds": -700,
+    "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401874980:1222347:742.193033897",
@@ -16474,7 +16475,7 @@
     "close_odds": -590
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -16531,7 +16532,7 @@
     "prob": 0.9351,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909874:7729460:742.193912601",
@@ -16561,7 +16562,7 @@
     "prob": 0.919,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401873009:12194325:742.192668004",
@@ -16595,10 +16596,9 @@
    }
   ],
   "logged": "2026-10-27 00:13 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
+  "favorite": false
  },
  {
   "id": "2026-10-26-8",
@@ -16800,7 +16800,7 @@
     "prob": 0.9351,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909873:7760688:742.193925527",
@@ -16845,7 +16845,7 @@
     "prob": 0.9257,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -750
+    "close_odds": -800
    },
    {
     "id": "401892583:7735283:742.193940198",
@@ -16860,7 +16860,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401908044:7687414:742.192919557",
@@ -16994,7 +16994,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401873009:12194325:742.192668004",
@@ -17188,7 +17188,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401873009:12194325:742.192668004",
@@ -17397,7 +17397,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401908044:7687414:742.192919557",
@@ -17830,7 +17830,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401908044:7832640:742.192919598",
@@ -17934,7 +17934,7 @@
     "prob": 0.9326,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909873:7760688:742.193925527",
@@ -18039,7 +18039,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401873009:12194325:742.192668004",
@@ -18277,7 +18277,7 @@
     "prob": 0.919,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401873009:12194325:742.192668004",
@@ -18349,25 +18349,10 @@
   "date": "2026-10-26",
   "type": "lottery",
   "label": "~25x",
-  "n": 4,
-  "est_prob": 0.04288227443808001,
-  "fd_payout_x": 26.22,
+  "n": 3,
+  "est_prob": 0.03498759288,
+  "fd_payout_x": 26.9,
   "legs_detail": [
-   {
-    "id": "401892583:25600:742.193519549",
-    "event": "401892583",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Toronto Maple Leafs -1.5",
-    "market": "Puck Line",
-    "odds": 158,
-    "prob": 0.4088,
-    "game": "Toronto Maple Leafs at Calgary Flames",
-    "result": null,
-    "close_odds": 158
-   },
    {
     "id": "401892584:25603:742.193519588",
     "event": "401892584",
@@ -18384,49 +18369,50 @@
     "close_odds": 134
    },
    {
-    "id": "401909875:7890837:742.193914944",
-    "event": "401909875",
+    "id": "401909876:237493:742.193598607",
+    "event": "401909876",
     "sport": "nba",
-    "kind": "spread",
+    "kind": "ml",
     "side": "away",
-    "line": 13.5,
-    "pick": "Memphis Grizzlies +13.5",
-    "market": "Alternate Spread",
-    "odds": -700,
-    "prob": 0.924,
-    "game": "Memphis Grizzlies at Utah Jazz",
+    "pick": "Golden State Warriors",
+    "market": "Moneyline",
+    "odds": 215,
+    "prob": 0.3076,
+    "game": "Golden State Warriors at Denver Nuggets",
     "result": null,
-    "close_odds": -700
+    "close_odds": 215
    },
    {
-    "id": "401873009:12197188:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 35.5,
-    "ou": "under",
-    "pick": "Under (35.5)",
-    "market": "Alternate Total Points",
-    "odds": 280,
-    "prob": 0.2605,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
+    "id": "401909874:40126264:742.193904821",
+    "event": "401909874",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 11.5,
+    "ou": "over",
+    "player": "Alperen Sengun",
+    "stat": "REB",
+    "pick": "Alperen Sengun",
+    "market": "12+ Rebounds",
+    "odds": 265,
+    "prob": 0.261,
+    "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": 280
+    "close_odds": 265
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-10-26-lottery-~1,000x",
+  "id": "2026-10-26-lottery-~100x",
   "date": "2026-10-26",
   "type": "lottery",
-  "label": "~1,000x",
-  "n": 6,
-  "est_prob": 0.000602533316738282,
-  "fd_payout_x": 1472.2,
+  "label": "~100x",
+  "n": 4,
+  "est_prob": 0.008862022146303999,
+  "fd_payout_x": 106.14,
   "legs_detail": [
    {
     "id": "401892583:7735245:742.193940198",
@@ -18444,21 +18430,6 @@
     "close_odds": 260
    },
    {
-    "id": "401873009:12197188:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 35.5,
-    "ou": "under",
-    "pick": "Under (35.5)",
-    "market": "Alternate Total Points",
-    "odds": 280,
-    "prob": 0.2605,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
-    "result": null,
-    "close_odds": 280
-   },
-   {
     "id": "401892584:25603:742.193519588",
     "event": "401892584",
     "sport": "nhl",
@@ -18472,23 +18443,6 @@
     "game": "Detroit Red Wings at Edmonton Oilers",
     "result": null,
     "close_odds": 134
-   },
-   {
-    "id": "401909874:40126264:742.193904821",
-    "event": "401909874",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 11.5,
-    "ou": "over",
-    "player": "Alperen Sengun",
-    "stat": "REB",
-    "pick": "Alperen Sengun",
-    "market": "12+ Rebounds",
-    "odds": 265,
-    "prob": 0.261,
-    "game": "Atlanta Hawks at Houston Rockets",
-    "result": null,
-    "close_odds": 265
    },
    {
     "id": "401909876:237493:742.193598607",
@@ -18505,16 +18459,16 @@
     "close_odds": 215
    },
    {
-    "id": "401909875:18970802:742.193913079",
+    "id": "401909875:91091125:742.193912943",
     "event": "401909875",
     "sport": "nba",
     "kind": "prop",
-    "line": 2.5,
+    "line": 5.5,
     "ou": "over",
-    "player": "Jaren Jackson Jr.",
-    "stat": "3PM",
-    "pick": "Jaren Jackson Jr.",
-    "market": "3+ Threes",
+    "player": "Darryn Peterson",
+    "stat": "REB",
+    "pick": "Darryn Peterson",
+    "market": "6+ Rebounds",
     "odds": 300,
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Utah Jazz",
@@ -18522,7 +18476,7 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -18532,39 +18486,75 @@
   "date": "2026-10-26",
   "type": "lottery",
   "label": "~500x",
-  "n": 6,
-  "est_prob": 0.0016520697071486573,
-  "fd_payout_x": 567.1,
+  "n": 5,
+  "est_prob": 0.0015721434721091584,
+  "fd_payout_x": 539.14,
   "legs_detail": [
    {
-    "id": "401892583:25600:742.193519549",
+    "id": "401892583:7735245:742.193940198",
     "event": "401892583",
     "sport": "nhl",
     "kind": "spread",
     "side": "away",
-    "line": -1.5,
-    "pick": "Toronto Maple Leafs -1.5",
-    "market": "Puck Line",
-    "odds": 158,
-    "prob": 0.4088,
+    "line": -2.5,
+    "pick": "Toronto Maple Leafs -2.5",
+    "market": "Alternate Puck Line",
+    "odds": 260,
+    "prob": 0.283,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": 158
+    "close_odds": 260
    },
    {
-    "id": "401873009:12197188:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 35.5,
-    "ou": "under",
-    "pick": "Under (35.5)",
-    "market": "Alternate Total Points",
-    "odds": 280,
-    "prob": 0.2605,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
+    "id": "401909874:2387617:742.193904834",
+    "event": "401909874",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 29.5,
+    "ou": "over",
+    "player": "Kevin Durant",
+    "stat": "POI",
+    "pick": "Kevin Durant",
+    "market": "30+ Points",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": 280
+    "close_odds": 300
+   },
+   {
+    "id": "401909875:91091125:742.193912943",
+    "event": "401909875",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 5.5,
+    "ou": "over",
+    "player": "Darryn Peterson",
+    "stat": "REB",
+    "pick": "Darryn Peterson",
+    "market": "6+ Rebounds",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Memphis Grizzlies at Utah Jazz",
+    "result": null,
+    "close_odds": 300
+   },
+   {
+    "id": "401909876:3910855:742.193910807",
+    "event": "401909876",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 5.5,
+    "ou": "over",
+    "player": "Stephen Curry",
+    "stat": "3PM",
+    "pick": "Stephen Curry",
+    "market": "6+ Made Threes",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Golden State Warriors at Denver Nuggets",
+    "result": null,
+    "close_odds": 300
    },
    {
     "id": "401892584:25603:742.193519588",
@@ -18580,20 +18570,51 @@
     "game": "Detroit Red Wings at Edmonton Oilers",
     "result": null,
     "close_odds": 134
+   }
+  ],
+  "logged": "2026-10-27 00:22 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-26-lottery-~1,000x",
+  "date": "2026-10-26",
+  "type": "lottery",
+  "label": "~1,000x",
+  "n": 6,
+  "est_prob": 0.000652725151568304,
+  "fd_payout_x": 1239.74,
+  "legs_detail": [
+   {
+    "id": "401892583:7735245:742.193940198",
+    "event": "401892583",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -2.5,
+    "pick": "Toronto Maple Leafs -2.5",
+    "market": "Alternate Puck Line",
+    "odds": 260,
+    "prob": 0.283,
+    "game": "Toronto Maple Leafs at Calgary Flames",
+    "result": null,
+    "close_odds": 260
    },
    {
-    "id": "401909876:237493:742.193598607",
-    "event": "401909876",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Golden State Warriors",
-    "market": "Moneyline",
-    "odds": 215,
-    "prob": 0.3076,
-    "game": "Golden State Warriors at Denver Nuggets",
+    "id": "401892584:25603:742.193519588",
+    "event": "401892584",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Edmonton Oilers -1.5",
+    "market": "Puck Line",
+    "odds": 134,
+    "prob": 0.4358,
+    "game": "Detroit Red Wings at Edmonton Oilers",
     "result": null,
-    "close_odds": 215
+    "close_odds": 134
    },
    {
     "id": "401909874:40126264:742.193904821",
@@ -18613,93 +18634,79 @@
     "close_odds": 265
    },
    {
-    "id": "401874980:56966:742.193033920",
+    "id": "401909876:237493:742.193598607",
+    "event": "401909876",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Golden State Warriors",
+    "market": "Moneyline",
+    "odds": 215,
+    "prob": 0.3076,
+    "game": "Golden State Warriors at Denver Nuggets",
+    "result": null,
+    "close_odds": 215
+   },
+   {
+    "id": "401909875:91091125:742.193912943",
+    "event": "401909875",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 5.5,
+    "ou": "over",
+    "player": "Darryn Peterson",
+    "stat": "REB",
+    "pick": "Darryn Peterson",
+    "market": "6+ Rebounds",
+    "odds": 300,
+    "prob": 0.2336,
+    "game": "Memphis Grizzlies at Utah Jazz",
+    "result": null,
+    "close_odds": 300
+   },
+   {
+    "id": "401874980:2013140:742.193033920",
     "event": "401874980",
     "sport": "ita.1",
     "kind": "ml3",
-    "side": "away",
-    "pick": "Lazio",
+    "side": "home",
+    "pick": "Sassuolo",
     "market": "Moneyline (3-way)",
-    "odds": 115,
-    "prob": 0.4434,
+    "odds": 220,
+    "prob": 0.2822,
     "game": "Lazio at Sassuolo",
     "result": null,
-    "close_odds": 115
+    "close_odds": 220
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-10-26-lottery-~100x",
+  "id": "2026-10-26-lottery-6-leg best-edge lottery",
   "date": "2026-10-26",
   "type": "lottery",
-  "label": "~100x",
-  "n": 7,
-  "est_prob": 0.010886623773384918,
-  "fd_payout_x": 105.35,
+  "label": "6-leg best-edge lottery",
+  "n": 6,
+  "est_prob": 0.29492184301995117,
+  "fd_payout_x": 4.04,
   "legs_detail": [
    {
-    "id": "401892583:25600:742.193519549",
-    "event": "401892583",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Toronto Maple Leafs -1.5",
-    "market": "Puck Line",
-    "odds": 158,
-    "prob": 0.4088,
-    "game": "Toronto Maple Leafs at Calgary Flames",
-    "result": null,
-    "close_odds": 158
-   },
-   {
-    "id": "401873009:12197188:742.192668004",
-    "event": "401873009",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 35.5,
-    "ou": "under",
-    "pick": "Under (35.5)",
-    "market": "Alternate Total Points",
-    "odds": 280,
-    "prob": 0.2605,
-    "game": "Dallas Cowboys at Philadelphia Eagles",
-    "result": null,
-    "close_odds": 280
-   },
-   {
-    "id": "401892584:25603:742.193519588",
-    "event": "401892584",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Edmonton Oilers -1.5",
-    "market": "Puck Line",
-    "odds": 134,
-    "prob": 0.4358,
-    "game": "Detroit Red Wings at Edmonton Oilers",
-    "result": null,
-    "close_odds": 134
-   },
-   {
-    "id": "401909875:7890702:742.193914944",
+    "id": "401909875:7890837:742.193914944",
     "event": "401909875",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 3.5,
-    "pick": "Memphis Grizzlies +3.5",
+    "line": 13.5,
+    "pick": "Memphis Grizzlies +13.5",
     "market": "Alternate Spread",
-    "odds": -156,
-    "prob": 0.6273,
+    "odds": -700,
+    "prob": 0.9187,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": -156
+    "close_odds": -700
    },
    {
     "id": "401909876:7889675:742.193903300",
@@ -18713,6 +18720,21 @@
     "odds": -700,
     "prob": 0.9187,
     "game": "Golden State Warriors at Denver Nuggets",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401892583:7735283:742.193940198",
+    "event": "401892583",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 2.5,
+    "pick": "Toronto Maple Leafs +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -700,
+    "prob": 0.9154,
+    "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
     "close_odds": -700
    },
@@ -18732,6 +18754,21 @@
     "close_odds": -720
    },
    {
+    "id": "401892584:7735512:742.193940399",
+    "event": "401892584",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Edmonton Oilers +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -950,
+    "prob": 0.9378,
+    "game": "Detroit Red Wings at Edmonton Oilers",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401874980:56966:742.193033920",
     "event": "401874980",
     "sport": "ita.1",
@@ -18746,7 +18783,7 @@
     "close_odds": 115
    }
   ],
-  "logged": "2026-10-27 00:13 UTC",
+  "logged": "2026-10-27 00:22 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -18807,7 +18844,7 @@
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": 300
+    "close_odds": 285
    },
    {
     "id": "401909876:3910855:742.193910807",
@@ -18872,7 +18909,7 @@
    }
   ],
   "logged": "2026-10-27 00:13 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -18928,7 +18965,7 @@
     "prob": 0.9224,
     "game": "Atlanta Hawks at Houston Rockets",
     "result": null,
-    "close_odds": -750
+    "close_odds": -800
    },
    {
     "id": "401892583:7735283:742.193940198",
@@ -18943,7 +18980,7 @@
     "prob": 0.919,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401892584:7735512:742.193940399",
@@ -18991,7 +19028,7 @@
    }
   ],
   "logged": "2026-10-27 00:13 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -19234,7 +19271,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401909874:7729460:742.193912601",
@@ -19448,7 +19485,7 @@
     "prob": 0.2336,
     "game": "Memphis Grizzlies at Utah Jazz",
     "result": null,
-    "close_odds": 300
+    "close_odds": 285
    },
    {
     "id": "401909871:36981613:742.193916414",
@@ -19615,7 +19652,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401909874:7891512:742.193912643",
@@ -19854,7 +19891,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401892584:7735512:742.193940399",
@@ -20033,7 +20070,7 @@
     "prob": 0.9154,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401909870:7920507:742.193915449",
@@ -20301,7 +20338,7 @@
     "prob": 0.919,
     "game": "Toronto Maple Leafs at Calgary Flames",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401909868:7890287:742.193911718",
