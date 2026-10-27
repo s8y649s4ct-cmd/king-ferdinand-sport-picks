@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27 01:54 UTC",
- "graded_legs": 173,
+ "updated": "2026-10-27 02:03 UTC",
+ "graded_legs": 176,
  "calibration": {
   "85-90%": {
    "n": 32,
@@ -27,10 +27,10 @@
    "hit": 0.25
   },
   "90-95%": {
-   "n": 31,
-   "wins": 24,
+   "n": 33,
+   "wins": 25,
    "pred": 0.938,
-   "hit": 0.774
+   "hit": 0.758
   },
   "95-100%": {
    "n": 53,
@@ -75,10 +75,10 @@
    "hit": 1.0
   },
   "20-25%": {
-   "n": 2,
-   "wins": 0,
-   "pred": 0.238,
-   "hit": 0.0
+   "n": 3,
+   "wins": 1,
+   "pred": 0.237,
+   "hit": 0.333
   },
   "35-40%": {
    "n": 1,
@@ -107,10 +107,10 @@
    "hit": 1.0
   },
   "nba": {
-   "n": 70,
-   "wins": 62,
-   "pred": 0.914,
-   "hit": 0.886
+   "n": 73,
+   "wins": 64,
+   "pred": 0.905,
+   "hit": 0.877
   },
   "nhl": {
    "n": 29,
@@ -157,16 +157,16 @@
  },
  "by_market": {
   "total": {
-   "n": 81,
-   "wins": 74,
-   "pred": 0.894,
-   "hit": 0.914
+   "n": 82,
+   "wins": 75,
+   "pred": 0.895,
+   "hit": 0.915
   },
   "spread": {
-   "n": 67,
+   "n": 68,
    "wins": 55,
-   "pred": 0.849,
-   "hit": 0.821
+   "pred": 0.85,
+   "hit": 0.809
   },
   "dc": {
    "n": 12,
@@ -193,17 +193,17 @@
    "hit": 0.571
   },
   "prop": {
-   "n": 3,
-   "wins": 0,
-   "pred": 0.252,
-   "hit": 0.0
+   "n": 4,
+   "wins": 1,
+   "pred": 0.247,
+   "hit": 0.25
   }
  },
  "parlays": {
-  "graded": 87,
+  "graded": 88,
   "won": 13,
-  "expected": 19.31,
-  "pending": 26,
+  "expected": 19.55,
+  "pending": 25,
   "by_type": {
    "ladder": {
     "graded": 59,
@@ -216,16 +216,16 @@
     "expected": 0.2
    },
    "lottery": {
-    "graded": 27,
+    "graded": 28,
     "won": 2,
-    "expected": 2.73
+    "expected": 2.97
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 271,
-  "avg_clv_pts": -0.1,
+  "legs_tracked": 272,
+  "avg_clv_pts": -0.09,
   "beat_close": 74,
   "worse_than_close": 74
  },
