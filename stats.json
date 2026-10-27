@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27 19:25 UTC",
- "graded_legs": 212,
+ "updated": "2026-10-27 19:37 UTC",
+ "graded_legs": 216,
  "calibration": {
   "85-90%": {
    "n": 32,
@@ -9,10 +9,10 @@
    "hit": 0.938
   },
   "75-80%": {
-   "n": 13,
-   "wins": 12,
-   "pred": 0.781,
-   "hit": 0.923
+   "n": 15,
+   "wins": 13,
+   "pred": 0.784,
+   "hit": 0.867
   },
   "80-85%": {
    "n": 20,
@@ -51,10 +51,10 @@
    "hit": 0.6
   },
   "45-50%": {
-   "n": 4,
-   "wins": 2,
-   "pred": 0.482,
-   "hit": 0.5
+   "n": 5,
+   "wins": 3,
+   "pred": 0.485,
+   "hit": 0.6
   },
   "25-30%": {
    "n": 6,
@@ -63,10 +63,10 @@
    "hit": 0.167
   },
   "60-65%": {
-   "n": 4,
+   "n": 5,
    "wins": 2,
-   "pred": 0.621,
-   "hit": 0.5
+   "pred": 0.624,
+   "hit": 0.4
   },
   "30-35%": {
    "n": 2,
@@ -143,10 +143,10 @@
    "hit": 0.8
   },
   "ita.1": {
-   "n": 6,
-   "wins": 6,
-   "pred": 0.775,
-   "hit": 1.0
+   "n": 10,
+   "wins": 8,
+   "pred": 0.738,
+   "hit": 0.8
   },
   "ger.1": {
    "n": 3,
@@ -157,10 +157,10 @@
  },
  "by_market": {
   "total": {
-   "n": 94,
-   "wins": 86,
-   "pred": 0.896,
-   "hit": 0.915
+   "n": 97,
+   "wins": 87,
+   "pred": 0.892,
+   "hit": 0.897
   },
   "spread": {
    "n": 85,
@@ -187,10 +187,10 @@
    "hit": 1.0
   },
   "ml3": {
-   "n": 7,
-   "wins": 4,
-   "pred": 0.585,
-   "hit": 0.571
+   "n": 8,
+   "wins": 5,
+   "pred": 0.574,
+   "hit": 0.625
   },
   "prop": {
    "n": 9,
@@ -200,20 +200,20 @@
   }
  },
  "parlays": {
-  "graded": 109,
+  "graded": 112,
   "won": 13,
-  "expected": 25.52,
-  "pending": 35,
+  "expected": 27.09,
+  "pending": 32,
   "by_type": {
    "ladder": {
-    "graded": 67,
+    "graded": 69,
     "won": 11,
-    "expected": 20.44
+    "expected": 21.78
    },
    "best": {
-    "graded": 1,
+    "graded": 2,
     "won": 0,
-    "expected": 0.2
+    "expected": 0.42
    },
    "lottery": {
     "graded": 41,
@@ -225,9 +225,9 @@
  },
  "clv": {
   "legs_tracked": 365,
-  "avg_clv_pts": 0.02,
-  "beat_close": 95,
-  "worse_than_close": 90
+  "avg_clv_pts": 0.01,
+  "beat_close": 92,
+  "worse_than_close": 91
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
