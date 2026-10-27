@@ -376,7 +376,9 @@ def grade(L):
   if k=='prop':
     s=boxstats(g).get(norm(L['player']))
     if not s: return 'void'
-    v=(s[L['stat']]-L['line'])*(1 if L['ou']=='over' else -1); return 'win' if v>0 else 'loss'
+    st=L['stat']; st=st if st in s else {'ASS':'AST','PTS':'POI','REBS':'REB'}.get(st,st)
+    if st not in s: return 'void'
+    v=(s[st]-L['line'])*(1 if L['ou']=='over' else -1); return 'win' if v>0 else 'loss'
 GH={}
 _sh=v2.load('shadow.json',{'legs':{}})['legs']
 _pend={x['date'] for x in hist if x.get('result') is None and x['date']!=DATE}|{r['date'] for r in _sh.values() if r.get('result') is None and r['date']!=DATE}
