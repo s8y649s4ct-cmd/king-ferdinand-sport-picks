@@ -215,9 +215,13 @@ hist=load('picks.history.json',[]); hist=hist if isinstance(hist,list) and (not 
 stats=load('stats.json',{})
 def bucket(p): return f"{int(p*20)*5}-{int(p*20)*5+5}%"
 cal=stats.get('calibration',{})
+# 2026-10-27 approved (t41u): calibration boost DROPPED. Raw 0.85-0.90 legs hit 86% (shown ~95% after the boost); raw model is calibrated.
+# Every leg/parlay/green/lottery estimate now uses the unboosted model probability.
+# NHL trim (approved): NHL legs rated 0.85+ hit 5/10 (history) and 2/7 (shadow) vs ~91% elsewhere -> cap them at 0.80
+# so they rank below proven legs from other sports. Revisit once 20+ graded NHL 0.85+ legs exist.
+NHL_CAP=0.80
 for L in cands:
-  b=cal.get(bucket(L['prob']))
-  if b and b['n']>=30: L['prob']=round(min(.99,L['prob']*max(.85,min(1.1,b['hit']/b['pred']))),4); L['calibrated']=True
+  if L.get('sport')=='nhl' and L['prob']>=0.85: L['nhl_trim_from']=L['prob']; L['prob']=NHL_CAP; L['raw_prob']=NHL_CAP
 # ---------- v2 shadow engine (Pinnacle anchor + power ratings + player impact) ----------
 import v2
 try: V2INFO=v2.score(cands,games,G,get,SPORTS,toks,cfg)
@@ -266,9 +270,22 @@ for n in range(1,NMAX+1):
   P=math.prod(L['prob'] for L in sel); D=math.prod(dec(L['odds']) for L in sel)
   PR=math.prod(L.get('raw_prob',L['prob']) for L in sel)
   pars.append({'n':n,'legs':[x['id'] for x in sel],'est_prob':round(P,5),'est_raw':round(PR,5),'fd_payout_x':round(D,2),'ev':round(P*D-1,3)})
+# 2026-10-27 approved (t41u): lock each ladder ticket at the first kickoff of any of its games, so what is graded = what was shown.
+_LK=load('ladder.lock.json',{}); _LK={k:v for k,v in _LK.items() if v.get('date')==DATE}
+for i,p in enumerate(pars):
+  k=f"{DATE}-{p['n']}"; o=_LK.get(k)
+  if o and any(G.get(l['event'],{}).get('state','pre')!='pre' for l in o['legs_full']):
+    q=dict(o['ticket']); q['locked']=True; pars[i]=q
+    for l in o['legs_full']:
+      luse.setdefault(l['id'],1); guse.setdefault(l['event'],1)
+  else: _LK[k]={'date':DATE,'ticket':p,'legs_full':[ALLC.get(x) or next(L for L in cands if L['id']==x) for x in p['legs']]}
+json.dump(_LK,open('ladder.lock.json','w'))
+_LOCKLEGS={l['id']:l for o in _LK.values() for l in o['legs_full']}
 for p in pars:
   p['shared_legs']=sum(1 for i in p['legs'] if luse[i]>1); p['shared_games']=sum(1 for i in p['legs'] if guse[i.split(':')[0]]>1)
 ladlegs={i:L for v in byg.values() for L in v for i in [L['id']] if i in luse}
+for p in pars:
+  for i in p['legs']: ladlegs.setdefault(i,_LOCKLEGS.get(i))
 ladder_stats={'tickets':len(pars),'leg_slots':sum(luse.values()),'unique_legs':len(luse),'unique_games':len(guse),'games_available':NG,
   'max_leg_reuse':max(luse.values(),default=0),'max_game_reuse':max(guse.values(),default=0),'game_cap':CAP,
   'disjoint_up_to':0}
@@ -400,11 +417,11 @@ H={x['id']:x for x in hist}; LD={L['id']:L for L in cands}
 for p in pars:
   pid=f"{DATE}-{p['n']}"; old=H.get(pid)
   if old and old.get('locked'): continue
-  H[pid]={'id':pid,'date':DATE,'type':'ladder','n':p['n'],'est_prob':p['est_prob'],'est_raw':p.get('est_raw'),'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','raw_prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
+  H[pid]={'id':pid,'date':DATE,'type':'ladder','n':p['n'],'est_prob':p['est_prob'],'est_raw':p.get('est_raw'),'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:(LD.get(i) or _LOCKLEGS[i])[k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','raw_prob','game') if k in (LD.get(i) or _LOCKLEGS[i])} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
 for typ,lab,p in ([('best','best',bestp)] if bestp else [])+[('lottery',t['label'],t) for t in lot]:
   pid=f"{DATE}-{typ}-{lab}"; old=H.get(pid)
   if old and old.get('locked'): continue
-  H[pid]={'id':pid,'date':DATE,'type':typ,'label':lab,'n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:LD[i][k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','raw_prob','game') if k in LD[i]} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
+  H[pid]={'id':pid,'date':DATE,'type':typ,'label':lab,'n':p['n'],'est_prob':p['est_prob'],'fd_payout_x':p['fd_payout_x'],'legs_detail':[{k:(LD.get(i) or _LOCKLEGS[i])[k] for k in('id','event','sport','kind','side','line','ou','player','stat','pick','market','odds','prob','raw_prob','game') if k in (LD.get(i) or _LOCKLEGS[i])} for i in p['legs']],'logged':NOW,'locked':False,'result':None}
 for x in H.values():
   if not x.get('locked') and x['date']==DATE and any(G.get(l['event'],{}).get('state')!='pre' for l in x['legs_detail']): x['locked']=True
   if x['date']!=DATE: x['locked']=True
