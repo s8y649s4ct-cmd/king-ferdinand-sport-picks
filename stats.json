@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27 21:42 UTC",
- "graded_legs": 219,
+ "updated": "2026-10-27 21:57 UTC",
+ "graded_legs": 222,
  "calibration": {
   "85-90%": {
    "n": 32,
@@ -9,10 +9,10 @@
    "hit": 0.938
   },
   "75-80%": {
-   "n": 15,
-   "wins": 13,
+   "n": 17,
+   "wins": 15,
    "pred": 0.784,
-   "hit": 0.867
+   "hit": 0.882
   },
   "80-85%": {
    "n": 22,
@@ -91,6 +91,12 @@
    "wins": 1,
    "pred": 0.551,
    "hit": 1.0
+  },
+  "50-55%": {
+   "n": 1,
+   "wins": 1,
+   "pred": 0.55,
+   "hit": 1.0
   }
  },
  "by_sport": {
@@ -143,10 +149,10 @@
    "hit": 0.8
   },
   "ita.1": {
-   "n": 13,
-   "wins": 10,
-   "pred": 0.753,
-   "hit": 0.769
+   "n": 16,
+   "wins": 13,
+   "pred": 0.744,
+   "hit": 0.812
   },
   "ger.1": {
    "n": 3,
@@ -157,10 +163,10 @@
  },
  "by_market": {
   "total": {
-   "n": 98,
-   "wins": 87,
-   "pred": 0.891,
-   "hit": 0.888
+   "n": 99,
+   "wins": 88,
+   "pred": 0.89,
+   "hit": 0.889
   },
   "spread": {
    "n": 85,
@@ -169,10 +175,10 @@
    "hit": 0.788
   },
   "dc": {
-   "n": 12,
-   "wins": 10,
-   "pred": 0.787,
-   "hit": 0.833
+   "n": 13,
+   "wins": 11,
+   "pred": 0.786,
+   "hit": 0.846
   },
   "ml": {
    "n": 4,
@@ -187,10 +193,10 @@
    "hit": 1.0
   },
   "ml3": {
-   "n": 9,
-   "wins": 6,
-   "pred": 0.592,
-   "hit": 0.667
+   "n": 10,
+   "wins": 7,
+   "pred": 0.588,
+   "hit": 0.7
   },
   "prop": {
    "n": 9,
@@ -200,15 +206,15 @@
   }
  },
  "parlays": {
-  "graded": 123,
-  "won": 13,
-  "expected": 28.2,
-  "pending": 22,
+  "graded": 124,
+  "won": 14,
+  "expected": 29.01,
+  "pending": 21,
   "by_type": {
    "ladder": {
-    "graded": 80,
-    "won": 11,
-    "expected": 22.89
+    "graded": 81,
+    "won": 12,
+    "expected": 23.7
    },
    "best": {
     "graded": 2,
@@ -224,9 +230,9 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 367,
-  "avg_clv_pts": 0.08,
-  "beat_close": 88,
+  "legs_tracked": 366,
+  "avg_clv_pts": 0.09,
+  "beat_close": 89,
   "worse_than_close": 99
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
