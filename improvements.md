@@ -79,3 +79,9 @@
 - (a) Once there are 30+ graded legs with raw_prob per bucket, compute calibration on raw, cap factors at 1.0 and make it monotone. Backtest the ladder before adopting, because the raw ranking lost on 10-25.
 - (b) Lock ladder tickets at the board's first game start, or record each version that was shown.
 - (c) NHL 0.85+ leg haircut if the pattern holds over more than 20 legs.
+
+## 2026-10-27 approved changes (user OK, t41u)
+Backups: /workspace/kfsp_backups/2026-10-27-approved/. v1 stays live.
+1. **Calibration boost dropped.** All leg, ladder, Best Parlay, green and lottery estimates now use unboosted model probabilities. Evidence: raw 0.85-0.90 legs hit 86.1% (108 history) / 86.0% (228 shadow) vs ~95% shown with boost. Caveat: this morning's ladder re-rank sim on raw probs was 13 wins vs 19 boosted over 10-25/10-26 (all of the gap on 10-25; 10-26 tied), so watch ladder wins closely; estimates are now honest (e.g. today 4-leg est .51, 5-leg .37).
+2. **Ladder tickets lock at first kickoff** of any of their games (ladder.lock.json). The shown ticket (legs, estimate, payout) is frozen and graded as shown; it no longer rebuilds onto later games.
+3. **NHL trim:** NHL legs rated 0.85+ capped at 0.80. Backtest: NHL 0.85+ hit 5/10 (history raw) and 2/7 (shadow v1), vs other sports 117/128 (91.4%) and 209/237 (88.2%). NHL 0.80-0.85 legs were 5/5, so they are untouched. Replacing a 50% leg with a ~90% leg raises expected leg win rate. Revisit at 20+ graded NHL 0.85+ legs.
