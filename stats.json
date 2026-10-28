@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28 04:41 UTC",
- "graded_legs": 260,
+ "updated": "2026-10-28 04:49 UTC",
+ "graded_legs": 262,
  "calibration": {
   "85-90%": {
    "n": 41,
@@ -9,10 +9,10 @@
    "hit": 0.927
   },
   "75-80%": {
-   "n": 24,
-   "wins": 21,
+   "n": 25,
+   "wins": 22,
    "pred": 0.785,
-   "hit": 0.875
+   "hit": 0.88
   },
   "80-85%": {
    "n": 36,
@@ -45,10 +45,10 @@
    "hit": 1.0
   },
   "40-45%": {
-   "n": 6,
-   "wins": 3,
-   "pred": 0.43,
-   "hit": 0.5
+   "n": 7,
+   "wins": 4,
+   "pred": 0.429,
+   "hit": 0.571
   },
   "45-50%": {
    "n": 5,
@@ -119,10 +119,10 @@
    "hit": 0.822
   },
   "nhl": {
-   "n": 59,
-   "wins": 40,
-   "pred": 0.698,
-   "hit": 0.678
+   "n": 61,
+   "wins": 42,
+   "pred": 0.695,
+   "hit": 0.689
   },
   "mlb": {
    "n": 5,
@@ -163,16 +163,16 @@
  },
  "by_market": {
   "total": {
-   "n": 111,
-   "wins": 96,
-   "pred": 0.876,
-   "hit": 0.865
+   "n": 112,
+   "wins": 97,
+   "pred": 0.875,
+   "hit": 0.866
   },
   "spread": {
-   "n": 111,
-   "wins": 88,
-   "pred": 0.824,
-   "hit": 0.793
+   "n": 112,
+   "wins": 89,
+   "pred": 0.821,
+   "hit": 0.795
   },
   "dc": {
    "n": 13,
@@ -230,8 +230,8 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 390,
-  "avg_clv_pts": 0.11,
+  "legs_tracked": 393,
+  "avg_clv_pts": 0.1,
   "beat_close": 105,
   "worse_than_close": 108
  },
