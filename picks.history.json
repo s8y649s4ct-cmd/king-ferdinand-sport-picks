@@ -21518,26 +21518,10 @@
   "date": "2026-10-27",
   "type": "best",
   "label": "best",
-  "n": 5,
-  "est_prob": 0.157,
-  "fd_payout_x": 4.77,
+  "n": 4,
+  "est_prob": 0.2115,
+  "fd_payout_x": 3.57,
   "legs_detail": [
-   {
-    "id": "401909880:7700492:742.194124175",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "total",
-    "line": 245.5,
-    "ou": "under",
-    "pick": "Under 245.5",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7423,
-    "raw_prob": 0.7423,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": -295
-   },
    {
     "id": "401874773:47973:742.193038333",
     "event": "401874773",
@@ -21603,7 +21587,7 @@
     "close_odds": -215
    }
   ],
-  "logged": "2026-10-28 02:49 UTC",
+  "logged": "2026-10-28 03:01 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -21910,13 +21894,13 @@
     "prob": 0.8,
     "raw_prob": 0.8,
     "game": "New York Islanders at Nashville Predators",
-    "result": null,
+    "result": "win",
     "close_odds": -750
    }
   ],
   "logged": "2026-10-27 19:58 UTC",
   "locked": true,
-  "result": null,
+  "result": "win",
   "favorite": false
  },
  {
@@ -22618,7 +22602,7 @@
     "prob": 0.7816,
     "raw_prob": 0.7816,
     "game": "New York Islanders at Nashville Predators",
-    "result": null,
+    "result": "win",
     "close_odds": -330
    }
   ],
@@ -25594,32 +25578,14 @@
   "favorite": false
  },
  {
-  "id": "2026-10-27-lottery-~100x",
+  "id": "2026-10-27-lottery-~25x",
   "date": "2026-10-27",
   "type": "lottery",
-  "label": "~100x",
-  "n": 4,
-  "est_prob": 0.0057158444034765,
-  "fd_payout_x": 126.6,
+  "label": "~25x",
+  "n": 3,
+  "est_prob": 0.020421023235000002,
+  "fd_payout_x": 37.24,
   "legs_detail": [
-   {
-    "id": "401909880:4018916:742.194116352",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 2.5,
-    "ou": "over",
-    "player": "Jrue Holiday",
-    "stat": "3PM",
-    "pick": "Jrue Holiday",
-    "market": "3+ Threes",
-    "odds": 240,
-    "prob": 0.2799,
-    "raw_prob": 0.2799,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": 240
-   },
    {
     "id": "401874965:191607:742.193036990",
     "event": "401874965",
@@ -25668,38 +25634,20 @@
     "close_odds": 235
    }
   ],
-  "logged": "2026-10-28 02:49 UTC",
+  "logged": "2026-10-28 03:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-10-27-lottery-~500x",
+  "id": "2026-10-27-lottery-~100x",
   "date": "2026-10-27",
   "type": "lottery",
-  "label": "~500x",
-  "n": 5,
-  "est_prob": 0.0011558560540107408,
-  "fd_payout_x": 551.08,
+  "label": "~100x",
+  "n": 4,
+  "est_prob": 0.0049480139298405,
+  "fd_payout_x": 137.77,
   "legs_detail": [
-   {
-    "id": "401909880:36981579:742.194116356",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 3.5,
-    "ou": "over",
-    "player": "Quentin Grimes",
-    "stat": "ASS",
-    "pick": "Quentin Grimes",
-    "market": "4+ Assists",
-    "odds": 300,
-    "prob": 0.2336,
-    "raw_prob": 0.2336,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": 300
-   },
    {
     "id": "401874965:191607:742.193036990",
     "event": "401874965",
@@ -25714,6 +25662,85 @@
     "game": "Udinese at Parma",
     "result": null,
     "close_odds": 185
+   },
+   {
+    "id": "401874993:1221385:742.193036042",
+    "event": "401874993",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "under",
+    "pick": "Under 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": 290,
+    "prob": 0.2291,
+    "raw_prob": 0.2291,
+    "game": "Bologna at AC Milan",
+    "result": null,
+    "close_odds": 290
+   },
+   {
+    "id": "401874773:47972:742.193038333",
+    "event": "401874773",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 2.5,
+    "ou": "under",
+    "pick": "Under 2.5 Goals",
+    "market": "Over/Under 2.5 Goals",
+    "odds": 235,
+    "prob": 0.2697,
+    "raw_prob": 0.2697,
+    "game": "Internazionale at Venezia",
+    "result": null,
+    "close_odds": 235
+   },
+   {
+    "id": "401874988:1222345:742.193039119",
+    "event": "401874988",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "over",
+    "pick": "Over 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": 270,
+    "prob": 0.2423,
+    "raw_prob": 0.2423,
+    "game": "Juventus at Genoa",
+    "result": null,
+    "close_odds": 270
+   }
+  ],
+  "logged": "2026-10-28 03:01 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-27-lottery-~500x",
+  "date": "2026-10-27",
+  "type": "lottery",
+  "label": "~500x",
+  "n": 5,
+  "est_prob": 0.0008630809469347418,
+  "fd_payout_x": 657.43,
+  "legs_detail": [
+   {
+    "id": "401874965:1222345:742.193036992",
+    "event": "401874965",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "over",
+    "pick": "Over 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": 300,
+    "prob": 0.2231,
+    "raw_prob": 0.2231,
+    "game": "Udinese at Parma",
+    "result": null,
+    "close_odds": 300
    },
    {
     "id": "401874993:1221385:742.193036042",
@@ -25762,68 +25789,37 @@
     "game": "Internazionale at Venezia",
     "result": null,
     "close_odds": 235
+   },
+   {
+    "id": "401874799:13659467:742.193039979",
+    "event": "401874799",
+    "sport": "ita.1",
+    "kind": "dnb",
+    "side": "home",
+    "pick": "AC Monza",
+    "market": "Tie No Bet",
+    "odds": 240,
+    "prob": 0.2584,
+    "raw_prob": 0.2584,
+    "game": "Napoli at Monza",
+    "result": null,
+    "close_odds": 240
    }
   ],
-  "logged": "2026-10-28 02:49 UTC",
+  "logged": "2026-10-28 03:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-10-27-lottery-~25x",
+  "id": "2026-10-27-lottery-5-leg best-edge lottery",
   "date": "2026-10-27",
   "type": "lottery",
-  "label": "~25x",
-  "n": 6,
-  "est_prob": 0.02874829634378756,
-  "fd_payout_x": 25.78,
+  "label": "5-leg best-edge lottery",
+  "n": 5,
+  "est_prob": 0.04635422384020648,
+  "fd_payout_x": 16.11,
   "legs_detail": [
-   {
-    "id": "401909880:7747629:742.194124175",
-    "event": "401909880",
-    "sport": "nba",
-    "kind": "total",
-    "line": 241.5,
-    "ou": "under",
-    "pick": "Under 241.5",
-    "market": "Alternate Total Points",
-    "odds": -205,
-    "prob": 0.6671,
-    "raw_prob": 0.6671,
-    "game": "Portland Trail Blazers at Los Angeles Lakers",
-    "result": null,
-    "close_odds": -205
-   },
-   {
-    "id": "401874965:191607:742.193036990",
-    "event": "401874965",
-    "sport": "ita.1",
-    "kind": "ml3",
-    "side": "home",
-    "pick": "Parma",
-    "market": "Moneyline (3-way)",
-    "odds": 185,
-    "prob": 0.3305,
-    "raw_prob": 0.3305,
-    "game": "Udinese at Parma",
-    "result": null,
-    "close_odds": 185
-   },
-   {
-    "id": "401874988:52475015:742.193039107",
-    "event": "401874988",
-    "sport": "ita.1",
-    "kind": "ml3",
-    "side": "away",
-    "pick": "Juventus",
-    "market": "Moneyline (3-way)",
-    "odds": -150,
-    "prob": 0.5688,
-    "raw_prob": 0.5688,
-    "game": "Juventus at Genoa",
-    "result": null,
-    "close_odds": -150
-   },
    {
     "id": "401874773:4599969:742.193038351",
     "event": "401874773",
@@ -25855,6 +25851,21 @@
     "close_odds": -155
    },
    {
+    "id": "401874988:52475015:742.193039107",
+    "event": "401874988",
+    "sport": "ita.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Juventus",
+    "market": "Moneyline (3-way)",
+    "odds": -150,
+    "prob": 0.5688,
+    "raw_prob": 0.5688,
+    "game": "Juventus at Genoa",
+    "result": null,
+    "close_odds": -150
+   },
+   {
     "id": "401874799:676464:742.193040031",
     "event": "401874799",
     "sport": "ita.1",
@@ -25868,9 +25879,24 @@
     "game": "Napoli at Monza",
     "result": null,
     "close_odds": -145
+   },
+   {
+    "id": "401874965:215821:742.193036990",
+    "event": "401874965",
+    "sport": "ita.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Udinese",
+    "market": "Moneyline (3-way)",
+    "odds": 165,
+    "prob": 0.3555,
+    "raw_prob": 0.3555,
+    "game": "Udinese at Parma",
+    "result": null,
+    "close_odds": 165
    }
   ],
-  "logged": "2026-10-28 02:49 UTC",
+  "logged": "2026-10-28 03:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -25983,7 +26009,7 @@
    }
   ],
   "logged": "2026-10-28 02:49 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -26089,7 +26115,7 @@
    }
   ],
   "logged": "2026-10-28 02:49 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
