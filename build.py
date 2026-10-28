@@ -425,10 +425,12 @@ for typ,lab,p in ([('best','best',bestp)] if bestp else [])+[('lottery',t['label
 for x in H.values():
   if not x.get('locked') and x['date']==DATE and any(G.get(l['event'],{}).get('state')!='pre' for l in x['legs_detail']): x['locked']=True
   if x['date']!=DATE: x['locked']=True
-  if x['result'] is None:
+  # 2026-10-28 review fix: legs keep getting graded after a ticket already lost (they were left ungraded, so leg stats missed them)
+  if x['result'] is None or (x['result']=='loss' and any(l.get('result') is None for l in x['legs_detail'])):
     for l in x['legs_detail']:
       if l.get('result') is None:
         l['result']=grade(l)
+  if x['result'] is None:
     r=[l.get('result') for l in x['legs_detail']]
     if 'loss' in r: x['result']='loss'
     elif r and all(v in('win','void') for v in r): x['result']='win'

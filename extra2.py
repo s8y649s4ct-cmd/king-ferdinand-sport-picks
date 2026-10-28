@@ -269,12 +269,15 @@ for g,m,r,pl,line,ou,p,sp_,side,a,R in raw:
   b2b=any(d[:10]==yday for d in NOPP.get(g['teams'][side]['tid'],([],[]))[1])
   if b2b: pr+=-0.02 if ou=='over' else 0.01; why.append('back-to-back (played yesterday) -2 pts')
   if pin is not None: why.append(f"Pinnacle {pk['line']:g} line implies {pin*100:.1f}% here")
-  nb.append({'id':f"{g['id']}:{r['selectionId']}:{m['marketId']}",'event':g['id'],'sport':'nba','game':g['name'],'start':g['start'],'market':m['marketName'],'player':pl,'team':g['teams'][side]['name'],
+  # 2026-10-28 review: graded nba3r through 10-27 - rebounds over 68.3% vs 74.9% model (104), under 54.5% vs 63.7% (33); threes 73.0% vs 77.8% (159).
+  hc=(0.06 if ou=='over' else 0.08) if f=='totalRebounds' else 0.03
+  pr-=hc; why.append(f"{'rebounds' if f=='totalRebounds' else 'threes'} calibration haircut -{hc*100:.0f} pts (hit below estimate so far)")
+  nb.append({'haircut':hc,'id':f"{g['id']}:{r['selectionId']}:{m['marketId']}",'event':g['id'],'sport':'nba','game':g['name'],'start':g['start'],'market':m['marketName'],'player':pl,'team':g['teams'][side]['name'],
     'pick':f"{pl} {'Over' if ou=='over' else 'Under'} {line:g} {sp_[1]}" if '+' not in m['marketType'] else f"{pl} {int(line+0.5)}+ {sp_[1]}",'stat':f,'line':line,'ou':ou,'odds':od(r),
     'fd_prob':round(min(p,.995),4),'pin_prob':round(pin,4) if pin is not None else None,'emp_prob':round(pemp,4),'prob':round(max(.01,min(.97,pr)),4),'why':'; '.join(why),'asof':NOW,
     'injury':st or 'none listed','aid':a['id'],'fd_market_id':m['marketId'],'fd_selection_id':r['selectionId']})
 ncov.update(players_matched=len({L['player'] for L in nb}),excluded_injury=sorted(excl),unmatched=len(nomatch),lines_scored=len(nb))
-cand=[L for L in nb if -1000<=L['odds']<=150 and L['prob']>=0.6 and L['prob']-L['fd_prob']>=-0.02]
+cand=[L for L in nb if -1000<=L['odds']<=150 and L['prob']>=0.6 and L['prob']+L.get('haircut',0)-L['fd_prob']>=-0.02]  # FD-gap check before the haircut
 byp={}
 for L in cand:
   if L['player'] not in byp or (L['prob'],L['odds'])>(byp[L['player']]['prob'],byp[L['player']]['odds']): byp[L['player']]=L
@@ -318,7 +321,7 @@ out={'updated':NOW,
  'td':{'legs':{L['id']:L for L in tpool},'parlays':td_tix,'coverage':tcov,'stats':st('td'),
   'rule':"Pregame only, FanDuel PA 'Any Time Touchdown Scorer' (rushing/receiving TDs; ESPN grading also counts only those). Chance = 50% market (Pinnacle no-vig 'Total Touchdowns over 0.5' when listed, else FanDuel price minus ~22% margin) + 50% ESPN game-log TD rate (this season, 2025 at half weight, shrunk toward market), then adjustments: implied team total from ESPN spread/total (±3 pts), opponent rush/receiving TDs allowed in its last 6 games (±2), touches trend, same-position teammate Out (+2); total adjustment capped ±5 pts and never more than 8 pts above the market. Out/Doubtful/Questionable/IR excluded. Max 1 leg per team, 2 per game; legs priced +250 or shorter with est. chance ≥25%. 2+ TD markets skipped (too unlikely). TD legs are coin flips at best, so read each ticket's chance honestly."},
  'nba3r':{'legs':{L['id']:L for L in npool},'parlays':nb_tix,'coverage':ncov,'stats':st('nba3r'),
-  'rule':"Pregame only, FanDuel PA made-threes and rebounds (main and alt lines). One leg per player (his highest-chance line −1000 to +150), max 2 per game, each leg in at most 5 tickets, est. chance ≥60% and not more than 2 pts below FanDuel's no-vig. Chance = 50% market (FanDuel no-vig, averaged with Pinnacle's line converted to this threshold when listed) + 50% ESPN game-log hit rate (this season + last 20 games of 2025-26 at 40% weight, shrunk), then: minutes trend, opponent 3PA / rebounds allowed and pace from their last ≤10 box scores (±3/±3/±2 pts), teammates out (+1), back-to-back (−2). Out/Doubtful/Questionable/Day-To-Day excluded."}}
+  'rule':"Pregame only, FanDuel PA made-threes and rebounds (main and alt lines). One leg per player (his highest-chance line −1000 to +150), max 2 per game, each leg in at most 5 tickets, est. chance ≥60% and not more than 2 pts below FanDuel's no-vig. Chance = 50% market (FanDuel no-vig, averaged with Pinnacle's line converted to this threshold when listed) + 50% ESPN game-log hit rate (this season + last 20 games of 2025-26 at 40% weight, shrunk), then: minutes trend, opponent 3PA / rebounds allowed and pace from their last ≤10 box scores (±3/±3/±2 pts), teammates out (+1), back-to-back (−2), then a calibration haircut (rebounds −6 pts, unders −8; threes −3) because these have hit below estimate so far. Out/Doubtful/Questionable/Day-To-Day excluded."}}
 # Keep last board when a fetch failure empties a tab but its prior legs are still pregame.
 try:
   _prev=json.load(open('extra2.json'))
