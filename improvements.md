@@ -85,3 +85,25 @@ Backups: /workspace/kfsp_backups/2026-10-27-approved/. v1 stays live.
 1. **Calibration boost dropped.** All leg, ladder, Best Parlay, green and lottery estimates now use unboosted model probabilities. Evidence: raw 0.85-0.90 legs hit 86.1% (108 history) / 86.0% (228 shadow) vs ~95% shown with boost. Caveat: this morning's ladder re-rank sim on raw probs was 13 wins vs 19 boosted over 10-25/10-26 (all of the gap on 10-25; 10-26 tied), so watch ladder wins closely; estimates are now honest (e.g. today 4-leg est .51, 5-leg .37).
 2. **Ladder tickets lock at first kickoff** of any of their games (ladder.lock.json). The shown ticket (legs, estimate, payout) is frozen and graded as shown; it no longer rebuilds onto later games.
 3. **NHL trim:** NHL legs rated 0.85+ capped at 0.80. Backtest: NHL 0.85+ hit 5/10 (history raw) and 2/7 (shadow v1), vs other sports 117/128 (91.4%) and 209/237 (88.2%). NHL 0.80-0.85 legs were 5/5, so they are untouched. Replacing a 50% leg with a ~90% leg raises expected leg win rate. Revisit at 20+ graded NHL 0.85+ legs.
+
+## 2026-10-28 (daily review #3)
+Backups: /workspace/kfsp_backups/2026-10-28/. v1 stays live (legs.json untouched).
+
+**Record (graded through 2026-10-28 06:55 UTC)**
+- Main legs: 321 graded, 76.9% hit vs 76.7% predicted (raw probs; Brier .138). 10-27: 70.5% vs 73.4% (105). Raw buckets calibrated: 75-80 80% (25), 80-85 84.6% (39), 85-90 86.3% (117).
+- Ladder tickets: 17 of 91 (10-24 6/27, 10-25 5/27, 10-26 1/16, 10-27 5/21 vs 4.98 expected - first day on honest estimates, on target). 5+ leg ladder: 5 of 75 (10-27 5- and 6-leg tickets won).
+- King's Favorites 6-11 overall; 10-27 went 2-1 (2-leg and 4-leg won, 3-leg lost on NHL Over 3.5), Best 5-leg pending (Serie A today).
+- Lottery 2 of 53. Live legs ~61% vs 62% (1438). Props 74% vs 78%; NBA 3s/reb 69% vs 75%; TD 41.4% vs 41.2%.
+- v1 vs v2 shadow (775 graded): Brier .155 vs .153, LL .495 vs .485; top pick per game v1 65/73 (89.0%) vs v2 59/73 (80.8%). v2 NOT recommended.
+
+**Mistakes and root causes**
+1. Rebound props are overrated in both tabs and even FanDuel's no-vig overrates them: props tab overs 66.7% vs 79.3% (63), unders 46.7% vs 64.5% (15); nba3r overs 68.3% vs 74.9% (104), unders 54.5% vs 63.7% (33). Consistent on 3 days (215 legs). Made threes also low: 75.0% vs 79.5% (108) and 73.0% vs 77.8% (159). Points, assists, shots are calibrated.
+2. Grading bug: once a ticket lost, its other legs were never graded, so leg stats skipped legs that only sat in losing tickets (10-27 had 56 graded legs; 105 after the fix).
+3. 10-27 ladder losses: Under 4.5 goals in Cagliari-Roma (est .83) sank 11 of 16 losing tickets; NBA Portland-Lakers went over every alt under (9 legs, one game). Single-game variance, not systematic. No change.
+4. NHL 10-27 spreads 59% vs 62% pred (34) - calibrated after the trim; keep watching.
+
+**Changes**
+- extra.py (Player Props): rebounds -8 pts (unders -10), made threes -3 pts haircut on the estimate; FD-gap filter checks the pre-haircut number so legs stay eligible but rank honestly. Rule text updated.
+- extra2.py (NBA 3s & rebounds): rebounds -6 (unders -8), threes -3. Same filter logic. Rule text updated.
+- build.py: legs in a lost ticket keep getting graded (stats only; ticket results unchanged).
+- Haircuts are about 2/3 of the observed gap to avoid overfitting. Rationale: swapping 65% rebound legs for ~77-80% points/assists/shots legs raises expected leg and ticket hit rate on those tabs.
