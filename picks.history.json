@@ -21519,8 +21519,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.1602,
-  "fd_payout_x": 4.63,
+  "est_prob": 0.1573,
+  "fd_payout_x": 4.75,
   "legs_detail": [
    {
     "id": "401909880:7700492:742.194124175",
@@ -21587,23 +21587,23 @@
     "close_odds": -280
    },
    {
-    "id": "401892595:8359772:742.194199877",
-    "event": "401892595",
-    "sport": "nhl",
+    "id": "401874799:1222344:742.193040026",
+    "event": "401874799",
+    "sport": "ita.1",
     "kind": "total",
-    "line": 5.5,
-    "ou": "over",
-    "pick": "Over 5.5",
-    "market": "Alternate Total Goals",
-    "odds": -235,
-    "prob": 0.6464,
-    "raw_prob": 0.6464,
-    "game": "Buffalo Sabres at San Jose Sharks",
+    "line": 3.5,
+    "ou": "under",
+    "pick": "Under 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": -215,
+    "prob": 0.6349,
+    "raw_prob": 0.6349,
+    "game": "Napoli at Monza",
     "result": null,
-    "close_odds": -235
+    "close_odds": -215
    }
   ],
-  "logged": "2026-10-28 02:23 UTC",
+  "logged": "2026-10-28 02:34 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -21631,12 +21631,12 @@
     "prob": 0.8812,
     "raw_prob": 0.8812,
     "game": "Brooklyn Nets at Boston Celtics",
-    "result": null
+    "result": "win"
    }
   ],
   "logged": "2026-10-27 23:37 UTC",
   "locked": true,
-  "result": null,
+  "result": "win",
   "favorite": false
  },
  {
@@ -21661,7 +21661,7 @@
     "prob": 0.8954,
     "raw_prob": 0.8954,
     "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
+    "result": "win",
     "close_odds": -1000
    },
    {
@@ -21682,7 +21682,7 @@
   ],
   "logged": "2026-10-27 23:09 UTC",
   "locked": true,
-  "result": null,
+  "result": "win",
   "favorite": true,
   "favorite_source": "logged"
  },
@@ -21708,7 +21708,7 @@
     "prob": 0.8876,
     "raw_prob": 0.8876,
     "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null
+    "result": "win"
    },
    {
     "id": "401874773:4599969:742.193038370",
@@ -22177,7 +22177,7 @@
     "prob": 0.8799,
     "raw_prob": 0.8799,
     "game": "Brooklyn Nets at Boston Celtics",
-    "result": null
+    "result": "loss"
    },
    {
     "id": "401909880:7695579:742.194124175",
@@ -22294,7 +22294,7 @@
   ],
   "logged": "2026-10-27 23:37 UTC",
   "locked": true,
-  "result": null,
+  "result": "loss",
   "favorite": false
  },
  {
@@ -24328,7 +24328,7 @@
     "prob": 0.8876,
     "raw_prob": 0.8876,
     "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
+    "result": "win",
     "close_odds": -950
    },
    {
@@ -24392,7 +24392,7 @@
     "prob": 0.8779,
     "raw_prob": 0.8779,
     "game": "Brooklyn Nets at Boston Celtics",
-    "result": null,
+    "result": "loss",
     "close_odds": -950
    },
    {
@@ -24588,7 +24588,7 @@
   ],
   "logged": "2026-10-27 17:34 UTC",
   "locked": true,
-  "result": null,
+  "result": "loss",
   "favorite": false
  },
  {
@@ -25594,47 +25594,28 @@
   "favorite": false
  },
  {
-  "id": "2026-10-27-lottery-~100x",
+  "id": "2026-10-27-lottery-~25x",
   "date": "2026-10-27",
   "type": "lottery",
-  "label": "~100x",
-  "n": 4,
-  "est_prob": 0.007596628058012399,
-  "fd_payout_x": 104.34,
+  "label": "~25x",
+  "n": 3,
+  "est_prob": 0.029386501212000003,
+  "fd_payout_x": 27.18,
   "legs_detail": [
    {
-    "id": "401892595:25597:742.193519961",
-    "event": "401892595",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Buffalo Sabres -1.5",
-    "market": "Puck Line",
-    "odds": 142,
-    "prob": 0.4266,
-    "raw_prob": 0.4266,
-    "game": "Buffalo Sabres at San Jose Sharks",
-    "result": null,
-    "close_odds": 142
-   },
-   {
-    "id": "401909880:7057908:742.194116400",
+    "id": "401909880:237480:742.193773599",
     "event": "401909880",
     "sport": "nba",
-    "kind": "prop",
-    "line": 24.5,
-    "ou": "over",
-    "player": "Damian Lillard",
-    "stat": "POI",
-    "pick": "Damian Lillard",
-    "market": "25+ Points",
-    "odds": 230,
-    "prob": 0.2882,
-    "raw_prob": 0.2882,
+    "kind": "ml",
+    "side": "away",
+    "pick": "Portland Trail Blazers",
+    "market": "Moneyline",
+    "odds": 108,
+    "prob": 0.4756,
+    "raw_prob": 0.4756,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
-    "close_odds": 230
+    "close_odds": 108
    },
    {
     "id": "401874993:1221385:742.193036042",
@@ -25669,99 +25650,85 @@
     "close_odds": 235
    }
   ],
-  "logged": "2026-10-28 02:23 UTC",
+  "logged": "2026-10-28 02:34 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-10-27-lottery-~25x",
+  "id": "2026-10-27-lottery-~100x",
   "date": "2026-10-27",
   "type": "lottery",
-  "label": "~25x",
-  "n": 5,
-  "est_prob": 0.03413750860250351,
-  "fd_payout_x": 25.21,
+  "label": "~100x",
+  "n": 4,
+  "est_prob": 0.007120349243667601,
+  "fd_payout_x": 100.55,
   "legs_detail": [
    {
-    "id": "401892595:25597:742.193519961",
-    "event": "401892595",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Buffalo Sabres -1.5",
-    "market": "Puck Line",
-    "odds": 142,
-    "prob": 0.4266,
-    "raw_prob": 0.4266,
-    "game": "Buffalo Sabres at San Jose Sharks",
-    "result": null,
-    "close_odds": 142
-   },
-   {
-    "id": "401909880:7700492:742.194124175",
+    "id": "401909880:237480:742.193773599",
     "event": "401909880",
     "sport": "nba",
-    "kind": "total",
-    "line": 245.5,
-    "ou": "under",
-    "pick": "Under 245.5",
-    "market": "Alternate Total Points",
-    "odds": -300,
-    "prob": 0.7438,
-    "raw_prob": 0.7438,
+    "kind": "ml",
+    "side": "away",
+    "pick": "Portland Trail Blazers",
+    "market": "Moneyline",
+    "odds": 108,
+    "prob": 0.4756,
+    "raw_prob": 0.4756,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
-    "close_odds": -300
+    "close_odds": 108
    },
    {
-    "id": "401874965:191607:742.193036990",
-    "event": "401874965",
-    "sport": "ita.1",
-    "kind": "ml3",
-    "side": "home",
-    "pick": "Parma",
-    "market": "Moneyline (3-way)",
-    "odds": 185,
-    "prob": 0.3305,
-    "raw_prob": 0.3305,
-    "game": "Udinese at Parma",
-    "result": null,
-    "close_odds": 185
-   },
-   {
-    "id": "401874988:52475015:742.193039107",
-    "event": "401874988",
-    "sport": "ita.1",
-    "kind": "ml3",
-    "side": "away",
-    "pick": "Juventus",
-    "market": "Moneyline (3-way)",
-    "odds": -150,
-    "prob": 0.5688,
-    "raw_prob": 0.5688,
-    "game": "Juventus at Genoa",
-    "result": null,
-    "close_odds": -150
-   },
-   {
-    "id": "401874993:127991:742.193036013",
+    "id": "401874993:1221385:742.193036042",
     "event": "401874993",
     "sport": "ita.1",
-    "kind": "ml3",
-    "side": "home",
-    "pick": "AC Milan",
-    "market": "Moneyline (3-way)",
-    "odds": -155,
-    "prob": 0.5723,
-    "raw_prob": 0.5723,
+    "kind": "total",
+    "line": 1.5,
+    "ou": "under",
+    "pick": "Under 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": 290,
+    "prob": 0.2291,
+    "raw_prob": 0.2291,
     "game": "Bologna at AC Milan",
     "result": null,
-    "close_odds": -155
+    "close_odds": 290
+   },
+   {
+    "id": "401874773:47972:742.193038333",
+    "event": "401874773",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 2.5,
+    "ou": "under",
+    "pick": "Under 2.5 Goals",
+    "market": "Over/Under 2.5 Goals",
+    "odds": 235,
+    "prob": 0.2697,
+    "raw_prob": 0.2697,
+    "game": "Internazionale at Venezia",
+    "result": null,
+    "close_odds": 235
+   },
+   {
+    "id": "401874988:1222345:742.193039119",
+    "event": "401874988",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "over",
+    "pick": "Over 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": 270,
+    "prob": 0.2423,
+    "raw_prob": 0.2423,
+    "game": "Juventus at Genoa",
+    "result": null,
+    "close_odds": 270
    }
   ],
-  "logged": "2026-10-28 02:23 UTC",
+  "logged": "2026-10-28 02:34 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -25772,25 +25739,9 @@
   "type": "lottery",
   "label": "~500x",
   "n": 5,
-  "est_prob": 0.0012861416455640462,
-  "fd_payout_x": 542.86,
+  "est_prob": 0.0011558560540107408,
+  "fd_payout_x": 551.08,
   "legs_detail": [
-   {
-    "id": "401892595:7737380:742.194199889",
-    "event": "401892595",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -2.5,
-    "pick": "Buffalo Sabres -2.5",
-    "market": "Alternate Puck Line",
-    "odds": 230,
-    "prob": 0.3001,
-    "raw_prob": 0.3001,
-    "game": "Buffalo Sabres at San Jose Sharks",
-    "result": null,
-    "close_odds": 230
-   },
    {
     "id": "401909880:27001685:742.194116352",
     "event": "401909880",
@@ -25855,9 +25806,25 @@
     "game": "Juventus at Genoa",
     "result": null,
     "close_odds": 270
+   },
+   {
+    "id": "401874773:47972:742.193038333",
+    "event": "401874773",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 2.5,
+    "ou": "under",
+    "pick": "Under 2.5 Goals",
+    "market": "Over/Under 2.5 Goals",
+    "odds": 235,
+    "prob": 0.2697,
+    "raw_prob": 0.2697,
+    "game": "Internazionale at Venezia",
+    "result": null,
+    "close_odds": 235
    }
   ],
-  "logged": "2026-10-28 02:23 UTC",
+  "logged": "2026-10-28 02:34 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -25868,42 +25835,26 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 6,
-  "est_prob": 0.0006083391143798416,
-  "fd_payout_x": 1100.23,
+  "est_prob": 0.00046409644306228553,
+  "fd_payout_x": 1274.1,
   "legs_detail": [
    {
-    "id": "401892595:25597:742.193519961",
-    "event": "401892595",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Buffalo Sabres -1.5",
-    "market": "Puck Line",
-    "odds": 142,
-    "prob": 0.4266,
-    "raw_prob": 0.4266,
-    "game": "Buffalo Sabres at San Jose Sharks",
-    "result": null,
-    "close_odds": 142
-   },
-   {
-    "id": "401909880:7057908:742.194116400",
+    "id": "401909880:4018916:742.194116352",
     "event": "401909880",
     "sport": "nba",
     "kind": "prop",
-    "line": 24.5,
+    "line": 2.5,
     "ou": "over",
-    "player": "Damian Lillard",
-    "stat": "POI",
-    "pick": "Damian Lillard",
-    "market": "25+ Points",
-    "odds": 230,
-    "prob": 0.2882,
-    "raw_prob": 0.2882,
+    "player": "Jrue Holiday",
+    "stat": "3PM",
+    "pick": "Jrue Holiday",
+    "market": "3+ Threes",
+    "odds": 240,
+    "prob": 0.2799,
+    "raw_prob": 0.2799,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
-    "close_odds": 230
+    "close_odds": 240
    },
    {
     "id": "401874965:191607:742.193036990",
@@ -25937,6 +25888,22 @@
     "close_odds": 290
    },
    {
+    "id": "401874988:1222345:742.193039119",
+    "event": "401874988",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "over",
+    "pick": "Over 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": 270,
+    "prob": 0.2423,
+    "raw_prob": 0.2423,
+    "game": "Juventus at Genoa",
+    "result": null,
+    "close_odds": 270
+   },
+   {
     "id": "401874773:47972:742.193038333",
     "event": "401874773",
     "sport": "ita.1",
@@ -25953,23 +25920,129 @@
     "close_odds": 235
    },
    {
-    "id": "401874988:1222345:742.193039119",
-    "event": "401874988",
+    "id": "401874799:1222345:742.193040026",
+    "event": "401874799",
     "sport": "ita.1",
     "kind": "total",
     "line": 3.5,
     "ou": "over",
     "pick": "Over 3.5 Goals",
     "market": "Over/Under 3.5 Goals",
-    "odds": 270,
-    "prob": 0.2423,
-    "raw_prob": 0.2423,
-    "game": "Juventus at Genoa",
+    "odds": 172,
+    "prob": 0.3351,
+    "raw_prob": 0.3351,
+    "game": "Napoli at Monza",
     "result": null,
-    "close_odds": 270
+    "close_odds": 172
    }
   ],
-  "logged": "2026-10-28 02:23 UTC",
+  "logged": "2026-10-28 02:34 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-27-lottery-6-leg best-edge lottery",
+  "date": "2026-10-27",
+  "type": "lottery",
+  "label": "6-leg best-edge lottery",
+  "n": 6,
+  "est_prob": 0.03807072403996158,
+  "fd_payout_x": 19.21,
+  "legs_detail": [
+   {
+    "id": "401909880:7729460:742.194124175",
+    "event": "401909880",
+    "sport": "nba",
+    "kind": "total",
+    "line": 250.5,
+    "ou": "under",
+    "pick": "Under 250.5",
+    "market": "Alternate Total Points",
+    "odds": -520,
+    "prob": 0.8213,
+    "raw_prob": 0.8213,
+    "game": "Portland Trail Blazers at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -520
+   },
+   {
+    "id": "401874773:4599969:742.193038351",
+    "event": "401874773",
+    "sport": "ita.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Inter Milan",
+    "market": "Moneyline (3-way)",
+    "odds": -320,
+    "prob": 0.7229,
+    "raw_prob": 0.7229,
+    "game": "Internazionale at Venezia",
+    "result": null,
+    "close_odds": -320
+   },
+   {
+    "id": "401874993:127991:742.193036013",
+    "event": "401874993",
+    "sport": "ita.1",
+    "kind": "ml3",
+    "side": "home",
+    "pick": "AC Milan",
+    "market": "Moneyline (3-way)",
+    "odds": -155,
+    "prob": 0.5723,
+    "raw_prob": 0.5723,
+    "game": "Bologna at AC Milan",
+    "result": null,
+    "close_odds": -155
+   },
+   {
+    "id": "401874988:52475015:742.193039107",
+    "event": "401874988",
+    "sport": "ita.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Juventus",
+    "market": "Moneyline (3-way)",
+    "odds": -150,
+    "prob": 0.5688,
+    "raw_prob": 0.5688,
+    "game": "Juventus at Genoa",
+    "result": null,
+    "close_odds": -150
+   },
+   {
+    "id": "401874799:676464:742.193040031",
+    "event": "401874799",
+    "sport": "ita.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Napoli",
+    "market": "Moneyline (3-way)",
+    "odds": -145,
+    "prob": 0.5541,
+    "raw_prob": 0.5541,
+    "game": "Napoli at Monza",
+    "result": null,
+    "close_odds": -145
+   },
+   {
+    "id": "401874965:215821:742.193036990",
+    "event": "401874965",
+    "sport": "ita.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Udinese",
+    "market": "Moneyline (3-way)",
+    "odds": 165,
+    "prob": 0.3555,
+    "raw_prob": 0.3555,
+    "game": "Udinese at Parma",
+    "result": null,
+    "close_odds": 165
+   }
+  ],
+  "logged": "2026-10-28 02:34 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -26092,7 +26165,7 @@
    }
   ],
   "logged": "2026-10-28 02:23 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -26312,7 +26385,7 @@
     "raw_prob": 0.8188,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
-    "close_odds": -550
+    "close_odds": -520
    },
    {
     "id": "401892594:7000397:742.194193741",
@@ -26452,7 +26525,7 @@
     "raw_prob": 0.8213,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
-    "close_odds": -550
+    "close_odds": -520
    },
    {
     "id": "401874773:4599969:742.193038351",
@@ -26701,7 +26774,7 @@
     "prob": 0.8039,
     "raw_prob": 0.8039,
     "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
+    "result": "win",
     "close_odds": -430
    },
    {
@@ -26971,7 +27044,7 @@
     "prob": 0.8039,
     "raw_prob": 0.8039,
     "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
+    "result": "win",
     "close_odds": -430
    },
    {
@@ -27144,7 +27217,7 @@
     "prob": 0.8535,
     "raw_prob": 0.8535,
     "game": "Brooklyn Nets at Boston Celtics",
-    "result": null,
+    "result": "win",
     "close_odds": -600
    },
    {
@@ -27176,7 +27249,7 @@
     "prob": 0.8394,
     "raw_prob": 0.8394,
     "game": "Sacramento Kings at San Antonio Spurs",
-    "result": null,
+    "result": "win",
     "close_odds": -600
    },
    {
@@ -27209,7 +27282,7 @@
     "raw_prob": 0.8593,
     "game": "Portland Trail Blazers at Los Angeles Lakers",
     "result": null,
-    "close_odds": -800
+    "close_odds": -750
    },
    {
     "id": "401871072:12215019:742.193830527",
