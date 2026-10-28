@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28 01:24 UTC",
- "graded_legs": 222,
+ "updated": "2026-10-28 01:40 UTC",
+ "graded_legs": 226,
  "calibration": {
   "85-90%": {
    "n": 32,
@@ -9,16 +9,16 @@
    "hit": 0.938
   },
   "75-80%": {
-   "n": 17,
-   "wins": 15,
+   "n": 18,
+   "wins": 16,
    "pred": 0.784,
-   "hit": 0.882
+   "hit": 0.889
   },
   "80-85%": {
-   "n": 22,
-   "wins": 21,
-   "pred": 0.827,
-   "hit": 0.955
+   "n": 24,
+   "wins": 23,
+   "pred": 0.825,
+   "hit": 0.958
   },
   "65-70%": {
    "n": 4,
@@ -81,9 +81,9 @@
    "hit": 0.143
   },
   "35-40%": {
-   "n": 1,
+   "n": 2,
    "wins": 0,
-   "pred": 0.381,
+   "pred": 0.388,
    "hit": 0.0
   },
   "55-60%": {
@@ -119,10 +119,10 @@
    "hit": 0.82
   },
   "nhl": {
-   "n": 33,
-   "wins": 22,
-   "pred": 0.712,
-   "hit": 0.667
+   "n": 37,
+   "wins": 25,
+   "pred": 0.711,
+   "hit": 0.676
   },
   "mlb": {
    "n": 4,
@@ -163,16 +163,16 @@
  },
  "by_market": {
   "total": {
-   "n": 99,
-   "wins": 88,
-   "pred": 0.89,
-   "hit": 0.889
+   "n": 100,
+   "wins": 89,
+   "pred": 0.889,
+   "hit": 0.89
   },
   "spread": {
-   "n": 85,
-   "wins": 67,
-   "pred": 0.854,
-   "hit": 0.788
+   "n": 88,
+   "wins": 69,
+   "pred": 0.848,
+   "hit": 0.784
   },
   "dc": {
    "n": 13,
@@ -206,10 +206,10 @@
   }
  },
  "parlays": {
-  "graded": 124,
+  "graded": 127,
   "won": 14,
   "expected": 29.01,
-  "pending": 24,
+  "pending": 21,
   "by_type": {
    "ladder": {
     "graded": 81,
@@ -222,7 +222,7 @@
     "expected": 0.42
    },
    "lottery": {
-    "graded": 41,
+    "graded": 44,
     "won": 2,
     "expected": 4.87
    }
@@ -233,7 +233,7 @@
   "legs_tracked": 385,
   "avg_clv_pts": 0.12,
   "beat_close": 108,
-  "worse_than_close": 102
+  "worse_than_close": 104
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
