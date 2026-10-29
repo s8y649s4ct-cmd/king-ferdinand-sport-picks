@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 03:13 UTC",
+ "updated": "2026-10-29 03:27 UTC",
  "date": "2026-10-28",
  "ladder_stats": {
   "tickets": 2,
@@ -27,7 +27,7 @@
    "odds": -900,
    "fd_prob": 0.8578,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:13 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:27 UTC",
    "market_prob": 0.8578,
    "prob": 0.8428,
    "pre_research": 0.8578,
@@ -62,7 +62,7 @@
    "odds": -590,
    "fd_prob": 0.8135,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:13 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:27 UTC",
    "market_prob": 0.8135,
    "prob": 0.7985,
    "pre_research": 0.8135,
@@ -244,7 +244,7 @@
    "odds": 200,
    "fd_prob": 0.3134,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:13 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:27 UTC",
    "market_prob": 0.3134,
    "prob": 0.319,
    "pre_research": 0.3134,
@@ -280,7 +280,7 @@
    "odds": -150,
    "fd_prob": 0.5621,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:13 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:27 UTC",
    "market_prob": 0.5621,
    "prob": 0.5577,
    "pre_research": 0.5621,
@@ -362,69 +362,6 @@
  "started": [],
  "games": [
   {
-   "id": "401871057",
-   "sport": "college-football",
-   "name": "Jacksonville State Gamecocks at New Mexico State Aggies",
-   "start": "2026-10-29T00:00Z",
-   "state": "in",
-   "status": "End of 4th",
-   "venue": "Aggie Memorial Stadium",
-   "indoor": false,
-   "city": {
-    "city": "Las Cruces",
-    "state": "NM",
-    "country": "USA"
-   },
-   "espn_wx": {
-    "displayValue": "34",
-    "temperature": 66,
-    "highTemperature": 66,
-    "conditionId": "Mostly clear",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "88003"
-     ],
-     "href": "http://www.accuweather.com/en/us/aggie-memorial-stadium-nm/88001/current-weather/53609_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "New Mexico State Aggies",
-     "short": "New Mexico St",
-     "score": "0",
-     "winner": null,
-     "record": "3-4",
-     "ml_open": null,
-     "ml": null,
-     "tid": "166",
-     "abbr": "NMSU",
-     "home_rec": null,
-     "road_rec": null
-    },
-    "away": {
-     "name": "Jacksonville State Gamecocks",
-     "short": "Jax State",
-     "score": "24",
-     "winner": null,
-     "record": "5-2",
-     "ml_open": null,
-     "ml": null,
-     "tid": "55",
-     "abbr": "JXST",
-     "home_rec": null,
-     "road_rec": null
-    }
-   }
-  },
-  {
    "id": "401871058",
    "sport": "college-football",
    "name": "Kennesaw State Owls at Middle Tennessee Blue Raiders",
@@ -468,6 +405,53 @@
      "abbr": "KENN",
      "home_rec": "1-3",
      "road_rec": "1-3"
+    }
+   }
+  },
+  {
+   "id": "401871057",
+   "sport": "college-football",
+   "name": "Jacksonville State Gamecocks at New Mexico State Aggies",
+   "start": "2026-10-29T00:00Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Aggie Memorial Stadium",
+   "indoor": false,
+   "city": {
+    "city": "Las Cruces",
+    "state": "NM",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "New Mexico State Aggies",
+     "short": "New Mexico St",
+     "score": "0",
+     "winner": false,
+     "record": "3-5",
+     "ml_open": null,
+     "ml": null,
+     "tid": "166",
+     "abbr": "NMSU",
+     "home_rec": "2-2",
+     "road_rec": "1-3"
+    },
+    "away": {
+     "name": "Jacksonville State Gamecocks",
+     "short": "Jax State",
+     "score": "24",
+     "winner": true,
+     "record": "6-2",
+     "ml_open": null,
+     "ml": null,
+     "tid": "55",
+     "abbr": "JXST",
+     "home_rec": "4-0",
+     "road_rec": "2-2"
     }
    }
   },
@@ -891,7 +875,7 @@
    "name": "San Antonio Spurs at Utah Jazz",
    "start": "2026-10-29T01:00Z",
    "state": "in",
-   "status": "6:25 - 4th",
+   "status": "4:46 - OT",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -906,7 +890,7 @@
     "home": {
      "name": "Utah Jazz",
      "short": "Jazz",
-     "score": "98",
+     "score": "105",
      "winner": null,
      "record": "1-3",
      "ml_open": null,
@@ -919,7 +903,7 @@
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "97",
+     "score": "105",
      "winner": null,
      "record": "2-2",
      "ml_open": null,
@@ -937,7 +921,7 @@
    "name": "Oklahoma City Thunder at Dallas Mavericks",
    "start": "2026-10-29T01:30Z",
    "state": "in",
-   "status": "8:11 - 3rd",
+   "status": "3:00 - 3rd",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -952,7 +936,7 @@
     "home": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "74",
+     "score": "84",
      "winner": null,
      "record": "2-2",
      "ml_open": null,
@@ -965,7 +949,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "61",
+     "score": "73",
      "winner": null,
      "record": "4-0",
      "ml_open": null,
@@ -983,7 +967,7 @@
    "name": "Los Angeles Lakers at LA Clippers",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "9:41 - 2nd",
+   "status": "5:14 - 2nd",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -998,7 +982,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "24",
+     "score": "34",
      "winner": null,
      "record": "1-2",
      "ml_open": null,
@@ -1011,7 +995,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "27",
+     "score": "40",
      "winner": null,
      "record": "3-1",
      "ml_open": null,
@@ -1075,8 +1059,8 @@
    "sport": "nhl",
    "name": "Calgary Flames at Edmonton Oilers",
    "start": "2026-10-29T00:30Z",
-   "state": "in",
-   "status": "End of 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -1093,27 +1077,27 @@
      "name": "Edmonton Oilers",
      "short": "Oilers",
      "score": "4",
-     "winner": null,
-     "record": "8-2-2",
+     "winner": true,
+     "record": "9-2-2",
      "ml_open": null,
      "ml": null,
      "tid": "6",
      "abbr": "EDM",
-     "home_rec": "3-2-2",
+     "home_rec": "4-2-2",
      "road_rec": "5-0-0"
     },
     "away": {
      "name": "Calgary Flames",
      "short": "Flames",
      "score": "0",
-     "winner": null,
-     "record": "5-6-0",
+     "winner": false,
+     "record": "5-7-0",
      "ml_open": null,
      "ml": null,
      "tid": "3",
      "abbr": "CGY",
      "home_rec": "4-3-0",
-     "road_rec": "1-3-0"
+     "road_rec": "1-4-0"
     }
    }
   },
@@ -1123,7 +1107,7 @@
    "name": "New Jersey Devils at Colorado Avalanche",
    "start": "2026-10-29T01:00Z",
    "state": "in",
-   "status": "13:51 - 3rd",
+   "status": "7:30 - 3rd",
    "venue": "Ball Arena",
    "indoor": true,
    "city": {
@@ -1139,7 +1123,7 @@
     "home": {
      "name": "Colorado Avalanche",
      "short": "Avalanche",
-     "score": "3",
+     "score": "4",
      "winner": null,
      "record": "6-5-1",
      "ml_open": null,
@@ -1170,7 +1154,7 @@
    "name": "Toronto Maple Leafs at Seattle Kraken",
    "start": "2026-10-29T02:00Z",
    "state": "in",
-   "status": "15:40 - 2nd",
+   "status": "8:32 - 2nd",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -1186,7 +1170,7 @@
     "home": {
      "name": "Seattle Kraken",
      "short": "Kraken",
-     "score": "3",
+     "score": "4",
      "winner": null,
      "record": "7-4-1",
      "ml_open": null,
@@ -1216,31 +1200,15 @@
    "sport": "mlb",
    "name": "Milwaukee Brewers at Tampa Bay Rays",
    "start": "2026-10-29T00:00Z",
-   "state": "in",
-   "status": "Bot 9th",
+   "state": "post",
+   "status": "Final",
    "venue": "Tropicana Field",
    "indoor": true,
    "city": {
     "city": "St. Petersburg",
     "state": "Florida"
    },
-   "espn_wx": {
-    "displayValue": "7",
-    "temperature": 76,
-    "highTemperature": 76,
-    "conditionId": "Cloudy",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "33705"
-     ],
-     "href": "http://www.accuweather.com/en/us/tropicana-field-fl/33712/current-weather/44502_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
+   "espn_wx": null,
    "line": null,
    "total": null,
    "book": null,
@@ -1249,7 +1217,7 @@
      "name": "Tampa Bay Rays",
      "short": "Rays",
      "score": "1",
-     "winner": null,
+     "winner": false,
      "record": "98-64",
      "ml_open": null,
      "ml": null,
@@ -1262,7 +1230,7 @@
      "name": "Milwaukee Brewers",
      "short": "Brewers",
      "score": "4",
-     "winner": null,
+     "winner": true,
      "record": "103-59",
      "ml_open": null,
      "ml": null,
@@ -2107,7 +2075,7 @@
    "name": "Colorado Rapids at San Jose Earthquakes",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "32'",
+   "status": "45'+2'",
    "venue": "PayPal Park",
    "indoor": null,
    "city": {
@@ -2153,7 +2121,7 @@
    "name": "Houston Dynamo FC at Seattle Sounders FC",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "32'",
+   "status": "45'+2'",
    "venue": "Lumen Field",
    "indoor": null,
    "city": {
@@ -2199,7 +2167,7 @@
    "name": "San Diego FC at Vancouver Whitecaps",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "33'",
+   "status": "45'+2'",
    "venue": "BC Place",
    "indoor": null,
    "city": {
@@ -2214,7 +2182,7 @@
     "home": {
      "name": "Vancouver Whitecaps",
      "short": "Vancouver",
-     "score": "1",
+     "score": "2",
      "winner": false,
      "record": "16-7-8",
      "ml_open": "-240",
@@ -2945,8 +2913,8 @@
  "weather": [
   {
    "g": "Jacksonville State Gamecocks at New Mexico State Aggies",
-   "w": "34, 66F",
-   "src": "ESPN/AccuWeather"
+   "w": "78.1F, wind 1.6 mph, rain 0%",
+   "src": "open-meteo"
   },
   {
    "g": "Lecce at Frosinone",
@@ -2990,12 +2958,12 @@
   },
   {
    "g": "Houston Dynamo FC at Seattle Sounders FC",
-   "w": "45.4F, wind 8.5 mph, rain 22%",
+   "w": "45.4F, wind 8.5 mph, rain 21%",
    "src": "open-meteo"
   },
   {
    "g": "San Diego FC at Vancouver Whitecaps",
-   "w": "42.9F, wind 6.5 mph, rain 14%",
+   "w": "42.9F, wind 6.5 mph, rain 13%",
    "src": "open-meteo"
   }
  ],
@@ -3065,14 +3033,14 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-29 03:13 UTC",
-  "graded_legs": 438,
+  "updated": "2026-10-29 03:27 UTC",
+  "graded_legs": 450,
   "calibration": {
    "85-90%": {
-    "n": 118,
-    "wins": 102,
+    "n": 124,
+    "wins": 107,
     "pred": 0.875,
-    "hit": 0.864
+    "hit": 0.863
    },
    "75-80%": {
     "n": 42,
@@ -3081,10 +3049,10 @@
     "hit": 0.81
    },
    "80-85%": {
-    "n": 66,
-    "wins": 55,
+    "n": 69,
+    "wins": 58,
     "pred": 0.822,
-    "hit": 0.833
+    "hit": 0.841
    },
    "65-70%": {
     "n": 11,
@@ -3111,10 +3079,10 @@
     "hit": 0.889
    },
    "40-45%": {
-    "n": 9,
-    "wins": 6,
-    "pred": 0.434,
-    "hit": 0.667
+    "n": 10,
+    "wins": 7,
+    "pred": 0.433,
+    "hit": 0.7
    },
    "45-50%": {
     "n": 8,
@@ -3135,10 +3103,10 @@
     "hit": 0.333
    },
    "30-35%": {
-    "n": 7,
-    "wins": 5,
-    "pred": 0.319,
-    "hit": 0.714
+    "n": 8,
+    "wins": 6,
+    "pred": 0.323,
+    "hit": 0.75
    },
    "20-25%": {
     "n": 14,
@@ -3153,10 +3121,10 @@
     "hit": 0.154
    },
    "55-60%": {
-    "n": 5,
-    "wins": 2,
-    "pred": 0.561,
-    "hit": 0.4
+    "n": 6,
+    "wins": 3,
+    "pred": 0.563,
+    "hit": 0.5
    },
    "50-55%": {
     "n": 3,
@@ -3173,9 +3141,9 @@
     "hit": 0.744
    },
    "college-football": {
-    "n": 28,
-    "wins": 24,
-    "pred": 0.855,
+    "n": 35,
+    "wins": 30,
+    "pred": 0.843,
     "hit": 0.857
    },
    "nba": {
@@ -3185,16 +3153,16 @@
     "hit": 0.812
    },
    "nhl": {
-    "n": 83,
-    "wins": 53,
-    "pred": 0.679,
-    "hit": 0.639
+    "n": 85,
+    "wins": 55,
+    "pred": 0.677,
+    "hit": 0.647
    },
    "mlb": {
-    "n": 7,
-    "wins": 6,
-    "pred": 0.691,
-    "hit": 0.857
+    "n": 10,
+    "wins": 9,
+    "pred": 0.707,
+    "hit": 0.9
    },
    "fra.1": {
     "n": 3,
@@ -3229,16 +3197,16 @@
   },
   "by_market": {
    "total": {
-    "n": 189,
-    "wins": 144,
+    "n": 194,
+    "wins": 149,
     "pred": 0.833,
-    "hit": 0.762
+    "hit": 0.768
    },
    "spread": {
-    "n": 176,
-    "wins": 141,
-    "pred": 0.807,
-    "hit": 0.801
+    "n": 182,
+    "wins": 146,
+    "pred": 0.803,
+    "hit": 0.802
    },
    "dc": {
     "n": 22,
@@ -3247,10 +3215,10 @@
     "hit": 0.773
    },
    "ml": {
-    "n": 7,
-    "wins": 5,
-    "pred": 0.507,
-    "hit": 0.714
+    "n": 8,
+    "wins": 6,
+    "pred": 0.515,
+    "hit": 0.75
    },
    "dnb": {
     "n": 5,
@@ -3397,7 +3365,7 @@
       "pick": "Under (69.5)",
       "game": "Jacksonville State Gamecocks at New Mexico State Aggies",
       "odds": -1000,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Oklahoma City Thunder +10.5",
@@ -4139,43 +4107,43 @@
  "note": "26 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 1106,
-   "brier": 0.1595,
-   "logloss": 0.5039,
+   "n": 1137,
+   "brier": 0.1614,
+   "logloss": 0.5086,
    "picks": 302,
    "avg_clv_fd_pts": 0.05,
    "avg_clv_sharp_pts": 0.14,
-   "top_picks_graded": 257,
-   "top_picks_won": 219,
-   "top_picks_expected": 218.13,
-   "top_win_rate": 0.8521400778210116
+   "top_picks_graded": 266,
+   "top_picks_won": 228,
+   "top_picks_expected": 225.56,
+   "top_win_rate": 0.8571428571428571
   },
   "v2": {
-   "n": 1106,
-   "brier": 0.1587,
-   "logloss": 0.499,
+   "n": 1137,
+   "brier": 0.1609,
+   "logloss": 0.5046,
    "picks": 113,
    "avg_clv_fd_pts": 0.3,
    "avg_clv_sharp_pts": 0.49,
-   "top_picks_graded": 100,
-   "top_picks_won": 82,
-   "top_picks_expected": 87.93,
-   "top_win_rate": 0.82
+   "top_picks_graded": 103,
+   "top_picks_won": 85,
+   "top_picks_expected": 90.54,
+   "top_win_rate": 0.8252427184466019
   },
-  "graded": 1106,
+  "graded": 1137,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 1106,
-    "v2": 1106,
+    "v1": 1137,
+    "v2": 1137,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.5039,
-    "v2": 0.499,
+    "v1": 0.5086,
+    "v2": 0.5046,
     "pass": true
    },
    {
@@ -4192,14 +4160,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 257,
-    "v2": 100,
+    "v1": 266,
+    "v2": 103,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "219/257",
-    "v2": "82/100",
+    "v1": "228/266",
+    "v2": "85/103",
     "pass": false
    }
   ],
