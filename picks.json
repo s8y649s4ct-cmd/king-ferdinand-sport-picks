@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 02:33 UTC",
+ "updated": "2026-10-29 02:45 UTC",
  "date": "2026-10-28",
  "ladder_stats": {
   "tickets": 2,
@@ -13,6 +13,76 @@
   "disjoint_up_to": 2
  },
  "legs": {
+  "401874976:1221386:742.193040355": {
+   "kind": "total",
+   "ou": "over",
+   "line": 1.5,
+   "id": "401874976:1221386:742.193040355",
+   "event": "401874976",
+   "sport": "ita.1",
+   "game": "Lecce at Frosinone",
+   "start": "2026-10-29T17:30Z",
+   "market": "Over/Under 1.5 Goals",
+   "pick": "Over 1.5 Goals",
+   "odds": -900,
+   "fd_prob": 0.8578,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:45 UTC",
+   "market_prob": 0.8578,
+   "prob": 0.8428,
+   "pre_research": 0.8578,
+   "research": [
+    "weather fine (wind 2.6 mph, rain 0%)",
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.015,
+   "raw_prob": 0.8428,
+   "v1_prob": 0.8428,
+   "v2_prob": 0.9143,
+   "v2_src": "Pinnacle: Pinnacle total 2.25 extrapolated",
+   "sharp_prob": 0.9143,
+   "sharp_edge": 0.0143,
+   "why": "FanDuel no-vig 85.8% -> est. 84.3% (edge -1.5 pts); research -1.5 pts: weather fine (wind 2.6 mph, rain 0%); low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.193040355",
+   "fd_selection_id": "1221386",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193040355&selectionId%5B0%5D=1221386",
+   "fd_region": "PA"
+  },
+  "401874969:1221386:742.193040823": {
+   "kind": "total",
+   "ou": "over",
+   "line": 1.5,
+   "id": "401874969:1221386:742.193040823",
+   "event": "401874969",
+   "sport": "ita.1",
+   "game": "Atalanta at Fiorentina",
+   "start": "2026-10-29T19:45Z",
+   "market": "Over/Under 1.5 Goals",
+   "pick": "Over 1.5 Goals",
+   "odds": -590,
+   "fd_prob": 0.8135,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:45 UTC",
+   "market_prob": 0.8135,
+   "prob": 0.7985,
+   "pre_research": 0.8135,
+   "research": [
+    "weather fine (wind 3.3 mph, rain 0%)",
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.015,
+   "raw_prob": 0.7985,
+   "v1_prob": 0.7985,
+   "v2_prob": 0.9171,
+   "v2_src": "Pinnacle: Pinnacle total 2 extrapolated",
+   "sharp_prob": 0.9171,
+   "sharp_edge": 0.062,
+   "why": "FanDuel no-vig 81.3% -> est. 79.8% (edge -1.5 pts); research -1.5 pts: weather fine (wind 3.3 mph, rain 0%); low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.193040823",
+   "fd_selection_id": "1221386",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193040823&selectionId%5B0%5D=1221386",
+   "fd_region": "PA"
+  },
   "401909892:7884402:742.194402565": {
    "kind": "spread",
    "side": "home",
@@ -60,162 +130,6 @@
    "fd_market_id": "742.194402565",
    "fd_selection_id": "7884402",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194402565&selectionId%5B0%5D=7884402",
-   "fd_region": "PA"
-  },
-  "401874976:1221386:742.193040355": {
-   "kind": "total",
-   "ou": "over",
-   "line": 1.5,
-   "id": "401874976:1221386:742.193040355",
-   "event": "401874976",
-   "sport": "ita.1",
-   "game": "Lecce at Frosinone",
-   "start": "2026-10-29T17:30Z",
-   "market": "Over/Under 1.5 Goals",
-   "pick": "Over 1.5 Goals",
-   "odds": -900,
-   "fd_prob": 0.8578,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:33 UTC",
-   "market_prob": 0.8578,
-   "prob": 0.8428,
-   "pre_research": 0.8578,
-   "research": [
-    "weather fine (wind 2.6 mph, rain 0%)",
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
-   ],
-   "research_adj": -0.015,
-   "raw_prob": 0.8428,
-   "v1_prob": 0.8428,
-   "v2_prob": 0.9146,
-   "v2_src": "Pinnacle: Pinnacle total 2.25 extrapolated",
-   "sharp_prob": 0.9146,
-   "sharp_edge": 0.0146,
-   "why": "FanDuel no-vig 85.8% -> est. 84.3% (edge -1.5 pts); research -1.5 pts: weather fine (wind 2.6 mph, rain 0%); low-scoring sport, one goal decides line (-1.5 volatility)",
-   "fd_market_id": "742.193040355",
-   "fd_selection_id": "1221386",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193040355&selectionId%5B0%5D=1221386",
-   "fd_region": "PA"
-  },
-  "401874969:1221386:742.193040823": {
-   "kind": "total",
-   "ou": "over",
-   "line": 1.5,
-   "id": "401874969:1221386:742.193040823",
-   "event": "401874969",
-   "sport": "ita.1",
-   "game": "Atalanta at Fiorentina",
-   "start": "2026-10-29T19:45Z",
-   "market": "Over/Under 1.5 Goals",
-   "pick": "Over 1.5 Goals",
-   "odds": -590,
-   "fd_prob": 0.8135,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:33 UTC",
-   "market_prob": 0.8135,
-   "prob": 0.7985,
-   "pre_research": 0.8135,
-   "research": [
-    "weather fine (wind 3.3 mph, rain 0%)",
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
-   ],
-   "research_adj": -0.015,
-   "raw_prob": 0.7985,
-   "v1_prob": 0.7985,
-   "v2_prob": 0.9171,
-   "v2_src": "Pinnacle: Pinnacle total 2 extrapolated",
-   "sharp_prob": 0.9171,
-   "sharp_edge": 0.062,
-   "why": "FanDuel no-vig 81.3% -> est. 79.8% (edge -1.5 pts); research -1.5 pts: weather fine (wind 3.3 mph, rain 0%); low-scoring sport, one goal decides line (-1.5 volatility)",
-   "fd_market_id": "742.193040823",
-   "fd_selection_id": "1221386",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193040823&selectionId%5B0%5D=1221386",
-   "fd_region": "PA"
-  },
-  "761917:1222347:742.193731464": {
-   "kind": "total",
-   "ou": "under",
-   "line": 4.5,
-   "id": "761917:1222347:742.193731464",
-   "event": "761917",
-   "sport": "usa.1",
-   "game": "Colorado Rapids at San Jose Earthquakes",
-   "start": "2026-10-29T02:30Z",
-   "market": "Over/Under 4.5 Goals",
-   "pick": "Under 4.5 Goals",
-   "odds": -590,
-   "fd_prob": 0.8135,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36236369, fetched 2026-10-29 02:33 UTC",
-   "market_prob": 0.8135,
-   "prob": 0.8135,
-   "pre_research": 0.8135,
-   "research": [
-    "research: game started or no data"
-   ],
-   "research_adj": 0,
-   "raw_prob": 0.8135,
-   "v1_prob": 0.8135,
-   "fd_market_id": "742.193731464",
-   "fd_selection_id": "1222347",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193731464&selectionId%5B0%5D=1222347",
-   "fd_region": "PA"
-  },
-  "761916:1221386:742.193740289": {
-   "kind": "total",
-   "ou": "over",
-   "line": 1.5,
-   "id": "761916:1221386:742.193740289",
-   "event": "761916",
-   "sport": "usa.1",
-   "game": "Houston Dynamo FC at Seattle Sounders FC",
-   "start": "2026-10-29T02:30Z",
-   "market": "Over/Under 1.5 Goals",
-   "pick": "Over 1.5 Goals",
-   "odds": -550,
-   "fd_prob": 0.8057,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36236595, fetched 2026-10-29 02:33 UTC",
-   "market_prob": 0.8057,
-   "prob": 0.8057,
-   "pre_research": 0.8057,
-   "research": [
-    "research: game started or no data"
-   ],
-   "research_adj": 0,
-   "raw_prob": 0.8057,
-   "v1_prob": 0.8057,
-   "fd_market_id": "742.193740289",
-   "fd_selection_id": "1221386",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193740289&selectionId%5B0%5D=1221386",
-   "fd_region": "PA"
-  },
-  "761918:13130798:742.193739845": {
-   "kind": "dc",
-   "side": "home",
-   "id": "761918:13130798:742.193739845",
-   "event": "761918",
-   "sport": "usa.1",
-   "game": "San Diego FC at Vancouver Whitecaps",
-   "start": "2026-10-29T02:30Z",
-   "market": "Double Chance",
-   "pick": "Vancouver Whitecaps And Draw",
-   "odds": -650,
-   "fd_prob": 0.814,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36236590, fetched 2026-10-29 02:33 UTC",
-   "market_prob": 0.814,
-   "prob": 0.814,
-   "pre_research": 0.814,
-   "research": [
-    "research: game started or no data"
-   ],
-   "research_adj": 0,
-   "raw_prob": 0.814,
-   "v1_prob": 0.814,
-   "fd_market_id": "742.193739845",
-   "fd_selection_id": "13130798",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193739845&selectionId%5B0%5D=13130798",
    "fd_region": "PA"
   },
   "401909890:7921023:742.194402162": {
@@ -330,7 +244,7 @@
    "odds": 200,
    "fd_prob": 0.3134,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:33 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:45 UTC",
    "market_prob": 0.3134,
    "prob": 0.319,
    "pre_research": 0.3134,
@@ -366,7 +280,7 @@
    "odds": -150,
    "fd_prob": 0.5621,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:33 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:45 UTC",
    "market_prob": 0.5621,
    "prob": 0.5577,
    "pre_research": 0.5621,
@@ -380,10 +294,10 @@
    "research_adj": -0.0044,
    "raw_prob": 0.5577,
    "v1_prob": 0.5577,
-   "v2_prob": 0.5866,
+   "v2_prob": 0.5851,
    "v2_src": "Pinnacle: Pinnacle moneyline de-vig",
-   "sharp_prob": 0.5866,
-   "sharp_edge": -0.0134,
+   "sharp_prob": 0.5851,
+   "sharp_edge": -0.0149,
    "why": "FanDuel no-vig 56.2% -> est. 55.8% (edge -0.4 pts); research -0.4 pts: rest 4.1d vs 4.0d; travel 335 mi since last game; form 4-2-2 last 8, avg margin +0.5 vs 3-5 last 8, avg margin -0.6; form edge (+0.6); FanDuel price moved against us -165 -> -150 (-1.0)",
    "fd_market_id": "742.193040372",
    "fd_selection_id": "924268",
@@ -445,12 +359,7 @@
   }
  ],
  "best": null,
- "started": [
-  "401909892:7884402:742.194402565",
-  "761917:1222347:742.193731464",
-  "761916:1221386:742.193740289",
-  "761918:13130798:742.193739845"
- ],
+ "started": [],
  "games": [
   {
    "id": "401871058",
@@ -458,7 +367,7 @@
    "name": "Kennesaw State Owls at Middle Tennessee Blue Raiders",
    "start": "2026-10-28T23:00Z",
    "state": "in",
-   "status": "2:00 - 4th",
+   "status": "0:45 - 4th",
    "venue": "Johnny \"Red\" Floyd Stadium",
    "indoor": false,
    "city": {
@@ -468,8 +377,8 @@
    },
    "espn_wx": {
     "displayValue": "33",
-    "temperature": 63,
-    "highTemperature": 63,
+    "temperature": 59,
+    "highTemperature": 59,
     "conditionId": "Clear",
     "link": {
      "language": "en-US",
@@ -490,7 +399,7 @@
     "home": {
      "name": "Middle Tennessee Blue Raiders",
      "short": "MTSU",
-     "score": "20",
+     "score": "28",
      "winner": null,
      "record": "4-3",
      "ml_open": null,
@@ -503,7 +412,7 @@
     "away": {
      "name": "Kennesaw State Owls",
      "short": "Kennesaw St",
-     "score": "41",
+     "score": "44",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -521,7 +430,7 @@
    "name": "Jacksonville State Gamecocks at New Mexico State Aggies",
    "start": "2026-10-29T00:00Z",
    "state": "in",
-   "status": "End of 3rd",
+   "status": "8:52 - 4th",
    "venue": "Aggie Memorial Stadium",
    "indoor": false,
    "city": {
@@ -813,8 +722,8 @@
    "sport": "nba",
    "name": "New York Knicks at Chicago Bulls",
    "start": "2026-10-29T00:00Z",
-   "state": "in",
-   "status": "6.2 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "United Center",
    "indoor": true,
    "city": {
@@ -830,27 +739,27 @@
      "name": "Chicago Bulls",
      "short": "Bulls",
      "score": "127",
-     "winner": null,
-     "record": "1-3",
+     "winner": false,
+     "record": "1-4",
      "ml_open": null,
      "ml": null,
      "tid": "4",
      "abbr": "CHI",
-     "home_rec": "0-1",
+     "home_rec": "0-2",
      "road_rec": "1-2"
     },
     "away": {
      "name": "New York Knicks",
      "short": "Knicks",
-     "score": "130",
-     "winner": null,
-     "record": "1-3",
+     "score": "133",
+     "winner": true,
+     "record": "2-3",
      "ml_open": null,
      "ml": null,
      "tid": "18",
      "abbr": "NY",
      "home_rec": "1-2",
-     "road_rec": "0-1"
+     "road_rec": "1-1"
     }
    }
   },
@@ -905,8 +814,8 @@
    "sport": "nba",
    "name": "Golden State Warriors at Minnesota Timberwolves",
    "start": "2026-10-29T00:00Z",
-   "state": "in",
-   "status": "2:16 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Target Center",
    "indoor": true,
    "city": {
@@ -921,28 +830,28 @@
     "home": {
      "name": "Minnesota Timberwolves",
      "short": "Timberwolves",
-     "score": "104",
-     "winner": null,
-     "record": "3-1",
+     "score": "114",
+     "winner": false,
+     "record": "3-2",
      "ml_open": null,
      "ml": null,
      "tid": "16",
      "abbr": "MIN",
-     "home_rec": "1-0",
+     "home_rec": "1-1",
      "road_rec": "2-1"
     },
     "away": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "115",
-     "winner": null,
-     "record": "1-3",
+     "score": "119",
+     "winner": true,
+     "record": "2-3",
      "ml_open": null,
      "ml": null,
      "tid": "9",
      "abbr": "GS",
      "home_rec": "0-1",
-     "road_rec": "1-2"
+     "road_rec": "2-2"
     }
    }
   },
@@ -998,7 +907,7 @@
    "name": "San Antonio Spurs at Utah Jazz",
    "start": "2026-10-29T01:00Z",
    "state": "in",
-   "status": "7:09 - 3rd",
+   "status": "2:52 - 3rd",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -1013,7 +922,7 @@
     "home": {
      "name": "Utah Jazz",
      "short": "Jazz",
-     "score": "68",
+     "score": "78",
      "winner": null,
      "record": "1-3",
      "ml_open": null,
@@ -1026,7 +935,7 @@
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "66",
+     "score": "74",
      "winner": null,
      "record": "2-2",
      "ml_open": null,
@@ -1044,7 +953,7 @@
    "name": "Oklahoma City Thunder at Dallas Mavericks",
    "start": "2026-10-29T01:30Z",
    "state": "in",
-   "status": "5:00 - 2nd",
+   "status": "5.9 - 2nd",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -1059,7 +968,7 @@
     "home": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "54",
+     "score": "64",
      "winner": null,
      "record": "2-2",
      "ml_open": null,
@@ -1072,7 +981,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "42",
+     "score": "59",
      "winner": null,
      "record": "4-0",
      "ml_open": null,
@@ -1090,7 +999,7 @@
    "name": "Los Angeles Lakers at LA Clippers",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "10/28 - 10:30 PM EDT",
+   "status": "8:48 - 1st",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -1098,18 +1007,18 @@
     "state": "CA"
    },
    "espn_wx": null,
-   "line": "LAC -1.5",
-   "total": 224.5,
-   "book": "Draft Kings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "0",
+     "score": "2",
      "winner": null,
      "record": "1-2",
-     "ml_open": "+164",
-     "ml": "-112",
+     "ml_open": null,
+     "ml": null,
      "tid": "12",
      "abbr": "LAC",
      "home_rec": "1-0",
@@ -1118,18 +1027,17 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "0",
+     "score": "5",
      "winner": null,
      "record": "3-1",
-     "ml_open": "-198",
-     "ml": "-108",
+     "ml_open": null,
+     "ml": null,
      "tid": "13",
      "abbr": "LAL",
      "home_rec": "2-1",
      "road_rec": "1-0"
     }
-   },
-   "espn_hs": -1.5
+   }
   },
   {
    "id": "401892596",
@@ -1184,7 +1092,7 @@
    "name": "Calgary Flames at Edmonton Oilers",
    "start": "2026-10-29T00:30Z",
    "state": "in",
-   "status": "20:00 - 3rd",
+   "status": "15:19 - 3rd",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -1200,7 +1108,7 @@
     "home": {
      "name": "Edmonton Oilers",
      "short": "Oilers",
-     "score": "2",
+     "score": "4",
      "winner": null,
      "record": "8-2-2",
      "ml_open": null,
@@ -1231,7 +1139,7 @@
    "name": "New Jersey Devils at Colorado Avalanche",
    "start": "2026-10-29T01:00Z",
    "state": "in",
-   "status": "4:29 - 2nd",
+   "status": "End of 2nd",
    "venue": "Ball Arena",
    "indoor": true,
    "city": {
@@ -1278,7 +1186,7 @@
    "name": "Toronto Maple Leafs at Seattle Kraken",
    "start": "2026-10-29T02:00Z",
    "state": "in",
-   "status": "6:09 - 1st",
+   "status": "End of 1st",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -1307,7 +1215,7 @@
     "away": {
      "name": "Toronto Maple Leafs",
      "short": "Maple Leafs",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "7-5-2",
      "ml_open": null,
@@ -1325,7 +1233,7 @@
    "name": "Milwaukee Brewers at Tampa Bay Rays",
    "start": "2026-10-29T00:00Z",
    "state": "in",
-   "status": "Bot 7th",
+   "status": "Top 8th",
    "venue": "Tropicana Field",
    "indoor": true,
    "city": {
@@ -1333,10 +1241,10 @@
     "state": "Florida"
    },
    "espn_wx": {
-    "displayValue": "35",
+    "displayValue": "38",
     "temperature": 76,
     "highTemperature": 76,
-    "conditionId": "Partly cloudy",
+    "conditionId": "Mostly cloudy",
     "link": {
      "language": "en-US",
      "rel": [
@@ -1938,8 +1846,8 @@
    "sport": "usa.1",
    "name": "Real Salt Lake at Austin FC",
    "start": "2026-10-29T00:30Z",
-   "state": "in",
-   "status": "90'+7'",
+   "state": "post",
+   "status": "FT",
    "venue": "Q2 Stadium",
    "indoor": null,
    "city": {
@@ -1947,18 +1855,18 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "RSL +100",
-   "total": 3.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "Austin FC",
      "short": "Austin",
      "score": "1",
      "winner": false,
-     "record": "8-10-13",
-     "ml_open": "+160",
-     "ml": "+220",
+     "record": "8-10-14",
+     "ml_open": null,
+     "ml": null,
      "tid": "20906",
      "abbr": "ATX",
      "home_rec": null,
@@ -1968,10 +1876,10 @@
      "name": "Real Salt Lake",
      "short": "Salt Lake",
      "score": "2",
-     "winner": false,
-     "record": "11-6-14",
-     "ml_open": "+135",
-     "ml": "+100",
+     "winner": true,
+     "record": "12-6-14",
+     "ml_open": null,
+     "ml": null,
      "tid": "4771",
      "abbr": "RSL",
      "home_rec": null,
@@ -1984,8 +1892,8 @@
    "sport": "usa.1",
    "name": "Orlando City SC at Chicago Fire FC",
    "start": "2026-10-29T00:30Z",
-   "state": "in",
-   "status": "90'+2'",
+   "state": "post",
+   "status": "FT",
    "venue": "Soldier Field",
    "indoor": null,
    "city": {
@@ -1993,18 +1901,18 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "CHI -220",
-   "total": 4.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "Chicago Fire FC",
      "short": "Chicago",
      "score": "2",
      "winner": false,
-     "record": "15-6-10",
-     "ml_open": "-170",
-     "ml": "-220",
+     "record": "15-7-10",
+     "ml_open": null,
+     "ml": null,
      "tid": "182",
      "abbr": "CHI",
      "home_rec": null,
@@ -2015,9 +1923,9 @@
      "short": "Orlando",
      "score": "2",
      "winner": false,
-     "record": "12-6-13",
-     "ml_open": "+320",
-     "ml": "+400",
+     "record": "12-7-13",
+     "ml_open": null,
+     "ml": null,
      "tid": "12011",
      "abbr": "ORL",
      "home_rec": null,
@@ -2030,8 +1938,8 @@
    "sport": "usa.1",
    "name": "Columbus Crew at FC Dallas",
    "start": "2026-10-29T00:30Z",
-   "state": "in",
-   "status": "90'+4'",
+   "state": "post",
+   "status": "FT",
    "venue": "Toyota Stadium",
    "indoor": null,
    "city": {
@@ -2039,18 +1947,18 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "DAL +120",
-   "total": 3.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "FC Dallas",
      "short": "Dallas",
      "score": "0",
      "winner": false,
-     "record": "15-9-7",
-     "ml_open": "+110",
-     "ml": "+120",
+     "record": "15-9-8",
+     "ml_open": null,
+     "ml": null,
      "tid": "185",
      "abbr": "DAL",
      "home_rec": null,
@@ -2060,10 +1968,10 @@
      "name": "Columbus Crew",
      "short": "Columbus",
      "score": "2",
-     "winner": false,
-     "record": "11-5-15",
-     "ml_open": "+195",
-     "ml": "+180",
+     "winner": true,
+     "record": "12-5-15",
+     "ml_open": null,
+     "ml": null,
      "tid": "183",
      "abbr": "CLB",
      "home_rec": null,
@@ -2076,8 +1984,8 @@
    "sport": "usa.1",
    "name": "Sporting Kansas City at Minnesota United FC",
    "start": "2026-10-29T00:30Z",
-   "state": "in",
-   "status": "90'+3'",
+   "state": "post",
+   "status": "FT",
    "venue": "Allianz Field",
    "indoor": null,
    "city": {
@@ -2085,18 +1993,18 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "MIN -250",
-   "total": 3.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "Minnesota United FC",
      "short": "Minnesota",
      "score": "3",
-     "winner": false,
-     "record": "8-11-12",
-     "ml_open": "-235",
-     "ml": "-250",
+     "winner": true,
+     "record": "9-11-12",
+     "ml_open": null,
+     "ml": null,
      "tid": "17362",
      "abbr": "MIN",
      "home_rec": null,
@@ -2107,9 +2015,9 @@
      "short": "Kansas City",
      "score": "1",
      "winner": false,
-     "record": "6-4-21",
-     "ml_open": "+450",
-     "ml": "+500",
+     "record": "6-4-22",
+     "ml_open": null,
+     "ml": null,
      "tid": "186",
      "abbr": "SKC",
      "home_rec": null,
@@ -2122,8 +2030,8 @@
    "sport": "usa.1",
    "name": "Philadelphia Union at Nashville SC",
    "start": "2026-10-29T00:30Z",
-   "state": "in",
-   "status": "90'+4'",
+   "state": "post",
+   "status": "FT",
    "venue": "GEODIS Park",
    "indoor": null,
    "city": {
@@ -2131,18 +2039,18 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "NSH -105",
-   "total": 2.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "Nashville SC",
      "short": "Nashville",
      "score": "0",
      "winner": false,
-     "record": "21-7-3",
-     "ml_open": "-115",
-     "ml": "-105",
+     "record": "21-8-3",
+     "ml_open": null,
+     "ml": null,
      "tid": "18986",
      "abbr": "NSH",
      "home_rec": null,
@@ -2153,9 +2061,9 @@
      "short": "Philadelphia",
      "score": "0",
      "winner": false,
-     "record": "13-7-11",
-     "ml_open": "+250",
-     "ml": "+255",
+     "record": "13-8-11",
+     "ml_open": null,
+     "ml": null,
      "tid": "10739",
      "abbr": "PHI",
      "home_rec": null,
@@ -2168,8 +2076,8 @@
    "sport": "usa.1",
    "name": "Portland Timbers at St. Louis CITY SC",
    "start": "2026-10-29T00:30Z",
-   "state": "in",
-   "status": "90'+2'",
+   "state": "post",
+   "status": "FT",
    "venue": "Energizer Park",
    "indoor": null,
    "city": {
@@ -2177,18 +2085,18 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "STL -110",
-   "total": 3.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "St. Louis CITY SC",
      "short": "St. Louis",
-     "score": "1",
+     "score": "2",
      "winner": false,
-     "record": "14-9-8",
-     "ml_open": "-160",
-     "ml": "-110",
+     "record": "14-9-9",
+     "ml_open": null,
+     "ml": null,
      "tid": "21812",
      "abbr": "STL",
      "home_rec": null,
@@ -2198,10 +2106,10 @@
      "name": "Portland Timbers",
      "short": "Portland",
      "score": "3",
-     "winner": false,
-     "record": "10-7-14",
-     "ml_open": "+320",
-     "ml": "+240",
+     "winner": true,
+     "record": "11-7-14",
+     "ml_open": null,
+     "ml": null,
      "tid": "9723",
      "abbr": "POR",
      "home_rec": null,
@@ -2215,7 +2123,7 @@
    "name": "Colorado Rapids at San Jose Earthquakes",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "Scheduled",
+   "status": "5'",
    "venue": "PayPal Park",
    "indoor": null,
    "city": {
@@ -2223,9 +2131,9 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": null,
-   "total": null,
-   "book": null,
+   "line": "SJ +115",
+   "total": 2.5,
+   "book": "DraftKings",
    "teams": {
     "home": {
      "name": "San Jose Earthquakes",
@@ -2233,8 +2141,8 @@
      "score": "0",
      "winner": false,
      "record": "13-9-9",
-     "ml_open": null,
-     "ml": null,
+     "ml_open": "+110",
+     "ml": "+115",
      "tid": "191",
      "abbr": "SJ",
      "home_rec": null,
@@ -2246,8 +2154,8 @@
      "score": "0",
      "winner": false,
      "record": "12-6-13",
-     "ml_open": null,
-     "ml": null,
+     "ml_open": "+205",
+     "ml": "+200",
      "tid": "184",
      "abbr": "COL",
      "home_rec": null,
@@ -2261,7 +2169,7 @@
    "name": "Houston Dynamo FC at Seattle Sounders FC",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "Scheduled",
+   "status": "5'",
    "venue": "Lumen Field",
    "indoor": null,
    "city": {
@@ -2269,9 +2177,9 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": null,
-   "total": null,
-   "book": null,
+   "line": "SEA -160",
+   "total": 2.5,
+   "book": "DraftKings",
    "teams": {
     "home": {
      "name": "Seattle Sounders FC",
@@ -2279,8 +2187,8 @@
      "score": "0",
      "winner": false,
      "record": "11-10-10",
-     "ml_open": null,
-     "ml": null,
+     "ml_open": "-120",
+     "ml": "-160",
      "tid": "9726",
      "abbr": "SEA",
      "home_rec": null,
@@ -2292,8 +2200,8 @@
      "score": "0",
      "winner": false,
      "record": "13-9-9",
-     "ml_open": null,
-     "ml": null,
+     "ml_open": "+275",
+     "ml": "+380",
      "tid": "6077",
      "abbr": "HOU",
      "home_rec": null,
@@ -2307,7 +2215,7 @@
    "name": "San Diego FC at Vancouver Whitecaps",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "Scheduled",
+   "status": "5'",
    "venue": "BC Place",
    "indoor": null,
    "city": {
@@ -2315,9 +2223,9 @@
     "country": "Canada"
    },
    "espn_wx": null,
-   "line": null,
-   "total": null,
-   "book": null,
+   "line": "VAN -190",
+   "total": 3.5,
+   "book": "DraftKings",
    "teams": {
     "home": {
      "name": "Vancouver Whitecaps",
@@ -2325,8 +2233,8 @@
      "score": "0",
      "winner": false,
      "record": "16-7-8",
-     "ml_open": null,
-     "ml": null,
+     "ml_open": "-240",
+     "ml": "-190",
      "tid": "9727",
      "abbr": "VAN",
      "home_rec": null,
@@ -2338,8 +2246,8 @@
      "score": "0",
      "winner": false,
      "record": "8-11-12",
-     "ml_open": null,
-     "ml": null,
+     "ml_open": "+450",
+     "ml": "+380",
      "tid": "22529",
      "abbr": "SD",
      "home_rec": null,
@@ -3048,7 +2956,7 @@
  "weather": [
   {
    "g": "Kennesaw State Owls at Middle Tennessee Blue Raiders",
-   "w": "33, 63F",
+   "w": "33, 59F",
    "src": "ESPN/AccuWeather"
   },
   {
@@ -3093,35 +3001,21 @@
   },
   {
    "g": "Colorado Rapids at San Jose Earthquakes",
-   "w": "59.1F, wind 3.2 mph, rain 0%",
+   "w": "59.9F, wind 2.9 mph, rain 0%",
    "src": "open-meteo"
   },
   {
    "g": "Houston Dynamo FC at Seattle Sounders FC",
-   "w": "47.7F, wind 7.9 mph, rain 22%",
+   "w": "45.4F, wind 8.5 mph, rain 22%",
    "src": "open-meteo"
   },
   {
    "g": "San Diego FC at Vancouver Whitecaps",
-   "w": "43.7F, wind 5.8 mph, rain 14%",
+   "w": "42.9F, wind 6.5 mph, rain 14%",
    "src": "open-meteo"
   }
  ],
  "moves": [
-  {
-   "g": "Los Angeles Lakers at LA Clippers",
-   "team": "LA Clippers",
-   "open": "+164",
-   "now": "-112",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Los Angeles Lakers at LA Clippers",
-   "team": "Los Angeles Lakers",
-   "open": "-198",
-   "now": "-108",
-   "src": "ESPN/DraftKings"
-  },
   {
    "g": "Lecce at Frosinone",
    "team": "Frosinone",
@@ -3144,138 +3038,75 @@
    "src": "ESPN/DraftKings"
   },
   {
-   "g": "Real Salt Lake at Austin FC",
-   "team": "Austin FC",
-   "open": "+160",
-   "now": "+220",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Real Salt Lake at Austin FC",
-   "team": "Real Salt Lake",
-   "open": "+135",
-   "now": "+100",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Orlando City SC at Chicago Fire FC",
-   "team": "Chicago Fire FC",
-   "open": "-170",
-   "now": "-220",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Orlando City SC at Chicago Fire FC",
-   "team": "Orlando City SC",
-   "open": "+320",
-   "now": "+400",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Columbus Crew at FC Dallas",
-   "team": "FC Dallas",
+   "g": "Colorado Rapids at San Jose Earthquakes",
+   "team": "San Jose Earthquakes",
    "open": "+110",
-   "now": "+120",
+   "now": "+115",
    "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Columbus Crew at FC Dallas",
-   "team": "Columbus Crew",
-   "open": "+195",
-   "now": "+180",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Sporting Kansas City at Minnesota United FC",
-   "team": "Minnesota United FC",
-   "open": "-235",
-   "now": "-250",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Sporting Kansas City at Minnesota United FC",
-   "team": "Sporting Kansas City",
-   "open": "+450",
-   "now": "+500",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Philadelphia Union at Nashville SC",
-   "team": "Nashville SC",
-   "open": "-115",
-   "now": "-105",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Philadelphia Union at Nashville SC",
-   "team": "Philadelphia Union",
-   "open": "+250",
-   "now": "+255",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Portland Timbers at St. Louis CITY SC",
-   "team": "St. Louis CITY SC",
-   "open": "-160",
-   "now": "-110",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Portland Timbers at St. Louis CITY SC",
-   "team": "Portland Timbers",
-   "open": "+320",
-   "now": "+240",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "Los Angeles Lakers at LA Clippers",
-   "team": "Los Angeles Lakers +16.5",
-   "open": -950,
-   "now": -1000,
-   "src": "FanDuel (since first snapshot)"
   },
   {
    "g": "Colorado Rapids at San Jose Earthquakes",
-   "team": "Under 4.5 Goals",
-   "open": -550,
-   "now": -590,
-   "src": "FanDuel (since first snapshot)"
+   "team": "Colorado Rapids",
+   "open": "+205",
+   "now": "+200",
+   "src": "ESPN/DraftKings"
+  },
+  {
+   "g": "Houston Dynamo FC at Seattle Sounders FC",
+   "team": "Seattle Sounders FC",
+   "open": "-120",
+   "now": "-160",
+   "src": "ESPN/DraftKings"
+  },
+  {
+   "g": "Houston Dynamo FC at Seattle Sounders FC",
+   "team": "Houston Dynamo FC",
+   "open": "+275",
+   "now": "+380",
+   "src": "ESPN/DraftKings"
   },
   {
    "g": "San Diego FC at Vancouver Whitecaps",
-   "team": "Vancouver Whitecaps And Draw",
-   "open": -800,
-   "now": -650,
-   "src": "FanDuel (since first snapshot)"
+   "team": "Vancouver Whitecaps",
+   "open": "-240",
+   "now": "-190",
+   "src": "ESPN/DraftKings"
+  },
+  {
+   "g": "San Diego FC at Vancouver Whitecaps",
+   "team": "San Diego FC",
+   "open": "+450",
+   "now": "+380",
+   "src": "ESPN/DraftKings"
   }
  ],
  "stats": {
-  "updated": "2026-10-29 02:33 UTC",
-  "graded_legs": 405,
+  "updated": "2026-10-29 02:45 UTC",
+  "graded_legs": 433,
   "calibration": {
    "85-90%": {
-    "n": 102,
-    "wins": 91,
+    "n": 113,
+    "wins": 100,
     "pred": 0.875,
-    "hit": 0.892
+    "hit": 0.885
    },
    "75-80%": {
-    "n": 39,
-    "wins": 32,
-    "pred": 0.787,
-    "hit": 0.821
+    "n": 42,
+    "wins": 34,
+    "pred": 0.786,
+    "hit": 0.81
    },
    "80-85%": {
-    "n": 61,
-    "wins": 51,
+    "n": 66,
+    "wins": 55,
     "pred": 0.822,
-    "hit": 0.836
+    "hit": 0.833
    },
    "65-70%": {
-    "n": 9,
-    "wins": 4,
-    "pred": 0.678,
-    "hit": 0.444
+    "n": 11,
+    "wins": 5,
+    "pred": 0.677,
+    "hit": 0.455
    },
    "90-95%": {
     "n": 54,
@@ -3296,22 +3127,22 @@
     "hit": 0.889
    },
    "40-45%": {
-    "n": 8,
-    "wins": 5,
-    "pred": 0.433,
-    "hit": 0.625
+    "n": 9,
+    "wins": 6,
+    "pred": 0.434,
+    "hit": 0.667
    },
    "45-50%": {
-    "n": 7,
+    "n": 8,
     "wins": 4,
-    "pred": 0.481,
-    "hit": 0.571
+    "pred": 0.482,
+    "hit": 0.5
    },
    "25-30%": {
-    "n": 14,
-    "wins": 3,
-    "pred": 0.279,
-    "hit": 0.214
+    "n": 15,
+    "wins": 4,
+    "pred": 0.277,
+    "hit": 0.267
    },
    "60-65%": {
     "n": 9,
@@ -3320,16 +3151,16 @@
     "hit": 0.333
    },
    "30-35%": {
-    "n": 6,
-    "wins": 4,
+    "n": 7,
+    "wins": 5,
     "pred": 0.319,
-    "hit": 0.667
+    "hit": 0.714
    },
    "20-25%": {
-    "n": 12,
+    "n": 14,
     "wins": 3,
-    "pred": 0.234,
-    "hit": 0.25
+    "pred": 0.236,
+    "hit": 0.214
    },
    "35-40%": {
     "n": 13,
@@ -3338,10 +3169,10 @@
     "hit": 0.154
    },
    "55-60%": {
-    "n": 4,
+    "n": 5,
     "wins": 2,
-    "pred": 0.562,
-    "hit": 0.5
+    "pred": 0.561,
+    "hit": 0.4
    },
    "50-55%": {
     "n": 3,
@@ -3352,10 +3183,10 @@
   },
   "by_sport": {
    "usa.1": {
-    "n": 28,
-    "wins": 23,
-    "pred": 0.756,
-    "hit": 0.821
+    "n": 43,
+    "wins": 32,
+    "pred": 0.696,
+    "hit": 0.744
    },
    "college-football": {
     "n": 23,
@@ -3364,10 +3195,10 @@
     "hit": 0.957
    },
    "nba": {
-    "n": 173,
-    "wins": 141,
+    "n": 186,
+    "wins": 151,
     "pred": 0.858,
-    "hit": 0.815
+    "hit": 0.812
    },
    "nhl": {
     "n": 83,
@@ -3414,22 +3245,22 @@
   },
   "by_market": {
    "total": {
-    "n": 174,
-    "wins": 136,
-    "pred": 0.834,
-    "hit": 0.782
+    "n": 186,
+    "wins": 144,
+    "pred": 0.832,
+    "hit": 0.774
    },
    "spread": {
-    "n": 168,
-    "wins": 133,
-    "pred": 0.805,
-    "hit": 0.792
+    "n": 174,
+    "wins": 139,
+    "pred": 0.806,
+    "hit": 0.799
    },
    "dc": {
-    "n": 20,
-    "wins": 16,
-    "pred": 0.791,
-    "hit": 0.8
+    "n": 22,
+    "wins": 17,
+    "pred": 0.794,
+    "hit": 0.773
    },
    "ml": {
     "n": 7,
@@ -3444,10 +3275,10 @@
     "hit": 0.8
    },
    "ml3": {
-    "n": 20,
-    "wins": 11,
-    "pred": 0.538,
-    "hit": 0.55
+    "n": 28,
+    "wins": 15,
+    "pred": 0.515,
+    "hit": 0.536
    },
    "prop": {
     "n": 11,
@@ -3457,15 +3288,15 @@
    }
   },
   "parlays": {
-   "graded": 164,
-   "won": 19,
-   "expected": 34.07,
-   "pending": 27,
+   "graded": 172,
+   "won": 20,
+   "expected": 35.35,
+   "pending": 19,
    "by_type": {
     "ladder": {
-     "graded": 103,
-     "won": 17,
-     "expected": 28.42
+     "graded": 108,
+     "won": 18,
+     "expected": 29.7
     },
     "best": {
      "graded": 3,
@@ -3473,7 +3304,7 @@
      "expected": 0.56
     },
     "lottery": {
-     "graded": 58,
+     "graded": 61,
      "won": 2,
      "expected": 5.04
     }
@@ -3489,10 +3320,10 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "favorites_record": {
-  "won": 6,
+  "won": 7,
   "lost": 12,
-  "pending": 4,
-  "win_pct": 0.333,
+  "pending": 3,
+  "win_pct": 0.368,
   "by_legs": {
    "2": {
     "won": 3,
@@ -3501,10 +3332,10 @@
     "win_pct": 0.75
    },
    "3": {
-    "won": 1,
+    "won": 2,
     "lost": 2,
-    "pending": 1,
-    "win_pct": 0.333
+    "pending": 0,
+    "win_pct": 0.5
    },
    "4": {
     "won": 2,
@@ -3611,7 +3442,7 @@
     "n": 3,
     "est_prob": 0.70086,
     "fd_payout_x": 1.34,
-    "result": null,
+    "result": "win",
     "source": "logged",
     "legs": [
      {
@@ -3624,13 +3455,13 @@
       "pick": "Chicago Bulls +22.5",
       "game": "New York Knicks at Chicago Bulls",
       "odds": -950,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Minnesota Timberwolves +12.5",
       "game": "Golden State Warriors at Minnesota Timberwolves",
       "odds": -950,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -4321,46 +4152,46 @@
   ]
  },
  "feature": null,
- "note": "323 FanDuel-priced candidates (dc, dnb, ml, ml3, prop, spread, total) across 6 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
+ "note": "26 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 1013,
-   "brier": 0.1556,
-   "logloss": 0.4948,
+   "n": 1093,
+   "brier": 0.1571,
+   "logloss": 0.4978,
    "picks": 302,
    "avg_clv_fd_pts": 0.05,
    "avg_clv_sharp_pts": 0.14,
-   "top_picks_graded": 237,
-   "top_picks_won": 205,
-   "top_picks_expected": 201.62,
-   "top_win_rate": 0.8649789029535865
+   "top_picks_graded": 254,
+   "top_picks_won": 218,
+   "top_picks_expected": 215.49,
+   "top_win_rate": 0.8582677165354331
   },
   "v2": {
-   "n": 1013,
-   "brier": 0.1544,
-   "logloss": 0.4879,
+   "n": 1093,
+   "brier": 0.1561,
+   "logloss": 0.4921,
    "picks": 113,
    "avg_clv_fd_pts": 0.3,
    "avg_clv_sharp_pts": 0.49,
-   "top_picks_graded": 91,
-   "top_picks_won": 74,
-   "top_picks_expected": 80.11,
-   "top_win_rate": 0.8131868131868132
+   "top_picks_graded": 99,
+   "top_picks_won": 82,
+   "top_picks_expected": 87.03,
+   "top_win_rate": 0.8282828282828283
   },
-  "graded": 1013,
+  "graded": 1093,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 1013,
-    "v2": 1013,
+    "v1": 1093,
+    "v2": 1093,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4948,
-    "v2": 0.4879,
+    "v1": 0.4978,
+    "v2": 0.4921,
     "pass": true
    },
    {
@@ -4377,14 +4208,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 237,
-    "v2": 91,
+    "v1": 254,
+    "v2": 99,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "205/237",
-    "v2": "74/91",
+    "v1": "218/254",
+    "v2": "82/99",
     "pass": false
    }
   ],
@@ -4415,17 +4246,17 @@
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
    "dropped": 12,
-   "of": 323,
+   "of": 26,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
     "Under 4.5 Goals (Atalanta at Fiorentina) -500: FanDuel implies 83.3% vs Pinnacle fair 75.4%",
-    "Lecce And Draw (Lecce at Frosinone) +110: FanDuel implies 47.6% vs Pinnacle fair 41.3%",
-    "Under 4.5 Goals (Lecce at Frosinone) -310: FanDuel implies 75.6% vs Pinnacle fair 69.3%",
+    "Under 4.5 Goals (Lecce at Frosinone) -310: FanDuel implies 75.6% vs Pinnacle fair 69.4%",
+    "Lecce And Draw (Lecce at Frosinone) +110: FanDuel implies 47.6% vs Pinnacle fair 41.5%",
     "Atalanta And Draw (Atalanta at Fiorentina) -170: FanDuel implies 63.0% vs Pinnacle fair 57.9%",
     "Fiorentina And Draw (Atalanta at Fiorentina) -270: FanDuel implies 73.0% vs Pinnacle fair 68.6%",
     "Under 3.5 Goals (Lecce at Frosinone) -130: FanDuel implies 56.5% vs Pinnacle fair 52.2%",
     "Frosinone And Draw (Lecce at Frosinone) -550: FanDuel implies 84.6% vs Pinnacle fair 80.5%",
-    "Under 2.5 Goals (Lecce at Frosinone) +198: FanDuel implies 33.6% vs Pinnacle fair 29.7%"
+    "Fiorentina And Atalanta (Atalanta at Fiorentina) -340: FanDuel implies 77.3% vs Pinnacle fair 73.5%"
    ]
   }
  },
