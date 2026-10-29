@@ -124,3 +124,9 @@ Pulls/replacements: none needed; no current leg is weakened by the news.
 Grading: nothing new since the 3 AM review (10-28 fully graded except one lottery that uses today's Serie A games).
 Patterns checked: NHL alt overs >=.75 in shadow 18/26 (69%) vs ~79% est, but main board 9/11; clustered on 10-27. Not clear enough to change; keep watching.
 Changes: none to the model. v1 stays live; v2 not proposed. Locked ladder tickets untouched.
+
+## 2026-10-29 3:00 PM ET intraday review
+Research (as of ~3:15 PM ET): Lecce @ Frosinone 3-0 at 74' (our Over 1.5 already cashed). Fiorentina-Atalanta (3:45 PM) official lineups out: Atalanta bench Scalvini and Rowe, Fiorentina start Pellegrino; no reason to change Over 1.5 (.83) or Atalanta ML (.35). NHL starters mostly confirmed: Skinner (WPG) vs Vasilevskiy, Silovs vs Vejmelka (expected), Greaves vs Kochetkov, Knight vs Gibson, Swayman vs Hofer, Thompson (WSH, 2nd night of back-to-back) vs Saros, Dobes vs Oettinger, Sorokin vs Wallstedt; Malkin and Chinakhov back for PIT. NBA 1 PM report: Poole downgraded to doubtful (NOP, ankle; NOP on a back-to-back), Tyson and Meleek Thomas (CLE) questionable, Sharpe out, POR two-ways questionable; NOP ML moved -192 to -238. Our Kings legs are +19.5 to +21.5 vs a ~6.5 spread and our unders sit 13-23 pts above the 235.5 total, and Poole out leans under. NFL: Keisean Nixon (GB CB) added as questionable today; Golden still questionable (already excluded from props); Bryce Young and Love fully available. No props on any doubtful/questionable player.
+Pulls/replacements: none; no current leg on any tab is weakened by the news.
+Grading: no games finished since 10:30 AM (Lecce-Frosinone ends ~3:25 PM ET and grades on the next refresh).
+Changes: none to the model; v1 stays live, v2 not proposed; locked ladder tickets untouched. Rebuilt and published via update.sh.
