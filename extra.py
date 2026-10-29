@@ -330,7 +330,8 @@ for g,L in raw:
   props.append(L)
 pcov['players_matched']=len({L['player'] for L in props}); pcov['props_scored']=len(props); pcov['excluded_injury']=sorted(excl_inj); pcov['unmatched_players']=len(nomatch)
 P_FLOOR,P_CEIL=-1000,150
-pp=[L for L in props if P_FLOOR<=L['odds']<=P_CEIL and L['prob']>=0.6 and L['prob']+L.get('haircut',0)-L['fd_prob']>=-0.02]  # FD-gap check before the haircut
+# 2026-10-29 review: rebound UNDERS hit 9/20 (45%) here and 22/42 in the NBA tab vs ~63% est even after the haircut - excluded.
+pp=[L for L in props if P_FLOOR<=L['odds']<=P_CEIL and L['prob']>=0.6 and L['prob']+L.get('haircut',0)-L['fd_prob']>=-0.02 and not(L['stat']=='totalRebounds' and L['ou']=='under')]  # FD-gap check before the haircut
 byp={}
 for L in pp:
   k=(L['event'],L['player'])
@@ -426,7 +427,7 @@ out={'updated':NOW,'live':{'legs':{L['id']:L for L in lpool},'all_legs':len(live
   'rule':f"One leg per live game: the highest-chance FanDuel PA in-play selection priced {LIVE_FLOOR} to +{LIVE_CEIL}. Chance = 50% FanDuel live no-vig price + 50% our score/clock model (pregame spread/total from ESPN, ESPN live win probability for NFL/NBA/college, Poisson goals for NHL/soccer). Legs are dropped if the price moved more than {MOVE*100:.0f} pts since the last refresh or if our model and FanDuel disagree by more than 12 pts (usually news we can't see: red card, injury, stale clock).",
   'stats':st('live')},
  'props':{'legs':{L['id']:L for L in ppool},'parlays':prop_tix,'coverage':pcov,
-  'rule':f"Pregame only. One leg per player (his highest-chance line priced {P_FLOOR} to +{P_CEIL}), at most 2 legs per game in a parlay, each leg in at most 5 tickets. Chance = 50% FanDuel no-vig price + 50% ESPN game-log hit rate (this season, plus last season's final 20 games at 40% weight, shrunk toward FanDuel when few games), then small adjustments: opponent points allowed (±3 pts max), NBA minutes trend, teammates out; rebounds lines -8 pts (unders -10) and made threes -3 pts, because those props have hit below estimate so far. Players listed Out/Doubtful/Questionable/Day-To-Day by ESPN are excluded. Only legs with est. chance ≥60% and not worse than FanDuel's own price by >2 pts.",
+  'rule':f"Pregame only. One leg per player (his highest-chance line priced {P_FLOOR} to +{P_CEIL}), at most 2 legs per game in a parlay, each leg in at most 5 tickets. Chance = 50% FanDuel no-vig price + 50% ESPN game-log hit rate (this season, plus last season's final 20 games at 40% weight, shrunk toward FanDuel when few games), then small adjustments: opponent points allowed (±3 pts max), NBA minutes trend, teammates out; rebounds overs -8 pts and made threes -3 pts, because those props have hit below estimate so far; rebound unders are excluded (they hit about 45% so far). Players listed Out/Doubtful/Questionable/Day-To-Day by ESPN are excluded. Only legs with est. chance ≥60% and not worse than FanDuel's own price by >2 pts.",
   'stats':st('props')}}
 json.dump(out,open('extra.json','w'),indent=1)
 print('live games',len(livegames),'matched',len(pairs),'live legs',len(live_legs),'pool',len(lpool),'| props scored',len(props),'pool',len(ppool),'tix',len(prop_tix),'excl inj',len(excl_inj))

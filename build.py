@@ -71,6 +71,10 @@ for lg,sp in SPORTS.items():
 G={g['id']:g for g in games}
 # ---------- FanDuel events ----------
 pages=[('CUSTOM','nfl'),('CUSTOM','nba'),('CUSTOM','nhl'),('CUSTOM','ncaaf'),('CUSTOM','mlb'),('SPORT','1')]
+# 2026-10-29 review: FD events are tagged with their page's sport and only matched to ESPN games of that sport
+# (an NBA Magic @ Raptors event had been matched to MLS D.C. United at Toronto FC on the shared word 'toronto').
+FDGRP={'nfl':'nfl','nba':'nba','nhl':'nhl','ncaaf':'college-football','mlb':'mlb','1':'soccer'}
+def ggrp(lg): return 'soccer' if SPORTS.get(lg)=='soccer' else lg
 fdev=[]
 for typ,pid in pages:
   q=f"page={typ}&"+(f"customPageId={pid}" if typ=='CUSTOM' else f"eventTypeId={pid}")
@@ -81,12 +85,13 @@ for typ,pid in pages:
     elif ' v ' in n: h,a=n.split(' v ',1)
     else: continue
     a=re.sub(r'\s*\(.*?\)','',a); h=re.sub(r'\s*\(.*?\)','',h)
-    fdev.append({'id':e['eventId'],'name':n,'home':h,'away':a,'start':e['openDate'],'inPlay':bool(e.get('inPlay'))})
+    fdev.append({'id':e['eventId'],'name':n,'home':h,'away':a,'start':e['openDate'],'inPlay':bool(e.get('inPlay')),'grp':FDGRP[pid]})
 def ts(s): return datetime.datetime.fromisoformat(s.replace('Z','+00:00'))
 for g in games:
   best=None
   for f in fdev:
     if abs((ts(f['start'])-ts(g['start'])).total_seconds())>5400: continue
+    if f.get('grp')!=ggrp(g['sport']): continue
     sc=len(toks(f['home'])&toks(g['teams']['home']['name']+' '+g['teams']['home']['short']))+len(toks(f['away'])&toks(g['teams']['away']['name']+' '+g['teams']['away']['short']))
     if sc>=1 and (not best or sc>best[0]): best=(sc,f)
   g['fd']=best[1] if best else None
