@@ -116,3 +116,11 @@ Changes: excluded rebound unders in extra.py and extra2.py (rule text updated); 
 Calibration after 10-28 haircuts: NBA-tab rebound overs 72.2% vs 72.8% (54), threes 71.9% vs 74.5% (96); props-tab points overs 73.8% vs 80.3% (80, one day - watch). NHL overs 55.6% vs 79.3% (18 shadow) - watch.
 v1 vs v2 shadow (1250): Brier .1666 vs .1662, top pick per game v1 87.4% vs v2 82.9% -> v2 not recommended; v1 stays live.
 Backups: /workspace/kfsp_backups/2026-10-29/. Published commit 49d4b04.
+
+## 2026-10-29 10:30 AM ET intraday review
+Slate: NFL Panthers @ Packers (8:15 PM ET), CFB FAU @ North Texas and Troy @ JMU (7:30 PM ET), NBA Cavs @ Hawks, Kings @ Pelicans (8 PM), Grizzlies @ Blazers (10 PM), 11 NHL games (7-10 PM), Serie A Lecce @ Frosinone (1:30 PM) and Atalanta @ Fiorentina (3:45 PM).
+Research: Love has no designation; GB out C Rhyan, G Glover, LB Franklin, WR Golden questionable (props tabs already exclude him). GB moneyline drifted -325 to -198 (now ~-3.5), which helps our Panthers +18.5 leg. FAU-UNT total moved 70.5 to 77.5 on 89% of handle; our Under 99.5 still has 22 pts cushion and FD price is re-read each refresh. Troy QB Crowder hurt (Kilcrease may play) and JMU RB Pettaway out; both favor JMU unders. NBA: Poole (NOP, ankle) questionable, Missi out, Kings missing Murray/Raynaud/Cardwell/Simmons; Memphis clean; no props on questionable players (auto-excluded). NHL projected goalies have no surprises; WSH on 2nd night of a back-to-back (our leg is Nashville +2.5). Weather: Green Bay 53F partly cloudy, no wind issues.
+Pulls/replacements: none needed; no current leg is weakened by the news.
+Grading: nothing new since the 3 AM review (10-28 fully graded except one lottery that uses today's Serie A games).
+Patterns checked: NHL alt overs >=.75 in shadow 18/26 (69%) vs ~79% est, but main board 9/11; clustered on 10-27. Not clear enough to change; keep watching.
+Changes: none to the model. v1 stays live; v2 not proposed. Locked ladder tickets untouched.
