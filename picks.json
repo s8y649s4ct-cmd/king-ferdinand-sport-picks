@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 03:35 UTC",
+ "updated": "2026-10-29 03:47 UTC",
  "date": "2026-10-28",
  "ladder_stats": {
   "tickets": 2,
@@ -27,7 +27,7 @@
    "odds": -900,
    "fd_prob": 0.8578,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:35 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:47 UTC",
    "market_prob": 0.8578,
    "prob": 0.8428,
    "pre_research": 0.8578,
@@ -62,7 +62,7 @@
    "odds": -590,
    "fd_prob": 0.8135,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:35 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:47 UTC",
    "market_prob": 0.8135,
    "prob": 0.7985,
    "pre_research": 0.8135,
@@ -244,7 +244,7 @@
    "odds": 200,
    "fd_prob": 0.3134,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:35 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 03:47 UTC",
    "market_prob": 0.3134,
    "prob": 0.319,
    "pre_research": 0.3134,
@@ -280,7 +280,7 @@
    "odds": -150,
    "fd_prob": 0.5621,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:35 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 03:47 UTC",
    "market_prob": 0.5621,
    "prob": 0.5577,
    "pre_research": 0.5621,
@@ -874,8 +874,8 @@
    "sport": "nba",
    "name": "San Antonio Spurs at Utah Jazz",
    "start": "2026-10-29T01:00Z",
-   "state": "in",
-   "status": "46.2 - OT",
+   "state": "post",
+   "status": "Final/OT",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -891,27 +891,27 @@
      "name": "Utah Jazz",
      "short": "Jazz",
      "score": "111",
-     "winner": null,
-     "record": "1-3",
+     "winner": false,
+     "record": "1-4",
      "ml_open": null,
      "ml": null,
      "tid": "26",
      "abbr": "UTAH",
-     "home_rec": "1-2",
+     "home_rec": "1-3",
      "road_rec": "0-1"
     },
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
      "score": "117",
-     "winner": null,
-     "record": "2-2",
+     "winner": true,
+     "record": "3-2",
      "ml_open": null,
      "ml": null,
      "tid": "24",
      "abbr": "SA",
      "home_rec": "1-2",
-     "road_rec": "1-0"
+     "road_rec": "2-0"
     }
    }
   },
@@ -921,7 +921,7 @@
    "name": "Oklahoma City Thunder at Dallas Mavericks",
    "start": "2026-10-29T01:30Z",
    "state": "in",
-   "status": "End of 3rd",
+   "status": "8:26 - 4th",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -936,7 +936,7 @@
     "home": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "94",
+     "score": "103",
      "winner": null,
      "record": "2-2",
      "ml_open": null,
@@ -949,7 +949,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "81",
+     "score": "87",
      "winner": null,
      "record": "4-0",
      "ml_open": null,
@@ -967,7 +967,7 @@
    "name": "Los Angeles Lakers at LA Clippers",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "3:04 - 2nd",
+   "status": "Halftime",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -982,7 +982,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "35",
+     "score": "38",
      "winner": null,
      "record": "1-2",
      "ml_open": null,
@@ -995,7 +995,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "48",
+     "score": "56",
      "winner": null,
      "record": "3-1",
      "ml_open": null,
@@ -1106,8 +1106,8 @@
    "sport": "nhl",
    "name": "New Jersey Devils at Colorado Avalanche",
    "start": "2026-10-29T01:00Z",
-   "state": "in",
-   "status": "2:45 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Ball Arena",
    "indoor": true,
    "city": {
@@ -1124,27 +1124,27 @@
      "name": "Colorado Avalanche",
      "short": "Avalanche",
      "score": "5",
-     "winner": null,
-     "record": "6-5-1",
+     "winner": true,
+     "record": "7-5-1",
      "ml_open": null,
      "ml": null,
      "tid": "17",
      "abbr": "COL",
-     "home_rec": "4-1-1",
+     "home_rec": "5-1-1",
      "road_rec": "2-4-0"
     },
     "away": {
      "name": "New Jersey Devils",
      "short": "Devils",
      "score": "2",
-     "winner": null,
-     "record": "8-4-0",
+     "winner": false,
+     "record": "8-5-0",
      "ml_open": null,
      "ml": null,
      "tid": "11",
      "abbr": "NJ",
      "home_rec": "6-2-0",
-     "road_rec": "2-2-0"
+     "road_rec": "2-3-0"
     }
    }
   },
@@ -1154,7 +1154,7 @@
    "name": "Toronto Maple Leafs at Seattle Kraken",
    "start": "2026-10-29T02:00Z",
    "state": "in",
-   "status": "5:14 - 2nd",
+   "status": "End of 2nd",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -2075,7 +2075,7 @@
    "name": "Colorado Rapids at San Jose Earthquakes",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "HT",
+   "status": "48'",
    "venue": "PayPal Park",
    "indoor": null,
    "city": {
@@ -2121,7 +2121,7 @@
    "name": "Houston Dynamo FC at Seattle Sounders FC",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "HT",
+   "status": "48'",
    "venue": "Lumen Field",
    "indoor": null,
    "city": {
@@ -2167,7 +2167,7 @@
    "name": "San Diego FC at Vancouver Whitecaps",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "HT",
+   "status": "48'",
    "venue": "BC Place",
    "indoor": null,
    "city": {
@@ -3033,26 +3033,26 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-29 03:35 UTC",
-  "graded_legs": 450,
+  "updated": "2026-10-29 03:47 UTC",
+  "graded_legs": 465,
   "calibration": {
    "85-90%": {
-    "n": 124,
-    "wins": 107,
+    "n": 130,
+    "wins": 113,
     "pred": 0.875,
-    "hit": 0.863
+    "hit": 0.869
    },
    "75-80%": {
-    "n": 42,
-    "wins": 34,
+    "n": 45,
+    "wins": 37,
     "pred": 0.786,
-    "hit": 0.81
+    "hit": 0.822
    },
    "80-85%": {
-    "n": 69,
-    "wins": 58,
+    "n": 70,
+    "wins": 59,
     "pred": 0.822,
-    "hit": 0.841
+    "hit": 0.843
    },
    "65-70%": {
     "n": 11,
@@ -3079,10 +3079,10 @@
     "hit": 0.889
    },
    "40-45%": {
-    "n": 10,
-    "wins": 7,
-    "pred": 0.433,
-    "hit": 0.7
+    "n": 11,
+    "wins": 8,
+    "pred": 0.431,
+    "hit": 0.727
    },
    "45-50%": {
     "n": 8,
@@ -3091,10 +3091,10 @@
     "hit": 0.5
    },
    "25-30%": {
-    "n": 15,
-    "wins": 4,
+    "n": 17,
+    "wins": 5,
     "pred": 0.277,
-    "hit": 0.267
+    "hit": 0.294
    },
    "60-65%": {
     "n": 9,
@@ -3109,10 +3109,10 @@
     "hit": 0.75
    },
    "20-25%": {
-    "n": 14,
+    "n": 15,
     "wins": 3,
     "pred": 0.236,
-    "hit": 0.214
+    "hit": 0.2
    },
    "35-40%": {
     "n": 13,
@@ -3127,10 +3127,10 @@
     "hit": 0.5
    },
    "50-55%": {
-    "n": 3,
-    "wins": 2,
-    "pred": 0.541,
-    "hit": 0.667
+    "n": 4,
+    "wins": 3,
+    "pred": 0.532,
+    "hit": 0.75
    }
   },
   "by_sport": {
@@ -3147,16 +3147,16 @@
     "hit": 0.857
    },
    "nba": {
-    "n": 186,
-    "wins": 151,
-    "pred": 0.858,
-    "hit": 0.812
+    "n": 195,
+    "wins": 158,
+    "pred": 0.851,
+    "hit": 0.81
    },
    "nhl": {
-    "n": 85,
-    "wins": 55,
-    "pred": 0.677,
-    "hit": 0.647
+    "n": 91,
+    "wins": 61,
+    "pred": 0.675,
+    "hit": 0.67
    },
    "mlb": {
     "n": 10,
@@ -3197,16 +3197,16 @@
   },
   "by_market": {
    "total": {
-    "n": 194,
-    "wins": 149,
+    "n": 197,
+    "wins": 152,
     "pred": 0.833,
-    "hit": 0.768
+    "hit": 0.772
    },
    "spread": {
-    "n": 182,
-    "wins": 146,
-    "pred": 0.803,
-    "hit": 0.802
+    "n": 192,
+    "wins": 156,
+    "pred": 0.799,
+    "hit": 0.812
    },
    "dc": {
     "n": 22,
@@ -3233,22 +3233,22 @@
     "hit": 0.536
    },
    "prop": {
-    "n": 11,
+    "n": 13,
     "wins": 2,
     "pred": 0.246,
-    "hit": 0.182
+    "hit": 0.154
    }
   },
   "parlays": {
-   "graded": 174,
-   "won": 20,
-   "expected": 35.44,
-   "pending": 17,
+   "graded": 177,
+   "won": 21,
+   "expected": 36.25,
+   "pending": 14,
    "by_type": {
     "ladder": {
-     "graded": 110,
-     "won": 18,
-     "expected": 29.79
+     "graded": 111,
+     "won": 19,
+     "expected": 30.59
     },
     "best": {
      "graded": 3,
@@ -3256,7 +3256,7 @@
      "expected": 0.56
     },
     "lottery": {
-     "graded": 61,
+     "graded": 63,
      "won": 2,
      "expected": 5.04
     }
@@ -3272,16 +3272,16 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "favorites_record": {
-  "won": 7,
+  "won": 8,
   "lost": 12,
-  "pending": 3,
-  "win_pct": 0.368,
+  "pending": 2,
+  "win_pct": 0.4,
   "by_legs": {
    "2": {
-    "won": 3,
+    "won": 4,
     "lost": 1,
-    "pending": 1,
-    "win_pct": 0.75
+    "pending": 0,
+    "win_pct": 0.8
    },
    "3": {
     "won": 2,
@@ -3424,14 +3424,14 @@
     "n": 2,
     "est_prob": 0.80362,
     "fd_payout_x": 1.21,
-    "result": null,
+    "result": "win",
     "source": "logged",
     "legs": [
      {
       "pick": "Utah Jazz +30.5",
       "game": "San Antonio Spurs at Utah Jazz",
       "odds": -1000,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Philadelphia 76ers +9.5",
@@ -4107,43 +4107,43 @@
  "note": "26 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 1137,
-   "brier": 0.1614,
-   "logloss": 0.5086,
+   "n": 1171,
+   "brier": 0.1598,
+   "logloss": 0.504,
    "picks": 302,
    "avg_clv_fd_pts": 0.05,
    "avg_clv_sharp_pts": 0.14,
-   "top_picks_graded": 266,
-   "top_picks_won": 228,
-   "top_picks_expected": 225.56,
-   "top_win_rate": 0.8571428571428571
+   "top_picks_graded": 274,
+   "top_picks_won": 236,
+   "top_picks_expected": 232.1,
+   "top_win_rate": 0.8613138686131386
   },
   "v2": {
-   "n": 1137,
-   "brier": 0.1609,
-   "logloss": 0.5046,
+   "n": 1171,
+   "brier": 0.1593,
+   "logloss": 0.5,
    "picks": 113,
    "avg_clv_fd_pts": 0.3,
    "avg_clv_sharp_pts": 0.49,
-   "top_picks_graded": 103,
-   "top_picks_won": 85,
-   "top_picks_expected": 90.54,
-   "top_win_rate": 0.8252427184466019
+   "top_picks_graded": 105,
+   "top_picks_won": 87,
+   "top_picks_expected": 92.34,
+   "top_win_rate": 0.8285714285714286
   },
-  "graded": 1137,
+  "graded": 1171,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 1137,
-    "v2": 1137,
+    "v1": 1171,
+    "v2": 1171,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.5086,
-    "v2": 0.5046,
+    "v1": 0.504,
+    "v2": 0.5,
     "pass": true
    },
    {
@@ -4160,14 +4160,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 266,
-    "v2": 103,
+    "v1": 274,
+    "v2": 105,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "228/266",
-    "v2": "85/103",
+    "v1": "236/274",
+    "v2": "87/105",
     "pass": false
    }
   ],
