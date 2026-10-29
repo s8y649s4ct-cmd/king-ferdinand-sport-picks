@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 04:16 UTC",
+ "updated": "2026-10-29 04:32 UTC",
  "date": "2026-10-28",
  "ladder_stats": {
   "tickets": 2,
@@ -27,22 +27,22 @@
    "odds": -950,
    "fd_prob": 0.8619,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 04:16 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 04:32 UTC",
    "market_prob": 0.8619,
    "prob": 0.8469,
    "pre_research": 0.8619,
    "research": [
-    "weather fine (wind 2.6 mph, rain 0%)",
+    "weather fine (wind 1.9 mph, rain 0%)",
     "low-scoring sport, one goal decides line (-1.5 volatility)"
    ],
    "research_adj": -0.015,
    "raw_prob": 0.8469,
    "v1_prob": 0.8469,
-   "v2_prob": 0.915,
+   "v2_prob": 0.9134,
    "v2_src": "Pinnacle: Pinnacle total 2.25 extrapolated",
-   "sharp_prob": 0.915,
-   "sharp_edge": 0.0102,
-   "why": "FanDuel no-vig 86.2% -> est. 84.7% (edge -1.5 pts); research -1.5 pts: weather fine (wind 2.6 mph, rain 0%); low-scoring sport, one goal decides line (-1.5 volatility)",
+   "sharp_prob": 0.9134,
+   "sharp_edge": 0.0086,
+   "why": "FanDuel no-vig 86.2% -> est. 84.7% (edge -1.5 pts); research -1.5 pts: weather fine (wind 1.9 mph, rain 0%); low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.193040355",
    "fd_selection_id": "1221386",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193040355&selectionId%5B0%5D=1221386",
@@ -62,7 +62,7 @@
    "odds": -590,
    "fd_prob": 0.8135,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 04:16 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 04:32 UTC",
    "market_prob": 0.8135,
    "prob": 0.7985,
    "pre_research": 0.8135,
@@ -244,7 +244,7 @@
    "odds": 200,
    "fd_prob": 0.3134,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 04:16 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 04:32 UTC",
    "market_prob": 0.3134,
    "prob": 0.319,
    "pre_research": 0.3134,
@@ -257,10 +257,10 @@
    "research_adj": 0.0056,
    "raw_prob": 0.319,
    "v1_prob": 0.319,
-   "v2_prob": 0.3157,
+   "v2_prob": 0.3143,
    "v2_src": "Pinnacle: Pinnacle moneyline de-vig",
-   "sharp_prob": 0.3157,
-   "sharp_edge": -0.0176,
+   "sharp_prob": 0.3143,
+   "sharp_edge": -0.019,
    "why": "FanDuel no-vig 31.3% -> est. 31.9% (edge +0.6 pts); research +0.6 pts: rest 4.2d vs 4.3d; travel 152 mi since last game; form 3-4-1 last 8, avg margin -0.1 vs 1-6-1 last 8, avg margin -1.2; form edge (+0.6)",
    "fd_market_id": "742.193040763",
    "fd_selection_id": "215817",
@@ -280,7 +280,7 @@
    "odds": -150,
    "fd_prob": 0.5621,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 04:16 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 04:32 UTC",
    "market_prob": 0.5621,
    "prob": 0.5577,
    "pre_research": 0.5621,
@@ -294,10 +294,10 @@
    "research_adj": -0.0044,
    "raw_prob": 0.5577,
    "v1_prob": 0.5577,
-   "v2_prob": 0.5768,
+   "v2_prob": 0.5679,
    "v2_src": "Pinnacle: Pinnacle moneyline de-vig",
-   "sharp_prob": 0.5768,
-   "sharp_edge": -0.0232,
+   "sharp_prob": 0.5679,
+   "sharp_edge": -0.0321,
    "why": "FanDuel no-vig 56.2% -> est. 55.8% (edge -0.4 pts); research -0.4 pts: rest 4.1d vs 4.0d; travel 335 mi since last game; form 4-2-2 last 8, avg margin +0.5 vs 3-5 last 8, avg margin -0.6; form edge (+0.6); FanDuel price moved against us -165 -> -150 (-1.0)",
    "fd_market_id": "742.193040372",
    "fd_selection_id": "924268",
@@ -967,7 +967,7 @@
    "name": "Los Angeles Lakers at LA Clippers",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "4:19 - 3rd",
+   "status": "End of 3rd",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -982,7 +982,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "55",
+     "score": "66",
      "winner": null,
      "record": "1-2",
      "ml_open": null,
@@ -995,7 +995,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "70",
+     "score": "85",
      "winner": null,
      "record": "3-1",
      "ml_open": null,
@@ -1154,7 +1154,7 @@
    "name": "Toronto Maple Leafs at Seattle Kraken",
    "start": "2026-10-29T02:00Z",
    "state": "in",
-   "status": "11:27 - 3rd",
+   "status": "2:34 - 3rd",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -2075,7 +2075,7 @@
    "name": "Colorado Rapids at San Jose Earthquakes",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "77'",
+   "status": "90'+3'",
    "venue": "PayPal Park",
    "indoor": null,
    "city": {
@@ -2090,7 +2090,7 @@
     "home": {
      "name": "San Jose Earthquakes",
      "short": "San Jose",
-     "score": "1",
+     "score": "2",
      "winner": false,
      "record": "13-9-9",
      "ml_open": "+110",
@@ -2121,7 +2121,7 @@
    "name": "Houston Dynamo FC at Seattle Sounders FC",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "77'",
+   "status": "90'+3'",
    "venue": "Lumen Field",
    "indoor": null,
    "city": {
@@ -2167,7 +2167,7 @@
    "name": "San Diego FC at Vancouver Whitecaps",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "78'",
+   "status": "90'+3'",
    "venue": "BC Place",
    "indoor": null,
    "city": {
@@ -2195,7 +2195,7 @@
     "away": {
      "name": "San Diego FC",
      "short": "San Diego",
-     "score": "0",
+     "score": "1",
      "winner": false,
      "record": "8-11-12",
      "ml_open": "+450",
@@ -2751,7 +2751,7 @@
   },
   {
    "team": "Colorado Avalanche",
-   "t": "Josh Manson - Day-To-Day: day-to-day",
+   "t": "Josh Manson - Out: out",
    "src": "ESPN injuries feed"
   },
   {
@@ -2913,7 +2913,7 @@
   },
   {
    "g": "Lecce at Frosinone",
-   "w": "59.2F, wind 2.6 mph, rain 0%",
+   "w": "60.5F, wind 1.9 mph, rain 0%",
    "src": "open-meteo"
   },
   {
@@ -3035,7 +3035,7 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-29 04:16 UTC",
+  "updated": "2026-10-29 04:32 UTC",
   "graded_legs": 476,
   "calibration": {
    "85-90%": {
@@ -4204,13 +4204,13 @@
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
     "Under 4.5 Goals (Atalanta at Fiorentina) -500: FanDuel implies 83.3% vs Pinnacle fair 74.6%",
-    "Under 4.5 Goals (Lecce at Frosinone) -300: FanDuel implies 75.0% vs Pinnacle fair 69.3%",
-    "Lecce And Draw (Lecce at Frosinone) +110: FanDuel implies 47.6% vs Pinnacle fair 42.3%",
-    "Atalanta And Draw (Atalanta at Fiorentina) -170: FanDuel implies 63.0% vs Pinnacle fair 57.8%",
-    "Fiorentina And Draw (Atalanta at Fiorentina) -270: FanDuel implies 73.0% vs Pinnacle fair 68.4%",
+    "Under 4.5 Goals (Lecce at Frosinone) -300: FanDuel implies 75.0% vs Pinnacle fair 69.6%",
+    "Atalanta And Draw (Atalanta at Fiorentina) -170: FanDuel implies 63.0% vs Pinnacle fair 57.7%",
+    "Frosinone (Lecce at Frosinone) -350: FanDuel implies 77.8% vs Pinnacle fair 73.2%",
+    "Lecce And Draw (Lecce at Frosinone) +110: FanDuel implies 47.6% vs Pinnacle fair 43.2%",
+    "Fiorentina And Draw (Atalanta at Fiorentina) -270: FanDuel implies 73.0% vs Pinnacle fair 68.6%",
     "Under 3.5 Goals (Atalanta at Fiorentina) -188: FanDuel implies 65.3% vs Pinnacle fair 61.1%",
-    "Frosinone (Lecce at Frosinone) -350: FanDuel implies 77.8% vs Pinnacle fair 74.1%",
-    "Frosinone And Draw (Lecce at Frosinone) -500: FanDuel implies 83.3% vs Pinnacle fair 79.8%"
+    "Frosinone And Draw (Lecce at Frosinone) -500: FanDuel implies 83.3% vs Pinnacle fair 79.2%"
    ]
   }
  },
