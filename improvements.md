@@ -107,3 +107,12 @@ Backups: /workspace/kfsp_backups/2026-10-28/. v1 stays live (legs.json untouched
 - extra2.py (NBA 3s & rebounds): rebounds -6 (unders -8), threes -3. Same filter logic. Rule text updated.
 - build.py: legs in a lost ticket keep getting graded (stats only; ticket results unchanged).
 - Haircuts are about 2/3 of the observed gap to avoid overfitting. Rationale: swapping 65% rebound legs for ~77-80% points/assists/shots legs raises expected leg and ticket hit rate on those tabs.
+
+## 2026-10-29 (daily review #4)
+Record: main legs 73.5% hit vs 76.5% predicted (505 graded, Brier .162); 10-28 legs 71.2% vs 74.6% (163). Ladder 10-28 5/25 (expected 5.57, on target); 5+ leg ladder 7 of 96 all-time. Best Parlay 0-5 (estimates 14-22%, ~1 win expected). Lottery 2/110. King's Favorites 8-14 (2-leg 4-1, 3-leg 2-2, 4-leg 2-4, 5+ 0-7), 4 pending. Props 74.2% vs 77.5% (1130); Live 59.8% vs 61.3% (1861); NFL TD 41.4% vs 41.2% (58).
+Mistakes: (1) rebound UNDERS hit 9/20 (props tab) and 22/42 (NBA tab) vs ~63% estimated even after yesterday's haircut; (2) cross-sport matching bug: FanDuel NBA Magic @ Raptors (event 761906) was matched to MLS D.C. United at Toronto FC on the word "toronto", so 6 NBA legs were graded on the soccer score (all were actually wins; no ticket result changed); (3) NBA alt totals >=.75 hit 77% vs 87% (74 legs, clustered by game).
+Backtests: NBA totals haircut -.03/-.05/-.08 gave 18/17/19 ladder wins vs 20 baseline -> rejected. CFB overs -.05: +1 win on 11 legs -> not adopted (overfit risk).
+Changes: excluded rebound unders in extra.py and extra2.py (rule text updated); build.py now tags each FanDuel event with its sport and only matches ESPN games of the same sport (19/19 still matched); regraded the 6 mis-matched legs (history + shadow) as wins on the real 129-99 final.
+Calibration after 10-28 haircuts: NBA-tab rebound overs 72.2% vs 72.8% (54), threes 71.9% vs 74.5% (96); props-tab points overs 73.8% vs 80.3% (80, one day - watch). NHL overs 55.6% vs 79.3% (18 shadow) - watch.
+v1 vs v2 shadow (1250): Brier .1666 vs .1662, top pick per game v1 87.4% vs v2 82.9% -> v2 not recommended; v1 stays live.
+Backups: /workspace/kfsp_backups/2026-10-29/. Published commit 49d4b04.
