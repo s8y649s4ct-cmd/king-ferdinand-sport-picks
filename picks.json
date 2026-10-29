@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 02:45 UTC",
+ "updated": "2026-10-29 02:56 UTC",
  "date": "2026-10-28",
  "ladder_stats": {
   "tickets": 2,
@@ -27,7 +27,7 @@
    "odds": -900,
    "fd_prob": 0.8578,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:45 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:56 UTC",
    "market_prob": 0.8578,
    "prob": 0.8428,
    "pre_research": 0.8578,
@@ -62,7 +62,7 @@
    "odds": -590,
    "fd_prob": 0.8135,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:45 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:56 UTC",
    "market_prob": 0.8135,
    "prob": 0.7985,
    "pre_research": 0.8135,
@@ -244,7 +244,7 @@
    "odds": 200,
    "fd_prob": 0.3134,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:45 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221226, fetched 2026-10-29 02:56 UTC",
    "market_prob": 0.3134,
    "prob": 0.319,
    "pre_research": 0.3134,
@@ -280,7 +280,7 @@
    "odds": -150,
    "fd_prob": 0.5621,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:45 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36221223, fetched 2026-10-29 02:56 UTC",
    "market_prob": 0.5621,
    "prob": 0.5577,
    "pre_research": 0.5621,
@@ -362,75 +362,12 @@
  "started": [],
  "games": [
   {
-   "id": "401871058",
-   "sport": "college-football",
-   "name": "Kennesaw State Owls at Middle Tennessee Blue Raiders",
-   "start": "2026-10-28T23:00Z",
-   "state": "in",
-   "status": "0:45 - 4th",
-   "venue": "Johnny \"Red\" Floyd Stadium",
-   "indoor": false,
-   "city": {
-    "city": "Murfreesboro",
-    "state": "TN",
-    "country": "USA"
-   },
-   "espn_wx": {
-    "displayValue": "33",
-    "temperature": 59,
-    "highTemperature": 59,
-    "conditionId": "Clear",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "37130"
-     ],
-     "href": "http://www.accuweather.com/en/us/johnny-red-floyd-stadium-tn/37130/current-weather/53636_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "Middle Tennessee Blue Raiders",
-     "short": "MTSU",
-     "score": "28",
-     "winner": null,
-     "record": "4-3",
-     "ml_open": null,
-     "ml": null,
-     "tid": "2393",
-     "abbr": "MTSU",
-     "home_rec": null,
-     "road_rec": null
-    },
-    "away": {
-     "name": "Kennesaw State Owls",
-     "short": "Kennesaw St",
-     "score": "44",
-     "winner": null,
-     "record": "1-6",
-     "ml_open": null,
-     "ml": null,
-     "tid": "338",
-     "abbr": "KENN",
-     "home_rec": null,
-     "road_rec": null
-    }
-   }
-  },
-  {
    "id": "401871057",
    "sport": "college-football",
    "name": "Jacksonville State Gamecocks at New Mexico State Aggies",
    "start": "2026-10-29T00:00Z",
    "state": "in",
-   "status": "8:52 - 4th",
+   "status": "4:47 - 4th",
    "venue": "Aggie Memorial Stadium",
    "indoor": false,
    "city": {
@@ -475,7 +412,7 @@
     "away": {
      "name": "Jacksonville State Gamecocks",
      "short": "Jax State",
-     "score": "17",
+     "score": "24",
      "winner": null,
      "record": "5-2",
      "ml_open": null,
@@ -484,6 +421,53 @@
      "abbr": "JXST",
      "home_rec": null,
      "road_rec": null
+    }
+   }
+  },
+  {
+   "id": "401871058",
+   "sport": "college-football",
+   "name": "Kennesaw State Owls at Middle Tennessee Blue Raiders",
+   "start": "2026-10-28T23:00Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Johnny \"Red\" Floyd Stadium",
+   "indoor": false,
+   "city": {
+    "city": "Murfreesboro",
+    "state": "TN",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "Middle Tennessee Blue Raiders",
+     "short": "MTSU",
+     "score": "28",
+     "winner": false,
+     "record": "4-4",
+     "ml_open": null,
+     "ml": null,
+     "tid": "2393",
+     "abbr": "MTSU",
+     "home_rec": "3-1",
+     "road_rec": "1-3"
+    },
+    "away": {
+     "name": "Kennesaw State Owls",
+     "short": "Kennesaw St",
+     "score": "44",
+     "winner": true,
+     "record": "2-6",
+     "ml_open": null,
+     "ml": null,
+     "tid": "338",
+     "abbr": "KENN",
+     "home_rec": "1-3",
+     "road_rec": "1-3"
     }
    }
   },
@@ -907,7 +891,7 @@
    "name": "San Antonio Spurs at Utah Jazz",
    "start": "2026-10-29T01:00Z",
    "state": "in",
-   "status": "2:52 - 3rd",
+   "status": "11:41 - 4th",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -922,7 +906,7 @@
     "home": {
      "name": "Utah Jazz",
      "short": "Jazz",
-     "score": "78",
+     "score": "85",
      "winner": null,
      "record": "1-3",
      "ml_open": null,
@@ -935,7 +919,7 @@
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "74",
+     "score": "85",
      "winner": null,
      "record": "2-2",
      "ml_open": null,
@@ -953,7 +937,7 @@
    "name": "Oklahoma City Thunder at Dallas Mavericks",
    "start": "2026-10-29T01:30Z",
    "state": "in",
-   "status": "5.9 - 2nd",
+   "status": "Halftime",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -968,7 +952,7 @@
     "home": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "64",
+     "score": "65",
      "winner": null,
      "record": "2-2",
      "ml_open": null,
@@ -999,7 +983,7 @@
    "name": "Los Angeles Lakers at LA Clippers",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "8:48 - 1st",
+   "status": "4:11 - 1st",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -1014,7 +998,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "2",
+     "score": "14",
      "winner": null,
      "record": "1-2",
      "ml_open": null,
@@ -1027,7 +1011,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "5",
+     "score": "14",
      "winner": null,
      "record": "3-1",
      "ml_open": null,
@@ -1092,7 +1076,7 @@
    "name": "Calgary Flames at Edmonton Oilers",
    "start": "2026-10-29T00:30Z",
    "state": "in",
-   "status": "15:19 - 3rd",
+   "status": "9:12 - 3rd",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -1233,7 +1217,7 @@
    "name": "Milwaukee Brewers at Tampa Bay Rays",
    "start": "2026-10-29T00:00Z",
    "state": "in",
-   "status": "Top 8th",
+   "status": "End 8th",
    "venue": "Tropicana Field",
    "indoor": true,
    "city": {
@@ -2123,7 +2107,7 @@
    "name": "Colorado Rapids at San Jose Earthquakes",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "5'",
+   "status": "16'",
    "venue": "PayPal Park",
    "indoor": null,
    "city": {
@@ -2138,7 +2122,7 @@
     "home": {
      "name": "San Jose Earthquakes",
      "short": "San Jose",
-     "score": "0",
+     "score": "1",
      "winner": false,
      "record": "13-9-9",
      "ml_open": "+110",
@@ -2169,7 +2153,7 @@
    "name": "Houston Dynamo FC at Seattle Sounders FC",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "5'",
+   "status": "16'",
    "venue": "Lumen Field",
    "indoor": null,
    "city": {
@@ -2215,7 +2199,7 @@
    "name": "San Diego FC at Vancouver Whitecaps",
    "start": "2026-10-29T02:30Z",
    "state": "in",
-   "status": "5'",
+   "status": "16'",
    "venue": "BC Place",
    "indoor": null,
    "city": {
@@ -2804,6 +2788,11 @@
   },
   {
    "team": "Colorado Avalanche",
+   "t": "Josh Manson - Day-To-Day: day-to-day",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Colorado Avalanche",
    "t": "Zachary L'Heureux - Injured Reserve: ir-lt",
    "src": "ESPN injuries feed"
   },
@@ -2955,11 +2944,6 @@
  ],
  "weather": [
   {
-   "g": "Kennesaw State Owls at Middle Tennessee Blue Raiders",
-   "w": "33, 59F",
-   "src": "ESPN/AccuWeather"
-  },
-  {
    "g": "Jacksonville State Gamecocks at New Mexico State Aggies",
    "w": "34, 66F",
    "src": "ESPN/AccuWeather"
@@ -3081,14 +3065,14 @@
   }
  ],
  "stats": {
-  "updated": "2026-10-29 02:45 UTC",
-  "graded_legs": 433,
+  "updated": "2026-10-29 02:56 UTC",
+  "graded_legs": 438,
   "calibration": {
    "85-90%": {
-    "n": 113,
-    "wins": 100,
+    "n": 118,
+    "wins": 102,
     "pred": 0.875,
-    "hit": 0.885
+    "hit": 0.864
    },
    "75-80%": {
     "n": 42,
@@ -3189,10 +3173,10 @@
     "hit": 0.744
    },
    "college-football": {
-    "n": 23,
-    "wins": 22,
-    "pred": 0.851,
-    "hit": 0.957
+    "n": 28,
+    "wins": 24,
+    "pred": 0.855,
+    "hit": 0.857
    },
    "nba": {
     "n": 186,
@@ -3245,16 +3229,16 @@
   },
   "by_market": {
    "total": {
-    "n": 186,
+    "n": 189,
     "wins": 144,
-    "pred": 0.832,
-    "hit": 0.774
+    "pred": 0.833,
+    "hit": 0.762
    },
    "spread": {
-    "n": 174,
-    "wins": 139,
-    "pred": 0.806,
-    "hit": 0.799
+    "n": 176,
+    "wins": 141,
+    "pred": 0.807,
+    "hit": 0.801
    },
    "dc": {
     "n": 22,
@@ -3288,15 +3272,15 @@
    }
   },
   "parlays": {
-   "graded": 172,
+   "graded": 174,
    "won": 20,
-   "expected": 35.35,
-   "pending": 19,
+   "expected": 35.44,
+   "pending": 17,
    "by_type": {
     "ladder": {
-     "graded": 108,
+     "graded": 110,
      "won": 18,
-     "expected": 29.7
+     "expected": 29.79
     },
     "best": {
      "graded": 3,
@@ -4155,43 +4139,43 @@
  "note": "26 FanDuel-priced candidates (dc, dnb, ml3, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 2 legs.",
  "model_check": {
   "v1": {
-   "n": 1093,
-   "brier": 0.1571,
-   "logloss": 0.4978,
+   "n": 1106,
+   "brier": 0.1595,
+   "logloss": 0.5039,
    "picks": 302,
    "avg_clv_fd_pts": 0.05,
    "avg_clv_sharp_pts": 0.14,
-   "top_picks_graded": 254,
-   "top_picks_won": 218,
-   "top_picks_expected": 215.49,
-   "top_win_rate": 0.8582677165354331
+   "top_picks_graded": 257,
+   "top_picks_won": 219,
+   "top_picks_expected": 218.13,
+   "top_win_rate": 0.8521400778210116
   },
   "v2": {
-   "n": 1093,
-   "brier": 0.1561,
-   "logloss": 0.4921,
+   "n": 1106,
+   "brier": 0.1587,
+   "logloss": 0.499,
    "picks": 113,
    "avg_clv_fd_pts": 0.3,
    "avg_clv_sharp_pts": 0.49,
-   "top_picks_graded": 99,
+   "top_picks_graded": 100,
    "top_picks_won": 82,
-   "top_picks_expected": 87.03,
-   "top_win_rate": 0.8282828282828283
+   "top_picks_expected": 87.93,
+   "top_win_rate": 0.82
   },
-  "graded": 1093,
+  "graded": 1106,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 1093,
-    "v2": 1093,
+    "v1": 1106,
+    "v2": 1106,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4978,
-    "v2": 0.4921,
+    "v1": 0.5039,
+    "v2": 0.499,
     "pass": true
    },
    {
@@ -4208,14 +4192,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 254,
-    "v2": 99,
+    "v1": 257,
+    "v2": 100,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "218/254",
-    "v2": "82/99",
+    "v1": "219/257",
+    "v2": "82/100",
     "pass": false
    }
   ],
