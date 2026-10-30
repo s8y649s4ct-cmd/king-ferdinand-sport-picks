@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 03:42 UTC",
+ "updated": "2026-10-30 03:46 UTC",
  "live": {
   "legs": {
    "401892610:7669422:742.194677084": {
@@ -22,38 +22,63 @@
     "prob": 0.9009,
     "score": "VAN 2 - SJ 0",
     "clock": "End of 2nd",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "espn_wp": null,
     "why": "VAN 2 - SJ 0, End of 2nd (33% of game left). Score+clock model 94.4%, FanDuel no-vig 85.8%.",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194677084&selectionId%5B0%5D=7669422"
    },
-   "401892609:8104850:742.194677074": {
+   "401892609:7669354:742.194677074": {
     "kind": "total",
-    "ou": "under",
-    "line": 9.5,
-    "id": "401892609:8104850:742.194677074",
+    "ou": "over",
+    "line": 6.5,
+    "id": "401892609:7669354:742.194677074",
     "event": "401892609",
     "sport": "nhl",
     "game": "Ottawa Senators at Los Angeles Kings",
     "start": "2026-10-30T02:00Z",
     "market": "Alternate Total Goals",
-    "pick": "Under 9.5",
-    "odds": -650,
-    "fd_prob": 0.8176,
+    "pick": "Over 6.5",
+    "odds": -600,
+    "fd_prob": 0.8086,
     "fd_market_id": "742.194677074",
-    "fd_selection_id": 8104850,
+    "fd_selection_id": 7669354,
     "fd_event": 36230607,
-    "model_prob": 0.8033,
-    "prob": 0.8104,
+    "model_prob": 0.8709,
+    "prob": 0.8397,
     "score": "OTT 1 - LA 5",
-    "clock": "2:26 - 2nd",
-    "asof": "2026-10-30 03:42 UTC",
+    "clock": "0:08 - 2nd",
+    "asof": "2026-10-30 03:46 UTC",
     "espn_wp": null,
-    "why": "OTT 1 - LA 5, 2:26 - 2nd (37% of game left). Score+clock model 80.3%, FanDuel no-vig 81.8%.",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194677074&selectionId%5B0%5D=8104850"
+    "why": "OTT 1 - LA 5, 0:08 - 2nd (34% of game left). Score+clock model 87.1%, FanDuel no-vig 80.9%.",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194677074&selectionId%5B0%5D=7669354"
+   },
+   "401892608:7737428:742.194677318": {
+    "kind": "spread",
+    "side": "home",
+    "line": 3.5,
+    "id": "401892608:7737428:742.194677318",
+    "event": "401892608",
+    "sport": "nhl",
+    "game": "Buffalo Sabres at Anaheim Ducks",
+    "start": "2026-10-30T02:00Z",
+    "market": "Alternate Puck Line",
+    "pick": "Anaheim Ducks +3.5",
+    "odds": -450,
+    "fd_prob": 0.7829,
+    "fd_market_id": "742.194677318",
+    "fd_selection_id": 7737428,
+    "fd_event": 36251753,
+    "model_prob": 0.8856,
+    "prob": 0.8343,
+    "score": "BUF 5 - ANA 3",
+    "clock": "End of 2nd",
+    "asof": "2026-10-30 03:46 UTC",
+    "espn_wp": null,
+    "why": "BUF 5 - ANA 3, End of 2nd (33% of game left). Score+clock model 88.6%, FanDuel no-vig 78.3%.",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194677318&selectionId%5B0%5D=7737428"
    }
   },
-  "all_legs": 8,
+  "all_legs": 14,
   "parlays": [
    {
     "n": 1,
@@ -71,12 +96,26 @@
     "n": 2,
     "legs": [
      "401892610:7669422:742.194677084",
-     "401892609:8104850:742.194677074"
+     "401892609:7669354:742.194677074"
     ],
-    "est_prob": 0.7301,
-    "fd_payout_x": 1.27,
-    "ev": -0.0733,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194677084&selectionId%5B0%5D=7669422&marketId%5B1%5D=742.194677074&selectionId%5B1%5D=8104850",
+    "est_prob": 0.7565,
+    "fd_payout_x": 1.28,
+    "ev": -0.0292,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194677084&selectionId%5B0%5D=7669422&marketId%5B1%5D=742.194677074&selectionId%5B1%5D=7669354",
+    "type": "live",
+    "favorite": true
+   },
+   {
+    "n": 3,
+    "legs": [
+     "401892610:7669422:742.194677084",
+     "401892609:7669354:742.194677074",
+     "401892608:7737428:742.194677318"
+    ],
+    "est_prob": 0.6311,
+    "fd_payout_x": 1.57,
+    "ev": -0.0101,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194677084&selectionId%5B0%5D=7669422&marketId%5B1%5D=742.194677074&selectionId%5B1%5D=7669354&marketId%5B2%5D=742.194677318&selectionId%5B2%5D=7737428",
     "type": "live",
     "favorite": true
    }
@@ -85,26 +124,26 @@
    "espn_live": 4,
    "fd_inplay_matched": 4,
    "espn_winprob": 1,
-   "legs_dropped_price_move": 20,
-   "games_with_leg": 2
+   "legs_dropped_price_move": 9,
+   "games_with_leg": 3
   },
   "games": [
    {
     "name": "Memphis Grizzlies at Portland Trail Blazers",
     "sport": "nba",
-    "detail": "4:20 - 3rd",
-    "score": "Grizzlies 77 - Trail Blazers 75"
+    "detail": "2:27 - 3rd",
+    "score": "Grizzlies 85 - Trail Blazers 75"
    },
    {
     "name": "Buffalo Sabres at Anaheim Ducks",
     "sport": "nhl",
-    "detail": "1:17 - 2nd",
-    "score": "Sabres 4 - Ducks 3"
+    "detail": "End of 2nd",
+    "score": "Sabres 5 - Ducks 3"
    },
    {
     "name": "Ottawa Senators at Los Angeles Kings",
     "sport": "nhl",
-    "detail": "2:26 - 2nd",
+    "detail": "0:08 - 2nd",
     "score": "Senators 1 - Kings 5"
    },
    {
@@ -190,7 +229,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 2.4); last 10 9/10; last season's final 20: 16/20; Flames allow 3.8 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Seattle Kraken",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826916&selectionId%5B0%5D=12553089"
    },
@@ -216,7 +255,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 11/12 games hit (avg 2.0); last 10 9/10; last season's final 20: 17/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826916&selectionId%5B0%5D=37515908"
    },
@@ -242,7 +281,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 11/12 games hit (avg 1.8); last 10 9/10; last season's final 20: 14/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826916&selectionId%5B0%5D=70260727"
    },
@@ -268,7 +307,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 13/13 games hit (avg 3.6); last 10 10/10; last season's final 20: 20/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=24660528"
    },
@@ -294,7 +333,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 13/13 games hit (avg 2.8); last 10 10/10; last season's final 20: 15/20; Jets allow 3.0 goals/g vs 3.1 avg of today's teams (-1.8 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Florida Panthers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818370&selectionId%5B0%5D=12857542"
    },
@@ -320,7 +359,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 2.9); last 10 9/10; last season's final 20: 18/20; Panthers allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818370&selectionId%5B0%5D=36305276"
    },
@@ -346,7 +385,7 @@
     "n_games": 10,
     "injury": "none listed",
     "why": "This season 8/10 games hit (avg 2.5); last 10 8/10; last season's final 20: 20/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820099&selectionId%5B0%5D=53206199"
    },
@@ -372,7 +411,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 14/14 games hit (avg 2.2); last 10 10/10; last season's final 20: 17/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820099&selectionId%5B0%5D=21845356"
    },
@@ -398,7 +437,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 12/14 games hit (avg 2.1); last 10 9/10; last season's final 20: 17/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820099&selectionId%5B0%5D=12449403"
    },
@@ -424,7 +463,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 13/13 games hit (avg 4.2); last 10 10/10; last season's final 20: 17/20; Panthers allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818382&selectionId%5B0%5D=15710822"
    },
@@ -450,7 +489,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 11/13 games hit (avg 2.2); last 10 9/10; last season's final 20: 17/20; Panthers allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818370&selectionId%5B0%5D=12449347"
    },
@@ -476,7 +515,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 2.6); last 10 7/10; last season's final 20: 18/20; Flames allow 3.8 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Seattle Kraken",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=51771299"
    },
@@ -502,7 +541,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 2.7); last 10 7/10; last season's final 20: 20/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=12496383"
    },
@@ -528,7 +567,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 3.0); last 10 9/10; last season's final 20: 14/20; Jets allow 3.0 goals/g vs 3.1 avg of today's teams (-1.8 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Florida Panthers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818382&selectionId%5B0%5D=12496387"
    },
@@ -554,7 +593,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 8/12 games hit (avg 2.4); last 10 8/10; last season's final 20: 13/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=54696574"
    },
@@ -580,7 +619,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 2.2); last 10 9/10; last season's final 20: 12/20; Panthers allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818370&selectionId%5B0%5D=22261592"
    },
@@ -606,7 +645,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 11/13 games hit (avg 1.5); last 10 9/10; last season's final 20: 13/20; Jets allow 3.0 goals/g vs 3.1 avg of today's teams (-1.8 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Florida Panthers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194819496&selectionId%5B0%5D=12452414"
    },
@@ -632,7 +671,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 9/12 games hit (avg 2.4); last 10 9/10; last season's final 20: 9/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=38445398"
    },
@@ -658,7 +697,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 2.6); last 10 7/10; last season's final 20: 12/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=40258484"
    },
@@ -684,7 +723,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 7/13 games hit (avg 1.8); last 10 6/10; last season's final 20: 13/20; Flames allow 3.8 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Seattle Kraken",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=21967045"
    },
@@ -710,7 +749,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 10/14 games hit (avg 2.4); last 10 6/10; last season's final 20: 13/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=12456546"
    },
@@ -736,7 +775,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 2.5); last 10 8/10; last season's final 20: 13/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 03:42 UTC",
+    "asof": "2026-10-30 03:46 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=15819676"
    }
