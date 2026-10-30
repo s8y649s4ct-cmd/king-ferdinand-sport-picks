@@ -213,6 +213,17 @@ for L in cands:
   dlt,R=research.adjust(L,G[L['event']],CTX.get(L['event']),MAIN.get(L['event'],{}),LF['odds'],imp)
   L['pre_research']=L['prob']; L['research']=R; L['research_adj']=round(dlt,4)
   L['prob']=round(max(0.01,min(0.99,L['prob']+dlt)),4)
+# ---------- manual same-day news adjustments (legs.json "news_adj", only for its own slate date) ----------
+NA=cfg.get('news_adj') or {}
+if NA.get('date')==DATE:
+  for L in cands:
+    sd=L.get('side') if L.get('side') in('home','away') else None
+    if not sd or L['kind'] not in('ml','spread','dnb','dc'): continue
+    tn=G[L['event']]['teams'].get(sd,{}).get('name')
+    a=(NA.get('teams') or {}).get(tn)
+    if a:
+      L['prob']=round(max(0.01,min(0.99,L['prob']+a['adj'])),4); L['research_adj']=round(L.get('research_adj',0)+a['adj'],4)
+      L['research']=list(L.get('research') or [])+[f"news: {a['why']} ({a['adj']*100:+.1f})"]
 # ---------- calibration ----------
 # 2026-10-27 review: keep the pre-calibration (raw) chance on every leg so tickets also get an honest raw estimate
 for L in cands: L['raw_prob']=L['prob']
