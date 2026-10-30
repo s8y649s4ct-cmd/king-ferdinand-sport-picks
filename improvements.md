@@ -130,3 +130,22 @@ Research (as of ~3:10 PM ET): Lecce @ Frosinone 3-0 at 74' (our Over 1.5 already
 Pulls/replacements: none; no current leg on any tab is weakened by the news.
 Grading: no games finished since 10:30 AM (Lecce-Frosinone ends ~3:25 PM ET and grades on the next refresh).
 Changes: none to the model; v1 stays live, v2 not proposed; locked ladder tickets untouched. Rebuilt and published via update.sh.
+
+## 2026-10-30 (daily review #5)
+**Record (graded through 10-29)**
+- Main legs 609: 72.9% hit vs 75.2% est (Brier .1548, LL .488); 10-29 alone 68.0% vs 70.1% (100). CLV ~flat (+0.03 pts; 186 beat close vs 204 worse).
+- 10-29 ladder 11/19 won vs 5.15 expected (5, 8, 9, 10, 12, 15, 18-leg all won). Favorites 11-14 overall (2-leg 5-1, 3-leg 3-2, 4-leg 3-4, 5+ 0-7); 10-29 greens 3-0. Best Parlay 0-4 (0.78 exp). Lottery 2/83 vs 5.34 exp.
+- Props 1382 legs 74.5% vs 77.2% (10-29 calibrated 75.7 vs 76.1); NBA 3s/reb 499 legs 69.9% vs 74.3% (10-29 73.8 vs 72.5); NFL TD 65 legs 44.6% vs 41.3%; Live 2334 legs 60.5% vs 61.5%.
+- Shadow 1487 graded: v1 Brier .1642 / LL .514, v2 .1624 / .506, but top pick per game v1 115/130 (88.5%) vs v2 111/130 (85.4%). v2 still not recommended; v1 stays live (legs.json untouched).
+
+**Mistakes found**
+- Model edge over the market is not predictive: props legs 6+ pts above FD no-vig hit 70.9% vs 77.4% est (FD said 69.3%); nba3r 66.0% vs 73.8% (FD 65.0%). Main board shadow: legs with v1 4+ pts over sharp hit 86% vs 93% est (sharp 87%).
+- The 25-leg best-edge lottery picked the max-edge leg per game: 164 legs hit 61.0% vs 68.9% est (winner's curse). Tier lotteries are calibrated (35.4% vs 36.4%, 99 legs).
+- 10-29 lottery losses were mostly NHL -1.5 favorites; NHL negative puck lines 13/41 (31.7%) vs 39.5% est but implied 36.7% — about 1 SE, not acted on.
+- NBA totals still overrated since 10-27 (53 legs 69.8% vs 86.3%, 19 games), but the ladder backtest with a 3/5/8-pt haircut again lost (26 wins -> 21-23, 5+ leg 13 -> 8-9). Not changed.
+
+**Changes (backups in /workspace/kfsp_backups/2026-10-30/)**
+- build.py: the 25-leg lottery now picks per game the leg with the best chance + 0.25 x edge (was pure edge) and is labelled "best-chance lottery". Shadow backtest: selected legs 84.2% vs 69.9% hit, fewer losing legs per ticket on 4 of 5 slates. Lower payout (today 21 legs, 18.55x, est 1.6%).
+- extra2.py (NBA 3s/reb): chance capped at FanDuel no-vig + 3 pts. Backtest: Brier .2051 -> .2043 (10-28+: .1989 -> .1983); top-20/day 80 -> 82 of 100, top-40 146 -> 149 of 197. Rule text updated.
+- Rejected: same cap on Player Props (top-20 selection 82 -> 76-82, no clear gain); NBA totals haircut (ladder lost wins); NHL -1.5 haircut (sample too small).
+- Published commit 4f1ccc1. FD links, PA/MD, favorites, pregame-only rule and update.sh unchanged.
