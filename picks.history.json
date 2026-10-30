@@ -36474,7 +36474,7 @@
     "prob": 0.6791,
     "raw_prob": 0.6791,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "loss",
     "close_odds": -380
    },
    {
@@ -36511,7 +36511,7 @@
   ],
   "logged": "2026-10-30 04:52 UTC",
   "locked": true,
-  "result": null,
+  "result": "loss",
   "favorite": true,
   "favorite_source": "logged"
  },
@@ -39845,7 +39845,7 @@
     "raw_prob": 0.3626,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": 225
+    "close_odds": -260
    },
    {
     "id": "401882817:28191:742.193952000",
@@ -39921,7 +39921,7 @@
     "raw_prob": 0.3626,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": 225
+    "close_odds": -260
    },
    {
     "id": "401882817:1222346:742.193951966",
@@ -39967,7 +39967,7 @@
     "prob": 0.2423,
     "raw_prob": 0.2423,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": 300
    }
   ],
@@ -40012,7 +40012,7 @@
     "prob": 0.4395,
     "raw_prob": 0.4395,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "loss",
     "close_odds": -120
    },
    {
@@ -40353,7 +40353,7 @@
     "prob": 0.2423,
     "raw_prob": 0.2423,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": 300
    },
    {
@@ -42403,9 +42403,25 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2241,
-  "fd_payout_x": 4.37,
+  "est_prob": 0.2414,
+  "fd_payout_x": 4.47,
   "legs_detail": [
+   {
+    "id": "401892611:7000413:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "New Jersey Devils +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -300,
+    "prob": 0.7902,
+    "raw_prob": 0.7902,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -300
+   },
    {
     "id": "401909281:7913304:742.194838746",
     "event": "401909281",
@@ -42423,6 +42439,22 @@
     "close_odds": -300
    },
    {
+    "id": "401909285:7884564:742.194839273",
+    "event": "401909285",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 5.5,
+    "pick": "Los Angeles Lakers +5.5",
+    "market": "Alternate Spread",
+    "odds": -280,
+    "prob": 0.7454,
+    "raw_prob": 0.7454,
+    "game": "Los Angeles Lakers at Golden State Warriors",
+    "result": null,
+    "close_odds": -280
+   },
+   {
     "id": "401909280:7889788:742.194836148",
     "event": "401909280",
     "sport": "nba",
@@ -42431,63 +42463,31 @@
     "line": 5.5,
     "pick": "New York Knicks +5.5",
     "market": "Alternate Spread",
-    "odds": -280,
-    "prob": 0.7442,
-    "raw_prob": 0.7442,
+    "odds": -275,
+    "prob": 0.7426,
+    "raw_prob": 0.7426,
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
-    "close_odds": -280
+    "close_odds": -275
    },
    {
-    "id": "401909283:7729448:742.194836901",
-    "event": "401909283",
-    "sport": "nba",
-    "kind": "total",
-    "line": 235.5,
-    "ou": "under",
-    "pick": "Under 235.5",
-    "market": "Alternate Total Points",
-    "odds": -300,
-    "prob": 0.7395,
-    "raw_prob": 0.7395,
-    "game": "Houston Rockets at Dallas Mavericks",
-    "result": null,
-    "close_odds": -300
-   },
-   {
-    "id": "401909286:7889533:742.194839175",
-    "event": "401909286",
+    "id": "401909277:10756446:742.194836764",
+    "event": "401909277",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 4.5,
-    "pick": "Denver Nuggets +4.5",
+    "line": 7.5,
+    "pick": "Charlotte Hornets +7.5",
     "market": "Alternate Spread",
     "odds": -280,
-    "prob": 0.7392,
-    "raw_prob": 0.7392,
-    "game": "Denver Nuggets at Phoenix Suns",
+    "prob": 0.7402,
+    "raw_prob": 0.7402,
+    "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
     "close_odds": -280
-   },
-   {
-    "id": "401909284:7711361:742.194836991",
-    "event": "401909284",
-    "sport": "nba",
-    "kind": "total",
-    "line": 234.5,
-    "ou": "under",
-    "pick": "Under 234.5",
-    "market": "Alternate Total Points",
-    "odds": -300,
-    "prob": 0.7388,
-    "raw_prob": 0.7388,
-    "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -300
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -42498,28 +42498,28 @@
   "date": "2026-10-30",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.8973,
-  "est_raw": 0.8973,
-  "fd_payout_x": 1.1,
+  "est_prob": 0.888,
+  "est_raw": 0.888,
+  "fd_payout_x": 1.11,
   "legs_detail": [
    {
-    "id": "401909285:7889051:742.194839273",
+    "id": "401909285:7884326:742.194839273",
     "event": "401909285",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 13.5,
-    "pick": "Los Angeles Lakers +13.5",
+    "line": 12.5,
+    "pick": "Los Angeles Lakers +12.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8973,
-    "raw_prob": 0.8973,
+    "odds": -950,
+    "prob": 0.888,
+    "raw_prob": 0.888,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -42529,26 +42529,10 @@
   "date": "2026-10-30",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.78969,
-  "est_raw": 0.78969,
+  "est_prob": 0.78535,
+  "est_raw": 0.78535,
   "fd_payout_x": 1.22,
   "legs_detail": [
-   {
-    "id": "401909282:7883572:742.194838938",
-    "event": "401909282",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 24.5,
-    "pick": "Indiana Pacers +24.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8911,
-    "raw_prob": 0.8911,
-    "game": "Indiana Pacers at Miami Heat",
-    "result": null,
-    "close_odds": -1000
-   },
    {
     "id": "401909278:7883762:742.194837976",
     "event": "401909278",
@@ -42564,23 +42548,7 @@
     "game": "Chicago Bulls at Boston Celtics",
     "result": null,
     "close_odds": -950
-   }
-  ],
-  "logged": "2026-10-30 21:22 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
- },
- {
-  "id": "2026-10-30-3",
-  "date": "2026-10-30",
-  "type": "ladder",
-  "n": 3,
-  "est_prob": 0.69355,
-  "est_raw": 0.69355,
-  "fd_payout_x": 1.34,
-  "legs_detail": [
+   },
    {
     "id": "401909280:7889758:742.194836148",
     "event": "401909280",
@@ -42596,20 +42564,36 @@
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
     "close_odds": -950
-   },
+   }
+  ],
+  "logged": "2026-10-30 21:39 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": true,
+  "favorite_source": "logged"
+ },
+ {
+  "id": "2026-10-30-3",
+  "date": "2026-10-30",
+  "type": "ladder",
+  "n": 3,
+  "est_prob": 0.688,
+  "est_raw": 0.688,
+  "fd_payout_x": 1.34,
+  "legs_detail": [
    {
-    "id": "401909284:7888962:742.194836953",
-    "event": "401909284",
+    "id": "401909279:7888874:742.194794130",
+    "event": "401909279",
     "sport": "nba",
     "kind": "spread",
     "side": "home",
-    "line": 9.5,
-    "pick": "Minnesota Timberwolves +9.5",
+    "line": 23.5,
+    "pick": "Brooklyn Nets +23.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8847,
-    "raw_prob": 0.8847,
-    "game": "LA Clippers at Minnesota Timberwolves",
+    "prob": 0.8832,
+    "raw_prob": 0.8832,
+    "game": "Detroit Pistons at Brooklyn Nets",
     "result": null,
     "close_odds": -1000
    },
@@ -42622,15 +42606,31 @@
     "ou": "under",
     "pick": "Under 240.5",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8846,
-    "raw_prob": 0.8846,
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
+   },
+   {
+    "id": "401909282:7920385:742.194838938",
+    "event": "401909282",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 23.5,
+    "pick": "Indiana Pacers +23.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
+    "game": "Indiana Pacers at Miami Heat",
+    "result": null,
+    "close_odds": -950
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -42641,26 +42641,10 @@
   "date": "2026-10-30",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.60208,
-  "est_raw": 0.60208,
+  "est_prob": 0.59983,
+  "est_raw": 0.59983,
   "fd_payout_x": 1.47,
   "legs_detail": [
-   {
-    "id": "401909279:7890361:742.194794130",
-    "event": "401909279",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Detroit Pistons +8.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8832,
-    "raw_prob": 0.8832,
-    "game": "Detroit Pistons at Brooklyn Nets",
-    "result": null,
-    "close_odds": -1000
-   },
    {
     "id": "401909281:7889386:742.194838746",
     "event": "401909281",
@@ -42694,6 +42678,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401909284:7695584:742.194836991",
+    "event": "401909284",
+    "sport": "nba",
+    "kind": "total",
+    "line": 244.5,
+    "ou": "under",
+    "pick": "Under 244.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8799,
+    "raw_prob": 0.8799,
+    "game": "LA Clippers at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401909283:7695584:742.194836901",
     "event": "401909283",
     "sport": "nba",
@@ -42710,7 +42710,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -42833,7 +42833,7 @@
     "raw_prob": 0.8858,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401876421:1221386:742.192496408",
@@ -42909,7 +42909,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    }
   ],
@@ -42941,7 +42941,7 @@
     "raw_prob": 0.8802,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -800
    },
    {
     "id": "401909278:7711347:742.194838008",
@@ -43005,7 +43005,7 @@
     "raw_prob": 0.8689,
     "game": "Detroit Pistons at Brooklyn Nets",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909286:7707590:742.194839198",
@@ -43224,7 +43224,7 @@
     "raw_prob": 0.8726,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909278:7889755:742.194838008",
@@ -43288,7 +43288,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401876416:1221386:742.192488978",
@@ -43334,7 +43334,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    }
   ],
@@ -43414,7 +43414,7 @@
     "raw_prob": 0.8644,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -850
+    "close_odds": -800
    },
    {
     "id": "401866451:76139327:742.193934490",
@@ -43446,7 +43446,7 @@
     "raw_prob": 0.8602,
     "game": "Baylor Bears at UCF Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401862813:60194864:742.193934345",
@@ -43539,7 +43539,7 @@
     "raw_prob": 0.8726,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909281:7733045:742.194838745",
@@ -43587,7 +43587,7 @@
     "raw_prob": 0.8653,
     "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909280:7889758:742.194836148",
@@ -43635,7 +43635,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401876421:1221386:742.192496408",
@@ -43775,7 +43775,7 @@
     "raw_prob": 0.8826,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401856844:12197206:742.193934406",
@@ -43884,7 +43884,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -43948,7 +43948,7 @@
     "raw_prob": 0.8858,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909281:7889386:742.194838746",
@@ -43980,7 +43980,7 @@
     "raw_prob": 0.8802,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -800
    },
    {
     "id": "401909284:7891365:742.194836953",
@@ -44092,7 +44092,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401884746:1221386:742.193931091",
@@ -44107,7 +44107,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null
+    "result": "win"
    },
    {
     "id": "401892613:53201166:742.194877889",
@@ -44170,7 +44170,7 @@
     "raw_prob": 0.8803,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909281:7889386:742.194838746",
@@ -44266,7 +44266,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401876421:1221386:742.192496408",
@@ -44342,7 +44342,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -44390,7 +44390,7 @@
     "raw_prob": 0.8826,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909280:7889815:742.194836148",
@@ -44421,7 +44421,8 @@
     "prob": 0.8729,
     "raw_prob": 0.8729,
     "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null
+    "result": null,
+    "close_odds": -1000
    },
    {
     "id": "401909286:7707590:742.194839198",
@@ -44593,7 +44594,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -44737,7 +44738,7 @@
     "raw_prob": 0.8746,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909286:7707590:742.194839198",
@@ -44785,7 +44786,7 @@
     "raw_prob": 0.8644,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -850
+    "close_odds": -800
    },
    {
     "id": "401862813:60194864:742.193934345",
@@ -44849,7 +44850,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401884746:1221386:742.193931091",
@@ -44864,7 +44865,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null
+    "result": "win"
    },
    {
     "id": "401876420:1222344:742.192488681",
@@ -44911,7 +44912,7 @@
     "raw_prob": 0.8858,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909278:7901248:742.194837976",
@@ -44943,7 +44944,7 @@
     "raw_prob": 0.8726,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909283:7695584:742.194836901",
@@ -45023,7 +45024,7 @@
     "raw_prob": 0.8653,
     "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909280:7889758:742.194836148",
@@ -45147,7 +45148,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -45211,7 +45212,7 @@
     "raw_prob": 0.8826,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909286:7914264:742.194839175",
@@ -45387,7 +45388,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401882817:1221386:742.193952067",
@@ -45463,7 +45464,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    }
   ],
@@ -45511,7 +45512,7 @@
     "raw_prob": 0.8803,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909279:7711074:742.194794100",
@@ -45558,7 +45559,8 @@
     "prob": 0.8729,
     "raw_prob": 0.8729,
     "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null
+    "result": null,
+    "close_odds": -1000
    },
    {
     "id": "401909286:7707590:742.194839198",
@@ -45686,7 +45688,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401876421:1221386:742.192496408",
@@ -45746,7 +45748,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -45858,7 +45860,7 @@
     "raw_prob": 0.8826,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401856844:12197206:742.193934406",
@@ -45906,7 +45908,7 @@
     "raw_prob": 0.8726,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909286:7807551:742.194839198",
@@ -46034,7 +46036,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401882817:1221386:742.193952067",
@@ -46160,7 +46162,7 @@
     "raw_prob": 0.8858,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401909281:7711958:742.194838745",
@@ -46224,7 +46226,7 @@
     "raw_prob": 0.8726,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909283:7695584:742.194836901",
@@ -46288,7 +46290,7 @@
     "raw_prob": 0.8629,
     "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909280:7889758:742.194836148",
@@ -46368,7 +46370,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401876421:1221386:742.192496408",
@@ -46446,7 +46448,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -46476,10 +46478,58 @@
   "date": "2026-10-30",
   "type": "ladder",
   "n": 22,
-  "est_prob": 0.02204,
-  "est_raw": 0.02204,
-  "fd_payout_x": 13.46,
+  "est_prob": 0.02488,
+  "est_raw": 0.02488,
+  "fd_payout_x": 15.21,
   "legs_detail": [
+   {
+    "id": "401909285:7884326:742.194839273",
+    "event": "401909285",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 12.5,
+    "pick": "Los Angeles Lakers +12.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.888,
+    "raw_prob": 0.888,
+    "game": "Los Angeles Lakers at Golden State Warriors",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909282:7920385:742.194838938",
+    "event": "401909282",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 23.5,
+    "pick": "Indiana Pacers +23.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
+    "game": "Indiana Pacers at Miami Heat",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909281:7889386:742.194838746",
+    "event": "401909281",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 10.5,
+    "pick": "Toronto Raptors +10.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8812,
+    "raw_prob": 0.8812,
+    "game": "Orlando Magic at Toronto Raptors",
+    "result": null,
+    "close_odds": -950
+   },
    {
     "id": "401909283:7695584:742.194836901",
     "event": "401909283",
@@ -46495,22 +46545,6 @@
     "game": "Houston Rockets at Dallas Mavericks",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909285:7729382:742.194839257",
-    "event": "401909285",
-    "sport": "nba",
-    "kind": "total",
-    "line": 255.5,
-    "ou": "under",
-    "pick": "Under 255.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8776,
-    "raw_prob": 0.8776,
-    "game": "Los Angeles Lakers at Golden State Warriors",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401866451:12197198:742.193934483",
@@ -46529,36 +46563,20 @@
     "close_odds": -1000
    },
    {
-    "id": "401909284:7711818:742.194836991",
-    "event": "401909284",
-    "sport": "nba",
-    "kind": "total",
-    "line": 243.5,
-    "ou": "under",
-    "pick": "Under 243.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8703,
-    "raw_prob": 0.8703,
-    "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401909280:7707157:742.194836146",
+    "id": "401909280:7889872:742.194836148",
     "event": "401909280",
     "sport": "nba",
-    "kind": "total",
-    "line": 205.5,
-    "ou": "over",
-    "pick": "Over 205.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8696,
-    "raw_prob": 0.8696,
+    "kind": "spread",
+    "side": "away",
+    "line": 11.5,
+    "pick": "New York Knicks +11.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8684,
+    "raw_prob": 0.8684,
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -750
    },
    {
     "id": "401862813:12197198:742.193934321",
@@ -46592,36 +46610,52 @@
     "close_odds": -950
    },
    {
-    "id": "401909286:7711029:742.194839198",
-    "event": "401909286",
-    "sport": "nba",
-    "kind": "total",
-    "line": 251.5,
-    "ou": "under",
-    "pick": "Under 251.5",
-    "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8622,
-    "raw_prob": 0.8622,
-    "game": "Denver Nuggets at Phoenix Suns",
-    "result": null,
-    "close_odds": -850
-   },
-   {
-    "id": "401856844:73790767:742.193934403",
+    "id": "401856844:48220283:742.193934403",
     "event": "401856844",
     "sport": "college-football",
     "kind": "spread",
-    "side": "home",
-    "line": 18.5,
-    "pick": "UCF (+18.5)",
+    "side": "away",
+    "line": 14.5,
+    "pick": "Baylor (+14.5)",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8602,
-    "raw_prob": 0.8602,
+    "odds": -1000,
+    "prob": 0.8645,
+    "raw_prob": 0.8645,
     "game": "Baylor Bears at UCF Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
+   },
+   {
+    "id": "401909277:7711399:742.194836766",
+    "event": "401909277",
+    "sport": "nba",
+    "kind": "total",
+    "line": 239.5,
+    "ou": "under",
+    "pick": "Under 239.5",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.8644,
+    "raw_prob": 0.8644,
+    "game": "Charlotte Hornets at Washington Wizards",
+    "result": null,
+    "close_odds": -800
+   },
+   {
+    "id": "401909284:7884490:742.194836953",
+    "event": "401909284",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 21.5,
+    "pick": "Los Angeles Clippers +21.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.8637,
+    "raw_prob": 0.8637,
+    "game": "LA Clippers at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -900
    },
    {
     "id": "401884748:1221386:742.193930955",
@@ -46656,22 +46690,6 @@
     "close_odds": -800
    },
    {
-    "id": "401892611:8359769:742.194872550",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 3.5,
-    "ou": "over",
-    "pick": "Over 3.5",
-    "market": "Alternate Total Goals",
-    "odds": -950,
-    "prob": 0.8489,
-    "raw_prob": 0.8489,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401879245:1221386:742.192281875",
     "event": "401879245",
     "sport": "eng.1",
@@ -46680,12 +46698,12 @@
     "ou": "over",
     "pick": "Over 1.5 Goals",
     "market": "Over/Under 1.5 Goals",
-    "odds": -950,
-    "prob": 0.8469,
-    "raw_prob": 0.8469,
+    "odds": -900,
+    "prob": 0.8428,
+    "raw_prob": 0.8428,
     "game": "Brighton & Hove Albion at Manchester City",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401879251:1222347:742.192279767",
@@ -46736,22 +46754,6 @@
     "close_odds": -850
    },
    {
-    "id": "401874798:1222347:742.194225821",
-    "event": "401874798",
-    "sport": "ita.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -750,
-    "prob": 0.8239,
-    "raw_prob": 0.8239,
-    "game": "Monza at Bologna",
-    "result": null,
-    "close_odds": -750
-   },
-   {
     "id": "401884749:1221386:742.193928949",
     "event": "401884749",
     "sport": "ger.1",
@@ -46784,36 +46786,36 @@
     "close_odds": -750
    },
    {
-    "id": "401879249:1222347:742.192280425",
-    "event": "401879249",
-    "sport": "eng.1",
+    "id": "401874798:1222347:742.194225821",
+    "event": "401874798",
+    "sport": "ita.1",
     "kind": "total",
     "line": 4.5,
     "ou": "under",
     "pick": "Under 4.5 Goals",
     "market": "Over/Under 4.5 Goals",
-    "odds": -600,
-    "prob": 0.8018,
-    "raw_prob": 0.8018,
-    "game": "Nottingham Forest at Brentford",
+    "odds": -700,
+    "prob": 0.818,
+    "raw_prob": 0.818,
+    "game": "Monza at Bologna",
     "result": null,
-    "close_odds": -600
+    "close_odds": -700
    },
    {
-    "id": "401879248:1221386:742.192280270",
-    "event": "401879248",
-    "sport": "eng.1",
-    "kind": "total",
+    "id": "401892611:7000413:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
     "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -590,
-    "prob": 0.7985,
-    "raw_prob": 0.7985,
-    "game": "Manchester United at Chelsea",
+    "pick": "New Jersey Devils +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -300,
+    "prob": 0.7902,
+    "raw_prob": 0.7902,
+    "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -590
+    "close_odds": -300
    },
    {
     "id": "401879247:1221386:742.192282998",
@@ -46832,7 +46834,7 @@
     "close_odds": -325
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -46842,90 +46844,10 @@
   "date": "2026-10-30",
   "type": "ladder",
   "n": 23,
-  "est_prob": 0.01918,
-  "est_raw": 0.01918,
-  "fd_payout_x": 16.67,
+  "est_prob": 0.01359,
+  "est_raw": 0.01359,
+  "fd_payout_x": 19.2,
   "legs_detail": [
-   {
-    "id": "401909285:7889051:742.194839273",
-    "event": "401909285",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 13.5,
-    "pick": "Los Angeles Lakers +13.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8973,
-    "raw_prob": 0.8973,
-    "game": "Los Angeles Lakers at Golden State Warriors",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909282:7883572:742.194838938",
-    "event": "401909282",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 24.5,
-    "pick": "Indiana Pacers +24.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8911,
-    "raw_prob": 0.8911,
-    "game": "Indiana Pacers at Miami Heat",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909278:7883762:742.194837976",
-    "event": "401909278",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 31.5,
-    "pick": "Chicago Bulls +31.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8862,
-    "raw_prob": 0.8862,
-    "game": "Chicago Bulls at Boston Celtics",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909284:7888962:742.194836953",
-    "event": "401909284",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 9.5,
-    "pick": "Minnesota Timberwolves +9.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8847,
-    "raw_prob": 0.8847,
-    "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909277:7890119:742.194836764",
-    "event": "401909277",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 14.5,
-    "pick": "Washington Wizards +14.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8802,
-    "raw_prob": 0.8802,
-    "game": "Charlotte Hornets at Washington Wizards",
-    "result": null,
-    "close_odds": -950
-   },
    {
     "id": "401856844:12197206:742.193934406",
     "event": "401856844",
@@ -46943,6 +46865,38 @@
     "close_odds": -1000
    },
    {
+    "id": "401909282:7889006:742.194838903",
+    "event": "401909282",
+    "sport": "nba",
+    "kind": "total",
+    "line": 258.5,
+    "ou": "under",
+    "pick": "Under 258.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8753,
+    "raw_prob": 0.8753,
+    "game": "Indiana Pacers at Miami Heat",
+    "result": null,
+    "close_odds": -900
+   },
+   {
+    "id": "401909285:7712127:742.194839257",
+    "event": "401909285",
+    "sport": "nba",
+    "kind": "total",
+    "line": 213.5,
+    "ou": "over",
+    "pick": "Over 213.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8703,
+    "raw_prob": 0.8703,
+    "game": "Los Angeles Lakers at Golden State Warriors",
+    "result": null,
+    "close_odds": -900
+   },
+   {
     "id": "401866451:76139337:742.193934490",
     "event": "401866451",
     "sport": "college-football",
@@ -46957,22 +46911,6 @@
     "game": "Kent State Golden Flashes at Sacramento State Hornets",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909279:7890088:742.194794130",
-    "event": "401909279",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Detroit Pistons +7.5",
-    "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.8692,
-    "raw_prob": 0.8692,
-    "game": "Detroit Pistons at Brooklyn Nets",
-    "result": null,
-    "close_odds": -850
    },
    {
     "id": "401909281:7913297:742.194838746",
@@ -47005,6 +46943,38 @@
     "game": "Houston Rockets at Dallas Mavericks",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909279:7733196:742.194794100",
+    "event": "401909279",
+    "sport": "nba",
+    "kind": "total",
+    "line": 202.5,
+    "ou": "over",
+    "pick": "Over 202.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8636,
+    "raw_prob": 0.8636,
+    "game": "Detroit Pistons at Brooklyn Nets",
+    "result": null,
+    "close_odds": -900
+   },
+   {
+    "id": "401909286:7711029:742.194839198",
+    "event": "401909286",
+    "sport": "nba",
+    "kind": "total",
+    "line": 251.5,
+    "ou": "under",
+    "pick": "Under 251.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8622,
+    "raw_prob": 0.8622,
+    "game": "Denver Nuggets at Phoenix Suns",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401862813:48857852:742.193934345",
@@ -47055,22 +47025,6 @@
     "close_odds": -800
    },
    {
-    "id": "401892611:8359769:742.194872550",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 3.5,
-    "ou": "over",
-    "pick": "Over 3.5",
-    "market": "Alternate Total Goals",
-    "odds": -950,
-    "prob": 0.8489,
-    "raw_prob": 0.8489,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401879245:1221386:742.192281875",
     "event": "401879245",
     "sport": "eng.1",
@@ -47079,12 +47033,12 @@
     "ou": "over",
     "pick": "Over 1.5 Goals",
     "market": "Over/Under 1.5 Goals",
-    "odds": -950,
-    "prob": 0.8469,
-    "raw_prob": 0.8469,
+    "odds": -900,
+    "prob": 0.8428,
+    "raw_prob": 0.8428,
     "game": "Brighton & Hove Albion at Manchester City",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401879251:1222347:742.192279767",
@@ -47143,11 +47097,27 @@
     "pick": "Atletico Madrid And Draw",
     "market": "Double Chance",
     "odds": -700,
-    "prob": 0.8225,
-    "raw_prob": 0.8225,
+    "prob": 0.8206,
+    "raw_prob": 0.8206,
     "game": "Atl\u00e9tico Madrid at Levante",
     "result": null,
     "close_odds": -700
+   },
+   {
+    "id": "401879249:1222347:742.192280425",
+    "event": "401879249",
+    "sport": "eng.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -600,
+    "prob": 0.8018,
+    "raw_prob": 0.8018,
+    "game": "Nottingham Forest at Brentford",
+    "result": null,
+    "close_odds": -600
    },
    {
     "id": "401892613:53201166:742.194877889",
@@ -47164,6 +47134,38 @@
     "game": "Seattle Kraken at Calgary Flames",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892611:8359769:742.194872550",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "over",
+    "pick": "Over 3.5",
+    "market": "Alternate Total Goals",
+    "odds": -1000,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401879248:1221386:742.192280270",
+    "event": "401879248",
+    "sport": "eng.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -590,
+    "prob": 0.7985,
+    "raw_prob": 0.7985,
+    "game": "Manchester United at Chelsea",
+    "result": null,
+    "close_odds": -590
    },
    {
     "id": "401884753:27398760:742.193931405",
@@ -47213,7 +47215,7 @@
     "close_odds": -325
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -47223,10 +47225,26 @@
   "date": "2026-10-30",
   "type": "ladder",
   "n": 24,
-  "est_prob": 0.01333,
-  "est_raw": 0.01333,
-  "fd_payout_x": 25.68,
+  "est_prob": 0.01273,
+  "est_raw": 0.01273,
+  "fd_payout_x": 26.84,
   "legs_detail": [
+   {
+    "id": "401909278:7883762:742.194837976",
+    "event": "401909278",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 31.5,
+    "pick": "Chicago Bulls +31.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8862,
+    "raw_prob": 0.8862,
+    "game": "Chicago Bulls at Boston Celtics",
+    "result": null,
+    "close_odds": -950
+   },
    {
     "id": "401909280:7889758:742.194836148",
     "event": "401909280",
@@ -47244,50 +47262,50 @@
     "close_odds": -950
    },
    {
-    "id": "401909285:7884326:742.194839273",
-    "event": "401909285",
+    "id": "401909279:7888874:742.194794130",
+    "event": "401909279",
     "sport": "nba",
     "kind": "spread",
-    "side": "away",
-    "line": 12.5,
-    "pick": "Los Angeles Lakers +12.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8858,
-    "raw_prob": 0.8858,
-    "game": "Los Angeles Lakers at Golden State Warriors",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401909282:7920385:742.194838938",
-    "event": "401909282",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": 23.5,
-    "pick": "Indiana Pacers +23.5",
+    "pick": "Brooklyn Nets +23.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8803,
-    "raw_prob": 0.8803,
-    "game": "Indiana Pacers at Miami Heat",
+    "odds": -1000,
+    "prob": 0.8832,
+    "raw_prob": 0.8832,
+    "game": "Detroit Pistons at Brooklyn Nets",
     "result": null,
-    "close_odds": -900
+    "close_odds": -1000
    },
    {
-    "id": "401909278:7867411:742.194838008",
-    "event": "401909278",
+    "id": "401909277:7729371:742.194836766",
+    "event": "401909277",
     "sport": "nba",
     "kind": "total",
-    "line": 257.5,
+    "line": 240.5,
     "ou": "under",
-    "pick": "Under 257.5",
+    "pick": "Under 240.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
+    "game": "Charlotte Hornets at Washington Wizards",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909284:7695584:742.194836991",
+    "event": "401909284",
+    "sport": "nba",
+    "kind": "total",
+    "line": 244.5,
+    "ou": "under",
+    "pick": "Under 244.5",
     "market": "Alternate Total Points",
     "odds": -1000,
     "prob": 0.8799,
     "raw_prob": 0.8799,
-    "game": "Chicago Bulls at Boston Celtics",
+    "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
     "close_odds": -1000
    },
@@ -47308,36 +47326,20 @@
     "close_odds": -900
    },
    {
-    "id": "401909284:7891365:742.194836953",
-    "event": "401909284",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 8.5,
-    "pick": "Minnesota Timberwolves +8.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8739,
-    "raw_prob": 0.8739,
-    "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401909277:7711399:742.194836766",
-    "event": "401909277",
+    "id": "401909285:7729382:742.194839257",
+    "event": "401909285",
     "sport": "nba",
     "kind": "total",
-    "line": 239.5,
+    "line": 255.5,
     "ou": "under",
-    "pick": "Under 239.5",
+    "pick": "Under 255.5",
     "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8722,
-    "raw_prob": 0.8722,
-    "game": "Charlotte Hornets at Washington Wizards",
+    "odds": -900,
+    "prob": 0.8703,
+    "raw_prob": 0.8703,
+    "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401856844:12194341:742.193934406",
@@ -47372,22 +47374,6 @@
     "close_odds": -850
    },
    {
-    "id": "401909279:7760688:742.194794100",
-    "event": "401909279",
-    "sport": "nba",
-    "kind": "total",
-    "line": 242.5,
-    "ou": "under",
-    "pick": "Under 242.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8653,
-    "raw_prob": 0.8653,
-    "game": "Detroit Pistons at Brooklyn Nets",
-    "result": null,
-    "close_odds": -900
-   },
-   {
     "id": "401909281:7733081:742.194838745",
     "event": "401909281",
     "sport": "nba",
@@ -47400,6 +47386,22 @@
     "prob": 0.8653,
     "raw_prob": 0.8653,
     "game": "Orlando Magic at Toronto Raptors",
+    "result": null,
+    "close_odds": -900
+   },
+   {
+    "id": "401909282:7711020:742.194838903",
+    "event": "401909282",
+    "sport": "nba",
+    "kind": "total",
+    "line": 216.5,
+    "ou": "over",
+    "pick": "Over 216.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8653,
+    "raw_prob": 0.8653,
+    "game": "Indiana Pacers at Miami Heat",
     "result": null,
     "close_odds": -900
    },
@@ -47434,38 +47436,6 @@
     "game": "Tulane Green Wave at Charlotte 49ers",
     "result": null,
     "close_odds": -950
-   },
-   {
-    "id": "401884748:1221386:742.193930955",
-    "event": "401884748",
-    "sport": "ger.1",
-    "kind": "total",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -1000,
-    "prob": 0.8509,
-    "raw_prob": 0.8509,
-    "game": "TSG Hoffenheim at Werder Bremen",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401874798:1222347:742.194225821",
-    "event": "401874798",
-    "sport": "ita.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -750,
-    "prob": 0.8239,
-    "raw_prob": 0.8239,
-    "game": "Monza at Bologna",
-    "result": null,
-    "close_odds": -750
    },
    {
     "id": "401884749:1221386:742.193928949",
@@ -47508,12 +47478,28 @@
     "ou": "over",
     "pick": "Over 1.5 Goals",
     "market": "Over/Under 1.5 Goals",
-    "odds": -650,
-    "prob": 0.8089,
-    "raw_prob": 0.8089,
+    "odds": -700,
+    "prob": 0.818,
+    "raw_prob": 0.818,
     "game": "Atl\u00e9tico Madrid at Levante",
     "result": null,
-    "close_odds": -650
+    "close_odds": -700
+   },
+   {
+    "id": "401874798:1222347:742.194225821",
+    "event": "401874798",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -700,
+    "prob": 0.818,
+    "raw_prob": 0.818,
+    "game": "Monza at Bologna",
+    "result": null,
+    "close_odds": -700
    },
    {
     "id": "401879249:1222347:742.192280425",
@@ -47530,6 +47516,22 @@
     "game": "Nottingham Forest at Brentford",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892611:7739903:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 2.5,
+    "pick": "New Jersey Devils +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -550,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -550
    },
    {
     "id": "401879248:1221386:742.192280270",
@@ -47611,7 +47613,7 @@
     "close_odds": -325
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -47621,9 +47623,9 @@
   "date": "2026-10-30",
   "type": "ladder",
   "n": 25,
-  "est_prob": 0.01541,
-  "est_raw": 0.01541,
-  "fd_payout_x": 17.38,
+  "est_prob": 0.01704,
+  "est_raw": 0.01704,
+  "fd_payout_x": 16.99,
   "legs_detail": [
    {
     "id": "401909280:7733081:742.194836146",
@@ -47642,36 +47644,68 @@
     "close_odds": -1000
    },
    {
-    "id": "401909282:7889006:742.194838903",
-    "event": "401909282",
+    "id": "401909277:12234857:742.194836764",
+    "event": "401909277",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 14.5,
+    "pick": "Charlotte Hornets +14.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8822,
+    "raw_prob": 0.8822,
+    "game": "Charlotte Hornets at Washington Wizards",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909278:7867411:742.194838008",
+    "event": "401909278",
     "sport": "nba",
     "kind": "total",
-    "line": 258.5,
+    "line": 257.5,
     "ou": "under",
-    "pick": "Under 258.5",
+    "pick": "Under 257.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8796,
-    "raw_prob": 0.8796,
-    "game": "Indiana Pacers at Miami Heat",
+    "prob": 0.8799,
+    "raw_prob": 0.8799,
+    "game": "Chicago Bulls at Boston Celtics",
     "result": null,
     "close_odds": -1000
    },
    {
-    "id": "401909285:7729382:742.194839257",
-    "event": "401909285",
+    "id": "401909284:7901298:742.194836953",
+    "event": "401909284",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 22.5,
+    "pick": "Los Angeles Clippers +22.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.876,
+    "raw_prob": 0.876,
+    "game": "LA Clippers at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401909279:7711818:742.194794100",
+    "event": "401909279",
     "sport": "nba",
     "kind": "total",
-    "line": 255.5,
+    "line": 243.5,
     "ou": "under",
-    "pick": "Under 255.5",
+    "pick": "Under 243.5",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8776,
-    "raw_prob": 0.8776,
-    "game": "Los Angeles Lakers at Golden State Warriors",
+    "odds": -1000,
+    "prob": 0.8749,
+    "raw_prob": 0.8749,
+    "game": "Detroit Pistons at Brooklyn Nets",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909286:7707590:742.194839198",
@@ -47690,36 +47724,20 @@
     "close_odds": -950
    },
    {
-    "id": "401909284:7711818:742.194836991",
-    "event": "401909284",
-    "sport": "nba",
-    "kind": "total",
-    "line": 243.5,
-    "ou": "under",
-    "pick": "Under 243.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8703,
-    "raw_prob": 0.8703,
-    "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401909277:12234853:742.194836764",
-    "event": "401909277",
+    "id": "401909285:7884710:742.194839273",
+    "event": "401909285",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 15.5,
-    "pick": "Charlotte Hornets +15.5",
+    "line": 11.5,
+    "pick": "Los Angeles Lakers +11.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8669,
-    "raw_prob": 0.8669,
-    "game": "Charlotte Hornets at Washington Wizards",
+    "odds": -750,
+    "prob": 0.8695,
+    "raw_prob": 0.8695,
+    "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -750
    },
    {
     "id": "401909283:7891520:742.194836875",
@@ -47738,20 +47756,36 @@
     "close_odds": -950
    },
    {
-    "id": "401909279:7733196:742.194794100",
-    "event": "401909279",
+    "id": "401909282:7941137:742.194838938",
+    "event": "401909282",
     "sport": "nba",
-    "kind": "total",
-    "line": 202.5,
-    "ou": "over",
-    "pick": "Over 202.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8636,
-    "raw_prob": 0.8636,
-    "game": "Detroit Pistons at Brooklyn Nets",
+    "kind": "spread",
+    "side": "away",
+    "line": 22.5,
+    "pick": "Indiana Pacers +22.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8648,
+    "raw_prob": 0.8648,
+    "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -900
+    "close_odds": -750
+   },
+   {
+    "id": "401856844:48220283:742.193934403",
+    "event": "401856844",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": 14.5,
+    "pick": "Baylor (+14.5)",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8645,
+    "raw_prob": 0.8645,
+    "game": "Baylor Bears at UCF Knights",
+    "result": null,
+    "close_odds": -1000
    },
    {
     "id": "401909281:7733045:742.194838745",
@@ -47768,22 +47802,6 @@
     "game": "Orlando Magic at Toronto Raptors",
     "result": null,
     "close_odds": -900
-   },
-   {
-    "id": "401856844:73790767:742.193934403",
-    "event": "401856844",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 18.5,
-    "pick": "UCF (+18.5)",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8602,
-    "raw_prob": 0.8602,
-    "game": "Baylor Bears at UCF Knights",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401866451:12194333:742.193934483",
@@ -47818,6 +47836,22 @@
     "close_odds": -850
    },
    {
+    "id": "401884748:1221386:742.193930955",
+    "event": "401884748",
+    "sport": "ger.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -1000,
+    "prob": 0.8509,
+    "raw_prob": 0.8509,
+    "game": "TSG Hoffenheim at Werder Bremen",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401892612:7000408:742.194873667",
     "event": "401892612",
     "sport": "nhl",
@@ -47834,22 +47868,6 @@
     "close_odds": -800
    },
    {
-    "id": "401892611:8359769:742.194872550",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 3.5,
-    "ou": "over",
-    "pick": "Over 3.5",
-    "market": "Alternate Total Goals",
-    "odds": -950,
-    "prob": 0.8489,
-    "raw_prob": 0.8489,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401879245:1221386:742.192281875",
     "event": "401879245",
     "sport": "eng.1",
@@ -47858,12 +47876,12 @@
     "ou": "over",
     "pick": "Over 1.5 Goals",
     "market": "Over/Under 1.5 Goals",
-    "odds": -950,
-    "prob": 0.8469,
-    "raw_prob": 0.8469,
+    "odds": -900,
+    "prob": 0.8428,
+    "raw_prob": 0.8428,
     "game": "Brighton & Hove Albion at Manchester City",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401879251:1222347:742.192279767",
@@ -47914,22 +47932,6 @@
     "close_odds": -850
    },
    {
-    "id": "401874798:1222347:742.194225821",
-    "event": "401874798",
-    "sport": "ita.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -750,
-    "prob": 0.8239,
-    "raw_prob": 0.8239,
-    "game": "Monza at Bologna",
-    "result": null,
-    "close_odds": -750
-   },
-   {
     "id": "401884749:1221386:742.193928949",
     "event": "401884749",
     "sport": "ger.1",
@@ -47970,9 +47972,25 @@
     "pick": "Atletico Madrid And Draw",
     "market": "Double Chance",
     "odds": -700,
-    "prob": 0.8225,
-    "raw_prob": 0.8225,
+    "prob": 0.8206,
+    "raw_prob": 0.8206,
     "game": "Atl\u00e9tico Madrid at Levante",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401874798:1222347:742.194225821",
+    "event": "401874798",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -700,
+    "prob": 0.818,
+    "raw_prob": 0.818,
+    "game": "Monza at Bologna",
     "result": null,
     "close_odds": -700
    },
@@ -48007,38 +48025,38 @@
     "game": "Seattle Kraken at Calgary Flames",
     "result": null,
     "close_odds": -600
-   },
-   {
-    "id": "401879248:1221386:742.192280270",
-    "event": "401879248",
-    "sport": "eng.1",
-    "kind": "total",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -590,
-    "prob": 0.7985,
-    "raw_prob": 0.7985,
-    "game": "Manchester United at Chelsea",
-    "result": null,
-    "close_odds": -590
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-10-30-lottery-~25x",
+  "id": "2026-10-30-lottery-~100x",
   "date": "2026-10-30",
   "type": "lottery",
-  "label": "~25x",
-  "n": 6,
-  "est_prob": 0.05371739157101305,
-  "fd_payout_x": 25.36,
+  "label": "~100x",
+  "n": 4,
+  "est_prob": 0.015786699123888002,
+  "fd_payout_x": 101.11,
   "legs_detail": [
+   {
+    "id": "401892611:7000440:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 220,
+    "prob": 0.388,
+    "raw_prob": 0.388,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": 220
+   },
    {
     "id": "401892613:40119153:742.194750261",
     "event": "401892613",
@@ -48056,36 +48074,99 @@
     "close_odds": 205
    },
    {
-    "id": "401892611:13305501:742.194748486",
+    "id": "401866451:50894405:742.193934490",
+    "event": "401866451",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Sacramento State (+2.5)",
+    "market": "Alternate Spread",
+    "odds": 196,
+    "prob": 0.3564,
+    "raw_prob": 0.3564,
+    "game": "Kent State Golden Flashes at Sacramento State Hornets",
+    "result": null,
+    "close_odds": 196
+   },
+   {
+    "id": "401862813:60194854:742.193934345",
+    "event": "401862813",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Charlotte (+1.5)",
+    "market": "Alternate Spread",
+    "odds": 250,
+    "prob": 0.2919,
+    "raw_prob": 0.2919,
+    "game": "Tulane Green Wave at Charlotte 49ers",
+    "result": null,
+    "close_odds": 250
+   }
+  ],
+  "logged": "2026-10-30 21:39 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-30-lottery-~25x",
+  "date": "2026-10-30",
+  "type": "lottery",
+  "label": "~25x",
+  "n": 6,
+  "est_prob": 0.05706933127822204,
+  "fd_payout_x": 26.61,
+  "legs_detail": [
+   {
+    "id": "401892611:7000440:742.194872495",
     "event": "401892611",
     "sport": "nhl",
     "kind": "spread",
-    "side": "home",
+    "side": "away",
     "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 225,
-    "prob": 0.3428,
-    "raw_prob": 0.3428,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 220,
+    "prob": 0.388,
+    "raw_prob": 0.388,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": 225
+    "close_odds": 220
    },
    {
-    "id": "401909280:7889765:742.194836148",
+    "id": "401892613:40119153:742.194750261",
+    "event": "401892613",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Seattle Kraken -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.3911,
+    "raw_prob": 0.3911,
+    "game": "Seattle Kraken at Calgary Flames",
+    "result": null,
+    "close_odds": 205
+   },
+   {
+    "id": "401909280:7901023:742.194836148",
     "event": "401909280",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 6.5,
-    "pick": "New York Knicks +6.5",
+    "line": 8.5,
+    "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
-    "odds": -310,
-    "prob": 0.7656,
-    "raw_prob": 0.7656,
+    "odds": -410,
+    "prob": 0.8103,
+    "raw_prob": 0.8103,
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
-    "close_odds": -310
+    "close_odds": -410
    },
    {
     "id": "401909285:7884317:742.194839273",
@@ -48102,22 +48183,6 @@
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
     "close_odds": -410
-   },
-   {
-    "id": "401909286:7889675:742.194839175",
-    "event": "401909286",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Denver Nuggets +7.5",
-    "market": "Alternate Spread",
-    "odds": -400,
-    "prob": 0.8034,
-    "raw_prob": 0.8034,
-    "game": "Denver Nuggets at Phoenix Suns",
-    "result": null,
-    "close_odds": -400
    },
    {
     "id": "401909281:7889171:742.194838746",
@@ -48134,136 +48199,25 @@
     "game": "Orlando Magic at Toronto Raptors",
     "result": null,
     "close_odds": -410
-   }
-  ],
-  "logged": "2026-10-30 21:22 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-10-30-lottery-~100x",
-  "date": "2026-10-30",
-  "type": "lottery",
-  "label": "~100x",
-  "n": 7,
-  "est_prob": 0.014382612131540915,
-  "fd_payout_x": 101.85,
-  "legs_detail": [
-   {
-    "id": "401892613:40119153:742.194750261",
-    "event": "401892613",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Seattle Kraken -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3911,
-    "raw_prob": 0.3911,
-    "game": "Seattle Kraken at Calgary Flames",
-    "result": null,
-    "close_odds": 205
    },
    {
-    "id": "401892611:13305501:742.194748486",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 225,
-    "prob": 0.3428,
-    "raw_prob": 0.3428,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": 225
-   },
-   {
-    "id": "401866451:50894405:742.193934490",
-    "event": "401866451",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Sacramento State (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 196,
-    "prob": 0.3564,
-    "raw_prob": 0.3564,
-    "game": "Kent State Golden Flashes at Sacramento State Hornets",
-    "result": null,
-    "close_odds": 196
-   },
-   {
-    "id": "401909280:7889765:742.194836148",
-    "event": "401909280",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 6.5,
-    "pick": "New York Knicks +6.5",
-    "market": "Alternate Spread",
-    "odds": -310,
-    "prob": 0.7656,
-    "raw_prob": 0.7656,
-    "game": "New York Knicks at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -310
-   },
-   {
-    "id": "401909285:7884317:742.194839273",
-    "event": "401909285",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Los Angeles Lakers +8.5",
-    "market": "Alternate Spread",
-    "odds": -410,
-    "prob": 0.8089,
-    "raw_prob": 0.8089,
-    "game": "Los Angeles Lakers at Golden State Warriors",
-    "result": null,
-    "close_odds": -410
-   },
-   {
-    "id": "401909277:7890171:742.194836764",
+    "id": "401909277:10942056:742.194836764",
     "event": "401909277",
     "sport": "nba",
     "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "Washington Wizards +3.5",
-    "market": "Alternate Spread",
-    "odds": -156,
-    "prob": 0.6213,
-    "raw_prob": 0.6213,
-    "game": "Charlotte Hornets at Washington Wizards",
-    "result": null,
-    "close_odds": -156
-   },
-   {
-    "id": "401909286:7889479:742.194839175",
-    "event": "401909286",
-    "sport": "nba",
-    "kind": "spread",
     "side": "away",
     "line": 6.5,
-    "pick": "Denver Nuggets +6.5",
+    "pick": "Charlotte Hornets +6.5",
     "market": "Alternate Spread",
-    "odds": -350,
-    "prob": 0.7823,
-    "raw_prob": 0.7823,
-    "game": "Denver Nuggets at Phoenix Suns",
+    "odds": -240,
+    "prob": 0.7125,
+    "raw_prob": 0.7125,
+    "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -350
+    "close_odds": -240
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -48273,10 +48227,26 @@
   "date": "2026-10-30",
   "type": "lottery",
   "label": "~500x",
-  "n": 8,
-  "est_prob": 0.0028997384282874626,
-  "fd_payout_x": 529.38,
+  "n": 6,
+  "est_prob": 0.003306810117044461,
+  "fd_payout_x": 509.77,
   "legs_detail": [
+   {
+    "id": "401892611:7000440:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 220,
+    "prob": 0.388,
+    "raw_prob": 0.388,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": 220
+   },
    {
     "id": "401892613:40119153:742.194750261",
     "event": "401892613",
@@ -48292,22 +48262,6 @@
     "game": "Seattle Kraken at Calgary Flames",
     "result": null,
     "close_odds": 205
-   },
-   {
-    "id": "401892611:13305501:742.194748486",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 225,
-    "prob": 0.3428,
-    "raw_prob": 0.3428,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": 225
    },
    {
     "id": "401866451:50894405:742.193934490",
@@ -48326,20 +48280,147 @@
     "close_odds": 196
    },
    {
-    "id": "401909277:7890171:742.194836764",
+    "id": "401862813:60194840:742.193934345",
+    "event": "401862813",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Charlotte (+2.5)",
+    "market": "Alternate Spread",
+    "odds": 230,
+    "prob": 0.3123,
+    "raw_prob": 0.3123,
+    "game": "Tulane Green Wave at Charlotte 49ers",
+    "result": null,
+    "close_odds": 230
+   },
+   {
+    "id": "401856844:48220292:742.193934403",
+    "event": "401856844",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "Baylor (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 196,
+    "prob": 0.3464,
+    "raw_prob": 0.3464,
+    "game": "Baylor Bears at UCF Knights",
+    "result": null,
+    "close_odds": 196
+   },
+   {
+    "id": "401909277:10871334:742.194836764",
     "event": "401909277",
     "sport": "nba",
     "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "Washington Wizards +3.5",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Charlotte Hornets +1.5",
     "market": "Alternate Spread",
-    "odds": -156,
-    "prob": 0.6213,
-    "raw_prob": 0.6213,
+    "odds": -124,
+    "prob": 0.5652,
+    "raw_prob": 0.5652,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -156
+    "close_odds": -124
+   }
+  ],
+  "logged": "2026-10-30 21:39 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-30-lottery-~1,000x",
+  "date": "2026-10-30",
+  "type": "lottery",
+  "label": "~1,000x",
+  "n": 7,
+  "est_prob": 0.0016435785629619509,
+  "fd_payout_x": 1007.48,
+  "legs_detail": [
+   {
+    "id": "401892611:7000440:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 220,
+    "prob": 0.388,
+    "raw_prob": 0.388,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": 220
+   },
+   {
+    "id": "401892613:40119153:742.194750261",
+    "event": "401892613",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Seattle Kraken -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.3911,
+    "raw_prob": 0.3911,
+    "game": "Seattle Kraken at Calgary Flames",
+    "result": null,
+    "close_odds": 205
+   },
+   {
+    "id": "401866451:50894405:742.193934490",
+    "event": "401866451",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Sacramento State (+2.5)",
+    "market": "Alternate Spread",
+    "odds": 196,
+    "prob": 0.3564,
+    "raw_prob": 0.3564,
+    "game": "Kent State Golden Flashes at Sacramento State Hornets",
+    "result": null,
+    "close_odds": 196
+   },
+   {
+    "id": "401862813:60194840:742.193934345",
+    "event": "401862813",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Charlotte (+2.5)",
+    "market": "Alternate Spread",
+    "odds": 230,
+    "prob": 0.3123,
+    "raw_prob": 0.3123,
+    "game": "Tulane Green Wave at Charlotte 49ers",
+    "result": null,
+    "close_odds": 230
+   },
+   {
+    "id": "401909277:10871334:742.194836764",
+    "event": "401909277",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Charlotte Hornets +1.5",
+    "market": "Alternate Spread",
+    "odds": -124,
+    "prob": 0.5652,
+    "raw_prob": 0.5652,
+    "game": "Charlotte Hornets at Washington Wizards",
+    "result": null,
+    "close_odds": -124
    },
    {
     "id": "401909280:7889682:742.194836148",
@@ -48350,63 +48431,30 @@
     "line": 1.5,
     "pick": "New York Knicks +1.5",
     "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.633,
-    "raw_prob": 0.633,
+    "odds": -160,
+    "prob": 0.6302,
+    "raw_prob": 0.6302,
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
-    "close_odds": -164
+    "close_odds": -160
    },
    {
-    "id": "401909285:1441498:742.194839273",
-    "event": "401909285",
+    "id": "401909282:237481:742.194415384",
+    "event": "401909282",
     "sport": "nba",
-    "kind": "spread",
+    "kind": "ml",
     "side": "away",
-    "line": 1.5,
-    "pick": "Los Angeles Lakers +1.5",
-    "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.6316,
-    "raw_prob": 0.6316,
-    "game": "Los Angeles Lakers at Golden State Warriors",
+    "pick": "Indiana Pacers",
+    "market": "Moneyline",
+    "odds": 260,
+    "prob": 0.2732,
+    "raw_prob": 0.2732,
+    "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -164
-   },
-   {
-    "id": "401862813:60194840:742.193934345",
-    "event": "401862813",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Charlotte (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 230,
-    "prob": 0.3123,
-    "raw_prob": 0.3123,
-    "game": "Tulane Green Wave at Charlotte 49ers",
-    "result": null,
-    "close_odds": 230
-   },
-   {
-    "id": "401909286:7889479:742.194839175",
-    "event": "401909286",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 6.5,
-    "pick": "Denver Nuggets +6.5",
-    "market": "Alternate Spread",
-    "odds": -350,
-    "prob": 0.7823,
-    "raw_prob": 0.7823,
-    "game": "Denver Nuggets at Phoenix Suns",
-    "result": null,
-    "close_odds": -350
+    "close_odds": 260
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -48417,9 +48465,25 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 9,
-  "est_prob": 0.00014057703540182215,
-  "fd_payout_x": 10024.99,
+  "est_prob": 0.00016265918497980264,
+  "fd_payout_x": 10139.31,
   "legs_detail": [
+   {
+    "id": "401892611:7000440:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 220,
+    "prob": 0.388,
+    "raw_prob": 0.388,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": 220
+   },
    {
     "id": "401892613:40119153:742.194750261",
     "event": "401892613",
@@ -48435,22 +48499,6 @@
     "game": "Seattle Kraken at Calgary Flames",
     "result": null,
     "close_odds": 205
-   },
-   {
-    "id": "401892611:13305501:742.194748486",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 225,
-    "prob": 0.3428,
-    "raw_prob": 0.3428,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": 225
    },
    {
     "id": "401866451:50894405:742.193934490",
@@ -48485,20 +48533,67 @@
     "close_odds": 230
    },
    {
-    "id": "401856844:73396485:742.193934403",
+    "id": "401856844:48220292:742.193934403",
     "event": "401856844",
     "sport": "college-football",
     "kind": "spread",
-    "side": "home",
+    "side": "away",
     "line": -7.5,
-    "pick": "UCF (-7.5)",
+    "pick": "Baylor (-7.5)",
     "market": "Alternate Spread",
-    "odds": 285,
-    "prob": 0.2555,
-    "raw_prob": 0.2555,
+    "odds": 196,
+    "prob": 0.3464,
+    "raw_prob": 0.3464,
     "game": "Baylor Bears at UCF Knights",
     "result": null,
-    "close_odds": 285
+    "close_odds": 196
+   },
+   {
+    "id": "401909277:10871334:742.194836764",
+    "event": "401909277",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Charlotte Hornets +1.5",
+    "market": "Alternate Spread",
+    "odds": -124,
+    "prob": 0.5652,
+    "raw_prob": 0.5652,
+    "game": "Charlotte Hornets at Washington Wizards",
+    "result": null,
+    "close_odds": -124
+   },
+   {
+    "id": "401909280:7889682:742.194836148",
+    "event": "401909280",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "New York Knicks +1.5",
+    "market": "Alternate Spread",
+    "odds": -160,
+    "prob": 0.6302,
+    "raw_prob": 0.6302,
+    "game": "New York Knicks at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -160
+   },
+   {
+    "id": "401909282:237481:742.194415384",
+    "event": "401909282",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Indiana Pacers",
+    "market": "Moneyline",
+    "odds": 260,
+    "prob": 0.2732,
+    "raw_prob": 0.2732,
+    "game": "Indiana Pacers at Miami Heat",
+    "result": null,
+    "close_odds": 260
    },
    {
     "id": "401884749:208035:742.193928963",
@@ -48514,248 +48609,9 @@
     "game": "SC Paderborn 07 at Borussia M\u00f6nchengladbach",
     "result": null,
     "close_odds": 240
-   },
-   {
-    "id": "401909277:2643778:742.194836764",
-    "event": "401909277",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Washington Wizards +1.5",
-    "market": "Alternate Spread",
-    "odds": -124,
-    "prob": 0.5632,
-    "raw_prob": 0.5632,
-    "game": "Charlotte Hornets at Washington Wizards",
-    "result": null,
-    "close_odds": -124
-   },
-   {
-    "id": "401909282:7883311:742.194838938",
-    "event": "401909282",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 3.5,
-    "pick": "Indiana Pacers +3.5",
-    "market": "Alternate Spread",
-    "odds": 172,
-    "prob": 0.362,
-    "raw_prob": 0.362,
-    "game": "Indiana Pacers at Miami Heat",
-    "result": null,
-    "close_odds": 172
-   },
-   {
-    "id": "401909280:7889682:742.194836148",
-    "event": "401909280",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "New York Knicks +1.5",
-    "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.633,
-    "raw_prob": 0.633,
-    "game": "New York Knicks at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -164
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-10-30-lottery-~1,000x",
-  "date": "2026-10-30",
-  "type": "lottery",
-  "label": "~1,000x",
-  "n": 11,
-  "est_prob": 0.0014738278881868663,
-  "fd_payout_x": 1039.48,
-  "legs_detail": [
-   {
-    "id": "401892613:40119153:742.194750261",
-    "event": "401892613",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Seattle Kraken -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3911,
-    "raw_prob": 0.3911,
-    "game": "Seattle Kraken at Calgary Flames",
-    "result": null,
-    "close_odds": 205
-   },
-   {
-    "id": "401892611:13305501:742.194748486",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 225,
-    "prob": 0.3428,
-    "raw_prob": 0.3428,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": 225
-   },
-   {
-    "id": "401866451:50894405:742.193934490",
-    "event": "401866451",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Sacramento State (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 196,
-    "prob": 0.3564,
-    "raw_prob": 0.3564,
-    "game": "Kent State Golden Flashes at Sacramento State Hornets",
-    "result": null,
-    "close_odds": 196
-   },
-   {
-    "id": "401909277:7890171:742.194836764",
-    "event": "401909277",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "Washington Wizards +3.5",
-    "market": "Alternate Spread",
-    "odds": -156,
-    "prob": 0.6213,
-    "raw_prob": 0.6213,
-    "game": "Charlotte Hornets at Washington Wizards",
-    "result": null,
-    "close_odds": -156
-   },
-   {
-    "id": "401909280:7889682:742.194836148",
-    "event": "401909280",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "New York Knicks +1.5",
-    "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.633,
-    "raw_prob": 0.633,
-    "game": "New York Knicks at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -164
-   },
-   {
-    "id": "401909285:1441498:742.194839273",
-    "event": "401909285",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Los Angeles Lakers +1.5",
-    "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.6316,
-    "raw_prob": 0.6316,
-    "game": "Los Angeles Lakers at Golden State Warriors",
-    "result": null,
-    "close_odds": -164
-   },
-   {
-    "id": "401862813:60194840:742.193934345",
-    "event": "401862813",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Charlotte (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 230,
-    "prob": 0.3123,
-    "raw_prob": 0.3123,
-    "game": "Tulane Green Wave at Charlotte 49ers",
-    "result": null,
-    "close_odds": 230
-   },
-   {
-    "id": "401909286:7889479:742.194839175",
-    "event": "401909286",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 6.5,
-    "pick": "Denver Nuggets +6.5",
-    "market": "Alternate Spread",
-    "odds": -350,
-    "prob": 0.7823,
-    "raw_prob": 0.7823,
-    "game": "Denver Nuggets at Phoenix Suns",
-    "result": null,
-    "close_odds": -350
-   },
-   {
-    "id": "401909281:7889171:742.194838746",
-    "event": "401909281",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Toronto Raptors +6.5",
-    "market": "Alternate Spread",
-    "odds": -410,
-    "prob": 0.8053,
-    "raw_prob": 0.8053,
-    "game": "Orlando Magic at Toronto Raptors",
-    "result": null,
-    "close_odds": -410
-   },
-   {
-    "id": "401909284:7914013:742.194836953",
-    "event": "401909284",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 4.5,
-    "pick": "Minnesota Timberwolves +4.5",
-    "market": "Alternate Spread",
-    "odds": -390,
-    "prob": 0.7965,
-    "raw_prob": 0.7965,
-    "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -390
-   },
-   {
-    "id": "401909282:7883564:742.194838938",
-    "event": "401909282",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 18.5,
-    "pick": "Indiana Pacers +18.5",
-    "market": "Alternate Spread",
-    "odds": -390,
-    "prob": 0.7924,
-    "raw_prob": 0.7924,
-    "game": "Indiana Pacers at Miami Heat",
-    "result": null,
-    "close_odds": -390
-   }
-  ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -48766,9 +48622,25 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 16,
-  "est_prob": 1.3207924557097391e-05,
-  "fd_payout_x": 103391.51,
+  "est_prob": 1.527160989488299e-05,
+  "fd_payout_x": 100367.76,
   "legs_detail": [
+   {
+    "id": "401892611:7000440:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 220,
+    "prob": 0.388,
+    "raw_prob": 0.388,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": 220
+   },
    {
     "id": "401892613:40119153:742.194750261",
     "event": "401892613",
@@ -48784,22 +48656,6 @@
     "game": "Seattle Kraken at Calgary Flames",
     "result": null,
     "close_odds": 205
-   },
-   {
-    "id": "401892611:13305501:742.194748486",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 225,
-    "prob": 0.3428,
-    "raw_prob": 0.3428,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": 225
    },
    {
     "id": "401866451:50894405:742.193934490",
@@ -48834,22 +48690,6 @@
     "close_odds": 230
    },
    {
-    "id": "401909277:2643778:742.194836764",
-    "event": "401909277",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Washington Wizards +1.5",
-    "market": "Alternate Spread",
-    "odds": -124,
-    "prob": 0.5632,
-    "raw_prob": 0.5632,
-    "game": "Charlotte Hornets at Washington Wizards",
-    "result": null,
-    "close_odds": -124
-   },
-   {
     "id": "401909280:7889682:742.194836148",
     "event": "401909280",
     "sport": "nba",
@@ -48858,44 +48698,59 @@
     "line": 1.5,
     "pick": "New York Knicks +1.5",
     "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.633,
-    "raw_prob": 0.633,
+    "odds": -160,
+    "prob": 0.6302,
+    "raw_prob": 0.6302,
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
-    "close_odds": -164
+    "close_odds": -160
    },
    {
-    "id": "401856844:48220292:742.193934403",
-    "event": "401856844",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -7.5,
-    "pick": "Baylor (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 190,
-    "prob": 0.3447,
-    "raw_prob": 0.3447,
-    "game": "Baylor Bears at UCF Knights",
-    "result": null,
-    "close_odds": 190
-   },
-   {
-    "id": "401909282:7883355:742.194838938",
-    "event": "401909282",
+    "id": "401909277:10871334:742.194836764",
+    "event": "401909277",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 6.5,
-    "pick": "Indiana Pacers +6.5",
+    "line": 1.5,
+    "pick": "Charlotte Hornets +1.5",
     "market": "Alternate Spread",
-    "odds": 120,
-    "prob": 0.4523,
-    "raw_prob": 0.4523,
+    "odds": -124,
+    "prob": 0.5652,
+    "raw_prob": 0.5652,
+    "game": "Charlotte Hornets at Washington Wizards",
+    "result": null,
+    "close_odds": -124
+   },
+   {
+    "id": "401909285:1441498:742.194839273",
+    "event": "401909285",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Los Angeles Lakers +1.5",
+    "market": "Alternate Spread",
+    "odds": -166,
+    "prob": 0.633,
+    "raw_prob": 0.633,
+    "game": "Los Angeles Lakers at Golden State Warriors",
+    "result": null,
+    "close_odds": -166
+   },
+   {
+    "id": "401909282:237481:742.194415384",
+    "event": "401909282",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Indiana Pacers",
+    "market": "Moneyline",
+    "odds": 260,
+    "prob": 0.2732,
+    "raw_prob": 0.2732,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": 120
+    "close_odds": 260
    },
    {
     "id": "401909286:7889677:742.194839175",
@@ -48930,20 +48785,20 @@
     "close_odds": -410
    },
    {
-    "id": "401909284:7914013:742.194836953",
+    "id": "401909284:7891200:742.194836953",
     "event": "401909284",
     "sport": "nba",
     "kind": "spread",
     "side": "home",
-    "line": 4.5,
-    "pick": "Minnesota Timberwolves +4.5",
+    "line": 1.5,
+    "pick": "Minnesota Timberwolves +1.5",
     "market": "Alternate Spread",
-    "odds": -390,
-    "prob": 0.7965,
-    "raw_prob": 0.7965,
+    "odds": -280,
+    "prob": 0.7342,
+    "raw_prob": 0.7342,
     "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -390
+    "close_odds": -280
    },
    {
     "id": "401884749:208035:742.193928963",
@@ -49024,7 +48879,7 @@
     "close_odds": 200
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -49034,10 +48889,26 @@
   "date": "2026-10-30",
   "type": "lottery",
   "label": "~1,000,000x",
-  "n": 19,
-  "est_prob": 1.2225619518776251e-06,
-  "fd_payout_x": 1011609.81,
+  "n": 18,
+  "est_prob": 1.469384521633677e-06,
+  "fd_payout_x": 1008604.03,
   "legs_detail": [
+   {
+    "id": "401892611:7000440:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 220,
+    "prob": 0.388,
+    "raw_prob": 0.388,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": 220
+   },
    {
     "id": "401892613:40119153:742.194750261",
     "event": "401892613",
@@ -49053,22 +48924,6 @@
     "game": "Seattle Kraken at Calgary Flames",
     "result": null,
     "close_odds": 205
-   },
-   {
-    "id": "401892611:13305501:742.194748486",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 225,
-    "prob": 0.3428,
-    "raw_prob": 0.3428,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": 225
    },
    {
     "id": "401866451:50894405:742.193934490",
@@ -49103,6 +48958,22 @@
     "close_odds": 230
    },
    {
+    "id": "401856844:48220292:742.193934403",
+    "event": "401856844",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "Baylor (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 196,
+    "prob": 0.3464,
+    "raw_prob": 0.3464,
+    "game": "Baylor Bears at UCF Knights",
+    "result": null,
+    "close_odds": 196
+   },
+   {
     "id": "401909280:7889682:742.194836148",
     "event": "401909280",
     "sport": "nba",
@@ -49111,12 +48982,28 @@
     "line": 1.5,
     "pick": "New York Knicks +1.5",
     "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.633,
-    "raw_prob": 0.633,
+    "odds": -160,
+    "prob": 0.6302,
+    "raw_prob": 0.6302,
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
-    "close_odds": -164
+    "close_odds": -160
+   },
+   {
+    "id": "401909277:10871334:742.194836764",
+    "event": "401909277",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Charlotte Hornets +1.5",
+    "market": "Alternate Spread",
+    "odds": -124,
+    "prob": 0.5652,
+    "raw_prob": 0.5652,
+    "game": "Charlotte Hornets at Washington Wizards",
+    "result": null,
+    "close_odds": -124
    },
    {
     "id": "401909285:1441498:742.194839273",
@@ -49127,44 +49014,27 @@
     "line": 1.5,
     "pick": "Los Angeles Lakers +1.5",
     "market": "Alternate Spread",
-    "odds": -164,
-    "prob": 0.6316,
-    "raw_prob": 0.6316,
+    "odds": -166,
+    "prob": 0.633,
+    "raw_prob": 0.633,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -164
+    "close_odds": -166
    },
    {
-    "id": "401856844:48220292:742.193934403",
-    "event": "401856844",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -7.5,
-    "pick": "Baylor (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 190,
-    "prob": 0.3447,
-    "raw_prob": 0.3447,
-    "game": "Baylor Bears at UCF Knights",
-    "result": null,
-    "close_odds": 190
-   },
-   {
-    "id": "401909282:7883355:742.194838938",
+    "id": "401909282:237481:742.194415384",
     "event": "401909282",
     "sport": "nba",
-    "kind": "spread",
+    "kind": "ml",
     "side": "away",
-    "line": 6.5,
-    "pick": "Indiana Pacers +6.5",
-    "market": "Alternate Spread",
-    "odds": 120,
-    "prob": 0.4523,
-    "raw_prob": 0.4523,
+    "pick": "Indiana Pacers",
+    "market": "Moneyline",
+    "odds": 260,
+    "prob": 0.2732,
+    "raw_prob": 0.2732,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": 120
+    "close_odds": 260
    },
    {
     "id": "401909286:7889677:742.194839175",
@@ -49183,36 +49053,20 @@
     "close_odds": -192
    },
    {
-    "id": "401909281:7889171:742.194838746",
-    "event": "401909281",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Toronto Raptors +6.5",
-    "market": "Alternate Spread",
-    "odds": -410,
-    "prob": 0.8053,
-    "raw_prob": 0.8053,
-    "game": "Orlando Magic at Toronto Raptors",
-    "result": null,
-    "close_odds": -410
-   },
-   {
-    "id": "401909284:7914013:742.194836953",
+    "id": "401909284:7891200:742.194836953",
     "event": "401909284",
     "sport": "nba",
     "kind": "spread",
     "side": "home",
-    "line": 4.5,
-    "pick": "Minnesota Timberwolves +4.5",
+    "line": 1.5,
+    "pick": "Minnesota Timberwolves +1.5",
     "market": "Alternate Spread",
-    "odds": -390,
-    "prob": 0.7965,
-    "raw_prob": 0.7965,
+    "odds": -280,
+    "prob": 0.7342,
+    "raw_prob": 0.7342,
     "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -390
+    "close_odds": -280
    },
    {
     "id": "401884749:208035:742.193928963",
@@ -49322,24 +49176,9 @@
     "game": "Nottingham Forest at Brentford",
     "result": null,
     "close_odds": 105
-   },
-   {
-    "id": "401878763:70385:742.192279058",
-    "event": "401878763",
-    "sport": "eng.1",
-    "kind": "ml3",
-    "side": "home",
-    "pick": "Hull",
-    "market": "Moneyline (3-way)",
-    "odds": 160,
-    "prob": 0.369,
-    "raw_prob": 0.369,
-    "game": "Ipswich Town at Hull City",
-    "result": null,
-    "close_odds": 160
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -49591,7 +49430,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401882817:28191:742.193951907",
@@ -49637,7 +49476,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -49781,7 +49620,7 @@
     "raw_prob": 0.8826,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909281:7889386:742.194838746",
@@ -49909,7 +49748,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401874798:1222347:742.194225821",
@@ -49925,7 +49764,7 @@
     "raw_prob": 0.8239,
     "game": "Monza at Bologna",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401882820:13579713:742.193951702",
@@ -50035,7 +49874,7 @@
     "raw_prob": 0.3626,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": 225
+    "close_odds": -260
    },
    {
     "id": "401909283:7891583:742.194836875",
@@ -50083,7 +49922,7 @@
     "raw_prob": 0.8698,
     "game": "Indiana Pacers at Miami Heat",
     "result": null,
-    "close_odds": -720
+    "close_odds": -750
    },
    {
     "id": "401909284:7927639:742.194836953",
@@ -50099,7 +49938,7 @@
     "raw_prob": 0.8415,
     "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -560
+    "close_odds": -580
    },
    {
     "id": "401909285:7889011:742.194839273",
@@ -50115,7 +49954,7 @@
     "raw_prob": 0.813,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -520
+    "close_odds": -500
    },
    {
     "id": "401909277:7890171:742.194836764",
@@ -50131,7 +49970,7 @@
     "raw_prob": 0.6334,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -156
+    "close_odds": -150
    },
    {
     "id": "401909281:7889171:742.194838746",
@@ -50195,7 +50034,7 @@
     "raw_prob": 0.7929,
     "game": "New York Knicks at Philadelphia 76ers",
     "result": null,
-    "close_odds": -520
+    "close_odds": -500
    },
    {
     "id": "401909279:7711399:742.194794100",
@@ -50211,7 +50050,7 @@
     "raw_prob": 0.8248,
     "game": "Detroit Pistons at Brooklyn Nets",
     "result": null,
-    "close_odds": -590
+    "close_odds": -580
    },
    {
     "id": "401856844:12194341:742.193934406",
@@ -50272,7 +50111,7 @@
     "prob": 0.4599,
     "raw_prob": 0.4599,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "loss",
     "close_odds": -120
    },
    {
@@ -50589,7 +50428,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401876421:1221386:742.192496408",
@@ -50667,7 +50506,7 @@
     "prob": 0.7885,
     "raw_prob": 0.7885,
     "game": "Mainz at SV Elversberg",
-    "result": null,
+    "result": "win",
     "close_odds": -700
    },
    {
@@ -50827,7 +50666,7 @@
     "raw_prob": 0.8802,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -800
    },
    {
     "id": "401856844:12197206:742.193934406",
@@ -50939,7 +50778,7 @@
     "raw_prob": 0.8489,
     "game": "New Jersey Devils at Vegas Golden Knights",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401884748:1221386:742.193930955",
@@ -51034,7 +50873,7 @@
     "raw_prob": 0.8089,
     "game": "Monza at Bologna",
     "result": null,
-    "close_odds": -750
+    "close_odds": -700
    },
    {
     "id": "401892613:53201162:742.194877889",
@@ -51095,40 +50934,24 @@
   "type": "lottery",
   "label": "25-leg best-chance lottery",
   "n": 25,
-  "est_prob": 0.021670363433245878,
-  "fd_payout_x": 16.3,
+  "est_prob": 0.01934107208456158,
+  "fd_payout_x": 20.22,
   "legs_detail": [
    {
-    "id": "401909285:7889051:742.194839273",
+    "id": "401909285:7884326:742.194839273",
     "event": "401909285",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 13.5,
-    "pick": "Los Angeles Lakers +13.5",
+    "line": 12.5,
+    "pick": "Los Angeles Lakers +12.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8973,
-    "raw_prob": 0.8973,
+    "odds": -950,
+    "prob": 0.888,
+    "raw_prob": 0.888,
     "game": "Los Angeles Lakers at Golden State Warriors",
     "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909282:7883572:742.194838938",
-    "event": "401909282",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 24.5,
-    "pick": "Indiana Pacers +24.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8911,
-    "raw_prob": 0.8911,
-    "game": "Indiana Pacers at Miami Heat",
-    "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909278:7883762:742.194837976",
@@ -51163,22 +50986,6 @@
     "close_odds": -950
    },
    {
-    "id": "401909284:7888962:742.194836953",
-    "event": "401909284",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 9.5,
-    "pick": "Minnesota Timberwolves +9.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8847,
-    "raw_prob": 0.8847,
-    "game": "LA Clippers at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401909277:7729371:742.194836766",
     "event": "401909277",
     "sport": "nba",
@@ -51187,21 +50994,37 @@
     "ou": "under",
     "pick": "Under 240.5",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8846,
-    "raw_prob": 0.8846,
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
     "game": "Charlotte Hornets at Washington Wizards",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
-    "id": "401909279:7890361:742.194794130",
-    "event": "401909279",
+    "id": "401909282:7920385:742.194838938",
+    "event": "401909282",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 8.5,
-    "pick": "Detroit Pistons +8.5",
+    "line": 23.5,
+    "pick": "Indiana Pacers +23.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
+    "game": "Indiana Pacers at Miami Heat",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909279:7888874:742.194794130",
+    "event": "401909279",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 23.5,
+    "pick": "Brooklyn Nets +23.5",
     "market": "Alternate Spread",
     "odds": -1000,
     "prob": 0.8832,
@@ -51255,6 +51078,22 @@
     "prob": 0.8801,
     "raw_prob": 0.8801,
     "game": "Baylor Bears at UCF Knights",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401909284:7695584:742.194836991",
+    "event": "401909284",
+    "sport": "nba",
+    "kind": "total",
+    "line": 244.5,
+    "ou": "under",
+    "pick": "Under 244.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8799,
+    "raw_prob": 0.8799,
+    "game": "LA Clippers at Minnesota Timberwolves",
     "result": null,
     "close_odds": -1000
    },
@@ -51323,22 +51162,6 @@
     "close_odds": -800
    },
    {
-    "id": "401892611:8359769:742.194872550",
-    "event": "401892611",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 3.5,
-    "ou": "over",
-    "pick": "Over 3.5",
-    "market": "Alternate Total Goals",
-    "odds": -950,
-    "prob": 0.8489,
-    "raw_prob": 0.8489,
-    "game": "New Jersey Devils at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401884748:1221386:742.193930955",
     "event": "401884748",
     "sport": "ger.1",
@@ -51363,12 +51186,12 @@
     "ou": "over",
     "pick": "Over 1.5 Goals",
     "market": "Over/Under 1.5 Goals",
-    "odds": -950,
-    "prob": 0.8469,
-    "raw_prob": 0.8469,
+    "odds": -900,
+    "prob": 0.8428,
+    "raw_prob": 0.8428,
     "game": "Brighton & Hove Albion at Manchester City",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401879251:1222347:742.192279767",
@@ -51419,37 +51242,6 @@
     "close_odds": -850
    },
    {
-    "id": "401882820:13579713:742.193951702",
-    "event": "401882820",
-    "sport": "esp.1",
-    "kind": "dc",
-    "side": "away",
-    "pick": "Atletico Madrid And Draw",
-    "market": "Double Chance",
-    "odds": -700,
-    "prob": 0.8225,
-    "raw_prob": 0.8225,
-    "game": "Atl\u00e9tico Madrid at Levante",
-    "result": null,
-    "close_odds": -700
-   },
-   {
-    "id": "401874798:1222347:742.194225821",
-    "event": "401874798",
-    "sport": "ita.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -750,
-    "prob": 0.8239,
-    "raw_prob": 0.8239,
-    "game": "Monza at Bologna",
-    "result": null,
-    "close_odds": -750
-   },
-   {
     "id": "401884749:1221386:742.193928949",
     "event": "401884749",
     "sport": "ger.1",
@@ -51482,6 +51274,53 @@
     "close_odds": -750
    },
    {
+    "id": "401882820:13579713:742.193951702",
+    "event": "401882820",
+    "sport": "esp.1",
+    "kind": "dc",
+    "side": "away",
+    "pick": "Atletico Madrid And Draw",
+    "market": "Double Chance",
+    "odds": -700,
+    "prob": 0.8206,
+    "raw_prob": 0.8206,
+    "game": "Atl\u00e9tico Madrid at Levante",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401874798:1222347:742.194225821",
+    "event": "401874798",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -700,
+    "prob": 0.818,
+    "raw_prob": 0.818,
+    "game": "Monza at Bologna",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401892611:7000413:742.194872495",
+    "event": "401892611",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "New Jersey Devils +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -300,
+    "prob": 0.7902,
+    "raw_prob": 0.7902,
+    "game": "New Jersey Devils at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -300
+   },
+   {
     "id": "401892613:53201162:742.194877889",
     "event": "401892613",
     "sport": "nhl",
@@ -51498,7 +51337,7 @@
     "close_odds": -320
    }
   ],
-  "logged": "2026-10-30 21:22 UTC",
+  "logged": "2026-10-30 21:39 UTC",
   "locked": false,
   "result": null,
   "favorite": false
