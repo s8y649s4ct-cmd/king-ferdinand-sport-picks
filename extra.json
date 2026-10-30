@@ -1,21 +1,59 @@
 {
- "updated": "2026-10-30 04:49 UTC",
+ "updated": "2026-10-30 04:52 UTC",
  "live": {
-  "legs": {},
-  "all_legs": 0,
-  "parlays": [],
+  "legs": {
+   "401892609:25613:742.193520387": {
+    "kind": "ml",
+    "side": "home",
+    "id": "401892609:25613:742.193520387",
+    "event": "401892609",
+    "sport": "nhl",
+    "game": "Ottawa Senators at Los Angeles Kings",
+    "start": "2026-10-30T02:00Z",
+    "market": "Moneyline",
+    "pick": "Los Angeles Kings",
+    "odds": -140,
+    "fd_prob": 0.5506,
+    "fd_market_id": "742.193520387",
+    "fd_selection_id": 25613,
+    "fd_event": 36230607,
+    "model_prob": 0.5061,
+    "prob": 0.5284,
+    "score": "OTT 5 - LA 5",
+    "clock": "4:29 - OT",
+    "asof": "2026-10-30 04:52 UTC",
+    "espn_wp": null,
+    "why": "OTT 5 - LA 5, 4:29 - OT (4% of game left). Score+clock model 50.6%, FanDuel no-vig 55.1%.",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193520387&selectionId%5B0%5D=25613"
+   }
+  },
+  "all_legs": 2,
+  "parlays": [
+   {
+    "n": 1,
+    "legs": [
+     "401892609:25613:742.193520387"
+    ],
+    "est_prob": 0.5284,
+    "fd_payout_x": 1.71,
+    "ev": -0.0942,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193520387&selectionId%5B0%5D=25613",
+    "type": "live",
+    "favorite": false
+   }
+  ],
   "coverage": {
    "espn_live": 1,
    "fd_inplay_matched": 1,
    "espn_winprob": 0,
-   "legs_dropped_price_move": 2,
-   "games_with_leg": 0
+   "legs_dropped_price_move": 0,
+   "games_with_leg": 1
   },
   "games": [
    {
     "name": "Ottawa Senators at Los Angeles Kings",
     "sport": "nhl",
-    "detail": "0:07 - 3rd",
+    "detail": "4:29 - OT",
     "score": "Senators 5 - Kings 5"
    }
   ],
@@ -95,7 +133,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 5/5 games hit (avg 10.2); last 10 10/10; last season's final 20: 19/20; minutes up (25 vs 21) +1 pt; Warriors allow 119.4 pts/g vs 113.8 avg of today's teams (+2.0 pts); teammates out: Cameron Carr, Adou Thiero (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Los Angeles Lakers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850403&selectionId%5B0%5D=41979893"
    },
@@ -121,7 +159,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 2.4); last 10 9/10; last season's final 20: 16/20; Flames allow 3.8 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Seattle Kraken",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826916&selectionId%5B0%5D=12553089"
    },
@@ -147,7 +185,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 11/12 games hit (avg 2.0); last 10 9/10; last season's final 20: 17/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826916&selectionId%5B0%5D=37515908"
    },
@@ -173,7 +211,7 @@
     "n_games": 3,
     "injury": "none listed",
     "why": "This season 3/3 games hit (avg 14.7); last 10 10/10; last season's final 20: 18/20; Nuggets allow 114.0 pts/g vs 113.8 avg of today's teams (+0.1 pts); teammates out: Mark Williams (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Phoenix Suns",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851072&selectionId%5B0%5D=15588149"
    },
@@ -199,7 +237,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 3/4 games hit (avg 22.5); last 10 9/10; last season's final 20: 17/20; Suns allow 123.7 pts/g vs 113.8 avg of today's teams (+3.0 pts); teammates out: Alpha Diallo, Cameron Johnson, Spencer Jones (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Denver Nuggets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851085&selectionId%5B0%5D=11339195"
    },
@@ -225,7 +263,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 3/4 games hit (avg 9.5); last 10 3/4; Suns allow 123.7 pts/g vs 113.8 avg of today's teams (+3.0 pts); teammates out: Alpha Diallo, Cameron Johnson, Spencer Jones (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Denver Nuggets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851036&selectionId%5B0%5D=50494702"
    },
@@ -251,7 +289,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 3/4 games hit (avg 36.0); last 10 8/10; last season's final 20: 18/20; Warriors allow 119.4 pts/g vs 113.8 avg of today's teams (+2.0 pts); teammates out: Cameron Carr, Adou Thiero (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Los Angeles Lakers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850399&selectionId%5B0%5D=18821276"
    },
@@ -277,7 +315,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 4/4 games hit (avg 6.8); last 10 10/10; last season's final 20: 18/20; Lakers allow 113.6 pts/g vs 113.8 avg of today's teams (-0.1 pts); teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Golden State Warriors",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850319&selectionId%5B0%5D=9515565"
    },
@@ -303,7 +341,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 4/4 games hit (avg 6.5); last 10 4/4; Mavericks allow 112.0 pts/g vs 113.8 avg of today's teams (-0.6 pts); teammates out: Steven Adams, Reed Sheppard, Marcus Smart (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Houston Rockets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194853964&selectionId%5B0%5D=17703580"
    },
@@ -329,7 +367,7 @@
     "n_games": 3,
     "injury": "none listed",
     "why": "This season 2/3 games hit (avg 23.0); last 10 9/10; last season's final 20: 19/20; Nuggets allow 114.0 pts/g vs 113.8 avg of today's teams (+0.1 pts); teammates out: Mark Williams (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Phoenix Suns",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851085&selectionId%5B0%5D=9878468"
    },
@@ -355,7 +393,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 11/12 games hit (avg 1.8); last 10 9/10; last season's final 20: 14/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826916&selectionId%5B0%5D=70260727"
    },
@@ -381,7 +419,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 13/13 games hit (avg 3.6); last 10 10/10; last season's final 20: 20/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=24660528"
    },
@@ -407,7 +445,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 5.4); last 10 8/10; last season's final 20: 16/20; Warriors allow 119.4 pts/g vs 113.8 avg of today's teams (+2.0 pts); teammates out: Cameron Carr, Adou Thiero (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Los Angeles Lakers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850319&selectionId%5B0%5D=36981620"
    },
@@ -433,7 +471,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 5/5 games hit (avg 9.6); last 10 10/10; last season's final 20: 17/20; Rockets allow 108.8 pts/g vs 113.8 avg of today's teams (-1.7 pts); teammates out: Santi Aldama, Tarik Biberovic, Sergio de Larrea (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Dallas Mavericks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194854000&selectionId%5B0%5D=42809657"
    },
@@ -459,7 +497,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 16.2); last 10 9/10; last season's final 20: 18/20; Mavericks allow 112.0 pts/g vs 113.8 avg of today's teams (-0.6 pts); teammates out: Steven Adams, Reed Sheppard, Marcus Smart (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Houston Rockets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194854063&selectionId%5B0%5D=43122150"
    },
@@ -485,7 +523,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 3.0); last 10 6/10; last season's final 20: 16/20; Wizards allow 115.8 pts/g vs 113.8 avg of today's teams (+0.7 pts); teammates out: Kylan Boswell, Kon Knueppel, Coby White (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Charlotte Hornets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850212&selectionId%5B0%5D=19625849"
    },
@@ -511,7 +549,7 @@
     "n_games": 3,
     "injury": "none listed",
     "why": "This season 3/3 games hit (avg 14.0); last 10 8/10; last season's final 20: 17/20; Nuggets allow 114.0 pts/g vs 113.8 avg of today's teams (+0.1 pts); teammates out: Mark Williams (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Phoenix Suns",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851072&selectionId%5B0%5D=40118694"
    },
@@ -537,7 +575,7 @@
     "n_games": 3,
     "injury": "none listed",
     "why": "This season 3/3 games hit (avg 4.7); last 10 7/10; last season's final 20: 16/20; Lakers allow 113.6 pts/g vs 113.8 avg of today's teams (-0.1 pts); teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Golden State Warriors",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850409&selectionId%5B0%5D=52263967"
    },
@@ -563,7 +601,7 @@
     "n_games": 10,
     "injury": "none listed",
     "why": "This season 8/10 games hit (avg 2.5); last 10 8/10; last season's final 20: 20/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820099&selectionId%5B0%5D=53206199"
    },
@@ -589,7 +627,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 17.0); last 10 8/10; last season's final 20: 15/20; Wizards allow 115.8 pts/g vs 113.8 avg of today's teams (+0.7 pts); teammates out: Kylan Boswell, Kon Knueppel, Coby White (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Charlotte Hornets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850205&selectionId%5B0%5D=27857529"
    },
@@ -615,7 +653,7 @@
     "n_games": 3,
     "injury": "none listed",
     "why": "This season 3/3 games hit (avg 4.3); last 10 8/10; last season's final 20: 16/20; Nuggets allow 114.0 pts/g vs 113.8 avg of today's teams (+0.1 pts); teammates out: Mark Williams (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Phoenix Suns",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851023&selectionId%5B0%5D=26799222"
    },
@@ -642,7 +680,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 5/5 games hit (avg 2.2); last 10 5/5; Lakers allow 113.6 pts/g vs 113.8 avg of today's teams (-0.1 pts); teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Golden State Warriors",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850371&selectionId%5B0%5D=64937517"
    },
@@ -669,7 +707,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 5/5 games hit (avg 2.0); last 10 9/10; last season's final 20: 16/20; Mavericks allow 112.0 pts/g vs 113.8 avg of today's teams (-0.6 pts); teammates out: Steven Adams, Reed Sheppard, Marcus Smart (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Houston Rockets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194853947&selectionId%5B0%5D=2387617"
    },
@@ -695,7 +733,7 @@
     "n_games": 3,
     "injury": "none listed",
     "why": "This season 2/3 games hit (avg 13.7); last 10 8/10; last season's final 20: 18/20; Nuggets allow 114.0 pts/g vs 113.8 avg of today's teams (+0.1 pts); teammates out: Mark Williams (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Phoenix Suns",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851072&selectionId%5B0%5D=18970811"
    },
@@ -721,7 +759,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 3/4 games hit (avg 2.5); last 10 8/10; last season's final 20: 16/20; Suns allow 123.7 pts/g vs 113.8 avg of today's teams (+3.0 pts); teammates out: Alpha Diallo, Cameron Johnson, Spencer Jones (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Denver Nuggets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851023&selectionId%5B0%5D=3910850"
    },
@@ -747,7 +785,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 3/4 games hit (avg 2.5); last 10 8/10; last season's final 20: 17/20; Suns allow 123.7 pts/g vs 113.8 avg of today's teams (+3.0 pts); teammates out: Alpha Diallo, Cameron Johnson, Spencer Jones (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Denver Nuggets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851023&selectionId%5B0%5D=8659734"
    },
@@ -773,7 +811,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 14/14 games hit (avg 2.2); last 10 10/10; last season's final 20: 17/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820099&selectionId%5B0%5D=21845356"
    },
@@ -799,7 +837,7 @@
     "n_games": 1,
     "injury": "none listed",
     "why": "This season 1/1 games hit (avg 19.0); last 10 1/1; Hornets allow 108.2 pts/g vs 113.8 avg of today's teams (-2.0 pts); teammates out: Justin Champagnie, Tristan Vukcevic, Jamir Watkins (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Washington Wizards",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850205&selectionId%5B0%5D=91592956"
    },
@@ -825,7 +863,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 13/13 games hit (avg 4.2); last 10 10/10; last season's final 20: 17/20; Panthers allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818382&selectionId%5B0%5D=15710822"
    },
@@ -851,7 +889,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 12/14 games hit (avg 2.1); last 10 9/10; last season's final 20: 17/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820099&selectionId%5B0%5D=12449403"
    },
@@ -878,7 +916,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 5/5 games hit (avg 2.4); last 10 9/10; last season's final 20: 17/20; minutes up (25 vs 18) +1 pt; Warriors allow 119.4 pts/g vs 113.8 avg of today's teams (+2.0 pts); teammates out: Cameron Carr, Adou Thiero (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Los Angeles Lakers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850371&selectionId%5B0%5D=26447041"
    },
@@ -904,7 +942,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 3.2); last 10 8/10; last season's final 20: 13/20; minutes up (26 vs 19) +1 pt; Wizards allow 115.8 pts/g vs 113.8 avg of today's teams (+0.7 pts); teammates out: Kylan Boswell, Kon Knueppel, Coby White (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Charlotte Hornets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850212&selectionId%5B0%5D=53527090"
    },
@@ -931,7 +969,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 5/5 games hit (avg 7.8); last 10 9/10; last season's final 20: 18/20; Rockets allow 108.8 pts/g vs 113.8 avg of today's teams (-1.7 pts); teammates out: Santi Aldama, Tarik Biberovic, Sergio de Larrea (+1 pt, more usage); rebounds calibration haircut -8 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Dallas Mavericks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194853940&selectionId%5B0%5D=62686291"
    },
@@ -957,7 +995,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 3/5 games hit (avg 10.2); last 10 6/10; last season's final 20: 17/20; Warriors allow 119.4 pts/g vs 113.8 avg of today's teams (+2.0 pts); teammates out: Cameron Carr, Adou Thiero (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Los Angeles Lakers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850403&selectionId%5B0%5D=36981579"
    },
@@ -983,7 +1021,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 14.8); last 10 7/10; last season's final 20: 3/5; Warriors allow 119.4 pts/g vs 113.8 avg of today's teams (+2.0 pts); teammates out: Cameron Carr, Adou Thiero (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Los Angeles Lakers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850365&selectionId%5B0%5D=43122149"
    },
@@ -1009,7 +1047,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 2.6); last 10 7/10; last season's final 20: 18/20; Flames allow 3.8 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Seattle Kraken",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=51771299"
    },
@@ -1036,7 +1074,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 3/4 games hit (avg 1.2); last 10 7/10; last season's final 20: 13/20; Suns allow 123.7 pts/g vs 113.8 avg of today's teams (+3.0 pts); teammates out: Alpha Diallo, Cameron Johnson, Spencer Jones (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Denver Nuggets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851070&selectionId%5B0%5D=11495231"
    },
@@ -1063,7 +1101,7 @@
     "n_games": 3,
     "injury": "none listed",
     "why": "This season 3/3 games hit (avg 2.0); last 10 10/10; last season's final 20: 18/20; Nuggets allow 114.0 pts/g vs 113.8 avg of today's teams (+0.1 pts); teammates out: Mark Williams (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Phoenix Suns",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851070&selectionId%5B0%5D=50560594"
    },
@@ -1089,7 +1127,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 4/4 games hit (avg 18.0); last 10 4/4; Rockets allow 108.8 pts/g vs 113.8 avg of today's teams (-1.7 pts); teammates out: Santi Aldama, Tarik Biberovic, Sergio de Larrea (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Dallas Mavericks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194854008&selectionId%5B0%5D=6126021"
    },
@@ -1115,7 +1153,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 15.8); last 10 8/10; last season's final 20: 15/20; minutes up (34 vs 25) +1 pt; Hornets allow 108.2 pts/g vs 113.8 avg of today's teams (-2.0 pts); teammates out: Justin Champagnie, Tristan Vukcevic, Jamir Watkins (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Washington Wizards",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850205&selectionId%5B0%5D=65507284"
    },
@@ -1141,7 +1179,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 2.7); last 10 7/10; last season's final 20: 20/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=12496383"
    },
@@ -1167,7 +1205,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 4/4 games hit (avg 28.8); last 10 7/10; last season's final 20: 13/20; Lakers allow 113.6 pts/g vs 113.8 avg of today's teams (-0.1 pts); teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Golden State Warriors",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850316&selectionId%5B0%5D=3910855"
    },
@@ -1193,7 +1231,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 5/5 games hit (avg 18.2); last 10 10/10; last season's final 20: 17/20; Mavericks allow 112.0 pts/g vs 113.8 avg of today's teams (-0.6 pts); teammates out: Steven Adams, Reed Sheppard, Marcus Smart (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Houston Rockets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194854008&selectionId%5B0%5D=51589521"
    },
@@ -1219,7 +1257,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 3.0); last 10 9/10; last season's final 20: 14/20; Jets allow 3.0 goals/g vs 3.1 avg of today's teams (-1.8 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Florida Panthers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818382&selectionId%5B0%5D=12496387"
    },
@@ -1245,7 +1283,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 20.6); last 10 7/10; last season's final 20: 10/15; minutes up (35 vs 25) +1 pt; Hornets allow 108.2 pts/g vs 113.8 avg of today's teams (-2.0 pts); teammates out: Justin Champagnie, Tristan Vukcevic, Jamir Watkins (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Washington Wizards",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850220&selectionId%5B0%5D=18970812"
    },
@@ -1271,7 +1309,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 3/5 games hit (avg 6.6); last 10 8/10; last season's final 20: 18/20; Rockets allow 108.8 pts/g vs 113.8 avg of today's teams (-1.7 pts); teammates out: Santi Aldama, Tarik Biberovic, Sergio de Larrea (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Dallas Mavericks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194854000&selectionId%5B0%5D=27465031"
    },
@@ -1297,7 +1335,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 8/12 games hit (avg 2.4); last 10 8/10; last season's final 20: 13/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=54696574"
    },
@@ -1323,7 +1361,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 2.2); last 10 9/10; last season's final 20: 12/20; Panthers allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818370&selectionId%5B0%5D=22261592"
    },
@@ -1349,7 +1387,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 3/5 games hit (avg 2.0); last 10 8/10; last season's final 20: 19/20; Lakers allow 113.6 pts/g vs 113.8 avg of today's teams (-0.1 pts); teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Golden State Warriors",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850409&selectionId%5B0%5D=20044403"
    },
@@ -1376,7 +1414,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 3/4 games hit (avg 1.2); last 10 6/10; last season's final 20: 14/20; Suns allow 123.7 pts/g vs 113.8 avg of today's teams (+3.0 pts); teammates out: Alpha Diallo, Cameron Johnson, Spencer Jones (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Denver Nuggets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194851070&selectionId%5B0%5D=42683087"
    },
@@ -1402,7 +1440,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 3.6); last 10 7/10; last season's final 20: 16/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=12858510"
    },
@@ -1429,7 +1467,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 3.0); last 10 7/10; last season's final 20: 14/20; minutes up (37 vs 31) +1 pt; Wizards allow 115.8 pts/g vs 113.8 avg of today's teams (+0.7 pts); teammates out: Kylan Boswell, Kon Knueppel, Coby White (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Charlotte Hornets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850174&selectionId%5B0%5D=49763843"
    },
@@ -1456,7 +1494,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 5.0); last 10 8/10; last season's final 20: 18/20; Hornets allow 108.2 pts/g vs 113.8 avg of today's teams (-2.0 pts); teammates out: Justin Champagnie, Tristan Vukcevic, Jamir Watkins (+1 pt, more usage); rebounds calibration haircut -8 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Washington Wizards",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850182&selectionId%5B0%5D=56874292"
    },
@@ -1482,7 +1520,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 11/13 games hit (avg 1.5); last 10 9/10; last season's final 20: 13/20; Jets allow 3.0 goals/g vs 3.1 avg of today's teams (-1.8 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Florida Panthers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194819496&selectionId%5B0%5D=12452414"
    },
@@ -1508,7 +1546,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 3/5 games hit (avg 2.4); last 10 7/10; last season's final 20: 17/20; Hornets allow 108.2 pts/g vs 113.8 avg of today's teams (-2.0 pts); teammates out: Justin Champagnie, Tristan Vukcevic, Jamir Watkins (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Washington Wizards",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850212&selectionId%5B0%5D=7582800"
    },
@@ -1534,7 +1572,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 9/12 games hit (avg 2.4); last 10 9/10; last season's final 20: 9/20; Kraken allow 3.5 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Calgary Flames",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=38445398"
    },
@@ -1561,7 +1599,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 3/5 games hit (avg 5.4); last 10 7/10; last season's final 20: 15/20; minutes up (32 vs 24) +1 pt; Mavericks allow 112.0 pts/g vs 113.8 avg of today's teams (-0.6 pts); teammates out: Steven Adams, Reed Sheppard, Marcus Smart (+1 pt, more usage); rebounds calibration haircut -8 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Houston Rockets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194853940&selectionId%5B0%5D=43430136"
    },
@@ -1587,7 +1625,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 7/13 games hit (avg 1.8); last 10 6/10; last season's final 20: 13/20; Flames allow 3.8 goals/g vs 3.1 avg of today's teams (+3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Seattle Kraken",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194826920&selectionId%5B0%5D=21967045"
    },
@@ -1613,7 +1651,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 2.9); last 10 9/10; last season's final 20: 9/20; Panthers allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194818382&selectionId%5B0%5D=36305276"
    },
@@ -1639,7 +1677,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 3/5 games hit (avg 2.0); last 10 7/10; last season's final 20: 14/20; Wizards allow 115.8 pts/g vs 113.8 avg of today's teams (+0.7 pts); teammates out: Kylan Boswell, Kon Knueppel, Coby White (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Charlotte Hornets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194855325&selectionId%5B0%5D=90209944"
    },
@@ -1665,7 +1703,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 2.6); last 10 7/10; last season's final 20: 12/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=40258484"
    },
@@ -1691,7 +1729,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 2.5); last 10 8/10; last season's final 20: 13/20; Golden Knights allow 2.8 goals/g vs 3.1 avg of today's teams (-3.0 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "New Jersey Devils",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=15819676"
    },
@@ -1717,7 +1755,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 10/14 games hit (avg 2.4); last 10 6/10; last season's final 20: 13/20; Devils allow 2.9 goals/g vs 3.1 avg of today's teams (-2.8 pts)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194820086&selectionId%5B0%5D=12456546"
    },
@@ -1744,7 +1782,7 @@
     "n_games": 4,
     "injury": "none listed",
     "why": "This season 2/4 games hit (avg 1.0); last 10 8/10; last season's final 20: 17/20; minutes down (19 vs 24 last season) -4 pts; Lakers allow 113.6 pts/g vs 113.8 avg of today's teams (-0.1 pts); teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt, more usage); threes calibration haircut -3 pts (these props hit below estimate so far)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Golden State Warriors",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850371&selectionId%5B0%5D=3498900"
    },
@@ -1770,7 +1808,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 3/5 games hit (avg 6.2); last 10 7/10; last season's final 20: 18/20; minutes down (13 vs 26 last season) -4 pts; Hornets allow 108.2 pts/g vs 113.8 avg of today's teams (-2.0 pts); teammates out: Justin Champagnie, Tristan Vukcevic, Jamir Watkins (+1 pt, more usage)",
-    "asof": "2026-10-30 04:49 UTC",
+    "asof": "2026-10-30 04:52 UTC",
     "team": "Washington Wizards",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850206&selectionId%5B0%5D=18970805"
    }
