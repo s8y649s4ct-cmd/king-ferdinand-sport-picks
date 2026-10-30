@@ -344,14 +344,15 @@ lot=[]; lotlegs={}
 for T in cfg.get('lottery_tiers',[25,100,500,1000,10000,100000,1000000]):
   r=lottery(cands,G,T)
   if r: lot.append(tix(r[1],f'~{T:,}x',T)); lotlegs.update({L['id']:L for L in r[1]})
-# 25-leg (FanDuel max) lottery: best-edge leg per game, top 25 by edge then prob
+# 25-leg (FanDuel max) lottery: per game the leg with the best chance + 0.25*edge, top 25 (was pure edge until 2026-10-30)
 eg={}
 for L in cands:
   if G[L['event']]['state']!='pre' or not L.get('verified',True): continue
   k=L['event']
-  if k not in eg or (edge(L),L['prob'])>(edge(eg[k]),eg[k]['prob']): eg[k]=L
-e27=sorted(eg.values(),key=lambda L:(-edge(L),-L['prob']))[:MAXLEGS]
-if e27: lot.append(tix(e27,f'{len(e27)}-leg best-edge lottery')); lotlegs.update({L['id']:L for L in e27})
+  # 2026-10-30 review: ranking purely by edge picked legs that hit 61.0% (164) vs 68.9% est; shadow backtest per game 69.9% (edge) vs 84.2% (chance + 0.25*edge).
+  if k not in eg or (L['prob']+0.25*edge(L),L['prob'])>(eg[k]['prob']+0.25*edge(eg[k]),eg[k]['prob']): eg[k]=L
+e27=sorted(eg.values(),key=lambda L:(-(L['prob']+0.25*edge(L)),-L['prob']))[:MAXLEGS]
+if e27: lot.append(tix(e27,f'{len(e27)}-leg best-chance lottery')); lotlegs.update({L['id']:L for L in e27})
 for L in {**ladlegs,**lotlegs,**bb}.values():
   L.setdefault('why',f"FanDuel no-vig {L.get('fd_prob',0)*100:.1f}%"+(f", line model {L['dist_prob']*100:.1f}%" if L.get('dist_prob') is not None else '')+(f", team model {L['model']*100:.1f}%" if L.get('model') is not None else '')+f" -> est. {L['prob']*100:.1f}% (edge {edge(L)*100:+.1f} pts)"+(f"; research {L['research_adj']*100:+.1f} pts: "+'; '.join(L['research']) if L.get('research') else ''))
 # ---------- injuries, weather, lines (unchanged logic) ----------
