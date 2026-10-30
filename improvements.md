@@ -157,3 +157,12 @@ Problem: ladder tickets lock at first kickoff (2 PM ET), hours before the NBA st
 Change: build.py now reads legs.json "news_adj" (same-day only, ignored on other slates) and adds a per-team adjustment to that team's side/ML legs. Set -2.5 pts (same size as the existing questionable-key-player rule) for Houston (Sengun) and Philadelphia (J. Brown). Effect: HOU +1.5/+2.5/+5.5/-11.5 and PHI +15.5/+16.5 left the tickets; replaced by Knicks +12.5/+13.5, Mavericks +21.5 and other ~86-88% legs. Houston +9.5 stays (86.4% after the cut).
 Grading: nothing finished since the 3 AM review (10-29 pending tickets use today's soccer games).
 v1 stays live; v2 switch_ready already reported to the user, not re-proposed. Locked tickets untouched (none locked yet). Backups /workspace/kfsp_backups/2026-10-30-am/. Published commit 60c6ccf.
+
+## 2026-10-30 3:00 PM ET intraday review
+Status: all 21 ladder tickets (the main board and green favorites) locked at the 2 PM ET first kickoff, so they were reviewed but not changed.
+Live: PSG 2-1 at Le Havre and Nice 3-1 Rennes at halftime, so both Over 1.5 legs have already cashed; PSG-or-Le Havre (no draw) leg is on track. Mainz-Elversberg (3:30), Villarreal-Espanyol (4:00), Lille-Lens (4:05) have not started.
+Research (~3:05 PM ET): Sengun and Smart (HOU) still questionable/game-time with HOU on a back-to-back vs OKC Saturday, so the -2.5 news_adj stays; Jaylen Brown (PHI) still questionable, -2.5 stays. Edwards (MIN) out after knee surgery Thursday, already priced in (MIN -360 -> -265); our MIN +8.5 and LAC +22.5 legs keep their estimates. Clowney (BKN) downgraded to questionable; Isaiah Joe (DET) questionable; Zubac and Haliburton out for IND (our IND +23.5/+24.5 have big cushion). NHL goalies: Schmid (FLA) and Wolf (CGY) confirmed; Hart (VGK), Hellebuyck (NJ), Daws (WPG), Grubauer (SEA) expected. CFB weather fine (Charlotte 73F clear, Orlando partly cloudy). No props or NBA-tab legs are on questionable/out players (11 auto-excluded).
+Line moves since lock: all locked legs within 1.6 pts of their lock estimate; biggest drop DET-BKN Over 202.5 86.1% -> 84.5%, Villarreal 83.8% -> 82.8%; Mainz-Elversberg Over 1.5 up 78.8% -> 82.4%.
+Pulls/replacements: none needed on the unlocked Best Parlay, lottery, Props or NBA tabs (they re-price every refresh).
+Grading: nothing finished since 10:30 AM ET; soccer grades on the next refreshes.
+Changes: none to the model. v1 stays live; v2 switch_ready already reported, not re-proposed. Published commit 52aaaf8.
