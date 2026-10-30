@@ -36442,42 +36442,10 @@
   "date": "2026-10-29",
   "type": "best",
   "label": "best",
-  "n": 5,
-  "est_prob": 0.2261,
-  "fd_payout_x": 4.43,
+  "n": 4,
+  "est_prob": 0.2247,
+  "fd_payout_x": 3.59,
   "legs_detail": [
-   {
-    "id": "401892605:7000412:742.194676150",
-    "event": "401892605",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Nashville Predators +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -270,
-    "prob": 0.779,
-    "raw_prob": 0.779,
-    "game": "Washington Capitals at Nashville Predators",
-    "result": null,
-    "close_odds": -270
-   },
-   {
-    "id": "401909894:7747570:742.194663688",
-    "event": "401909894",
-    "sport": "nba",
-    "kind": "total",
-    "line": 246.5,
-    "ou": "under",
-    "pick": "Under 246.5",
-    "market": "Alternate Total Points",
-    "odds": -300,
-    "prob": 0.7438,
-    "raw_prob": 0.7438,
-    "game": "Sacramento Kings at New Orleans Pelicans",
-    "result": null,
-    "close_odds": -300
-   },
    {
     "id": "401909895:7695584:742.194663549",
     "event": "401909895",
@@ -36487,47 +36455,63 @@
     "ou": "under",
     "pick": "Under 244.5",
     "market": "Alternate Total Points",
-    "odds": -300,
-    "prob": 0.7438,
-    "raw_prob": 0.7438,
+    "odds": -290,
+    "prob": 0.7357,
+    "raw_prob": 0.7357,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -300
+    "close_odds": -290
    },
    {
-    "id": "401909893:7891077:742.194663383",
-    "event": "401909893",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 7.5,
-    "pick": "Atlanta Hawks +7.5",
-    "market": "Alternate Spread",
-    "odds": -280,
-    "prob": 0.7392,
-    "raw_prob": 0.7392,
-    "game": "Cleveland Cavaliers at Atlanta Hawks",
-    "result": null,
-    "close_odds": -280
-   },
-   {
-    "id": "401873023:12194317:742.193902842",
+    "id": "401873023:12194320:742.193902842",
     "event": "401873023",
     "sport": "nfl",
     "kind": "total",
-    "line": 54.5,
-    "ou": "under",
-    "pick": "Under (54.5)",
+    "line": 40.5,
+    "ou": "over",
+    "pick": "Over (40.5)",
     "market": "Alternate Total Points",
     "odds": -295,
-    "prob": 0.7098,
-    "raw_prob": 0.7098,
+    "prob": 0.7048,
+    "raw_prob": 0.7048,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
     "close_odds": -295
+   },
+   {
+    "id": "401876421:1222347:742.192496310",
+    "event": "401876421",
+    "sport": "fra.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -250,
+    "prob": 0.6654,
+    "raw_prob": 0.6654,
+    "game": "Paris Saint-Germain at Le Havre AC",
+    "result": null,
+    "close_odds": -250
+   },
+   {
+    "id": "401892608:8359780:742.194677357",
+    "event": "401892608",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 7.5,
+    "ou": "under",
+    "pick": "Under 7.5",
+    "market": "Alternate Total Goals",
+    "odds": -235,
+    "prob": 0.6514,
+    "raw_prob": 0.6514,
+    "game": "Buffalo Sabres at Anaheim Ducks",
+    "result": null,
+    "close_odds": -235
    }
   ],
-  "logged": "2026-10-29 23:57 UTC",
+  "logged": "2026-10-30 00:10 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -36581,12 +36565,12 @@
     "line": 23.5,
     "pick": "Memphis Grizzlies +23.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8832,
-    "raw_prob": 0.8832,
+    "odds": -950,
+    "prob": 0.8812,
+    "raw_prob": 0.8812,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909894:7729382:742.194663688",
@@ -36597,16 +36581,15 @@
     "ou": "under",
     "pick": "Under 255.5",
     "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8753,
-    "raw_prob": 0.8753,
+    "odds": -850,
+    "prob": 0.8729,
+    "raw_prob": 0.8729,
     "game": "Sacramento Kings at New Orleans Pelicans",
-    "result": null,
-    "close_odds": -900
+    "result": null
    }
   ],
-  "logged": "2026-10-29 23:57 UTC",
-  "locked": false,
+  "logged": "2026-10-30 00:10 UTC",
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -36665,7 +36648,7 @@
     "raw_prob": 0.8717,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    }
   ],
   "logged": "2026-10-29 23:30 UTC",
@@ -36870,7 +36853,7 @@
     "raw_prob": 0.8799,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909893:7891329:742.194663383",
@@ -36933,7 +36916,7 @@
     "raw_prob": 0.8567,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": -850
+    "close_odds": -700
    },
    {
     "id": "401892604:8359782:742.194676260",
@@ -36980,7 +36963,7 @@
     "raw_prob": 0.8746,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -850
+    "close_odds": -800
    },
    {
     "id": "401909893:7695550:742.194663422",
@@ -37028,7 +37011,7 @@
     "raw_prob": 0.8674,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    },
    {
     "id": "401874976:1221386:742.193040355",
@@ -37578,7 +37561,8 @@
     "prob": 0.8811,
     "raw_prob": 0.8811,
     "game": "Carolina Panthers at Green Bay Packers",
-    "result": null
+    "result": null,
+    "close_odds": -1000
    },
    {
     "id": "401869963:12194345:742.193934276",
@@ -37988,7 +37972,7 @@
     "raw_prob": 0.8799,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909893:7891329:742.194663383",
@@ -38210,7 +38194,7 @@
     "raw_prob": 0.8746,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -850
+    "close_odds": -800
    },
    {
     "id": "401909893:7695550:742.194663422",
@@ -38750,7 +38734,7 @@
     "raw_prob": 0.8674,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -800
    },
    {
     "id": "401909895:7807551:742.194663549",
@@ -38766,7 +38750,7 @@
     "raw_prob": 0.8622,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -720
+    "close_odds": -700
    },
    {
     "id": "401892601:7000420:742.194675137",
@@ -38988,7 +38972,7 @@
     "raw_prob": 0.8832,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401862812:48443271:742.193934197",
@@ -39274,7 +39258,7 @@
     "raw_prob": 0.8746,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -850
+    "close_odds": -800
    },
    {
     "id": "401909893:7695550:742.194663422",
@@ -39846,25 +39830,9 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.058027947744,
-  "fd_payout_x": 28.18,
+  "est_prob": 0.044788311968000004,
+  "fd_payout_x": 27.83,
   "legs_detail": [
-   {
-    "id": "401892605:25594:742.193520362",
-    "event": "401892605",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Nashville Predators -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3981,
-    "raw_prob": 0.3981,
-    "game": "Washington Capitals at Nashville Predators",
-    "result": null,
-    "close_odds": 205
-   },
    {
     "id": "401892609:25599:742.193520391",
     "event": "401892609",
@@ -39882,23 +39850,39 @@
     "close_odds": 210
    },
    {
-    "id": "401892604:25595:742.193520336",
-    "event": "401892604",
+    "id": "401892608:25597:742.194509836",
+    "event": "401892608",
     "sport": "nhl",
     "kind": "spread",
-    "side": "home",
+    "side": "away",
     "line": -1.5,
-    "pick": "St. Louis Blues -1.5",
+    "pick": "Buffalo Sabres -1.5",
     "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3848,
-    "raw_prob": 0.3848,
-    "game": "Boston Bruins at St. Louis Blues",
+    "odds": 164,
+    "prob": 0.4052,
+    "raw_prob": 0.4052,
+    "game": "Buffalo Sabres at Anaheim Ducks",
     "result": null,
-    "close_odds": 198
+    "close_odds": 164
+   },
+   {
+    "id": "401873023:12248293:742.193902827",
+    "event": "401873023",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "home",
+    "line": -10.5,
+    "pick": "Green Bay Packers (-10.5)",
+    "market": "Alternate Spread",
+    "odds": 240,
+    "prob": 0.2918,
+    "raw_prob": 0.2918,
+    "game": "Carolina Panthers at Green Bay Packers",
+    "result": null,
+    "close_odds": 240
    }
   ],
-  "logged": "2026-10-29 23:57 UTC",
+  "logged": "2026-10-30 00:10 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -39909,25 +39893,9 @@
   "type": "lottery",
   "label": "~100x",
   "n": 4,
-  "est_prob": 0.016067938730313598,
-  "fd_payout_x": 109.89,
+  "est_prob": 0.010956829680057602,
+  "fd_payout_x": 108.7,
   "legs_detail": [
-   {
-    "id": "401892605:25594:742.193520362",
-    "event": "401892605",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Nashville Predators -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3981,
-    "raw_prob": 0.3981,
-    "game": "Washington Capitals at Nashville Predators",
-    "result": null,
-    "close_odds": 205
-   },
    {
     "id": "401892609:25599:742.193520391",
     "event": "401892609",
@@ -39943,133 +39911,6 @@
     "game": "Ottawa Senators at Los Angeles Kings",
     "result": null,
     "close_odds": 210
-   },
-   {
-    "id": "401892604:25595:742.193520336",
-    "event": "401892604",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "St. Louis Blues -1.5",
-    "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3848,
-    "raw_prob": 0.3848,
-    "game": "Boston Bruins at St. Louis Blues",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401892606:7669353:742.194675862",
-    "event": "401892606",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 290,
-    "prob": 0.2769,
-    "raw_prob": 0.2769,
-    "game": "Montreal Canadiens at Dallas Stars",
-    "result": null,
-    "close_odds": 290
-   }
-  ],
-  "logged": "2026-10-29 23:57 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-10-29-lottery-~1,000x",
-  "date": "2026-10-29",
-  "type": "lottery",
-  "label": "~1,000x",
-  "n": 6,
-  "est_prob": 0.0018692302308784736,
-  "fd_payout_x": 1044.36,
-  "legs_detail": [
-   {
-    "id": "401892605:25594:742.193520362",
-    "event": "401892605",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Nashville Predators -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3981,
-    "raw_prob": 0.3981,
-    "game": "Washington Capitals at Nashville Predators",
-    "result": null,
-    "close_odds": 205
-   },
-   {
-    "id": "401892609:25599:742.193520391",
-    "event": "401892609",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Ottawa Senators -1.5",
-    "market": "Puck Line",
-    "odds": 210,
-    "prob": 0.3788,
-    "raw_prob": 0.3788,
-    "game": "Ottawa Senators at Los Angeles Kings",
-    "result": null,
-    "close_odds": 210
-   },
-   {
-    "id": "401892604:25595:742.193520336",
-    "event": "401892604",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "St. Louis Blues -1.5",
-    "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3848,
-    "raw_prob": 0.3848,
-    "game": "Boston Bruins at St. Louis Blues",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401892606:7669353:742.194675862",
-    "event": "401892606",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 290,
-    "prob": 0.2769,
-    "raw_prob": 0.2769,
-    "game": "Montreal Canadiens at Dallas Stars",
-    "result": null,
-    "close_odds": 290
-   },
-   {
-    "id": "401892607:7669353:742.194675749",
-    "event": "401892607",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 260,
-    "prob": 0.2871,
-    "raw_prob": 0.2871,
-    "game": "New York Islanders at Minnesota Wild",
-    "result": null,
-    "close_odds": 260
    },
    {
     "id": "401892608:25597:742.194509836",
@@ -40086,9 +39927,40 @@
     "game": "Buffalo Sabres at Anaheim Ducks",
     "result": null,
     "close_odds": 164
+   },
+   {
+    "id": "401873023:12215317:742.193902827",
+    "event": "401873023",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": -4.5,
+    "pick": "Carolina Panthers (-4.5)",
+    "market": "Alternate Spread",
+    "odds": 285,
+    "prob": 0.2526,
+    "raw_prob": 0.2526,
+    "game": "Carolina Panthers at Green Bay Packers",
+    "result": null,
+    "close_odds": 285
+   },
+   {
+    "id": "401909895:237491:742.194155683",
+    "event": "401909895",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Memphis Grizzlies",
+    "market": "Moneyline",
+    "odds": 245,
+    "prob": 0.2826,
+    "raw_prob": 0.2826,
+    "game": "Memphis Grizzlies at Portland Trail Blazers",
+    "result": null,
+    "close_odds": 245
    }
   ],
-  "logged": "2026-10-29 23:57 UTC",
+  "logged": "2026-10-30 00:10 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -40098,26 +39970,10 @@
   "date": "2026-10-29",
   "type": "lottery",
   "label": "~500x",
-  "n": 7,
-  "est_prob": 0.003653400394622377,
-  "fd_payout_x": 519.58,
+  "n": 6,
+  "est_prob": 0.0021518213409823534,
+  "fd_payout_x": 529.91,
   "legs_detail": [
-   {
-    "id": "401892605:25594:742.193520362",
-    "event": "401892605",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Nashville Predators -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3981,
-    "raw_prob": 0.3981,
-    "game": "Washington Capitals at Nashville Predators",
-    "result": null,
-    "close_odds": 205
-   },
    {
     "id": "401892609:25599:742.193520391",
     "event": "401892609",
@@ -40133,22 +39989,6 @@
     "game": "Ottawa Senators at Los Angeles Kings",
     "result": null,
     "close_odds": 210
-   },
-   {
-    "id": "401892604:25595:742.193520336",
-    "event": "401892604",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "St. Louis Blues -1.5",
-    "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3848,
-    "raw_prob": 0.3848,
-    "game": "Boston Bruins at St. Louis Blues",
-    "result": null,
-    "close_odds": 198
    },
    {
     "id": "401892608:25597:742.194509836",
@@ -40167,55 +40007,319 @@
     "close_odds": 164
    },
    {
-    "id": "401892606:7669353:742.194675862",
-    "event": "401892606",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 290,
-    "prob": 0.2769,
-    "raw_prob": 0.2769,
-    "game": "Montreal Canadiens at Dallas Stars",
-    "result": null,
-    "close_odds": 290
-   },
-   {
-    "id": "401909893:7891333:742.194663383",
-    "event": "401909893",
-    "sport": "nba",
+    "id": "401873023:12248293:742.193902827",
+    "event": "401873023",
+    "sport": "nfl",
     "kind": "spread",
     "side": "home",
-    "line": 6.5,
-    "pick": "Atlanta Hawks +6.5",
+    "line": -10.5,
+    "pick": "Green Bay Packers (-10.5)",
     "market": "Alternate Spread",
-    "odds": -235,
-    "prob": 0.7094,
-    "raw_prob": 0.7094,
-    "game": "Cleveland Cavaliers at Atlanta Hawks",
+    "odds": 240,
+    "prob": 0.2918,
+    "raw_prob": 0.2918,
+    "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": -235
+    "close_odds": 240
    },
    {
-    "id": "401909895:7889997:742.194663546",
+    "id": "401909895:237491:742.194155683",
     "event": "401909895",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "Portland Trail Blazers +3.5",
-    "market": "Alternate Spread",
-    "odds": -390,
-    "prob": 0.791,
-    "raw_prob": 0.791,
+    "kind": "ml",
+    "side": "away",
+    "pick": "Memphis Grizzlies",
+    "market": "Moneyline",
+    "odds": 245,
+    "prob": 0.2826,
+    "raw_prob": 0.2826,
     "game": "Memphis Grizzlies at Portland Trail Blazers",
     "result": null,
-    "close_odds": -390
+    "close_odds": 245
+   },
+   {
+    "id": "401892610:25615:742.193520373",
+    "event": "401892610",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "San Jose Sharks -1.5",
+    "market": "Puck Line",
+    "odds": 130,
+    "prob": 0.4304,
+    "raw_prob": 0.4304,
+    "game": "Vancouver Canucks at San Jose Sharks",
+    "result": null,
+    "close_odds": 130
+   },
+   {
+    "id": "401876416:44799:742.192488912",
+    "event": "401876416",
+    "sport": "fra.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Rennes",
+    "market": "Moneyline (3-way)",
+    "odds": 140,
+    "prob": 0.395,
+    "raw_prob": 0.395,
+    "game": "Stade Rennais at Nice",
+    "result": null,
+    "close_odds": 140
    }
   ],
-  "logged": "2026-10-29 23:57 UTC",
+  "logged": "2026-10-30 00:10 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-29-lottery-~1,000x",
+  "date": "2026-10-29",
+  "type": "lottery",
+  "label": "~1,000x",
+  "n": 7,
+  "est_prob": 0.0007623644910528393,
+  "fd_payout_x": 1374.78,
+  "legs_detail": [
+   {
+    "id": "401892609:25599:742.193520391",
+    "event": "401892609",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Ottawa Senators -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3788,
+    "raw_prob": 0.3788,
+    "game": "Ottawa Senators at Los Angeles Kings",
+    "result": null,
+    "close_odds": 210
+   },
+   {
+    "id": "401892608:25597:742.194509836",
+    "event": "401892608",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Buffalo Sabres -1.5",
+    "market": "Puck Line",
+    "odds": 164,
+    "prob": 0.4052,
+    "raw_prob": 0.4052,
+    "game": "Buffalo Sabres at Anaheim Ducks",
+    "result": null,
+    "close_odds": 164
+   },
+   {
+    "id": "401873023:12248291:742.193902827",
+    "event": "401873023",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "home",
+    "line": -8.5,
+    "pick": "Green Bay Packers (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 196,
+    "prob": 0.3394,
+    "raw_prob": 0.3394,
+    "game": "Carolina Panthers at Green Bay Packers",
+    "result": null,
+    "close_odds": 196
+   },
+   {
+    "id": "401909895:237491:742.194155683",
+    "event": "401909895",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Memphis Grizzlies",
+    "market": "Moneyline",
+    "odds": 245,
+    "prob": 0.2826,
+    "raw_prob": 0.2826,
+    "game": "Memphis Grizzlies at Portland Trail Blazers",
+    "result": null,
+    "close_odds": 245
+   },
+   {
+    "id": "401892610:25615:742.193520373",
+    "event": "401892610",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "San Jose Sharks -1.5",
+    "market": "Puck Line",
+    "odds": 130,
+    "prob": 0.4304,
+    "raw_prob": 0.4304,
+    "game": "Vancouver Canucks at San Jose Sharks",
+    "result": null,
+    "close_odds": 130
+   },
+   {
+    "id": "401876416:44799:742.192488912",
+    "event": "401876416",
+    "sport": "fra.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Rennes",
+    "market": "Moneyline (3-way)",
+    "odds": 140,
+    "prob": 0.395,
+    "raw_prob": 0.395,
+    "game": "Stade Rennais at Nice",
+    "result": null,
+    "close_odds": 140
+   },
+   {
+    "id": "401876421:1222346:742.192496310",
+    "event": "401876421",
+    "sport": "fra.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": 198,
+    "prob": 0.3046,
+    "raw_prob": 0.3046,
+    "game": "Paris Saint-Germain at Le Havre AC",
+    "result": null,
+    "close_odds": 198
+   }
+  ],
+  "logged": "2026-10-30 00:10 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-29-lottery-7-leg best-edge lottery",
+  "date": "2026-10-29",
+  "type": "lottery",
+  "label": "7-leg best-edge lottery",
+  "n": 7,
+  "est_prob": 0.026915933487579265,
+  "fd_payout_x": 38.23,
+  "legs_detail": [
+   {
+    "id": "401892609:25599:742.193520391",
+    "event": "401892609",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Ottawa Senators -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3788,
+    "raw_prob": 0.3788,
+    "game": "Ottawa Senators at Los Angeles Kings",
+    "result": null,
+    "close_odds": 210
+   },
+   {
+    "id": "401892608:25597:742.194509836",
+    "event": "401892608",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Buffalo Sabres -1.5",
+    "market": "Puck Line",
+    "odds": 164,
+    "prob": 0.4052,
+    "raw_prob": 0.4052,
+    "game": "Buffalo Sabres at Anaheim Ducks",
+    "result": null,
+    "close_odds": 164
+   },
+   {
+    "id": "401909895:7711029:742.194663549",
+    "event": "401909895",
+    "sport": "nba",
+    "kind": "total",
+    "line": 251.5,
+    "ou": "under",
+    "pick": "Under 251.5",
+    "market": "Alternate Total Points",
+    "odds": -590,
+    "prob": 0.8374,
+    "raw_prob": 0.8374,
+    "game": "Memphis Grizzlies at Portland Trail Blazers",
+    "result": null,
+    "close_odds": -590
+   },
+   {
+    "id": "401892610:7000418:742.194677123",
+    "event": "401892610",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "San Jose Sharks +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -450,
+    "prob": 0.8033,
+    "raw_prob": 0.8033,
+    "game": "Vancouver Canucks at San Jose Sharks",
+    "result": null,
+    "close_odds": -450
+   },
+   {
+    "id": "401873023:12194333:742.193902842",
+    "event": "401873023",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 62.5,
+    "ou": "under",
+    "pick": "Under (62.5)",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.8571,
+    "raw_prob": 0.8571,
+    "game": "Carolina Panthers at Green Bay Packers",
+    "result": null,
+    "close_odds": -800
+   },
+   {
+    "id": "401876421:489720:742.192496345",
+    "event": "401876421",
+    "sport": "fra.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Paris St-G",
+    "market": "Moneyline (3-way)",
+    "odds": -475,
+    "prob": 0.77,
+    "raw_prob": 0.77,
+    "game": "Paris Saint-Germain at Le Havre AC",
+    "result": null,
+    "close_odds": -475
+   },
+   {
+    "id": "401876416:44799:742.192488912",
+    "event": "401876416",
+    "sport": "fra.1",
+    "kind": "ml3",
+    "side": "away",
+    "pick": "Rennes",
+    "market": "Moneyline (3-way)",
+    "odds": 140,
+    "prob": 0.395,
+    "raw_prob": 0.395,
+    "game": "Stade Rennais at Nice",
+    "result": null,
+    "close_odds": 140
+   }
+  ],
+  "logged": "2026-10-30 00:10 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -40339,7 +40443,7 @@
     "raw_prob": 0.3428,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": 190
+    "close_odds": 196
    },
    {
     "id": "401909894:7760688:742.194663688",
@@ -40375,7 +40479,7 @@
    }
   ],
   "logged": "2026-10-29 23:57 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -40498,7 +40602,7 @@
     "raw_prob": 0.3428,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": 190
+    "close_odds": 196
    },
    {
     "id": "401909893:7891099:742.194663383",
@@ -40564,7 +40668,7 @@
    }
   ],
   "logged": "2026-10-29 23:57 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -40758,7 +40862,7 @@
    }
   ],
   "logged": "2026-10-29 23:57 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -40945,11 +41049,11 @@
     "raw_prob": 0.4351,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": 128
+    "close_odds": 126
    }
   ],
   "logged": "2026-10-29 23:57 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -41184,7 +41288,7 @@
     "raw_prob": 0.8345,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": -670
+    "close_odds": -620
    }
   ],
   "logged": "2026-10-29 23:17 UTC",
@@ -41407,7 +41511,7 @@
     "raw_prob": 0.4415,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": 128
+    "close_odds": 126
    },
    {
     "id": "401892603:8359772:742.194674965",
@@ -41694,7 +41798,7 @@
     "raw_prob": 0.4451,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": 128
+    "close_odds": 126
    },
    {
     "id": "401869963:50590120:742.193934272",
@@ -42012,7 +42116,7 @@
     "raw_prob": 0.4451,
     "game": "Carolina Panthers at Green Bay Packers",
     "result": null,
-    "close_odds": 128
+    "close_odds": 126
    },
    {
     "id": "401892607:25604:742.193520261",
