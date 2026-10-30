@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30 01:36 UTC",
- "graded_legs": 513,
+ "updated": "2026-10-30 01:48 UTC",
+ "graded_legs": 518,
  "calibration": {
   "85-90%": {
    "n": 141,
@@ -9,16 +9,16 @@
    "hit": 0.851
   },
   "75-80%": {
-   "n": 54,
-   "wins": 41,
-   "pred": 0.785,
-   "hit": 0.759
+   "n": 55,
+   "wins": 42,
+   "pred": 0.786,
+   "hit": 0.764
   },
   "80-85%": {
-   "n": 75,
-   "wins": 65,
-   "pred": 0.822,
-   "hit": 0.867
+   "n": 77,
+   "wins": 67,
+   "pred": 0.821,
+   "hit": 0.87
   },
   "65-70%": {
    "n": 15,
@@ -57,16 +57,16 @@
    "hit": 0.5
   },
   "25-30%": {
-   "n": 21,
+   "n": 22,
    "wins": 6,
    "pred": 0.275,
-   "hit": 0.286
+   "hit": 0.273
   },
   "60-65%": {
-   "n": 9,
+   "n": 10,
    "wins": 3,
-   "pred": 0.628,
-   "hit": 0.333
+   "pred": 0.626,
+   "hit": 0.3
   },
   "30-35%": {
    "n": 11,
@@ -119,10 +119,10 @@
    "hit": 0.772
   },
   "nhl": {
-   "n": 96,
-   "wins": 64,
-   "pred": 0.672,
-   "hit": 0.667
+   "n": 101,
+   "wins": 67,
+   "pred": 0.671,
+   "hit": 0.663
   },
   "mlb": {
    "n": 10,
@@ -163,16 +163,16 @@
  },
  "by_market": {
   "total": {
-   "n": 212,
-   "wins": 165,
-   "pred": 0.821,
-   "hit": 0.778
+   "n": 216,
+   "wins": 167,
+   "pred": 0.818,
+   "hit": 0.773
   },
   "spread": {
-   "n": 210,
-   "wins": 163,
+   "n": 211,
+   "wins": 164,
    "pred": 0.794,
-   "hit": 0.776
+   "hit": 0.777
   },
   "dc": {
    "n": 26,
@@ -206,10 +206,10 @@
   }
  },
  "parlays": {
-  "graded": 193,
+  "graded": 194,
   "won": 24,
   "expected": 39.23,
-  "pending": 32,
+  "pending": 31,
   "by_type": {
    "ladder": {
     "graded": 116,
@@ -222,7 +222,7 @@
     "expected": 0.78
    },
    "lottery": {
-    "graded": 73,
+    "graded": 74,
     "won": 2,
     "expected": 5.28
    }
@@ -230,7 +230,7 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 654,
+  "legs_tracked": 656,
   "avg_clv_pts": 0.02,
   "beat_close": 182,
   "worse_than_close": 203
