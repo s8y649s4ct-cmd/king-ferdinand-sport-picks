@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 03:46 UTC",
+ "updated": "2026-10-30 04:00 UTC",
  "td": {
   "legs": {},
   "parlays": [],
@@ -12,12 +12,12 @@
    "unmatched": 0
   },
   "stats": {
-   "graded_legs": 61,
-   "won": 26,
-   "hit": 0.4262,
-   "expected": 0.4097,
-   "tickets_graded": 8,
-   "tickets_won": 1,
+   "graded_legs": 65,
+   "won": 29,
+   "hit": 0.4462,
+   "expected": 0.4129,
+   "tickets_graded": 12,
+   "tickets_won": 5,
    "buckets": {
     "20-30%": {
      "n": 15,
@@ -25,14 +25,14 @@
      "pred": 0.2831
     },
     "30-40%": {
-     "n": 16,
-     "hit": 0.3125,
-     "pred": 0.3444
+     "n": 17,
+     "hit": 0.3529,
+     "pred": 0.3441
     },
     "40-50%": {
-     "n": 19,
-     "hit": 0.5263,
-     "pred": 0.4475
+     "n": 21,
+     "hit": 0.5238,
+     "pred": 0.4459
     },
     "50-60%": {
      "n": 5,
@@ -40,9 +40,9 @@
      "pred": 0.5334
     },
     "60-70%": {
-     "n": 4,
-     "hit": 0.5,
-     "pred": 0.6354
+     "n": 5,
+     "hit": 0.6,
+     "pred": 0.6383
     },
     "70-80%": {
      "n": 2,
@@ -54,16 +54,165 @@
   "rule": "Pregame only, FanDuel PA 'Any Time Touchdown Scorer' (rushing/receiving TDs; ESPN grading also counts only those). Chance = 50% market (Pinnacle no-vig 'Total Touchdowns over 0.5' when listed, else FanDuel price minus ~22% margin) + 50% ESPN game-log TD rate (this season, 2025 at half weight, shrunk toward market), then adjustments: implied team total from ESPN spread/total (\u00b13 pts), opponent rush/receiving TDs allowed in its last 6 games (\u00b12), touches trend, same-position teammate Out (+2); total adjustment capped \u00b15 pts and never more than 8 pts above the market. Out/Doubtful/Questionable/IR excluded. Max 1 leg per team, 2 per game; legs priced +250 or shorter with est. chance \u226525%. 2+ TD markets skipped (too unlikely). TD legs are coin flips at best, so read each ticket's chance honestly."
  },
  "nba3r": {
-  "legs": {},
-  "parlays": [],
+  "legs": {
+   "401909285:64937517:742.194850371": {
+    "haircut": 0.03,
+    "id": "401909285:64937517:742.194850371",
+    "event": "401909285",
+    "sport": "nba",
+    "game": "Los Angeles Lakers at Golden State Warriors",
+    "start": "2026-10-31T02:00Z",
+    "market": "1+ Threes",
+    "player": "Yaxel Lendeborg",
+    "team": "Golden State Warriors",
+    "pick": "Yaxel Lendeborg 1+ made threes",
+    "stat": "threePointFieldGoalsMade",
+    "line": 0.5,
+    "ou": "over",
+    "odds": -590,
+    "fd_prob": 0.7991,
+    "pin_prob": null,
+    "emp_prob": 0.8904,
+    "prob": 0.7766,
+    "why": "this season 5/5 (avg 2.2); last 5 5/5; last 10 incl. 2025-26 5/5; 3PA 6.2/g this season; Lakers allow 35.0 opp 3PA/g vs 37.7 slate avg; expected pace 103 poss vs 104; teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt); back-to-back (played yesterday) -2 pts; threes calibration haircut -3 pts (hit below estimate so far)",
+    "asof": "2026-10-30 04:00 UTC",
+    "injury": "none listed",
+    "aid": "5175737",
+    "fd_market_id": "742.194850371",
+    "fd_selection_id": 64937517,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850371&selectionId%5B0%5D=64937517"
+   },
+   "401909285:9515565:742.194850318": {
+    "haircut": 0.06,
+    "id": "401909285:9515565:742.194850318",
+    "event": "401909285",
+    "sport": "nba",
+    "game": "Los Angeles Lakers at Golden State Warriors",
+    "start": "2026-10-31T02:00Z",
+    "market": "4+ Rebounds",
+    "player": "Draymond Green",
+    "team": "Golden State Warriors",
+    "pick": "Draymond Green 4+ rebounds",
+    "stat": "totalRebounds",
+    "line": 3.5,
+    "ou": "over",
+    "odds": -530,
+    "fd_prob": 0.7862,
+    "pin_prob": null,
+    "emp_prob": 0.8621,
+    "prob": 0.7178,
+    "why": "this season 4/4 (avg 5.5); last 5 4/4; last 10 incl. 2025-26 9/10; Lakers allow 40.4 opp reb/g vs 44.9; expected pace 103 poss vs 104; teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt); back-to-back (played yesterday) -2 pts; rebounds calibration haircut -6 pts (hit below estimate so far)",
+    "asof": "2026-10-30 04:00 UTC",
+    "injury": "none listed",
+    "aid": "6589",
+    "fd_market_id": "742.194850318",
+    "fd_selection_id": 9515565,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850318&selectionId%5B0%5D=9515565"
+   },
+   "401909277:91592956:742.194850196": {
+    "haircut": 0.03,
+    "id": "401909277:91592956:742.194850196",
+    "event": "401909277",
+    "sport": "nba",
+    "game": "Charlotte Hornets at Washington Wizards",
+    "start": "2026-10-30T23:00Z",
+    "market": "1+ Threes",
+    "player": "AJ Dybantsa",
+    "team": "Washington Wizards",
+    "pick": "AJ Dybantsa 1+ made threes",
+    "stat": "threePointFieldGoalsMade",
+    "line": 0.5,
+    "ou": "over",
+    "odds": -370,
+    "fd_prob": 0.7357,
+    "pin_prob": null,
+    "emp_prob": 0.7735,
+    "prob": 0.6976,
+    "why": "this season 1/1 (avg 1.0); last 5 1/1; last 10 incl. 2025-26 1/1; 3PA 3.0/g this season; Hornets allow 34.4 opp 3PA/g vs 37.7 slate avg; expected pace 102 poss vs 104; teammates out: Justin Champagnie, Tristan Vukcevic, Jamir Watkins (+1 pt); threes calibration haircut -3 pts (hit below estimate so far)",
+    "asof": "2026-10-30 04:00 UTC",
+    "injury": "none listed",
+    "aid": "5142718",
+    "fd_market_id": "742.194850196",
+    "fd_selection_id": 91592956,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850196&selectionId%5B0%5D=91592956"
+   },
+   "401909285:3910855:742.194850324": {
+    "haircut": 0.03,
+    "id": "401909285:3910855:742.194850324",
+    "event": "401909285",
+    "sport": "nba",
+    "game": "Los Angeles Lakers at Golden State Warriors",
+    "start": "2026-10-31T02:00Z",
+    "market": "3+ Threes",
+    "player": "Stephen Curry",
+    "team": "Golden State Warriors",
+    "pick": "Stephen Curry 3+ made threes",
+    "stat": "threePointFieldGoalsMade",
+    "line": 2.5,
+    "ou": "over",
+    "odds": -320,
+    "fd_prob": 0.7121,
+    "pin_prob": null,
+    "emp_prob": 0.7596,
+    "prob": 0.6676,
+    "why": "this season 3/4 (avg 3.5); last 5 3/4; last 10 incl. 2025-26 8/10; 3PA 9.0/g this season vs 10.2 late 2025-26; Lakers allow 35.0 opp 3PA/g vs 37.7 slate avg; expected pace 103 poss vs 104; teammates out: Jimmy Butler III, Moses Moody, Kristaps Porzingis (+1 pt); back-to-back (played yesterday) -2 pts; threes calibration haircut -3 pts (hit below estimate so far)",
+    "asof": "2026-10-30 04:00 UTC",
+    "injury": "none listed",
+    "aid": "3975",
+    "fd_market_id": "742.194850324",
+    "fd_selection_id": 3910855,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850324&selectionId%5B0%5D=3910855"
+   }
+  },
+  "parlays": [
+   {
+    "n": 1,
+    "legs": [
+     "401909285:64937517:742.194850371"
+    ],
+    "est_prob": 0.7766,
+    "fd_payout_x": 1.17,
+    "ev": -0.0918,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850371&selectionId%5B0%5D=64937517",
+    "type": "nba3r",
+    "favorite": false
+   },
+   {
+    "n": 2,
+    "legs": [
+     "401909285:64937517:742.194850371",
+     "401909285:9515565:742.194850318"
+    ],
+    "est_prob": 0.5574,
+    "fd_payout_x": 1.39,
+    "ev": -0.2251,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850371&selectionId%5B0%5D=64937517&marketId%5B1%5D=742.194850318&selectionId%5B1%5D=9515565",
+    "type": "nba3r",
+    "favorite": true
+   },
+   {
+    "n": 3,
+    "legs": [
+     "401909285:64937517:742.194850371",
+     "401909285:9515565:742.194850318",
+     "401909277:91592956:742.194850196"
+    ],
+    "est_prob": 0.3889,
+    "fd_payout_x": 1.77,
+    "ev": -0.3133,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.194850371&selectionId%5B0%5D=64937517&marketId%5B1%5D=742.194850318&selectionId%5B1%5D=9515565&marketId%5B2%5D=742.194850196&selectionId%5B2%5D=91592956",
+    "type": "nba3r",
+    "favorite": false
+   }
+  ],
   "coverage": {
    "games": 10,
-   "fd_lines": 0,
-   "players_matched": 0,
+   "fd_lines": 125,
+   "players_matched": 11,
    "pinnacle_priced": 0,
    "excluded_injury": [],
    "unmatched": 0,
-   "lines_scored": 0
+   "lines_scored": 125
   },
   "stats": {
    "graded_legs": 486,
