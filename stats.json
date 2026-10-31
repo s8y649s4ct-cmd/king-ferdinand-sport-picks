@@ -1,24 +1,24 @@
 {
- "updated": "2026-10-31 22:27 UTC",
- "graded_legs": 824,
+ "updated": "2026-10-31 22:41 UTC",
+ "graded_legs": 835,
  "calibration": {
   "85-90%": {
-   "n": 291,
-   "wins": 253,
+   "n": 297,
+   "wins": 259,
    "pred": 0.874,
-   "hit": 0.869
+   "hit": 0.872
   },
   "75-80%": {
-   "n": 81,
-   "wins": 64,
+   "n": 83,
+   "wins": 66,
    "pred": 0.785,
-   "hit": 0.79
+   "hit": 0.795
   },
   "80-85%": {
-   "n": 147,
-   "wins": 121,
+   "n": 148,
+   "wins": 122,
    "pred": 0.823,
-   "hit": 0.823
+   "hit": 0.824
   },
   "65-70%": {
    "n": 19,
@@ -45,10 +45,10 @@
    "hit": 0.895
   },
   "40-45%": {
-   "n": 22,
-   "wins": 10,
-   "pred": 0.426,
-   "hit": 0.455
+   "n": 23,
+   "wins": 11,
+   "pred": 0.425,
+   "hit": 0.478
   },
   "45-50%": {
    "n": 10,
@@ -69,10 +69,10 @@
    "hit": 0.417
   },
   "30-35%": {
-   "n": 18,
+   "n": 19,
    "wins": 9,
    "pred": 0.324,
-   "hit": 0.5
+   "hit": 0.474
   },
   "20-25%": {
    "n": 23,
@@ -107,9 +107,9 @@
    "hit": 0.738
   },
   "college-football": {
-   "n": 119,
-   "wins": 101,
-   "pred": 0.82,
+   "n": 126,
+   "wins": 107,
+   "pred": 0.818,
    "hit": 0.849
   },
   "nba": {
@@ -119,10 +119,10 @@
    "hit": 0.791
   },
   "nhl": {
-   "n": 162,
-   "wins": 101,
+   "n": 166,
+   "wins": 105,
    "pred": 0.662,
-   "hit": 0.623
+   "hit": 0.633
   },
   "mlb": {
    "n": 10,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 366,
-   "wins": 298,
-   "pred": 0.818,
-   "hit": 0.814
+   "n": 369,
+   "wins": 301,
+   "pred": 0.819,
+   "hit": 0.816
   },
   "spread": {
-   "n": 342,
-   "wins": 250,
-   "pred": 0.771,
-   "hit": 0.731
+   "n": 350,
+   "wins": 257,
+   "pred": 0.77,
+   "hit": 0.734
   },
   "dc": {
    "n": 37,
@@ -238,8 +238,8 @@
  "clv": {
   "legs_tracked": 1001,
   "avg_clv_pts": 0.08,
-  "beat_close": 262,
-  "worse_than_close": 310
+  "beat_close": 264,
+  "worse_than_close": 307
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
