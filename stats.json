@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-31 04:26 UTC",
- "graded_legs": 699,
+ "updated": "2026-10-31 04:42 UTC",
+ "graded_legs": 708,
  "calibration": {
   "85-90%": {
-   "n": 226,
-   "wins": 193,
+   "n": 234,
+   "wins": 201,
    "pred": 0.875,
-   "hit": 0.854
+   "hit": 0.859
   },
   "75-80%": {
-   "n": 68,
-   "wins": 52,
+   "n": 69,
+   "wins": 53,
    "pred": 0.786,
-   "hit": 0.765
+   "hit": 0.768
   },
   "80-85%": {
    "n": 115,
@@ -113,10 +113,10 @@
    "hit": 0.774
   },
   "nba": {
-   "n": 293,
-   "wins": 233,
+   "n": 302,
+   "wins": 242,
    "pred": 0.836,
-   "hit": 0.795
+   "hit": 0.801
   },
   "nhl": {
    "n": 151,
@@ -163,16 +163,16 @@
  },
  "by_market": {
   "total": {
-   "n": 296,
-   "wins": 233,
-   "pred": 0.812,
-   "hit": 0.787
+   "n": 300,
+   "wins": 237,
+   "pred": 0.813,
+   "hit": 0.79
   },
   "spread": {
-   "n": 299,
-   "wins": 219,
-   "pred": 0.777,
-   "hit": 0.732
+   "n": 304,
+   "wins": 224,
+   "pred": 0.778,
+   "hit": 0.737
   },
   "dc": {
    "n": 28,
@@ -206,15 +206,15 @@
   }
  },
  "parlays": {
-  "graded": 253,
-  "won": 36,
-  "expected": 48.75,
-  "pending": 12,
+  "graded": 254,
+  "won": 37,
+  "expected": 49.08,
+  "pending": 11,
   "by_type": {
    "ladder": {
-    "graded": 157,
-    "won": 34,
-    "expected": 42.11
+    "graded": 158,
+    "won": 35,
+    "expected": 42.44
    },
    "best": {
     "graded": 5,
@@ -232,7 +232,7 @@
  "clv": {
   "legs_tracked": 822,
   "avg_clv_pts": 0.01,
-  "beat_close": 208,
+  "beat_close": 209,
   "worse_than_close": 247
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
