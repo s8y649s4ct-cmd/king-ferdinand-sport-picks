@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31 19:09 UTC",
+ "updated": "2026-10-31 19:22 UTC",
  "date": "2026-10-31",
  "bar": {
   "leg": 0.92,
@@ -9,46 +9,46 @@
  "board": [],
  "near_miss": [
   {
+   "pick": "Under (78.5)",
+   "game": "Army Black Knights at Memphis Tigers",
+   "sport": "college-football",
+   "start": "2026-11-01T00:00Z",
+   "calibrated": 0.889
+  },
+  {
    "pick": "Under (83.5)",
    "game": "Texas State Bobcats at Boise State Broncos",
    "sport": "college-football",
    "start": "2026-11-01T02:00Z",
-   "calibrated": 0.884
+   "calibrated": 0.889
   },
   {
    "pick": "Under (76.5)",
    "game": "Oregon State Beavers at Fresno State Bulldogs",
    "sport": "college-football",
    "start": "2026-11-01T03:00Z",
-   "calibrated": 0.884
-  },
-  {
-   "pick": "Under (78.5)",
-   "game": "Army Black Knights at Memphis Tigers",
-   "sport": "college-football",
-   "start": "2026-11-01T00:00Z",
-   "calibrated": 0.883
+   "calibrated": 0.889
   },
   {
    "pick": "Under (73.5)",
    "game": "Georgia Tech Yellow Jackets at Pittsburgh Panthers",
    "sport": "college-football",
    "start": "2026-10-31T23:30Z",
-   "calibrated": 0.882
+   "calibrated": 0.888
   },
   {
    "pick": "Under (68.5)",
    "game": "Washington Huskies at Nebraska Cornhuskers",
    "sport": "college-football",
    "start": "2026-11-01T00:00Z",
-   "calibrated": 0.882
+   "calibrated": 0.887
   },
   {
    "pick": "UNLV (-4.5)",
    "game": "Northern Illinois Huskies at UNLV Rebels",
    "sport": "college-football",
    "start": "2026-11-01T02:30Z",
-   "calibrated": 0.882
+   "calibrated": 0.887
   }
  ],
  "record": {
@@ -58,41 +58,41 @@
   "win_pct": null
  },
  "backtest": {
-  "tickets": 7,
+  "tickets": 8,
   "won": 7,
-  "win_pct": 1.0,
-  "avg_joint": 0.917,
+  "win_pct": 0.875,
+  "avg_joint": 0.909,
   "days": 7,
   "grid": [
    {
     "leg_bar": 0.8,
-    "tickets": 7,
+    "tickets": 8,
     "won": 7,
-    "win_pct": 1.0
+    "win_pct": 0.875
    },
    {
     "leg_bar": 0.86,
-    "tickets": 7,
+    "tickets": 8,
     "won": 7,
-    "win_pct": 1.0
+    "win_pct": 0.875
    },
    {
     "leg_bar": 0.88,
-    "tickets": 7,
+    "tickets": 8,
     "won": 7,
-    "win_pct": 1.0
+    "win_pct": 0.875
    },
    {
     "leg_bar": 0.9,
-    "tickets": 7,
+    "tickets": 8,
     "won": 7,
-    "win_pct": 1.0
+    "win_pct": 0.875
    },
    {
     "leg_bar": 0.92,
-    "tickets": 7,
+    "tickets": 8,
     "won": 7,
-    "win_pct": 1.0
+    "win_pct": 0.875
    }
   ],
   "tickets_detail": [
@@ -130,6 +130,11 @@
     "date": "2026-10-25",
     "joint": 0.897,
     "won": true
+   },
+   {
+    "date": "2026-10-28",
+    "joint": 0.854,
+    "won": false
    }
   ]
  },
