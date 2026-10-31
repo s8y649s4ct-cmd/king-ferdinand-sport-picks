@@ -180,3 +180,13 @@ Changes: none. v1 stays live; live_model/allow_switch untouched. Retest the same
 - twoleg.py: 2-leg pregame tickets only when both legs are their game's top v1 leg, from different games, each calibrated >= 92% (sport + 2.5-pt bucket from graded shadow legs, shrink weight 15, NHL 85%+ capped at 80% first) and joint >= 85%. Each leg used once; no padding.
 - Backtest (leave-one-day-out, 6 graded days): 92% bar 7/7; 90% 7/8; 88% 7/9; 86% 10/15; 80% 43/59. Strictest bar adopted. Small sample.
 - record.py: every graded ticket gets leg results, final scores/margins, reason tags (blowout, shootout, line move, same-game stack) and a lesson tied to the reviews. No model change; v1 stays live.
+
+## 2026-10-31 10:30 AM ET intraday review
+Status: 8 of 25 ladder tickets already locked (games from 8:30 AM ET onward); not changed. Early results: Chelsea 2-0 Man United final (our Over 1.5 cashed); Atletico at Levante 83', Monza-Bologna 41', five Bundesliga 10:30 AM games underway.
+Research (~10:45 AM ET): NBA ESPN report: PHI on 2nd night of back-to-back with LeBron (rest) day-to-day and Embiid likely to sit one of the pair (PHI only -1.5 at depleted CHA); HOU on back-to-back, Sengun and Sheppard (back) day-to-day; MEM Pippen Jr./Jerome questionable; UTA Markkanen questionable; POR Morant out 4 weeks; OKC without Holmgren, J. Williams, Wallace, Caruso (already priced, HOU -166 -> -142); NOP Poole and Missi out; SAS Harris out; CLE Tyson out. CFB: K-State QB Knuth ruled out Friday night (third starter in 3 weeks; KSU -162 -> +124); Rutgers QB Lonergan out vs Michigan; Ohio State without Sayin at USC; Miss St without Taylor at Texas (all priced). Weather fine except showers at Colorado (wind 4 mph).
+Problem found: main-board player-prop legs had no injury filter (the Props tab does). Reed Sheppard 2+ assists (back, day-to-day) was on tickets 11 and 25.
+Changes (backups /workspace/kfsp_backups/2026-10-31-am/):
+- build.py: main-board prop legs for players ESPN lists Out/Doubtful/Questionable/Day-To-Day (NBA/NHL), or named in news_adj "players", are dropped (57 legs removed today). Same rule the Props tab already uses.
+- legs.json news_adj (today only, -2.5 pts on side/ML legs): PHI, HOU, MEM, UTA (questionable stars, tickets lock before the NBA status update) and Kansas State (QB change; research form edge was from games with other QBs). Effect: K-State +18.5 left ticket 16; PHI +15.5 drops 90.0% -> 87.5% and left the 1-leg ticket.
+- Tickets 11 and 25 had already locked with the Sheppard leg; left as-is (FanDuel voids a player prop if he doesn't play).
+v1 stays live; v2 switch_ready already reported, not re-proposed. Published c500b7b.
