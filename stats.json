@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31 20:03 UTC",
- "graded_legs": 783,
+ "updated": "2026-10-31 20:14 UTC",
+ "graded_legs": 788,
  "calibration": {
   "85-90%": {
-   "n": 270,
-   "wins": 233,
+   "n": 271,
+   "wins": 234,
    "pred": 0.874,
    "hit": 0.863
   },
@@ -15,10 +15,10 @@
    "hit": 0.782
   },
   "80-85%": {
-   "n": 136,
-   "wins": 112,
-   "pred": 0.823,
-   "hit": 0.824
+   "n": 140,
+   "wins": 115,
+   "pred": 0.824,
+   "hit": 0.821
   },
   "65-70%": {
    "n": 19,
@@ -101,16 +101,16 @@
  },
  "by_sport": {
   "usa.1": {
-   "n": 60,
-   "wins": 44,
-   "pred": 0.673,
-   "hit": 0.733
+   "n": 64,
+   "wins": 47,
+   "pred": 0.683,
+   "hit": 0.734
   },
   "college-football": {
-   "n": 101,
-   "wins": 85,
+   "n": 102,
+   "wins": 86,
    "pred": 0.828,
-   "hit": 0.842
+   "hit": 0.843
   },
   "nba": {
    "n": 309,
@@ -169,10 +169,10 @@
  },
  "by_market": {
   "total": {
-   "n": 344,
-   "wins": 277,
+   "n": 347,
+   "wins": 279,
    "pred": 0.816,
-   "hit": 0.805
+   "hit": 0.804
   },
   "spread": {
    "n": 326,
@@ -181,10 +181,10 @@
    "hit": 0.733
   },
   "dc": {
-   "n": 35,
-   "wins": 26,
-   "pred": 0.786,
-   "hit": 0.743
+   "n": 37,
+   "wins": 28,
+   "pred": 0.789,
+   "hit": 0.757
   },
   "ml": {
    "n": 13,
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 270,
+  "graded": 272,
   "won": 37,
-  "expected": 49.53,
-  "pending": 29,
+  "expected": 49.73,
+  "pending": 27,
   "by_type": {
    "ladder": {
-    "graded": 167,
+    "graded": 169,
     "won": 35,
-    "expected": 42.81
+    "expected": 43.02
    },
    "best": {
     "graded": 5,
@@ -236,10 +236,10 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1001,
+  "legs_tracked": 1000,
   "avg_clv_pts": 0.08,
   "beat_close": 261,
-  "worse_than_close": 305
+  "worse_than_close": 306
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
