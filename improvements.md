@@ -166,3 +166,12 @@ Line moves since lock: all locked legs within 1.6 pts of their lock estimate; bi
 Pulls/replacements: none needed on the unlocked Best Parlay, lottery, Props or NBA tabs (they re-price every refresh).
 Grading: nothing finished since 10:30 AM ET; soccer grades on the next refreshes.
 Changes: none to the model. v1 stays live; v2 switch_ready already reported, not re-proposed. Published commit 52aaaf8.
+
+## 2026-10-31 (daily review #6, ~3:10 AM ET)
+Record: all tickets 37-217 graded. Ladder 35 of 158 graded (10-30: 2 of 23, 4.18 expected, 2 pending). Best Parlay still 0 wins (10-30 pending). Main legs 720 graded: 72.8% hit vs 75.9% predicted (Brier .159); 10-30 alone 73.3% vs 81.8% (overconfident).
+Main mistakes 10-30: Lakers +11.5/+12.5/+13.5 at GSW, Hornets +13.5/+14.5, Kraken +1.5/+2.5, Villarreal DNB/Over 1.5, Tulane-Charlotte Unders, UCF +18.5/+19.5. Mostly NBA/CFB alt lines with blowouts or shootouts; same-game ladder stacking amplified the Lakers/Kraken losses.
+Calibration (shadow 1717 graded): v1 Brier .1659, v2 .1639, sharp .1628. NBA spread/total and CFB alt lines ~4-6 pts overrated (even by sharp no-vig); NHL slightly underrated; soccer top legs 88% vs 83% est. Top pick per game: v1 86.1% vs v2 85.4% -> v2 not recommended.
+Backtests (shadow, ladder rebuilt per day, 6 days):
+- Per-sport recalibration fit leave-one-day-out (K=50/100/200): ladder wins 22/23/25 vs baseline 30 -> REJECTED (third time NBA/CFB haircuts lose wins out of sample).
+- Same-game penalty 0.15 -> 0.1/0.2/0.25/0.3/0.35/0.5: 27/29/31/33/31/30 wins vs 30; gain driven by one day (10-25) and not monotonic -> REJECTED as noise. Per-game cap and alt-window 0.02 also no better.
+Changes: none. v1 stays live; live_model/allow_switch untouched. Retest the same-game penalty once 10+ graded days exist.
