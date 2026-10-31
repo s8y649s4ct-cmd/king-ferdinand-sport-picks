@@ -13,7 +13,7 @@ def walk(o):
       else: walk(v)
   elif isinstance(o,list):
     for v in o: walk(v)
-for f in ['picks.json','extra.json','extra2.json']:
+for f in ['picks.json','extra.json','extra2.json','twoleg.json']:
   try: walk(json.load(open(f)))
   except Exception as e: print('md: skip',f,e)
 # PA/NJ market info from the scripts' fresh caches

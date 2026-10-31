@@ -1,0 +1,137 @@
+{
+ "updated": "2026-10-31 12:35 UTC",
+ "date": "2026-10-31",
+ "bar": {
+  "leg": 0.92,
+  "joint": 0.85,
+  "shrink_m": 15
+ },
+ "board": [],
+ "near_miss": [
+  {
+   "pick": "Under (79.5)",
+   "game": "Army Black Knights at Memphis Tigers",
+   "sport": "college-football",
+   "start": "2026-11-01T00:00Z",
+   "calibrated": 0.884
+  },
+  {
+   "pick": "Under (78.5)",
+   "game": "Oregon State Beavers at Fresno State Bulldogs",
+   "sport": "college-football",
+   "start": "2026-11-01T03:00Z",
+   "calibrated": 0.884
+  },
+  {
+   "pick": "Under (83.5)",
+   "game": "Texas State Bobcats at Boise State Broncos",
+   "sport": "college-football",
+   "start": "2026-11-01T02:00Z",
+   "calibrated": 0.883
+  },
+  {
+   "pick": "Under (68.5)",
+   "game": "Clemson Tigers at Florida State Seminoles",
+   "sport": "college-football",
+   "start": "2026-10-31T23:00Z",
+   "calibrated": 0.882
+  },
+  {
+   "pick": "Under (69.5)",
+   "game": "Ohio State Buckeyes at USC Trojans",
+   "sport": "college-football",
+   "start": "2026-10-31T23:30Z",
+   "calibrated": 0.882
+  },
+  {
+   "pick": "Under (73.5)",
+   "game": "Georgia Tech Yellow Jackets at Pittsburgh Panthers",
+   "sport": "college-football",
+   "start": "2026-10-31T23:30Z",
+   "calibrated": 0.882
+  }
+ ],
+ "record": {
+  "won": 0,
+  "lost": 0,
+  "pending": 0,
+  "win_pct": null
+ },
+ "backtest": {
+  "tickets": 7,
+  "won": 7,
+  "win_pct": 1.0,
+  "avg_joint": 0.917,
+  "days": 6,
+  "grid": [
+   {
+    "leg_bar": 0.8,
+    "tickets": 7,
+    "won": 7,
+    "win_pct": 1.0
+   },
+   {
+    "leg_bar": 0.86,
+    "tickets": 7,
+    "won": 7,
+    "win_pct": 1.0
+   },
+   {
+    "leg_bar": 0.88,
+    "tickets": 7,
+    "won": 7,
+    "win_pct": 1.0
+   },
+   {
+    "leg_bar": 0.9,
+    "tickets": 7,
+    "won": 7,
+    "win_pct": 1.0
+   },
+   {
+    "leg_bar": 0.92,
+    "tickets": 7,
+    "won": 7,
+    "win_pct": 1.0
+   }
+  ],
+  "tickets_detail": [
+   {
+    "date": "2026-10-25",
+    "joint": 0.963,
+    "won": true
+   },
+   {
+    "date": "2026-10-25",
+    "joint": 0.935,
+    "won": true
+   },
+   {
+    "date": "2026-10-25",
+    "joint": 0.912,
+    "won": true
+   },
+   {
+    "date": "2026-10-25",
+    "joint": 0.908,
+    "won": true
+   },
+   {
+    "date": "2026-10-25",
+    "joint": 0.905,
+    "won": true
+   },
+   {
+    "date": "2026-10-25",
+    "joint": 0.902,
+    "won": true
+   },
+   {
+    "date": "2026-10-25",
+    "joint": 0.897,
+    "won": true
+   }
+  ]
+ },
+ "rule": "A 2-leg ticket qualifies only if both legs are their game's top-rated pregame leg, from different games, each calibrated to at least 92% from graded history (sport + 2.5-pt bucket, shrunk toward the model with weight 15), and the joint chance is at least 85%. NHL 85%+ legs are capped at 80% first, and the existing haircuts apply. No padding: some days nothing qualifies. Nothing is guaranteed."
+}

@@ -175,3 +175,8 @@ Backtests (shadow, ladder rebuilt per day, 6 days):
 - Per-sport recalibration fit leave-one-day-out (K=50/100/200): ladder wins 22/23/25 vs baseline 30 -> REJECTED (third time NBA/CFB haircuts lose wins out of sample).
 - Same-game penalty 0.15 -> 0.1/0.2/0.25/0.3/0.35/0.5: 27/29/31/33/31/30 wins vs 30; gain driven by one day (10-25) and not monotonic -> REJECTED as noise. Per-game cap and alt-window 0.02 also no better.
 Changes: none. v1 stays live; live_model/allow_switch untouched. Retest the same-game penalty once 10+ graded days exist.
+
+## 2026-10-31 feature: Best 2-Leg Parlays + enhanced Track record (user request t52u)
+- twoleg.py: 2-leg pregame tickets only when both legs are their game's top v1 leg, from different games, each calibrated >= 92% (sport + 2.5-pt bucket from graded shadow legs, shrink weight 15, NHL 85%+ capped at 80% first) and joint >= 85%. Each leg used once; no padding.
+- Backtest (leave-one-day-out, 6 graded days): 92% bar 7/7; 90% 7/8; 88% 7/9; 86% 10/15; 80% 43/59. Strictest bar adopted. Small sample.
+- record.py: every graded ticket gets leg results, final scores/margins, reason tags (blowout, shootout, line move, same-game stack) and a lesson tied to the reviews. No model change; v1 stays live.
