@@ -224,6 +224,18 @@ if NA.get('date')==DATE:
     if a:
       L['prob']=round(max(0.01,min(0.99,L['prob']+a['adj'])),4); L['research_adj']=round(L.get('research_adj',0)+a['adj'],4)
       L['research']=list(L.get('research') or [])+[f"news: {a['why']} ({a['adj']*100:+.1f})"]
+# 2026-10-31 10:30 review: main-board player-prop legs now follow the Props-tab rule. A player ESPN lists as
+# Out/Doubtful/Questionable/Day-To-Day (or named in news_adj "players") is dropped (found: Reed Sheppard 2+ assists, back, day-to-day).
+_BADST={'out','doubtful','questionable','day-to-day','injured reserve','suspension'}
+_badp=set(p.lower() for p in ((NA.get('players') or []) if NA.get('date')==DATE else []))
+for _lg in ['nba','nhl']:
+  try:
+    for _t in (get(f'https://site.api.espn.com/apis/site/v2/sports/{SPORTS[_lg]}/{_lg}/injuries',ttl=600) or {}).get('injuries',[]):
+      for _i in _t.get('injuries',[]):
+        if (_i.get('status') or '').lower() in _BADST: _badp.add(_i['athlete']['displayName'].lower())
+  except Exception as _e: print('inj filter fail',_lg,_e)
+_n0=len(cands); cands=[L for L in cands if not (L.get('kind')=='prop' and (L.get('player') or '').lower() in _badp)]
+print('injury-excluded main-board props:',_n0-len(cands))
 # ---------- calibration ----------
 # 2026-10-27 review: keep the pre-calibration (raw) chance on every leg so tickets also get an honest raw estimate
 for L in cands: L['raw_prob']=L['prob']
