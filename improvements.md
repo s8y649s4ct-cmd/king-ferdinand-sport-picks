@@ -190,3 +190,13 @@ Changes (backups /workspace/kfsp_backups/2026-10-31-am/):
 - legs.json news_adj (today only, -2.5 pts on side/ML legs): PHI, HOU, MEM, UTA (questionable stars, tickets lock before the NBA status update) and Kansas State (QB change; research form edge was from games with other QBs). Effect: K-State +18.5 left ticket 16; PHI +15.5 drops 90.0% -> 87.5% and left the 1-leg ticket.
 - Tickets 11 and 25 had already locked with the Sheppard leg; left as-is (FanDuel voids a player prop if he doesn't play).
 v1 stays live; v2 switch_ready already reported, not re-proposed. Published c500b7b.
+
+## 2026-10-31 3:00 PM ET intraday review
+Status: all 25 ladder tickets (main board and green favorites) locked earlier today; reviewed, not changed.
+Graded so far today: 11 of 14 finished soccer legs won. Misses: Brighton 1-0 at Man City (Over 1.5, 81%), Paderborn 0-0 at Gladbach (Over 1.5, 82%), Stuttgart 4-2 at Leverkusen (Leverkusen-or-draw, 76%). Tickets 12, 13, 19, 23 and 25 lost; 40 tickets still pending. Live at ~3:05 PM ET: Philadelphia-Cincinnati 0-0 at halftime (Over 1.5 is on 6 tickets, the biggest risk), Bruins +1.5 tied 2-2 after 2, Blues +2.5 down 2 in the 3rd. All CFB Unders and spreads from the noon games are well ahead.
+Pattern: today's losses were all low-scoring soccer Overs and one upset; soccer Over 1.5 legs at 81-82% are close to their historical rate (soccer top legs ran 88% vs 83% est through 10-30). One day, not acted on.
+Research (~3:05 PM ET): ESPN NBA report now has LeBron James and Joel Embiid both OUT for PHI at CHA (market moved PHI +13.5 from -900 to -670); HOU has Sheppard, VanVleet, Adams OUT, Sengun no longer listed; MIN Gobert day-to-day (Edwards out); MEM Pippen Jr./Jerome still day-to-day. NHL goalies: Ottawa confirmed Samuel Ersson (0-3-1, .849) with Ullmark on IR; Calgary starting call-up Arsenii Sergeev (2nd career start) at Colorado; Buffalo starter unclear (ESPN Ellis, Daily Faceoff projects Luukkonen). Weather: rain at Washington-Nebraska, thunderstorms at ULM, showers at BYU/Memphis/Boise (supports the Unders on those boards).
+Changes (backups /workspace/kfsp_backups/2026-10-31-pm/):
+- legs.json news_adj (today only, -2.5 pts on side/ML legs): added Ottawa Senators (weak backup goalie) and Calgary Flames (call-up goalie); PHI and HOU reasons updated to the 3 PM report. Same size as the existing questionable-key-player rule. Effect is on the unlocked Best Parlay and lottery tickets, which re-price every refresh (Ottawa -1.5 was on two lottery tickets).
+- Locked legs on Reed Sheppard props (2 tickets) will be voided by FanDuel since he is OUT; nothing to change.
+v1 stays live; v2 switch_ready already reported, not re-proposed.
