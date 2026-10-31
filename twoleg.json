@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31 22:43 UTC",
+ "updated": "2026-10-31 22:45 UTC",
  "date": "2026-10-31",
  "bar": {
   "leg": 0.92,
@@ -11,7 +11,7 @@
    "id": "2026-10-31-2L-401860908:16039630:742.193939063-401862814:15516344:742.193939003",
    "date": "2026-10-31",
    "n": 2,
-   "joint": 0.8507,
+   "joint": 0.8617,
    "legs": [
     {
      "id": "401860908:16039630:742.193939063",
@@ -23,7 +23,7 @@
      "start": "2026-11-01T02:00Z",
      "odds": -1000,
      "model": 0.8905,
-     "calibrated": 0.9226,
+     "calibrated": 0.9286,
      "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939063&selectionId%5B0%5D=16039630",
      "result": null,
      "why": "FanDuel no-vig 85.8%, line model 92.3% -> est. 89.0% (edge +3.3 pts); research +0.0 pts: weather fine (wind 1.0 mph, rain 18%)"
@@ -38,13 +38,169 @@
      "start": "2026-11-01T00:00Z",
      "odds": -950,
      "model": 0.8881,
-     "calibrated": 0.922,
+     "calibrated": 0.928,
      "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939003&selectionId%5B0%5D=15516344",
      "result": null,
      "why": "FanDuel no-vig 85.4%, line model 91.3% -> est. 88.8% (edge +3.5 pts); research +0.5 pts: weather fine (wind 2.6 mph, rain 23%); DraftKings total 58.5 vs FanDuel 59.5 (+0.5)"
     }
    ],
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939063&selectionId%5B0%5D=16039630&marketId%5B1%5D=742.193939003&selectionId%5B1%5D=15516344"
+  },
+  {
+   "id": "2026-10-31-2L-401858281:12386717:742.193938494-401856847:12386721:742.193938240",
+   "date": "2026-10-31",
+   "n": 2,
+   "joint": 0.8599,
+   "legs": [
+    {
+     "id": "401858281:12386717:742.193938494",
+     "event": "401858281",
+     "sport": "college-football",
+     "pick": "Under (73.5)",
+     "market": "Alternate Total Points",
+     "game": "Georgia Tech Yellow Jackets at Pittsburgh Panthers",
+     "start": "2026-10-31T23:30Z",
+     "odds": -1000,
+     "model": 0.8851,
+     "calibrated": 0.9273,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938494&selectionId%5B0%5D=12386717",
+     "result": null,
+     "why": "FanDuel no-vig 85.8%, line model 91.3% -> est. 88.5% (edge +2.7 pts); research +0.0 pts: weather fine (wind 3.8 mph, rain 3%)"
+    },
+    {
+     "id": "401856847:12386721:742.193938240",
+     "event": "401856847",
+     "sport": "college-football",
+     "pick": "Under (77.5)",
+     "market": "Alternate Total Points",
+     "game": "Oklahoma State Cowboys at Iowa State Cyclones",
+     "start": "2026-10-31T23:00Z",
+     "odds": -1000,
+     "model": 0.8851,
+     "calibrated": 0.9273,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938240&selectionId%5B0%5D=12386721",
+     "result": null,
+     "why": "FanDuel no-vig 85.8%, line model 91.3% -> est. 88.5% (edge +2.7 pts); research +0.0 pts: weather fine (wind 5.5 mph, rain 4%)"
+    }
+   ],
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938494&selectionId%5B0%5D=12386717&marketId%5B1%5D=742.193938240&selectionId%5B1%5D=12386721"
+  },
+  {
+   "id": "2026-10-31-2L-401864530:48858394:742.193939122-401858509:12194345:742.193938422",
+   "date": "2026-10-31",
+   "n": 2,
+   "joint": 0.8575,
+   "legs": [
+    {
+     "id": "401864530:48858394:742.193939122",
+     "event": "401864530",
+     "sport": "college-football",
+     "pick": "UNLV (-4.5)",
+     "market": "Alternate Spread",
+     "game": "Northern Illinois Huskies at UNLV Rebels",
+     "start": "2026-11-01T02:30Z",
+     "odds": -1000,
+     "model": 0.8795,
+     "calibrated": 0.926,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939122&selectionId%5B0%5D=48858394",
+     "result": null,
+     "why": "FanDuel no-vig 85.8%, line model 87.2% -> est. 87.9% (edge +2.2 pts); research +1.5 pts: rest 14.3d vs 7.3d; rest edge (+0.5); travel 620 mi since last game; form 4-3 last 7, avg margin +0.4 vs 0-7 last 7, avg margin -23.4; form edge (+1.0)"
+    },
+    {
+     "id": "401858509:12194345:742.193938422",
+     "event": "401858509",
+     "sport": "college-football",
+     "pick": "Under (68.5)",
+     "market": "Alternate Total Points",
+     "game": "Ohio State Buckeyes at USC Trojans",
+     "start": "2026-10-31T23:30Z",
+     "odds": -1000,
+     "model": 0.8792,
+     "calibrated": 0.926,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938422&selectionId%5B0%5D=12194345",
+     "result": null,
+     "why": "FanDuel no-vig 85.8%, line model 90.1% -> est. 87.9% (edge +2.2 pts); research +0.0 pts: weather fine (wind 4.3 mph, rain 7%)"
+    }
+   ],
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939122&selectionId%5B0%5D=48858394&marketId%5B1%5D=742.193938422&selectionId%5B1%5D=12194345"
+  },
+  {
+   "id": "2026-10-31-2L-401858280:12194345:742.193938080-401858282:12215025:742.193938378",
+   "date": "2026-10-31",
+   "n": 2,
+   "joint": 0.8567,
+   "legs": [
+    {
+     "id": "401858280:12194345:742.193938080",
+     "event": "401858280",
+     "sport": "college-football",
+     "pick": "Under (68.5)",
+     "market": "Alternate Total Points",
+     "game": "Clemson Tigers at Florida State Seminoles",
+     "start": "2026-10-31T23:00Z",
+     "odds": -950,
+     "model": 0.8781,
+     "calibrated": 0.9257,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938080&selectionId%5B0%5D=12194345",
+     "result": null,
+     "why": "FanDuel no-vig 85.4%, line model 91.3% -> est. 87.8% (edge +2.5 pts); research -0.5 pts: weather fine (wind 11.0 mph, rain 5%); DraftKings total 50.5 vs FanDuel 49.5 (-0.5)"
+    },
+    {
+     "id": "401858282:12215025:742.193938378",
+     "event": "401858282",
+     "sport": "college-football",
+     "pick": "Under (71.5)",
+     "market": "Alternate Total Points",
+     "game": "Miami Hurricanes at North Carolina Tar Heels",
+     "start": "2026-10-31T23:30Z",
+     "odds": -950,
+     "model": 0.8771,
+     "calibrated": 0.9255,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938378&selectionId%5B0%5D=12215025",
+     "result": null,
+     "why": "FanDuel no-vig 85.4%, line model 90.1% -> est. 87.7% (edge +2.4 pts); research +0.0 pts: weather fine (wind 4.0 mph, rain 0%)"
+    }
+   ],
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938080&selectionId%5B0%5D=12194345&marketId%5B1%5D=742.193938378&selectionId%5B1%5D=12215025"
+  },
+  {
+   "id": "2026-10-31-2L-401858504:12197206:742.193938949-401860909:12197202:742.193938290",
+   "date": "2026-10-31",
+   "n": 2,
+   "joint": 0.8562,
+   "legs": [
+    {
+     "id": "401858504:12197206:742.193938949",
+     "event": "401858504",
+     "sport": "college-football",
+     "pick": "Under (67.5)",
+     "market": "Alternate Total Points",
+     "game": "Washington Huskies at Nebraska Cornhuskers",
+     "start": "2026-11-01T00:00Z",
+     "odds": -950,
+     "model": 0.8771,
+     "calibrated": 0.9255,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938949&selectionId%5B0%5D=12197206",
+     "result": null,
+     "why": "FanDuel no-vig 85.4%, line model 90.1% -> est. 87.7% (edge +2.4 pts); research +0.0 pts: weather fine (wind 5.4 mph, rain 7%)"
+    },
+    {
+     "id": "401860909:12197202:742.193938290",
+     "event": "401860909",
+     "sport": "college-football",
+     "pick": "Under (65.5)",
+     "market": "Alternate Total Points",
+     "game": "Washington State Cougars at San Diego State Aztecs",
+     "start": "2026-10-31T23:00Z",
+     "odds": -950,
+     "model": 0.8756,
+     "calibrated": 0.9251,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938290&selectionId%5B0%5D=12197202",
+     "result": null,
+     "why": "FanDuel no-vig 85.4%, line model 88.8% -> est. 87.6% (edge +2.2 pts); research +0.5 pts: weather fine (wind 5.8 mph, rain 9%); DraftKings total 47.5 vs FanDuel 48.5 (+0.5)"
+    }
+   ],
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193938949&selectionId%5B0%5D=12197206&marketId%5B1%5D=742.193938290&selectionId%5B1%5D=12197202"
   }
  ],
  "near_miss": [
@@ -53,55 +209,55 @@
    "game": "Texas State Bobcats at Boise State Broncos",
    "sport": "college-football",
    "start": "2026-11-01T02:00Z",
-   "calibrated": 0.923
+   "calibrated": 0.929
   },
   {
    "pick": "Under (78.5)",
    "game": "Army Black Knights at Memphis Tigers",
    "sport": "college-football",
    "start": "2026-11-01T00:00Z",
-   "calibrated": 0.922
+   "calibrated": 0.928
   },
   {
    "pick": "Under (73.5)",
    "game": "Georgia Tech Yellow Jackets at Pittsburgh Panthers",
    "sport": "college-football",
    "start": "2026-10-31T23:30Z",
-   "calibrated": 0.921
+   "calibrated": 0.927
   },
   {
    "pick": "Under (77.5)",
    "game": "Oklahoma State Cowboys at Iowa State Cyclones",
    "sport": "college-football",
    "start": "2026-10-31T23:00Z",
-   "calibrated": 0.921
+   "calibrated": 0.927
   },
   {
    "pick": "Under (68.5)",
    "game": "Clemson Tigers at Florida State Seminoles",
    "sport": "college-football",
    "start": "2026-10-31T23:00Z",
-   "calibrated": 0.92
+   "calibrated": 0.926
   },
   {
    "pick": "Under (68.5)",
    "game": "Ohio State Buckeyes at USC Trojans",
    "sport": "college-football",
    "start": "2026-10-31T23:30Z",
-   "calibrated": 0.92
+   "calibrated": 0.926
   }
  ],
  "record": {
   "won": 0,
   "lost": 0,
-  "pending": 1,
+  "pending": 5,
   "win_pct": null
  },
  "backtest": {
   "tickets": 8,
   "won": 7,
   "win_pct": 0.875,
-  "avg_joint": 0.915,
+  "avg_joint": 0.916,
   "days": 7,
   "grid": [
    {
@@ -173,7 +329,7 @@
    },
    {
     "date": "2026-10-28",
-    "joint": 0.9,
+    "joint": 0.908,
     "won": false
    }
   ]
