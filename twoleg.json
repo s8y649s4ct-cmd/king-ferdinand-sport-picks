@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 05:33 UTC",
+ "updated": "2026-11-01 16:34 UTC",
  "date": "2026-11-01",
  "bar": {
   "leg": 0.92,
@@ -9,18 +9,32 @@
  "board": [],
  "near_miss": [
   {
-   "pick": "Over (26.5)",
+   "pick": "Under (56.5)",
+   "game": "Kansas City Chiefs at Denver Broncos",
+   "sport": "nfl",
+   "start": "2026-11-01T21:25Z",
+   "calibrated": 0.893
+  },
+  {
+   "pick": "Philadelphia Eagles (+20.5)",
    "game": "Philadelphia Eagles at Washington Commanders",
    "sport": "nfl",
    "start": "2026-11-02T01:20Z",
-   "calibrated": 0.888
+   "calibrated": 0.886
+  },
+  {
+   "pick": "Under 4.5 Goals",
+   "game": "Napoli at Juventus",
+   "sport": "ita.1",
+   "start": "2026-11-01T19:45Z",
+   "calibrated": 0.861
   },
   {
    "pick": "Over 1.5 Goals",
    "game": "Minnesota United FC at LAFC",
    "sport": "usa.1",
    "start": "2026-11-02T01:30Z",
-   "calibrated": 0.856
+   "calibrated": 0.859
   },
   {
    "pick": "Golden State Warriors +13.5",
@@ -30,25 +44,11 @@
    "calibrated": 0.836
   },
   {
-   "pick": "Under 249.5",
+   "pick": "Under 247.5",
    "game": "Toronto Raptors at Los Angeles Lakers",
    "sport": "nba",
    "start": "2026-11-02T02:00Z",
-   "calibrated": 0.835
-  },
-  {
-   "pick": "New England Revolution And Inter Miami CF",
-   "game": "Inter Miami CF at New England Revolution",
-   "sport": "usa.1",
-   "start": "2026-11-02T00:00Z",
-   "calibrated": 0.828
-  },
-  {
-   "pick": "Over 1.5 Goals",
-   "game": "Houston Dynamo FC at Portland Timbers",
-   "sport": "usa.1",
-   "start": "2026-11-02T02:45Z",
-   "calibrated": 0.78
+   "calibrated": 0.836
   }
  ],
  "record": {
@@ -58,41 +58,41 @@
   "win_pct": null
  },
  "backtest": {
-  "tickets": 15,
+  "tickets": 16,
   "won": 12,
-  "win_pct": 0.8,
-  "avg_joint": 0.894,
+  "win_pct": 0.75,
+  "avg_joint": 0.891,
   "days": 7,
   "grid": [
    {
     "leg_bar": 0.8,
-    "tickets": 15,
-    "won": 12,
-    "win_pct": 0.8
+    "tickets": 17,
+    "won": 13,
+    "win_pct": 0.765
    },
    {
     "leg_bar": 0.86,
-    "tickets": 15,
-    "won": 12,
-    "win_pct": 0.8
+    "tickets": 17,
+    "won": 13,
+    "win_pct": 0.765
    },
    {
     "leg_bar": 0.88,
-    "tickets": 15,
-    "won": 12,
-    "win_pct": 0.8
+    "tickets": 17,
+    "won": 13,
+    "win_pct": 0.765
    },
    {
     "leg_bar": 0.9,
-    "tickets": 15,
-    "won": 12,
-    "win_pct": 0.8
+    "tickets": 17,
+    "won": 13,
+    "win_pct": 0.765
    },
    {
     "leg_bar": 0.92,
-    "tickets": 15,
+    "tickets": 16,
     "won": 12,
-    "win_pct": 0.8
+    "win_pct": 0.75
    }
   ],
   "tickets_detail": [
@@ -133,12 +133,17 @@
    },
    {
     "date": "2026-10-28",
-    "joint": 0.879,
+    "joint": 0.857,
     "won": false
    },
    {
     "date": "2026-10-31",
-    "joint": 0.875,
+    "joint": 0.876,
+    "won": false
+   },
+   {
+    "date": "2026-10-31",
+    "joint": 0.874,
     "won": true
    },
    {
