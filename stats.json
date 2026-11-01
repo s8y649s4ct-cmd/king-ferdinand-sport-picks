@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-01 00:37 UTC",
- "graded_legs": 888,
+ "updated": "2026-11-01 00:42 UTC",
+ "graded_legs": 892,
  "calibration": {
   "85-90%": {
-   "n": 340,
-   "wins": 299,
+   "n": 343,
+   "wins": 302,
    "pred": 0.874,
-   "hit": 0.879
+   "hit": 0.88
   },
   "75-80%": {
    "n": 83,
@@ -39,10 +39,10 @@
    "hit": 0.945
   },
   "70-75%": {
-   "n": 20,
-   "wins": 18,
+   "n": 21,
+   "wins": 19,
    "pred": 0.729,
-   "hit": 0.9
+   "hit": 0.905
   },
   "40-45%": {
    "n": 23,
@@ -113,10 +113,10 @@
    "hit": 0.863
   },
   "nba": {
-   "n": 316,
-   "wins": 250,
+   "n": 320,
+   "wins": 254,
    "pred": 0.837,
-   "hit": 0.791
+   "hit": 0.794
   },
   "nhl": {
    "n": 168,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 401,
-   "wins": 331,
+   "n": 404,
+   "wins": 334,
    "pred": 0.822,
-   "hit": 0.825
+   "hit": 0.827
   },
   "spread": {
-   "n": 369,
-   "wins": 272,
-   "pred": 0.77,
-   "hit": 0.737
+   "n": 370,
+   "wins": 273,
+   "pred": 0.771,
+   "hit": 0.738
   },
   "dc": {
    "n": 38,
@@ -212,10 +212,10 @@
   }
  },
  "parlays": {
-  "graded": 278,
-  "won": 39,
-  "expected": 52.05,
-  "pending": 21,
+  "graded": 279,
+  "won": 40,
+  "expected": 52.26,
+  "pending": 20,
   "by_type": {
    "ladder": {
     "graded": 175,
@@ -223,9 +223,9 @@
     "expected": 45.34
    },
    "best": {
-    "graded": 5,
-    "won": 0,
-    "expected": 0.99
+    "graded": 6,
+    "won": 1,
+    "expected": 1.2
    },
    "lottery": {
     "graded": 98,
@@ -236,9 +236,9 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1012,
+  "legs_tracked": 1011,
   "avg_clv_pts": 0.08,
-  "beat_close": 268,
+  "beat_close": 267,
   "worse_than_close": 314
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
