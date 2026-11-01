@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 01:54 UTC",
+ "updated": "2026-11-01 02:08 UTC",
  "date": "2026-10-31",
  "bar": {
   "leg": 0.92,
@@ -8,66 +8,59 @@
  },
  "board": [
   {
-   "id": "2026-10-31-2L-401860908:16286573:742.193939063-401864530:12386717:742.193939127",
+   "id": "2026-10-31-2L-401864530:12291344:742.193939127-401860924:12291346:742.193939167",
    "date": "2026-10-31",
    "n": 2,
-   "joint": 0.8886,
+   "joint": 0.8709,
    "legs": [
     {
-     "id": "401860908:16286573:742.193939063",
-     "event": "401860908",
-     "sport": "college-football",
-     "pick": "Under (84.5)",
-     "market": "Alternate Total Points",
-     "game": "Texas State Bobcats at Boise State Broncos",
-     "start": "2026-11-01T02:00Z",
-     "odds": -1000,
-     "model": 0.8955,
-     "calibrated": 0.9443,
-     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939063&selectionId%5B0%5D=16286573",
-     "result": null,
-     "why": "FanDuel no-vig 85.8%, line model 92.3% -> est. 89.5% (edge +3.8 pts); research +0.5 pts: weather fine (wind 12.1 mph, rain 25%); DraftKings total 63.5 vs FanDuel 64.5 (+0.5)"
-    },
-    {
-     "id": "401864530:12386717:742.193939127",
+     "id": "401864530:12291344:742.193939127",
      "event": "401864530",
      "sport": "college-football",
-     "pick": "Under (73.5)",
+     "pick": "Under (74.5)",
      "market": "Alternate Total Points",
      "game": "Northern Illinois Huskies at UNLV Rebels",
      "start": "2026-11-01T02:30Z",
      "odds": -1000,
-     "model": 0.8777,
-     "calibrated": 0.941,
-     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939127&selectionId%5B0%5D=12386717",
+     "model": 0.8842,
+     "calibrated": 0.9456,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939127&selectionId%5B0%5D=12291344",
      "result": null,
-     "why": "FanDuel no-vig 85.8%, line model 88.8% -> est. 87.8% (edge +2.0 pts); research +0.5 pts: DraftKings total 55.5 vs FanDuel 56.5 (+0.5)"
+     "why": "FanDuel no-vig 85.8%, line model 90.1% -> est. 88.4% (edge +2.7 pts); research +0.5 pts: DraftKings total 55.5 vs FanDuel 56.5 (+0.5)"
+    },
+    {
+     "id": "401860924:12291346:742.193939167",
+     "event": "401860924",
+     "sport": "college-football",
+     "pick": "Under (76.5)",
+     "market": "Alternate Total Points",
+     "game": "Oregon State Beavers at Fresno State Bulldogs",
+     "start": "2026-11-01T03:00Z",
+     "odds": -1000,
+     "model": 0.9105,
+     "calibrated": 0.921,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939167&selectionId%5B0%5D=12291346",
+     "result": null,
+     "why": "FanDuel no-vig 85.8%, line model 92.3% -> est. 91.0% (edge +5.3 pts); research +2.0 pts: weather wind 0.9 mph / rain 69% (+1.5); FanDuel price moved our way -770 -> -1000 (+0.5)"
     }
    ],
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939063&selectionId%5B0%5D=16286573&marketId%5B1%5D=742.193939127&selectionId%5B1%5D=12386717"
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.193939127&selectionId%5B0%5D=12291344&marketId%5B1%5D=742.193939167&selectionId%5B1%5D=12291346"
   }
  ],
  "near_miss": [
   {
-   "pick": "Under (84.5)",
-   "game": "Texas State Bobcats at Boise State Broncos",
-   "sport": "college-football",
-   "start": "2026-11-01T02:00Z",
-   "calibrated": 0.944
-  },
-  {
-   "pick": "Under (73.5)",
+   "pick": "Under (74.5)",
    "game": "Northern Illinois Huskies at UNLV Rebels",
    "sport": "college-football",
    "start": "2026-11-01T02:30Z",
-   "calibrated": 0.941
+   "calibrated": 0.946
   },
   {
    "pick": "Under (76.5)",
    "game": "Oregon State Beavers at Fresno State Bulldogs",
    "sport": "college-football",
    "start": "2026-11-01T03:00Z",
-   "calibrated": 0.916
+   "calibrated": 0.921
   },
   {
    "pick": "Under (70.5)",
@@ -89,6 +82,13 @@
    "sport": "nfl",
    "start": "2026-11-01T18:00Z",
    "calibrated": 0.895
+  },
+  {
+   "pick": "Under (53.5)",
+   "game": "Cleveland Browns at Pittsburgh Steelers",
+   "sport": "nfl",
+   "start": "2026-11-01T18:00Z",
+   "calibrated": 0.895
   }
  ],
  "record": {
@@ -98,41 +98,41 @@
   "win_pct": null
  },
  "backtest": {
-  "tickets": 20,
-  "won": 18,
-  "win_pct": 0.9,
-  "avg_joint": 0.884,
+  "tickets": 21,
+  "won": 19,
+  "win_pct": 0.905,
+  "avg_joint": 0.887,
   "days": 7,
   "grid": [
    {
     "leg_bar": 0.8,
-    "tickets": 20,
-    "won": 18,
-    "win_pct": 0.9
+    "tickets": 22,
+    "won": 20,
+    "win_pct": 0.909
    },
    {
     "leg_bar": 0.86,
-    "tickets": 20,
-    "won": 18,
-    "win_pct": 0.9
+    "tickets": 22,
+    "won": 20,
+    "win_pct": 0.909
    },
    {
     "leg_bar": 0.88,
-    "tickets": 20,
-    "won": 18,
-    "win_pct": 0.9
+    "tickets": 22,
+    "won": 20,
+    "win_pct": 0.909
    },
    {
     "leg_bar": 0.9,
-    "tickets": 20,
-    "won": 18,
-    "win_pct": 0.9
+    "tickets": 22,
+    "won": 20,
+    "win_pct": 0.909
    },
    {
     "leg_bar": 0.92,
-    "tickets": 20,
-    "won": 18,
-    "win_pct": 0.9
+    "tickets": 21,
+    "won": 19,
+    "win_pct": 0.905
    }
   ],
   "tickets_detail": [
@@ -173,13 +173,38 @@
    },
    {
     "date": "2026-10-27",
-    "joint": 0.875,
+    "joint": 0.883,
     "won": true
    },
    {
     "date": "2026-10-28",
-    "joint": 0.928,
+    "joint": 0.933,
     "won": false
+   },
+   {
+    "date": "2026-10-30",
+    "joint": 0.866,
+    "won": true
+   },
+   {
+    "date": "2026-10-30",
+    "joint": 0.864,
+    "won": true
+   },
+   {
+    "date": "2026-10-30",
+    "joint": 0.864,
+    "won": true
+   },
+   {
+    "date": "2026-10-30",
+    "joint": 0.863,
+    "won": true
+   },
+   {
+    "date": "2026-10-30",
+    "joint": 0.862,
+    "won": true
    },
    {
     "date": "2026-10-30",
@@ -188,8 +213,8 @@
    },
    {
     "date": "2026-10-30",
-    "joint": 0.859,
-    "won": true
+    "joint": 0.858,
+    "won": false
    },
    {
     "date": "2026-10-30",
@@ -197,43 +222,23 @@
     "won": true
    },
    {
-    "date": "2026-10-30",
-    "joint": 0.857,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.856,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.854,
-    "won": false
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.853,
+    "date": "2026-10-31",
+    "joint": 0.875,
     "won": true
    },
    {
     "date": "2026-10-31",
-    "joint": 0.869,
+    "joint": 0.872,
     "won": true
    },
    {
     "date": "2026-10-31",
-    "joint": 0.867,
+    "joint": 0.871,
     "won": true
    },
    {
     "date": "2026-10-31",
-    "joint": 0.865,
-    "won": true
-   },
-   {
-    "date": "2026-10-31",
-    "joint": 0.865,
+    "joint": 0.87,
     "won": true
    }
   ]
