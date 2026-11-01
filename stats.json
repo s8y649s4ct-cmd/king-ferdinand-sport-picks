@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-01 02:48 UTC",
- "graded_legs": 915,
+ "updated": "2026-11-01 02:58 UTC",
+ "graded_legs": 919,
  "calibration": {
   "85-90%": {
-   "n": 359,
-   "wins": 316,
+   "n": 363,
+   "wins": 320,
    "pred": 0.874,
-   "hit": 0.88
+   "hit": 0.882
   },
   "75-80%": {
    "n": 84,
@@ -107,10 +107,10 @@
    "hit": 0.746
   },
   "college-football": {
-   "n": 182,
-   "wins": 158,
-   "pred": 0.827,
-   "hit": 0.868
+   "n": 186,
+   "wins": 162,
+   "pred": 0.828,
+   "hit": 0.871
   },
   "nba": {
    "n": 332,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 412,
-   "wins": 342,
-   "pred": 0.823,
-   "hit": 0.83
+   "n": 414,
+   "wins": 344,
+   "pred": 0.824,
+   "hit": 0.831
   },
   "spread": {
-   "n": 382,
-   "wins": 283,
-   "pred": 0.773,
-   "hit": 0.741
+   "n": 384,
+   "wins": 285,
+   "pred": 0.774,
+   "hit": 0.742
   },
   "dc": {
    "n": 38,
@@ -238,7 +238,7 @@
  "clv": {
   "legs_tracked": 1015,
   "avg_clv_pts": 0.08,
-  "beat_close": 269,
+  "beat_close": 268,
   "worse_than_close": 315
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
