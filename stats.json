@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-01 22:53 UTC",
- "graded_legs": 1009,
+ "updated": "2026-11-01 23:11 UTC",
+ "graded_legs": 1018,
  "calibration": {
   "85-90%": {
-   "n": 409,
-   "wins": 358,
+   "n": 412,
+   "wins": 361,
    "pred": 0.873,
-   "hit": 0.875
+   "hit": 0.876
   },
   "75-80%": {
-   "n": 89,
-   "wins": 72,
-   "pred": 0.785,
-   "hit": 0.809
+   "n": 91,
+   "wins": 74,
+   "pred": 0.784,
+   "hit": 0.813
   },
   "80-85%": {
-   "n": 184,
-   "wins": 153,
-   "pred": 0.824,
-   "hit": 0.832
+   "n": 186,
+   "wins": 155,
+   "pred": 0.825,
+   "hit": 0.833
   },
   "65-70%": {
    "n": 20,
@@ -81,16 +81,16 @@
    "hit": 0.261
   },
   "35-40%": {
-   "n": 29,
+   "n": 30,
    "wins": 7,
    "pred": 0.38,
-   "hit": 0.241
+   "hit": 0.233
   },
   "55-60%": {
-   "n": 9,
-   "wins": 4,
-   "pred": 0.563,
-   "hit": 0.444
+   "n": 10,
+   "wins": 5,
+   "pred": 0.564,
+   "hit": 0.5
   },
   "50-55%": {
    "n": 4,
@@ -113,15 +113,15 @@
    "hit": 0.863
   },
   "nba": {
-   "n": 332,
-   "wins": 263,
+   "n": 338,
+   "wins": 269,
    "pred": 0.838,
-   "hit": 0.792
+   "hit": 0.796
   },
   "nhl": {
-   "n": 178,
-   "wins": 115,
-   "pred": 0.67,
+   "n": 181,
+   "wins": 117,
+   "pred": 0.669,
    "hit": 0.646
   },
   "mlb": {
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 467,
-   "wins": 386,
+   "n": 468,
+   "wins": 387,
    "pred": 0.826,
    "hit": 0.827
   },
   "spread": {
-   "n": 412,
-   "wins": 306,
-   "pred": 0.766,
-   "hit": 0.743
+   "n": 420,
+   "wins": 313,
+   "pred": 0.765,
+   "hit": 0.745
   },
   "dc": {
    "n": 41,
@@ -212,9 +212,9 @@
   }
  },
  "parlays": {
-  "graded": 312,
+  "graded": 313,
   "won": 46,
-  "expected": 58.86,
+  "expected": 58.94,
   "pending": 29,
   "by_type": {
    "ladder": {
@@ -228,17 +228,17 @@
     "expected": 1.44
    },
    "lottery": {
-    "graded": 107,
+    "graded": 108,
     "won": 3,
-    "expected": 5.77
+    "expected": 5.85
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1115,
+  "legs_tracked": 1114,
   "avg_clv_pts": 0.08,
-  "beat_close": 310,
+  "beat_close": 309,
   "worse_than_close": 344
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
