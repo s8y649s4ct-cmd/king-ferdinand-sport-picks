@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01 23:32 UTC",
- "graded_legs": 1018,
+ "updated": "2026-11-01 23:51 UTC",
+ "graded_legs": 1026,
  "calibration": {
   "85-90%": {
    "n": 412,
@@ -15,10 +15,10 @@
    "hit": 0.813
   },
   "80-85%": {
-   "n": 186,
-   "wins": 155,
+   "n": 191,
+   "wins": 159,
    "pred": 0.825,
-   "hit": 0.833
+   "hit": 0.832
   },
   "65-70%": {
    "n": 20,
@@ -45,10 +45,10 @@
    "hit": 0.84
   },
   "40-45%": {
-   "n": 23,
+   "n": 24,
    "wins": 11,
    "pred": 0.425,
-   "hit": 0.478
+   "hit": 0.458
   },
   "45-50%": {
    "n": 10,
@@ -57,16 +57,16 @@
    "hit": 0.5
   },
   "25-30%": {
-   "n": 39,
+   "n": 40,
    "wins": 9,
    "pred": 0.275,
-   "hit": 0.231
+   "hit": 0.225
   },
   "60-65%": {
-   "n": 12,
+   "n": 13,
    "wins": 5,
-   "pred": 0.626,
-   "hit": 0.417
+   "pred": 0.625,
+   "hit": 0.385
   },
   "30-35%": {
    "n": 23,
@@ -101,10 +101,10 @@
  },
  "by_sport": {
   "usa.1": {
-   "n": 69,
-   "wins": 52,
+   "n": 73,
+   "wins": 55,
    "pred": 0.693,
-   "hit": 0.754
+   "hit": 0.753
   },
   "college-football": {
    "n": 205,
@@ -119,10 +119,10 @@
    "hit": 0.796
   },
   "nhl": {
-   "n": 181,
-   "wins": 117,
+   "n": 185,
+   "wins": 118,
    "pred": 0.669,
-   "hit": 0.646
+   "hit": 0.638
   },
   "mlb": {
    "n": 10,
@@ -169,28 +169,28 @@
  },
  "by_market": {
   "total": {
-   "n": 468,
-   "wins": 387,
-   "pred": 0.826,
-   "hit": 0.827
+   "n": 472,
+   "wins": 390,
+   "pred": 0.825,
+   "hit": 0.826
   },
   "spread": {
-   "n": 420,
+   "n": 422,
    "wins": 313,
    "pred": 0.765,
-   "hit": 0.745
+   "hit": 0.742
   },
   "dc": {
-   "n": 41,
-   "wins": 32,
-   "pred": 0.79,
-   "hit": 0.78
+   "n": 42,
+   "wins": 33,
+   "pred": 0.791,
+   "hit": 0.786
   },
   "ml": {
-   "n": 18,
+   "n": 19,
    "wins": 15,
-   "pred": 0.597,
-   "hit": 0.833
+   "pred": 0.598,
+   "hit": 0.789
   },
   "dnb": {
    "n": 10,
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 313,
+  "graded": 322,
   "won": 46,
-  "expected": 58.94,
-  "pending": 29,
+  "expected": 59.28,
+  "pending": 20,
   "by_type": {
    "ladder": {
-    "graded": 198,
+    "graded": 202,
     "won": 42,
-    "expected": 51.58
+    "expected": 51.73
    },
    "best": {
     "graded": 7,
@@ -228,18 +228,18 @@
     "expected": 1.44
    },
    "lottery": {
-    "graded": 108,
+    "graded": 113,
     "won": 3,
-    "expected": 5.85
+    "expected": 6.03
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1117,
+  "legs_tracked": 1118,
   "avg_clv_pts": 0.08,
   "beat_close": 310,
-  "worse_than_close": 345
+  "worse_than_close": 347
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
