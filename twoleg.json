@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 02:58 UTC",
+ "updated": "2026-11-01 03:08 UTC",
  "date": "2026-10-31",
  "bar": {
   "leg": 0.92,
@@ -8,13 +8,6 @@
  },
  "board": [],
  "near_miss": [
-  {
-   "pick": "Under (75.5)",
-   "game": "Oregon State Beavers at Fresno State Bulldogs",
-   "sport": "college-football",
-   "start": "2026-11-01T03:00Z",
-   "calibrated": 0.912
-  },
   {
    "pick": "Under (70.5)",
    "game": "Baltimore Ravens at Buffalo Bills",
@@ -49,6 +42,13 @@
    "sport": "nfl",
    "start": "2026-11-01T18:00Z",
    "calibrated": 0.895
+  },
+  {
+   "pick": "Cincinnati Bengals (+1.5)",
+   "game": "Tennessee Titans at Cincinnati Bengals",
+   "sport": "nfl",
+   "start": "2026-11-01T18:00Z",
+   "calibrated": 0.893
   }
  ],
  "record": {
@@ -58,41 +58,41 @@
   "win_pct": null
  },
  "backtest": {
-  "tickets": 21,
-  "won": 19,
-  "win_pct": 0.905,
-  "avg_joint": 0.887,
+  "tickets": 13,
+  "won": 10,
+  "win_pct": 0.769,
+  "avg_joint": 0.896,
   "days": 7,
   "grid": [
    {
     "leg_bar": 0.8,
-    "tickets": 22,
-    "won": 20,
-    "win_pct": 0.909
+    "tickets": 13,
+    "won": 10,
+    "win_pct": 0.769
    },
    {
     "leg_bar": 0.86,
-    "tickets": 22,
-    "won": 20,
-    "win_pct": 0.909
+    "tickets": 13,
+    "won": 10,
+    "win_pct": 0.769
    },
    {
     "leg_bar": 0.88,
-    "tickets": 22,
-    "won": 20,
-    "win_pct": 0.909
+    "tickets": 13,
+    "won": 10,
+    "win_pct": 0.769
    },
    {
     "leg_bar": 0.9,
-    "tickets": 22,
-    "won": 20,
-    "win_pct": 0.909
+    "tickets": 13,
+    "won": 10,
+    "win_pct": 0.769
    },
    {
     "leg_bar": 0.92,
-    "tickets": 21,
-    "won": 19,
-    "win_pct": 0.905
+    "tickets": 13,
+    "won": 10,
+    "win_pct": 0.769
    }
   ],
   "tickets_detail": [
@@ -132,54 +132,9 @@
     "won": true
    },
    {
-    "date": "2026-10-27",
-    "joint": 0.883,
-    "won": true
-   },
-   {
     "date": "2026-10-28",
-    "joint": 0.933,
+    "joint": 0.868,
     "won": false
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.866,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.864,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.864,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.863,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.862,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.861,
-    "won": true
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.858,
-    "won": false
-   },
-   {
-    "date": "2026-10-30",
-    "joint": 0.858,
-    "won": true
    },
    {
     "date": "2026-10-31",
@@ -188,8 +143,13 @@
    },
    {
     "date": "2026-10-31",
-    "joint": 0.872,
-    "won": true
+    "joint": 0.873,
+    "won": false
+   },
+   {
+    "date": "2026-10-31",
+    "joint": 0.871,
+    "won": false
    },
    {
     "date": "2026-10-31",
