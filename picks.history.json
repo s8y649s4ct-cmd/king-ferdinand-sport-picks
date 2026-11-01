@@ -51173,8 +51173,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2313,
-  "fd_payout_x": 4.32,
+  "est_prob": 0.238,
+  "fd_payout_x": 4.35,
   "legs_detail": [
    {
     "id": "401873032:15516319:742.194054600",
@@ -51209,6 +51209,22 @@
     "close_odds": -300
    },
    {
+    "id": "401909904:7711824:742.195175311",
+    "event": "401909904",
+    "sport": "nba",
+    "kind": "total",
+    "line": 218.5,
+    "ou": "over",
+    "pick": "Over 218.5",
+    "market": "Alternate Total Points",
+    "odds": -300,
+    "prob": 0.7345,
+    "raw_prob": 0.7345,
+    "game": "Brooklyn Nets at Indiana Pacers",
+    "result": null,
+    "close_odds": -300
+   },
+   {
     "id": "401873030:12194324:742.194054066",
     "event": "401873030",
     "sport": "nfl",
@@ -51232,31 +51248,15 @@
     "side": "home",
     "pick": "Carolina Hurricanes",
     "market": "Moneyline",
-    "odds": -285,
-    "prob": 0.7173,
-    "raw_prob": 0.7173,
+    "odds": -275,
+    "prob": 0.7131,
+    "raw_prob": 0.7131,
     "game": "Winnipeg Jets at Carolina Hurricanes",
     "result": null,
-    "close_odds": -285
-   },
-   {
-    "id": "401873031:12197178:742.194053448",
-    "event": "401873031",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 53.5,
-    "ou": "under",
-    "pick": "Under (53.5)",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7098,
-    "raw_prob": 0.7098,
-    "game": "Tennessee Titans at Cincinnati Bengals",
-    "result": null,
-    "close_odds": -295
+    "close_odds": -275
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -56780,69 +56780,6 @@
   "favorite": false
  },
  {
-  "id": "2026-10-31-lottery-~25x",
-  "date": "2026-10-31",
-  "type": "lottery",
-  "label": "~25x",
-  "n": 3,
-  "est_prob": 0.07208942975999999,
-  "fd_payout_x": 31.25,
-  "legs_detail": [
-   {
-    "id": "401873032:14785632:742.194054600",
-    "event": "401873032",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -2.5,
-    "pick": "Los Angeles Chargers (-2.5)",
-    "market": "Alternate Spread",
-    "odds": 300,
-    "prob": 0.4373,
-    "raw_prob": 0.4373,
-    "game": "Los Angeles Chargers at Los Angeles Rams",
-    "result": null,
-    "close_odds": 300
-   },
-   {
-    "id": "401892625:25610:742.194950701",
-    "event": "401892625",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Washington Capitals -1.5",
-    "market": "Puck Line",
-    "odds": 210,
-    "prob": 0.3888,
-    "raw_prob": 0.3888,
-    "game": "Minnesota Wild at Washington Capitals",
-    "result": null,
-    "close_odds": 210
-   },
-   {
-    "id": "401892626:83920082:742.194950718",
-    "event": "401892626",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Utah Mammoth -1.5",
-    "market": "Puck Line",
-    "odds": 152,
-    "prob": 0.424,
-    "raw_prob": 0.424,
-    "game": "Utah Mammoth at Philadelphia Flyers",
-    "result": null,
-    "close_odds": 152
-   }
-  ],
-  "logged": "2026-11-01 03:54 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
   "id": "2026-10-31-lottery-~100x",
   "date": "2026-10-31",
   "type": "lottery",
@@ -56916,7 +56853,7 @@
     "close_odds": 285
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -57011,7 +56948,117 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-10-31-lottery-~25x",
+  "date": "2026-10-31",
+  "type": "lottery",
+  "label": "~25x",
+  "n": 6,
+  "est_prob": 0.08048085766539635,
+  "fd_payout_x": 25.18,
+  "legs_detail": [
+   {
+    "id": "401873032:14785632:742.194054600",
+    "event": "401873032",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "home",
+    "line": -2.5,
+    "pick": "Los Angeles Chargers (-2.5)",
+    "market": "Alternate Spread",
+    "odds": 300,
+    "prob": 0.4373,
+    "raw_prob": 0.4373,
+    "game": "Los Angeles Chargers at Los Angeles Rams",
+    "result": null,
+    "close_odds": 300
+   },
+   {
+    "id": "401892625:25610:742.194950701",
+    "event": "401892625",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Washington Capitals -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3888,
+    "raw_prob": 0.3888,
+    "game": "Minnesota Wild at Washington Capitals",
+    "result": null,
+    "close_odds": 210
+   },
+   {
+    "id": "401909903:7889199:742.195175175",
+    "event": "401909903",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 5.5,
+    "pick": "Boston Celtics +5.5",
+    "market": "Alternate Spread",
+    "odds": -430,
+    "prob": 0.8189,
+    "raw_prob": 0.8189,
+    "game": "Boston Celtics at Orlando Magic",
+    "result": null,
+    "close_odds": -430
+   },
+   {
+    "id": "401909904:7883433:742.195175282",
+    "event": "401909904",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 7.5,
+    "pick": "Indiana Pacers +7.5",
+    "market": "Alternate Spread",
+    "odds": -390,
+    "prob": 0.8023,
+    "raw_prob": 0.8023,
+    "game": "Brooklyn Nets at Indiana Pacers",
+    "result": null,
+    "close_odds": -390
+   },
+   {
+    "id": "401873024:12215025:742.194054212",
+    "event": "401873024",
+    "sport": "nfl",
+    "kind": "total",
+    "line": 71.5,
+    "ou": "under",
+    "pick": "Under (71.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8811,
+    "raw_prob": 0.8811,
+    "game": "Arizona Cardinals at Dallas Cowboys",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401873028:50207:742.192673054",
+    "event": "401873028",
+    "sport": "nfl",
+    "kind": "ml",
+    "side": "home",
+    "pick": "Jacksonville Jaguars",
+    "market": "Moneyline",
+    "odds": -520,
+    "prob": 0.8177,
+    "raw_prob": 0.8177,
+    "game": "Indianapolis Colts at Jacksonville Jaguars",
+    "result": null,
+    "close_odds": -520
+   }
+  ],
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -57122,7 +57169,7 @@
     "close_odds": 265
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -57132,9 +57179,9 @@
   "date": "2026-10-31",
   "type": "lottery",
   "label": "~10,000x",
-  "n": 7,
-  "est_prob": 0.0003002142011956623,
-  "fd_payout_x": 10575.36,
+  "n": 9,
+  "est_prob": 0.0003112608535066068,
+  "fd_payout_x": 10875.02,
   "legs_detail": [
    {
     "id": "401873032:14785632:742.194054600",
@@ -57217,39 +57264,71 @@
     "close_odds": 290
    },
    {
-    "id": "401873026:12267697:742.194053519",
+    "id": "401873026:12246877:742.194053519",
     "event": "401873026",
     "sport": "nfl",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "Buffalo Bills (-10.5)",
+    "line": -8.5,
+    "pick": "Buffalo Bills (-8.5)",
     "market": "Alternate Spread",
-    "odds": 300,
-    "prob": 0.2724,
-    "raw_prob": 0.2724,
+    "odds": 240,
+    "prob": 0.3199,
+    "raw_prob": 0.3199,
     "game": "Baltimore Ravens at Buffalo Bills",
     "result": null,
-    "close_odds": 300
+    "close_odds": 240
    },
    {
-    "id": "401873034:12226445:742.194053922",
-    "event": "401873034",
-    "sport": "nfl",
+    "id": "401892626:83920082:742.194950718",
+    "event": "401892626",
+    "sport": "nhl",
     "kind": "spread",
     "side": "away",
-    "line": -14.5,
-    "pick": "New England Patriots (-14.5)",
-    "market": "Alternate Spread",
-    "odds": 255,
-    "prob": 0.2892,
-    "raw_prob": 0.2892,
-    "game": "New England Patriots at Miami Dolphins",
+    "line": -1.5,
+    "pick": "Utah Mammoth -1.5",
+    "market": "Puck Line",
+    "odds": 152,
+    "prob": 0.424,
+    "raw_prob": 0.424,
+    "game": "Utah Mammoth at Philadelphia Flyers",
     "result": null,
-    "close_odds": 255
+    "close_odds": 152
+   },
+   {
+    "id": "401909903:7889215:742.195175175",
+    "event": "401909903",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 3.5,
+    "pick": "Boston Celtics +3.5",
+    "market": "Alternate Spread",
+    "odds": -320,
+    "prob": 0.7734,
+    "raw_prob": 0.7734,
+    "game": "Boston Celtics at Orlando Magic",
+    "result": null,
+    "close_odds": -320
+   },
+   {
+    "id": "401909904:7883355:742.195175282",
+    "event": "401909904",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 6.5,
+    "pick": "Indiana Pacers +6.5",
+    "market": "Alternate Spread",
+    "odds": -335,
+    "prob": 0.7786,
+    "raw_prob": 0.7786,
+    "game": "Brooklyn Nets at Indiana Pacers",
+    "result": null,
+    "close_odds": -335
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -57408,7 +57487,7 @@
     "close_odds": 280
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -57615,7 +57694,7 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -57626,8 +57705,8 @@
   "type": "lottery",
   "label": "25-leg best-chance lottery",
   "n": 25,
-  "est_prob": 0.01996247004692072,
-  "fd_payout_x": 13.35,
+  "est_prob": 0.021789154864008998,
+  "fd_payout_x": 13.22,
   "legs_detail": [
    {
     "id": "401873032:15516311:742.194054600",
@@ -57644,6 +57723,22 @@
     "game": "Los Angeles Chargers at Los Angeles Rams",
     "result": null,
     "close_odds": -900
+   },
+   {
+    "id": "401909904:7883309:742.195175282",
+    "event": "401909904",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 12.5,
+    "pick": "Indiana Pacers +12.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8945,
+    "raw_prob": 0.8945,
+    "game": "Brooklyn Nets at Indiana Pacers",
+    "result": null,
+    "close_odds": -1000
    },
    {
     "id": "401909903:7889161:742.195175175",
@@ -57852,22 +57947,6 @@
     "close_odds": -1000
    },
    {
-    "id": "401882823:1222347:742.192498540",
-    "event": "401882823",
-    "sport": "esp.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -1000,
-    "prob": 0.8509,
-    "raw_prob": 0.8509,
-    "game": "Valencia at Elche",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401875002:1221386:742.194226148",
     "event": "401875002",
     "sport": "ita.1",
@@ -57876,10 +57955,26 @@
     "ou": "over",
     "pick": "Over 1.5 Goals",
     "market": "Over/Under 1.5 Goals",
-    "odds": -950,
-    "prob": 0.8469,
-    "raw_prob": 0.8469,
+    "odds": -1000,
+    "prob": 0.8509,
+    "raw_prob": 0.8509,
     "game": "Venezia at Como",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401882823:1222347:742.192498540",
+    "event": "401882823",
+    "sport": "esp.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -950,
+    "prob": 0.8503,
+    "raw_prob": 0.8503,
+    "game": "Valencia at Elche",
     "result": null,
     "close_odds": -950
    },
@@ -58009,25 +58104,9 @@
     "game": "AS Monaco at Paris FC",
     "result": null,
     "close_odds": -750
-   },
-   {
-    "id": "401874782:1221386:742.194225624",
-    "event": "401874782",
-    "sport": "ita.1",
-    "kind": "total",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Over 1.5 Goals",
-    "market": "Over/Under 1.5 Goals",
-    "odds": -900,
-    "prob": 0.8228,
-    "raw_prob": 0.8228,
-    "game": "Torino at Frosinone",
-    "result": null,
-    "close_odds": -900
    }
   ],
-  "logged": "2026-11-01 03:54 UTC",
+  "logged": "2026-11-01 04:02 UTC",
   "locked": false,
   "result": null,
   "favorite": false
