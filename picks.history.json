@@ -58134,40 +58134,40 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.1848,
-  "fd_payout_x": 4.36,
+  "est_prob": 0.1738,
+  "fd_payout_x": 4.55,
   "legs_detail": [
    {
-    "id": "401909906:7884564:742.195175388",
+    "id": "401909906:7729448:742.195175351",
     "event": "401909906",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 5.5,
-    "pick": "Los Angeles Lakers +5.5",
-    "market": "Alternate Spread",
-    "odds": -290,
-    "prob": 0.7382,
-    "raw_prob": 0.7382,
+    "kind": "total",
+    "line": 235.5,
+    "ou": "under",
+    "pick": "Under 235.5",
+    "market": "Alternate Total Points",
+    "odds": -295,
+    "prob": 0.7379,
+    "raw_prob": 0.7379,
     "game": "Toronto Raptors at Los Angeles Lakers",
     "result": null,
-    "close_odds": -290
+    "close_odds": -295
    },
    {
-    "id": "401909905:7707590:742.195176391",
+    "id": "401909905:7711204:742.195176391",
     "event": "401909905",
     "sport": "nba",
     "kind": "total",
-    "line": 210.5,
+    "line": 209.5,
     "ou": "over",
-    "pick": "Over 210.5",
+    "pick": "Over 209.5",
     "market": "Alternate Total Points",
-    "odds": -290,
-    "prob": 0.7217,
-    "raw_prob": 0.7217,
+    "odds": -295,
+    "prob": 0.7329,
+    "raw_prob": 0.7329,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -290
+    "close_odds": -295
    },
    {
     "id": "761933:4004854:742.194630535",
@@ -58200,23 +58200,22 @@
     "close_odds": -290
    },
    {
-    "id": "401873035:12197193:742.194053679",
-    "event": "401873035",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 33.5,
-    "ou": "over",
-    "pick": "Over (33.5)",
-    "market": "Alternate Total Points",
-    "odds": -290,
-    "prob": 0.6982,
-    "raw_prob": 0.6982,
-    "game": "Philadelphia Eagles at Washington Commanders",
+    "id": "401874963:13731095:742.194225997",
+    "event": "401874963",
+    "sport": "ita.1",
+    "kind": "dc",
+    "side": "away",
+    "pick": "Fiorentina And Draw",
+    "market": "Double Chance",
+    "odds": -240,
+    "prob": 0.6469,
+    "raw_prob": 0.6469,
+    "game": "Fiorentina at Sassuolo",
     "result": null,
-    "close_odds": -290
+    "close_odds": -240
    }
   ],
-  "logged": "2026-11-02 01:06 UTC",
+  "logged": "2026-11-02 01:21 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -58322,7 +58321,7 @@
     "raw_prob": 0.8874,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401873024:12215025:742.194054212",
@@ -60112,7 +60111,7 @@
     "raw_prob": 0.8188,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -700
+    "close_odds": -720
    },
    {
     "id": "761931:1221386:742.194607158",
@@ -60360,7 +60359,7 @@
     "raw_prob": 0.8824,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909903:7927485:742.195175175",
@@ -60885,7 +60884,7 @@
     "raw_prob": 0.8851,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909906:7755153:742.195175351",
@@ -61198,7 +61197,7 @@
     "raw_prob": 0.839,
     "game": "Toronto Raptors at Los Angeles Lakers",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401873026:12247072:742.194053521",
@@ -61507,7 +61506,7 @@
     "raw_prob": 0.8696,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -800
+    "close_odds": -720
    },
    {
     "id": "401873030:15964818:742.194054082",
@@ -62550,7 +62549,7 @@
     "raw_prob": 0.8188,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -700
+    "close_odds": -720
    },
    {
     "id": "401873034:12197201:742.194053891",
@@ -63279,7 +63278,7 @@
     "raw_prob": 0.8851,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909906:7755153:742.195175351",
@@ -63648,30 +63647,14 @@
   "favorite": false
  },
  {
-  "id": "2026-11-01-lottery-~100x",
+  "id": "2026-11-01-lottery-~25x",
   "date": "2026-11-01",
   "type": "lottery",
-  "label": "~100x",
-  "n": 4,
-  "est_prob": 0.0081211259106264,
-  "fd_payout_x": 102.56,
+  "label": "~25x",
+  "n": 3,
+  "est_prob": 0.023910166224,
+  "fd_payout_x": 35.78,
   "legs_detail": [
-   {
-    "id": "401873035:12213168:742.194053625",
-    "event": "401873035",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Philadelphia Eagles (+1.5)",
-    "market": "Alternate Spread",
-    "odds": 168,
-    "prob": 0.3703,
-    "raw_prob": 0.3703,
-    "game": "Philadelphia Eagles at Washington Commanders",
-    "result": null,
-    "close_odds": 168
-   },
    {
     "id": "401909906:58130173:742.195176918",
     "event": "401909906",
@@ -63683,30 +63666,30 @@
     "stat": "3PM",
     "pick": "Ja'Kobe Walter",
     "market": "4+ Threes",
-    "odds": 255,
-    "prob": 0.2683,
-    "raw_prob": 0.2683,
+    "odds": 260,
+    "prob": 0.2646,
+    "raw_prob": 0.2646,
     "game": "Toronto Raptors at Los Angeles Lakers",
     "result": null,
-    "close_odds": 255
+    "close_odds": 260
    },
    {
-    "id": "401909905:3498900:742.195180403",
+    "id": "401909905:64937517:742.195180451",
     "event": "401909905",
     "sport": "nba",
     "kind": "prop",
-    "line": 9.5,
+    "line": 5.5,
     "ou": "over",
-    "player": "Al Horford",
-    "stat": "POI",
-    "pick": "Al Horford",
-    "market": "10+ Points",
-    "odds": 285,
-    "prob": 0.2427,
-    "raw_prob": 0.2427,
+    "player": "Yaxel Lendeborg",
+    "stat": "ASS",
+    "pick": "Yaxel Lendeborg",
+    "market": "6+ Assists",
+    "odds": 255,
+    "prob": 0.2683,
+    "raw_prob": 0.2683,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": 285
+    "close_odds": 255
    },
    {
     "id": "401874963:2013140:742.194226151",
@@ -63724,51 +63707,55 @@
     "close_odds": 180
    }
   ],
-  "logged": "2026-11-02 01:06 UTC",
+  "logged": "2026-11-02 01:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-11-01-lottery-~25x",
+  "id": "2026-11-01-lottery-~100x",
   "date": "2026-11-01",
   "type": "lottery",
-  "label": "~25x",
-  "n": 5,
-  "est_prob": 0.03017600230966439,
-  "fd_payout_x": 27.33,
+  "label": "~100x",
+  "n": 4,
+  "est_prob": 0.005989496639112,
+  "fd_payout_x": 130.61,
   "legs_detail": [
    {
-    "id": "401873035:12213169:742.194053625",
-    "event": "401873035",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "Philadelphia Eagles (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 152,
-    "prob": 0.3959,
-    "raw_prob": 0.3959,
-    "game": "Philadelphia Eagles at Washington Commanders",
-    "result": null,
-    "close_odds": 152
-   },
-   {
-    "id": "401909906:7884564:742.195175388",
+    "id": "401909906:58130173:742.195176918",
     "event": "401909906",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 5.5,
-    "pick": "Los Angeles Lakers +5.5",
-    "market": "Alternate Spread",
-    "odds": -290,
-    "prob": 0.7382,
-    "raw_prob": 0.7382,
+    "kind": "prop",
+    "line": 3.5,
+    "ou": "over",
+    "player": "Ja'Kobe Walter",
+    "stat": "3PM",
+    "pick": "Ja'Kobe Walter",
+    "market": "4+ Threes",
+    "odds": 260,
+    "prob": 0.2646,
+    "raw_prob": 0.2646,
     "game": "Toronto Raptors at Los Angeles Lakers",
     "result": null,
-    "close_odds": -290
+    "close_odds": 260
+   },
+   {
+    "id": "401909905:64937517:742.195180451",
+    "event": "401909905",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 5.5,
+    "ou": "over",
+    "player": "Yaxel Lendeborg",
+    "stat": "ASS",
+    "pick": "Yaxel Lendeborg",
+    "market": "6+ Assists",
+    "odds": 255,
+    "prob": 0.2683,
+    "raw_prob": 0.2683,
+    "game": "LA Clippers at Golden State Warriors",
+    "result": null,
+    "close_odds": 255
    },
    {
     "id": "401874963:2013140:742.194226151",
@@ -63786,38 +63773,23 @@
     "close_odds": 180
    },
    {
-    "id": "761933:4004854:742.194630535",
-    "event": "761933",
-    "sport": "usa.1",
-    "kind": "dnb",
-    "side": "home",
-    "pick": "Portland Timbers",
-    "market": "Tie No Bet",
-    "odds": -300,
-    "prob": 0.7113,
-    "raw_prob": 0.7113,
-    "game": "Houston Dynamo FC at Portland Timbers",
-    "result": null,
-    "close_odds": -300
-   },
-   {
-    "id": "761921:1222345:742.194615293",
+    "id": "761921:1222346:742.194615371",
     "event": "761921",
     "sport": "usa.1",
     "kind": "total",
-    "line": 3.5,
+    "line": 4.5,
     "ou": "over",
-    "pick": "Over 3.5 Goals",
-    "market": "Over/Under 3.5 Goals",
-    "odds": 116,
-    "prob": 0.431,
-    "raw_prob": 0.431,
+    "pick": "Over 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": 265,
+    "prob": 0.2505,
+    "raw_prob": 0.2505,
     "game": "Minnesota United FC at LAFC",
     "result": null,
-    "close_odds": 116
+    "close_odds": 265
    }
   ],
-  "logged": "2026-11-02 01:06 UTC",
+  "logged": "2026-11-02 01:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -63828,60 +63800,44 @@
   "type": "lottery",
   "label": "~500x",
   "n": 5,
-  "est_prob": 0.001354213645721946,
-  "fd_payout_x": 537.78,
+  "est_prob": 0.0013415096200274303,
+  "fd_payout_x": 500.68,
   "legs_detail": [
    {
-    "id": "401873035:12197196:742.194053679",
-    "event": "401873035",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 31.5,
-    "ou": "under",
-    "pick": "Under (31.5)",
-    "market": "Alternate Total Points",
-    "odds": 285,
-    "prob": 0.2465,
-    "raw_prob": 0.2465,
-    "game": "Philadelphia Eagles at Washington Commanders",
-    "result": null,
-    "close_odds": 285
-   },
-   {
-    "id": "401909906:58130173:742.195176918",
+    "id": "401909906:24728965:742.195176887",
     "event": "401909906",
     "sport": "nba",
     "kind": "prop",
-    "line": 3.5,
+    "line": 2.5,
     "ou": "over",
-    "player": "Ja'Kobe Walter",
+    "player": "RJ Barrett",
     "stat": "3PM",
-    "pick": "Ja'Kobe Walter",
-    "market": "4+ Threes",
-    "odds": 255,
-    "prob": 0.2683,
-    "raw_prob": 0.2683,
+    "pick": "RJ Barrett",
+    "market": "3+ Threes",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
     "game": "Toronto Raptors at Los Angeles Lakers",
     "result": null,
-    "close_odds": 255
+    "close_odds": 300
    },
    {
-    "id": "401909905:3498900:742.195180403",
+    "id": "401909905:64937517:742.195180451",
     "event": "401909905",
     "sport": "nba",
     "kind": "prop",
-    "line": 9.5,
+    "line": 5.5,
     "ou": "over",
-    "player": "Al Horford",
-    "stat": "POI",
-    "pick": "Al Horford",
-    "market": "10+ Points",
-    "odds": 285,
-    "prob": 0.2427,
-    "raw_prob": 0.2427,
+    "player": "Yaxel Lendeborg",
+    "stat": "ASS",
+    "pick": "Yaxel Lendeborg",
+    "market": "6+ Assists",
+    "odds": 255,
+    "prob": 0.2683,
+    "raw_prob": 0.2683,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": 285
+    "close_odds": 255
    },
    {
     "id": "761921:1222346:742.194615371",
@@ -63913,9 +63869,119 @@
     "game": "Fiorentina at Sassuolo",
     "result": null,
     "close_odds": 180
+   },
+   {
+    "id": "761933:1432923:742.194630535",
+    "event": "761933",
+    "sport": "usa.1",
+    "kind": "dnb",
+    "side": "away",
+    "pick": "Houston Dynamo",
+    "market": "Tie No Bet",
+    "odds": 245,
+    "prob": 0.2537,
+    "raw_prob": 0.2537,
+    "game": "Houston Dynamo FC at Portland Timbers",
+    "result": null,
+    "close_odds": 245
    }
   ],
-  "logged": "2026-11-02 01:06 UTC",
+  "logged": "2026-11-02 01:21 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-01-lottery-5-leg best-chance lottery",
+  "date": "2026-11-01",
+  "type": "lottery",
+  "label": "5-leg best-chance lottery",
+  "n": 5,
+  "est_prob": 0.4126824838989493,
+  "fd_payout_x": 1.86,
+  "legs_detail": [
+   {
+    "id": "401909906:7700492:742.195175351",
+    "event": "401909906",
+    "sport": "nba",
+    "kind": "total",
+    "line": 245.5,
+    "ou": "under",
+    "pick": "Under 245.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
+    "game": "Toronto Raptors at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909905:7747629:742.195176391",
+    "event": "401909905",
+    "sport": "nba",
+    "kind": "total",
+    "line": 241.5,
+    "ou": "under",
+    "pick": "Under 241.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
+    "game": "LA Clippers at Golden State Warriors",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "761921:1221386:742.194615385",
+    "event": "761921",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -800,
+    "prob": 0.8314,
+    "raw_prob": 0.8314,
+    "game": "Minnesota United FC at LAFC",
+    "result": null,
+    "close_odds": -800
+   },
+   {
+    "id": "401874963:1221386:742.194225983",
+    "event": "401874963",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -620,
+    "prob": 0.8053,
+    "raw_prob": 0.8053,
+    "game": "Fiorentina at Sassuolo",
+    "result": null,
+    "close_odds": -620
+   },
+   {
+    "id": "761933:1221386:742.194630517",
+    "event": "761933",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -590,
+    "prob": 0.7985,
+    "raw_prob": 0.7985,
+    "game": "Houston Dynamo FC at Portland Timbers",
+    "result": null,
+    "close_odds": -590
+   }
+  ],
+  "logged": "2026-11-02 01:21 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -63961,7 +64027,7 @@
     "raw_prob": 0.2683,
     "game": "Toronto Raptors at Los Angeles Lakers",
     "result": null,
-    "close_odds": 255
+    "close_odds": 260
    },
    {
     "id": "401909905:3498900:742.195180403",
@@ -63979,7 +64045,7 @@
     "raw_prob": 0.2427,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": 285
+    "close_odds": 280
    },
    {
     "id": "761921:1222346:742.194615371",
@@ -64030,7 +64096,7 @@
    }
   ],
   "logged": "2026-11-02 01:06 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -64073,7 +64139,7 @@
     "raw_prob": 0.8726,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401873035:12194317:742.194053679",
@@ -64141,7 +64207,7 @@
    }
   ],
   "logged": "2026-11-02 01:06 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -64184,7 +64250,7 @@
     "raw_prob": 0.8726,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401873035:12194317:742.194053679",
@@ -64329,7 +64395,7 @@
     "raw_prob": 0.2646,
     "game": "Toronto Raptors at Los Angeles Lakers",
     "result": null,
-    "close_odds": 255
+    "close_odds": 260
    },
    {
     "id": "401909905:3498900:742.195180403",
@@ -64347,7 +64413,7 @@
     "raw_prob": 0.2427,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": 285
+    "close_odds": 280
    },
    {
     "id": "761932:408103:742.194607280",
@@ -64456,7 +64522,7 @@
     "raw_prob": 0.8726,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401873035:16039725:742.194053625",
@@ -64668,7 +64734,7 @@
     "raw_prob": 0.2427,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": 285
+    "close_odds": 280
    },
    {
     "id": "761921:1222346:742.194615371",
@@ -64778,7 +64844,7 @@
     "raw_prob": 0.8726,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401873035:16039725:742.194053625",
@@ -65022,7 +65088,7 @@
     "raw_prob": 0.2427,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": 285
+    "close_odds": 280
    },
    {
     "id": "761921:1222346:742.194615371",
@@ -65149,7 +65215,7 @@
     "raw_prob": 0.8726,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401873033:12194321:742.194054454",
@@ -66161,7 +66227,7 @@
     "raw_prob": 0.8874,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401873034:12194321:742.194053891",
@@ -66478,7 +66544,7 @@
     "raw_prob": 0.8874,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401873034:12194321:742.194053891",
@@ -66827,7 +66893,7 @@
     "raw_prob": 0.8874,
     "game": "LA Clippers at Golden State Warriors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401873024:12215025:742.194054212",
