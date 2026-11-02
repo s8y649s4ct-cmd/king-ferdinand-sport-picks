@@ -58216,7 +58216,7 @@
    }
   ],
   "logged": "2026-11-02 01:26 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -59215,7 +59215,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    }
   ],
@@ -59819,7 +59819,7 @@
     "prob": 0.7826,
     "raw_prob": 0.7826,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "win",
     "close_odds": -650
    }
   ],
@@ -60836,7 +60836,7 @@
     "prob": 0.5507,
     "raw_prob": 0.5507,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "win",
     "close_odds": -235
    }
   ],
@@ -61442,7 +61442,7 @@
     "prob": 0.5507,
     "raw_prob": 0.5507,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "win",
     "close_odds": -235
    }
   ],
@@ -62114,7 +62114,7 @@
     "prob": 0.5507,
     "raw_prob": 0.5507,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "win",
     "close_odds": -235
    }
   ],
@@ -62843,7 +62843,7 @@
     "prob": 0.5507,
     "raw_prob": 0.5507,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "win",
     "close_odds": -235
    }
   ],
@@ -63637,7 +63637,7 @@
     "prob": 0.5507,
     "raw_prob": 0.5507,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "win",
     "close_odds": -235
    }
   ],
@@ -63652,8 +63652,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.025683600096,
-  "fd_payout_x": 33.26,
+  "est_prob": 0.032358484368,
+  "fd_payout_x": 25.4,
   "legs_detail": [
    {
     "id": "401909906:58130173:742.195176918",
@@ -63674,24 +63674,6 @@
     "close_odds": 260
    },
    {
-    "id": "401909905:20044403:742.195180479",
-    "event": "401909905",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 2.5,
-    "ou": "over",
-    "player": "De'Anthony Melton",
-    "stat": "3PM",
-    "pick": "De'Anthony Melton",
-    "market": "3+ Threes",
-    "odds": 230,
-    "prob": 0.2882,
-    "raw_prob": 0.2882,
-    "game": "LA Clippers at Golden State Warriors",
-    "result": null,
-    "close_odds": 230
-   },
-   {
     "id": "401874963:2013140:742.194226151",
     "event": "401874963",
     "sport": "ita.1",
@@ -63705,9 +63687,88 @@
     "game": "Fiorentina at Sassuolo",
     "result": null,
     "close_odds": 180
+   },
+   {
+    "id": "761933:1222345:742.194630505",
+    "event": "761933",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "over",
+    "pick": "Over 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": 152,
+    "prob": 0.3631,
+    "raw_prob": 0.3631,
+    "game": "Houston Dynamo FC at Portland Timbers",
+    "result": null,
+    "close_odds": 152
    }
   ],
-  "logged": "2026-11-02 01:26 UTC",
+  "logged": "2026-11-02 01:37 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-01-lottery-3-leg best-chance lottery",
+  "date": "2026-11-01",
+  "type": "lottery",
+  "label": "3-leg best-chance lottery",
+  "n": 3,
+  "est_prob": 0.5675400873299999,
+  "fd_payout_x": 1.5,
+  "legs_detail": [
+   {
+    "id": "401909906:7700492:742.195175351",
+    "event": "401909906",
+    "sport": "nba",
+    "kind": "total",
+    "line": 245.5,
+    "ou": "under",
+    "pick": "Under 245.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
+    "game": "Toronto Raptors at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401874963:1221386:742.194225983",
+    "event": "401874963",
+    "sport": "ita.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -620,
+    "prob": 0.8053,
+    "raw_prob": 0.8053,
+    "game": "Fiorentina at Sassuolo",
+    "result": null,
+    "close_odds": -620
+   },
+   {
+    "id": "761933:1221386:742.194630517",
+    "event": "761933",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Over 1.5 Goals",
+    "market": "Over/Under 1.5 Goals",
+    "odds": -590,
+    "prob": 0.7985,
+    "raw_prob": 0.7985,
+    "game": "Houston Dynamo FC at Portland Timbers",
+    "result": null,
+    "close_odds": -590
+   }
+  ],
+  "logged": "2026-11-02 01:37 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -63790,7 +63851,7 @@
    }
   ],
   "logged": "2026-11-02 01:26 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -63887,7 +63948,7 @@
    }
   ],
   "logged": "2026-11-02 01:26 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -63982,7 +64043,7 @@
    }
   ],
   "logged": "2026-11-02 01:26 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -64585,7 +64646,7 @@
     "prob": 0.7856,
     "raw_prob": 0.7856,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
@@ -64622,7 +64683,7 @@
   ],
   "logged": "2026-11-01 22:53 UTC",
   "locked": true,
-  "result": null,
+  "result": "loss",
   "favorite": false
  },
  {
@@ -64647,7 +64708,7 @@
     "prob": 0.2758,
     "raw_prob": 0.2758,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": 290
    },
    {
@@ -64907,7 +64968,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
@@ -64944,7 +65005,7 @@
   ],
   "logged": "2026-11-01 21:55 UTC",
   "locked": true,
-  "result": null,
+  "result": "loss",
   "favorite": false
  },
  {
@@ -64985,7 +65046,7 @@
     "prob": 0.2758,
     "raw_prob": 0.2758,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": 290
    },
    {
@@ -65325,7 +65386,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
@@ -65362,7 +65423,7 @@
   ],
   "logged": "2026-11-01 21:24 UTC",
   "locked": true,
-  "result": null,
+  "result": "loss",
   "favorite": false
  },
  {
@@ -65562,7 +65623,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
@@ -65599,7 +65660,7 @@
   ],
   "logged": "2026-11-01 21:01 UTC",
   "locked": true,
-  "result": null,
+  "result": "loss",
   "favorite": false
  },
  {
@@ -65815,7 +65876,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
@@ -66100,7 +66161,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
@@ -66433,7 +66494,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
@@ -66766,7 +66827,7 @@
     "prob": 0.788,
     "raw_prob": 0.788,
     "game": "Edmonton Oilers at New York Rangers",
-    "result": null,
+    "result": "loss",
     "close_odds": -340
    },
    {
