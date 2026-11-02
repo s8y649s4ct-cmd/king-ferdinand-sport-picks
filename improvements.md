@@ -209,3 +209,12 @@ Research (~3:00 PM ET): ESPN NBA report has Stephen Curry (rest) and Draymond Gr
 Changes (backups /workspace/kfsp_backups/2026-11-01-pm/):
 - legs.json news_adj (today only, -2.5 pts on side/ML legs): Golden State (Curry and Green out, form edge stale) and Ottawa (backup goalie on a back-to-back). Players list: Curry, Green. Same size as the existing rule. Effect: Warriors +6.5/+9.5/+13.5 left the Best Parlay and every lottery (replaced by game Unders and other legs); Ottawa legs drop ~2.5 pts and stay only on the long-shot lotteries.
 v1 stays live; v2 switch_ready already reported, not re-proposed. Locked tickets untouched.
+
+## 2026-11-02 (daily review #7, ~3:00 AM ET)
+Record (all graded tickets): 54 won, 289 lost. Ladder 50-160 (11-01: 8 of 25 vs 5.39 expected; 10-31: 5 of 25 vs 6.24). Best Parlay 1-7. Lottery 3-122 (11-01: 0 of 18 vs 2.07 expected). Green favorites 18-20. 2-leg board: no ticket has qualified yet. Main legs 1,101 graded: 75.1% hit vs 76.2% predicted (Brier .146).
+Calibration: the main 90-95% bucket is 44 of 57 (77%) but all 13 misses came on 10-25/10-26, before the calibration boost was dropped; 44 of 44 since. NBA main legs 77.4% vs 82.6% est (368), NHL 63.0% vs 66.6% (192), CFB 86.3% vs 83.2% (205). Props tab 74.1% vs 77.2% (2,246 legs), overconfident every single day (8 of 8), worst in the 85% bucket (78.4% vs 87.1%). NBA 3s & rebounds 70.9% vs 73.9% (740). TD scorers 43.5% vs 40.8% (131). Live 61.9% vs 62.7%, model no better than FanDuel no-vig.
+Root cause found: on props, legs where our estimate was 3-10 pts above FanDuel's no-vig chance hit only 72% (est 79%), while legs at or below FanDuel hit 78%. The model's edge over the market is not predictive (same finding as the main board on 10-30).
+Change (backup /workspace/kfsp_backups/2026-11-02/): extra.py caps each player-prop estimate at FanDuel's no-vig chance. Backtest on graded props: Brier .1891 -> .1875; best 20 legs per day (one per player) 79.4% -> 81.2% (better on 4 days, equal 2, worse 2); best 40 per day 77.2% -> 81.6%. Same cap tested on the NBA 3s & rebounds tab (already capped at FD +3): no gain in top picks, not adopted.
+2-leg board backtest now 13 of 19 (68%) vs 88.8% average joint estimate, so the 92% bar is not loosened (loosening would add weaker tickets).
+Shadow (2,963 graded legs): v2 Brier .1538 vs v1 .1550; top pick per game v2 86.5% vs v1 85.1% (289 games). v2 now leads on both, but v1 stays live (live_model/allow_switch untouched); recommended to the user only.
+Published 49bce9a.
