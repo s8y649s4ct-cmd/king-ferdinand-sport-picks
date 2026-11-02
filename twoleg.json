@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 00:30 UTC",
+ "updated": "2026-11-02 00:40 UTC",
  "date": "2026-11-01",
  "bar": {
   "leg": 0.92,
@@ -13,7 +13,7 @@
    "game": "Philadelphia Eagles at Washington Commanders",
    "sport": "nfl",
    "start": "2026-11-02T01:20Z",
-   "calibrated": 0.903
+   "calibrated": 0.915
   },
   {
    "pick": "Over 1.5 Goals",
@@ -58,41 +58,41 @@
   "win_pct": null
  },
  "backtest": {
-  "tickets": 16,
-  "won": 12,
-  "win_pct": 0.75,
-  "avg_joint": 0.891,
+  "tickets": 19,
+  "won": 13,
+  "win_pct": 0.684,
+  "avg_joint": 0.886,
   "days": 8,
   "grid": [
    {
     "leg_bar": 0.8,
-    "tickets": 17,
+    "tickets": 19,
     "won": 13,
-    "win_pct": 0.765
+    "win_pct": 0.684
    },
    {
     "leg_bar": 0.86,
-    "tickets": 17,
+    "tickets": 19,
     "won": 13,
-    "win_pct": 0.765
+    "win_pct": 0.684
    },
    {
     "leg_bar": 0.88,
-    "tickets": 17,
+    "tickets": 19,
     "won": 13,
-    "win_pct": 0.765
+    "win_pct": 0.684
    },
    {
     "leg_bar": 0.9,
-    "tickets": 17,
+    "tickets": 19,
     "won": 13,
-    "win_pct": 0.765
+    "win_pct": 0.684
    },
    {
     "leg_bar": 0.92,
-    "tickets": 16,
-    "won": 12,
-    "win_pct": 0.75
+    "tickets": 19,
+    "won": 13,
+    "win_pct": 0.684
    }
   ],
   "tickets_detail": [
@@ -175,6 +175,21 @@
     "date": "2026-10-31",
     "joint": 0.87,
     "won": true
+   },
+   {
+    "date": "2026-10-31",
+    "joint": 0.866,
+    "won": true
+   },
+   {
+    "date": "2026-10-31",
+    "joint": 0.857,
+    "won": false
+   },
+   {
+    "date": "2026-10-31",
+    "joint": 0.852,
+    "won": false
    }
   ]
  },
