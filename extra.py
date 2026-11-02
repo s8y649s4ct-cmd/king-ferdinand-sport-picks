@@ -326,6 +326,10 @@ for g,L in raw:
   # made threes 75.0% vs 79.5% (108). Points/assists/shots are calibrated. Haircut (about 2/3 of the gap) so they rank honestly.
   hc=(0.08 if L['ou']=='over' else 0.10) if L['stat']=='totalRebounds' else 0.03 if L['stat'].startswith('threePoint') else 0.0
   if hc: p-=hc; L['haircut']=hc; R.append(f"{L['stat'][:5]=='total' and 'rebounds' or 'threes'} calibration haircut -{hc*100:.0f} pts (these props hit below estimate so far)")
+  # 2026-11-02 review: across 2,246 graded props, legs where our estimate beat FanDuel's no-vig chance by 3-10 pts hit only 72% (est 79%),
+  # while legs at or below FanDuel hit 78%. The edge over the market is not predictive, so cap the estimate at FanDuel no-vig
+  # (backtest: Brier .1891 -> .1875; best-20 per day 79.4% -> 81.2%, best-40 77.2% -> 81.6%).
+  if p>L['fd_prob']: R.append(f"capped at FanDuel no-vig {L['fd_prob']*100:.1f}% (model {p*100:.1f}%; edge over the market has not been predictive)"); p=L['fd_prob']
   L.update({'prob':round(max(.01,min(.97,p)),4),'emp_prob':round(pemp,4),'n_games':len(rc),'injury':inj or 'none listed','why':'; '.join(R),'asof':NOW,'team':g['teams'][side]['name']})
   props.append(L)
 pcov['players_matched']=len({L['player'] for L in props}); pcov['props_scored']=len(props); pcov['excluded_injury']=sorted(excl_inj); pcov['unmatched_players']=len(nomatch)
