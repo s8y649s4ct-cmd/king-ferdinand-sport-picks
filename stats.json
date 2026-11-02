@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-02 02:13 UTC",
- "graded_legs": 1054,
+ "updated": "2026-11-02 02:31 UTC",
+ "graded_legs": 1058,
  "calibration": {
   "85-90%": {
-   "n": 419,
-   "wins": 368,
+   "n": 420,
+   "wins": 369,
    "pred": 0.873,
-   "hit": 0.878
+   "hit": 0.879
   },
   "75-80%": {
    "n": 95,
@@ -39,10 +39,10 @@
    "hit": 0.945
   },
   "70-75%": {
-   "n": 25,
-   "wins": 21,
-   "pred": 0.726,
-   "hit": 0.84
+   "n": 26,
+   "wins": 22,
+   "pred": 0.727,
+   "hit": 0.846
   },
   "40-45%": {
    "n": 25,
@@ -57,10 +57,10 @@
    "hit": 0.5
   },
   "25-30%": {
-   "n": 46,
+   "n": 47,
    "wins": 9,
    "pred": 0.275,
-   "hit": 0.196
+   "hit": 0.191
   },
   "60-65%": {
    "n": 13,
@@ -69,10 +69,10 @@
    "hit": 0.385
   },
   "30-35%": {
-   "n": 23,
+   "n": 24,
    "wins": 12,
    "pred": 0.324,
-   "hit": 0.522
+   "hit": 0.5
   },
   "20-25%": {
    "n": 25,
@@ -101,10 +101,10 @@
  },
  "by_sport": {
   "usa.1": {
-   "n": 73,
-   "wins": 55,
-   "pred": 0.693,
-   "hit": 0.753
+   "n": 77,
+   "wins": 57,
+   "pred": 0.686,
+   "hit": 0.74
   },
   "college-football": {
    "n": 205,
@@ -169,10 +169,10 @@
  },
  "by_market": {
   "total": {
-   "n": 480,
-   "wins": 397,
-   "pred": 0.824,
-   "hit": 0.827
+   "n": 482,
+   "wins": 398,
+   "pred": 0.823,
+   "hit": 0.826
   },
   "spread": {
    "n": 440,
@@ -181,10 +181,10 @@
    "hit": 0.732
   },
   "dc": {
-   "n": 42,
-   "wins": 33,
-   "pred": 0.791,
-   "hit": 0.786
+   "n": 43,
+   "wins": 34,
+   "pred": 0.79,
+   "hit": 0.791
   },
   "ml": {
    "n": 19,
@@ -199,10 +199,10 @@
    "hit": 0.6
   },
   "ml3": {
-   "n": 41,
+   "n": 42,
    "wins": 21,
-   "pred": 0.526,
-   "hit": 0.512
+   "pred": 0.521,
+   "hit": 0.5
   },
   "prop": {
    "n": 22,
@@ -212,10 +212,10 @@
   }
  },
  "parlays": {
-  "graded": 331,
+  "graded": 332,
   "won": 50,
   "expected": 62.64,
-  "pending": 14,
+  "pending": 13,
   "by_type": {
    "ladder": {
     "graded": 206,
@@ -228,7 +228,7 @@
     "expected": 1.44
    },
    "lottery": {
-    "graded": 118,
+    "graded": 119,
     "won": 3,
     "expected": 6.62
    }
@@ -239,7 +239,7 @@
   "legs_tracked": 1119,
   "avg_clv_pts": 0.08,
   "beat_close": 312,
-  "worse_than_close": 353
+  "worse_than_close": 354
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
