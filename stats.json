@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02 04:55 UTC",
- "graded_legs": 1097,
+ "updated": "2026-11-02 05:02 UTC",
+ "graded_legs": 1101,
  "calibration": {
   "85-90%": {
    "n": 436,
@@ -9,10 +9,10 @@
    "hit": 0.874
   },
   "75-80%": {
-   "n": 95,
-   "wins": 75,
+   "n": 96,
+   "wins": 76,
    "pred": 0.784,
-   "hit": 0.789
+   "hit": 0.792
   },
   "80-85%": {
    "n": 203,
@@ -39,10 +39,10 @@
    "hit": 0.945
   },
   "70-75%": {
-   "n": 28,
-   "wins": 23,
+   "n": 29,
+   "wins": 24,
    "pred": 0.727,
-   "hit": 0.821
+   "hit": 0.828
   },
   "40-45%": {
    "n": 25,
@@ -75,16 +75,16 @@
    "hit": 0.462
   },
   "20-25%": {
-   "n": 31,
+   "n": 32,
    "wins": 7,
-   "pred": 0.236,
-   "hit": 0.226
+   "pred": 0.237,
+   "hit": 0.219
   },
   "35-40%": {
-   "n": 30,
-   "wins": 7,
+   "n": 31,
+   "wins": 8,
    "pred": 0.38,
-   "hit": 0.233
+   "hit": 0.258
   },
   "55-60%": {
    "n": 12,
@@ -101,10 +101,10 @@
  },
  "by_sport": {
   "usa.1": {
-   "n": 80,
-   "wins": 58,
-   "pred": 0.682,
-   "hit": 0.725
+   "n": 84,
+   "wins": 61,
+   "pred": 0.675,
+   "hit": 0.726
   },
   "college-football": {
    "n": 205,
@@ -169,10 +169,10 @@
  },
  "by_market": {
   "total": {
-   "n": 500,
-   "wins": 408,
-   "pred": 0.82,
-   "hit": 0.816
+   "n": 502,
+   "wins": 410,
+   "pred": 0.819,
+   "hit": 0.817
   },
   "spread": {
    "n": 454,
@@ -193,10 +193,10 @@
    "hit": 0.789
   },
   "dnb": {
-   "n": 11,
-   "wins": 6,
-   "pred": 0.599,
-   "hit": 0.545
+   "n": 13,
+   "wins": 7,
+   "pred": 0.581,
+   "hit": 0.538
   },
   "ml3": {
    "n": 42,
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 341,
-  "won": 52,
-  "expected": 65.01,
-  "pending": 4,
+  "graded": 343,
+  "won": 54,
+  "expected": 65.27,
+  "pending": 2,
   "by_type": {
    "ladder": {
-    "graded": 208,
-    "won": 48,
-    "expected": 55.42
+    "graded": 210,
+    "won": 50,
+    "expected": 55.68
    },
    "best": {
     "graded": 8,
@@ -238,8 +238,8 @@
  "clv": {
   "legs_tracked": 1119,
   "avg_clv_pts": 0.08,
-  "beat_close": 312,
-  "worse_than_close": 354
+  "beat_close": 313,
+  "worse_than_close": 356
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
