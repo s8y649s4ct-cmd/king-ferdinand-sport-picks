@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02 19:24 UTC",
- "graded_legs": 1101,
+ "updated": "2026-11-02 19:33 UTC",
+ "graded_legs": 1104,
  "calibration": {
   "85-90%": {
    "n": 436,
@@ -9,10 +9,10 @@
    "hit": 0.874
   },
   "75-80%": {
-   "n": 96,
-   "wins": 76,
+   "n": 97,
+   "wins": 77,
    "pred": 0.784,
-   "hit": 0.792
+   "hit": 0.794
   },
   "80-85%": {
    "n": 203,
@@ -63,16 +63,16 @@
    "hit": 0.216
   },
   "60-65%": {
-   "n": 13,
-   "wins": 5,
-   "pred": 0.625,
-   "hit": 0.385
+   "n": 14,
+   "wins": 6,
+   "pred": 0.626,
+   "hit": 0.429
   },
   "30-35%": {
-   "n": 26,
+   "n": 27,
    "wins": 12,
-   "pred": 0.326,
-   "hit": 0.462
+   "pred": 0.327,
+   "hit": 0.444
   },
   "20-25%": {
    "n": 32,
@@ -149,9 +149,9 @@
    "hit": 0.696
   },
   "ita.1": {
-   "n": 66,
-   "wins": 43,
-   "pred": 0.641,
+   "n": 69,
+   "wins": 45,
+   "pred": 0.638,
    "hit": 0.652
   },
   "ger.1": {
@@ -169,8 +169,8 @@
  },
  "by_market": {
   "total": {
-   "n": 502,
-   "wins": 410,
+   "n": 503,
+   "wins": 411,
    "pred": 0.819,
    "hit": 0.817
   },
@@ -181,10 +181,10 @@
    "hit": 0.733
   },
   "dc": {
-   "n": 43,
-   "wins": 34,
-   "pred": 0.79,
-   "hit": 0.791
+   "n": 44,
+   "wins": 35,
+   "pred": 0.786,
+   "hit": 0.795
   },
   "ml": {
    "n": 19,
@@ -199,10 +199,10 @@
    "hit": 0.538
   },
   "ml3": {
-   "n": 42,
+   "n": 43,
    "wins": 21,
-   "pred": 0.521,
-   "hit": 0.5
+   "pred": 0.517,
+   "hit": 0.488
   },
   "prop": {
    "n": 28,
@@ -212,10 +212,10 @@
   }
  },
  "parlays": {
-  "graded": 343,
-  "won": 54,
-  "expected": 65.27,
-  "pending": 39,
+  "graded": 345,
+  "won": 55,
+  "expected": 65.65,
+  "pending": 37,
   "by_type": {
    "ladder": {
     "graded": 210,
@@ -228,18 +228,18 @@
     "expected": 1.61
    },
    "lottery": {
-    "graded": 125,
-    "won": 3,
-    "expected": 7.89
+    "graded": 127,
+    "won": 4,
+    "expected": 8.27
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1242,
+  "legs_tracked": 1244,
   "avg_clv_pts": 0.06,
   "beat_close": 322,
-  "worse_than_close": 368
+  "worse_than_close": 369
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
