@@ -283,7 +283,7 @@ for L in cands:
   if G[L['event']]['state']=='pre': byg.setdefault(L['event'],[]).append(L)
 for v in byg.values(): v.sort(key=lambda L:-L['prob'])
 NG=len(byg); NMAX=min(MAXLEGS,NG); CAP=max(1,math.ceil(sum(range(1,NMAX+1))/max(NG,1)))+1
-LEG_FLOOR=cfg.get('ladder_leg_floor_5plus',0.85)
+LEG_FLOOR=cfg.get('ladder_leg_floor_5plus',0.0)  # 0 = off; 0.85 tested 11-03 and rejected (payout 11.6x->3.5x)
 guse={}; luse={}; pars=[]
 for n in range(1,NMAX+1):
   opts=[]
