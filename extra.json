@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-03 03:42 UTC",
+ "updated": "2026-11-03 03:58 UTC",
  "live": {
   "legs": {
-   "401892632:8359775:742.195365750": {
-    "kind": "total",
-    "ou": "under",
-    "line": 5.5,
-    "id": "401892632:8359775:742.195365750",
+   "401892632:7745168:742.195365772": {
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "id": "401892632:7745168:742.195365772",
     "event": "401892632",
     "sport": "nhl",
     "game": "Calgary Flames at San Jose Sharks",
     "start": "2026-11-03T02:00Z",
-    "market": "Alternate Total Goals",
-    "pick": "Under 5.5",
-    "odds": -1000,
-    "fd_prob": 0.8576,
-    "fd_market_id": "742.195365750",
-    "fd_selection_id": 8359775,
+    "market": "Alternate Puck Line",
+    "pick": "San Jose Sharks +2.5",
+    "odds": -430,
+    "fd_prob": 0.7764,
+    "fd_market_id": "742.195365772",
+    "fd_selection_id": 7745168,
     "fd_event": 36260033,
-    "model_prob": 0.9227,
-    "prob": 0.8902,
+    "model_prob": 0.8856,
+    "prob": 0.831,
     "score": "CGY 1 - SJ 0",
-    "clock": "2:04 - 2nd",
-    "asof": "2026-11-03 03:42 UTC",
+    "clock": "End of 2nd",
+    "asof": "2026-11-03 03:58 UTC",
     "espn_wp": null,
-    "why": "CGY 1 - SJ 0, 2:04 - 2nd (37% of game left). Score+clock model 92.3%, FanDuel no-vig 85.8%.",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365750&selectionId%5B0%5D=8359775"
+    "why": "CGY 1 - SJ 0, End of 2nd (33% of game left). Score+clock model 88.6%, FanDuel no-vig 77.6%.",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365772&selectionId%5B0%5D=7745168"
    },
    "401909921:5368712:742.195046772": {
     "kind": "ml",
@@ -37,280 +37,232 @@
     "start": "2026-11-03T03:00Z",
     "market": "Moneyline",
     "pick": "Los Angeles Lakers",
-    "odds": -235,
-    "fd_prob": 0.6626,
+    "odds": -184,
+    "fd_prob": 0.6106,
     "fd_market_id": "742.195046772",
     "fd_selection_id": 5368712,
     "fd_event": 36262185,
-    "model_prob": 0.7706,
-    "prob": 0.7166,
-    "score": "MIA 30 - LAL 37",
-    "clock": "End of 1st",
-    "asof": "2026-11-03 03:42 UTC",
-    "espn_wp": 0.748,
-    "why": "MIA 30 - LAL 37, End of 1st (75% of game left). Score+clock model 77.1% (incl. ESPN live win prob 75%), FanDuel no-vig 66.3%.",
+    "model_prob": 0.655,
+    "prob": 0.6328,
+    "score": "MIA 45 - LAL 48",
+    "clock": "6:57 - 2nd",
+    "asof": "2026-11-03 03:58 UTC",
+    "espn_wp": 0.638,
+    "why": "MIA 45 - LAL 48, 6:57 - 2nd (64% of game left). Score+clock model 65.5% (incl. ESPN live win prob 64%), FanDuel no-vig 61.1%.",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195046772&selectionId%5B0%5D=5368712"
    },
-   "401873036:50194:742.192673356": {
-    "kind": "spread",
-    "side": "away",
-    "line": -2.5,
-    "id": "401873036:50194:742.192673356",
-    "event": "401873036",
-    "sport": "nfl",
-    "game": "Chicago Bears at Seattle Seahawks",
-    "start": "2026-11-03T01:15Z",
-    "market": "Spread",
-    "pick": "Chicago Bears -2.5",
-    "odds": -160,
-    "fd_prob": 0.5752,
-    "fd_market_id": "742.192673356",
-    "fd_selection_id": 50194,
-    "fd_event": 36215323,
-    "model_prob": 0.6378,
-    "prob": 0.6065,
-    "score": "CHI 20 - SEA 15",
-    "clock": "11:46 - 4th",
-    "asof": "2026-11-03 03:42 UTC",
-    "espn_wp": 0.3197,
-    "why": "CHI 20 - SEA 15, 11:46 - 4th (20% of game left). Score+clock model 63.8%, FanDuel no-vig 57.5%.",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.192673356&selectionId%5B0%5D=50194"
-   },
-   "401909918:237480:742.195046729": {
-    "kind": "spread",
-    "side": "away",
-    "line": 4.5,
-    "id": "401909918:237480:742.195046729",
+   "401909918:237492:742.195046730": {
+    "kind": "ml",
+    "side": "home",
+    "id": "401909918:237492:742.195046730",
     "event": "401909918",
     "sport": "nba",
     "game": "Portland Trail Blazers at Denver Nuggets",
     "start": "2026-11-03T02:00Z",
-    "market": "Spread",
-    "pick": "Portland Trail Blazers +4.5",
-    "odds": -136,
-    "fd_prob": 0.5379,
-    "fd_market_id": "742.195046729",
-    "fd_selection_id": 237480,
+    "market": "Moneyline",
+    "pick": "Denver Nuggets",
+    "odds": -170,
+    "fd_prob": 0.5936,
+    "fd_market_id": "742.195046730",
+    "fd_selection_id": 237492,
     "fd_event": 36262175,
-    "model_prob": 0.5915,
-    "prob": 0.5647,
-    "score": "POR 70 - DEN 72",
-    "clock": "6:33 - 3rd",
-    "asof": "2026-11-03 03:42 UTC",
-    "espn_wp": 0.65,
-    "why": "POR 70 - DEN 72, 6:33 - 3rd (39% of game left). Score+clock model 59.2%, FanDuel no-vig 53.8%.",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195046729&selectionId%5B0%5D=237480"
+    "model_prob": 0.6328,
+    "prob": 0.6132,
+    "score": "POR 87 - DEN 89",
+    "clock": "10:23 - 4th",
+    "asof": "2026-11-03 03:58 UTC",
+    "espn_wp": 0.597,
+    "why": "POR 87 - DEN 89, 10:23 - 4th (22% of game left). Score+clock model 63.3% (incl. ESPN live win prob 60%), FanDuel no-vig 59.4%.",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195046730&selectionId%5B0%5D=237492"
    },
    "401909917:237484:742.195046735": {
     "kind": "spread",
     "side": "away",
-    "line": 26.5,
+    "line": 16.5,
     "id": "401909917:237484:742.195046735",
     "event": "401909917",
     "sport": "nba",
     "game": "Utah Jazz at San Antonio Spurs",
     "start": "2026-11-03T01:30Z",
     "market": "Spread",
-    "pick": "Utah Jazz +26.5",
-    "odds": -152,
-    "fd_prob": 0.5635,
+    "pick": "Utah Jazz +16.5",
+    "odds": -128,
+    "fd_prob": 0.5241,
     "fd_market_id": "742.195046735",
     "fd_selection_id": 237484,
     "fd_event": 36262176,
-    "model_prob": 0.5131,
-    "prob": 0.5383,
-    "score": "UTAH 76 - SA 102",
-    "clock": "8:07 - 4th",
-    "asof": "2026-11-03 03:42 UTC",
+    "model_prob": 0.5593,
+    "prob": 0.5417,
+    "score": "UTAH 95 - SA 111",
+    "clock": "2:24 - 4th",
+    "asof": "2026-11-03 03:58 UTC",
     "espn_wp": 0.999,
-    "why": "UTAH 76 - SA 102, 8:07 - 4th (17% of game left). Score+clock model 51.3%, FanDuel no-vig 56.4%.",
+    "why": "UTAH 95 - SA 111, 2:24 - 4th (5% of game left). Score+clock model 55.9%, FanDuel no-vig 52.4%.",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195046735&selectionId%5B0%5D=237484"
    }
   },
-  "all_legs": 14,
+  "all_legs": 15,
   "parlays": [
    {
     "n": 1,
     "legs": [
-     "401892632:8359775:742.195365750"
+     "401892632:7745168:742.195365772"
     ],
-    "est_prob": 0.8902,
-    "fd_payout_x": 1.1,
-    "ev": -0.0208,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365750&selectionId%5B0%5D=8359775",
+    "est_prob": 0.831,
+    "fd_payout_x": 1.23,
+    "ev": 0.0243,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365772&selectionId%5B0%5D=7745168",
     "type": "live",
     "favorite": false
    },
    {
     "n": 2,
     "legs": [
-     "401892632:8359775:742.195365750",
+     "401892632:7745168:742.195365772",
      "401909921:5368712:742.195046772"
     ],
-    "est_prob": 0.6379,
-    "fd_payout_x": 1.57,
-    "ev": 0.0003,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365750&selectionId%5B0%5D=8359775&marketId%5B1%5D=742.195046772&selectionId%5B1%5D=5368712",
+    "est_prob": 0.5259,
+    "fd_payout_x": 1.9,
+    "ev": 0.0004,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365772&selectionId%5B0%5D=7745168&marketId%5B1%5D=742.195046772&selectionId%5B1%5D=5368712",
     "type": "live",
     "favorite": true
    },
    {
     "n": 3,
     "legs": [
-     "401892632:8359775:742.195365750",
+     "401892632:7745168:742.195365772",
      "401909921:5368712:742.195046772",
-     "401873036:50194:742.192673356"
+     "401909918:237492:742.195046730"
     ],
-    "est_prob": 0.3869,
-    "fd_payout_x": 2.55,
-    "ev": -0.0141,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365750&selectionId%5B0%5D=8359775&marketId%5B1%5D=742.195046772&selectionId%5B1%5D=5368712&marketId%5B2%5D=742.192673356&selectionId%5B2%5D=50194",
+    "est_prob": 0.3225,
+    "fd_payout_x": 3.02,
+    "ev": -0.0257,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365772&selectionId%5B0%5D=7745168&marketId%5B1%5D=742.195046772&selectionId%5B1%5D=5368712&marketId%5B2%5D=742.195046730&selectionId%5B2%5D=237492",
     "type": "live",
     "favorite": false
    },
    {
     "n": 4,
     "legs": [
-     "401892632:8359775:742.195365750",
+     "401892632:7745168:742.195365772",
      "401909921:5368712:742.195046772",
-     "401873036:50194:742.192673356",
-     "401909918:237480:742.195046729"
-    ],
-    "est_prob": 0.2185,
-    "fd_payout_x": 4.42,
-    "ev": -0.0339,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365750&selectionId%5B0%5D=8359775&marketId%5B1%5D=742.195046772&selectionId%5B1%5D=5368712&marketId%5B2%5D=742.192673356&selectionId%5B2%5D=50194&marketId%5B3%5D=742.195046729&selectionId%5B3%5D=237480",
-    "type": "live",
-    "favorite": false
-   },
-   {
-    "n": 5,
-    "legs": [
-     "401892632:8359775:742.195365750",
-     "401909921:5368712:742.195046772",
-     "401873036:50194:742.192673356",
-     "401909918:237480:742.195046729",
+     "401909918:237492:742.195046730",
      "401909917:237484:742.195046735"
     ],
-    "est_prob": 0.1176,
-    "fd_payout_x": 7.33,
-    "ev": -0.1378,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365750&selectionId%5B0%5D=8359775&marketId%5B1%5D=742.195046772&selectionId%5B1%5D=5368712&marketId%5B2%5D=742.192673356&selectionId%5B2%5D=50194&marketId%5B3%5D=742.195046729&selectionId%5B3%5D=237480&marketId%5B4%5D=742.195046735&selectionId%5B4%5D=237484",
+    "est_prob": 0.1747,
+    "fd_payout_x": 5.38,
+    "ev": -0.0599,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195365772&selectionId%5B0%5D=7745168&marketId%5B1%5D=742.195046772&selectionId%5B1%5D=5368712&marketId%5B2%5D=742.195046730&selectionId%5B2%5D=237492&marketId%5B3%5D=742.195046735&selectionId%5B3%5D=237484",
     "type": "live",
     "favorite": false
    }
   ],
   "coverage": {
-   "espn_live": 9,
-   "fd_inplay_matched": 12,
-   "espn_winprob": 10,
-   "legs_dropped_price_move": 51,
-   "games_with_leg": 5
+   "espn_live": 8,
+   "fd_inplay_matched": 10,
+   "espn_winprob": 9,
+   "legs_dropped_price_move": 44,
+   "games_with_leg": 4
   },
   "games": [
    {
     "name": "Chicago Bears at Seattle Seahawks",
     "sport": "nfl",
-    "detail": "11:46 - 4th",
-    "score": "Bears 20 - Seahawks 15"
+    "detail": "8:20 - 4th",
+    "score": "Bears 27 - Seahawks 17"
    },
    {
     "name": "Boston Celtics at Houston Rockets",
     "sport": "nba",
-    "detail": "7:56 - 4th",
-    "score": "Celtics 79 - Rockets 93"
+    "detail": "1:21 - 4th",
+    "score": "Celtics 89 - Rockets 107"
    },
    {
     "name": "Utah Jazz at San Antonio Spurs",
     "sport": "nba",
-    "detail": "8:07 - 4th",
-    "score": "Jazz 76 - Spurs 102"
+    "detail": "2:24 - 4th",
+    "score": "Jazz 95 - Spurs 111"
    },
    {
     "name": "Portland Trail Blazers at Denver Nuggets",
     "sport": "nba",
-    "detail": "6:33 - 3rd",
-    "score": "Trail Blazers 70 - Nuggets 72"
+    "detail": "10:23 - 4th",
+    "score": "Trail Blazers 87 - Nuggets 89"
    },
    {
     "name": "Phoenix Suns at Golden State Warriors",
     "sport": "nba",
-    "detail": "0.0 - 2nd",
-    "score": "Suns 34 - Warriors 19"
+    "detail": "4:12 - 2nd",
+    "score": "Suns 52 - Warriors 39"
    },
    {
     "name": "Toronto Raptors at LA Clippers",
     "sport": "nba",
-    "detail": "11:30 - 2nd",
-    "score": "Raptors 24 - Clippers 33"
+    "detail": "6:11 - 2nd",
+    "score": "Raptors 36 - Clippers 44"
    },
    {
     "name": "Miami Heat at Los Angeles Lakers",
     "sport": "nba",
-    "detail": "End of 1st",
-    "score": "Heat 30 - Lakers 37"
-   },
-   {
-    "name": "Colorado Avalanche at Chicago Blackhawks",
-    "sport": "nhl",
-    "detail": "3:50 - 3rd",
-    "score": "Avalanche 4 - Blackhawks 2"
+    "detail": "6:57 - 2nd",
+    "score": "Heat 45 - Lakers 48"
    },
    {
     "name": "Calgary Flames at San Jose Sharks",
     "sport": "nhl",
-    "detail": "2:04 - 2nd",
+    "detail": "End of 2nd",
     "score": "Flames 1 - Sharks 0"
    }
   ],
   "rule": "One leg per live game: the highest-chance FanDuel PA in-play selection priced -1000 to +200. Chance = 50% FanDuel live no-vig price + 50% our score/clock model (pregame spread/total from ESPN, ESPN live win probability for NFL/NBA/college, Poisson goals for NHL/soccer). Legs are dropped if the price moved more than 8 pts since the last refresh or if our model and FanDuel disagree by more than 12 pts (usually news we can't see: red card, injury, stale clock).",
   "stats": {
-   "graded_legs": 6361,
-   "won": 3933,
-   "hit": 0.6183,
+   "graded_legs": 6377,
+   "won": 3944,
+   "hit": 0.6185,
    "expected": 0.626,
-   "tickets_graded": 2558,
-   "tickets_won": 1154,
+   "tickets_graded": 2565,
+   "tickets_won": 1161,
    "buckets": {
     "20-30%": {
-     "n": 162,
-     "hit": 0.463,
-     "pred": 0.2812
+     "n": 164,
+     "hit": 0.4573,
+     "pred": 0.2813
     },
     "30-40%": {
-     "n": 871,
-     "hit": 0.3812,
+     "n": 872,
+     "hit": 0.3807,
      "pred": 0.3563
     },
     "40-50%": {
-     "n": 932,
-     "hit": 0.4571,
-     "pred": 0.4485
+     "n": 934,
+     "hit": 0.4561,
+     "pred": 0.4484
     },
     "50-60%": {
-     "n": 853,
-     "hit": 0.5404,
+     "n": 854,
+     "hit": 0.541,
      "pred": 0.5483
     },
     "60-70%": {
-     "n": 769,
-     "hit": 0.6528,
-     "pred": 0.6495
+     "n": 771,
+     "hit": 0.6537,
+     "pred": 0.6494
     },
     "70-80%": {
-     "n": 1221,
-     "hit": 0.7183,
+     "n": 1226,
+     "hit": 0.7194,
      "pred": 0.7544
     },
     "80-90%": {
-     "n": 1433,
-     "hit": 0.8109,
+     "n": 1435,
+     "hit": 0.8111,
      "pred": 0.8452
     },
     "90-100%": {
-     "n": 120,
-     "hit": 0.8167,
-     "pred": 0.9077
+     "n": 121,
+     "hit": 0.8182,
+     "pred": 0.9078
     }
    }
   }
@@ -339,7 +291,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 15/16 games hit (avg 4.2); last 10 9/10; last season's final 20: 17/20; Flyers allow 3.4 goals/g vs 3.2 avg of today's teams (+2.8 pts); capped at FanDuel no-vig 84.6% (model 89.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Minnesota Wild",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476629&selectionId%5B0%5D=40934206"
    },
@@ -365,7 +317,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 15/16 games hit (avg 2.1); last 10 9/10; last season's final 20: 17/20; Penguins allow 3.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 84.6% (model 90.1%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483004&selectionId%5B0%5D=21845356"
    },
@@ -391,7 +343,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 14/16 games hit (avg 2.1); last 10 9/10; last season's final 20: 18/20; Predators allow 3.4 goals/g vs 3.2 avg of today's teams (+2.6 pts); teammates out: Alexander Nikishin; capped at FanDuel no-vig 84.1% (model 88.4%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Carolina Hurricanes",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471992&selectionId%5B0%5D=27580243"
    },
@@ -417,7 +369,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 12/16 games hit (avg 1.7); last 10 8/10; Penguins allow 3.5 goals/g vs 3.2 avg of today's teams (+3.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483004&selectionId%5B0%5D=70919366"
    },
@@ -443,7 +395,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 15/16 games hit (avg 3.3); last 10 10/10; last season's final 20: 16/20; Flyers allow 3.4 goals/g vs 3.2 avg of today's teams (+2.8 pts); capped at FanDuel no-vig 83.8% (model 88.8%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Minnesota Wild",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476629&selectionId%5B0%5D=18568084"
    },
@@ -469,7 +421,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 13/15 games hit (avg 2.0); last 10 9/10; last season's final 20: 17/20; Penguins allow 3.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 83.8% (model 87.7%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483004&selectionId%5B0%5D=12449403"
    },
@@ -495,7 +447,7 @@
     "n_games": 11,
     "injury": "none listed",
     "why": "This season 11/11 games hit (avg 2.5); last 10 10/10; last season's final 20: 15/20; Golden Knights allow 2.9 goals/g vs 3.2 avg of today's teams (-2.8 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Pittsburgh Penguins",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483004&selectionId%5B0%5D=89598799"
    },
@@ -521,7 +473,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 12/14 games hit (avg 1.8); last 10 9/10; last season's final 20: 13/20; Jets allow 3.6 goals/g vs 3.2 avg of today's teams (+3.0 pts); teammates out: Nick Suzuki, Mike Matheson; capped at FanDuel no-vig 83.1% (model 84.1%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Montreal Canadiens",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465253&selectionId%5B0%5D=56172934"
    },
@@ -547,7 +499,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 11/13 games hit (avg 2.8); last 10 9/10; last season's final 20: 18/20; Red Wings allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Zemgus Girgensons; capped at FanDuel no-vig 83.1% (model 83.4%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Tampa Bay Lightning",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195467787&selectionId%5B0%5D=12496322"
    },
@@ -573,7 +525,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 15/15 games hit (avg 2.2); last 10 10/10; last season's final 20: 19/20; Wild allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts); capped at FanDuel no-vig 83.1% (model 86.1%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Philadelphia Flyers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476625&selectionId%5B0%5D=53480967"
    },
@@ -599,7 +551,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 12/14 games hit (avg 3.1); last 10 9/10; last season's final 20: 17/20; Capitals allow 3.2 goals/g vs 3.2 avg of today's teams (+1.0 pts); capped at FanDuel no-vig 83.1% (model 85.0%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Dallas Stars",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486698&selectionId%5B0%5D=38764242"
    },
@@ -625,7 +577,7 @@
     "n_games": 6,
     "injury": "none listed",
     "why": "This season 6/6 games hit (avg 1.5); last 10 8/10; last season's final 20: 17/20; Wild allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts); capped at FanDuel no-vig 82.8% (model 82.8%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Philadelphia Flyers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476625&selectionId%5B0%5D=12449440"
    },
@@ -651,7 +603,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 11/13 games hit (avg 2.2); last 10 9/10; last season's final 20: 19/20; Stars allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Washington Capitals",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486694&selectionId%5B0%5D=12496318"
    },
@@ -677,7 +629,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 14/16 games hit (avg 1.8); last 10 9/10; last season's final 20: 19/20; Predators allow 3.4 goals/g vs 3.2 avg of today's teams (+2.6 pts); teammates out: Alexander Nikishin; capped at FanDuel no-vig 82.8% (model 88.3%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Carolina Hurricanes",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471992&selectionId%5B0%5D=12449423"
    },
@@ -703,7 +655,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 1.8); last 10 10/10; last season's final 20: 16/20; Canucks allow 4.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 82.8% (model 87.7%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Anaheim Ducks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486443&selectionId%5B0%5D=11133520"
    },
@@ -729,7 +681,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 13/15 games hit (avg 2.2); last 10 9/10; last season's final 20: 17/20; Canadiens allow 3.0 goals/g vs 3.2 avg of today's teams (-2.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465253&selectionId%5B0%5D=12449347"
    },
@@ -755,7 +707,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 13/15 games hit (avg 1.9); last 10 9/10; last season's final 20: 18/20; Lightning allow 3.3 goals/g vs 3.2 avg of today's teams (+1.9 pts); teammates out: Albert Johansson; capped at FanDuel no-vig 82.5% (model 86.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Detroit Red Wings",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195467787&selectionId%5B0%5D=37515916"
    },
@@ -781,7 +733,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 12/13 games hit (avg 4.5); last 10 9/10; last season's final 20: 17/20; Red Wings allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Zemgus Girgensons; capped at FanDuel no-vig 82.5% (model 84.2%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Tampa Bay Lightning",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195467784&selectionId%5B0%5D=38522077"
    },
@@ -807,7 +759,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 14/15 games hit (avg 2.0); last 10 10/10; last season's final 20: 16/20; Blues allow 3.0 goals/g vs 3.2 avg of today's teams (-2.0 pts); capped at FanDuel no-vig 82.5% (model 83.0%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "New York Rangers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480015&selectionId%5B0%5D=57131970"
    },
@@ -833,7 +785,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 14/16 games hit (avg 1.5); last 10 8/10; last season's final 20: 16/20; Ducks allow 3.8 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 82.5% (model 86.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vancouver Canucks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486443&selectionId%5B0%5D=76966181"
    },
@@ -859,7 +811,7 @@
     "n_games": 10,
     "injury": "none listed",
     "why": "This season 8/10 games hit (avg 1.6); last 10 8/10; last season's final 20: 20/20; Golden Knights allow 2.9 goals/g vs 3.2 avg of today's teams (-2.8 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Pittsburgh Penguins",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483004&selectionId%5B0%5D=93774853"
    },
@@ -885,7 +837,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 1.9); last 10 7/10; last season's final 20: 15/20; Capitals allow 3.2 goals/g vs 3.2 avg of today's teams (+1.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Dallas Stars",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486694&selectionId%5B0%5D=20852689"
    },
@@ -911,7 +863,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 3.1); last 10 8/10; last season's final 20: 18/20; Jets allow 3.6 goals/g vs 3.2 avg of today's teams (+3.0 pts); teammates out: Nick Suzuki, Mike Matheson; capped at FanDuel no-vig 81.3% (model 84.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Montreal Canadiens",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465241&selectionId%5B0%5D=24660529"
    },
@@ -937,7 +889,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 15/15 games hit (avg 4.0); last 10 10/10; last season's final 20: 17/20; Canadiens allow 3.0 goals/g vs 3.2 avg of today's teams (-2.0 pts); capped at FanDuel no-vig 81.2% (model 84.6%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465241&selectionId%5B0%5D=15710822"
    },
@@ -963,7 +915,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 10/12 games hit (avg 1.6); last 10 8/10; last season's final 20: 15/20; Avalanche allow 3.1 goals/g vs 3.2 avg of today's teams (-0.2 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Columbus Blue Jackets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195488847&selectionId%5B0%5D=48699556"
    },
@@ -989,35 +941,9 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 13/16 games hit (avg 1.2); last 10 7/10; last season's final 20: 19/20; Ducks allow 3.8 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 80.5% (model 85.6%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vancouver Canucks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486443&selectionId%5B0%5D=26396017"
-   },
-   "401892637:12496361:742.195480015": {
-    "id": "401892637:12496361:742.195480015",
-    "event": "401892637",
-    "sport": "nhl",
-    "game": "St. Louis Blues at New York Rangers",
-    "start": "2026-11-04T00:00Z",
-    "market": "1+ Shots on Goal",
-    "player": "J.T. Miller",
-    "stat": "shotsTotal",
-    "stat_label": "shots on goal",
-    "line": 0.5,
-    "ou": "over",
-    "pick": "J.T. Miller 1+ shots on goal",
-    "odds": -660,
-    "fd_prob": 0.8116,
-    "fd_market_id": "742.195480015",
-    "fd_selection_id": 12496361,
-    "prob": 0.8046,
-    "emp_prob": 0.8369,
-    "n_games": 15,
-    "injury": "none listed",
-    "why": "This season 13/15 games hit (avg 1.6); last 10 8/10; last season's final 20: 16/20; Blues allow 3.0 goals/g vs 3.2 avg of today's teams (-2.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
-    "team": "New York Rangers",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480015&selectionId%5B0%5D=12496361"
    },
    "401892643:9552865:742.195486443": {
     "id": "401892643:9552865:742.195486443",
@@ -1041,9 +967,35 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 10/14 games hit (avg 1.4); last 10 7/10; last season's final 20: 14/20; Canucks allow 4.5 goals/g vs 3.2 avg of today's teams (+3.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Anaheim Ducks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486443&selectionId%5B0%5D=9552865"
+   },
+   "401892637:12496361:742.195480015": {
+    "id": "401892637:12496361:742.195480015",
+    "event": "401892637",
+    "sport": "nhl",
+    "game": "St. Louis Blues at New York Rangers",
+    "start": "2026-11-04T00:00Z",
+    "market": "1+ Shots on Goal",
+    "player": "J.T. Miller",
+    "stat": "shotsTotal",
+    "stat_label": "shots on goal",
+    "line": 0.5,
+    "ou": "over",
+    "pick": "J.T. Miller 1+ shots on goal",
+    "odds": -620,
+    "fd_prob": 0.8048,
+    "fd_market_id": "742.195480015",
+    "fd_selection_id": 12496361,
+    "prob": 0.8005,
+    "emp_prob": 0.8355,
+    "n_games": 15,
+    "injury": "none listed",
+    "why": "This season 13/15 games hit (avg 1.6); last 10 8/10; last season's final 20: 16/20; Blues allow 3.0 goals/g vs 3.2 avg of today's teams (-2.0 pts)",
+    "asof": "2026-11-03 03:58 UTC",
+    "team": "New York Rangers",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480015&selectionId%5B0%5D=12496361"
    },
    "401892641:12452410:742.195488847": {
     "id": "401892641:12452410:742.195488847",
@@ -1067,7 +1019,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 10/12 games hit (avg 1.8); last 10 9/10; last season's final 20: 13/20; Avalanche allow 3.1 goals/g vs 3.2 avg of today's teams (-0.2 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Columbus Blue Jackets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195488847&selectionId%5B0%5D=12452410"
    },
@@ -1093,7 +1045,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 14/15 games hit (avg 3.7); last 10 10/10; last season's final 20: 16/20; Lightning allow 3.3 goals/g vs 3.2 avg of today's teams (+1.9 pts); teammates out: Albert Johansson; capped at FanDuel no-vig 78.4% (model 84.4%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Detroit Red Wings",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195467784&selectionId%5B0%5D=25990450"
    },
@@ -1119,7 +1071,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 12/15 games hit (avg 2.9); last 10 8/10; last season's final 20: 19/20; Blues allow 3.0 goals/g vs 3.2 avg of today's teams (-2.0 pts); capped at FanDuel no-vig 78.4% (model 79.1%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "New York Rangers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480003&selectionId%5B0%5D=41294840"
    },
@@ -1145,7 +1097,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 1.4); last 10 7/10; last season's final 20: 16/20; Red Wings allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Zemgus Girgensons",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Tampa Bay Lightning",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195468720&selectionId%5B0%5D=9552867"
    },
@@ -1171,7 +1123,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 14/16 games hit (avg 1.8); last 10 9/10; last season's final 20: 16/20; Wild allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts); capped at FanDuel no-vig 77.3% (model 77.4%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Philadelphia Flyers",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476625&selectionId%5B0%5D=23010442"
    },
@@ -1197,7 +1149,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 15/16 games hit (avg 3.4); last 10 10/10; last season's final 20: 12/20; Flyers allow 3.4 goals/g vs 3.2 avg of today's teams (+2.8 pts); capped at FanDuel no-vig 76.1% (model 81.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Minnesota Wild",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476629&selectionId%5B0%5D=26341087"
    },
@@ -1223,7 +1175,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 10/13 games hit (avg 2.9); last 10 7/10; last season's final 20: 15/20; Red Wings allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Zemgus Girgensons",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Tampa Bay Lightning",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195467784&selectionId%5B0%5D=12857544"
    },
@@ -1249,7 +1201,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 11/16 games hit (avg 2.4); last 10 5/10; last season's final 20: 20/20; Penguins allow 3.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 75.3% (model 79.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483000&selectionId%5B0%5D=12496383"
    },
@@ -1275,7 +1227,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 10/14 games hit (avg 2.4); last 10 7/10; last season's final 20: 14/20; Jets allow 3.6 goals/g vs 3.2 avg of today's teams (+3.0 pts); teammates out: Nick Suzuki, Mike Matheson; capped at FanDuel no-vig 74.2% (model 75.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Montreal Canadiens",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465241&selectionId%5B0%5D=44992503"
    },
@@ -1301,7 +1253,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 9/13 games hit (avg 4.1); last 10 6/10; last season's final 20: 12/20; Canucks allow 4.5 goals/g vs 3.2 avg of today's teams (+3.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Anaheim Ducks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486437&selectionId%5B0%5D=44992509"
    },
@@ -1327,7 +1279,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 11/12 games hit (avg 3.0); last 10 10/10; last season's final 20: 12/20; Avalanche allow 3.1 goals/g vs 3.2 avg of today's teams (-0.2 pts); capped at FanDuel no-vig 73.6% (model 75.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Columbus Blue Jackets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195488856&selectionId%5B0%5D=51950503"
    },
@@ -1353,7 +1305,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 12/14 games hit (avg 2.5); last 10 8/10; last season's final 20: 14/20; Golden Knights allow 2.9 goals/g vs 3.2 avg of today's teams (-2.8 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Pittsburgh Penguins",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483000&selectionId%5B0%5D=12449303"
    },
@@ -1379,7 +1331,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 9/12 games hit (avg 2.7); last 10 7/10; last season's final 20: 15/20; Capitals allow 3.2 goals/g vs 3.2 avg of today's teams (+1.0 pts); capped at FanDuel no-vig 72.0% (model 74.1%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Dallas Stars",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486698&selectionId%5B0%5D=48699547"
    },
@@ -1401,11 +1353,11 @@
     "fd_market_id": "742.195488856",
     "fd_selection_id": 25990567,
     "prob": 0.7197,
-    "emp_prob": 0.834,
-    "n_games": 13,
+    "emp_prob": 0.8399,
+    "n_games": 14,
     "injury": "none listed",
-    "why": "This season 11/13 games hit (avg 2.8); last 10 9/10; last season's final 20: 18/20; Blue Jackets allow 3.2 goals/g vs 3.2 avg of today's teams (+1.2 pts); teammates out: Josh Manson; capped at FanDuel no-vig 72.0% (model 78.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "why": "This season 12/14 games hit (avg 2.8); last 10 9/10; last season's final 20: 18/20; Blue Jackets allow 3.2 goals/g vs 3.2 avg of today's teams (+1.2 pts); teammates out: Josh Manson; capped at FanDuel no-vig 72.0% (model 79.2%; edge over the market has not been predictive)",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Colorado Avalanche",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195488856&selectionId%5B0%5D=25990567"
    },
@@ -1431,7 +1383,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 9/14 games hit (avg 2.4); last 10 7/10; last season's final 20: 16/20; Canucks allow 4.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 71.7% (model 74.0%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Anaheim Ducks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486442&selectionId%5B0%5D=70260728"
    },
@@ -1457,7 +1409,7 @@
     "n_games": 5,
     "injury": "none listed",
     "why": "This season 4/5 games hit (avg 2.4); last 10 9/10; last season's final 20: 18/20; Predators allow 3.4 goals/g vs 3.2 avg of today's teams (+2.6 pts); teammates out: Alexander Nikishin; capped at FanDuel no-vig 71.2% (model 78.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Carolina Hurricanes",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471985&selectionId%5B0%5D=41327982"
    },
@@ -1483,7 +1435,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 9/14 games hit (avg 2.2); last 10 6/10; last season's final 20: 14/20; Ducks allow 3.8 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 71.2% (model 72.3%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vancouver Canucks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486442&selectionId%5B0%5D=21175008"
    },
@@ -1505,11 +1457,11 @@
     "fd_market_id": "742.195488856",
     "fd_selection_id": 12449287,
     "prob": 0.7038,
-    "emp_prob": 0.808,
-    "n_games": 14,
+    "emp_prob": 0.8146,
+    "n_games": 15,
     "injury": "none listed",
-    "why": "This season 12/14 games hit (avg 2.5); last 10 8/10; last season's final 20: 16/20; Blue Jackets allow 3.2 goals/g vs 3.2 avg of today's teams (+1.2 pts); teammates out: Josh Manson; capped at FanDuel no-vig 70.4% (model 76.8%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "why": "This season 13/15 games hit (avg 2.6); last 10 8/10; last season's final 20: 16/20; Blue Jackets allow 3.2 goals/g vs 3.2 avg of today's teams (+1.2 pts); teammates out: Josh Manson; capped at FanDuel no-vig 70.4% (model 77.1%; edge over the market has not been predictive)",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Colorado Avalanche",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195488856&selectionId%5B0%5D=12449287"
    },
@@ -1535,7 +1487,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 11/16 games hit (avg 2.8); last 10 5/10; last season's final 20: 11/20; Predators allow 3.4 goals/g vs 3.2 avg of today's teams (+2.6 pts); teammates out: Alexander Nikishin; capped at FanDuel no-vig 70.4% (model 70.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Carolina Hurricanes",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471985&selectionId%5B0%5D=20852677"
    },
@@ -1561,7 +1513,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 8/14 games hit (avg 2.1); last 10 6/10; last season's final 20: 19/20; Rangers allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Brandon Carlo",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "St. Louis Blues",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480003&selectionId%5B0%5D=45710965"
    },
@@ -1587,7 +1539,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 9/14 games hit (avg 2.1); last 10 7/10; last season's final 20: 17/20; Rangers allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Brandon Carlo",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "St. Louis Blues",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480003&selectionId%5B0%5D=64280429"
    },
@@ -1613,7 +1565,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 7/14 games hit (avg 1.6); last 10 7/10; last season's final 20: 18/20; Canucks allow 4.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 69.8% (model 70.7%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Anaheim Ducks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486442&selectionId%5B0%5D=51950508"
    },
@@ -1639,7 +1591,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 11/15 games hit (avg 2.9); last 10 7/10; last season's final 20: 12/20; Lightning allow 3.3 goals/g vs 3.2 avg of today's teams (+1.9 pts); teammates out: Albert Johansson; capped at FanDuel no-vig 68.9% (model 70.7%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Detroit Red Wings",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195467784&selectionId%5B0%5D=12496375"
    },
@@ -1665,7 +1617,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 2.9); last 10 9/10; last season's final 20: 16/20; Hurricanes allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts); capped at FanDuel no-vig 68.9% (model 69.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Nashville Predators",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471985&selectionId%5B0%5D=12553603"
    },
@@ -1691,7 +1643,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 9/16 games hit (avg 2.1); last 10 6/10; last season's final 20: 16/20; Predators allow 3.4 goals/g vs 3.2 avg of today's teams (+2.6 pts); teammates out: Alexander Nikishin; capped at FanDuel no-vig 68.9% (model 69.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Carolina Hurricanes",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471985&selectionId%5B0%5D=11127918"
    },
@@ -1717,7 +1669,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 3.0); last 10 7/10; last season's final 20: 11/20; Rangers allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Brandon Carlo",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "St. Louis Blues",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480003&selectionId%5B0%5D=40258483"
    },
@@ -1739,11 +1691,11 @@
     "fd_market_id": "742.195488856",
     "fd_selection_id": 20852668,
     "prob": 0.682,
-    "emp_prob": 0.7461,
-    "n_games": 14,
+    "emp_prob": 0.7204,
+    "n_games": 15,
     "injury": "none listed",
-    "why": "This season 10/14 games hit (avg 2.1); last 10 6/10; last season's final 20: 17/20; Blue Jackets allow 3.2 goals/g vs 3.2 avg of today's teams (+1.2 pts); teammates out: Josh Manson; capped at FanDuel no-vig 68.2% (model 72.6%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "why": "This season 10/15 games hit (avg 2.1); last 10 5/10; last season's final 20: 17/20; Blue Jackets allow 3.2 goals/g vs 3.2 avg of today's teams (+1.2 pts); teammates out: Josh Manson; capped at FanDuel no-vig 68.2% (model 71.3%; edge over the market has not been predictive)",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Colorado Avalanche",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195488856&selectionId%5B0%5D=20852668"
    },
@@ -1769,7 +1721,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 14/15 games hit (avg 3.0); last 10 9/10; last season's final 20: 12/20; Lightning allow 3.3 goals/g vs 3.2 avg of today's teams (+1.9 pts); teammates out: Albert Johansson; capped at FanDuel no-vig 67.8% (model 75.3%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Detroit Red Wings",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195467784&selectionId%5B0%5D=36305280"
    },
@@ -1795,7 +1747,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 14/16 games hit (avg 1.3); last 10 8/10; last season's final 20: 13/20; Flyers allow 3.4 goals/g vs 3.2 avg of today's teams (+2.8 pts); capped at FanDuel no-vig 67.8% (model 75.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Minnesota Wild",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195491275&selectionId%5B0%5D=23517980"
    },
@@ -1821,7 +1773,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 11/13 games hit (avg 2.8); last 10 8/10; last season's final 20: 12/20; Stars allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts); capped at FanDuel no-vig 67.5% (model 67.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Washington Capitals",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486698&selectionId%5B0%5D=15948358"
    },
@@ -1847,7 +1799,7 @@
     "n_games": 15,
     "injury": "none listed",
     "why": "This season 14/15 games hit (avg 2.9); last 10 10/10; last season's final 20: 9/20; Canadiens allow 3.0 goals/g vs 3.2 avg of today's teams (-2.0 pts); capped at FanDuel no-vig 66.0% (model 68.2%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Winnipeg Jets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465241&selectionId%5B0%5D=36305276"
    },
@@ -1873,7 +1825,7 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 8/13 games hit (avg 1.6); last 10 7/10; last season's final 20: 20/20; Stars allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts); capped at FanDuel no-vig 65.6% (model 66.7%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Washington Capitals",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486698&selectionId%5B0%5D=12496319"
    },
@@ -1899,7 +1851,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 12/16 games hit (avg 2.8); last 10 6/10; last season's final 20: 14/20; Predators allow 3.4 goals/g vs 3.2 avg of today's teams (+2.6 pts); teammates out: Alexander Nikishin; capped at FanDuel no-vig 65.1% (model 71.0%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Carolina Hurricanes",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471985&selectionId%5B0%5D=67592637"
    },
@@ -1925,7 +1877,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 10/14 games hit (avg 1.2); last 10 7/10; last season's final 20: 13/20; Capitals allow 3.2 goals/g vs 3.2 avg of today's teams (+1.0 pts); capped at FanDuel no-vig 64.2% (model 67.1%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Dallas Stars",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195487714&selectionId%5B0%5D=12449307"
    },
@@ -1951,7 +1903,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 12/16 games hit (avg 3.1); last 10 8/10; last season's final 20: 14/20; Predators allow 3.4 goals/g vs 3.2 avg of today's teams (+2.6 pts); teammates out: Alexander Nikishin; capped at FanDuel no-vig 64.2% (model 70.4%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Carolina Hurricanes",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471985&selectionId%5B0%5D=40258477"
    },
@@ -1977,7 +1929,7 @@
     "n_games": 16,
     "injury": "none listed",
     "why": "This season 12/16 games hit (avg 2.4); last 10 7/10; last season's final 20: 13/20; Penguins allow 3.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 63.8% (model 69.9%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Vegas Golden Knights",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483000&selectionId%5B0%5D=12456546"
    },
@@ -2003,7 +1955,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 1.9); last 10 8/10; last season's final 20: 12/20; Capitals allow 3.2 goals/g vs 3.2 avg of today's teams (-1.0 pts); capped at FanDuel no-vig 63.1% (model 65.5%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Dallas Stars",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195487044&selectionId%5B0%5D=61930700"
    },
@@ -2029,35 +1981,9 @@
     "n_games": 13,
     "injury": "none listed",
     "why": "This season 13/13 games hit (avg 2.7); last 10 10/10; last season's final 20: 16/20; Stars allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts); capped at FanDuel no-vig 62.8% (model 71.3%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Washington Capitals",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195486698&selectionId%5B0%5D=51950507"
-   },
-   "401892638:20852681:742.195476629": {
-    "id": "401892638:20852681:742.195476629",
-    "event": "401892638",
-    "sport": "nhl",
-    "game": "Minnesota Wild at Philadelphia Flyers",
-    "start": "2026-11-04T00:00Z",
-    "market": "2+ Shots on Goal",
-    "player": "Owen Tippett",
-    "stat": "shotsTotal",
-    "stat_label": "shots on goal",
-    "line": 1.5,
-    "ou": "over",
-    "pick": "Owen Tippett 2+ shots on goal",
-    "odds": -210,
-    "fd_prob": 0.6331,
-    "fd_market_id": "742.195476629",
-    "fd_selection_id": 20852681,
-    "prob": 0.6157,
-    "emp_prob": 0.6583,
-    "n_games": 10,
-    "injury": "none listed",
-    "why": "This season 6/10 games hit (avg 2.2); last 10 6/10; last season's final 20: 15/20; Wild allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
-    "team": "Philadelphia Flyers",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476629&selectionId%5B0%5D=20852681"
    },
    "401892642:9552860:742.195471985": {
     "id": "401892642:9552860:742.195471985",
@@ -2081,9 +2007,35 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 9/14 games hit (avg 2.4); last 10 6/10; last season's final 20: 15/20; Hurricanes allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Nashville Predators",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195471985&selectionId%5B0%5D=9552860"
+   },
+   "401892638:20852681:742.195476629": {
+    "id": "401892638:20852681:742.195476629",
+    "event": "401892638",
+    "sport": "nhl",
+    "game": "Minnesota Wild at Philadelphia Flyers",
+    "start": "2026-11-04T00:00Z",
+    "market": "2+ Shots on Goal",
+    "player": "Owen Tippett",
+    "stat": "shotsTotal",
+    "stat_label": "shots on goal",
+    "line": 1.5,
+    "ou": "over",
+    "pick": "Owen Tippett 2+ shots on goal",
+    "odds": -205,
+    "fd_prob": 0.6282,
+    "fd_market_id": "742.195476629",
+    "fd_selection_id": 20852681,
+    "prob": 0.6126,
+    "emp_prob": 0.6571,
+    "n_games": 10,
+    "injury": "none listed",
+    "why": "This season 6/10 games hit (avg 2.2); last 10 6/10; last season's final 20: 15/20; Wild allow 2.2 goals/g vs 3.2 avg of today's teams (-3.0 pts)",
+    "asof": "2026-11-03 03:58 UTC",
+    "team": "Philadelphia Flyers",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195476629&selectionId%5B0%5D=20852681"
    },
    "401892643:61754115:742.195487800": {
     "id": "401892643:61754115:742.195487800",
@@ -2107,7 +2059,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 12/14 games hit (avg 1.1); last 10 8/10; last season's final 20: 12/20; Canucks allow 4.5 goals/g vs 3.2 avg of today's teams (+3.0 pts); capped at FanDuel no-vig 60.6% (model 69.8%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Anaheim Ducks",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195487800&selectionId%5B0%5D=61754115"
    },
@@ -2133,7 +2085,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 7/14 games hit (avg 0.7); last 10 7/10; last season's final 20: 17/20; Rangers allow 3.1 goals/g vs 3.2 avg of today's teams (-1.1 pts); teammates out: Brandon Carlo",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "St. Louis Blues",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195480957&selectionId%5B0%5D=20852691"
    },
@@ -2159,7 +2111,7 @@
     "n_games": 12,
     "injury": "none listed",
     "why": "This season 8/12 games hit (avg 2.1); last 10 7/10; last season's final 20: 9/20; Avalanche allow 3.1 goals/g vs 3.2 avg of today's teams (-0.2 pts)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Columbus Blue Jackets",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195488953&selectionId%5B0%5D=61814408"
    },
@@ -2185,7 +2137,7 @@
     "n_games": 14,
     "injury": "none listed",
     "why": "This season 11/14 games hit (avg 1.1); last 10 8/10; last season's final 20: 11/20; Golden Knights allow 2.9 goals/g vs 3.2 avg of today's teams (-2.8 pts); capped at FanDuel no-vig 60.1% (model 61.2%; edge over the market has not been predictive)",
-    "asof": "2026-11-03 03:42 UTC",
+    "asof": "2026-11-03 03:58 UTC",
     "team": "Pittsburgh Penguins",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195490561&selectionId%5B0%5D=12449407"
    }
@@ -2431,6 +2383,7 @@
      "401892639:89598799:742.195483004",
      "401892640:38764242:742.195486698",
      "401892638:12449440:742.195476625",
+     "401892642:12449423:742.195471992",
      "401892634:12449347:742.195465253",
      "401892635:37515916:742.195467787",
      "401892635:38522077:742.195467784",
@@ -2440,13 +2393,12 @@
      "401892640:20852689:742.195486694",
      "401892634:24660529:742.195465241",
      "401892641:48699556:742.195488847",
-     "401892643:26396017:742.195486443",
-     "401892637:12496361:742.195480015"
+     "401892643:26396017:742.195486443"
     ],
-    "est_prob": 0.0632,
-    "fd_payout_x": 5.74,
-    "ev": -0.6371,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483004&selectionId%5B0%5D=89598799&marketId%5B1%5D=742.195486698&selectionId%5B1%5D=38764242&marketId%5B2%5D=742.195476625&selectionId%5B2%5D=12449440&marketId%5B3%5D=742.195465253&selectionId%5B3%5D=12449347&marketId%5B4%5D=742.195467787&selectionId%5B4%5D=37515916&marketId%5B5%5D=742.195467784&selectionId%5B5%5D=38522077&marketId%5B6%5D=742.195480015&selectionId%5B6%5D=57131970&marketId%5B7%5D=742.195486443&selectionId%5B7%5D=76966181&marketId%5B8%5D=742.195483004&selectionId%5B8%5D=93774853&marketId%5B9%5D=742.195486694&selectionId%5B9%5D=20852689&marketId%5B10%5D=742.195465241&selectionId%5B10%5D=24660529&marketId%5B11%5D=742.195488847&selectionId%5B11%5D=48699556&marketId%5B12%5D=742.195486443&selectionId%5B12%5D=26396017&marketId%5B13%5D=742.195480015&selectionId%5B13%5D=12496361",
+    "est_prob": 0.0651,
+    "fd_payout_x": 5.62,
+    "ev": -0.6339,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195483004&selectionId%5B0%5D=89598799&marketId%5B1%5D=742.195486698&selectionId%5B1%5D=38764242&marketId%5B2%5D=742.195476625&selectionId%5B2%5D=12449440&marketId%5B3%5D=742.195471992&selectionId%5B3%5D=12449423&marketId%5B4%5D=742.195465253&selectionId%5B4%5D=12449347&marketId%5B5%5D=742.195467787&selectionId%5B5%5D=37515916&marketId%5B6%5D=742.195467784&selectionId%5B6%5D=38522077&marketId%5B7%5D=742.195480015&selectionId%5B7%5D=57131970&marketId%5B8%5D=742.195486443&selectionId%5B8%5D=76966181&marketId%5B9%5D=742.195483004&selectionId%5B9%5D=93774853&marketId%5B10%5D=742.195486694&selectionId%5B10%5D=20852689&marketId%5B11%5D=742.195465241&selectionId%5B11%5D=24660529&marketId%5B12%5D=742.195488847&selectionId%5B12%5D=48699556&marketId%5B13%5D=742.195486443&selectionId%5B13%5D=26396017",
     "type": "props",
     "favorite": false
    },
@@ -2455,7 +2407,6 @@
     "legs": [
      "401892634:56172934:742.195465253",
      "401892640:12496318:742.195486694",
-     "401892642:12449423:742.195471992",
      "401892643:11133520:742.195486443",
      "401892635:37515916:742.195467787",
      "401892635:38522077:742.195467784",
@@ -2464,24 +2415,25 @@
      "401892640:20852689:742.195486694",
      "401892634:15710822:742.195465241",
      "401892641:48699556:742.195488847",
-     "401892637:12496361:742.195480015",
      "401892643:9552865:742.195486443",
+     "401892637:12496361:742.195480015",
      "401892641:12452410:742.195488847",
-     "401892638:23010442:742.195476625"
+     "401892638:23010442:742.195476625",
+     "401892638:26341087:742.195476629"
     ],
-    "est_prob": 0.0462,
-    "fd_payout_x": 7.11,
-    "ev": -0.6712,
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465253&selectionId%5B0%5D=56172934&marketId%5B1%5D=742.195486694&selectionId%5B1%5D=12496318&marketId%5B2%5D=742.195471992&selectionId%5B2%5D=12449423&marketId%5B3%5D=742.195486443&selectionId%5B3%5D=11133520&marketId%5B4%5D=742.195467787&selectionId%5B4%5D=37515916&marketId%5B5%5D=742.195467784&selectionId%5B5%5D=38522077&marketId%5B6%5D=742.195480015&selectionId%5B6%5D=57131970&marketId%5B7%5D=742.195483004&selectionId%5B7%5D=93774853&marketId%5B8%5D=742.195486694&selectionId%5B8%5D=20852689&marketId%5B9%5D=742.195465241&selectionId%5B9%5D=15710822&marketId%5B10%5D=742.195488847&selectionId%5B10%5D=48699556&marketId%5B11%5D=742.195480015&selectionId%5B11%5D=12496361&marketId%5B12%5D=742.195486443&selectionId%5B12%5D=9552865&marketId%5B13%5D=742.195488847&selectionId%5B13%5D=12452410&marketId%5B14%5D=742.195476625&selectionId%5B14%5D=23010442",
+    "est_prob": 0.0423,
+    "fd_payout_x": 7.81,
+    "ev": -0.6702,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195465253&selectionId%5B0%5D=56172934&marketId%5B1%5D=742.195486694&selectionId%5B1%5D=12496318&marketId%5B2%5D=742.195486443&selectionId%5B2%5D=11133520&marketId%5B3%5D=742.195467787&selectionId%5B3%5D=37515916&marketId%5B4%5D=742.195467784&selectionId%5B4%5D=38522077&marketId%5B5%5D=742.195480015&selectionId%5B5%5D=57131970&marketId%5B6%5D=742.195483004&selectionId%5B6%5D=93774853&marketId%5B7%5D=742.195486694&selectionId%5B7%5D=20852689&marketId%5B8%5D=742.195465241&selectionId%5B8%5D=15710822&marketId%5B9%5D=742.195488847&selectionId%5B9%5D=48699556&marketId%5B10%5D=742.195486443&selectionId%5B10%5D=9552865&marketId%5B11%5D=742.195480015&selectionId%5B11%5D=12496361&marketId%5B12%5D=742.195488847&selectionId%5B12%5D=12452410&marketId%5B13%5D=742.195476625&selectionId%5B13%5D=23010442&marketId%5B14%5D=742.195476629&selectionId%5B14%5D=26341087",
     "type": "props",
     "favorite": false
    }
   ],
   "coverage": {
    "games": 11,
-   "fd_markets": 1040,
+   "fd_markets": 1038,
    "players_matched": 99,
-   "props_scored": 901,
+   "props_scored": 900,
    "excluded_injury": [
     "Nick Suzuki (Out)"
    ],
@@ -2489,27 +2441,27 @@
   },
   "rule": "Pregame only. One leg per player (his highest-chance line priced -1000 to +150), at most 2 legs per game in a parlay, each leg in at most 5 tickets. Chance = 50% FanDuel no-vig price + 50% ESPN game-log hit rate (this season, plus last season's final 20 games at 40% weight, shrunk toward FanDuel when few games), then small adjustments: opponent points allowed (\u00b13 pts max), NBA minutes trend, teammates out; rebounds overs -8 pts and made threes -3 pts, because those props have hit below estimate so far; rebound unders are excluded (they hit about 45% so far). Players listed Out/Doubtful/Questionable/Day-To-Day by ESPN are excluded. Only legs with est. chance \u226560% and not worse than FanDuel's own price by >2 pts.",
   "stats": {
-   "graded_legs": 2434,
-   "won": 1807,
-   "hit": 0.7424,
-   "expected": 0.7696,
+   "graded_legs": 2451,
+   "won": 1821,
+   "hit": 0.743,
+   "expected": 0.7695,
    "tickets_graded": 127,
    "tickets_won": 46,
    "buckets": {
     "60-70%": {
-     "n": 587,
-     "hit": 0.632,
+     "n": 592,
+     "hit": 0.6334,
      "pred": 0.6488
     },
     "70-80%": {
-     "n": 791,
-     "hit": 0.7547,
-     "pred": 0.7579
+     "n": 796,
+     "hit": 0.7563,
+     "pred": 0.758
     },
     "80-90%": {
-     "n": 1011,
-     "hit": 0.7903,
-     "pred": 0.8424
+     "n": 1018,
+     "hit": 0.7898,
+     "pred": 0.8423
     },
     "90-100%": {
      "n": 45,
