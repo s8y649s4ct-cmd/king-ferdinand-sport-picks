@@ -76812,8 +76812,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.1925,
-  "fd_payout_x": 4.44,
+  "est_prob": 0.1926,
+  "fd_payout_x": 4.42,
   "legs_detail": [
    {
     "id": "401892639:7000417:742.195600293",
@@ -76824,27 +76824,12 @@
     "line": 1.5,
     "pick": "Pittsburgh Penguins +1.5",
     "market": "Alternate Puck Line",
-    "odds": -280,
-    "prob": 0.7824,
-    "raw_prob": 0.7824,
+    "odds": -290,
+    "prob": 0.7906,
+    "raw_prob": 0.7906,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": -280
-   },
-   {
-    "id": "401892635:25609:742.194950840",
-    "event": "401892635",
-    "sport": "nhl",
-    "kind": "ml",
-    "side": "home",
-    "pick": "Tampa Bay Lightning",
-    "market": "Moneyline",
-    "odds": -285,
-    "prob": 0.7223,
-    "raw_prob": 0.7223,
-    "game": "Detroit Red Wings at Tampa Bay Lightning",
-    "result": null,
-    "close_odds": -285
+    "close_odds": -290
    },
    {
     "id": "401866454:12197185:742.195278544",
@@ -76863,6 +76848,21 @@
     "close_odds": -295
    },
    {
+    "id": "401892635:25609:742.194950840",
+    "event": "401892635",
+    "sport": "nhl",
+    "kind": "ml",
+    "side": "home",
+    "pick": "Tampa Bay Lightning",
+    "market": "Moneyline",
+    "odds": -280,
+    "prob": 0.7152,
+    "raw_prob": 0.7152,
+    "game": "Detroit Red Wings at Tampa Bay Lightning",
+    "result": null,
+    "close_odds": -280
+   },
+   {
     "id": "401866453:12194329:742.195256482",
     "event": "401866453",
     "sport": "college-football",
@@ -76879,23 +76879,23 @@
     "close_odds": -280
    },
    {
-    "id": "401892634:7735508:742.195599510",
-    "event": "401892634",
+    "id": "401892638:7735594:742.195599622",
+    "event": "401892638",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": 2.5,
-    "pick": "Winnipeg Jets +2.5",
+    "pick": "Philadelphia Flyers +2.5",
     "market": "Alternate Puck Line",
     "odds": -300,
     "prob": 0.6637,
     "raw_prob": 0.6637,
-    "game": "Winnipeg Jets at Montreal Canadiens",
+    "game": "Minnesota Wild at Philadelphia Flyers",
     "result": null,
     "close_odds": -300
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -76927,7 +76927,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -76974,7 +76974,7 @@
     "close_odds": -750
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -76985,10 +76985,26 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 3,
-  "est_prob": 0.5865,
-  "est_raw": 0.5865,
-  "fd_payout_x": 1.53,
+  "est_prob": 0.59538,
+  "est_raw": 0.59538,
+  "fd_payout_x": 1.51,
   "legs_detail": [
+   {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
+   },
    {
     "id": "401892633:86696246:742.195598042",
     "event": "401892633",
@@ -77020,7 +77036,23 @@
     "game": "Carolina Hurricanes at Nashville Predators",
     "result": null,
     "close_odds": -600
-   },
+   }
+  ],
+  "logged": "2026-11-03 22:30 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": true,
+  "favorite_source": "logged"
+ },
+ {
+  "id": "2026-11-03-4",
+  "date": "2026-11-03",
+  "type": "ladder",
+  "n": 4,
+  "est_prob": 0.44656,
+  "est_raw": 0.44656,
+  "fd_payout_x": 1.83,
+  "legs_detail": [
    {
     "id": "401892641:7737426:742.195598822",
     "event": "401892641",
@@ -77036,38 +77068,22 @@
     "game": "Colorado Avalanche at Columbus Blue Jackets",
     "result": null,
     "close_odds": -650
-   }
-  ],
-  "logged": "2026-11-03 22:18 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
- },
- {
-  "id": "2026-11-03-4",
-  "date": "2026-11-03",
-  "type": "ladder",
-  "n": 4,
-  "est_prob": 0.43749,
-  "est_raw": 0.43749,
-  "fd_payout_x": 2.02,
-  "legs_detail": [
+   },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
     "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
+    "pick": "New Jersey Devils +1.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -550
+    "close_odds": -460
    },
    {
     "id": "401892638:7000410:742.195599622",
@@ -77086,39 +77102,23 @@
     "close_odds": -550
    },
    {
-    "id": "401892636:7000413:742.195600413",
-    "event": "401892636",
+    "id": "401892635:7000420:742.195600189",
+    "event": "401892635",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
     "line": 1.5,
-    "pick": "New Jersey Devils +1.5",
+    "pick": "Tampa Bay Lightning +1.5",
     "market": "Alternate Puck Line",
-    "odds": -450,
-    "prob": 0.8143,
-    "raw_prob": 0.8143,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": -450
-   },
-   {
-    "id": "401892639:7739947:742.195600293",
-    "event": "401892639",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Pittsburgh Penguins +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -550,
+    "odds": -1000,
     "prob": 0.8,
     "raw_prob": 0.8,
-    "game": "Vegas Golden Knights at Pittsburgh Penguins",
+    "game": "Detroit Red Wings at Tampa Bay Lightning",
     "result": null,
-    "close_odds": -550
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -77128,8 +77128,8 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 5,
-  "est_prob": 0.40307,
-  "est_raw": 0.40307,
+  "est_prob": 0.40916,
+  "est_raw": 0.40916,
   "fd_payout_x": 1.86,
   "legs_detail": [
    {
@@ -77181,6 +77181,22 @@
     "close_odds": -750
    },
    {
+    "id": "401892639:7739947:742.195600293",
+    "event": "401892639",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Pittsburgh Penguins +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -600,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Vegas Golden Knights at Pittsburgh Penguins",
+    "result": null,
+    "close_odds": -600
+   },
+   {
     "id": "401892640:7735428:742.195598188",
     "event": "401892640",
     "sport": "nhl",
@@ -77195,25 +77211,9 @@
     "game": "Dallas Stars at Washington Capitals",
     "result": null,
     "close_odds": -650
-   },
-   {
-    "id": "401892635:8359782:742.195600210",
-    "event": "401892635",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7881,
-    "raw_prob": 0.7881,
-    "game": "Detroit Red Wings at Tampa Bay Lightning",
-    "result": null,
-    "close_odds": -600
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -77223,10 +77223,26 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.28596,
-  "est_raw": 0.28596,
-  "fd_payout_x": 2.14,
+  "est_prob": 0.30354,
+  "est_raw": 0.30354,
+  "fd_payout_x": 2.2,
   "legs_detail": [
+   {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
+   },
    {
     "id": "401892633:86696246:742.195598042",
     "event": "401892633",
@@ -77292,22 +77308,6 @@
     "close_odds": -750
    },
    {
-    "id": "401892636:7739903:742.195600413",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "New Jersey Devils +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -1000,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401892639:7669430:742.195600281",
     "event": "401892639",
     "sport": "nhl",
@@ -77316,15 +77316,15 @@
     "ou": "over",
     "pick": "Over 4.5",
     "market": "Alternate Total Goals",
-    "odds": -650,
-    "prob": 0.7926,
-    "raw_prob": 0.7926,
+    "odds": -700,
+    "prob": 0.7966,
+    "raw_prob": 0.7966,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": -650
+    "close_odds": -700
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -77334,9 +77334,9 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.20109,
-  "est_raw": 0.20109,
-  "fd_payout_x": 3.35,
+  "est_prob": 0.20082,
+  "est_raw": 0.20082,
+  "fd_payout_x": 3.45,
   "legs_detail": [
    {
     "id": "401866453:12247072:742.195256482",
@@ -77387,20 +77387,20 @@
     "close_odds": -650
    },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
     "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
+    "pick": "New Jersey Devils +1.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -550
+    "close_odds": -460
    },
    {
     "id": "401892640:8359782:742.195598137",
@@ -77450,7 +77450,7 @@
     "close_odds": -188
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -77460,9 +77460,9 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 8,
-  "est_prob": 0.2129,
-  "est_raw": 0.2129,
-  "fd_payout_x": 4.01,
+  "est_prob": 0.21262,
+  "est_raw": 0.21262,
+  "fd_payout_x": 3.71,
   "legs_detail": [
    {
     "id": "401892637:8359782:742.195598762",
@@ -77479,6 +77479,22 @@
     "game": "St. Louis Blues at New York Rangers",
     "result": null,
     "close_odds": -750
+   },
+   {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
    },
    {
     "id": "401892633:86696246:742.195598042",
@@ -77529,22 +77545,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
-    "result": null,
-    "close_odds": -550
-   },
-   {
     "id": "401892638:7000410:742.195599622",
     "event": "401892638",
     "sport": "nhl",
@@ -77561,22 +77561,6 @@
     "close_odds": -550
    },
    {
-    "id": "401892636:7000413:742.195600413",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "New Jersey Devils +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -450,
-    "prob": 0.8143,
-    "raw_prob": 0.8143,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": -450
-   },
-   {
     "id": "401892639:7000417:742.195600293",
     "event": "401892639",
     "sport": "nhl",
@@ -77585,15 +77569,31 @@
     "line": 1.5,
     "pick": "Pittsburgh Penguins +1.5",
     "market": "Alternate Puck Line",
-    "odds": -280,
-    "prob": 0.7824,
-    "raw_prob": 0.7824,
+    "odds": -290,
+    "prob": 0.7906,
+    "raw_prob": 0.7906,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": -280
+    "close_odds": -290
+   },
+   {
+    "id": "401892635:7669430:742.195600210",
+    "event": "401892635",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -550,
+    "prob": 0.783,
+    "raw_prob": 0.783,
+    "game": "Detroit Red Wings at Tampa Bay Lightning",
+    "result": null,
+    "close_odds": -550
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -77603,9 +77603,9 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.12578,
-  "est_raw": 0.12578,
-  "fd_payout_x": 4.79,
+  "est_prob": 0.13101,
+  "est_raw": 0.13101,
+  "fd_payout_x": 4.93,
   "legs_detail": [
    {
     "id": "401866453:12215019:742.195256482",
@@ -77656,6 +77656,38 @@
     "close_odds": -750
    },
    {
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "New Jersey Devils +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
+    "result": null,
+    "close_odds": -460
+   },
+   {
+    "id": "401892635:7000420:742.195600189",
+    "event": "401892635",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Tampa Bay Lightning +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -1000,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Detroit Red Wings at Tampa Bay Lightning",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401892638:8359782:742.195599628",
     "event": "401892638",
     "sport": "nhl",
@@ -77680,42 +77712,10 @@
     "line": 2.5,
     "pick": "Pittsburgh Penguins +2.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
+    "odds": -600,
     "prob": 0.8,
     "raw_prob": 0.8,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
-    "result": null,
-    "close_odds": -550
-   },
-   {
-    "id": "401892636:7739903:742.195600413",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "New Jersey Devils +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -1000,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401892635:8359782:742.195600210",
-    "event": "401892635",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7881,
-    "raw_prob": 0.7881,
-    "game": "Detroit Red Wings at Tampa Bay Lightning",
     "result": null,
     "close_odds": -600
    },
@@ -77751,7 +77751,7 @@
     "close_odds": -188
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -77761,8 +77761,8 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 10,
-  "est_prob": 0.11264,
-  "est_raw": 0.11264,
+  "est_prob": 0.1212,
+  "est_raw": 0.1212,
   "fd_payout_x": 5.19,
   "legs_detail": [
    {
@@ -77796,6 +77796,22 @@
     "game": "Buffalo Bulls at Miami (OH) RedHawks",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
    },
    {
     "id": "401892633:86696246:742.195598042",
@@ -77846,20 +77862,20 @@
     "close_odds": -650
    },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
     "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
+    "pick": "New Jersey Devils +1.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -550
+    "close_odds": -460
    },
    {
     "id": "401892640:7735428:742.195598188",
@@ -77886,28 +77902,12 @@
     "ou": "over",
     "pick": "Over 4.5",
     "market": "Alternate Total Goals",
-    "odds": -650,
-    "prob": 0.7926,
-    "raw_prob": 0.7926,
+    "odds": -700,
+    "prob": 0.7966,
+    "raw_prob": 0.7966,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": -650
-   },
-   {
-    "id": "401892635:8359782:742.195600210",
-    "event": "401892635",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7881,
-    "raw_prob": 0.7881,
-    "game": "Detroit Red Wings at Tampa Bay Lightning",
-    "result": null,
-    "close_odds": -600
+    "close_odds": -700
    },
    {
     "id": "401892643:2294077:742.194950882",
@@ -77925,7 +77925,7 @@
     "close_odds": -188
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -77935,9 +77935,9 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 11,
-  "est_prob": 0.09882,
-  "est_raw": 0.09882,
-  "fd_payout_x": 6.55,
+  "est_prob": 0.1024,
+  "est_raw": 0.1024,
+  "fd_payout_x": 6.31,
   "legs_detail": [
    {
     "id": "401866453:12215019:742.195256482",
@@ -77988,6 +77988,22 @@
     "close_odds": -750
    },
    {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
+   },
+   {
     "id": "401892633:86696246:742.195598042",
     "event": "401892633",
     "sport": "nhl",
@@ -78036,20 +78052,20 @@
     "close_odds": -650
    },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
     "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
+    "pick": "New Jersey Devils +1.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -550
+    "close_odds": -460
    },
    {
     "id": "401892638:7000410:742.195599622",
@@ -78066,22 +78082,6 @@
     "game": "Minnesota Wild at Philadelphia Flyers",
     "result": null,
     "close_odds": -550
-   },
-   {
-    "id": "401892636:7000413:742.195600413",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "New Jersey Devils +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -450,
-    "prob": 0.8143,
-    "raw_prob": 0.8143,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": -450
    },
    {
     "id": "401892635:8359782:742.195600210",
@@ -78115,7 +78115,7 @@
     "close_odds": -188
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -78125,9 +78125,9 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 12,
-  "est_prob": 0.07762,
-  "est_raw": 0.07762,
-  "fd_payout_x": 7.21,
+  "est_prob": 0.10561,
+  "est_raw": 0.10561,
+  "fd_payout_x": 5.9,
   "legs_detail": [
    {
     "id": "401866453:12247072:742.195256482",
@@ -78178,6 +78178,22 @@
     "close_odds": -750
    },
    {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
+   },
+   {
     "id": "401892633:86696246:742.195598042",
     "event": "401892633",
     "sport": "nhl",
@@ -78226,20 +78242,20 @@
     "close_odds": -650
    },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
     "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
+    "pick": "New Jersey Devils +1.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -550
+    "close_odds": -460
    },
    {
     "id": "401892640:8359769:742.195598137",
@@ -78274,22 +78290,6 @@
     "close_odds": -800
    },
    {
-    "id": "401892636:7739903:742.195600413",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "New Jersey Devils +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -1000,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401892639:7000417:742.195600293",
     "event": "401892639",
     "sport": "nhl",
@@ -78298,30 +78298,31 @@
     "line": 1.5,
     "pick": "Pittsburgh Penguins +1.5",
     "market": "Alternate Puck Line",
-    "odds": -280,
-    "prob": 0.7824,
-    "raw_prob": 0.7824,
+    "odds": -290,
+    "prob": 0.7906,
+    "raw_prob": 0.7906,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": -280
+    "close_odds": -290
    },
    {
-    "id": "401892643:2294077:742.194950882",
-    "event": "401892643",
+    "id": "401892635:7669430:742.195600210",
+    "event": "401892635",
     "sport": "nhl",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Anaheim Ducks",
-    "market": "Moneyline",
-    "odds": -188,
-    "prob": 0.6133,
-    "raw_prob": 0.6133,
-    "game": "Anaheim Ducks at Vancouver Canucks",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -550,
+    "prob": 0.783,
+    "raw_prob": 0.783,
+    "game": "Detroit Red Wings at Tampa Bay Lightning",
     "result": null,
-    "close_odds": -188
+    "close_odds": -550
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -78331,9 +78332,9 @@
   "date": "2026-11-03",
   "type": "ladder",
   "n": 13,
-  "est_prob": 0.06343,
-  "est_raw": 0.06343,
-  "fd_payout_x": 8.52,
+  "est_prob": 0.06672,
+  "est_raw": 0.06672,
+  "fd_payout_x": 7.64,
   "legs_detail": [
    {
     "id": "401866453:12215019:742.195256482",
@@ -78384,6 +78385,22 @@
     "close_odds": -750
    },
    {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
+   },
+   {
     "id": "401892633:86696246:742.195598042",
     "event": "401892633",
     "sport": "nhl",
@@ -78432,20 +78449,20 @@
     "close_odds": -650
    },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
     "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
+    "pick": "New Jersey Devils +1.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -550
+    "close_odds": -460
    },
    {
     "id": "401892638:7000410:742.195599622",
@@ -78464,22 +78481,6 @@
     "close_odds": -550
    },
    {
-    "id": "401892636:7000413:742.195600413",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "New Jersey Devils +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -450,
-    "prob": 0.8143,
-    "raw_prob": 0.8143,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": -450
-   },
-   {
     "id": "401892640:8359782:742.195598137",
     "event": "401892640",
     "sport": "nhl",
@@ -78496,6 +78497,22 @@
     "close_odds": -850
    },
    {
+    "id": "401892635:7000420:742.195600189",
+    "event": "401892635",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Tampa Bay Lightning +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -1000,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Detroit Red Wings at Tampa Bay Lightning",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401892639:7739947:742.195600293",
     "event": "401892639",
     "sport": "nhl",
@@ -78504,26 +78521,10 @@
     "line": 2.5,
     "pick": "Pittsburgh Penguins +2.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
+    "odds": -600,
     "prob": 0.8,
     "raw_prob": 0.8,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
-    "result": null,
-    "close_odds": -550
-   },
-   {
-    "id": "401892635:8359782:742.195600210",
-    "event": "401892635",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7881,
-    "raw_prob": 0.7881,
-    "game": "Detroit Red Wings at Tampa Bay Lightning",
     "result": null,
     "close_odds": -600
    },
@@ -78543,7 +78544,7 @@
     "close_odds": -188
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -78554,8 +78555,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.055521683364,
-  "fd_payout_x": 26.79,
+  "est_prob": 0.05650606189199999,
+  "fd_payout_x": 26.42,
   "legs_detail": [
    {
     "id": "401892639:60106:742.194950852",
@@ -78566,12 +78567,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 190,
-    "prob": 0.4061,
-    "raw_prob": 0.4061,
+    "odds": 186,
+    "prob": 0.4133,
+    "raw_prob": 0.4133,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": 190
+    "close_odds": 186
    },
    {
     "id": "401892640:25610:742.194950777",
@@ -78606,86 +78607,7 @@
     "close_odds": 210
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-03-lottery-~100x",
-  "date": "2026-11-03",
-  "type": "lottery",
-  "label": "~100x",
-  "n": 4,
-  "est_prob": 0.013503862785301197,
-  "fd_payout_x": 108.58,
-  "legs_detail": [
-   {
-    "id": "401892639:60106:742.194950852",
-    "event": "401892639",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Pittsburgh Penguins -1.5",
-    "market": "Puck Line",
-    "odds": 190,
-    "prob": 0.4061,
-    "raw_prob": 0.4061,
-    "game": "Vegas Golden Knights at Pittsburgh Penguins",
-    "result": null,
-    "close_odds": 190
-   },
-   {
-    "id": "401892637:7669353:742.195598762",
-    "event": "401892637",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 300,
-    "prob": 0.2738,
-    "raw_prob": 0.2738,
-    "game": "St. Louis Blues at New York Rangers",
-    "result": null,
-    "close_odds": 300
-   },
-   {
-    "id": "401892636:25586:742.194950862",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "New Jersey Devils -1.5",
-    "market": "Puck Line",
-    "odds": 140,
-    "prob": 0.4386,
-    "raw_prob": 0.4386,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": 140
-   },
-   {
-    "id": "401892634:7669353:742.195599558",
-    "event": "401892634",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 290,
-    "prob": 0.2769,
-    "raw_prob": 0.2769,
-    "game": "Winnipeg Jets at Montreal Canadiens",
-    "result": null,
-    "close_odds": 290
-   }
-  ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -78696,8 +78618,8 @@
   "type": "lottery",
   "label": "~500x",
   "n": 5,
-  "est_prob": 0.0033658091658747406,
-  "fd_payout_x": 525.78,
+  "est_prob": 0.0034254836943019705,
+  "fd_payout_x": 518.53,
   "legs_detail": [
    {
     "id": "401892637:7669353:742.195598762",
@@ -78732,6 +78654,22 @@
     "close_odds": 198
    },
    {
+    "id": "401892639:60106:742.194950852",
+    "event": "401892639",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Pittsburgh Penguins -1.5",
+    "market": "Puck Line",
+    "odds": 186,
+    "prob": 0.4133,
+    "raw_prob": 0.4133,
+    "game": "Vegas Golden Knights at Pittsburgh Penguins",
+    "result": null,
+    "close_odds": 186
+   },
+   {
     "id": "401892634:7669353:742.195599558",
     "event": "401892634",
     "sport": "nhl",
@@ -78762,25 +78700,9 @@
     "game": "Minnesota Wild at Philadelphia Flyers",
     "result": null,
     "close_odds": 290
-   },
-   {
-    "id": "401892639:60106:742.194950852",
-    "event": "401892639",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Pittsburgh Penguins -1.5",
-    "market": "Puck Line",
-    "odds": 190,
-    "prob": 0.4061,
-    "raw_prob": 0.4061,
-    "game": "Vegas Golden Knights at Pittsburgh Penguins",
-    "result": null,
-    "close_odds": 190
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -78791,8 +78713,8 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 6,
-  "est_prob": 0.001476243900152661,
-  "fd_payout_x": 1261.87,
+  "est_prob": 0.0014654219244223828,
+  "fd_payout_x": 1275.58,
   "legs_detail": [
    {
     "id": "401892639:60106:742.194950852",
@@ -78803,12 +78725,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 190,
-    "prob": 0.4061,
-    "raw_prob": 0.4061,
+    "odds": 186,
+    "prob": 0.4133,
+    "raw_prob": 0.4133,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": 190
+    "close_odds": 186
    },
    {
     "id": "401892640:25610:742.194950777",
@@ -78843,22 +78765,6 @@
     "close_odds": 300
    },
    {
-    "id": "401892636:25586:742.194950862",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "New Jersey Devils -1.5",
-    "market": "Puck Line",
-    "odds": 140,
-    "prob": 0.4386,
-    "raw_prob": 0.4386,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": 140
-   },
-   {
     "id": "401892634:7669353:742.195599558",
     "event": "401892634",
     "sport": "nhl",
@@ -78889,9 +78795,184 @@
     "game": "Minnesota Wild at Philadelphia Flyers",
     "result": null,
     "close_odds": 290
+   },
+   {
+    "id": "401892636:25586:742.194950862",
+    "event": "401892636",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Puck Line",
+    "odds": 146,
+    "prob": 0.4278,
+    "raw_prob": 0.4278,
+    "game": "Edmonton Oilers at New Jersey Devils",
+    "result": null,
+    "close_odds": 146
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-03-lottery-~100x",
+  "date": "2026-11-03",
+  "type": "lottery",
+  "label": "~100x",
+  "n": 9,
+  "est_prob": 0.013388807974044643,
+  "fd_payout_x": 100.57,
+  "legs_detail": [
+   {
+    "id": "401892639:60106:742.194950852",
+    "event": "401892639",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Pittsburgh Penguins -1.5",
+    "market": "Puck Line",
+    "odds": 186,
+    "prob": 0.4133,
+    "raw_prob": 0.4133,
+    "game": "Vegas Golden Knights at Pittsburgh Penguins",
+    "result": null,
+    "close_odds": 186
+   },
+   {
+    "id": "401892640:25610:742.194950777",
+    "event": "401892640",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Washington Capitals -1.5",
+    "market": "Puck Line",
+    "odds": 198,
+    "prob": 0.3948,
+    "raw_prob": 0.3948,
+    "game": "Dallas Stars at Washington Capitals",
+    "result": null,
+    "close_odds": 198
+   },
+   {
+    "id": "401892636:7000413:742.195600413",
+    "event": "401892636",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "New Jersey Devils +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
+    "game": "Edmonton Oilers at New Jersey Devils",
+    "result": null,
+    "close_odds": -460
+   },
+   {
+    "id": "401866453:12247072:742.195256482",
+    "event": "401866453",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 70.5,
+    "ou": "under",
+    "pick": "Under (70.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8851,
+    "raw_prob": 0.8851,
+    "game": "Ohio Bobcats at Akron Zips",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401892642:7000401:742.195600519",
+    "event": "401892642",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Carolina Hurricanes +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -600,
+    "prob": 0.8372,
+    "raw_prob": 0.8372,
+    "game": "Carolina Hurricanes at Nashville Predators",
+    "result": null,
+    "close_odds": -600
+   },
+   {
+    "id": "401892637:226870:742.194950815",
+    "event": "401892637",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "New York Rangers -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3463,
+    "raw_prob": 0.3463,
+    "game": "St. Louis Blues at New York Rangers",
+    "result": null,
+    "close_odds": 210
+   },
+   {
+    "id": "401892633:86696255:742.195598042",
+    "event": "401892633",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Utah Mammoth +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -400,
+    "prob": 0.7821,
+    "raw_prob": 0.7821,
+    "game": "Utah Mammoth at Toronto Maple Leafs",
+    "result": null,
+    "close_odds": -400
+   },
+   {
+    "id": "401892634:7000411:742.195599510",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Montreal Canadiens +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -550,
+    "prob": 0.822,
+    "raw_prob": 0.822,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -550
+   },
+   {
+    "id": "401892638:7669422:742.195599628",
+    "event": "401892638",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 6.5,
+    "ou": "under",
+    "pick": "Under 6.5",
+    "market": "Alternate Total Goals",
+    "odds": -154,
+    "prob": 0.6059,
+    "raw_prob": 0.6059,
+    "game": "Minnesota Wild at Philadelphia Flyers",
+    "result": null,
+    "close_odds": -154
+   }
+  ],
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -78967,7 +79048,7 @@
     "raw_prob": 0.8056,
     "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -450
+    "close_odds": -460
    },
    {
     "id": "401892641:7000403:742.195598822",
@@ -79075,8 +79156,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 10,
-  "est_prob": 1.9053945320904555e-05,
-  "fd_payout_x": 105954.7,
+  "est_prob": 1.8914265601443866e-05,
+  "fd_payout_x": 107105.59,
   "legs_detail": [
    {
     "id": "401892639:60106:742.194950852",
@@ -79087,12 +79168,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 190,
-    "prob": 0.4061,
-    "raw_prob": 0.4061,
+    "odds": 186,
+    "prob": 0.4133,
+    "raw_prob": 0.4133,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": 190
+    "close_odds": 186
    },
    {
     "id": "401892640:25610:742.194950777",
@@ -79167,12 +79248,12 @@
     "line": -1.5,
     "pick": "New Jersey Devils -1.5",
     "market": "Puck Line",
-    "odds": 140,
-    "prob": 0.4386,
-    "raw_prob": 0.4386,
+    "odds": 146,
+    "prob": 0.4278,
+    "raw_prob": 0.4278,
     "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": 140
+    "close_odds": 146
    },
    {
     "id": "401892641:25602:742.194950823",
@@ -79239,7 +79320,7 @@
     "close_odds": 240
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -79250,8 +79331,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 11,
-  "est_prob": 0.0001749093264071955,
-  "fd_payout_x": 10293.79,
+  "est_prob": 0.00017362710977267986,
+  "fd_payout_x": 10405.6,
   "legs_detail": [
    {
     "id": "401892639:60106:742.194950852",
@@ -79262,12 +79343,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 190,
-    "prob": 0.4061,
-    "raw_prob": 0.4061,
+    "odds": 186,
+    "prob": 0.4133,
+    "raw_prob": 0.4133,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": 190
+    "close_odds": 186
    },
    {
     "id": "401892640:25610:742.194950777",
@@ -79302,22 +79383,6 @@
     "close_odds": 300
    },
    {
-    "id": "401892636:25586:742.194950862",
-    "event": "401892636",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "New Jersey Devils -1.5",
-    "market": "Puck Line",
-    "odds": 140,
-    "prob": 0.4386,
-    "raw_prob": 0.4386,
-    "game": "Edmonton Oilers at New Jersey Devils",
-    "result": null,
-    "close_odds": 140
-   },
-   {
     "id": "401892634:7669353:742.195599558",
     "event": "401892634",
     "sport": "nhl",
@@ -79350,6 +79415,22 @@
     "close_odds": 290
    },
    {
+    "id": "401892636:25586:742.194950862",
+    "event": "401892636",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Puck Line",
+    "odds": 146,
+    "prob": 0.4278,
+    "raw_prob": 0.4278,
+    "game": "Edmonton Oilers at New Jersey Devils",
+    "result": null,
+    "close_odds": 146
+   },
+   {
     "id": "401892641:25602:742.194950823",
     "event": "401892641",
     "sport": "nhl",
@@ -79364,6 +79445,22 @@
     "game": "Colorado Avalanche at Columbus Blue Jackets",
     "result": null,
     "close_odds": 180
+   },
+   {
+    "id": "401892635:8359772:742.195600210",
+    "event": "401892635",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 5.5,
+    "ou": "over",
+    "pick": "Over 5.5",
+    "market": "Alternate Total Goals",
+    "odds": -156,
+    "prob": 0.6073,
+    "raw_prob": 0.6073,
+    "game": "Detroit Red Wings at Tampa Bay Lightning",
+    "result": null,
+    "close_odds": -156
    },
    {
     "id": "401892642:7000401:742.195600519",
@@ -79398,22 +79495,6 @@
     "close_odds": -400
    },
    {
-    "id": "401892635:8359772:742.195600210",
-    "event": "401892635",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 5.5,
-    "ou": "over",
-    "pick": "Over 5.5",
-    "market": "Alternate Total Goals",
-    "odds": -156,
-    "prob": 0.6073,
-    "raw_prob": 0.6073,
-    "game": "Detroit Red Wings at Tampa Bay Lightning",
-    "result": null,
-    "close_odds": -156
-   },
-   {
     "id": "401866454:12197186:742.195278544",
     "event": "401866454",
     "sport": "college-football",
@@ -79430,7 +79511,7 @@
     "close_odds": -460
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -79441,8 +79522,8 @@
   "type": "lottery",
   "label": "~1,000,000x",
   "n": 12,
-  "est_prob": 1.9034186379606775e-06,
-  "fd_payout_x": 1030303.54,
+  "est_prob": 1.8894651508015167e-06,
+  "fd_payout_x": 1041494.77,
   "legs_detail": [
    {
     "id": "401892639:60106:742.194950852",
@@ -79453,12 +79534,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 190,
-    "prob": 0.4061,
-    "raw_prob": 0.4061,
+    "odds": 186,
+    "prob": 0.4133,
+    "raw_prob": 0.4133,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": 190
+    "close_odds": 186
    },
    {
     "id": "401892640:25610:742.194950777",
@@ -79549,12 +79630,12 @@
     "line": -1.5,
     "pick": "New Jersey Devils -1.5",
     "market": "Puck Line",
-    "odds": 140,
-    "prob": 0.4386,
-    "raw_prob": 0.4386,
+    "odds": 146,
+    "prob": 0.4278,
+    "raw_prob": 0.4278,
     "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": 140
+    "close_odds": 146
    },
    {
     "id": "401892642:8359774:742.195600440",
@@ -79637,7 +79718,7 @@
     "close_odds": 240
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -79793,7 +79874,7 @@
     "raw_prob": 0.8,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": -550
+    "close_odds": -600
    },
    {
     "id": "401892640:7735428:742.195598188",
@@ -79825,7 +79906,7 @@
     "raw_prob": 0.8,
     "game": "Detroit Red Wings at Tampa Bay Lightning",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401892643:2294077:742.194950882",
@@ -79854,8 +79935,8 @@
   "type": "lottery",
   "label": "13-leg best-chance lottery",
   "n": 13,
-  "est_prob": 0.0623640289776245,
-  "fd_payout_x": 11.46,
+  "est_prob": 0.06628421324483862,
+  "fd_payout_x": 10.31,
   "legs_detail": [
    {
     "id": "401866453:12247072:742.195256482",
@@ -79906,6 +79987,22 @@
     "close_odds": -750
    },
    {
+    "id": "401892634:8359782:742.195599558",
+    "event": "401892634",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8449,
+    "raw_prob": 0.8449,
+    "game": "Winnipeg Jets at Montreal Canadiens",
+    "result": null,
+    "close_odds": -700
+   },
+   {
     "id": "401892642:7000401:742.195600519",
     "event": "401892642",
     "sport": "nhl",
@@ -79954,22 +80051,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892634:7000411:742.195599510",
-    "event": "401892634",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Montreal Canadiens +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.822,
-    "raw_prob": 0.822,
-    "game": "Winnipeg Jets at Montreal Canadiens",
-    "result": null,
-    "close_odds": -550
-   },
-   {
     "id": "401892636:7000413:742.195600413",
     "event": "401892636",
     "sport": "nhl",
@@ -79978,12 +80059,12 @@
     "line": 1.5,
     "pick": "New Jersey Devils +1.5",
     "market": "Alternate Puck Line",
-    "odds": -450,
-    "prob": 0.8143,
-    "raw_prob": 0.8143,
+    "odds": -460,
+    "prob": 0.8209,
+    "raw_prob": 0.8209,
     "game": "Edmonton Oilers at New Jersey Devils",
     "result": null,
-    "close_odds": -450
+    "close_odds": -460
    },
    {
     "id": "401892638:7000410:742.195599622",
@@ -80010,12 +80091,12 @@
     "line": 1.5,
     "pick": "Pittsburgh Penguins +1.5",
     "market": "Alternate Puck Line",
-    "odds": -280,
-    "prob": 0.7824,
-    "raw_prob": 0.7824,
+    "odds": -290,
+    "prob": 0.7906,
+    "raw_prob": 0.7906,
     "game": "Vegas Golden Knights at Pittsburgh Penguins",
     "result": null,
-    "close_odds": -280
+    "close_odds": -290
    },
    {
     "id": "401892640:7000423:742.195598188",
@@ -80034,20 +80115,20 @@
     "close_odds": -310
    },
    {
-    "id": "401892635:8359782:742.195600210",
+    "id": "401892635:7000420:742.195600189",
     "event": "401892635",
     "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7881,
-    "raw_prob": 0.7881,
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Tampa Bay Lightning +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -1000,
+    "prob": 0.8,
+    "raw_prob": 0.8,
     "game": "Detroit Red Wings at Tampa Bay Lightning",
     "result": null,
-    "close_odds": -600
+    "close_odds": -1000
    },
    {
     "id": "401892643:2294077:742.194950882",
@@ -80065,7 +80146,7 @@
     "close_odds": -188
    }
   ],
-  "logged": "2026-11-03 22:18 UTC",
+  "logged": "2026-11-03 22:30 UTC",
   "locked": false,
   "result": null,
   "favorite": false
