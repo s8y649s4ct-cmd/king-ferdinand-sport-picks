@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-03 02:27 UTC",
- "graded_legs": 1112,
+ "updated": "2026-11-03 02:41 UTC",
+ "graded_legs": 1120,
  "calibration": {
   "85-90%": {
-   "n": 436,
-   "wins": 381,
+   "n": 442,
+   "wins": 387,
    "pred": 0.873,
-   "hit": 0.874
+   "hit": 0.876
   },
   "75-80%": {
    "n": 99,
@@ -15,10 +15,10 @@
    "hit": 0.798
   },
   "80-85%": {
-   "n": 207,
-   "wins": 171,
+   "n": 209,
+   "wins": 172,
    "pred": 0.825,
-   "hit": 0.826
+   "hit": 0.823
   },
   "65-70%": {
    "n": 21,
@@ -113,16 +113,16 @@
    "hit": 0.863
   },
   "nba": {
-   "n": 368,
-   "wins": 285,
-   "pred": 0.826,
-   "hit": 0.774
+   "n": 374,
+   "wins": 291,
+   "pred": 0.827,
+   "hit": 0.778
   },
   "nhl": {
-   "n": 192,
-   "wins": 121,
-   "pred": 0.666,
-   "hit": 0.63
+   "n": 194,
+   "wins": 122,
+   "pred": 0.668,
+   "hit": 0.629
   },
   "mlb": {
    "n": 10,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 507,
-   "wins": 415,
+   "n": 511,
+   "wins": 419,
    "pred": 0.819,
-   "hit": 0.819
+   "hit": 0.82
   },
   "spread": {
-   "n": 454,
-   "wins": 333,
-   "pred": 0.759,
-   "hit": 0.733
+   "n": 458,
+   "wins": 336,
+   "pred": 0.76,
+   "hit": 0.734
   },
   "dc": {
    "n": 45,
@@ -212,10 +212,10 @@
   }
  },
  "parlays": {
-  "graded": 351,
+  "graded": 352,
   "won": 55,
-  "expected": 66.34,
-  "pending": 38,
+  "expected": 66.4,
+  "pending": 37,
   "by_type": {
    "ladder": {
     "graded": 215,
@@ -228,9 +228,9 @@
     "expected": 1.61
    },
    "lottery": {
-    "graded": 128,
+    "graded": 129,
     "won": 4,
-    "expected": 8.3
+    "expected": 8.37
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -238,7 +238,7 @@
  "clv": {
   "legs_tracked": 1249,
   "avg_clv_pts": 0.06,
-  "beat_close": 347,
+  "beat_close": 350,
   "worse_than_close": 392
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
