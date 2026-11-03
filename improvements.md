@@ -237,3 +237,9 @@ Changes (backup /workspace/kfsp_backups/2026-11-02-pm/), legs.json news_adj toda
 - Reasons updated for DAL, WSH, PHI, MEM. Players list (props excluded): George, Sheppard, LaVine, D. Murray, Ball, Shannon Jr., Toppin, Watson, Alvarado, Diallo, Nance Jr. (117 main-board prop legs injury-excluded this build).
 - Effect on unlocked tickets: ladder 1 is now Atlanta +6.5 (90%); Atlanta +1.5 replaced other legs on 6 Lottery tickets; Best Parlay unchanged (VGK +1.5, DET +3.5, HOU +3.5, TOR +3.5, Under 242.5; 24.5%, 4.38x). HOU +3.5 kept: Boston is the team losing a starter.
 No model change (no backtest-backed fix today). v2 still leads in shadow; recommended to the user only, not switched.
+
+## 2026-11-03 (daily review #8, ~3:00 AM ET)
+Record (all graded tickets): 65 won, 324 lost (16.7%) vs 73.9 expected. Ladder 58-177 (11-02: 8 of 25), Best Parlay 1-8, Lottery 6-139 (11-02: 2 of 18), green favorites 21-21, 2-leg board 0-0 (none qualified). Main legs 1,238 graded.
+Calibration (stats.json): 85-90% bucket 87.1% vs 87.3% (519), 80-85% 82.9% vs 82.6%, 95%+ 94.5% vs 96.0%; 90-95% still 78% overall because of the 10-25/26 misses. NBA legs 76.1% vs 80.9% est (477) remain the most overconfident; NHL 62.6% vs 66.6%; CFB 86.3% vs 83.2%.
+11-02 losses: Heat +17.5 at Lakers (on 9 tickets), NOP-MEM Unders 252.5/253.5/254.5 (16 slots), Sharks -1.5 (5), Booker prop (5). Same pattern as 11-01: one leg reused across many ladder tickets sinks several at once. Now 10 graded days exist, so a leg-reuse cap is due for a proper rebuild-based backtest; not adopted tonight without one (no quick simulation possible from ticket logs alone).
+No model change. v1 stays live; v2 still leads in shadow (recommended to the user only).
