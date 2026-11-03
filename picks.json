@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 04:16 UTC",
+ "updated": "2026-11-03 04:31 UTC",
  "date": "2026-11-02",
  "ladder_stats": {
   "tickets": 0,
@@ -23,8 +23,8 @@
    "sport": "nfl",
    "name": "Chicago Bears at Seattle Seahawks",
    "start": "2026-11-03T01:15Z",
-   "state": "in",
-   "status": "2:55 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Lumen Field",
    "indoor": false,
    "city": {
@@ -32,23 +32,7 @@
     "state": "WA",
     "country": "USA"
    },
-   "espn_wx": {
-    "displayValue": "7",
-    "temperature": 48,
-    "highTemperature": 48,
-    "conditionId": "Cloudy",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "98134"
-     ],
-     "href": "http://www.accuweather.com/en/us/lumen-field-wa/98104/current-weather/53660_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
+   "espn_wx": null,
    "line": null,
    "total": null,
    "book": null,
@@ -57,27 +41,27 @@
      "name": "Seattle Seahawks",
      "short": "Seahawks",
      "score": "17",
-     "winner": null,
-     "record": "4-3",
+     "winner": false,
+     "record": "4-4",
      "ml_open": null,
      "ml": null,
      "tid": "26",
      "abbr": "SEA",
-     "home_rec": "3-1",
+     "home_rec": "3-2",
      "road_rec": "1-2"
     },
     "away": {
      "name": "Chicago Bears",
      "short": "Bears",
      "score": "34",
-     "winner": null,
-     "record": "5-2",
+     "winner": true,
+     "record": "6-2",
      "ml_open": null,
      "ml": null,
      "tid": "3",
      "abbr": "CHI",
      "home_rec": "3-1",
-     "road_rec": "2-1"
+     "road_rec": "3-1"
     }
    }
   },
@@ -592,8 +576,8 @@
    "sport": "nba",
    "name": "Portland Trail Blazers at Denver Nuggets",
    "start": "2026-11-03T02:00Z",
-   "state": "in",
-   "status": "4:22 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Ball Arena",
    "indoor": true,
    "city": {
@@ -608,28 +592,28 @@
     "home": {
      "name": "Denver Nuggets",
      "short": "Nuggets",
-     "score": "99",
-     "winner": null,
-     "record": "3-2",
+     "score": "110",
+     "winner": false,
+     "record": "3-3",
      "ml_open": null,
      "ml": null,
      "tid": "7",
      "abbr": "DEN",
-     "home_rec": "1-1",
+     "home_rec": "1-2",
      "road_rec": "2-1"
     },
     "away": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "103",
-     "winner": null,
-     "record": "4-1",
+     "score": "118",
+     "winner": true,
+     "record": "5-1",
      "ml_open": null,
      "ml": null,
      "tid": "22",
      "abbr": "POR",
      "home_rec": "1-1",
-     "road_rec": "3-0"
+     "road_rec": "4-0"
     }
    }
   },
@@ -639,7 +623,7 @@
    "name": "Phoenix Suns at Golden State Warriors",
    "start": "2026-11-03T03:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "11:02 - 3rd",
    "venue": "Chase Center",
    "indoor": true,
    "city": {
@@ -654,7 +638,7 @@
     "home": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "51",
+     "score": "54",
      "winner": null,
      "record": "4-3",
      "ml_open": null,
@@ -667,7 +651,7 @@
     "away": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "57",
+     "score": "60",
      "winner": null,
      "record": "1-3",
      "ml_open": null,
@@ -685,7 +669,7 @@
    "name": "Toronto Raptors at LA Clippers",
    "start": "2026-11-03T03:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "10:36 - 3rd",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -700,7 +684,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "61",
+     "score": "63",
      "winner": null,
      "record": "1-5",
      "ml_open": null,
@@ -713,7 +697,7 @@
     "away": {
      "name": "Toronto Raptors",
      "short": "Raptors",
-     "score": "52",
+     "score": "58",
      "winner": null,
      "record": "3-3",
      "ml_open": null,
@@ -731,7 +715,7 @@
    "name": "Miami Heat at Los Angeles Lakers",
    "start": "2026-11-03T03:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "11:23 - 3rd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -746,7 +730,7 @@
     "home": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "79",
+     "score": "82",
      "winner": null,
      "record": "5-2",
      "ml_open": null,
@@ -918,7 +902,7 @@
    "name": "Calgary Flames at San Jose Sharks",
    "start": "2026-11-03T02:00Z",
    "state": "in",
-   "status": "12:55 - 3rd",
+   "status": "5:56 - 3rd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -934,7 +918,7 @@
     "home": {
      "name": "San Jose Sharks",
      "short": "Sharks",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "7-7-1",
      "ml_open": null,
@@ -947,7 +931,7 @@
     "away": {
      "name": "Calgary Flames",
      "short": "Flames",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "6-8-0",
      "ml_open": null,
@@ -1920,20 +1904,20 @@
  "weather": [
   {
    "g": "Chicago Bears at Seattle Seahawks",
-   "w": "7, 48F",
-   "src": "ESPN/AccuWeather"
+   "w": "46.8F, wind 2.4 mph, rain 0%",
+   "src": "open-meteo"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-03 04:16 UTC",
-  "graded_legs": 1190,
+  "updated": "2026-11-03 04:31 UTC",
+  "graded_legs": 1207,
   "calibration": {
    "85-90%": {
-    "n": 497,
-    "wins": 434,
+    "n": 506,
+    "wins": 443,
     "pred": 0.873,
-    "hit": 0.873
+    "hit": 0.875
    },
    "75-80%": {
     "n": 101,
@@ -1942,10 +1926,10 @@
     "hit": 0.802
    },
    "80-85%": {
-    "n": 213,
-    "wins": 176,
-    "pred": 0.825,
-    "hit": 0.826
+    "n": 215,
+    "wins": 178,
+    "pred": 0.826,
+    "hit": 0.828
    },
    "65-70%": {
     "n": 21,
@@ -1966,10 +1950,10 @@
     "hit": 0.945
    },
    "70-75%": {
-    "n": 29,
-    "wins": 24,
+    "n": 30,
+    "wins": 25,
     "pred": 0.727,
-    "hit": 0.828
+    "hit": 0.833
    },
    "40-45%": {
     "n": 25,
@@ -1984,10 +1968,10 @@
     "hit": 0.5
    },
    "25-30%": {
-    "n": 57,
-    "wins": 12,
+    "n": 60,
+    "wins": 14,
     "pred": 0.275,
-    "hit": 0.211
+    "hit": 0.233
    },
    "60-65%": {
     "n": 14,
@@ -2002,10 +1986,10 @@
     "hit": 0.483
    },
    "20-25%": {
-    "n": 33,
+    "n": 35,
     "wins": 7,
-    "pred": 0.237,
-    "hit": 0.212
+    "pred": 0.236,
+    "hit": 0.2
    },
    "35-40%": {
     "n": 31,
@@ -2040,10 +2024,10 @@
     "hit": 0.863
    },
    "nba": {
-    "n": 439,
-    "wins": 343,
-    "pred": 0.826,
-    "hit": 0.781
+    "n": 450,
+    "wins": 351,
+    "pred": 0.821,
+    "hit": 0.78
    },
    "nhl": {
     "n": 199,
@@ -2064,10 +2048,10 @@
     "hit": 0.85
    },
    "nfl": {
-    "n": 108,
-    "wins": 81,
+    "n": 114,
+    "wins": 87,
     "pred": 0.747,
-    "hit": 0.75
+    "hit": 0.763
    },
    "esp.1": {
     "n": 24,
@@ -2096,16 +2080,16 @@
   },
   "by_market": {
    "total": {
-    "n": 540,
-    "wins": 442,
+    "n": 548,
+    "wins": 450,
     "pred": 0.821,
-    "hit": 0.819
+    "hit": 0.821
    },
    "spread": {
-    "n": 491,
-    "wins": 366,
-    "pred": 0.767,
-    "hit": 0.745
+    "n": 497,
+    "wins": 371,
+    "pred": 0.766,
+    "hit": 0.746
    },
    "dc": {
     "n": 45,
@@ -2132,17 +2116,17 @@
     "hit": 0.511
    },
    "prop": {
-    "n": 34,
-    "wins": 8,
-    "pred": 0.302,
-    "hit": 0.235
+    "n": 37,
+    "wins": 9,
+    "pred": 0.299,
+    "hit": 0.243
    }
   },
   "parlays": {
-   "graded": 372,
+   "graded": 374,
    "won": 56,
    "expected": 69.35,
-   "pending": 17,
+   "pending": 15,
    "by_type": {
     "ladder": {
      "graded": 226,
@@ -2155,7 +2139,7 @@
      "expected": 1.61
     },
     "lottery": {
-     "graded": 138,
+     "graded": 140,
      "won": 4,
      "expected": 8.84
     }
@@ -2234,7 +2218,7 @@
       "pick": "Over 219.5",
       "game": "Portland Trail Blazers at Denver Nuggets",
       "odds": -295,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Toronto Raptors +4.5",
@@ -2282,7 +2266,7 @@
       "pick": "Portland Trail Blazers +19.5",
       "game": "Portland Trail Blazers at Denver Nuggets",
       "odds": -950,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Under 258.5",
@@ -3660,43 +3644,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs.",
  "model_check": {
   "v1": {
-   "n": 3209,
-   "brier": 0.1536,
-   "logloss": 0.4849,
+   "n": 3232,
+   "brier": 0.1528,
+   "logloss": 0.4831,
    "picks": 811,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.19,
-   "top_picks_graded": 788,
-   "top_picks_won": 660,
-   "top_picks_expected": 659.94,
-   "top_win_rate": 0.8375634517766497
+   "top_picks_graded": 793,
+   "top_picks_won": 665,
+   "top_picks_expected": 664.31,
+   "top_win_rate": 0.8385876418663304
   },
   "v2": {
-   "n": 3209,
-   "brier": 0.1523,
-   "logloss": 0.4806,
+   "n": 3232,
+   "brier": 0.1516,
+   "logloss": 0.4787,
    "picks": 314,
    "avg_clv_fd_pts": 0.35,
    "avg_clv_sharp_pts": 0.4,
-   "top_picks_graded": 308,
-   "top_picks_won": 269,
-   "top_picks_expected": 271.95,
-   "top_win_rate": 0.8733766233766234
+   "top_picks_graded": 310,
+   "top_picks_won": 271,
+   "top_picks_expected": 273.75,
+   "top_win_rate": 0.8741935483870967
   },
-  "graded": 3209,
+  "graded": 3232,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3209,
-    "v2": 3209,
+    "v1": 3232,
+    "v2": 3232,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4849,
-    "v2": 0.4806,
+    "v1": 0.4831,
+    "v2": 0.4787,
     "pass": true
    },
    {
@@ -3713,14 +3697,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 788,
-    "v2": 308,
+    "v1": 793,
+    "v2": 310,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "660/788",
-    "v2": "269/308",
+    "v1": "665/793",
+    "v2": "271/310",
     "pass": true
    }
   ],
