@@ -254,3 +254,9 @@ Baseline v1: ladder 1-4 legs 26/36 (1.3x, ROI -0.09); 5+ legs 33/177 (avg 11.6x,
 - Locked-ticket safety: a shorter ladder now keeps already-locked tickets instead of dropping them.
 BUG FIXED: 0-candidate builds (published blank boards ~11:07 PM-12:44 AM, 5:03-5:45 AM, 9:30-9:32 AM ET) - FanDuel PA content page returned an empty event list (valid JSON, so no NJ fallback and it was cached). Now: empty event list -> NJ fallback; and if a build still has 0 candidates while games remain, build.py aborts (exit 3) so the last good board stays up.
 Published 8027246 (site 200). Ladder 13 tickets.
+
+## 2026-11-03 10:30 AM ET intraday review
+Status: v1 live, no ladder locked (first puck drop 7:00 PM ET). Slate: 11 NHL, 2 CFB, no NBA/NFL. Graded: nothing new since 3 AM (record ladder 58-177, Best 1-8, Lottery 6-139, green 21-21).
+Research (Daily Faceoff ~10:35 AM ET, 2 of 22 confirmed): Wedgewood (backup) confirmed for COL at CBJ; Bobrovsky confirmed for TOR vs UTA (3+ GA in 9 of 10); Lankinen projected for VAN (.807).
+Change (backup /workspace/kfsp_backups/2026-11-03-am/): news_adj today -2.5 pts on COL, TOR, VAN side legs (same rule as 11-02). No model change; the 10:10 AM backtest already covered fixes (all rejected except the blank-board bug fix). v2 still behind v1 on ticket backtest, stays off.
+Published 230f20a.
