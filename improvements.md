@@ -243,3 +243,14 @@ Record (all graded tickets): 65 won, 324 lost (16.7%) vs 73.9 expected. Ladder 5
 Calibration (stats.json): 85-90% bucket 87.1% vs 87.3% (519), 80-85% 82.9% vs 82.6%, 95%+ 94.5% vs 96.0%; 90-95% still 78% overall because of the 10-25/26 misses. NBA legs 76.1% vs 80.9% est (477) remain the most overconfident; NHL 62.6% vs 66.6%; CFB 86.3% vs 83.2%.
 11-02 losses: Heat +17.5 at Lakers (on 9 tickets), NOP-MEM Unders 252.5/253.5/254.5 (16 slots), Sharks -1.5 (5), Booker prop (5). Same pattern as 11-01: one leg reused across many ladder tickets sinks several at once. Now 10 graded days exist, so a leg-reuse cap is due for a proper rebuild-based backtest; not adopted tonight without one (no quick simulation possible from ticket logs alone).
 No model change. v1 stays live; v2 still leads in shadow (recommended to the user only).
+
+## 2026-11-03 ~10:10 AM ET full backtest (user t54u: "do whatever works best"; 10:11 AM "still want good payouts")
+Backup /workspace/kfsp_backups/2026-11-03/. Backtest: re-ran the ladder/Best/Lottery builders on every graded shadow leg, 9 graded days (10-25..11-02), scoring win rate AND payout/ROI per $1.
+Baseline v1: ladder 1-4 legs 26/36 (1.3x, ROI -0.09); 5+ legs 33/177 (avg 11.6x, ROI +0.27); green 21/34; Best 1/9; Lottery (25-1000x) 1/34; top pick per game 83.7%.
+- Leg-reuse cap 3/5/8: 5+ legs 21/139, 25/156, 25/169 (ROI -0.51/-0.15) -> REJECTED (fewer wins; sharing the best legs beats spreading to weaker ones).
+- NBA shrink 10%/20%: 1-4 legs 25/36, 24/36; green 21/32, 15/27; Lottery 0/34 -> REJECTED.
+- v2 live: top pick 84.9% vs 83.7%, but 1-4 legs 24/36, 5+ 27/176 (ROI -0.27), green 22/38, Lottery 0/34 -> REJECTED, v1 stays live. (v2+shrink+cap3 combo 30/142 ROI -0.19: worse ROI, cherry-picked, rejected.)
+- Leg floor 0.85 on 5+ leg tickets: 5+ win rate 19% -> 31% (30/98) but avg payout 11.6x -> 3.5x, ROI +0.27 -> 0.00, and today's ladder would stop at 4 legs. 0.82: 29/134, 4.5x, ROI -0.11. REJECTED per payout requirement; code kept behind legs.json ladder_leg_floor_5plus=0 (off).
+- Locked-ticket safety: a shorter ladder now keeps already-locked tickets instead of dropping them.
+BUG FIXED: 0-candidate builds (published blank boards ~11:07 PM-12:44 AM, 5:03-5:45 AM, 9:30-9:32 AM ET) - FanDuel PA content page returned an empty event list (valid JSON, so no NJ fallback and it was cached). Now: empty event list -> NJ fallback; and if a build still has 0 candidates while games remain, build.py aborts (exit 3) so the last good board stays up.
+Published 8027246 (site 200). Ladder 13 tickets.
