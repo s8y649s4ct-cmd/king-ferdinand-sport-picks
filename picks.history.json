@@ -67316,7 +67316,7 @@
     "raw_prob": 0.7427,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": -300
+    "close_odds": -310
    },
    {
     "id": "401909918:7711256:742.195334350",
@@ -67384,7 +67384,7 @@
    }
   ],
   "logged": "2026-11-03 01:50 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -69917,7 +69917,7 @@
     "raw_prob": 0.8719,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909907:7729460:742.195331917",
@@ -71135,7 +71135,7 @@
     "raw_prob": 0.8799,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401909909:7891314:742.195330976",
@@ -71549,7 +71549,7 @@
     "raw_prob": 0.8719,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909910:7712356:742.195332285",
@@ -71929,7 +71929,7 @@
     "raw_prob": 0.8665,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": -850
+    "close_odds": -800
    },
    {
     "id": "401909913:7891119:742.195332861",
@@ -72627,7 +72627,7 @@
     "raw_prob": 0.8799,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401909909:7891314:742.195330976",
@@ -72929,25 +72929,9 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.04130381598,
-  "fd_payout_x": 25.5,
+  "est_prob": 0.0319111191,
+  "fd_payout_x": 28.42,
   "legs_detail": [
-   {
-    "id": "401892632:25615:742.194950748",
-    "event": "401892632",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "San Jose Sharks -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3671,
-    "raw_prob": 0.3671,
-    "game": "Calgary Flames at San Jose Sharks",
-    "result": null,
-    "close_odds": 205
-   },
    {
     "id": "401909919:237487:742.195046728",
     "event": "401909919",
@@ -72957,8 +72941,8 @@
     "pick": "Phoenix Suns",
     "market": "Moneyline",
     "odds": 120,
-    "prob": 0.4515,
-    "raw_prob": 0.4515,
+    "prob": 0.4575,
+    "raw_prob": 0.4575,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
     "close_odds": 120
@@ -72978,9 +72962,90 @@
     "game": "Toronto Raptors at LA Clippers",
     "result": null,
     "close_odds": 280
+   },
+   {
+    "id": "401909921:36981613:742.195342712",
+    "event": "401909921",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 3.5,
+    "ou": "over",
+    "player": "Davion Mitchell",
+    "stat": "REB",
+    "pick": "Davion Mitchell",
+    "market": "4+ Rebounds",
+    "odds": 240,
+    "prob": 0.2799,
+    "raw_prob": 0.2799,
+    "game": "Miami Heat at Los Angeles Lakers",
+    "result": null,
+    "close_odds": 240
    }
   ],
-  "logged": "2026-11-03 01:50 UTC",
+  "logged": "2026-11-03 02:01 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-02-lottery-3-leg best-chance lottery",
+  "date": "2026-11-02",
+  "type": "lottery",
+  "label": "3-leg best-chance lottery",
+  "n": 3,
+  "est_prob": 0.699184846368,
+  "fd_payout_x": 1.35,
+  "legs_detail": [
+   {
+    "id": "401909920:7913116:742.195349302",
+    "event": "401909920",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 11.5,
+    "pick": "Toronto Raptors +11.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8912,
+    "raw_prob": 0.8912,
+    "game": "Toronto Raptors at LA Clippers",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909919:7949840:742.195334951",
+    "event": "401909919",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 17.5,
+    "pick": "Phoenix Suns +17.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8889,
+    "raw_prob": 0.8889,
+    "game": "Phoenix Suns at Golden State Warriors",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909921:7889006:742.195347756",
+    "event": "401909921",
+    "sport": "nba",
+    "kind": "total",
+    "line": 258.5,
+    "ou": "under",
+    "pick": "Under 258.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8826,
+    "raw_prob": 0.8826,
+    "game": "Miami Heat at Los Angeles Lakers",
+    "result": null,
+    "close_odds": -950
+   }
+  ],
+  "logged": "2026-11-03 02:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -73064,7 +73129,7 @@
    }
   ],
   "logged": "2026-11-03 01:50 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -73109,7 +73174,7 @@
     "raw_prob": 0.2336,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": 300
+    "close_odds": 285
    },
    {
     "id": "401909921:36981613:742.195342690",
@@ -73165,7 +73230,7 @@
    }
   ],
   "logged": "2026-11-03 01:50 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -73210,7 +73275,7 @@
     "raw_prob": 0.2336,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": 300
+    "close_odds": 285
    },
    {
     "id": "401909921:36981613:742.195342690",
@@ -73266,7 +73331,7 @@
    }
   ],
   "logged": "2026-11-03 01:50 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -73361,7 +73426,7 @@
    }
   ],
   "logged": "2026-11-03 01:50 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -73803,7 +73868,7 @@
     "raw_prob": 0.2336,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": 300
+    "close_odds": 285
    },
    {
     "id": "401909920:36981569:742.195344717",
@@ -74010,7 +74075,7 @@
     "raw_prob": 0.2336,
     "game": "Phoenix Suns at Golden State Warriors",
     "result": null,
-    "close_odds": 300
+    "close_odds": 285
    },
    {
     "id": "401909917:41472494:742.195314499",
