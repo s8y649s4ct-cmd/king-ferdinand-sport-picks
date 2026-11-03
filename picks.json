@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 03:57 UTC",
+ "updated": "2026-11-03 04:07 UTC",
  "date": "2026-11-02",
  "ladder_stats": {
   "tickets": 0,
@@ -24,7 +24,7 @@
    "name": "Chicago Bears at Seattle Seahawks",
    "start": "2026-11-03T01:15Z",
    "state": "in",
-   "status": "8:20 - 4th",
+   "status": "4:46 - 4th",
    "venue": "Lumen Field",
    "indoor": false,
    "city": {
@@ -500,8 +500,8 @@
    "sport": "nba",
    "name": "Boston Celtics at Houston Rockets",
    "start": "2026-11-03T01:30Z",
-   "state": "in",
-   "status": "1:21 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
    "city": {
@@ -516,28 +516,28 @@
     "home": {
      "name": "Houston Rockets",
      "short": "Rockets",
-     "score": "107",
-     "winner": null,
-     "record": "6-1",
+     "score": "109",
+     "winner": true,
+     "record": "7-1",
      "ml_open": null,
      "ml": null,
      "tid": "10",
      "abbr": "HOU",
-     "home_rec": "3-0",
+     "home_rec": "4-0",
      "road_rec": "3-1"
     },
     "away": {
      "name": "Boston Celtics",
      "short": "Celtics",
-     "score": "89",
-     "winner": null,
-     "record": "5-1",
+     "score": "93",
+     "winner": false,
+     "record": "5-2",
      "ml_open": null,
      "ml": null,
      "tid": "2",
      "abbr": "BOS",
      "home_rec": "4-0",
-     "road_rec": "1-1"
+     "road_rec": "1-2"
     }
    }
   },
@@ -546,8 +546,8 @@
    "sport": "nba",
    "name": "Utah Jazz at San Antonio Spurs",
    "start": "2026-11-03T01:30Z",
-   "state": "in",
-   "status": "2:24 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Frost Bank Center",
    "indoor": true,
    "city": {
@@ -562,28 +562,28 @@
     "home": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "111",
-     "winner": null,
-     "record": "4-2",
+     "score": "119",
+     "winner": true,
+     "record": "5-2",
      "ml_open": null,
      "ml": null,
      "tid": "24",
      "abbr": "SA",
-     "home_rec": "2-2",
+     "home_rec": "3-2",
      "road_rec": "2-0"
     },
     "away": {
      "name": "Utah Jazz",
      "short": "Jazz",
-     "score": "94",
-     "winner": null,
-     "record": "1-5",
+     "score": "97",
+     "winner": false,
+     "record": "1-6",
      "ml_open": null,
      "ml": null,
      "tid": "26",
      "abbr": "UTAH",
      "home_rec": "1-4",
-     "road_rec": "0-1"
+     "road_rec": "0-2"
     }
    }
   },
@@ -593,7 +593,7 @@
    "name": "Portland Trail Blazers at Denver Nuggets",
    "start": "2026-11-03T02:00Z",
    "state": "in",
-   "status": "10:23 - 4th",
+   "status": "6:59 - 4th",
    "venue": "Ball Arena",
    "indoor": true,
    "city": {
@@ -608,7 +608,7 @@
     "home": {
      "name": "Denver Nuggets",
      "short": "Nuggets",
-     "score": "89",
+     "score": "94",
      "winner": null,
      "record": "3-2",
      "ml_open": null,
@@ -621,7 +621,7 @@
     "away": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "87",
+     "score": "98",
      "winner": null,
      "record": "4-1",
      "ml_open": null,
@@ -639,7 +639,7 @@
    "name": "Phoenix Suns at Golden State Warriors",
    "start": "2026-11-03T03:00Z",
    "state": "in",
-   "status": "4:12 - 2nd",
+   "status": "1:40 - 2nd",
    "venue": "Chase Center",
    "indoor": true,
    "city": {
@@ -654,7 +654,7 @@
     "home": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "39",
+     "score": "46",
      "winner": null,
      "record": "4-3",
      "ml_open": null,
@@ -667,7 +667,7 @@
     "away": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "51",
+     "score": "55",
      "winner": null,
      "record": "1-3",
      "ml_open": null,
@@ -685,7 +685,7 @@
    "name": "Toronto Raptors at LA Clippers",
    "start": "2026-11-03T03:00Z",
    "state": "in",
-   "status": "6:11 - 2nd",
+   "status": "3:11 - 2nd",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -700,7 +700,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "44",
+     "score": "57",
      "winner": null,
      "record": "1-5",
      "ml_open": null,
@@ -713,7 +713,7 @@
     "away": {
      "name": "Toronto Raptors",
      "short": "Raptors",
-     "score": "36",
+     "score": "42",
      "winner": null,
      "record": "3-3",
      "ml_open": null,
@@ -731,7 +731,7 @@
    "name": "Miami Heat at Los Angeles Lakers",
    "start": "2026-11-03T03:00Z",
    "state": "in",
-   "status": "6:57 - 2nd",
+   "status": "3:04 - 2nd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -746,7 +746,7 @@
     "home": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "48",
+     "score": "63",
      "winner": null,
      "record": "5-2",
      "ml_open": null,
@@ -759,7 +759,7 @@
     "away": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "45",
+     "score": "58",
      "winner": null,
      "record": "2-4",
      "ml_open": null,
@@ -918,7 +918,7 @@
    "name": "Calgary Flames at San Jose Sharks",
    "start": "2026-11-03T02:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "19:27 - 3rd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -1926,14 +1926,14 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-03 03:57 UTC",
-  "graded_legs": 1178,
+  "updated": "2026-11-03 04:07 UTC",
+  "graded_legs": 1190,
   "calibration": {
    "85-90%": {
-    "n": 488,
-    "wins": 425,
+    "n": 497,
+    "wins": 434,
     "pred": 0.873,
-    "hit": 0.871
+    "hit": 0.873
    },
    "75-80%": {
     "n": 101,
@@ -1984,10 +1984,10 @@
     "hit": 0.5
    },
    "25-30%": {
-    "n": 55,
+    "n": 57,
     "wins": 12,
     "pred": 0.275,
-    "hit": 0.218
+    "hit": 0.211
    },
    "60-65%": {
     "n": 14,
@@ -2002,10 +2002,10 @@
     "hit": 0.483
    },
    "20-25%": {
-    "n": 32,
+    "n": 33,
     "wins": 7,
     "pred": 0.237,
-    "hit": 0.219
+    "hit": 0.212
    },
    "35-40%": {
     "n": 31,
@@ -2040,10 +2040,10 @@
     "hit": 0.863
    },
    "nba": {
-    "n": 427,
-    "wins": 334,
-    "pred": 0.828,
-    "hit": 0.782
+    "n": 439,
+    "wins": 343,
+    "pred": 0.826,
+    "hit": 0.781
    },
    "nhl": {
     "n": 199,
@@ -2096,16 +2096,16 @@
   },
   "by_market": {
    "total": {
-    "n": 537,
-    "wins": 439,
-    "pred": 0.82,
-    "hit": 0.818
+    "n": 540,
+    "wins": 442,
+    "pred": 0.821,
+    "hit": 0.819
    },
    "spread": {
-    "n": 486,
-    "wins": 361,
-    "pred": 0.766,
-    "hit": 0.743
+    "n": 491,
+    "wins": 366,
+    "pred": 0.767,
+    "hit": 0.745
    },
    "dc": {
     "n": 45,
@@ -2114,10 +2114,10 @@
     "hit": 0.778
    },
    "ml": {
-    "n": 20,
-    "wins": 16,
-    "pred": 0.613,
-    "hit": 0.8
+    "n": 21,
+    "wins": 17,
+    "pred": 0.626,
+    "hit": 0.81
    },
    "dnb": {
     "n": 14,
@@ -2132,17 +2132,17 @@
     "hit": 0.511
    },
    "prop": {
-    "n": 31,
+    "n": 34,
     "wins": 8,
-    "pred": 0.305,
-    "hit": 0.258
+    "pred": 0.302,
+    "hit": 0.235
    }
   },
   "parlays": {
-   "graded": 371,
+   "graded": 372,
    "won": 56,
    "expected": 69.35,
-   "pending": 18,
+   "pending": 17,
    "by_type": {
     "ladder": {
      "graded": 226,
@@ -2155,7 +2155,7 @@
      "expected": 1.61
     },
     "lottery": {
-     "graded": 137,
+     "graded": 138,
      "won": 4,
      "expected": 8.84
     }
@@ -2318,7 +2318,7 @@
       "pick": "San Antonio Spurs -1.5",
       "game": "Utah Jazz at San Antonio Spurs",
       "odds": -1000,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -3660,43 +3660,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 0 legs.",
  "model_check": {
   "v1": {
-   "n": 3176,
-   "brier": 0.155,
-   "logloss": 0.4885,
+   "n": 3209,
+   "brier": 0.1536,
+   "logloss": 0.4849,
    "picks": 811,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.19,
-   "top_picks_graded": 783,
-   "top_picks_won": 655,
-   "top_picks_expected": 655.51,
-   "top_win_rate": 0.8365261813537676
+   "top_picks_graded": 788,
+   "top_picks_won": 660,
+   "top_picks_expected": 659.94,
+   "top_win_rate": 0.8375634517766497
   },
   "v2": {
-   "n": 3176,
-   "brier": 0.1538,
-   "logloss": 0.4844,
+   "n": 3209,
+   "brier": 0.1523,
+   "logloss": 0.4806,
    "picks": 314,
    "avg_clv_fd_pts": 0.35,
    "avg_clv_sharp_pts": 0.4,
-   "top_picks_graded": 306,
-   "top_picks_won": 267,
-   "top_picks_expected": 270.11,
-   "top_win_rate": 0.8725490196078431
+   "top_picks_graded": 308,
+   "top_picks_won": 269,
+   "top_picks_expected": 271.95,
+   "top_win_rate": 0.8733766233766234
   },
-  "graded": 3176,
+  "graded": 3209,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3176,
-    "v2": 3176,
+    "v1": 3209,
+    "v2": 3209,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4885,
-    "v2": 0.4844,
+    "v1": 0.4849,
+    "v2": 0.4806,
     "pass": true
    },
    {
@@ -3713,14 +3713,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 783,
-    "v2": 306,
+    "v1": 788,
+    "v2": 308,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "655/783",
-    "v2": "267/306",
+    "v1": "660/788",
+    "v2": "269/308",
     "pass": true
    }
   ],
