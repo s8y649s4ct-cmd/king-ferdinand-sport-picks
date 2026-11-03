@@ -78,7 +78,8 @@ def ggrp(lg): return 'soccer' if SPORTS.get(lg)=='soccer' else lg
 fdev=[]
 for typ,pid in pages:
   q=f"page={typ}&"+(f"customPageId={pid}" if typ=='CUSTOM' else f"eventTypeId={pid}")
-  d=get(f"{FD}content-managed-page?{q}&_ak={K}&timezone=America/New_York",ttl=240) or get(f"{FDNJ}content-managed-page?{q}&_ak={K}&timezone=America/New_York",ttl=240) or {}
+  d=get(f"{FD}content-managed-page?{q}&_ak={K}&timezone=America/New_York",ttl=240)
+  if not ((d or {}).get('attachments') or {}).get('events'): d=get(f"{FDNJ}content-managed-page?{q}&_ak={K}&timezone=America/New_York",ttl=240) or {}
   for e in (d.get('attachments') or {}).get('events',{}).values():
     n=e['name']
     if ' @ ' in n: a,h=n.split(' @ ',1)
@@ -234,6 +235,8 @@ for _lg in ['nba','nhl']:
       for _i in _t.get('injuries',[]):
         if (_i.get('status') or '').lower() in _BADST: _badp.add(_i['athlete']['displayName'].lower())
   except Exception as _e: print('inj filter fail',_lg,_e)
+# 2026-11-03 bug fix: FanDuel's public API sometimes returns empty event lists (seen 11 PM-12:45 AM, 5-5:45 AM, 9:30 AM ET); the build then published a blank board. Now abort and keep the last good site.
+if not cands and any(g['state']=='pre' for g in games): print('ABORT: 0 FanDuel candidates with games still to play (FanDuel feed empty); keeping last published board'); raise SystemExit(3)
 _n0=len(cands); cands=[L for L in cands if not (L.get('kind')=='prop' and (L.get('player') or '').lower() in _badp)]
 print('injury-excluded main-board props:',_n0-len(cands))
 # ---------- calibration ----------
@@ -280,6 +283,7 @@ for L in cands:
   if G[L['event']]['state']=='pre': byg.setdefault(L['event'],[]).append(L)
 for v in byg.values(): v.sort(key=lambda L:-L['prob'])
 NG=len(byg); NMAX=min(MAXLEGS,NG); CAP=max(1,math.ceil(sum(range(1,NMAX+1))/max(NG,1)))+1
+LEG_FLOOR=cfg.get('ladder_leg_floor_5plus',0.85)
 guse={}; luse={}; pars=[]
 for n in range(1,NMAX+1):
   opts=[]
@@ -288,10 +292,14 @@ for n in range(1,NMAX+1):
     # 2026-10-26 review: alternates only within 2 pts of the game's top leg, and never the opposite side of the same market
     # (graded data: game's top leg won 94%, near-top alternates ~80%, same-market opposite-side alternates 58%).
     alts=[x for x in ls[:6] if x['prob']>=ls[0]['prob']-0.02 and not(x['kind']==ls[0]['kind'] and (x.get('side'),x.get('ou'))!=(ls[0].get('side'),ls[0].get('ou')))] or ls[:1]
+    # 2026-11-03 (t54u): 5+ leg ladder tickets only use legs rated >= LEG_FLOOR (backtest 9 days: 5+ leg tickets 33/177 -> 30/98 won, 1-4 leg unchanged, green 21/34 -> 33/52)
+    if n>=5: alts=[x for x in alts if x['prob']>=LEG_FLOOR]
+    if not alts: continue
     L=max(alts,key=lambda L:L['prob']-0.04*luse.get(L['id'],0))
     opts.append((L['prob']-0.15*guse.get(e,0)-0.04*luse.get(L['id'],0),L))
   if len(opts)<n:  # relax cap
-    opts=[(ls[0]['prob']-0.15*guse.get(e,0),ls[0]) for e,ls in byg.items()]
+    opts=[(ls[0]['prob']-0.15*guse.get(e,0),ls[0]) for e,ls in byg.items() if n<5 or ls[0]['prob']>=LEG_FLOOR]
+  if len(opts)<n: break  # not enough strong legs for a bigger ticket
   sel=[L for _,L in sorted(opts,key=lambda t:-t[0])[:n]]
   for L in sel: guse[L['event']]=guse.get(L['event'],0)+1; luse[L['id']]=luse.get(L['id'],0)+1
   sel.sort(key=lambda L:-L['prob'])
@@ -307,6 +315,12 @@ for i,p in enumerate(pars):
     for l in o['legs_full']:
       luse.setdefault(l['id'],1); guse.setdefault(l['event'],1)
   else: _LK[k]={'date':DATE,'ticket':p,'legs_full':[ALLC.get(x) or next(L for L in cands if L['id']==x) for x in p['legs']]}
+# keep locked tickets that the (possibly shorter) rebuilt ladder no longer reaches
+for k,o in sorted(_LK.items(),key=lambda kv:kv[1]['ticket']['n']):
+  if o['ticket']['n']>len(pars) and any(G.get(l['event'],{}).get('state','pre')!='pre' for l in o['legs_full']):
+    q=dict(o['ticket']); q['locked']=True; pars.append(q)
+    for l in o['legs_full']: luse[l['id']]=luse.get(l['id'],0)+1; guse[l['event']]=guse.get(l['event'],0)+1
+_LK={k:o for k,o in _LK.items() if o['ticket']['n']<=len(pars) or o['ticket'].get('locked') or any(G.get(l['event'],{}).get('state','pre')!='pre' for l in o['legs_full'])}
 json.dump(_LK,open('ladder.lock.json','w'))
 _LOCKLEGS={l['id']:l for o in _LK.values() for l in o['legs_full']}
 for p in pars:
