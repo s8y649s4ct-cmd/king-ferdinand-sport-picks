@@ -260,3 +260,9 @@ Status: v1 live, no ladder locked (first puck drop 7:00 PM ET). Slate: 11 NHL, 2
 Research (Daily Faceoff ~10:35 AM ET, 2 of 22 confirmed): Wedgewood (backup) confirmed for COL at CBJ; Bobrovsky confirmed for TOR vs UTA (3+ GA in 9 of 10); Lankinen projected for VAN (.807).
 Change (backup /workspace/kfsp_backups/2026-11-03-am/): news_adj today -2.5 pts on COL, TOR, VAN side legs (same rule as 11-02). No model change; the 10:10 AM backtest already covered fixes (all rejected except the blank-board bug fix). v2 still behind v1 on ticket backtest, stays off.
 Published 230f20a.
+
+## 2026-11-03 3:00 PM ET intraday review
+Status: v1 live, no ladder locked yet (first puck drop 7:00 PM ET). Graded: nothing new since 3 AM (ladder 58-177, Best 1-8, Lottery 6-139, green 21-21).
+Research (Daily Faceoff ~3:05 PM ET, 16 of 22 confirmed): Cossa (.859) confirmed for UTA at TOR; Garand (.845 last 4, 0-4-0) for NYR vs STL; backup Brossoit for ANA at VAN; Wedgewood, Bobrovsky confirmed, Lankinen likely (already adjusted at 10:30). Strong starters: Wallstedt (MIN), Fowler (MTL), Oettinger (DAL), Hellebuyck (NJD), Kochetkov likely (CAR).
+Change (backup /workspace/kfsp_backups/2026-11-03-pm/): news_adj today -2.5 pts on UTA, NYR, ANA side legs (same rule). No model change; no new evidence beyond the 10:10 AM backtest. v2 stays off.
+Published bebec1a (site 200).
