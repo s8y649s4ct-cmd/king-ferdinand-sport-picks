@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 04:48 UTC",
+ "updated": "2026-11-04 04:59 UTC",
  "date": "2026-11-03",
  "ladder_stats": {
   "tickets": 13,
@@ -1170,8 +1170,8 @@
    "sport": "college-football",
    "name": "Buffalo Bulls at Miami (OH) RedHawks",
    "start": "2026-11-04T01:00Z",
-   "state": "in",
-   "status": "OT",
+   "state": "post",
+   "status": "Final/OT",
    "venue": "Yager Stadium",
    "indoor": false,
    "city": {
@@ -1179,23 +1179,7 @@
     "state": "OH",
     "country": "USA"
    },
-   "espn_wx": {
-    "displayValue": "7",
-    "temperature": 70,
-    "highTemperature": 70,
-    "conditionId": "Cloudy",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "45056"
-     ],
-     "href": "http://www.accuweather.com/en/us/yager-stadium-oh/45056/current-weather/53625_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
+   "espn_wx": null,
    "line": null,
    "total": null,
    "book": null,
@@ -1204,27 +1188,27 @@
      "name": "Miami (OH) RedHawks",
      "short": "Miami OH",
      "score": "31",
-     "winner": null,
-     "record": "5-3",
+     "winner": false,
+     "record": "5-4",
      "ml_open": null,
      "ml": null,
      "tid": "193",
      "abbr": "M-OH",
-     "home_rec": null,
-     "road_rec": null
+     "home_rec": "3-2",
+     "road_rec": "2-2"
     },
     "away": {
      "name": "Buffalo Bulls",
      "short": "Buffalo",
      "score": "34",
-     "winner": null,
-     "record": "5-3",
+     "winner": true,
+     "record": "6-3",
      "ml_open": null,
      "ml": null,
      "tid": "2084",
      "abbr": "BUFF",
-     "home_rec": null,
-     "road_rec": null
+     "home_rec": "4-1",
+     "road_rec": "2-2"
     }
    }
   },
@@ -2373,8 +2357,8 @@
  "weather": [
   {
    "g": "Buffalo Bulls at Miami (OH) RedHawks",
-   "w": "7, 70F",
-   "src": "ESPN/AccuWeather"
+   "w": "48.2F, wind 6.9 mph, rain 0%",
+   "src": "open-meteo"
   },
   {
    "g": "Ohio Bobcats at Akron Zips",
@@ -2384,14 +2368,14 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-04 04:48 UTC",
-  "graded_legs": 1285,
+  "updated": "2026-11-04 04:59 UTC",
+  "graded_legs": 1291,
   "calibration": {
    "85-90%": {
-    "n": 522,
-    "wins": 455,
+    "n": 525,
+    "wins": 456,
     "pred": 0.873,
-    "hit": 0.872
+    "hit": 0.869
    },
    "75-80%": {
     "n": 108,
@@ -2424,10 +2408,10 @@
     "hit": 0.945
    },
    "70-75%": {
-    "n": 33,
-    "wins": 27,
+    "n": 34,
+    "wins": 28,
     "pred": 0.728,
-    "hit": 0.818
+    "hit": 0.824
    },
    "40-45%": {
     "n": 29,
@@ -2454,16 +2438,16 @@
     "hit": 0.444
    },
    "30-35%": {
-    "n": 33,
+    "n": 34,
     "wins": 15,
     "pred": 0.325,
-    "hit": 0.455
+    "hit": 0.441
    },
    "20-25%": {
-    "n": 42,
+    "n": 43,
     "wins": 8,
     "pred": 0.236,
-    "hit": 0.19
+    "hit": 0.186
    },
    "35-40%": {
     "n": 34,
@@ -2492,10 +2476,10 @@
     "hit": 0.726
    },
    "college-football": {
-    "n": 209,
-    "wins": 180,
-    "pred": 0.83,
-    "hit": 0.861
+    "n": 215,
+    "wins": 182,
+    "pred": 0.825,
+    "hit": 0.847
    },
    "nba": {
     "n": 477,
@@ -2554,16 +2538,16 @@
   },
   "by_market": {
    "total": {
-    "n": 575,
-    "wins": 466,
+    "n": 578,
+    "wins": 467,
     "pred": 0.816,
-    "hit": 0.81
+    "hit": 0.808
    },
    "spread": {
-    "n": 537,
-    "wins": 392,
-    "pred": 0.757,
-    "hit": 0.73
+    "n": 540,
+    "wins": 393,
+    "pred": 0.756,
+    "hit": 0.728
    },
    "dc": {
     "n": 45,
@@ -2597,15 +2581,15 @@
    }
   },
   "parlays": {
-   "graded": 414,
+   "graded": 416,
    "won": 67,
-   "expected": 79.73,
-   "pending": 2,
+   "expected": 80.86,
+   "pending": 0,
    "by_type": {
     "ladder": {
-     "graded": 246,
+     "graded": 248,
      "won": 59,
-     "expected": 65.08
+     "expected": 66.21
     },
     "best": {
      "graded": 10,
@@ -2630,15 +2614,15 @@
  },
  "favorites_record": {
   "won": 21,
-  "lost": 23,
-  "pending": 1,
-  "win_pct": 0.477,
+  "lost": 24,
+  "pending": 0,
+  "win_pct": 0.467,
   "by_legs": {
    "2": {
     "won": 8,
-    "lost": 2,
-    "pending": 1,
-    "win_pct": 0.8
+    "lost": 3,
+    "pending": 0,
+    "win_pct": 0.727
    },
    "3": {
     "won": 7,
@@ -2686,7 +2670,7 @@
       "pick": "Over (37.5)",
       "game": "Buffalo Bulls at Miami (OH) RedHawks",
       "odds": -295,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Edmonton Oilers +2.5",
@@ -2745,14 +2729,14 @@
     "n": 2,
     "est_prob": 0.7404,
     "fd_payout_x": 1.25,
-    "result": null,
+    "result": "loss",
     "source": "logged",
     "legs": [
      {
       "pick": "Under (62.5)",
       "game": "Buffalo Bulls at Miami (OH) RedHawks",
       "odds": -1000,
-      "result": null
+      "result": "loss"
      },
      {
       "pick": "Under 8.5",
@@ -4208,43 +4192,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 13 legs.",
  "model_check": {
   "v1": {
-   "n": 3447,
-   "brier": 0.1537,
-   "logloss": 0.4848,
+   "n": 3462,
+   "brier": 0.1541,
+   "logloss": 0.486,
    "picks": 850,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.18,
-   "top_picks_graded": 842,
+   "top_picks_graded": 846,
    "top_picks_won": 703,
-   "top_picks_expected": 702.13,
-   "top_win_rate": 0.834916864608076
+   "top_picks_expected": 705.58,
+   "top_win_rate": 0.8309692671394799
   },
   "v2": {
-   "n": 3447,
-   "brier": 0.1519,
-   "logloss": 0.4793,
+   "n": 3462,
+   "brier": 0.1524,
+   "logloss": 0.4808,
    "picks": 327,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.38,
-   "top_picks_graded": 326,
+   "top_picks_graded": 327,
    "top_picks_won": 285,
-   "top_picks_expected": 287.79,
-   "top_win_rate": 0.8742331288343558
+   "top_picks_expected": 288.68,
+   "top_win_rate": 0.8715596330275229
   },
-  "graded": 3447,
+  "graded": 3462,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3447,
-    "v2": 3447,
+    "v1": 3462,
+    "v2": 3462,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4848,
-    "v2": 0.4793,
+    "v1": 0.486,
+    "v2": 0.4808,
     "pass": true
    },
    {
@@ -4261,14 +4245,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 842,
-    "v2": 326,
+    "v1": 846,
+    "v2": 327,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "703/842",
-    "v2": "285/326",
+    "v1": "703/846",
+    "v2": "285/327",
     "pass": true
    }
   ],
