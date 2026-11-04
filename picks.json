@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 02:51 UTC",
+ "updated": "2026-11-04 03:01 UTC",
  "date": "2026-11-03",
  "ladder_stats": {
   "tickets": 13,
@@ -1171,7 +1171,7 @@
    "name": "Ohio Bobcats at Akron Zips",
    "start": "2026-11-04T00:00Z",
    "state": "in",
-   "status": "9:33 - 4th",
+   "status": "7:56 - 4th",
    "venue": "InfoCision Stadium",
    "indoor": false,
    "city": {
@@ -1216,7 +1216,7 @@
     "away": {
      "name": "Ohio Bobcats",
      "short": "Ohio",
-     "score": "14",
+     "score": "21",
      "winner": null,
      "record": "6-2",
      "ml_open": null,
@@ -1234,7 +1234,7 @@
    "name": "Buffalo Bulls at Miami (OH) RedHawks",
    "start": "2026-11-04T01:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "15:00 - 3rd",
    "venue": "Yager Stadium",
    "indoor": false,
    "city": {
@@ -1244,8 +1244,8 @@
    },
    "espn_wx": {
     "displayValue": "7",
-    "temperature": 70,
-    "highTemperature": 70,
+    "temperature": 71,
+    "highTemperature": 71,
     "conditionId": "Cloudy",
     "link": {
      "language": "en-US",
@@ -1344,7 +1344,7 @@
    "name": "Winnipeg Jets at Montreal Canadiens",
    "start": "2026-11-04T00:00Z",
    "state": "in",
-   "status": "0:59 - 3rd",
+   "status": "2:34 - OT",
    "venue": "Bell Centre",
    "indoor": true,
    "city": {
@@ -1373,7 +1373,7 @@
     "away": {
      "name": "Winnipeg Jets",
      "short": "Jets",
-     "score": "3",
+     "score": "4",
      "winner": null,
      "record": "4-8-3",
      "ml_open": null,
@@ -1437,8 +1437,8 @@
    "sport": "nhl",
    "name": "St. Louis Blues at New York Rangers",
    "start": "2026-11-04T00:00Z",
-   "state": "in",
-   "status": "End of 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Madison Square Garden",
    "indoor": true,
    "city": {
@@ -1455,27 +1455,27 @@
      "name": "New York Rangers",
      "short": "Rangers",
      "score": "3",
-     "winner": null,
-     "record": "7-7-1",
+     "winner": true,
+     "record": "8-7-1",
      "ml_open": null,
      "ml": null,
      "tid": "13",
      "abbr": "NYR",
-     "home_rec": "6-2-0",
+     "home_rec": "7-2-0",
      "road_rec": "1-5-1"
     },
     "away": {
      "name": "St. Louis Blues",
      "short": "Blues",
      "score": "1",
-     "winner": null,
-     "record": "7-6-1",
+     "winner": false,
+     "record": "7-7-1",
      "ml_open": null,
      "ml": null,
      "tid": "19",
      "abbr": "STL",
      "home_rec": "4-2-1",
-     "road_rec": "3-4-0"
+     "road_rec": "3-5-0"
     }
    }
   },
@@ -1673,7 +1673,7 @@
    "name": "Edmonton Oilers at New Jersey Devils",
    "start": "2026-11-04T00:30Z",
    "state": "in",
-   "status": "6:31 - 3rd",
+   "status": "1:17 - 3rd",
    "venue": "Prudential Center",
    "indoor": true,
    "city": {
@@ -2394,14 +2394,14 @@
   },
   {
    "g": "Buffalo Bulls at Miami (OH) RedHawks",
-   "w": "7, 70F",
+   "w": "7, 71F",
    "src": "ESPN/AccuWeather"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-04 02:51 UTC",
-  "graded_legs": 1262,
+  "updated": "2026-11-04 03:01 UTC",
+  "graded_legs": 1264,
   "calibration": {
    "85-90%": {
     "n": 519,
@@ -2416,10 +2416,10 @@
     "hit": 0.804
    },
    "80-85%": {
-    "n": 226,
-    "wins": 187,
+    "n": 227,
+    "wins": 188,
     "pred": 0.825,
-    "hit": 0.827
+    "hit": 0.828
    },
    "65-70%": {
     "n": 21,
@@ -2470,10 +2470,10 @@
     "hit": 0.4
    },
    "30-35%": {
-    "n": 30,
-    "wins": 14,
-    "pred": 0.325,
-    "hit": 0.467
+    "n": 31,
+    "wins": 15,
+    "pred": 0.326,
+    "hit": 0.484
    },
    "20-25%": {
     "n": 42,
@@ -2520,10 +2520,10 @@
     "hit": 0.761
    },
    "nhl": {
-    "n": 227,
-    "wins": 140,
+    "n": 229,
+    "wins": 142,
     "pred": 0.666,
-    "hit": 0.617
+    "hit": 0.62
    },
    "mlb": {
     "n": 10,
@@ -2570,16 +2570,16 @@
   },
   "by_market": {
    "total": {
-    "n": 564,
-    "wins": 459,
+    "n": 565,
+    "wins": 460,
     "pred": 0.819,
     "hit": 0.814
    },
    "spread": {
-    "n": 527,
-    "wins": 387,
-    "pred": 0.761,
-    "hit": 0.734
+    "n": 528,
+    "wins": 388,
+    "pred": 0.76,
+    "hit": 0.735
    },
    "dc": {
     "n": 45,
@@ -2744,7 +2744,7 @@
       "pick": "Under 8.5",
       "game": "St. Louis Blues at New York Rangers",
       "odds": -700,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Utah Mammoth +2.5",
@@ -4224,43 +4224,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 13 legs.",
  "model_check": {
   "v1": {
-   "n": 3369,
+   "n": 3382,
    "brier": 0.1536,
-   "logloss": 0.4846,
+   "logloss": 0.4848,
    "picks": 850,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.18,
-   "top_picks_graded": 825,
-   "top_picks_won": 691,
-   "top_picks_expected": 688.96,
-   "top_win_rate": 0.8375757575757575
+   "top_picks_graded": 827,
+   "top_picks_won": 692,
+   "top_picks_expected": 690.39,
+   "top_win_rate": 0.8367593712212817
   },
   "v2": {
-   "n": 3369,
-   "brier": 0.1521,
-   "logloss": 0.4798,
+   "n": 3382,
+   "brier": 0.1522,
+   "logloss": 0.4802,
    "picks": 327,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.38,
-   "top_picks_graded": 320,
-   "top_picks_won": 279,
-   "top_picks_expected": 282.52,
-   "top_win_rate": 0.871875
+   "top_picks_graded": 321,
+   "top_picks_won": 280,
+   "top_picks_expected": 283.39,
+   "top_win_rate": 0.8722741433021807
   },
-  "graded": 3369,
+  "graded": 3382,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3369,
-    "v2": 3369,
+    "v1": 3382,
+    "v2": 3382,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4846,
-    "v2": 0.4798,
+    "v1": 0.4848,
+    "v2": 0.4802,
     "pass": true
    },
    {
@@ -4277,14 +4277,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 825,
-    "v2": 320,
+    "v1": 827,
+    "v2": 321,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "691/825",
-    "v2": "279/320",
+    "v1": "692/827",
+    "v2": "280/321",
     "pass": true
    }
   ],
