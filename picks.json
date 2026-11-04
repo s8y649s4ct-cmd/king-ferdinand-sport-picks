@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 03:23 UTC",
+ "updated": "2026-11-04 03:32 UTC",
  "date": "2026-11-03",
  "ladder_stats": {
   "tickets": 13,
@@ -1170,8 +1170,8 @@
    "sport": "college-football",
    "name": "Ohio Bobcats at Akron Zips",
    "start": "2026-11-04T00:00Z",
-   "state": "in",
-   "status": "1:52 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "InfoCision Stadium",
    "indoor": false,
    "city": {
@@ -1179,23 +1179,7 @@
     "state": "OH",
     "country": "USA"
    },
-   "espn_wx": {
-    "displayValue": "33",
-    "temperature": 61,
-    "highTemperature": 61,
-    "conditionId": "Clear",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "44304"
-     ],
-     "href": "http://www.accuweather.com/en/us/summa-field-at-infocision-stadium-oh/44308/current-weather/53624_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
+   "espn_wx": null,
    "line": null,
    "total": null,
    "book": null,
@@ -1204,27 +1188,27 @@
      "name": "Akron Zips",
      "short": "Akron",
      "score": "20",
-     "winner": null,
-     "record": "1-7",
+     "winner": false,
+     "record": "1-8",
      "ml_open": null,
      "ml": null,
      "tid": "2006",
      "abbr": "AKR",
-     "home_rec": null,
-     "road_rec": null
+     "home_rec": "1-3",
+     "road_rec": "0-5"
     },
     "away": {
      "name": "Ohio Bobcats",
      "short": "Ohio",
      "score": "28",
-     "winner": null,
-     "record": "6-2",
+     "winner": true,
+     "record": "7-2",
      "ml_open": null,
      "ml": null,
      "tid": "195",
      "abbr": "OHIO",
-     "home_rec": null,
-     "road_rec": null
+     "home_rec": "4-0",
+     "road_rec": "3-2"
     }
    }
   },
@@ -1234,7 +1218,7 @@
    "name": "Buffalo Bulls at Miami (OH) RedHawks",
    "start": "2026-11-04T01:00Z",
    "state": "in",
-   "status": "9:37 - 3rd",
+   "status": "4:21 - 3rd",
    "venue": "Yager Stadium",
    "indoor": false,
    "city": {
@@ -1720,7 +1704,7 @@
    "name": "Carolina Hurricanes at Nashville Predators",
    "start": "2026-11-04T01:00Z",
    "state": "in",
-   "status": "8:22 - 3rd",
+   "status": "5:09 - 3rd",
    "venue": "Bridgestone Arena",
    "indoor": true,
    "city": {
@@ -1767,7 +1751,7 @@
    "name": "Anaheim Ducks at Vancouver Canucks",
    "start": "2026-11-04T02:00Z",
    "state": "in",
-   "status": "10:17 - 2nd",
+   "status": "5:50 - 2nd",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -2389,8 +2373,8 @@
  "weather": [
   {
    "g": "Ohio Bobcats at Akron Zips",
-   "w": "33, 61F",
-   "src": "ESPN/AccuWeather"
+   "w": "63.4F, wind 3.7 mph, rain 1%",
+   "src": "open-meteo"
   },
   {
    "g": "Buffalo Bulls at Miami (OH) RedHawks",
@@ -2400,14 +2384,14 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-04 03:23 UTC",
-  "graded_legs": 1272,
+  "updated": "2026-11-04 03:32 UTC",
+  "graded_legs": 1276,
   "calibration": {
    "85-90%": {
-    "n": 519,
-    "wins": 452,
+    "n": 522,
+    "wins": 455,
     "pred": 0.873,
-    "hit": 0.871
+    "hit": 0.872
    },
    "75-80%": {
     "n": 107,
@@ -2458,10 +2442,10 @@
     "hit": 0.455
    },
    "25-30%": {
-    "n": 66,
+    "n": 67,
     "wins": 14,
-    "pred": 0.276,
-    "hit": 0.212
+    "pred": 0.275,
+    "hit": 0.209
    },
    "60-65%": {
     "n": 16,
@@ -2508,10 +2492,10 @@
     "hit": 0.726
    },
    "college-football": {
-    "n": 205,
-    "wins": 177,
-    "pred": 0.832,
-    "hit": 0.863
+    "n": 209,
+    "wins": 180,
+    "pred": 0.83,
+    "hit": 0.861
    },
    "nba": {
     "n": 477,
@@ -2570,16 +2554,16 @@
   },
   "by_market": {
    "total": {
-    "n": 568,
-    "wins": 461,
+    "n": 571,
+    "wins": 464,
     "pred": 0.818,
-    "hit": 0.812
+    "hit": 0.813
    },
    "spread": {
-    "n": 533,
+    "n": 534,
     "wins": 391,
-    "pred": 0.759,
-    "hit": 0.734
+    "pred": 0.758,
+    "hit": 0.732
    },
    "dc": {
     "n": 45,
@@ -2613,15 +2597,15 @@
    }
   },
   "parlays": {
-   "graded": 408,
-   "won": 65,
-   "expected": 76.74,
-   "pending": 8,
+   "graded": 409,
+   "won": 66,
+   "expected": 77.62,
+   "pending": 7,
    "by_type": {
     "ladder": {
-     "graded": 245,
-     "won": 58,
-     "expected": 64.19
+     "graded": 246,
+     "won": 59,
+     "expected": 65.08
     },
     "best": {
      "graded": 9,
@@ -4224,43 +4208,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 13 legs.",
  "model_check": {
   "v1": {
-   "n": 3408,
-   "brier": 0.1539,
-   "logloss": 0.4854,
+   "n": 3423,
+   "brier": 0.1533,
+   "logloss": 0.4839,
    "picks": 850,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.18,
-   "top_picks_graded": 833,
-   "top_picks_won": 696,
-   "top_picks_expected": 694.89,
-   "top_win_rate": 0.8355342136854742
+   "top_picks_graded": 838,
+   "top_picks_won": 701,
+   "top_picks_expected": 699.22,
+   "top_win_rate": 0.8365155131264916
   },
   "v2": {
-   "n": 3408,
-   "brier": 0.1523,
-   "logloss": 0.4803,
+   "n": 3423,
+   "brier": 0.1517,
+   "logloss": 0.4788,
    "picks": 327,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.38,
-   "top_picks_graded": 323,
-   "top_picks_won": 282,
-   "top_picks_expected": 285.15,
-   "top_win_rate": 0.8730650154798761
+   "top_picks_graded": 324,
+   "top_picks_won": 283,
+   "top_picks_expected": 286.06,
+   "top_win_rate": 0.8734567901234568
   },
-  "graded": 3408,
+  "graded": 3423,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3408,
-    "v2": 3408,
+    "v1": 3423,
+    "v2": 3423,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4854,
-    "v2": 0.4803,
+    "v1": 0.4839,
+    "v2": 0.4788,
     "pass": true
    },
    {
@@ -4277,14 +4261,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 833,
-    "v2": 323,
+    "v1": 838,
+    "v2": 324,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "696/833",
-    "v2": "282/323",
+    "v1": "701/838",
+    "v2": "283/324",
     "pass": true
    }
   ],
