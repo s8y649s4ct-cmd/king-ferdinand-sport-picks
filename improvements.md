@@ -266,3 +266,9 @@ Status: v1 live, no ladder locked yet (first puck drop 7:00 PM ET). Graded: noth
 Research (Daily Faceoff ~3:05 PM ET, 16 of 22 confirmed): Cossa (.859) confirmed for UTA at TOR; Garand (.845 last 4, 0-4-0) for NYR vs STL; backup Brossoit for ANA at VAN; Wedgewood, Bobrovsky confirmed, Lankinen likely (already adjusted at 10:30). Strong starters: Wallstedt (MIN), Fowler (MTL), Oettinger (DAL), Hellebuyck (NJD), Kochetkov likely (CAR).
 Change (backup /workspace/kfsp_backups/2026-11-03-pm/): news_adj today -2.5 pts on UTA, NYR, ANA side legs (same rule). No model change; no new evidence beyond the 10:10 AM backtest. v2 stays off.
 Published bebec1a (site 200).
+
+## 2026-11-04 (daily review #9, ~3:00 AM ET)
+Record (all graded tickets): 67 won, 349 lost (16.1%) vs 80.9 expected. Ladder 59-189, Best 1-9, Lottery 7-151, green 21-24, 2-leg board 0-0. 11-03: 2 of 27 (all-NHL slate plus 2 CFB). Main legs 1,291 graded.
+Calibration: 85-90% bucket 86.9% vs 87.3% (525), 80-85% 82.4% vs 82.6%; 90-95% still 78% (10-25/26 misses). NHL legs now 61.0% vs 66.2% est (246), the most overconfident sport; NBA 76.1% vs 80.9%. Props 22.7% vs 28.9%.
+11-03 losses: wide spread of NHL totals (Over 6.5 and Under 5.5/6.5/7.5/8.5 both missed on various games), puck lines (NJD/CAR/MTL/ANA -1.5) and several +1.5 legs (DET, STL, PHI, COL, CAR); CFB Unders 60.5/61.5. Root cause: NHL volatility on a single-sport slate where every ticket was NHL-heavy, not one bad reused leg.
+No model change tonight: the NHL trim the user pre-approved (Oct 27) needs a rebuild backtest that also checks payouts; flagged for the 10:30 AM review. v1 stays live; v2 not switched.
