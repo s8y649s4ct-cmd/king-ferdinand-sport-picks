@@ -278,3 +278,8 @@ Status: v1 live; first games 7:00 PM ET (3 CFB, 14 NBA, 4 NHL). Graded: nothing 
 Research (~10:40 AM ET): NBA report: IND without Haliburton/Zubac/McConnell/Toppin; MIN without Edwards/DiVincenzo; OKC without Holmgren/J. Williams/Caruso; Tatum (rest) and Jalen Johnson questionable. Daily Faceoff 0 of 8 confirmed; Ersson (OTT, .866) and Wolf (CGY, .862) projected.
 Change (backup /workspace/kfsp_backups/2026-11-04-am/): news_adj today -2.5 pts on IND, MIN, OKC, OTT, CGY side legs; 17 out players excluded from props. No model change; NHL trim still needs a payout-aware rebuild backtest (not run this window). v2 stays off.
 Published after rebuild (site refresh 15:40 UTC = 10:40 AM ET).
+
+## 2026-11-04 3:00 PM ET intraday review
+Status: v1 live; no ladder locked (first games 7:00 PM ET). Graded: nothing new since 3 AM (ladder 59-189, Best 1-9, Lottery 7-151, green 21-24).
+Research (~3:05 PM ET): VSiN 2:15 PM report: Tatum ruled out (rest), Pritchard and Jalen Johnson questionable; Tobias Harris, Nurkic, Mark Williams, Cason Wallace out. Daily Faceoff 3 of 8: Ersson confirmed (OTT), Askarov confirmed (SJ, .944 last 5) vs Kuemper likely (LAK, .877); Markstrom confirmed (FLA); Wolf unconfirmed.
+Change (backup /workspace/kfsp_backups/2026-11-04-pm/): news_adj -2.5 pts on BOS and LAK side legs; 5 more out players excluded from props. No model change (no new backtest evidence); v2 stays off.
