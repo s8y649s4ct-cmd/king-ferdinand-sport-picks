@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 04:40 UTC",
+ "updated": "2026-11-04 04:48 UTC",
  "date": "2026-11-03",
  "ladder_stats": {
   "tickets": 13,
@@ -1216,7 +1216,7 @@
     "away": {
      "name": "Buffalo Bulls",
      "short": "Buffalo",
-     "score": "31",
+     "score": "34",
      "winner": null,
      "record": "5-3",
      "ml_open": null,
@@ -1750,8 +1750,8 @@
    "sport": "nhl",
    "name": "Anaheim Ducks at Vancouver Canucks",
    "start": "2026-11-04T02:00Z",
-   "state": "in",
-   "status": "2:49 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -1768,27 +1768,27 @@
      "name": "Vancouver Canucks",
      "short": "Canucks",
      "score": "4",
-     "winner": null,
-     "record": "3-12-1",
+     "winner": false,
+     "record": "3-13-1",
      "ml_open": null,
      "ml": null,
      "tid": "22",
      "abbr": "VAN",
-     "home_rec": "1-6-0",
+     "home_rec": "1-7-0",
      "road_rec": "2-6-1"
     },
     "away": {
      "name": "Anaheim Ducks",
      "short": "Ducks",
      "score": "5",
-     "winner": null,
-     "record": "6-7-1",
+     "winner": true,
+     "record": "7-7-1",
      "ml_open": null,
      "ml": null,
      "tid": "25",
      "abbr": "ANA",
      "home_rec": "2-4-1",
-     "road_rec": "4-3-0"
+     "road_rec": "5-3-0"
     }
    }
   }
@@ -2384,8 +2384,8 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-04 04:40 UTC",
-  "graded_legs": 1279,
+  "updated": "2026-11-04 04:48 UTC",
+  "graded_legs": 1285,
   "calibration": {
    "85-90%": {
     "n": 522,
@@ -2394,16 +2394,16 @@
     "hit": 0.872
    },
    "75-80%": {
-    "n": 107,
-    "wins": 86,
+    "n": 108,
+    "wins": 87,
     "pred": 0.784,
-    "hit": 0.804
+    "hit": 0.806
    },
    "80-85%": {
-    "n": 232,
-    "wins": 191,
+    "n": 233,
+    "wins": 192,
     "pred": 0.826,
-    "hit": 0.823
+    "hit": 0.824
    },
    "65-70%": {
     "n": 21,
@@ -2430,10 +2430,10 @@
     "hit": 0.818
    },
    "40-45%": {
-    "n": 28,
+    "n": 29,
     "wins": 12,
     "pred": 0.424,
-    "hit": 0.429
+    "hit": 0.414
    },
    "45-50%": {
     "n": 11,
@@ -2448,16 +2448,16 @@
     "hit": 0.206
    },
    "60-65%": {
-    "n": 17,
-    "wins": 7,
-    "pred": 0.627,
-    "hit": 0.412
+    "n": 18,
+    "wins": 8,
+    "pred": 0.628,
+    "hit": 0.444
    },
    "30-35%": {
-    "n": 32,
+    "n": 33,
     "wins": 15,
     "pred": 0.325,
-    "hit": 0.469
+    "hit": 0.455
    },
    "20-25%": {
     "n": 42,
@@ -2472,10 +2472,10 @@
     "hit": 0.235
    },
    "55-60%": {
-    "n": 12,
-    "wins": 7,
-    "pred": 0.564,
-    "hit": 0.583
+    "n": 13,
+    "wins": 8,
+    "pred": 0.566,
+    "hit": 0.615
    },
    "50-55%": {
     "n": 6,
@@ -2504,10 +2504,10 @@
     "hit": 0.761
    },
    "nhl": {
-    "n": 240,
-    "wins": 146,
-    "pred": 0.663,
-    "hit": 0.608
+    "n": 246,
+    "wins": 150,
+    "pred": 0.662,
+    "hit": 0.61
    },
    "mlb": {
     "n": 10,
@@ -2554,16 +2554,16 @@
   },
   "by_market": {
    "total": {
-    "n": 572,
-    "wins": 464,
-    "pred": 0.817,
-    "hit": 0.811
+    "n": 575,
+    "wins": 466,
+    "pred": 0.816,
+    "hit": 0.81
    },
    "spread": {
-    "n": 535,
-    "wins": 391,
-    "pred": 0.758,
-    "hit": 0.731
+    "n": 537,
+    "wins": 392,
+    "pred": 0.757,
+    "hit": 0.73
    },
    "dc": {
     "n": 45,
@@ -2572,10 +2572,10 @@
     "hit": 0.778
    },
    "ml": {
-    "n": 24,
-    "wins": 17,
-    "pred": 0.614,
-    "hit": 0.708
+    "n": 25,
+    "wins": 18,
+    "pred": 0.613,
+    "hit": 0.72
    },
    "dnb": {
     "n": 14,
@@ -2597,10 +2597,10 @@
    }
   },
   "parlays": {
-   "graded": 413,
-   "won": 66,
-   "expected": 78.92,
-   "pending": 3,
+   "graded": 414,
+   "won": 67,
+   "expected": 79.73,
+   "pending": 2,
    "by_type": {
     "ladder": {
      "graded": 246,
@@ -2613,9 +2613,9 @@
      "expected": 1.98
     },
     "lottery": {
-     "graded": 157,
-     "won": 6,
-     "expected": 11.75
+     "graded": 158,
+     "won": 7,
+     "expected": 12.56
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -2704,7 +2704,7 @@
       "pick": "Over 5.5",
       "game": "Anaheim Ducks at Vancouver Canucks",
       "odds": -240,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -4208,43 +4208,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 13 legs.",
  "model_check": {
   "v1": {
-   "n": 3434,
-   "brier": 0.1536,
-   "logloss": 0.4846,
+   "n": 3447,
+   "brier": 0.1537,
+   "logloss": 0.4848,
    "picks": 850,
    "avg_clv_fd_pts": 0.15,
    "avg_clv_sharp_pts": 0.18,
-   "top_picks_graded": 840,
-   "top_picks_won": 701,
-   "top_picks_expected": 700.71,
-   "top_win_rate": 0.8345238095238096
+   "top_picks_graded": 842,
+   "top_picks_won": 703,
+   "top_picks_expected": 702.13,
+   "top_win_rate": 0.834916864608076
   },
   "v2": {
-   "n": 3434,
-   "brier": 0.152,
-   "logloss": 0.4794,
+   "n": 3447,
+   "brier": 0.1519,
+   "logloss": 0.4793,
    "picks": 327,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.38,
-   "top_picks_graded": 325,
-   "top_picks_won": 284,
-   "top_picks_expected": 286.91,
-   "top_win_rate": 0.8738461538461538
+   "top_picks_graded": 326,
+   "top_picks_won": 285,
+   "top_picks_expected": 287.79,
+   "top_win_rate": 0.8742331288343558
   },
-  "graded": 3434,
+  "graded": 3447,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3434,
-    "v2": 3434,
+    "v1": 3447,
+    "v2": 3447,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4846,
-    "v2": 0.4794,
+    "v1": 0.4848,
+    "v2": 0.4793,
     "pass": true
    },
    {
@@ -4261,14 +4261,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 840,
-    "v2": 325,
+    "v1": 842,
+    "v2": 326,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "701/840",
-    "v2": "284/325",
+    "v1": "703/842",
+    "v2": "285/326",
     "pass": true
    }
   ],
