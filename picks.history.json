@@ -80161,8 +80161,8 @@
   "type": "best",
   "label": "best",
   "n": 4,
-  "est_prob": 0.2115,
-  "fd_payout_x": 3.95,
+  "est_prob": 0.2134,
+  "fd_payout_x": 3.88,
   "legs_detail": [
    {
     "id": "401909935:7883598:742.195788087",
@@ -80173,12 +80173,12 @@
     "line": 3.5,
     "pick": "Miami Heat +3.5",
     "market": "Alternate Spread",
-    "odds": -280,
-    "prob": 0.7392,
-    "raw_prob": 0.7392,
+    "odds": -300,
+    "prob": 0.7455,
+    "raw_prob": 0.7455,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": -280
+    "close_odds": -300
    },
    {
     "id": "401909934:7700492:742.195787808",
@@ -80229,7 +80229,7 @@
     "close_odds": -164
    }
   ],
-  "logged": "2026-11-05 02:36 UTC",
+  "logged": "2026-11-05 02:49 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -80835,7 +80835,7 @@
     "raw_prob": 0.8746,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909929:7888728:742.195790536",
@@ -81761,7 +81761,7 @@
     "raw_prob": 0.8715,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": -720
+    "close_odds": -800
    },
    {
     "id": "401909929:7913911:742.195790536",
@@ -82485,7 +82485,7 @@
     "raw_prob": 0.8746,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909929:7888728:742.195790536",
@@ -83430,7 +83430,7 @@
     "raw_prob": 0.8715,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": -720
+    "close_odds": -800
    },
    {
     "id": "401909929:7913911:742.195790536",
@@ -84200,25 +84200,57 @@
   "date": "2026-11-04",
   "type": "lottery",
   "label": "~25x",
-  "n": 3,
-  "est_prob": 0.038012707199999995,
-  "fd_payout_x": 27.58,
+  "n": 4,
+  "est_prob": 0.04113961482792,
+  "fd_payout_x": 26.08,
   "legs_detail": [
    {
-    "id": "401892647:53201156:742.195818798",
+    "id": "401892647:40119153:742.194950956",
     "event": "401892647",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
-    "line": -2.5,
-    "pick": "Seattle Kraken -2.5",
-    "market": "Alternate Puck Line",
-    "odds": 290,
-    "prob": 0.2788,
-    "raw_prob": 0.2788,
+    "line": -1.5,
+    "pick": "Seattle Kraken -1.5",
+    "market": "Puck Line",
+    "odds": 176,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Calgary Flames at Seattle Kraken",
     "result": null,
-    "close_odds": 290
+    "close_odds": 176
+   },
+   {
+    "id": "401909934:7884496:742.195787779",
+    "event": "401909934",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": -12.5,
+    "pick": "Los Angeles Lakers -12.5",
+    "market": "Alternate Spread",
+    "odds": -104,
+    "prob": 0.5089,
+    "raw_prob": 0.5089,
+    "game": "Los Angeles Lakers at Sacramento Kings",
+    "result": null,
+    "close_odds": -104
+   },
+   {
+    "id": "401909935:7883664:742.195788087",
+    "event": "401909935",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Miami Heat +1.5",
+    "market": "Alternate Spread",
+    "odds": -240,
+    "prob": 0.7028,
+    "raw_prob": 0.7028,
+    "game": "Miami Heat at LA Clippers",
+    "result": null,
+    "close_odds": -240
    },
    {
     "id": "401892646:8359774:742.195818847",
@@ -84235,25 +84267,9 @@
     "game": "San Jose Sharks at Los Angeles Kings",
     "result": null,
     "close_odds": 240
-   },
-   {
-    "id": "401909934:7884493:742.195787779",
-    "event": "401909934",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": -13.5,
-    "pick": "Los Angeles Lakers -13.5",
-    "market": "Alternate Spread",
-    "odds": 108,
-    "prob": 0.4784,
-    "raw_prob": 0.4784,
-    "game": "Los Angeles Lakers at Sacramento Kings",
-    "result": null,
-    "close_odds": 108
    }
   ],
-  "logged": "2026-11-05 02:36 UTC",
+  "logged": "2026-11-05 02:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -84264,8 +84280,8 @@
   "type": "lottery",
   "label": "~100x",
   "n": 4,
-  "est_prob": 0.0099213165792,
-  "fd_payout_x": 100.67,
+  "est_prob": 0.008879768401919999,
+  "fd_payout_x": 110.32,
   "legs_detail": [
    {
     "id": "401892647:53201156:742.195818798",
@@ -84300,6 +84316,24 @@
     "close_odds": 240
    },
    {
+    "id": "401909935:14388955:742.195758032",
+    "event": "401909935",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 11.5,
+    "ou": "over",
+    "player": "Bam Adebayo",
+    "stat": "REB",
+    "pick": "Bam Adebayo",
+    "market": "12+ Rebounds",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
+    "game": "Miami Heat at LA Clippers",
+    "result": null,
+    "close_odds": 300
+   },
+   {
     "id": "401909934:7884493:742.195787779",
     "event": "401909934",
     "sport": "nba",
@@ -84314,27 +84348,9 @@
     "game": "Los Angeles Lakers at Sacramento Kings",
     "result": null,
     "close_odds": 108
-   },
-   {
-    "id": "401909935:36981613:742.195758001",
-    "event": "401909935",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 9.5,
-    "ou": "over",
-    "player": "Davion Mitchell",
-    "stat": "ASS",
-    "pick": "Davion Mitchell",
-    "market": "10+ Assists",
-    "odds": 265,
-    "prob": 0.261,
-    "raw_prob": 0.261,
-    "game": "Miami Heat at LA Clippers",
-    "result": null,
-    "close_odds": 265
    }
   ],
-  "logged": "2026-11-05 02:36 UTC",
+  "logged": "2026-11-05 02:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -84345,8 +84361,8 @@
   "type": "lottery",
   "label": "4-leg best-chance lottery",
   "n": 4,
-  "est_prob": 0.49819632327807994,
-  "fd_payout_x": 1.86,
+  "est_prob": 0.4993270457548801,
+  "fd_payout_x": 1.85,
   "legs_detail": [
    {
     "id": "401909934:7889101:742.195787779",
@@ -84365,20 +84381,20 @@
     "close_odds": -950
    },
    {
-    "id": "401909935:7883674:742.195788087",
+    "id": "401909935:7884490:742.195788087",
     "event": "401909935",
     "sport": "nba",
     "kind": "spread",
-    "side": "away",
-    "line": 10.5,
-    "pick": "Miami Heat +10.5",
+    "side": "home",
+    "line": 21.5,
+    "pick": "Los Angeles Clippers +21.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8812,
-    "raw_prob": 0.8812,
+    "odds": -1000,
+    "prob": 0.8832,
+    "raw_prob": 0.8832,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401892646:7000409:742.195818828",
@@ -84413,7 +84429,7 @@
     "close_odds": -350
    }
   ],
-  "logged": "2026-11-05 02:36 UTC",
+  "logged": "2026-11-05 02:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -84721,7 +84737,7 @@
     "raw_prob": 0.284,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": 190
+    "close_odds": 200
    },
    {
     "id": "401909933:7890838:742.195791296",
@@ -84838,7 +84854,7 @@
     "raw_prob": 0.2336,
     "game": "Miami Heat at LA Clippers",
     "result": null,
-    "close_odds": 285
+    "close_odds": 300
    },
    {
     "id": "401909932:50752172:742.195750929",
