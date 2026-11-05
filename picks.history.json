@@ -86764,7 +86764,7 @@
   "label": "best",
   "n": 5,
   "est_prob": 0.2275,
-  "fd_payout_x": 4.44,
+  "fd_payout_x": 4.34,
   "legs_detail": [
    {
     "id": "401892654:7000398:742.196037119",
@@ -86783,20 +86783,20 @@
     "close_odds": -290
    },
    {
-    "id": "401909937:7889023:742.196023675",
+    "id": "401909937:7711322:742.196023669",
     "event": "401909937",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 4.5,
-    "pick": "Golden State Warriors +4.5",
-    "market": "Alternate Spread",
-    "odds": -275,
+    "kind": "total",
+    "line": 224.5,
+    "ou": "over",
+    "pick": "Over 224.5",
+    "market": "Alternate Total Points",
+    "odds": -300,
     "prob": 0.7388,
     "raw_prob": 0.7388,
     "game": "Miami Heat at Golden State Warriors",
     "result": null,
-    "close_odds": -275
+    "close_odds": -300
    },
    {
     "id": "401862817:15845790:742.195354987",
@@ -86847,7 +86847,7 @@
     "close_odds": -295
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -86879,7 +86879,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -86926,7 +86926,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -86990,7 +86990,7 @@
     "close_odds": -750
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -87001,26 +87001,10 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.49577,
-  "est_raw": 0.49577,
+  "est_prob": 0.49283,
+  "est_raw": 0.49283,
   "fd_payout_x": 1.78,
   "legs_detail": [
-   {
-    "id": "401892649:8359782:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": -700
-   },
    {
     "id": "401892652:7000401:742.196037500",
     "event": "401892652",
@@ -87036,6 +87020,22 @@
     "game": "Carolina Hurricanes at New York Islanders",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892649:8359782:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": -700
    },
    {
     "id": "401892651:7000413:742.196037499",
@@ -87070,7 +87070,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -87080,9 +87080,9 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 5,
-  "est_prob": 0.34064,
-  "est_raw": 0.34064,
-  "fd_payout_x": 2.17,
+  "est_prob": 0.34039,
+  "est_raw": 0.34039,
+  "fd_payout_x": 2.23,
   "legs_detail": [
    {
     "id": "401892658:7000403:742.196036768",
@@ -87116,22 +87116,6 @@
     "close_odds": -450
    },
    {
-    "id": "401892657:7669430:742.196036797",
-    "event": "401892657",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -950,
-    "prob": 0.8006,
-    "raw_prob": 0.8006,
-    "game": "Anaheim Ducks at Edmonton Oilers",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401892648:86696246:742.196037234",
     "event": "401892648",
     "sport": "nhl",
@@ -87162,9 +87146,25 @@
     "game": "Boston Bruins at Pittsburgh Penguins",
     "result": null,
     "close_odds": -550
+   },
+   {
+    "id": "401892655:8359769:742.196036895",
+    "event": "401892655",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "over",
+    "pick": "Over 3.5",
+    "market": "Alternate Total Goals",
+    "odds": -750,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Dallas Stars at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": -750
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -87174,9 +87174,9 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.40758,
-  "est_raw": 0.40758,
-  "fd_payout_x": 1.97,
+  "est_prob": 0.40872,
+  "est_raw": 0.40872,
+  "fd_payout_x": 1.9,
   "legs_detail": [
    {
     "id": "401862817:46506184:742.195354987",
@@ -87187,12 +87187,12 @@
     "ou": "under",
     "pick": "Under (93.5)",
     "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8886,
-    "raw_prob": 0.8886,
+    "odds": -900,
+    "prob": 0.8911,
+    "raw_prob": 0.8911,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401909937:7889076:742.196023675",
@@ -87259,23 +87259,23 @@
     "close_odds": -800
    },
    {
-    "id": "401892655:8359769:742.196036895",
-    "event": "401892655",
+    "id": "401892657:7735512:742.196036814",
+    "event": "401892657",
     "sport": "nhl",
-    "kind": "total",
-    "line": 3.5,
-    "ou": "over",
-    "pick": "Over 3.5",
-    "market": "Alternate Total Goals",
-    "odds": -750,
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Edmonton Oilers +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -1000,
     "prob": 0.8,
     "raw_prob": 0.8,
-    "game": "Dallas Stars at Columbus Blue Jackets",
+    "game": "Anaheim Ducks at Edmonton Oilers",
     "result": null,
-    "close_odds": -750
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -87285,9 +87285,9 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.2594,
-  "est_raw": 0.2594,
-  "fd_payout_x": 2.38,
+  "est_prob": 0.25787,
+  "est_raw": 0.25787,
+  "fd_payout_x": 2.42,
   "legs_detail": [
    {
     "id": "401892653:8359782:742.196037268",
@@ -87306,22 +87306,6 @@
     "close_odds": -750
    },
    {
-    "id": "401892649:8359782:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": -700
-   },
-   {
     "id": "401892652:8359782:742.196037507",
     "event": "401892652",
     "sport": "nhl",
@@ -87334,6 +87318,22 @@
     "prob": 0.8399,
     "raw_prob": 0.8399,
     "game": "Carolina Hurricanes at New York Islanders",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401892649:8359782:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
     "result": null,
     "close_odds": -700
    },
@@ -87386,23 +87386,23 @@
     "close_odds": -650
    },
    {
-    "id": "401892657:7735512:742.196036814",
+    "id": "401892657:8104850:742.196036797",
     "event": "401892657",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Edmonton Oilers +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -1000,
+    "kind": "total",
+    "line": 9.5,
+    "ou": "under",
+    "pick": "Under 9.5",
+    "market": "Alternate Total Goals",
+    "odds": -850,
     "prob": 0.8,
     "raw_prob": 0.8,
     "game": "Anaheim Ducks at Edmonton Oilers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -850
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -87412,8 +87412,8 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 8,
-  "est_prob": 0.26089,
-  "est_raw": 0.26089,
+  "est_prob": 0.26561,
+  "est_raw": 0.26561,
   "fd_payout_x": 3.08,
   "legs_detail": [
    {
@@ -87433,6 +87433,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401862817:46976289:742.195354987",
+    "event": "401862817",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 94.5,
+    "ou": "under",
+    "pick": "Under (94.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8998,
+    "raw_prob": 0.8998,
+    "game": "UTSA Roadrunners at Florida Atlantic Owls",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401869964:15516344:742.195355090",
     "event": "401869964",
     "sport": "college-football",
@@ -87445,22 +87461,6 @@
     "prob": 0.8905,
     "raw_prob": 0.8905,
     "game": "James Madison Dukes at Southern Miss Golden Eagles",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401862817:60464620:742.195354991",
-    "event": "401862817",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 27.5,
-    "pick": "Florida Atlantic (+27.5)",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8838,
-    "raw_prob": 0.8838,
-    "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
     "close_odds": -1000
    },
@@ -87545,7 +87545,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -87555,9 +87555,9 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.16073,
-  "est_raw": 0.16073,
-  "fd_payout_x": 4.49,
+  "est_prob": 0.16147,
+  "est_raw": 0.16147,
+  "fd_payout_x": 4.22,
   "legs_detail": [
    {
     "id": "401873037:12194317:742.195336741",
@@ -87592,22 +87592,6 @@
     "close_odds": -750
    },
    {
-    "id": "401892649:8359782:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": -700
-   },
-   {
     "id": "401892652:7000401:742.196037500",
     "event": "401892652",
     "sport": "nhl",
@@ -87622,6 +87606,38 @@
     "game": "Carolina Hurricanes at New York Islanders",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892649:8359782:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401892657:7669430:742.196036797",
+    "event": "401892657",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -900,
+    "prob": 0.7984,
+    "raw_prob": 0.7984,
+    "game": "Anaheim Ducks at Edmonton Oilers",
+    "result": null,
+    "close_odds": -900
    },
    {
     "id": "401892655:7000405:742.196036976",
@@ -87656,22 +87672,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892657:7000407:742.196036814",
-    "event": "401892657",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Edmonton Oilers +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.79,
-    "raw_prob": 0.79,
-    "game": "Anaheim Ducks at Edmonton Oilers",
-    "result": null,
-    "close_odds": -550
-   },
-   {
     "id": "401892654:7669430:742.196037076",
     "event": "401892654",
     "sport": "nhl",
@@ -87704,7 +87704,7 @@
     "close_odds": -320
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -87714,25 +87714,25 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 10,
-  "est_prob": 0.19878,
-  "est_raw": 0.19878,
-  "fd_payout_x": 3.67,
+  "est_prob": 0.1935,
+  "est_raw": 0.1935,
+  "fd_payout_x": 3.58,
   "legs_detail": [
    {
-    "id": "401862817:46976289:742.195354987",
+    "id": "401862817:46506184:742.195354987",
     "event": "401862817",
     "sport": "college-football",
     "kind": "total",
-    "line": 94.5,
+    "line": 93.5,
     "ou": "under",
-    "pick": "Under (94.5)",
+    "pick": "Under (93.5)",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8998,
-    "raw_prob": 0.8998,
+    "odds": -900,
+    "prob": 0.8911,
+    "raw_prob": 0.8911,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
    },
    {
     "id": "401909937:7889076:742.196023675",
@@ -87865,22 +87865,23 @@
     "close_odds": -600
    },
    {
-    "id": "401892650:25609:742.194950985",
-    "event": "401892650",
+    "id": "401892657:7000407:742.196036814",
+    "event": "401892657",
     "sport": "nhl",
-    "kind": "ml",
+    "kind": "spread",
     "side": "home",
-    "pick": "Tampa Bay Lightning",
-    "market": "Moneyline",
-    "odds": -450,
-    "prob": 0.8037,
-    "raw_prob": 0.8037,
-    "game": "Chicago Blackhawks at Tampa Bay Lightning",
+    "line": 1.5,
+    "pick": "Edmonton Oilers +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -550,
+    "prob": 0.79,
+    "raw_prob": 0.79,
+    "game": "Anaheim Ducks at Edmonton Oilers",
     "result": null,
-    "close_odds": -450
+    "close_odds": -550
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -87890,25 +87891,25 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 11,
-  "est_prob": 0.13146,
-  "est_raw": 0.13146,
-  "fd_payout_x": 4.29,
+  "est_prob": 0.133,
+  "est_raw": 0.133,
+  "fd_payout_x": 4.67,
   "legs_detail": [
    {
-    "id": "401862817:46506184:742.195354987",
-    "event": "401862817",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 93.5,
-    "ou": "under",
-    "pick": "Under (93.5)",
-    "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8886,
-    "raw_prob": 0.8886,
-    "game": "UTSA Roadrunners at Florida Atlantic Owls",
+    "id": "401909937:7949825:742.196023675",
+    "event": "401909937",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 12.5,
+    "pick": "Golden State Warriors +12.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.9009,
+    "raw_prob": 0.9009,
+    "game": "Miami Heat at Golden State Warriors",
     "result": null,
-    "close_odds": -850
+    "close_odds": -1000
    },
    {
     "id": "401909936:7711818:742.196026279",
@@ -87952,8 +87953,8 @@
     "pick": "Under 8.5",
     "market": "Alternate Total Goals",
     "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
     "game": "Vegas Golden Knights at Detroit Red Wings",
     "result": null,
     "close_odds": -700
@@ -88007,20 +88008,19 @@
     "close_odds": -600
    },
    {
-    "id": "401892657:7669430:742.196036797",
-    "event": "401892657",
+    "id": "401892650:25609:742.194950985",
+    "event": "401892650",
     "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -950,
-    "prob": 0.8006,
-    "raw_prob": 0.8006,
-    "game": "Anaheim Ducks at Edmonton Oilers",
+    "kind": "ml",
+    "side": "home",
+    "pick": "Tampa Bay Lightning",
+    "market": "Moneyline",
+    "odds": -450,
+    "prob": 0.8037,
+    "raw_prob": 0.8037,
+    "game": "Chicago Blackhawks at Tampa Bay Lightning",
     "result": null,
-    "close_odds": -950
+    "close_odds": -450
    },
    {
     "id": "401892648:86696246:742.196037234",
@@ -88071,7 +88071,7 @@
     "close_odds": -750
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -88081,23 +88081,23 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 12,
-  "est_prob": 0.11808,
-  "est_raw": 0.11808,
-  "fd_payout_x": 4.75,
+  "est_prob": 0.11126,
+  "est_raw": 0.11126,
+  "fd_payout_x": 4.98,
   "legs_detail": [
    {
-    "id": "401909937:7949825:742.196023675",
-    "event": "401909937",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 12.5,
-    "pick": "Golden State Warriors +12.5",
-    "market": "Alternate Spread",
+    "id": "401862817:46976289:742.195354987",
+    "event": "401862817",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 94.5,
+    "ou": "under",
+    "pick": "Under (94.5)",
+    "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.9009,
-    "raw_prob": 0.9009,
-    "game": "Miami Heat at Golden State Warriors",
+    "prob": 0.8998,
+    "raw_prob": 0.8998,
+    "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
     "close_odds": -1000
    },
@@ -88114,22 +88114,6 @@
     "prob": 0.8905,
     "raw_prob": 0.8905,
     "game": "James Madison Dukes at Southern Miss Golden Eagles",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401862817:60464620:742.195354991",
-    "event": "401862817",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 27.5,
-    "pick": "Florida Atlantic (+27.5)",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8838,
-    "raw_prob": 0.8838,
-    "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
     "close_odds": -1000
    },
@@ -88166,22 +88150,6 @@
     "close_odds": -750
    },
    {
-    "id": "401892649:8359782:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": -700
-   },
-   {
     "id": "401892652:7000401:742.196037500",
     "event": "401892652",
     "sport": "nhl",
@@ -88196,6 +88164,38 @@
     "game": "Carolina Hurricanes at New York Islanders",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892649:8359782:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401892651:7000413:742.196037499",
+    "event": "401892651",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "New Jersey Devils +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8387,
+    "raw_prob": 0.8387,
+    "game": "St. Louis Blues at New Jersey Devils",
+    "result": null,
+    "close_odds": -650
    },
    {
     "id": "401892650:49333840:742.196037310",
@@ -88278,7 +88278,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -88288,10 +88288,26 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 13,
-  "est_prob": 0.08546,
-  "est_raw": 0.08546,
-  "fd_payout_x": 7.45,
+  "est_prob": 0.09194,
+  "est_raw": 0.09194,
+  "fd_payout_x": 6.78,
   "legs_detail": [
+   {
+    "id": "401862817:46506184:742.195354987",
+    "event": "401862817",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 93.5,
+    "ou": "under",
+    "pick": "Under (93.5)",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8911,
+    "raw_prob": 0.8911,
+    "game": "UTSA Roadrunners at Florida Atlantic Owls",
+    "result": null,
+    "close_odds": -900
+   },
    {
     "id": "401909937:7889076:742.196023675",
     "event": "401909937",
@@ -88373,22 +88389,6 @@
     "close_odds": -700
    },
    {
-    "id": "401892651:7000413:742.196037499",
-    "event": "401892651",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "New Jersey Devils +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -650,
-    "prob": 0.8387,
-    "raw_prob": 0.8387,
-    "game": "St. Louis Blues at New Jersey Devils",
-    "result": null,
-    "close_odds": -650
-   },
-   {
     "id": "401892656:7000424:742.196037044",
     "event": "401892656",
     "sport": "nhl",
@@ -88419,6 +88419,22 @@
     "game": "Nashville Predators at Colorado Avalanche",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892657:8104850:742.196036797",
+    "event": "401892657",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 9.5,
+    "ou": "under",
+    "pick": "Under 9.5",
+    "market": "Alternate Total Goals",
+    "odds": -850,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Anaheim Ducks at Edmonton Oilers",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401892655:7000405:742.196036976",
@@ -88453,22 +88469,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892657:7000407:742.196036814",
-    "event": "401892657",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Edmonton Oilers +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.79,
-    "raw_prob": 0.79,
-    "game": "Anaheim Ducks at Edmonton Oilers",
-    "result": null,
-    "close_odds": -550
-   },
-   {
     "id": "401892654:7669430:742.196037076",
     "event": "401892654",
     "sport": "nhl",
@@ -88501,7 +88501,7 @@
     "close_odds": -320
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -88511,9 +88511,9 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 14,
-  "est_prob": 0.09661,
-  "est_raw": 0.09661,
-  "fd_payout_x": 6.05,
+  "est_prob": 0.09577,
+  "est_raw": 0.09577,
+  "fd_payout_x": 6.09,
   "legs_detail": [
    {
     "id": "401909937:7949825:742.196023675",
@@ -88612,22 +88612,6 @@
     "close_odds": -750
    },
    {
-    "id": "401892649:8359782:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": -700
-   },
-   {
     "id": "401892652:7000401:742.196037500",
     "event": "401892652",
     "sport": "nhl",
@@ -88642,6 +88626,22 @@
     "game": "Carolina Hurricanes at New York Islanders",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892649:8359782:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": -700
    },
    {
     "id": "401892651:7000413:742.196037499",
@@ -88707,22 +88707,6 @@
     "close_odds": -450
    },
    {
-    "id": "401892657:7669430:742.196036797",
-    "event": "401892657",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -950,
-    "prob": 0.8006,
-    "raw_prob": 0.8006,
-    "game": "Anaheim Ducks at Edmonton Oilers",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401892648:86696246:742.196037234",
     "event": "401892648",
     "sport": "nhl",
@@ -88737,9 +88721,25 @@
     "game": "Utah Mammoth at Montreal Canadiens",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892657:7669430:742.196036797",
+    "event": "401892657",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -900,
+    "prob": 0.7984,
+    "raw_prob": 0.7984,
+    "game": "Anaheim Ducks at Edmonton Oilers",
+    "result": null,
+    "close_odds": -900
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -88749,9 +88749,9 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 15,
-  "est_prob": 0.07195,
-  "est_raw": 0.07195,
-  "fd_payout_x": 6.4,
+  "est_prob": 0.07083,
+  "est_raw": 0.07083,
+  "fd_payout_x": 6.84,
   "legs_detail": [
    {
     "id": "401862817:46506184:742.195354987",
@@ -88762,12 +88762,12 @@
     "ou": "under",
     "pick": "Under (93.5)",
     "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8886,
-    "raw_prob": 0.8886,
+    "odds": -900,
+    "prob": 0.8911,
+    "raw_prob": 0.8911,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401909937:7889076:742.196023675",
@@ -88861,8 +88861,8 @@
     "pick": "Under 8.5",
     "market": "Alternate Total Goals",
     "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
     "game": "Vegas Golden Knights at Detroit Red Wings",
     "result": null,
     "close_odds": -700
@@ -88980,23 +88980,23 @@
     "close_odds": -750
    },
    {
-    "id": "401892657:7735512:742.196036814",
+    "id": "401892657:7000407:742.196036814",
     "event": "401892657",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
-    "line": 2.5,
-    "pick": "Edmonton Oilers +2.5",
+    "line": 1.5,
+    "pick": "Edmonton Oilers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -1000,
-    "prob": 0.8,
-    "raw_prob": 0.8,
+    "odds": -550,
+    "prob": 0.79,
+    "raw_prob": 0.79,
     "game": "Anaheim Ducks at Edmonton Oilers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -550
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -89006,9 +89006,9 @@
   "date": "2026-11-05",
   "type": "ladder",
   "n": 16,
-  "est_prob": 0.05797,
-  "est_raw": 0.05797,
-  "fd_payout_x": 9.19,
+  "est_prob": 0.05942,
+  "est_raw": 0.05942,
+  "fd_payout_x": 8.55,
   "legs_detail": [
    {
     "id": "401909937:7949825:742.196023675",
@@ -89027,6 +89027,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401862817:46976289:742.195354987",
+    "event": "401862817",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 94.5,
+    "ou": "under",
+    "pick": "Under (94.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8998,
+    "raw_prob": 0.8998,
+    "game": "UTSA Roadrunners at Florida Atlantic Owls",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401869964:15516344:742.195355090",
     "event": "401869964",
     "sport": "college-football",
@@ -89039,22 +89055,6 @@
     "prob": 0.8905,
     "raw_prob": 0.8905,
     "game": "James Madison Dukes at Southern Miss Golden Eagles",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401862817:60464620:742.195354991",
-    "event": "401862817",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 27.5,
-    "pick": "Florida Atlantic (+27.5)",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8838,
-    "raw_prob": 0.8838,
-    "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
     "close_odds": -1000
    },
@@ -89107,22 +89107,6 @@
     "close_odds": -750
    },
    {
-    "id": "401892649:8359782:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": -700
-   },
-   {
     "id": "401892652:7000401:742.196037500",
     "event": "401892652",
     "sport": "nhl",
@@ -89137,6 +89121,22 @@
     "game": "Carolina Hurricanes at New York Islanders",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892649:8359782:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": -700
    },
    {
     "id": "401892651:7000413:742.196037499",
@@ -89203,6 +89203,22 @@
     "close_odds": -650
    },
    {
+    "id": "401892657:7735512:742.196036814",
+    "event": "401892657",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Edmonton Oilers +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -1000,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Anaheim Ducks at Edmonton Oilers",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401892650:7669430:742.196037324",
     "event": "401892650",
     "sport": "nhl",
@@ -89217,22 +89233,6 @@
     "game": "Chicago Blackhawks at Tampa Bay Lightning",
     "result": null,
     "close_odds": -650
-   },
-   {
-    "id": "401892657:7000407:742.196036814",
-    "event": "401892657",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Edmonton Oilers +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.79,
-    "raw_prob": 0.79,
-    "game": "Anaheim Ducks at Edmonton Oilers",
-    "result": null,
-    "close_odds": -550
    },
    {
     "id": "401892654:7000398:742.196037119",
@@ -89267,7 +89267,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -89330,7 +89330,7 @@
     "close_odds": 194
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -89341,8 +89341,8 @@
   "type": "lottery",
   "label": "~100x",
   "n": 6,
-  "est_prob": 0.01786962937267518,
-  "fd_payout_x": 102.93,
+  "est_prob": 0.017936954155104486,
+  "fd_payout_x": 102.11,
   "legs_detail": [
    {
     "id": "401892654:25596:742.194951041",
@@ -89433,15 +89433,126 @@
     "ou": "under",
     "pick": "Under (92.5)",
     "market": "Alternate Total Points",
-    "odds": -720,
-    "prob": 0.8759,
-    "raw_prob": 0.8759,
+    "odds": -770,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": -720
+    "close_odds": -770
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-05-lottery-~1,000x",
+  "date": "2026-11-05",
+  "type": "lottery",
+  "label": "~1,000x",
+  "n": 6,
+  "est_prob": 0.001969791055558495,
+  "fd_payout_x": 1057.89,
+  "legs_detail": [
+   {
+    "id": "401892654:25596:742.194951041",
+    "event": "401892654",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Boston Bruins -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.4011,
+    "raw_prob": 0.4011,
+    "game": "Boston Bruins at Pittsburgh Penguins",
+    "result": null,
+    "close_odds": 205
+   },
+   {
+    "id": "401892655:25612:742.194951090",
+    "event": "401892655",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Dallas Stars -1.5",
+    "market": "Puck Line",
+    "odds": 194,
+    "prob": 0.4024,
+    "raw_prob": 0.4024,
+    "game": "Dallas Stars at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": 194
+   },
+   {
+    "id": "401892648:83920082:742.194951029",
+    "event": "401892648",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Utah Mammoth -1.5",
+    "market": "Puck Line",
+    "odds": 194,
+    "prob": 0.3904,
+    "raw_prob": 0.3904,
+    "game": "Utah Mammoth at Montreal Canadiens",
+    "result": null,
+    "close_odds": 194
+   },
+   {
+    "id": "401892649:13305501:742.194950983",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Vegas Golden Knights -1.5",
+    "market": "Puck Line",
+    "odds": 164,
+    "prob": 0.4152,
+    "raw_prob": 0.4152,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": 164
+   },
+   {
+    "id": "401892652:7669353:742.196037507",
+    "event": "401892652",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5",
+    "market": "Alternate Total Goals",
+    "odds": 300,
+    "prob": 0.2688,
+    "raw_prob": 0.2688,
+    "game": "Carolina Hurricanes at New York Islanders",
+    "result": null,
+    "close_odds": 300
+   },
+   {
+    "id": "401892651:7669353:742.196037453",
+    "event": "401892651",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5",
+    "market": "Alternate Total Goals",
+    "odds": 280,
+    "prob": 0.2801,
+    "raw_prob": 0.2801,
+    "game": "St. Louis Blues at New Jersey Devils",
+    "result": null,
+    "close_odds": 280
+   }
+  ],
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -89452,8 +89563,8 @@
   "type": "lottery",
   "label": "~500x",
   "n": 7,
-  "est_prob": 0.0036794935815580927,
-  "fd_payout_x": 563.07,
+  "est_prob": 0.003878614675610095,
+  "fd_payout_x": 527.89,
   "legs_detail": [
    {
     "id": "401892654:25596:742.194951041",
@@ -89536,163 +89647,20 @@
     "close_odds": 164
    },
    {
-    "id": "401909937:7889079:742.196023675",
-    "event": "401909937",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Golden State Warriors +6.5",
-    "market": "Alternate Spread",
-    "odds": -335,
-    "prob": 0.7798,
-    "raw_prob": 0.7798,
-    "game": "Miami Heat at Golden State Warriors",
-    "result": null,
-    "close_odds": -335
-   },
-   {
-    "id": "401892652:25607:742.194951013",
-    "event": "401892652",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Carolina Hurricanes -1.5",
-    "market": "Puck Line",
-    "odds": 136,
-    "prob": 0.4451,
-    "raw_prob": 0.4451,
-    "game": "Carolina Hurricanes at New York Islanders",
-    "result": null,
-    "close_odds": 136
-   }
-  ],
-  "logged": "2026-11-05 21:09 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-05-lottery-~1,000x",
-  "date": "2026-11-05",
-  "type": "lottery",
-  "label": "~1,000x",
-  "n": 10,
-  "est_prob": 0.0019841080264304334,
-  "fd_payout_x": 1007.71,
-  "legs_detail": [
-   {
-    "id": "401892654:25596:742.194951041",
-    "event": "401892654",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Boston Bruins -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.4011,
-    "raw_prob": 0.4011,
-    "game": "Boston Bruins at Pittsburgh Penguins",
-    "result": null,
-    "close_odds": 205
-   },
-   {
-    "id": "401892655:25612:742.194951090",
-    "event": "401892655",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Dallas Stars -1.5",
-    "market": "Puck Line",
-    "odds": 194,
-    "prob": 0.4024,
-    "raw_prob": 0.4024,
-    "game": "Dallas Stars at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 194
-   },
-   {
-    "id": "401892648:83920082:742.194951029",
-    "event": "401892648",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Utah Mammoth -1.5",
-    "market": "Puck Line",
-    "odds": 194,
-    "prob": 0.3904,
-    "raw_prob": 0.3904,
-    "game": "Utah Mammoth at Montreal Canadiens",
-    "result": null,
-    "close_odds": 194
-   },
-   {
-    "id": "401892649:13305501:742.194950983",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Vegas Golden Knights -1.5",
-    "market": "Puck Line",
-    "odds": 164,
-    "prob": 0.4152,
-    "raw_prob": 0.4152,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": 164
-   },
-   {
-    "id": "401892653:226870:742.194951022",
-    "event": "401892653",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "New York Rangers -1.5",
-    "market": "Puck Line",
-    "odds": 164,
-    "prob": 0.4052,
-    "raw_prob": 0.4052,
-    "game": "Philadelphia Flyers at New York Rangers",
-    "result": null,
-    "close_odds": 164
-   },
-   {
-    "id": "401909937:7889079:742.196023675",
-    "event": "401909937",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Golden State Warriors +6.5",
-    "market": "Alternate Spread",
-    "odds": -335,
-    "prob": 0.7798,
-    "raw_prob": 0.7798,
-    "game": "Miami Heat at Golden State Warriors",
-    "result": null,
-    "close_odds": -335
-   },
-   {
-    "id": "401862817:21662438:742.195354987",
+    "id": "401862817:21099062:742.195354987",
     "event": "401862817",
     "sport": "college-football",
     "kind": "total",
-    "line": 92.5,
+    "line": 87.5,
     "ou": "under",
-    "pick": "Under (92.5)",
+    "pick": "Under (87.5)",
     "market": "Alternate Total Points",
-    "odds": -720,
-    "prob": 0.8759,
-    "raw_prob": 0.8759,
+    "odds": -460,
+    "prob": 0.822,
+    "raw_prob": 0.822,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": -720
+    "close_odds": -460
    },
    {
     "id": "401892652:25607:742.194951013",
@@ -89709,40 +89677,9 @@
     "game": "Carolina Hurricanes at New York Islanders",
     "result": null,
     "close_odds": 136
-   },
-   {
-    "id": "401892650:25609:742.194950985",
-    "event": "401892650",
-    "sport": "nhl",
-    "kind": "ml",
-    "side": "home",
-    "pick": "Tampa Bay Lightning",
-    "market": "Moneyline",
-    "odds": -450,
-    "prob": 0.8037,
-    "raw_prob": 0.8037,
-    "game": "Chicago Blackhawks at Tampa Bay Lightning",
-    "result": null,
-    "close_odds": -450
-   },
-   {
-    "id": "401909936:7729448:742.196026279",
-    "event": "401909936",
-    "sport": "nba",
-    "kind": "total",
-    "line": 235.5,
-    "ou": "under",
-    "pick": "Under 235.5",
-    "market": "Alternate Total Points",
-    "odds": -350,
-    "prob": 0.766,
-    "raw_prob": 0.766,
-    "game": "Orlando Magic at Phoenix Suns",
-    "result": null,
-    "close_odds": -350
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -89753,8 +89690,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 10,
-  "est_prob": 0.00022296778953754257,
-  "fd_payout_x": 10244.93,
+  "est_prob": 0.00022349509698105932,
+  "fd_payout_x": 10194.95,
   "legs_detail": [
    {
     "id": "401892654:25596:742.194951041",
@@ -89893,12 +89830,12 @@
     "ou": "under",
     "pick": "Under (86.5)",
     "market": "Alternate Total Points",
-    "odds": -400,
-    "prob": 0.8034,
-    "raw_prob": 0.8034,
+    "odds": -410,
+    "prob": 0.8053,
+    "raw_prob": 0.8053,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": -400
+    "close_odds": -410
    },
    {
     "id": "401892657:7017912:742.194951106",
@@ -89917,7 +89854,7 @@
     "close_odds": 126
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -89928,8 +89865,8 @@
   "type": "lottery",
   "label": "~1,000,000x",
   "n": 13,
-  "est_prob": 2.092043074786028e-06,
-  "fd_payout_x": 1054147.58,
+  "est_prob": 1.9144219825478183e-06,
+  "fd_payout_x": 1126847.41,
   "legs_detail": [
    {
     "id": "401892654:25596:742.194951041",
@@ -89980,22 +89917,6 @@
     "close_odds": 194
    },
    {
-    "id": "401892649:7669353:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 300,
-    "prob": 0.2738,
-    "raw_prob": 0.2738,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": 300
-   },
-   {
     "id": "401892653:7669353:742.196037268",
     "event": "401892653",
     "sport": "nhl",
@@ -90010,6 +89931,22 @@
     "game": "Philadelphia Flyers at New York Rangers",
     "result": null,
     "close_odds": 290
+   },
+   {
+    "id": "401892649:7669353:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5",
+    "market": "Alternate Total Goals",
+    "odds": 300,
+    "prob": 0.2688,
+    "raw_prob": 0.2688,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": 300
    },
    {
     "id": "401892652:7669353:742.196037507",
@@ -90076,20 +90013,20 @@
     "close_odds": 240
    },
    {
-    "id": "401862817:60464606:742.195354991",
+    "id": "401862817:60464597:742.195354991",
     "event": "401862817",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": 2.5,
-    "pick": "Florida Atlantic (+2.5)",
+    "line": 1.5,
+    "pick": "Florida Atlantic (+1.5)",
     "market": "Alternate Spread",
-    "odds": 190,
-    "prob": 0.3403,
-    "raw_prob": 0.3403,
+    "odds": 210,
+    "prob": 0.3172,
+    "raw_prob": 0.3172,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": 190
+    "close_odds": 210
    },
    {
     "id": "401909937:7889087:742.196023675",
@@ -90140,7 +90077,7 @@
     "close_odds": 120
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -90151,8 +90088,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 16,
-  "est_prob": 2.0222641472004167e-05,
-  "fd_payout_x": 102216.85,
+  "est_prob": 2.0270466987061187e-05,
+  "fd_payout_x": 101718.23,
   "legs_detail": [
    {
     "id": "401892654:25596:742.194951041",
@@ -90291,12 +90228,12 @@
     "ou": "under",
     "pick": "Under (86.5)",
     "market": "Alternate Total Points",
-    "odds": -400,
-    "prob": 0.8034,
-    "raw_prob": 0.8034,
+    "odds": -410,
+    "prob": 0.8053,
+    "raw_prob": 0.8053,
     "game": "UTSA Roadrunners at Florida Atlantic Owls",
     "result": null,
-    "close_odds": -400
+    "close_odds": -410
    },
    {
     "id": "401892657:7017912:742.194951106",
@@ -90409,7 +90346,7 @@
     "close_odds": -550
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -90420,7 +90357,7 @@
   "type": "lottery",
   "label": "16-leg best-chance lottery",
   "n": 16,
-  "est_prob": 0.06149186072192414,
+  "est_prob": 0.061127960492773206,
   "fd_payout_x": 10.53,
   "legs_detail": [
    {
@@ -90520,22 +90457,6 @@
     "close_odds": -750
    },
    {
-    "id": "401892649:8359782:742.196037608",
-    "event": "401892649",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8449,
-    "raw_prob": 0.8449,
-    "game": "Vegas Golden Knights at Detroit Red Wings",
-    "result": null,
-    "close_odds": -700
-   },
-   {
     "id": "401892652:7000401:742.196037500",
     "event": "401892652",
     "sport": "nhl",
@@ -90566,6 +90487,22 @@
     "game": "St. Louis Blues at New Jersey Devils",
     "result": null,
     "close_odds": -650
+   },
+   {
+    "id": "401892649:8359782:742.196037608",
+    "event": "401892649",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -700,
+    "prob": 0.8399,
+    "raw_prob": 0.8399,
+    "game": "Vegas Golden Knights at Detroit Red Wings",
+    "result": null,
+    "close_odds": -700
    },
    {
     "id": "401892656:7000424:742.196037044",
@@ -90679,7 +90616,7 @@
     "close_odds": -850
    }
   ],
-  "logged": "2026-11-05 21:09 UTC",
+  "logged": "2026-11-05 21:28 UTC",
   "locked": false,
   "result": null,
   "favorite": false
