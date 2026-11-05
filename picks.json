@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 05:46 UTC",
+ "updated": "2026-11-05 05:54 UTC",
  "date": "2026-11-04",
  "ladder_stats": {
   "tickets": 21,
@@ -4175,7 +4175,7 @@
    "name": "Miami Heat at LA Clippers",
    "start": "2026-11-05T03:30Z",
    "state": "in",
-   "status": "3:14 - 4th",
+   "status": "10.8 - 4th",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -4190,7 +4190,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "101",
+     "score": "106",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4203,7 +4203,7 @@
     "away": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "99",
+     "score": "106",
      "winner": null,
      "record": "2-5",
      "ml_open": null,
@@ -4314,8 +4314,8 @@
    "sport": "nhl",
    "name": "San Jose Sharks at Los Angeles Kings",
    "start": "2026-11-05T03:00Z",
-   "state": "in",
-   "status": "2:00 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -4332,27 +4332,27 @@
      "name": "Los Angeles Kings",
      "short": "Kings",
      "score": "7",
-     "winner": null,
-     "record": "4-7-2",
+     "winner": true,
+     "record": "5-7-2",
      "ml_open": null,
      "ml": null,
      "tid": "8",
      "abbr": "LA",
-     "home_rec": "1-4-0",
+     "home_rec": "2-4-0",
      "road_rec": "3-3-2"
     },
     "away": {
      "name": "San Jose Sharks",
      "short": "Sharks",
      "score": "2",
-     "winner": null,
-     "record": "7-8-1",
+     "winner": false,
+     "record": "7-9-1",
      "ml_open": null,
      "ml": null,
      "tid": "18",
      "abbr": "SJ",
      "home_rec": "3-5-0",
-     "road_rec": "4-3-1"
+     "road_rec": "4-4-1"
     }
    }
   },
@@ -5150,8 +5150,8 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-05 05:46 UTC",
-  "graded_legs": 1380,
+  "updated": "2026-11-05 05:54 UTC",
+  "graded_legs": 1385,
   "calibration": {
    "85-90%": {
     "n": 587,
@@ -5160,16 +5160,16 @@
     "hit": 0.871
    },
    "75-80%": {
-    "n": 112,
-    "wins": 90,
-    "pred": 0.784,
-    "hit": 0.804
+    "n": 114,
+    "wins": 91,
+    "pred": 0.785,
+    "hit": 0.798
    },
    "80-85%": {
-    "n": 237,
-    "wins": 195,
+    "n": 238,
+    "wins": 196,
     "pred": 0.826,
-    "hit": 0.823
+    "hit": 0.824
    },
    "65-70%": {
     "n": 21,
@@ -5208,16 +5208,16 @@
     "hit": 0.385
    },
    "25-30%": {
-    "n": 74,
-    "wins": 16,
+    "n": 75,
+    "wins": 17,
     "pred": 0.275,
-    "hit": 0.216
+    "hit": 0.227
    },
    "60-65%": {
-    "n": 20,
+    "n": 21,
     "wins": 9,
-    "pred": 0.627,
-    "hit": 0.45
+    "pred": 0.628,
+    "hit": 0.429
    },
    "30-35%": {
     "n": 36,
@@ -5270,8 +5270,8 @@
     "hit": 0.766
    },
    "nhl": {
-    "n": 257,
-    "wins": 156,
+    "n": 262,
+    "wins": 159,
     "pred": 0.664,
     "hit": 0.607
    },
@@ -5320,16 +5320,16 @@
   },
   "by_market": {
    "total": {
-    "n": 613,
-    "wins": 498,
+    "n": 616,
+    "wins": 500,
     "pred": 0.818,
     "hit": 0.812
    },
    "spread": {
-    "n": 585,
-    "wins": 426,
+    "n": 587,
+    "wins": 427,
     "pred": 0.758,
-    "hit": 0.728
+    "hit": 0.727
    },
    "dc": {
     "n": 45,
@@ -5363,15 +5363,15 @@
    }
   },
   "parlays": {
-   "graded": 447,
-   "won": 70,
-   "expected": 87.36,
-   "pending": 7,
+   "graded": 449,
+   "won": 71,
+   "expected": 87.87,
+   "pending": 5,
    "by_type": {
     "ladder": {
-     "graded": 266,
-     "won": 62,
-     "expected": 71.74
+     "graded": 268,
+     "won": 63,
+     "expected": 72.25
     },
     "best": {
      "graded": 11,
@@ -5464,7 +5464,7 @@
       "pick": "San Jose Sharks +2.5",
       "game": "San Jose Sharks at Los Angeles Kings",
       "odds": -280,
-      "result": null
+      "result": "loss"
      },
      {
       "pick": "Over 5.5",
@@ -7100,43 +7100,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 21 legs.",
  "model_check": {
   "v1": {
-   "n": 3778,
-   "brier": 0.1512,
-   "logloss": 0.4786,
+   "n": 3792,
+   "brier": 0.1517,
+   "logloss": 0.4796,
    "picks": 940,
    "avg_clv_fd_pts": 0.16,
    "avg_clv_sharp_pts": 0.19,
-   "top_picks_graded": 926,
-   "top_picks_won": 775,
-   "top_picks_expected": 774.26,
-   "top_win_rate": 0.8369330453563715
+   "top_picks_graded": 929,
+   "top_picks_won": 778,
+   "top_picks_expected": 776.44,
+   "top_win_rate": 0.83745963401507
   },
   "v2": {
-   "n": 3778,
-   "brier": 0.1495,
-   "logloss": 0.4733,
+   "n": 3792,
+   "brier": 0.1501,
+   "logloss": 0.4746,
    "picks": 348,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.37,
-   "top_picks_graded": 346,
-   "top_picks_won": 303,
-   "top_picks_expected": 305.85,
-   "top_win_rate": 0.8757225433526011
+   "top_picks_graded": 347,
+   "top_picks_won": 304,
+   "top_picks_expected": 306.75,
+   "top_win_rate": 0.8760806916426513
   },
-  "graded": 3778,
+  "graded": 3792,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3778,
-    "v2": 3778,
+    "v1": 3792,
+    "v2": 3792,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4786,
-    "v2": 0.4733,
+    "v1": 0.4796,
+    "v2": 0.4746,
     "pass": true
    },
    {
@@ -7153,14 +7153,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 926,
-    "v2": 346,
+    "v1": 929,
+    "v2": 347,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "775/926",
-    "v2": "303/346",
+    "v1": "778/929",
+    "v2": "304/347",
     "pass": true
    }
   ],
