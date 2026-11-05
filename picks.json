@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 04:42 UTC",
+ "updated": "2026-11-05 04:59 UTC",
  "date": "2026-11-04",
  "ladder_stats": {
   "tickets": 21,
@@ -4036,8 +4036,8 @@
    "sport": "nba",
    "name": "Portland Trail Blazers at Phoenix Suns",
    "start": "2026-11-05T02:00Z",
-   "state": "in",
-   "status": "9.3 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -4052,28 +4052,28 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "117",
-     "winner": null,
-     "record": "1-4",
+     "score": "119",
+     "winner": false,
+     "record": "1-5",
      "ml_open": null,
      "ml": null,
      "tid": "21",
      "abbr": "PHX",
-     "home_rec": "1-1",
+     "home_rec": "1-2",
      "road_rec": "0-3"
     },
     "away": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "130",
-     "winner": null,
-     "record": "5-1",
+     "score": "132",
+     "winner": true,
+     "record": "6-1",
      "ml_open": null,
      "ml": null,
      "tid": "22",
      "abbr": "POR",
      "home_rec": "1-1",
-     "road_rec": "4-0"
+     "road_rec": "5-0"
     }
    }
   },
@@ -4083,7 +4083,7 @@
    "name": "Dallas Mavericks at San Antonio Spurs",
    "start": "2026-11-05T02:30Z",
    "state": "in",
-   "status": "2:51 - 3rd",
+   "status": "9:34 - 4th",
    "venue": "Frost Bank Center",
    "indoor": true,
    "city": {
@@ -4098,7 +4098,7 @@
     "home": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "81",
+     "score": "94",
      "winner": null,
      "record": "5-2",
      "ml_open": null,
@@ -4111,7 +4111,7 @@
     "away": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "70",
+     "score": "87",
      "winner": null,
      "record": "4-3",
      "ml_open": null,
@@ -4129,7 +4129,7 @@
    "name": "Los Angeles Lakers at Sacramento Kings",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "7:33 - 3rd",
+   "status": "End of 3rd",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -4144,7 +4144,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "65",
+     "score": "74",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4157,7 +4157,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "69",
+     "score": "87",
      "winner": null,
      "record": "6-2",
      "ml_open": null,
@@ -4175,7 +4175,7 @@
    "name": "Miami Heat at LA Clippers",
    "start": "2026-11-05T03:30Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "7:10 - 3rd",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -4190,7 +4190,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "67",
+     "score": "73",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4203,7 +4203,7 @@
     "away": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "52",
+     "score": "65",
      "winner": null,
      "record": "2-5",
      "ml_open": null,
@@ -4315,7 +4315,7 @@
    "name": "San Jose Sharks at Los Angeles Kings",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "5:05 - 2nd",
+   "status": "End of 2nd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -4331,7 +4331,7 @@
     "home": {
      "name": "Los Angeles Kings",
      "short": "Kings",
-     "score": "4",
+     "score": "5",
      "winner": null,
      "record": "4-7-2",
      "ml_open": null,
@@ -4362,7 +4362,7 @@
    "name": "Calgary Flames at Seattle Kraken",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "19:01 - 3rd",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -5150,14 +5150,14 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-05 04:42 UTC",
-  "graded_legs": 1356,
+  "updated": "2026-11-05 04:59 UTC",
+  "graded_legs": 1361,
   "calibration": {
    "85-90%": {
-    "n": 579,
-    "wins": 504,
+    "n": 582,
+    "wins": 506,
     "pred": 0.873,
-    "hit": 0.87
+    "hit": 0.869
    },
    "75-80%": {
     "n": 110,
@@ -5208,16 +5208,16 @@
     "hit": 0.455
    },
    "25-30%": {
-    "n": 71,
+    "n": 72,
     "wins": 15,
     "pred": 0.275,
-    "hit": 0.211
+    "hit": 0.208
    },
    "60-65%": {
-    "n": 18,
-    "wins": 8,
+    "n": 19,
+    "wins": 9,
     "pred": 0.628,
-    "hit": 0.444
+    "hit": 0.474
    },
    "30-35%": {
     "n": 36,
@@ -5264,10 +5264,10 @@
     "hit": 0.839
    },
    "nba": {
-    "n": 529,
-    "wins": 407,
-    "pred": 0.808,
-    "hit": 0.769
+    "n": 534,
+    "wins": 410,
+    "pred": 0.807,
+    "hit": 0.768
    },
    "nhl": {
     "n": 250,
@@ -5320,16 +5320,16 @@
   },
   "by_market": {
    "total": {
-    "n": 607,
+    "n": 608,
     "wins": 495,
     "pred": 0.819,
-    "hit": 0.815
+    "hit": 0.814
    },
    "spread": {
-    "n": 571,
-    "wins": 416,
+    "n": 574,
+    "wins": 419,
     "pred": 0.76,
-    "hit": 0.729
+    "hit": 0.73
    },
    "dc": {
     "n": 45,
@@ -5356,22 +5356,22 @@
     "hit": 0.511
    },
    "prop": {
-    "n": 49,
+    "n": 50,
     "wins": 12,
     "pred": 0.286,
-    "hit": 0.245
+    "hit": 0.24
    }
   },
   "parlays": {
-   "graded": 442,
+   "graded": 443,
    "won": 70,
-   "expected": 86.69,
-   "pending": 12,
+   "expected": 87.1,
+   "pending": 11,
    "by_type": {
     "ladder": {
-     "graded": 265,
+     "graded": 266,
      "won": 62,
-     "expected": 71.34
+     "expected": 71.74
     },
     "best": {
      "graded": 10,
@@ -7100,43 +7100,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 21 legs.",
  "model_check": {
   "v1": {
-   "n": 3713,
-   "brier": 0.151,
-   "logloss": 0.4781,
+   "n": 3731,
+   "brier": 0.1515,
+   "logloss": 0.4794,
    "picks": 940,
    "avg_clv_fd_pts": 0.16,
    "avg_clv_sharp_pts": 0.19,
-   "top_picks_graded": 912,
-   "top_picks_won": 763,
-   "top_picks_expected": 762.54,
-   "top_win_rate": 0.8366228070175439
+   "top_picks_graded": 915,
+   "top_picks_won": 766,
+   "top_picks_expected": 765.11,
+   "top_win_rate": 0.8371584699453551
   },
   "v2": {
-   "n": 3713,
-   "brier": 0.1493,
-   "logloss": 0.4728,
+   "n": 3731,
+   "brier": 0.1498,
+   "logloss": 0.4742,
    "picks": 348,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.37,
-   "top_picks_graded": 342,
-   "top_picks_won": 299,
-   "top_picks_expected": 302.24,
-   "top_win_rate": 0.8742690058479532
+   "top_picks_graded": 343,
+   "top_picks_won": 300,
+   "top_picks_expected": 303.16,
+   "top_win_rate": 0.8746355685131195
   },
-  "graded": 3713,
+  "graded": 3731,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3713,
-    "v2": 3713,
+    "v1": 3731,
+    "v2": 3731,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4781,
-    "v2": 0.4728,
+    "v1": 0.4794,
+    "v2": 0.4742,
     "pass": true
    },
    {
@@ -7153,14 +7153,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 912,
-    "v2": 342,
+    "v1": 915,
+    "v2": 343,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "763/912",
-    "v2": "299/342",
+    "v1": "766/915",
+    "v2": "300/343",
     "pass": true
    }
   ],
