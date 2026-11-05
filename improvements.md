@@ -288,3 +288,8 @@ Change (backup /workspace/kfsp_backups/2026-11-04-pm/): news_adj -2.5 pts on BOS
 Record (all graded tickets): 76 won, 378 lost (16.7%) vs 90.3 expected. Ladder 64-205, Best 1-10, Lottery 11-163, green 23-26. 11-04: 9 of 38 (best day since 11-02 for Lottery: 4 hits).
 Calibration (1,398 legs): 85-90% 87.2% vs 87.3% (594), 80-85% 82.4% vs 82.6%; 90-95% still 78% vs 93% (59, mostly 10-25/26). NHL 60.7% vs 66.4% (262) remains the most overconfident sport; NBA 76.7% vs 79.9%; spreads 73.0% vs 75.9%; props 26.3% vs 28.1%.
 No model change tonight: tickets still trail expectation mainly through NHL legs; the NHL trim needs the payout-aware rebuild backtest, flagged again for the 10:30 AM review. v1 stays live; v2 not switched.
+
+## 2026-11-05 10:30 AM ET intraday review
+Status: v1 live; no ladder locked (first games 7:00 PM ET: 11 NHL, 2 CFB, JAX at BAL TNF, 2 NBA). Graded: nothing new since 3 AM (ladder 64-205, Best 1-10, Lottery 11-163, green 23-26).
+Research (~10:45 AM ET): NFL: Lamar Jackson and Tyler Huntley OUT for BAL (JAX -10). NBA 9:30 AM report: ORL without Banchero, Suggs, Isaac; GSW without Butler, Moody, Porzingis; PHX without Mark Williams. Daily Faceoff 0 of 22 confirmed: Soderblom (CHI, .829), Bussi (CAR, .865), Dostal (ANA, .871) projected; Tarasov likely DET, Varlamov likely NYI, Skinner likely WPG.
+Change (backup /workspace/kfsp_backups/2026-11-05-am/): news_adj -2.5 pts on BAL, ORL, CHI, CAR, ANA side legs; 13 out players excluded from props/TD. No model change; NHL trim payout-aware backtest not run this window. v2 stays off. Rebuilt and published.
