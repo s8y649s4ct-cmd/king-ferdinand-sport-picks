@@ -293,3 +293,18 @@ No model change tonight: tickets still trail expectation mainly through NHL legs
 Status: v1 live; no ladder locked (first games 7:00 PM ET: 11 NHL, 2 CFB, JAX at BAL TNF, 2 NBA). Graded: nothing new since 3 AM (ladder 64-205, Best 1-10, Lottery 11-163, green 23-26).
 Research (~10:45 AM ET): NFL: Lamar Jackson and Tyler Huntley OUT for BAL (JAX -10). NBA 9:30 AM report: ORL without Banchero, Suggs, Isaac; GSW without Butler, Moody, Porzingis; PHX without Mark Williams. Daily Faceoff 0 of 22 confirmed: Soderblom (CHI, .829), Bussi (CAR, .865), Dostal (ANA, .871) projected; Tarasov likely DET, Varlamov likely NYI, Skinner likely WPG.
 Change (backup /workspace/kfsp_backups/2026-11-05-am/): news_adj -2.5 pts on BAL, ORL, CHI, CAR, ANA side legs; 13 out players excluded from props/TD. No model change; NHL trim payout-aware backtest not run this window. v2 stays off. Rebuilt and published.
+
+## 2026-11-05 3:00 PM ET intraday review
+Status: v1 live; no ladder locked yet (first puck drops 7:00 PM ET). Graded: nothing new since 3 AM / 10:30 AM (no games finished; ladder 64-205, Best 1-10, Lottery 11-163, green 23-26).
+Research (~3:05–3:10 PM ET):
+- NHL Daily Faceoff 10/22 confirmed: Soderblom Likely CHI (.829); Brossoit Likely ANA (.848, swapped from morning Dostal); Tomkins Likely EDM (Oilers site + DFO; Jarry sits); Binnington Confirmed STL (.846); Dobes Confirmed MTL (.853); Woll/Garand/Varlamov/Silovs/DeSmith/Talbot/Skinner/Blackwood confirmed. CAR: Bussi Unconfirmed (MatchWiz leans Kochetkov ~75%) — removed morning CAR penalty. CHI on B2B; Kane OUT.
+- NBA 2:30 PM official report: ORL still without Banchero/Suggs/Isaac/Penda/Nelson; GSW without Butler/Moody/Porzingis/Santos; PHX/MIA not yet submitted. Giannis (wrist) DTD / rest risk on B2B after 41 OT minutes vs LAC. PHX: Mark Williams OUT; Goodwin and Fleming DTD.
+- NFL TNF: Lamar + Huntley OUT; rookie Joe Fagnano starts. JAX -10 / total 39.5 (open BAL -4.5 / ~49.5). Our Unders 53.5/54.5 keep large cushion. Tuten, Walker, Wiggins Q.
+- Weather: BAL cloudy 66F; FAU mostly clear 78F; JMU partly cloudy 65F — no weather haircut.
+Change (backup /workspace/kfsp_backups/2026-11-05-pm/): legs.json news_adj today only, same -2.5 pt side/ML rule.
+- Kept: BAL, ORL, CHI, ANA (reason updated to Brossoit).
+- Added: EDM (Tomkins), STL (Binnington), MTL (Dobes), MIA (Giannis rest risk).
+- Removed: CAR (weak-backup premise no longer clear).
+- Players list expanded for props/TD exclusion (Giannis, Gardner, Goodwin, Fleming, Horford, Bassey, Brandon Williams, Kane, Poitras, Hall, Tuten, Walker, Wiggins, etc.).
+No model change (no new backtest evidence; NHL trim payout-aware backtest still pending). v2 switch_ready still true, not re-reported. Locked tickets: none. Cleared stale .update.lock from 2:59 PM refresh, rebuilt via update.sh.
+Published 2a4b5c4 (~3:10 PM ET). Site 200; servers 8080/8000 up. Counts: 16 ladder (33 unique legs), props 15, live 0, NBA 4, TD 2, 2-leg 0.
