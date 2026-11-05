@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 03:45 UTC",
+ "updated": "2026-11-05 04:01 UTC",
  "date": "2026-11-04",
  "ladder_stats": {
   "tickets": 21,
@@ -3431,69 +3431,6 @@
  "started": [],
  "games": [
   {
-   "id": "401866456",
-   "sport": "college-football",
-   "name": "Central Michigan Chippewas at Eastern Michigan Eagles",
-   "start": "2026-11-05T00:30Z",
-   "state": "in",
-   "status": "0:23 - 4th",
-   "venue": "Ford Field",
-   "indoor": true,
-   "city": {
-    "city": "Detroit",
-    "state": "MI",
-    "country": "USA"
-   },
-   "espn_wx": {
-    "displayValue": "7",
-    "temperature": 63,
-    "highTemperature": 63,
-    "conditionId": "Cloudy",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "48226"
-     ],
-     "href": "http://www.accuweather.com/en/us/ford-field-mi/48226/current-weather/43021_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "Eastern Michigan Eagles",
-     "short": "E Michigan",
-     "score": "6",
-     "winner": null,
-     "record": "4-5",
-     "ml_open": null,
-     "ml": null,
-     "tid": "2199",
-     "abbr": "EMU",
-     "home_rec": null,
-     "road_rec": null
-    },
-    "away": {
-     "name": "Central Michigan Chippewas",
-     "short": "C Michigan",
-     "score": "35",
-     "winner": null,
-     "record": "3-5",
-     "ml_open": null,
-     "ml": null,
-     "tid": "2117",
-     "abbr": "CMU",
-     "home_rec": null,
-     "road_rec": null
-    }
-   }
-  },
-  {
    "id": "401866455",
    "sport": "college-football",
    "name": "Ball State Cardinals at Massachusetts Minutemen",
@@ -3584,6 +3521,53 @@
      "abbr": "TOL",
      "home_rec": "4-1",
      "road_rec": "3-1"
+    }
+   }
+  },
+  {
+   "id": "401866456",
+   "sport": "college-football",
+   "name": "Central Michigan Chippewas at Eastern Michigan Eagles",
+   "start": "2026-11-05T00:30Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Ford Field",
+   "indoor": true,
+   "city": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "Eastern Michigan Eagles",
+     "short": "E Michigan",
+     "score": "7",
+     "winner": false,
+     "record": "4-6",
+     "ml_open": null,
+     "ml": null,
+     "tid": "2199",
+     "abbr": "EMU",
+     "home_rec": "2-2",
+     "road_rec": "2-3"
+    },
+    "away": {
+     "name": "Central Michigan Chippewas",
+     "short": "C Michigan",
+     "score": "35",
+     "winner": true,
+     "record": "4-5",
+     "ml_open": null,
+     "ml": null,
+     "tid": "2117",
+     "abbr": "CMU",
+     "home_rec": "3-2",
+     "road_rec": "0-3"
     }
    }
   },
@@ -3869,7 +3853,7 @@
    "name": "Utah Jazz at New Orleans Pelicans",
    "start": "2026-11-05T01:00Z",
    "state": "in",
-   "status": "End of 4th",
+   "status": "9.5 - OT",
    "venue": "Smoothie King Center",
    "indoor": true,
    "city": {
@@ -3884,7 +3868,7 @@
     "home": {
      "name": "New Orleans Pelicans",
      "short": "Pelicans",
-     "score": "104",
+     "score": "118",
      "winner": null,
      "record": "3-4",
      "ml_open": null,
@@ -3897,7 +3881,7 @@
     "away": {
      "name": "Utah Jazz",
      "short": "Jazz",
-     "score": "104",
+     "score": "110",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -3961,7 +3945,7 @@
    "name": "Minnesota Timberwolves at Houston Rockets",
    "start": "2026-11-05T01:30Z",
    "state": "in",
-   "status": "7:10 - 4th",
+   "status": "1:47 - 4th",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
    "city": {
@@ -3976,7 +3960,7 @@
     "home": {
      "name": "Houston Rockets",
      "short": "Rockets",
-     "score": "93",
+     "score": "105",
      "winner": null,
      "record": "7-1",
      "ml_open": null,
@@ -3989,7 +3973,7 @@
     "away": {
      "name": "Minnesota Timberwolves",
      "short": "Timberwolves",
-     "score": "91",
+     "score": "111",
      "winner": null,
      "record": "5-3",
      "ml_open": null,
@@ -4007,7 +3991,7 @@
    "name": "Toronto Raptors at Denver Nuggets",
    "start": "2026-11-05T02:00Z",
    "state": "in",
-   "status": "3:00 - 3rd",
+   "status": "7:15 - 4th",
    "venue": "Ball Arena",
    "indoor": true,
    "city": {
@@ -4022,7 +4006,7 @@
     "home": {
      "name": "Denver Nuggets",
      "short": "Nuggets",
-     "score": "90",
+     "score": "117",
      "winner": null,
      "record": "3-3",
      "ml_open": null,
@@ -4035,7 +4019,7 @@
     "away": {
      "name": "Toronto Raptors",
      "short": "Raptors",
-     "score": "78",
+     "score": "94",
      "winner": null,
      "record": "4-3",
      "ml_open": null,
@@ -4053,7 +4037,7 @@
    "name": "Portland Trail Blazers at Phoenix Suns",
    "start": "2026-11-05T02:00Z",
    "state": "in",
-   "status": "7:09 - 3rd",
+   "status": "2:18 - 3rd",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -4068,7 +4052,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "71",
+     "score": "79",
      "winner": null,
      "record": "1-4",
      "ml_open": null,
@@ -4081,7 +4065,7 @@
     "away": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "82",
+     "score": "97",
      "winner": null,
      "record": "5-1",
      "ml_open": null,
@@ -4099,7 +4083,7 @@
    "name": "Dallas Mavericks at San Antonio Spurs",
    "start": "2026-11-05T02:30Z",
    "state": "in",
-   "status": "3:57 - 2nd",
+   "status": "Halftime",
    "venue": "Frost Bank Center",
    "indoor": true,
    "city": {
@@ -4114,7 +4098,7 @@
     "home": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "56",
+     "score": "68",
      "winner": null,
      "record": "5-2",
      "ml_open": null,
@@ -4127,7 +4111,7 @@
     "away": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "48",
+     "score": "51",
      "winner": null,
      "record": "4-3",
      "ml_open": null,
@@ -4145,7 +4129,7 @@
    "name": "Los Angeles Lakers at Sacramento Kings",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "10:06 - 2nd",
+   "status": "5:48 - 2nd",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -4160,7 +4144,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "30",
+     "score": "39",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4173,7 +4157,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "30",
+     "score": "43",
      "winner": null,
      "record": "6-2",
      "ml_open": null,
@@ -4191,7 +4175,7 @@
    "name": "Miami Heat at LA Clippers",
    "start": "2026-11-05T03:30Z",
    "state": "in",
-   "status": "9:34 - 1st",
+   "status": "2:34 - 1st",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -4206,7 +4190,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "3",
+     "score": "20",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4219,7 +4203,7 @@
     "away": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "7",
+     "score": "28",
      "winner": null,
      "record": "2-5",
      "ml_open": null,
@@ -4331,7 +4315,7 @@
    "name": "San Jose Sharks at Los Angeles Kings",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "3:52 - 1st",
+   "status": "End of 1st",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -4347,7 +4331,7 @@
     "home": {
      "name": "Los Angeles Kings",
      "short": "Kings",
-     "score": "1",
+     "score": "3",
      "winner": null,
      "record": "4-7-2",
      "ml_open": null,
@@ -4378,7 +4362,7 @@
    "name": "Calgary Flames at Seattle Kraken",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "End of 1st",
+   "status": "20:00 - 2nd",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -4653,12 +4637,12 @@
   },
   {
    "team": "Cleveland Cavaliers",
-   "t": "Tyrese Proctor - Day-To-Day: Proctor exited to the locker room in the fourth quarter of Wednesday's game against the Thunder due to an apparent ankle injury, Ethan Sands of The Cleveland Plain Dealer reports.",
+   "t": "Jarrett Allen - Day-To-Day: Allen (knee) exited to the locker room in the first quarter of Wednesday's 124-116 loss to the Thunder and did not return, finishing with zero points (0-1 FG) and one rebound in seven minutes.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "Cleveland Cavaliers",
-   "t": "Jarrett Allen - Day-To-Day: Allen (knee) is doubtful to return to Wednesday's game against the Thunder, Brett Siegel of ClutchPoints.com reports.",
+   "t": "Tyrese Proctor - Day-To-Day: Proctor exited Wednesday's 124-116 loss to the Thunder in the fourth quarter and did not return due to an apparent ankle injury, finishing with 11 points (4-7 FG, 2-3 3Pt, 1-1 FT), one rebound and one steal across 22 minutes.",
    "src": "ESPN injuries feed"
   },
   {
@@ -4783,7 +4767,7 @@
   },
   {
    "team": "Memphis Grizzlies",
-   "t": "Isaiah Stewart - Day-To-Day: Stewart is doubtful to return to Wednesday's game against the Pacers due to a right knee injury.",
+   "t": "Isaiah Stewart - Day-To-Day: Stewart (knee) exited Wednesday's 107-103 loss to the Pacers and did not return, finishing with six points (3-4 FG) and one rebound in 10 minutes.",
    "src": "ESPN injuries feed"
   },
   {
@@ -5073,7 +5057,7 @@
   },
   {
    "team": "Ottawa Senators",
-   "t": "Ridly Greig - Out: out",
+   "t": "Ridly Greig - Out: Greig (lower body) is day-to-day after missing Wednesday's game versus the Sabres, Bruce Garrioch of Postmedia reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -5161,14 +5145,14 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-05 03:45 UTC",
-  "graded_legs": 1335,
+  "updated": "2026-11-05 04:01 UTC",
+  "graded_legs": 1339,
   "calibration": {
    "85-90%": {
-    "n": 563,
-    "wins": 492,
+    "n": 567,
+    "wins": 495,
     "pred": 0.873,
-    "hit": 0.874
+    "hit": 0.873
    },
    "75-80%": {
     "n": 110,
@@ -5269,10 +5253,10 @@
     "hit": 0.726
    },
    "college-football": {
-    "n": 220,
-    "wins": 185,
-    "pred": 0.826,
-    "hit": 0.841
+    "n": 224,
+    "wins": 188,
+    "pred": 0.827,
+    "hit": 0.839
    },
    "nba": {
     "n": 512,
@@ -5331,16 +5315,16 @@
   },
   "by_market": {
    "total": {
-    "n": 599,
-    "wins": 487,
+    "n": 602,
+    "wins": 490,
     "pred": 0.818,
-    "hit": 0.813
+    "hit": 0.814
    },
    "spread": {
-    "n": 562,
+    "n": 563,
     "wins": 412,
     "pred": 0.759,
-    "hit": 0.733
+    "hit": 0.732
    },
    "dc": {
     "n": 45,
@@ -5374,15 +5358,15 @@
    }
   },
   "parlays": {
-   "graded": 429,
+   "graded": 432,
    "won": 69,
-   "expected": 84.28,
-   "pending": 25,
+   "expected": 84.63,
+   "pending": 22,
    "by_type": {
     "ladder": {
-     "graded": 258,
+     "graded": 261,
      "won": 61,
-     "expected": 69.52
+     "expected": 69.87
     },
     "best": {
      "graded": 10,
@@ -7111,43 +7095,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 21 legs.",
  "model_check": {
   "v1": {
-   "n": 3646,
-   "brier": 0.1515,
-   "logloss": 0.4793,
+   "n": 3659,
+   "brier": 0.1521,
+   "logloss": 0.4809,
    "picks": 940,
    "avg_clv_fd_pts": 0.16,
    "avg_clv_sharp_pts": 0.19,
-   "top_picks_graded": 897,
-   "top_picks_won": 751,
-   "top_picks_expected": 749.48,
-   "top_win_rate": 0.8372352285395763
+   "top_picks_graded": 901,
+   "top_picks_won": 754,
+   "top_picks_expected": 752.96,
+   "top_win_rate": 0.8368479467258602
   },
   "v2": {
-   "n": 3646,
-   "brier": 0.1497,
-   "logloss": 0.4737,
+   "n": 3659,
+   "brier": 0.1504,
+   "logloss": 0.4755,
    "picks": 348,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.37,
-   "top_picks_graded": 338,
-   "top_picks_won": 295,
-   "top_picks_expected": 298.62,
-   "top_win_rate": 0.8727810650887574
+   "top_picks_graded": 339,
+   "top_picks_won": 296,
+   "top_picks_expected": 299.51,
+   "top_win_rate": 0.8731563421828908
   },
-  "graded": 3646,
+  "graded": 3659,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3646,
-    "v2": 3646,
+    "v1": 3659,
+    "v2": 3659,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4793,
-    "v2": 0.4737,
+    "v1": 0.4809,
+    "v2": 0.4755,
     "pass": true
    },
    {
@@ -7164,14 +7148,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 897,
-    "v2": 338,
+    "v1": 901,
+    "v2": 339,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "751/897",
-    "v2": "295/338",
+    "v1": "754/901",
+    "v2": "296/339",
     "pass": true
    }
   ],
