@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 05:21 UTC",
+ "updated": "2026-11-05 05:28 UTC",
  "date": "2026-11-04",
  "ladder_stats": {
   "tickets": 21,
@@ -4082,8 +4082,8 @@
    "sport": "nba",
    "name": "Dallas Mavericks at San Antonio Spurs",
    "start": "2026-11-05T02:30Z",
-   "state": "in",
-   "status": "1:54 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Frost Bank Center",
    "indoor": true,
    "city": {
@@ -4098,28 +4098,28 @@
     "home": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "109",
-     "winner": null,
-     "record": "5-2",
+     "score": "112",
+     "winner": true,
+     "record": "6-2",
      "ml_open": null,
      "ml": null,
      "tid": "24",
      "abbr": "SA",
-     "home_rec": "3-2",
+     "home_rec": "4-2",
      "road_rec": "2-0"
     },
     "away": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "108",
-     "winner": null,
-     "record": "4-3",
+     "score": "111",
+     "winner": false,
+     "record": "4-4",
      "ml_open": null,
      "ml": null,
      "tid": "6",
      "abbr": "DAL",
      "home_rec": "2-2",
-     "road_rec": "2-1"
+     "road_rec": "2-2"
     }
    }
   },
@@ -4129,7 +4129,7 @@
    "name": "Los Angeles Lakers at Sacramento Kings",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "5:11 - 4th",
+   "status": "3:55 - 4th",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -4144,7 +4144,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "88",
+     "score": "94",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4157,7 +4157,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "100",
+     "score": "102",
      "winner": null,
      "record": "6-2",
      "ml_open": null,
@@ -4175,7 +4175,7 @@
    "name": "Miami Heat at LA Clippers",
    "start": "2026-11-05T03:30Z",
    "state": "in",
-   "status": "11:56 - 4th",
+   "status": "9:11 - 4th",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -4190,7 +4190,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "87",
+     "score": "89",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4203,7 +4203,7 @@
     "away": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "78",
+     "score": "86",
      "winner": null,
      "record": "2-5",
      "ml_open": null,
@@ -4315,7 +4315,7 @@
    "name": "San Jose Sharks at Los Angeles Kings",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "14:09 - 3rd",
+   "status": "11:12 - 3rd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -4362,7 +4362,7 @@
    "name": "Calgary Flames at Seattle Kraken",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "8:15 - 3rd",
+   "status": "5:12 - 3rd",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -5150,14 +5150,14 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-05 05:21 UTC",
-  "graded_legs": 1361,
+  "updated": "2026-11-05 05:28 UTC",
+  "graded_legs": 1366,
   "calibration": {
    "85-90%": {
-    "n": 582,
-    "wins": 506,
+    "n": 585,
+    "wins": 509,
     "pred": 0.873,
-    "hit": 0.869
+    "hit": 0.87
    },
    "75-80%": {
     "n": 110,
@@ -5202,10 +5202,10 @@
     "hit": 0.414
    },
    "45-50%": {
-    "n": 11,
+    "n": 12,
     "wins": 5,
-    "pred": 0.478,
-    "hit": 0.455
+    "pred": 0.477,
+    "hit": 0.417
    },
    "25-30%": {
     "n": 72,
@@ -5226,10 +5226,10 @@
     "hit": 0.417
    },
    "20-25%": {
-    "n": 45,
+    "n": 46,
     "wins": 9,
     "pred": 0.236,
-    "hit": 0.2
+    "hit": 0.196
    },
    "35-40%": {
     "n": 34,
@@ -5264,10 +5264,10 @@
     "hit": 0.839
    },
    "nba": {
-    "n": 534,
-    "wins": 410,
-    "pred": 0.807,
-    "hit": 0.768
+    "n": 539,
+    "wins": 413,
+    "pred": 0.806,
+    "hit": 0.766
    },
    "nhl": {
     "n": 250,
@@ -5320,14 +5320,14 @@
   },
   "by_market": {
    "total": {
-    "n": 608,
-    "wins": 495,
+    "n": 609,
+    "wins": 496,
     "pred": 0.819,
     "hit": 0.814
    },
    "spread": {
-    "n": 574,
-    "wins": 419,
+    "n": 577,
+    "wins": 421,
     "pred": 0.76,
     "hit": 0.73
    },
@@ -5356,17 +5356,17 @@
     "hit": 0.511
    },
    "prop": {
-    "n": 50,
+    "n": 51,
     "wins": 12,
-    "pred": 0.286,
-    "hit": 0.24
+    "pred": 0.285,
+    "hit": 0.235
    }
   },
   "parlays": {
-   "graded": 443,
+   "graded": 444,
    "won": 70,
    "expected": 87.1,
-   "pending": 11,
+   "pending": 10,
    "by_type": {
     "ladder": {
      "graded": 266,
@@ -5379,7 +5379,7 @@
      "expected": 1.98
     },
     "lottery": {
-     "graded": 167,
+     "graded": 168,
      "won": 7,
      "expected": 13.27
     }
@@ -5536,7 +5536,7 @@
       "pick": "San Antonio Spurs +3.5",
       "game": "Dallas Mavericks at San Antonio Spurs",
       "odds": -900,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -7100,43 +7100,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 21 legs.",
  "model_check": {
   "v1": {
-   "n": 3731,
-   "brier": 0.1515,
-   "logloss": 0.4794,
+   "n": 3750,
+   "brier": 0.1514,
+   "logloss": 0.4791,
    "picks": 940,
    "avg_clv_fd_pts": 0.16,
    "avg_clv_sharp_pts": 0.19,
-   "top_picks_graded": 915,
-   "top_picks_won": 766,
-   "top_picks_expected": 765.11,
-   "top_win_rate": 0.8371584699453551
+   "top_picks_graded": 920,
+   "top_picks_won": 771,
+   "top_picks_expected": 769.46,
+   "top_win_rate": 0.8380434782608696
   },
   "v2": {
-   "n": 3731,
-   "brier": 0.1498,
-   "logloss": 0.4742,
+   "n": 3750,
+   "brier": 0.1497,
+   "logloss": 0.4738,
    "picks": 348,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.37,
-   "top_picks_graded": 343,
-   "top_picks_won": 300,
-   "top_picks_expected": 303.16,
-   "top_win_rate": 0.8746355685131195
+   "top_picks_graded": 344,
+   "top_picks_won": 301,
+   "top_picks_expected": 304.07,
+   "top_win_rate": 0.875
   },
-  "graded": 3731,
+  "graded": 3750,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3731,
-    "v2": 3731,
+    "v1": 3750,
+    "v2": 3750,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4794,
-    "v2": 0.4742,
+    "v1": 0.4791,
+    "v2": 0.4738,
     "pass": true
    },
    {
@@ -7153,14 +7153,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 915,
-    "v2": 343,
+    "v1": 920,
+    "v2": 344,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "766/915",
-    "v2": "300/343",
+    "v1": "771/920",
+    "v2": "301/344",
     "pass": true
    }
   ],
