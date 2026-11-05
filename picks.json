@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05 05:40 UTC",
+ "updated": "2026-11-05 05:46 UTC",
  "date": "2026-11-04",
  "ladder_stats": {
   "tickets": 21,
@@ -4146,12 +4146,12 @@
      "short": "Kings",
      "score": "103",
      "winner": false,
-     "record": "1-6",
+     "record": "1-7",
      "ml_open": null,
      "ml": null,
      "tid": "23",
      "abbr": "SAC",
-     "home_rec": "0-2",
+     "home_rec": "0-3",
      "road_rec": "1-4"
     },
     "away": {
@@ -4159,13 +4159,13 @@
      "short": "Lakers",
      "score": "116",
      "winner": true,
-     "record": "6-2",
+     "record": "7-2",
      "ml_open": null,
      "ml": null,
      "tid": "13",
      "abbr": "LAL",
      "home_rec": "4-1",
-     "road_rec": "2-1"
+     "road_rec": "3-1"
     }
    }
   },
@@ -4175,7 +4175,7 @@
    "name": "Miami Heat at LA Clippers",
    "start": "2026-11-05T03:30Z",
    "state": "in",
-   "status": "5:04 - 4th",
+   "status": "3:14 - 4th",
    "venue": "Intuit Dome",
    "indoor": true,
    "city": {
@@ -4190,7 +4190,7 @@
     "home": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "100",
+     "score": "101",
      "winner": null,
      "record": "1-6",
      "ml_open": null,
@@ -4203,7 +4203,7 @@
     "away": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "91",
+     "score": "99",
      "winner": null,
      "record": "2-5",
      "ml_open": null,
@@ -4315,7 +4315,7 @@
    "name": "San Jose Sharks at Los Angeles Kings",
    "start": "2026-11-05T03:00Z",
    "state": "in",
-   "status": "5:17 - 3rd",
+   "status": "2:00 - 3rd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -4361,8 +4361,8 @@
    "sport": "nhl",
    "name": "Calgary Flames at Seattle Kraken",
    "start": "2026-11-05T03:00Z",
-   "state": "in",
-   "status": "4:05 - OT",
+   "state": "post",
+   "status": "Final/OT",
    "venue": "Climate Pledge Arena",
    "indoor": true,
    "city": {
@@ -4379,27 +4379,27 @@
      "name": "Seattle Kraken",
      "short": "Kraken",
      "score": "2",
-     "winner": null,
-     "record": "8-5-1",
+     "winner": true,
+     "record": "9-5-1",
      "ml_open": null,
      "ml": null,
      "tid": "124292",
      "abbr": "SEA",
-     "home_rec": "4-2-0",
+     "home_rec": "5-2-0",
      "road_rec": "4-3-1"
     },
     "away": {
      "name": "Calgary Flames",
      "short": "Flames",
      "score": "1",
-     "winner": null,
-     "record": "7-8-0",
+     "winner": false,
+     "record": "7-8-1",
      "ml_open": null,
      "ml": null,
      "tid": "3",
      "abbr": "CGY",
      "home_rec": "5-3-0",
-     "road_rec": "2-5-0"
+     "road_rec": "2-5-1"
     }
    }
   }
@@ -5150,8 +5150,8 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-05 05:40 UTC",
-  "graded_legs": 1373,
+  "updated": "2026-11-05 05:46 UTC",
+  "graded_legs": 1380,
   "calibration": {
    "85-90%": {
     "n": 587,
@@ -5160,16 +5160,16 @@
     "hit": 0.871
    },
    "75-80%": {
-    "n": 110,
-    "wins": 88,
+    "n": 112,
+    "wins": 90,
     "pred": 0.784,
-    "hit": 0.8
+    "hit": 0.804
    },
    "80-85%": {
-    "n": 235,
-    "wins": 194,
+    "n": 237,
+    "wins": 195,
     "pred": 0.826,
-    "hit": 0.826
+    "hit": 0.823
    },
    "65-70%": {
     "n": 21,
@@ -5196,10 +5196,10 @@
     "hit": 0.829
    },
    "40-45%": {
-    "n": 29,
+    "n": 30,
     "wins": 12,
     "pred": 0.424,
-    "hit": 0.414
+    "hit": 0.4
    },
    "45-50%": {
     "n": 13,
@@ -5208,16 +5208,16 @@
     "hit": 0.385
    },
    "25-30%": {
-    "n": 73,
+    "n": 74,
     "wins": 16,
     "pred": 0.275,
-    "hit": 0.219
+    "hit": 0.216
    },
    "60-65%": {
-    "n": 19,
+    "n": 20,
     "wins": 9,
-    "pred": 0.628,
-    "hit": 0.474
+    "pred": 0.627,
+    "hit": 0.45
    },
    "30-35%": {
     "n": 36,
@@ -5270,10 +5270,10 @@
     "hit": 0.766
    },
    "nhl": {
-    "n": 250,
-    "wins": 153,
+    "n": 257,
+    "wins": 156,
     "pred": 0.664,
-    "hit": 0.612
+    "hit": 0.607
    },
    "mlb": {
     "n": 10,
@@ -5320,16 +5320,16 @@
   },
   "by_market": {
    "total": {
-    "n": 610,
-    "wins": 497,
-    "pred": 0.819,
-    "hit": 0.815
+    "n": 613,
+    "wins": 498,
+    "pred": 0.818,
+    "hit": 0.812
    },
    "spread": {
-    "n": 581,
-    "wins": 424,
-    "pred": 0.76,
-    "hit": 0.73
+    "n": 585,
+    "wins": 426,
+    "pred": 0.758,
+    "hit": 0.728
    },
    "dc": {
     "n": 45,
@@ -5363,10 +5363,10 @@
    }
   },
   "parlays": {
-   "graded": 445,
+   "graded": 447,
    "won": 70,
-   "expected": 87.1,
-   "pending": 9,
+   "expected": 87.36,
+   "pending": 7,
    "by_type": {
     "ladder": {
      "graded": 266,
@@ -5374,14 +5374,14 @@
      "expected": 71.74
     },
     "best": {
-     "graded": 10,
+     "graded": 11,
      "won": 1,
-     "expected": 1.98
+     "expected": 2.19
     },
     "lottery": {
-     "graded": 169,
+     "graded": 170,
      "won": 7,
-     "expected": 13.27
+     "expected": 13.31
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -5396,9 +5396,9 @@
  },
  "favorites_record": {
   "won": 23,
-  "lost": 25,
-  "pending": 1,
-  "win_pct": 0.479,
+  "lost": 26,
+  "pending": 0,
+  "win_pct": 0.469,
   "by_legs": {
    "2": {
     "won": 9,
@@ -5414,9 +5414,9 @@
    },
    "4": {
     "won": 6,
-    "lost": 8,
-    "pending": 1,
-    "win_pct": 0.429
+    "lost": 9,
+    "pending": 0,
+    "win_pct": 0.4
    },
    "5": {
     "won": 1,
@@ -5445,7 +5445,7 @@
     "n": 4,
     "est_prob": 0.2134,
     "fd_payout_x": 3.88,
-    "result": null,
+    "result": "loss",
     "source": "logged",
     "legs": [
      {
@@ -5470,7 +5470,7 @@
       "pick": "Over 5.5",
       "game": "Calgary Flames at Seattle Kraken",
       "odds": -164,
-      "result": null
+      "result": "loss"
      }
     ]
    },
@@ -7100,43 +7100,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 21 legs.",
  "model_check": {
   "v1": {
-   "n": 3766,
-   "brier": 0.151,
-   "logloss": 0.4781,
+   "n": 3778,
+   "brier": 0.1512,
+   "logloss": 0.4786,
    "picks": 940,
    "avg_clv_fd_pts": 0.16,
    "avg_clv_sharp_pts": 0.19,
-   "top_picks_graded": 923,
-   "top_picks_won": 773,
-   "top_picks_expected": 772.1,
-   "top_win_rate": 0.8374864572047671
+   "top_picks_graded": 926,
+   "top_picks_won": 775,
+   "top_picks_expected": 774.26,
+   "top_win_rate": 0.8369330453563715
   },
   "v2": {
-   "n": 3766,
-   "brier": 0.1493,
-   "logloss": 0.4728,
+   "n": 3778,
+   "brier": 0.1495,
+   "logloss": 0.4733,
    "picks": 348,
    "avg_clv_fd_pts": 0.34,
    "avg_clv_sharp_pts": 0.37,
-   "top_picks_graded": 345,
-   "top_picks_won": 302,
-   "top_picks_expected": 304.99,
-   "top_win_rate": 0.8753623188405797
+   "top_picks_graded": 346,
+   "top_picks_won": 303,
+   "top_picks_expected": 305.85,
+   "top_win_rate": 0.8757225433526011
   },
-  "graded": 3766,
+  "graded": 3778,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 3766,
-    "v2": 3766,
+    "v1": 3778,
+    "v2": 3778,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4781,
-    "v2": 0.4728,
+    "v1": 0.4786,
+    "v2": 0.4733,
     "pass": true
    },
    {
@@ -7153,14 +7153,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 923,
-    "v2": 345,
+    "v1": 926,
+    "v2": 346,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "773/923",
-    "v2": "302/345",
+    "v1": "775/926",
+    "v2": "303/346",
     "pass": true
    }
   ],
