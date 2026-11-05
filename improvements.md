@@ -283,3 +283,8 @@ Published after rebuild (site refresh 15:40 UTC = 10:40 AM ET).
 Status: v1 live; no ladder locked (first games 7:00 PM ET). Graded: nothing new since 3 AM (ladder 59-189, Best 1-9, Lottery 7-151, green 21-24).
 Research (~3:05 PM ET): VSiN 2:15 PM report: Tatum ruled out (rest), Pritchard and Jalen Johnson questionable; Tobias Harris, Nurkic, Mark Williams, Cason Wallace out. Daily Faceoff 3 of 8: Ersson confirmed (OTT), Askarov confirmed (SJ, .944 last 5) vs Kuemper likely (LAK, .877); Markstrom confirmed (FLA); Wolf unconfirmed.
 Change (backup /workspace/kfsp_backups/2026-11-04-pm/): news_adj -2.5 pts on BOS and LAK side legs; 5 more out players excluded from props. No model change (no new backtest evidence); v2 stays off.
+
+## 2026-11-05 (daily review #10, ~3:00 AM ET)
+Record (all graded tickets): 76 won, 378 lost (16.7%) vs 90.3 expected. Ladder 64-205, Best 1-10, Lottery 11-163, green 23-26. 11-04: 9 of 38 (best day since 11-02 for Lottery: 4 hits).
+Calibration (1,398 legs): 85-90% 87.2% vs 87.3% (594), 80-85% 82.4% vs 82.6%; 90-95% still 78% vs 93% (59, mostly 10-25/26). NHL 60.7% vs 66.4% (262) remains the most overconfident sport; NBA 76.7% vs 79.9%; spreads 73.0% vs 75.9%; props 26.3% vs 28.1%.
+No model change tonight: tickets still trail expectation mainly through NHL legs; the NHL trim needs the payout-aware rebuild backtest, flagged again for the 10:30 AM review. v1 stays live; v2 not switched.
