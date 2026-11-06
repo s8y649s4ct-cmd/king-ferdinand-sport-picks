@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06 01:29 UTC",
+ "updated": "2026-11-06 01:34 UTC",
  "date": "2026-11-05",
  "ladder_stats": {
   "tickets": 16,
@@ -27,7 +27,7 @@
    "odds": -950,
    "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.8916,
    "market_prob": 0.8726,
    "prob": 0.8726,
@@ -60,7 +60,7 @@
    "odds": -950,
    "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.9088,
    "market_prob": 0.8812,
    "prob": 0.8974,
@@ -106,7 +106,7 @@
    "odds": -650,
    "fd_prob": 0.8176,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36260071, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36260071, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.8757,
    "market_prob": 0.8467,
    "prob": 0.8317,
@@ -147,7 +147,7 @@
    "odds": -900,
    "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.9088,
    "market_prob": 0.8789,
    "prob": 0.8639,
@@ -162,10 +162,10 @@
    "research_adj": -0.015,
    "raw_prob": 0.8639,
    "v1_prob": 0.8639,
-   "v2_prob": 0.8981,
+   "v2_prob": 0.8991,
    "v2_src": "Pinnacle: Pinnacle +3 line extrapolated 11.5 pts",
-   "sharp_prob": 0.8888,
-   "sharp_edge": -0.0112,
+   "sharp_prob": 0.89,
+   "sharp_edge": -0.01,
    "power_prob": 0.9508,
    "power_margin_home": 5.3,
    "v2_injuries": [
@@ -194,7 +194,7 @@
    "odds": -850,
    "fd_prob": 0.8441,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.8803,
    "market_prob": 0.8622,
    "prob": 0.8622,
@@ -213,6 +213,40 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196026279&selectionId%5B0%5D=7760688",
    "fd_region": "PA"
   },
+  "401909936:26969962:742.196019392": {
+   "kind": "prop",
+   "player": "Desmond Bane",
+   "stat": "ASS",
+   "ou": "over",
+   "line": 1.5,
+   "id": "401909936:26969962:742.196019392",
+   "event": "401909936",
+   "sport": "nba",
+   "game": "Orlando Magic at Phoenix Suns",
+   "start": "2026-11-06T02:00Z",
+   "market": "2+ Assists",
+   "pick": "Desmond Bane",
+   "odds": -1000,
+   "fd_prob": 0.8496,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:34 UTC",
+   "market_prob": 0.8496,
+   "prob": 0.8546,
+   "pre_research": 0.8496,
+   "research": [
+    "FanDuel price moved our way -650 -> -1000 (+0.5)"
+   ],
+   "research_adj": 0.005,
+   "raw_prob": 0.8546,
+   "v1_prob": 0.8546,
+   "v2_prob": 0.8496,
+   "v2_src": "no sharp price -> FanDuel no-vig/line model",
+   "why": "FanDuel no-vig 85.0% -> est. 85.5% (edge +0.5 pts); research +0.5 pts: FanDuel price moved our way -650 -> -1000 (+0.5)",
+   "fd_market_id": "742.196019392",
+   "fd_selection_id": "26969962",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196019392&selectionId%5B0%5D=26969962",
+   "fd_region": "PA"
+  },
   "401909936:7883406:742.196026298": {
    "kind": "spread",
    "side": "away",
@@ -227,7 +261,7 @@
    "odds": -950,
    "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.8783,
    "market_prob": 0.8659,
    "prob": 0.8509,
@@ -243,10 +277,10 @@
    "research_adj": -0.015,
    "raw_prob": 0.8509,
    "v1_prob": 0.8509,
-   "v2_prob": 0.8733,
+   "v2_prob": 0.8721,
    "v2_src": "Pinnacle: Pinnacle -3.5 line extrapolated 12 pts",
-   "sharp_prob": 0.8859,
-   "sharp_edge": -0.0188,
+   "sharp_prob": 0.8846,
+   "sharp_edge": -0.0201,
    "power_prob": 0.8015,
    "power_margin_home": 5.3,
    "v2_injuries": [
@@ -275,7 +309,7 @@
    "odds": -720,
    "fd_prob": 0.8283,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.8681,
    "market_prob": 0.8482,
    "prob": 0.8482,
@@ -294,40 +328,6 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196026279&selectionId%5B0%5D=7747629",
    "fd_region": "PA"
   },
-  "401909936:26969962:742.196019392": {
-   "kind": "prop",
-   "player": "Desmond Bane",
-   "stat": "ASS",
-   "ou": "over",
-   "line": 1.5,
-   "id": "401909936:26969962:742.196019392",
-   "event": "401909936",
-   "sport": "nba",
-   "game": "Orlando Magic at Phoenix Suns",
-   "start": "2026-11-06T02:00Z",
-   "market": "2+ Assists",
-   "pick": "Desmond Bane",
-   "odds": -900,
-   "fd_prob": 0.8411,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:29 UTC",
-   "market_prob": 0.8411,
-   "prob": 0.8461,
-   "pre_research": 0.8411,
-   "research": [
-    "FanDuel price moved our way -650 -> -900 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "raw_prob": 0.8461,
-   "v1_prob": 0.8461,
-   "v2_prob": 0.8411,
-   "v2_src": "no sharp price -> FanDuel no-vig/line model",
-   "why": "FanDuel no-vig 84.1% -> est. 84.6% (edge +0.5 pts); research +0.5 pts: FanDuel price moved our way -650 -> -900 (+0.5)",
-   "fd_market_id": "742.196019392",
-   "fd_selection_id": "26969962",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196019392&selectionId%5B0%5D=26969962",
-   "fd_region": "PA"
-  },
   "401909937:7889076:742.196023675": {
    "kind": "spread",
    "side": "home",
@@ -342,7 +342,7 @@
    "odds": -800,
    "fd_prob": 0.8386,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.8944,
    "market_prob": 0.8665,
    "prob": 0.8827,
@@ -388,7 +388,7 @@
    "odds": -950,
    "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.8916,
    "market_prob": 0.8726,
    "prob": 0.8776,
@@ -1671,7 +1671,7 @@
    "odds": 220,
    "fd_prob": 0.299,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36260071, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36260071, fetched 2026-11-06 01:34 UTC",
    "dist_prob": 0.3385,
    "market_prob": 0.3188,
    "prob": 0.3038,
@@ -1708,7 +1708,7 @@
    "odds": 255,
    "fd_prob": 0.2633,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268668, fetched 2026-11-06 01:34 UTC",
    "market_prob": 0.2633,
    "prob": 0.2683,
    "pre_research": 0.2633,
@@ -1742,7 +1742,7 @@
    "odds": 250,
    "fd_prob": 0.267,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:29 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36268667, fetched 2026-11-06 01:34 UTC",
    "market_prob": 0.267,
    "prob": 0.272,
    "pre_research": 0.267,
@@ -1990,7 +1990,7 @@
    "shared_games": 11,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196023675&selectionId%5B0%5D=7889076&marketId%5B1%5D=742.196019392&selectionId%5B1%5D=26969962&marketId%5B2%5D=742.196037268&selectionId%5B2%5D=8359782&marketId%5B3%5D=742.196036797&selectionId%5B3%5D=8104850&marketId%5B4%5D=742.196037044&selectionId%5B4%5D=7000424&marketId%5B5%5D=742.196036768&selectionId%5B5%5D=7000403&marketId%5B6%5D=742.196037234&selectionId%5B6%5D=86696246&marketId%5B7%5D=742.196037119&selectionId%5B7%5D=7739947&marketId%5B8%5D=742.196036895&selectionId%5B8%5D=8359769&marketId%5B9%5D=742.196037310&selectionId%5B9%5D=49333840&marketId%5B10%5D=742.196037608&selectionId%5B10%5D=8359769",
    "favorite": false,
-   "corr_prob": 0.11862
+   "corr_prob": 0.1199
   },
   {
    "n": 12,
@@ -2183,7 +2183,7 @@
    "name": "Jacksonville Jaguars at Baltimore Ravens",
    "start": "2026-11-06T01:15Z",
    "state": "in",
-   "status": "9:48 - 1st",
+   "status": "6:31 - 1st",
    "venue": "M&T Bank Stadium",
    "indoor": false,
    "city": {
@@ -2215,7 +2215,7 @@
     "home": {
      "name": "Baltimore Ravens",
      "short": "Ravens",
-     "score": "0",
+     "score": "3",
      "winner": null,
      "record": "4-4",
      "ml_open": null,
@@ -2246,7 +2246,7 @@
    "name": "UTSA Roadrunners at Florida Atlantic Owls",
    "start": "2026-11-06T00:30Z",
    "state": "in",
-   "status": "End of 1st",
+   "status": "13:43 - 2nd",
    "venue": "Flagler Credit Union Stadium",
    "indoor": false,
    "city": {
@@ -2291,7 +2291,7 @@
     "away": {
      "name": "UTSA Roadrunners",
      "short": "UTSA",
-     "score": "7",
+     "score": "13",
      "winner": null,
      "record": "7-1",
      "ml_open": null,
@@ -2309,7 +2309,7 @@
    "name": "James Madison Dukes at Southern Miss Golden Eagles",
    "start": "2026-11-06T01:00Z",
    "state": "in",
-   "status": "7:49 - 1st",
+   "status": "7:34 - 1st",
    "venue": "M. M. Roberts Stadium",
    "indoor": false,
    "city": {
@@ -2354,7 +2354,7 @@
     "away": {
      "name": "James Madison Dukes",
      "short": "James Madison",
-     "score": "3",
+     "score": "10",
      "winner": null,
      "record": "7-2",
      "ml_open": null,
@@ -2466,7 +2466,7 @@
    "name": "Utah Mammoth at Montreal Canadiens",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "9:52 - 2nd",
+   "status": "8:31 - 2nd",
    "venue": "Bell Centre",
    "indoor": true,
    "city": {
@@ -2495,7 +2495,7 @@
     "away": {
      "name": "Utah Mammoth",
      "short": "Mammoth",
-     "score": "2",
+     "score": "3",
      "winner": null,
      "record": "10-6-0",
      "ml_open": null,
@@ -2513,7 +2513,7 @@
    "name": "Vegas Golden Knights at Detroit Red Wings",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "5:27 - 2nd",
+   "status": "3:54 - 2nd",
    "venue": "Little Caesars Arena",
    "indoor": true,
    "city": {
@@ -2560,7 +2560,7 @@
    "name": "Chicago Blackhawks at Tampa Bay Lightning",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "9:42 - 2nd",
+   "status": "7:21 - 2nd",
    "venue": "Benchmark International Arena",
    "indoor": true,
    "city": {
@@ -2607,7 +2607,7 @@
    "name": "St. Louis Blues at New Jersey Devils",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "6:58 - 2nd",
+   "status": "4:43 - 2nd",
    "venue": "Prudential Center",
    "indoor": true,
    "city": {
@@ -2654,7 +2654,7 @@
    "name": "Carolina Hurricanes at New York Islanders",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "8:01 - 2nd",
+   "status": "4:38 - 2nd",
    "venue": "UBS Arena",
    "indoor": true,
    "city": {
@@ -2701,7 +2701,7 @@
    "name": "Philadelphia Flyers at New York Rangers",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "4:24 - 2nd",
+   "status": "2:15 - 2nd",
    "venue": "Madison Square Garden",
    "indoor": true,
    "city": {
@@ -2748,7 +2748,7 @@
    "name": "Boston Bruins at Pittsburgh Penguins",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "5:48 - 2nd",
+   "status": "4:08 - 2nd",
    "venue": "PPG Paints Arena",
    "indoor": true,
    "city": {
@@ -2777,7 +2777,7 @@
     "away": {
      "name": "Boston Bruins",
      "short": "Bruins",
-     "score": "3",
+     "score": "4",
      "winner": null,
      "record": "11-4-1",
      "ml_open": null,
@@ -2795,7 +2795,7 @@
    "name": "Dallas Stars at Columbus Blue Jackets",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "5:04 - 2nd",
+   "status": "3:18 - 2nd",
    "venue": "Nationwide Arena",
    "indoor": true,
    "city": {
@@ -2842,7 +2842,7 @@
    "name": "Vancouver Canucks at Winnipeg Jets",
    "start": "2026-11-06T00:00Z",
    "state": "in",
-   "status": "8:24 - 2nd",
+   "status": "5:41 - 2nd",
    "venue": "Canada Life Centre",
    "indoor": true,
    "city": {
@@ -2858,7 +2858,7 @@
     "home": {
      "name": "Winnipeg Jets",
      "short": "Jets",
-     "score": "4",
+     "score": "5",
      "winner": null,
      "record": "5-8-3",
      "ml_open": null,
@@ -2889,7 +2889,7 @@
    "name": "Anaheim Ducks at Edmonton Oilers",
    "start": "2026-11-06T01:00Z",
    "state": "in",
-   "status": "9:50 - 1st",
+   "status": "6:39 - 1st",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -2974,6 +2974,52 @@
      "abbr": "NSH",
      "home_rec": "5-3-2",
      "road_rec": "1-1-3"
+    }
+   }
+  },
+  {
+   "id": "401884739",
+   "sport": "ger.1",
+   "name": "Borussia M\u00f6nchengladbach at Hamburg SV",
+   "start": "2026-11-06T19:30Z",
+   "state": "pre",
+   "status": "Scheduled",
+   "venue": "Volksparkstadion",
+   "indoor": null,
+   "city": {
+    "city": "Hamburg Norderstedt",
+    "country": "Germany"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": "Bet 365",
+   "teams": {
+    "home": {
+     "name": "Hamburg SV",
+     "short": "Hamburg",
+     "score": "0",
+     "winner": false,
+     "record": "3-0-5",
+     "ml_open": null,
+     "ml": null,
+     "tid": "127",
+     "abbr": "HSV",
+     "home_rec": null,
+     "road_rec": null
+    },
+    "away": {
+     "name": "Borussia M\u00f6nchengladbach",
+     "short": "Gladbach",
+     "score": "0",
+     "winner": false,
+     "record": "1-1-6",
+     "ml_open": null,
+     "ml": null,
+     "tid": "268",
+     "abbr": "BMG",
+     "home_rec": null,
+     "road_rec": null
     }
    }
   }
@@ -3626,7 +3672,7 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-06 01:29 UTC",
+  "updated": "2026-11-06 01:34 UTC",
   "graded_legs": 1398,
   "calibration": {
    "85-90%": {
@@ -3865,7 +3911,7 @@
   "clv": {
    "legs_tracked": 1459,
    "avg_clv_pts": 0.06,
-   "beat_close": 385,
+   "beat_close": 386,
    "worse_than_close": 430
   },
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
@@ -5742,10 +5788,10 @@
   "live_model": "v1",
   "v2_info": {
    "pinnacle": {
-    "leagues_ok": 2,
-    "leagues": 2,
-    "games_matched": 3,
-    "games_pre": 3
+    "leagues_ok": 3,
+    "leagues": 3,
+    "games_matched": 4,
+    "games_pre": 4
    },
    "candidates_pre": 536,
    "sharp_covered": 276,
@@ -5765,13 +5811,13 @@
   "clv_v1_history": {
    "legs_tracked": 1459,
    "avg_clv_pts": 0.06,
-   "beat_close": 385,
+   "beat_close": 386,
    "worse_than_close": 430
   },
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 101,
+   "dropped": 103,
    "of": 536,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
