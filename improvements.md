@@ -334,3 +334,18 @@ Research (~10:45 AM ET):
 - Line moves: PHI/CLE flipped; SA -970→-1180; SMU -278→-225; Wild +1.5 -800→-700.
 Change (backup /workspace/kfsp_backups/2026-11-06-am/): legs.json news_adj today only, same -2.5 pt side/ML rule on MIN, TOR, WAS, ATL, OKC, SAC, CLE, CBJ (Greaves), ANA (Dostal). 37 out/Q players excluded from props/TD. Effect: weakens Best/Lottery MIN +4.5 and TOR +1.5 exposure; deep cushions (WAS +23.5, MEM +19.5, LAL +13.5) stay; OKC +6.5 deprioritized.
 No model change (overnight NHL trim payout-aware backtest already rejected stronger caps as overfit on 10-25/26; no new graded evidence this morning). v2 switch_ready still true, not re-reported. Locked tickets: none.
+
+## 2026-11-06 3:00 PM ET intraday review
+Status: v1 live (live_model/allow_switch untouched). Ladder: 16 of 23 already locked at first soccer kickoffs (~2:45–3:00 PM ET: Everton, Alavés-Sevilla, Udinese-Venezia, Strasbourg-Toulouse, Gladbach-Hamburg); unlocked: ladder 1–5, 7, 10 plus Best Parlay and unlocked Lottery tickets. None unlocked.
+Graded: nothing finished since 10:45 AM / 3 AM (soccer still live early 0-0 / HSV 1-0 BMG at ~39'; no NBA/NHL/CFB tip yet). Record unchanged: ladder 69-216, Best 2-10, Lottery 15-170, green 25-27, 2-leg 0-0.
+Research (~3:05–3:15 PM ET):
+- NBA official 2:30 PM ET: Shannon Jr. upgraded Out (MIN); Quickley Q (hamstring) and Kyle Anderson Q (illness) NEW for TOR (Barnes still Q, Kawhi out); Diabate and Schroder Out for CHA (Knueppel/Grant Williams already out — favors our BOS cushions); AD / Jalen Johnson / Allen still Q; Embiid available PHI@CLE; Mamukelashvili Q (LAL); Pritchard Available (BOS).
+- NHL Daily Faceoff 5/6 confirmed: Greaves CONFIRMED CBJ (.882); Luukkonen CONFIRMED BUF (.873 / 3.40); Askarov CONFIRMED SJ vs Wallstedt CONFIRMED MIN; Dostal still Unconfirmed ANA (.871), Wolf Confirmed CGY.
+- Soccer live: EVE-COV 0-0, SEV-ALA 0-0, VEN-UDI 0-0, TOU-STR 0-0, HSV 1-0 BMG — Unders / DCs still live; no finished legs to grade.
+- CFB weather: TCU@ARI clear ~64F / 4% rain at kick (afternoon storm window ends before tip) — no weather haircut. VT-SMU / USF-ECU / NEB-ILL / UNM-NEV unchanged vs morning.
+- Line moves on board: SMU -278→-225; ARI -375→-285; NEB -218→-192; others mild.
+Change (backup /workspace/kfsp_backups/2026-11-06-pm/): legs.json news_adj today only, same -2.5 pt side/ML rule.
+- Kept: MIN, TOR, WAS, ATL, OKC, SAC, CLE, CBJ (Greaves now Confirmed), ANA (Dostal still Unconfirmed).
+- Added: BUF (Luukkonen confirmed return with poor season form .873 / 3.40) — deprioritizes unlocked Lottery BUF -1.5 longshots; unlocked ladder tickets 1–5/7/10 have no BUF legs.
+- Reasons updated for afternoon designations. Players list 39 (added Quickley, Kyle Anderson, Mamukelashvili; Bona/Schroder/Diabate/Knueppel already present). Effect on unlocked tickets: TOR +11.5 / MIN +12.5 already mostly on locked tickets; ATL +7.5 on unlocked #10 stays haircut; Best Parlay (LAL +6.5, Under 240.5 WAS-ATL, DAL +1.5, PHI +6.5, Under 241.5 TOR-MIL) re-priced with CLE/TOR/WAS haircuts on side legs only.
+No model change (no new graded losses today; overnight NHL trim payout-aware backtest already rejected stronger caps). Cleared stale .update.lock from ~3:05 PM refresh before rebuild. Locked tickets preserved.
