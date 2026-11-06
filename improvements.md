@@ -308,3 +308,18 @@ Change (backup /workspace/kfsp_backups/2026-11-05-pm/): legs.json news_adj today
 - Players list expanded for props/TD exclusion (Giannis, Gardner, Goodwin, Fleming, Horford, Bassey, Brandon Williams, Kane, Poitras, Hall, Tuten, Walker, Wiggins, etc.).
 No model change (no new backtest evidence; NHL trim payout-aware backtest still pending). v2 switch_ready still true, not re-reported. Locked tickets: none. Cleared stale .update.lock from 2:59 PM refresh, rebuilt via update.sh.
 Published 2a4b5c4 (~3:10 PM ET). Site 200; servers 8080/8000 up. Counts: 16 ladder (33 unique legs), props 15, live 0, NBA 4, TD 2, 2-leg 0.
+
+## 2026-11-06 daily review #11, ~3:00 AM ET
+Record (all graded tickets): 86 won, 396 lost (17.8%) vs 97.6 expected. Ladder 69-216 (24.2%), Best Parlay 2-10 (first win since 10-30; 11-05 Best cashed at 4.47x), Lottery 15-170 (8.1%), green favorites 25-27 (48.1%), 2-leg board 0-0. 11-05: 10-18 (35.7%) — ladder 5/16 vs 5.02 expected (well calibrated day), Lottery 4-7, Best 1-0.
+Calibration (1,472 main legs): Brier .146; 85-90% bucket 87.4% vs 87.3% (612), 80-85% 82.0% vs 82.5%; 90-95% still 78% vs 93.4% (59, legacy 10-25/26). by_sport: NHL 180/300 = 60.0% vs 66.4% pred (most overconfident on the main board); NBA 441/574 = 76.8% vs 79.8%; CFB 198/236 = 83.9% vs 82.2%; NFL 94/123 = 76.4% vs 74.2%. Shadow (4,015 graded): v1 Brier .1516 / top-pick 84.9% (309/364); v2 Brier .1500 / top-pick 87.1% (317/364). NHL top-pick shadow 73.2% v1 vs 82.9% v2. CLV ~flat (+0.06 pts). v1 stays live (Nov 3 ticket backtest still the deciding reject for switching; live_model/allow_switch untouched).
+11-05 ladder losses: NHL short favorites reused across tickets — STL-NJ Under 8.5 (-750), PIT +2.5 (-650) / +1.5 (-330), DAL-CBJ and VGK-DET Over 3.5 (-750/-800); plus JMU-USM Under 76.5 (-900) and Desmond Bane 2+ assists (-900). Lottery longshot -1.5 puck lines also missed (DAL/UTA/PIT/NYR). No grading bug; no missed news that would have flipped a locked leg. Root cause is NHL variance on short-odds legs that still lose ~20-25% (main NHL odds <=-800: 31/41 = 75.6%).
+NHL trim payout-aware rebuild backtest (PRIORITY, 12 graded shadow days 10-25..11-05; ladder/Best rebuilt per day; win rate + avg payout + ROI):
+- baseline (current NHL_CAP=0.80 on 0.85+ legs): ladder 1-4 34/48 (70.8%, 1.30x, ROI -0.10); 5+ 41/215 (19.1%, 10.30x, ROI +0.16); top-pick 83.5%.
+- no_trim: 5+ 36/215 (16.7%, ROI -0.10) -> current trim CONFIRMED better than removing it.
+- stronger cap 0.75 / 0.70 / exclude 0.85+: 5+ 44/215 (20.5%, ROI +0.21). Leave-one-day-out and exclude-10-25/26 checks: gain is entirely from 10-25 (+2) and 10-26 (+1); after those early days, identical to baseline (23/180). NHL 0.85+ shadow sample still only 7 legs. REJECTED as overfit.
+- across-the-board NHL -5 pts haircut: 5+ 33/215, ROI -0.41 -> REJECTED.
+- drop NHL odds <=-500: 5+ 26/215, ROI -0.45 -> REJECTED (hurts payouts and absolute wins).
+- drop NHL odds <=-700: 5+ 41/215 same wins, ROI slightly worse -> REJECTED.
+- max 2 NHL legs per ladder ticket: higher win *rate* (22%) but fewer absolute wins (38/173) because NHL-heavy days truncate the ladder; leave-one-day-out always behind on wins -> REJECTED.
+- NHL ranking penalty -0.03: +1 win but ROI +0.08 vs +0.16 -> REJECTED (payouts).
+Changes: none to the model. Cleared legs.json news_adj (was dated 2026-11-05; 11-05 games finished). v1 stays live; v2 not switched. FanDuel links / King's Favorites / no-live pregame / update.sh preserved.
