@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-06 05:22 UTC",
- "graded_legs": 1466,
+ "updated": "2026-11-06 05:38 UTC",
+ "graded_legs": 1472,
  "calibration": {
   "85-90%": {
-   "n": 609,
-   "wins": 532,
+   "n": 612,
+   "wins": 535,
    "pred": 0.873,
    "hit": 0.874
   },
   "75-80%": {
-   "n": 119,
-   "wins": 94,
+   "n": 121,
+   "wins": 96,
    "pred": 0.785,
-   "hit": 0.79
+   "hit": 0.793
   },
   "80-85%": {
    "n": 261,
@@ -75,10 +75,10 @@
    "hit": 0.421
   },
   "20-25%": {
-   "n": 49,
+   "n": 50,
    "wins": 10,
    "pred": 0.236,
-   "hit": 0.204
+   "hit": 0.2
   },
   "35-40%": {
    "n": 35,
@@ -113,8 +113,8 @@
    "hit": 0.839
   },
   "nba": {
-   "n": 568,
-   "wins": 436,
+   "n": 574,
+   "wins": 441,
    "pred": 0.798,
    "hit": 0.768
   },
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 651,
-   "wins": 523,
+   "n": 652,
+   "wins": 524,
    "pred": 0.813,
-   "hit": 0.803
+   "hit": 0.804
   },
   "spread": {
-   "n": 625,
-   "wins": 456,
+   "n": 629,
+   "wins": 460,
    "pred": 0.754,
-   "hit": 0.73
+   "hit": 0.731
   },
   "dc": {
    "n": 45,
@@ -205,32 +205,32 @@
    "hit": 0.511
   },
   "prop": {
-   "n": 59,
+   "n": 60,
    "wins": 15,
-   "pred": 0.291,
-   "hit": 0.254
+   "pred": 0.29,
+   "hit": 0.25
   }
  },
  "parlays": {
-  "graded": 475,
-  "won": 79,
-  "expected": 94.31,
-  "pending": 9,
+  "graded": 482,
+  "won": 86,
+  "expected": 97.56,
+  "pending": 2,
   "by_type": {
    "ladder": {
-    "graded": 283,
-    "won": 67,
-    "expected": 76.47
+    "graded": 285,
+    "won": 69,
+    "expected": 77.58
    },
    "best": {
-    "graded": 11,
-    "won": 1,
-    "expected": 2.19
+    "graded": 12,
+    "won": 2,
+    "expected": 2.37
    },
    "lottery": {
-    "graded": 181,
-    "won": 11,
-    "expected": 15.55
+    "graded": 185,
+    "won": 15,
+    "expected": 17.5
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
