@@ -323,3 +323,14 @@ NHL trim payout-aware rebuild backtest (PRIORITY, 12 graded shadow days 10-25..1
 - max 2 NHL legs per ladder ticket: higher win *rate* (22%) but fewer absolute wins (38/173) because NHL-heavy days truncate the ladder; leave-one-day-out always behind on wins -> REJECTED.
 - NHL ranking penalty -0.03: +1 win but ROI +0.08 vs +0.16 -> REJECTED (payouts).
 Changes: none to the model. Cleared legs.json news_adj (was dated 2026-11-05; 11-05 games finished). v1 stays live; v2 not switched. FanDuel links / King's Favorites / no-live pregame / update.sh preserved.
+
+## 2026-11-06 10:45 AM ET intraday review (10:30 AM ET)
+Status: v1 live; no ladder locked (first kickoffs soccer ~2:30 PM ET; NBA/NHL/CFB from 7:00 PM ET). Graded: nothing new since ~3 AM daily review (no game finished today yet). Record unchanged: ladder 69-216, Best 2-10, Lottery 15-170, green 25-27, 2-leg 0-0.
+Research (~10:45 AM ET):
+- NBA official 9:30 AM / VSiN 10:15 AM: MIN without Edwards (knee arthroscopy, multi-month) and DiVincenzo; Shannon Jr. Q. TOR: Barnes Q, Kawhi out. WAS: Anthony Davis Q (ankle). ATL: Jalen Johnson Q. OKC: Holmgren, Jalen Williams, Wallace, Jaylin Williams, Topic, Sorber out. SAC: Murray, Raynaud, Simmons out. CLE: Allen Q, Watson Q. POR: Morant/Sharpe/Krejci out (favors our LAL cushions). UTA: Jaren Jackson Jr. and Nurkic out (favors DAL). Embiid available for PHI@CLE; market flipped PHI -148 / CLE +124.
+- NHL Daily Faceoff 0/6 confirmed: Greaves (.882) at BUF (Luukkonen Likely); Askarov vs Wallstedt; Dostal (.871) at Wolf.
+- Soccer (first kickoffs): Everton without Grealish; Branthwaite expected; Coventry missing Amenda/Wright/Eccles/Woolfenden. Rain ~76% at Everton (supports our Under 4.5).
+- CFB weather: VT-SMU 68F partly cloudy; USF-ECU showers 68F; NEB-ILL 40F clear; UNM-NEV 53F; TCU-ARI 63F cloudy — no weather haircut beyond research.
+- Line moves: PHI/CLE flipped; SA -970→-1180; SMU -278→-225; Wild +1.5 -800→-700.
+Change (backup /workspace/kfsp_backups/2026-11-06-am/): legs.json news_adj today only, same -2.5 pt side/ML rule on MIN, TOR, WAS, ATL, OKC, SAC, CLE, CBJ (Greaves), ANA (Dostal). 37 out/Q players excluded from props/TD. Effect: weakens Best/Lottery MIN +4.5 and TOR +1.5 exposure; deep cushions (WAS +23.5, MEM +19.5, LAL +13.5) stay; OKC +6.5 deprioritized.
+No model change (overnight NHL trim payout-aware backtest already rejected stronger caps as overfit on 10-25/26; no new graded evidence this morning). v2 switch_ready still true, not re-reported. Locked tickets: none.
