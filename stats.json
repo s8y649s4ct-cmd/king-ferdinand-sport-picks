@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07 16:18 UTC",
- "graded_legs": 1551,
+ "updated": "2026-11-07 16:29 UTC",
+ "graded_legs": 1556,
  "calibration": {
   "85-90%": {
-   "n": 667,
-   "wins": 580,
+   "n": 668,
+   "wins": 581,
    "pred": 0.873,
    "hit": 0.87
   },
@@ -15,10 +15,10 @@
    "hit": 0.8
   },
   "80-85%": {
-   "n": 274,
-   "wins": 224,
+   "n": 278,
+   "wins": 228,
    "pred": 0.825,
-   "hit": 0.818
+   "hit": 0.82
   },
   "65-70%": {
    "n": 24,
@@ -155,10 +155,10 @@
    "hit": 0.632
   },
   "ger.1": {
-   "n": 16,
-   "wins": 9,
-   "pred": 0.706,
-   "hit": 0.562
+   "n": 21,
+   "wins": 14,
+   "pred": 0.737,
+   "hit": 0.667
   },
   "eng.1": {
    "n": 18,
@@ -169,8 +169,8 @@
  },
  "by_market": {
   "total": {
-   "n": 691,
-   "wins": 557,
+   "n": 692,
+   "wins": 558,
    "pred": 0.815,
    "hit": 0.806
   },
@@ -181,10 +181,10 @@
    "hit": 0.734
   },
   "dc": {
-   "n": 48,
-   "wins": 38,
-   "pred": 0.785,
-   "hit": 0.792
+   "n": 51,
+   "wins": 41,
+   "pred": 0.788,
+   "hit": 0.804
   },
   "ml": {
    "n": 27,
@@ -193,10 +193,10 @@
    "hit": 0.741
   },
   "dnb": {
-   "n": 14,
-   "wins": 7,
-   "pred": 0.599,
-   "hit": 0.5
+   "n": 15,
+   "wins": 8,
+   "pred": 0.616,
+   "hit": 0.533
   },
   "ml3": {
    "n": 49,
@@ -236,10 +236,10 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1784,
+  "legs_tracked": 1788,
   "avg_clv_pts": 0.03,
-  "beat_close": 431,
-  "worse_than_close": 500
+  "beat_close": 434,
+  "worse_than_close": 498
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
