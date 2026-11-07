@@ -98978,8 +98978,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2695,
-  "fd_payout_x": 4.4,
+  "est_prob": 0.271,
+  "fd_payout_x": 4.31,
   "legs_detail": [
    {
     "id": "401858511:48442807:742.195361655",
@@ -99046,23 +99046,23 @@
     "close_odds": -295
    },
    {
-    "id": "401909943:7891572:742.196400371",
-    "event": "401909943",
+    "id": "401909939:7733134:742.196403436",
+    "event": "401909939",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Houston Rockets +1.5",
-    "market": "Alternate Spread",
-    "odds": -275,
-    "prob": 0.7396,
-    "raw_prob": 0.7396,
-    "game": "Houston Rockets at Phoenix Suns",
+    "kind": "total",
+    "line": 237.5,
+    "ou": "under",
+    "pick": "Under 237.5",
+    "market": "Alternate Total Points",
+    "odds": -300,
+    "prob": 0.7438,
+    "raw_prob": 0.7438,
+    "game": "Brooklyn Nets at Atlanta Hawks",
     "result": null,
-    "close_odds": -275
+    "close_odds": -300
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -99094,7 +99094,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -99141,7 +99141,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -99205,7 +99205,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -99285,7 +99285,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -99381,7 +99381,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -99492,7 +99492,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -99502,8 +99502,8 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.41315,
-  "est_raw": 0.41315,
+  "est_prob": 0.41282,
+  "est_raw": 0.41282,
   "fd_payout_x": 1.97,
   "legs_detail": [
    {
@@ -99603,37 +99603,6 @@
     "close_odds": -1000
    },
    {
-    "id": "401909939:7747570:742.196403436",
-    "event": "401909939",
-    "sport": "nba",
-    "kind": "total",
-    "line": 246.5,
-    "ou": "under",
-    "pick": "Under 246.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8799,
-    "raw_prob": 0.8799,
-    "game": "Brooklyn Nets at Atlanta Hawks",
-    "result": null,
-    "close_odds": -1000
-   }
-  ],
-  "logged": "2026-11-07 06:47 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-07-8",
-  "date": "2026-11-07",
-  "type": "ladder",
-  "n": 8,
-  "est_prob": 0.35703,
-  "est_raw": 0.35703,
-  "fd_payout_x": 2.14,
-  "legs_detail": [
-   {
     "id": "401856853:12194345:742.195356381",
     "event": "401856853",
     "sport": "college-football",
@@ -99648,7 +99617,22 @@
     "game": "Iowa State Cyclones at Baylor Bears",
     "result": null,
     "close_odds": -1000
-   },
+   }
+  ],
+  "logged": "2026-11-07 06:54 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-07-8",
+  "date": "2026-11-07",
+  "type": "ladder",
+  "n": 8,
+  "est_prob": 0.3567,
+  "est_raw": 0.3567,
+  "fd_payout_x": 2.14,
+  "legs_detail": [
    {
     "id": "401858289:12247072:742.195356290",
     "event": "401858289",
@@ -99760,9 +99744,25 @@
     "game": "Hawai'i Rainbow Warriors at UTEP Miners",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909939:7913785:742.196403439",
+    "event": "401909939",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 21.5,
+    "pick": "Brooklyn Nets +21.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8784,
+    "raw_prob": 0.8784,
+    "game": "Brooklyn Nets at Atlanta Hawks",
+    "result": null,
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -99921,7 +99921,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -100095,7 +100095,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -100105,9 +100105,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 11,
-  "est_prob": 0.16848,
-  "est_raw": 0.16848,
-  "fd_payout_x": 3.03,
+  "est_prob": 0.16997,
+  "est_raw": 0.16997,
+  "fd_payout_x": 3.01,
   "legs_detail": [
    {
     "id": "401858512:12194317:742.195356051",
@@ -100139,6 +100139,22 @@
     "game": "Liberty Flames at New Mexico State Aggies",
     "result": null,
     "close_odds": -820
+   },
+   {
+    "id": "761936:1222347:742.195151090",
+    "event": "761936",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -950,
+    "prob": 0.8553,
+    "raw_prob": 0.8553,
+    "game": "New York City FC at D.C. United",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401878758:1222347:742.193679571",
@@ -100173,38 +100189,22 @@
     "close_odds": -1000
    },
    {
-    "id": "401909944:64155911:742.196401672",
+    "id": "401909944:27001685:742.196401614",
     "event": "401909944",
     "sport": "nba",
     "kind": "prop",
-    "line": 9.5,
+    "line": 3.5,
     "ou": "over",
-    "player": "Stephon Castle",
-    "stat": "POI",
-    "pick": "Stephon Castle",
-    "market": "10+ Points",
+    "player": "Deni Avdija",
+    "stat": "ASS",
+    "pick": "Deni Avdija",
+    "market": "4+ Assists",
     "odds": -1000,
     "prob": 0.8496,
     "raw_prob": 0.8496,
     "game": "San Antonio Spurs at Portland Trail Blazers",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "761936:1222347:742.195151090",
-    "event": "761936",
-    "sport": "usa.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -900,
-    "prob": 0.8478,
-    "raw_prob": 0.8478,
-    "game": "New York City FC at D.C. United",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401884745:44785:742.193933011",
@@ -100285,7 +100285,7 @@
     "close_odds": -900
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -100486,7 +100486,7 @@
     "close_odds": -750
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -100704,7 +100704,7 @@
     "close_odds": -425
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -100714,9 +100714,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 14,
-  "est_prob": 0.09981,
-  "est_raw": 0.09981,
-  "fd_payout_x": 6.71,
+  "est_prob": 0.08268,
+  "est_raw": 0.08268,
+  "fd_payout_x": 7.81,
   "legs_detail": [
    {
     "id": "401909943:7891595:742.196400371",
@@ -100879,22 +100879,6 @@
     "close_odds": -850
    },
    {
-    "id": "401909939:7913785:742.196403439",
-    "event": "401909939",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 21.5,
-    "pick": "Brooklyn Nets +21.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8784,
-    "raw_prob": 0.8784,
-    "game": "Brooklyn Nets at Atlanta Hawks",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "761940:104565593:742.195296582",
     "event": "761940",
     "sport": "usa.1",
@@ -100939,9 +100923,25 @@
     "game": "San Jose Sharks at Dallas Stars",
     "result": null,
     "close_odds": -295
+   },
+   {
+    "id": "401882813:1222344:742.193877470",
+    "event": "401882813",
+    "sport": "esp.1",
+    "kind": "total",
+    "line": 3.5,
+    "ou": "under",
+    "pick": "Under 3.5 Goals",
+    "market": "Over/Under 3.5 Goals",
+    "odds": -355,
+    "prob": 0.7277,
+    "raw_prob": 0.7277,
+    "game": "Deportivo at Espanyol",
+    "result": null,
+    "close_odds": -355
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -100951,9 +100951,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 15,
-  "est_prob": 0.092,
-  "est_raw": 0.092,
-  "fd_payout_x": 6.45,
+  "est_prob": 0.11066,
+  "est_raw": 0.11066,
+  "fd_payout_x": 5.6,
   "legs_detail": [
    {
     "id": "401869936:63866563:742.195357332",
@@ -101016,6 +101016,22 @@
     "prob": 0.8758,
     "raw_prob": 0.8758,
     "game": "Delaware Blue Hens at Kennesaw State Owls",
+    "result": null,
+    "close_odds": -900
+   },
+   {
+    "id": "401909939:7747570:742.196403436",
+    "event": "401909939",
+    "sport": "nba",
+    "kind": "total",
+    "line": 246.5,
+    "ou": "under",
+    "pick": "Under 246.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8753,
+    "raw_prob": 0.8753,
+    "game": "Brooklyn Nets at Atlanta Hawks",
     "result": null,
     "close_odds": -900
    },
@@ -101164,22 +101180,6 @@
     "close_odds": -850
    },
    {
-    "id": "401882813:1222344:742.193877470",
-    "event": "401882813",
-    "sport": "esp.1",
-    "kind": "total",
-    "line": 3.5,
-    "ou": "under",
-    "pick": "Under 3.5 Goals",
-    "market": "Over/Under 3.5 Goals",
-    "odds": -355,
-    "prob": 0.7277,
-    "raw_prob": 0.7277,
-    "game": "Deportivo at Espanyol",
-    "result": null,
-    "close_odds": -355
-   },
-   {
     "id": "401892673:25603:742.196316127",
     "event": "401892673",
     "sport": "nhl",
@@ -101195,7 +101195,7 @@
     "close_odds": -330
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -101466,7 +101466,7 @@
     "close_odds": -850
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -101476,9 +101476,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 17,
-  "est_prob": 0.07768,
-  "est_raw": 0.07768,
-  "fd_payout_x": 5.97,
+  "est_prob": 0.07847,
+  "est_raw": 0.07847,
+  "fd_payout_x": 5.91,
   "legs_detail": [
    {
     "id": "401856745:12194341:742.195360599",
@@ -101737,25 +101737,25 @@
     "close_odds": -1000
    },
    {
-    "id": "401909944:4018916:742.196401642",
+    "id": "401909944:64155911:742.196401672",
     "event": "401909944",
     "sport": "nba",
     "kind": "prop",
-    "line": 0.5,
+    "line": 9.5,
     "ou": "over",
-    "player": "Jrue Holiday",
-    "stat": "3PM",
-    "pick": "Jrue Holiday",
-    "market": "1+ Threes",
-    "odds": -900,
-    "prob": 0.8411,
-    "raw_prob": 0.8411,
+    "player": "Stephon Castle",
+    "stat": "POI",
+    "pick": "Stephon Castle",
+    "market": "10+ Points",
+    "odds": -1000,
+    "prob": 0.8496,
+    "raw_prob": 0.8496,
     "game": "San Antonio Spurs at Portland Trail Blazers",
     "result": null,
-    "close_odds": -900
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -101765,10 +101765,26 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 18,
-  "est_prob": 0.03387,
-  "est_raw": 0.03387,
-  "fd_payout_x": 9.17,
+  "est_prob": 0.03417,
+  "est_raw": 0.03417,
+  "fd_payout_x": 9.12,
   "legs_detail": [
+   {
+    "id": "761936:1222347:742.195151090",
+    "event": "761936",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -950,
+    "prob": 0.8553,
+    "raw_prob": 0.8553,
+    "game": "New York City FC at D.C. United",
+    "result": null,
+    "close_odds": -950
+   },
    {
     "id": "401878758:1222347:742.193679571",
     "event": "401878758",
@@ -101800,22 +101816,6 @@
     "game": "Portland Timbers at Austin FC",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "761936:1222347:742.195151090",
-    "event": "761936",
-    "sport": "usa.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -900,
-    "prob": 0.8478,
-    "raw_prob": 0.8478,
-    "game": "New York City FC at D.C. United",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401884745:44785:742.193933011",
@@ -102052,7 +102052,7 @@
     "close_odds": -230
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -102062,9 +102062,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 19,
-  "est_prob": 0.00996,
-  "est_raw": 0.00996,
-  "fd_payout_x": 24.35,
+  "est_prob": 0.00999,
+  "est_raw": 0.00999,
+  "fd_payout_x": 24.47,
   "legs_detail": [
    {
     "id": "401858511:48442780:742.195361655",
@@ -102099,20 +102099,20 @@
     "close_odds": -1000
    },
    {
-    "id": "401909938:7712036:742.196397726",
-    "event": "401909938",
+    "id": "401909943:7760688:742.196400349",
+    "event": "401909943",
     "sport": "nba",
     "kind": "total",
-    "line": 208.5,
-    "ou": "over",
-    "pick": "Over 208.5",
+    "line": 242.5,
+    "ou": "under",
+    "pick": "Under 242.5",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8746,
-    "raw_prob": 0.8746,
-    "game": "Denver Nuggets at Indiana Pacers",
+    "odds": -950,
+    "prob": 0.8776,
+    "raw_prob": 0.8776,
+    "game": "Houston Rockets at Phoenix Suns",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401874803:16464747:742.195221267",
@@ -102363,7 +102363,7 @@
     "close_odds": -245
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -102373,10 +102373,26 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 20,
-  "est_prob": 0.02338,
-  "est_raw": 0.02338,
-  "fd_payout_x": 14.27,
+  "est_prob": 0.0234,
+  "est_raw": 0.0234,
+  "fd_payout_x": 14.2,
   "legs_detail": [
+   {
+    "id": "401909938:7712036:742.196397726",
+    "event": "401909938",
+    "sport": "nba",
+    "kind": "total",
+    "line": 208.5,
+    "ou": "over",
+    "pick": "Over 208.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
+    "game": "Denver Nuggets at Indiana Pacers",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "401871073:76471776:742.195357256",
     "event": "401871073",
@@ -102423,22 +102439,6 @@
     "game": "Oklahoma State Cowboys at Kansas State Wildcats",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909939:7891067:742.196403439",
-    "event": "401909939",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 9.5,
-    "pick": "Atlanta Hawks +9.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8738,
-    "raw_prob": 0.8738,
-    "game": "Brooklyn Nets at Atlanta Hawks",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401858292:12247074:742.195356145",
@@ -102696,7 +102696,7 @@
     "close_odds": -250
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -102706,26 +102706,10 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 21,
-  "est_prob": 0.01934,
-  "est_raw": 0.01934,
-  "fd_payout_x": 16.79,
+  "est_prob": 0.01865,
+  "est_raw": 0.01865,
+  "fd_payout_x": 17.09,
   "legs_detail": [
-   {
-    "id": "401909943:7891520:742.196400371",
-    "event": "401909943",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 9.5,
-    "pick": "Houston Rockets +9.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8962,
-    "raw_prob": 0.8962,
-    "game": "Houston Rockets at Phoenix Suns",
-    "result": null,
-    "close_odds": -950
-   },
    {
     "id": "401856741:49884780:742.195361207",
     "event": "401856741",
@@ -102837,6 +102821,22 @@
     "game": "Northern Illinois Huskies at San Jos\u00e9 State Spartans",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909939:7700492:742.196403436",
+    "event": "401909939",
+    "sport": "nba",
+    "kind": "total",
+    "line": 245.5,
+    "ou": "under",
+    "pick": "Under 245.5",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.8644,
+    "raw_prob": 0.8644,
+    "game": "Brooklyn Nets at Atlanta Hawks",
+    "result": null,
+    "close_odds": -800
    },
    {
     "id": "401871074:76148052:742.195358917",
@@ -103046,7 +103046,7 @@
     "close_odds": -134
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -103056,9 +103056,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 22,
-  "est_prob": 0.00977,
-  "est_raw": 0.00977,
-  "fd_payout_x": 28.95,
+  "est_prob": 0.00982,
+  "est_raw": 0.00982,
+  "fd_payout_x": 28.78,
   "legs_detail": [
    {
     "id": "401909940:7889872:742.196397888",
@@ -103311,12 +103311,12 @@
     "stat": "3PM",
     "pick": "Deni Avdija",
     "market": "1+ Threes",
-    "odds": -850,
-    "prob": 0.8362,
-    "raw_prob": 0.8362,
+    "odds": -900,
+    "prob": 0.8411,
+    "raw_prob": 0.8411,
     "game": "San Antonio Spurs at Portland Trail Blazers",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401884743:38897088:742.193931845",
@@ -103412,7 +103412,7 @@
     "close_odds": -194
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -103422,9 +103422,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 23,
-  "est_prob": 0.01349,
-  "est_raw": 0.01349,
-  "fd_payout_x": 18.42,
+  "est_prob": 0.01361,
+  "est_raw": 0.01361,
+  "fd_payout_x": 18.33,
   "legs_detail": [
    {
     "id": "401858517:12194333:742.195360172",
@@ -103475,6 +103475,22 @@
     "close_odds": -1000
    },
    {
+    "id": "761936:1222347:742.195151090",
+    "event": "761936",
+    "sport": "usa.1",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5 Goals",
+    "market": "Over/Under 4.5 Goals",
+    "odds": -950,
+    "prob": 0.8553,
+    "raw_prob": 0.8553,
+    "game": "New York City FC at D.C. United",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401878758:1222347:742.193679571",
     "event": "401878758",
     "sport": "eng.1",
@@ -103505,22 +103521,6 @@
     "game": "Portland Timbers at Austin FC",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "761936:1222347:742.195151090",
-    "event": "761936",
-    "sport": "usa.1",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5 Goals",
-    "market": "Over/Under 4.5 Goals",
-    "odds": -900,
-    "prob": 0.8478,
-    "raw_prob": 0.8478,
-    "game": "New York City FC at D.C. United",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401884745:44785:742.193933011",
@@ -103787,7 +103787,7 @@
     "close_odds": -230
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -103797,9 +103797,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 24,
-  "est_prob": 0.01335,
-  "est_raw": 0.01335,
-  "fd_payout_x": 23.2,
+  "est_prob": 0.0139,
+  "est_raw": 0.0139,
+  "fd_payout_x": 22.8,
   "legs_detail": [
    {
     "id": "401858511:48860304:742.195361655",
@@ -103816,6 +103816,22 @@
     "game": "Michigan State Spartans at Michigan Wolverines",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909943:7891520:742.196400371",
+    "event": "401909943",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 9.5,
+    "pick": "Houston Rockets +9.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8962,
+    "raw_prob": 0.8962,
+    "game": "Houston Rockets at Phoenix Suns",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401856854:15516346:742.195357070",
@@ -103850,22 +103866,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909939:7700492:742.196403436",
-    "event": "401909939",
-    "sport": "nba",
-    "kind": "total",
-    "line": 245.5,
-    "ou": "under",
-    "pick": "Under 245.5",
-    "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8679,
-    "raw_prob": 0.8679,
-    "game": "Brooklyn Nets at Atlanta Hawks",
-    "result": null,
-    "close_odds": -850
-   },
-   {
     "id": "401869936:63866578:742.195357332",
     "event": "401869936",
     "sport": "college-football",
@@ -103896,6 +103896,22 @@
     "game": "Cincinnati Bearcats at Houston Cougars",
     "result": null,
     "close_odds": -800
+   },
+   {
+    "id": "401909939:7888913:742.196403439",
+    "event": "401909939",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 20.5,
+    "pick": "Brooklyn Nets +20.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8636,
+    "raw_prob": 0.8636,
+    "game": "Brooklyn Nets at Atlanta Hawks",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401860913:48443291:742.195361885",
@@ -103976,22 +103992,6 @@
     "game": "UCF Knights at Kansas Jayhawks",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401858514:12197194:742.195358056",
-    "event": "401858514",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 61.5,
-    "ou": "under",
-    "pick": "Under (61.5)",
-    "market": "Alternate Total Points",
-    "odds": -800,
-    "prob": 0.856,
-    "raw_prob": 0.856,
-    "game": "Oregon Ducks at Ohio State Buckeyes",
-    "result": null,
-    "close_odds": -800
    },
    {
     "id": "401874803:16464747:742.195221267",
@@ -104181,7 +104181,7 @@
     "close_odds": -430
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -104191,9 +104191,9 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 25,
-  "est_prob": 0.01165,
-  "est_raw": 0.01165,
-  "fd_payout_x": 28.71,
+  "est_prob": 0.01128,
+  "est_raw": 0.01128,
+  "fd_payout_x": 28.9,
   "legs_detail": [
    {
     "id": "401856856:20740681:742.195362370",
@@ -104372,22 +104372,6 @@
     "close_odds": -1000
    },
    {
-    "id": "401909943:7891595:742.196400371",
-    "event": "401909943",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Houston Rockets +8.5",
-    "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.8842,
-    "raw_prob": 0.8842,
-    "game": "Houston Rockets at Phoenix Suns",
-    "result": null,
-    "close_odds": -850
-   },
-   {
     "id": "401856738:12247074:742.195357001",
     "event": "401856738",
     "sport": "college-football",
@@ -104402,6 +104386,22 @@
     "game": "Arkansas Razorbacks at Auburn Tigers",
     "result": null,
     "close_odds": -950
+   },
+   {
+    "id": "401858514:12197194:742.195358056",
+    "event": "401858514",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 61.5,
+    "ou": "under",
+    "pick": "Under (61.5)",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.856,
+    "raw_prob": 0.856,
+    "game": "Oregon Ducks at Ohio State Buckeyes",
+    "result": null,
+    "close_odds": -800
    },
    {
     "id": "401862819:60194864:742.195358205",
@@ -104595,7 +104595,7 @@
     "close_odds": -125
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -104674,7 +104674,7 @@
     "close_odds": 198
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -104801,7 +104801,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -104928,7 +104928,7 @@
     "close_odds": 194
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105071,7 +105071,7 @@
     "close_odds": -375
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105214,7 +105214,7 @@
     "close_odds": 255
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105389,7 +105389,7 @@
     "close_odds": 285
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105596,7 +105596,7 @@
     "close_odds": 215
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -106011,7 +106011,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 06:47 UTC",
+  "logged": "2026-11-07 06:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
