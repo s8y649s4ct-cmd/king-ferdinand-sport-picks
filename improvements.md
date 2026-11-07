@@ -350,3 +350,21 @@ Change (backup /workspace/kfsp_backups/2026-11-06-pm/): legs.json news_adj today
 - Reasons updated for afternoon designations. Players list 39 (added Quickley, Kyle Anderson, Mamukelashvili; Bona/Schroder/Diabate/Knueppel already present). Effect on unlocked tickets: TOR +11.5 / MIN +12.5 already mostly on locked tickets; ATL +7.5 on unlocked #10 stays haircut; Best Parlay (LAL +6.5, Under 240.5 WAS-ATL, DAL +1.5, PHI +6.5, Under 241.5 TOR-MIL) re-priced with CLE/TOR/WAS haircuts on side legs only.
 No model change (no new graded losses today; overnight NHL trim payout-aware backtest already rejected stronger caps). Cleared stale .update.lock from ~3:05 PM refresh before rebuild. Locked tickets preserved.
 Published 3dfd6ba / 79e4864 (~3:10–3:11 PM ET). Site 200; servers 8080/8000 up. Counts: 23 ladder (68 unique legs; 16 locked / 7 unlocked), props 15, live 4, NBA 15, TD 0, 2-leg 0, Lottery 8. Best Parlay ~22.6% / 4.33x (LAL +5.5, Under 240.5 WAS-ATL, DAL +1.5, PHI +6.5, Under 241.5 TOR-MIL).
+
+## 2026-11-07 daily review #12, ~3:10 AM ET
+Record (all graded tickets through 11-06): 88 won, 420 lost (17.3%) vs 101.8 expected. Ladder 70-236 (22.9%), Best Parlay 2-10, Lottery 16-174 (8.4%), green favorites 25-28 (47.2%), 2-leg board 0-0. 11-06 graded so far: ladder 1/21 vs 3.7 expected (several late CFB / Sunday soccer / NHL tickets still pending including Best Parlay and greens 2-3). Main legs 1,545 graded: 1,142/1,545 = 73.9% hit vs 75.5% pred (Brier .1456). 11-06 legs alone 56/68 = 82.4% vs 86.2%.
+Calibration (stats.json): 85-90% 87.0% vs 87.3% (667), 80-85% 81.9% vs 82.5%; 90-95% still 78.3% overall but 6/6 = 100% post-10-27 (legacy 10-25/26 only). by_sport: NHL 183/304 = 60.2% vs 66.6% pred (still most overconfident); NBA 471/612 = 77.0% vs 80.3%; CFB 215/256 = 84.0% vs 82.5%; NFL 94/123 = 76.4% vs 74.2%. CLV ~flat (+0.04 pts; 402 beat / 460 worse).
+Extra tabs: Live 4,913/8,013 = 61.3% vs 62.4%; Props 2,560/3,456 = 74.1% vs 76.4% (post-11-02 FD-cap era 74.1% vs 75.1% — nearly calibrated); NBA 3s/reb 883/1,212 = 72.9% vs 73.7%; NFL TD 61/142 = 43.0% vs 40.6%.
+Shadow (4,280 graded): v1 Brier .1498 / top-pick 391/470 = 83.2%; v2 Brier .1483 / top-pick 404/470 = 86.0%. NHL top-pick 68/95 = 71.6% v1 vs 79/95 = 83.2% v2. v1 stays live (ticket rebuild still worse for v2; live_model/allow_switch untouched).
+11-06 ladder losses (root causes): Calgary Flames +1.5 (est .83) sat on 14 losing tickets — same reuse pattern as prior days; NHL +1.5 overall is calibrated (56/69 = 81.2% vs 79.7%), so this was variance amplified by reuse. Also PHI +11.5/+12.5/+13.5 and MEM +18.5/+19.5 (NBA blowouts), WAS-ATL Unders 248.5-250.5, VT-SMU Unders 74.5/75.5, Nevada +26.5. No grading bug; no missed news that would have flipped a locked leg. CFB Unders overall calibrated (133/151 = 88.1% vs 87.1%).
+Payout-aware rebuild backtests (13 graded shadow days 10-25..11-06; ladder/Best rebuilt per day; win rate + avg payout + ROI):
+- baseline (NHL_CAP=0.80): ladder 1-4 37/52 (71.2%, 1.30x, ROI -0.10); 5+ 45/233 (19.3%, 10.01x, ROI +0.13); top-pick 83.4%.
+- no_trim: 5+ 40/233 (ROI -0.12) -> current trim still confirmed.
+- cap75: 5+ 48/233 (ROI +0.17) but post-10-26 Δ = 0 (all gain on 10-25/26) -> REJECTED as overfit (same as 11-06).
+- NHL -3 pts ranking haircut: 5+ same wins, ROI +0.03 vs +0.13 -> REJECTED (payouts).
+- NHL +1.5 short-odds haircut (Calgary-style): +1 win total, helped 11-06 / hurt 11-05 -> noise, REJECTED.
+- NBA underdog spreads 5-10 haircut/drop (main-board 72% vs 86% pred, n=72): 5+ 44/233, post-10-26 Δ = -4 -> REJECTED.
+- NBA Unders -3/-5/-8 pts: win count flat-to-+2 but ROI +0.13 -> +0.06/+0.08/+0.09 -> REJECTED (trades payouts for short-odds safety; user rule).
+- Leg-reuse cap 3/5: fewer absolute wins, worse ROI -> REJECTED (again).
+- v2 live: top-pick 85.7% vs 83.4%, but 1-4 35/52, 5+ 37/232 (ROI -0.34) -> REJECTED for switch; recommend only.
+Changes: cleared legs.json news_adj (was dated 2026-11-06; 11-06 games finished / pending tickets already locked). No model change. v1 stays live; v2 not switched. FanDuel links / King's Favorites / no-live pregame / update.sh preserved. Backups /workspace/kfsp_backups/2026-11-07/. Backtest detail /workspace/kfsp_review/r1107/bt.json.
