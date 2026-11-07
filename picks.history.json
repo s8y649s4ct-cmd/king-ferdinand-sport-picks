@@ -90997,8 +90997,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2158,
-  "fd_payout_x": 4.36,
+  "est_prob": 0.2172,
+  "fd_payout_x": 4.34,
   "legs_detail": [
    {
     "id": "401909294:7884564:742.196226002",
@@ -91017,6 +91017,22 @@
     "close_odds": -280
    },
    {
+    "id": "401909290:7733134:742.196228189",
+    "event": "401909290",
+    "sport": "nba",
+    "kind": "total",
+    "line": 237.5,
+    "ou": "under",
+    "pick": "Under 237.5",
+    "market": "Alternate Total Points",
+    "odds": -300,
+    "prob": 0.7388,
+    "raw_prob": 0.7388,
+    "game": "Utah Jazz at Dallas Mavericks",
+    "result": null,
+    "close_odds": -300
+   },
+   {
     "id": "401909292:7711399:742.196228023",
     "event": "401909292",
     "sport": "nba",
@@ -91033,18 +91049,18 @@
     "close_odds": -295
    },
    {
-    "id": "401909290:7733134:742.196228189",
-    "event": "401909290",
+    "id": "401909289:7888438:742.196205630",
+    "event": "401909289",
     "sport": "nba",
-    "kind": "total",
-    "line": 237.5,
-    "ou": "under",
-    "pick": "Under 237.5",
-    "market": "Alternate Total Points",
+    "kind": "spread",
+    "side": "away",
+    "line": 5.5,
+    "pick": "Philadelphia 76ers +5.5",
+    "market": "Alternate Spread",
     "odds": -290,
-    "prob": 0.7357,
-    "raw_prob": 0.7357,
-    "game": "Utah Jazz at Dallas Mavericks",
+    "prob": 0.7345,
+    "raw_prob": 0.7345,
+    "game": "Philadelphia 76ers at Cleveland Cavaliers",
     "result": null,
     "close_odds": -290
    },
@@ -91063,25 +91079,9 @@
     "game": "San Antonio Spurs at Sacramento Kings",
     "result": null,
     "close_odds": -300
-   },
-   {
-    "id": "401909291:7711361:742.196228264",
-    "event": "401909291",
-    "sport": "nba",
-    "kind": "total",
-    "line": 234.5,
-    "ou": "under",
-    "pick": "Under 234.5",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7329,
-    "raw_prob": 0.7329,
-    "game": "Oklahoma City Thunder at Memphis Grizzlies",
-    "result": null,
-    "close_odds": -295
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -91122,10 +91122,26 @@
   "date": "2026-11-06",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.79263,
-  "est_raw": 0.79263,
+  "est_prob": 0.79344,
+  "est_raw": 0.79344,
   "fd_payout_x": 1.21,
   "legs_detail": [
+   {
+    "id": "401909295:7890734:742.196228367",
+    "event": "401909295",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": -2.5,
+    "pick": "San Antonio Spurs -2.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.891,
+    "raw_prob": 0.891,
+    "game": "San Antonio Spurs at Sacramento Kings",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "401856854:15845790:742.195357070",
     "event": "401856854",
@@ -91141,7 +91157,23 @@
     "game": "Oklahoma State Cowboys at Kansas State Wildcats",
     "result": null,
     "close_odds": -1000
-   },
+   }
+  ],
+  "logged": "2026-11-07 00:29 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": true,
+  "favorite_source": "logged"
+ },
+ {
+  "id": "2026-11-06-3",
+  "date": "2026-11-06",
+  "type": "ladder",
+  "n": 3,
+  "est_prob": 0.69731,
+  "est_raw": 0.69731,
+  "fd_payout_x": 1.33,
+  "legs_detail": [
    {
     "id": "401858515:12291346:742.195356943",
     "event": "401858515",
@@ -91157,38 +91189,6 @@
     "game": "Maryland Terrapins at Purdue Boilermakers",
     "result": null,
     "close_odds": -1000
-   }
-  ],
-  "logged": "2026-11-07 00:17 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
- },
- {
-  "id": "2026-11-06-3",
-  "date": "2026-11-06",
-  "type": "ladder",
-  "n": 3,
-  "est_prob": 0.69731,
-  "est_raw": 0.69731,
-  "fd_payout_x": 1.34,
-  "legs_detail": [
-   {
-    "id": "401909290:7891052:742.196228188",
-    "event": "401909290",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 9.5,
-    "pick": "Dallas Mavericks +9.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8901,
-    "raw_prob": 0.8901,
-    "game": "Utah Jazz at Dallas Mavericks",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401858285:12194345:742.195356206",
@@ -91223,7 +91223,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -91268,7 +91268,7 @@
     "raw_prob": 0.8836,
     "game": "Oklahoma City Thunder at Memphis Grizzlies",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401856738:12247074:742.195357001",
@@ -91394,7 +91394,7 @@
     "raw_prob": 0.8792,
     "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    }
   ],
   "logged": "2026-11-07 00:09 UTC",
@@ -91631,7 +91631,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -91723,7 +91723,7 @@
     "raw_prob": 0.8585,
     "game": "South Florida Bulls at East Carolina Pirates",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401864533:48218673:742.195355428",
@@ -91987,7 +91987,7 @@
     "raw_prob": 0.876,
     "game": "Philadelphia 76ers at Cleveland Cavaliers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401858285:12197206:742.195356206",
@@ -92317,7 +92317,7 @@
     "raw_prob": 0.8915,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909294:7889051:742.196226002",
@@ -92774,7 +92774,7 @@
     "raw_prob": 0.8803,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909294:7792066:742.196225932",
@@ -92822,7 +92822,7 @@
     "raw_prob": 0.8713,
     "game": "Oklahoma City Thunder at Memphis Grizzlies",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401858288:12291344:742.195355207",
@@ -92996,7 +92996,7 @@
     "raw_prob": 0.8747,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -850
+    "close_odds": -950
    },
    {
     "id": "401909295:7807551:742.196228401",
@@ -93108,7 +93108,7 @@
     "raw_prob": 0.8613,
     "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
     "result": null,
-    "close_odds": -620
+    "close_odds": -650
    },
    {
     "id": "401856855:48221146:742.195355503",
@@ -93233,7 +93233,7 @@
     "raw_prob": 0.8915,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909288:7889199:742.196227923",
@@ -93345,7 +93345,7 @@
     "raw_prob": 0.8585,
     "game": "South Florida Bulls at East Carolina Pirates",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401864533:48218673:742.195355428",
@@ -93801,7 +93801,7 @@
     "raw_prob": 0.8803,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909294:7792066:742.196225932",
@@ -93833,7 +93833,7 @@
     "raw_prob": 0.8713,
     "game": "Oklahoma City Thunder at Memphis Grizzlies",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909295:7890703:742.196228367",
@@ -93881,7 +93881,7 @@
     "raw_prob": 0.8692,
     "game": "Philadelphia 76ers at Cleveland Cavaliers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909292:7913116:742.196228037",
@@ -93897,7 +93897,7 @@
     "raw_prob": 0.8662,
     "game": "Toronto Raptors at Milwaukee Bucks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909287:7711958:742.196228800",
@@ -94151,7 +94151,7 @@
     "raw_prob": 0.8747,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -850
+    "close_odds": -950
    },
    {
     "id": "401909293:7707590:742.196229000",
@@ -94247,7 +94247,7 @@
     "raw_prob": 0.8613,
     "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
     "result": null,
-    "close_odds": -620
+    "close_odds": -650
    },
    {
     "id": "401856855:48221146:742.195355503",
@@ -94419,7 +94419,7 @@
     "raw_prob": 0.8915,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909294:7889051:742.196226002",
@@ -94547,7 +94547,7 @@
     "raw_prob": 0.8585,
     "game": "South Florida Bulls at East Carolina Pirates",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401864533:48218673:742.195355428",
@@ -94751,7 +94751,7 @@
     "raw_prob": 0.8803,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909294:7792066:742.196225932",
@@ -95114,7 +95114,7 @@
     "raw_prob": 0.8747,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -850
+    "close_odds": -950
    },
    {
     "id": "401909291:7890829:742.196228245",
@@ -95130,7 +95130,7 @@
     "raw_prob": 0.8713,
     "game": "Oklahoma City Thunder at Memphis Grizzlies",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909295:7890703:742.196228367",
@@ -95178,7 +95178,7 @@
     "raw_prob": 0.8692,
     "game": "Philadelphia 76ers at Cleveland Cavaliers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909292:7913116:742.196228037",
@@ -95194,7 +95194,7 @@
     "raw_prob": 0.8662,
     "game": "Toronto Raptors at Milwaukee Bucks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909287:7711958:742.196228800",
@@ -95446,7 +95446,7 @@
     "raw_prob": 0.8915,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909294:7889051:742.196226002",
@@ -95622,7 +95622,7 @@
     "raw_prob": 0.8613,
     "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
     "result": null,
-    "close_odds": -620
+    "close_odds": -650
    },
    {
     "id": "401856855:48221146:742.195355503",
@@ -95889,7 +95889,7 @@
     "raw_prob": 0.8735,
     "game": "Oklahoma City Thunder at Memphis Grizzlies",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909293:7927660:742.196229024",
@@ -95936,7 +95936,7 @@
     "raw_prob": 0.8612,
     "game": "Philadelphia 76ers at Cleveland Cavaliers",
     "result": null,
-    "close_odds": -850
+    "close_odds": -800
    },
    {
     "id": "401862818:48093734:742.195355252",
@@ -96217,7 +96217,7 @@
     "raw_prob": 0.8828,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909288:7804103:742.196227923",
@@ -96343,7 +96343,7 @@
     "raw_prob": 0.871,
     "game": "Toronto Raptors at Milwaukee Bucks",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401858510:12215019:742.195355365",
@@ -96359,7 +96359,7 @@
     "raw_prob": 0.8684,
     "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401856849:12194341:742.195355937",
@@ -96662,7 +96662,7 @@
     "close_odds": 194
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -96672,9 +96672,9 @@
   "date": "2026-11-06",
   "type": "lottery",
   "label": "~100x",
-  "n": 4,
-  "est_prob": 0.0153345361924566,
-  "fd_payout_x": 103.67,
+  "n": 5,
+  "est_prob": 0.017095700052621378,
+  "fd_payout_x": 101.89,
   "legs_detail": [
    {
     "id": "401892663:25594:742.196315199",
@@ -96693,6 +96693,22 @@
     "close_odds": 225
    },
    {
+    "id": "401892661:7000427:742.196266212",
+    "event": "401892661",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Calgary Flames -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 164,
+    "prob": 0.4342,
+    "raw_prob": 0.4342,
+    "game": "Anaheim Ducks at Calgary Flames",
+    "result": null,
+    "close_odds": 164
+   },
+   {
     "id": "401892662:25610:742.196315187",
     "event": "401892662",
     "sport": "nhl",
@@ -96709,20 +96725,20 @@
     "close_odds": 194
    },
    {
-    "id": "401862822:49562268:742.195356437",
-    "event": "401862822",
-    "sport": "college-football",
+    "id": "401909290:7891385:742.196228188",
+    "event": "401909290",
+    "sport": "nba",
     "kind": "spread",
-    "side": "away",
-    "line": -10.5,
-    "pick": "Tulsa (-10.5)",
+    "side": "home",
+    "line": 3.5,
+    "pick": "Dallas Mavericks +3.5",
     "market": "Alternate Spread",
-    "odds": 250,
-    "prob": 0.3018,
-    "raw_prob": 0.3018,
-    "game": "Tulsa Golden Hurricane at Tulane Green Wave",
+    "odds": -330,
+    "prob": 0.7749,
+    "raw_prob": 0.7749,
+    "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": 250
+    "close_odds": -330
    },
    {
     "id": "401858285:48094339:742.195356189",
@@ -96741,7 +96757,7 @@
     "close_odds": 210
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -96752,7 +96768,7 @@
   "type": "lottery",
   "label": "~500x",
   "n": 5,
-  "est_prob": 0.0034450748665219716,
+  "est_prob": 0.003469219618445217,
   "fd_payout_x": 503.24,
   "legs_detail": [
    {
@@ -96820,23 +96836,23 @@
     "close_odds": 285
    },
    {
-    "id": "401864533:48659263:742.195355428",
-    "event": "401864533",
+    "id": "401862818:48906568:742.195355252",
+    "event": "401862818",
     "sport": "college-football",
     "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Nevada (+2.5)",
+    "side": "away",
+    "line": -7.5,
+    "pick": "South Florida (-7.5)",
     "market": "Alternate Spread",
     "odds": 280,
-    "prob": 0.2711,
-    "raw_prob": 0.2711,
-    "game": "New Mexico Lobos at Nevada Wolf Pack",
+    "prob": 0.273,
+    "raw_prob": 0.273,
+    "game": "South Florida Bulls at East Carolina Pirates",
     "result": null,
     "close_odds": 280
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -96847,8 +96863,8 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 6,
-  "est_prob": 0.001870322066460956,
-  "fd_payout_x": 1019.73,
+  "est_prob": 0.0018723796264900664,
+  "fd_payout_x": 1006.49,
   "legs_detail": [
    {
     "id": "401892663:25594:742.196315199",
@@ -96867,22 +96883,6 @@
     "close_odds": 225
    },
    {
-    "id": "401892662:25610:742.196315187",
-    "event": "401892662",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Washington Capitals -1.5",
-    "market": "Puck Line",
-    "odds": 194,
-    "prob": 0.3899,
-    "raw_prob": 0.3899,
-    "game": "Florida Panthers at Washington Capitals",
-    "result": null,
-    "close_odds": 194
-   },
-   {
     "id": "401892661:7000427:742.196266212",
     "event": "401892661",
     "sport": "nhl",
@@ -96897,6 +96897,22 @@
     "game": "Anaheim Ducks at Calgary Flames",
     "result": null,
     "close_odds": 164
+   },
+   {
+    "id": "401892662:25610:742.196315187",
+    "event": "401892662",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Washington Capitals -1.5",
+    "market": "Puck Line",
+    "odds": 194,
+    "prob": 0.3899,
+    "raw_prob": 0.3899,
+    "game": "Florida Panthers at Washington Capitals",
+    "result": null,
+    "close_odds": 194
    },
    {
     "id": "401862822:49562268:742.195356437",
@@ -96915,22 +96931,6 @@
     "close_odds": 250
    },
    {
-    "id": "401858285:48094262:742.195356189",
-    "event": "401858285",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -10.5,
-    "pick": "Clemson (-10.5)",
-    "market": "Alternate Spread",
-    "odds": 285,
-    "prob": 0.2727,
-    "raw_prob": 0.2727,
-    "game": "Clemson Tigers at Syracuse Orange",
-    "result": null,
-    "close_odds": 285
-   },
-   {
     "id": "401858292:48315334:742.195356144",
     "event": "401858292",
     "sport": "college-football",
@@ -96945,9 +96945,25 @@
     "game": "North Carolina Tar Heels at UConn Huskies",
     "result": null,
     "close_odds": 200
+   },
+   {
+    "id": "401862818:48906568:742.195355252",
+    "event": "401862818",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "South Florida (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 280,
+    "prob": 0.273,
+    "raw_prob": 0.273,
+    "game": "South Florida Bulls at East Carolina Pirates",
+    "result": null,
+    "close_odds": 280
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -96958,8 +96974,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 8,
-  "est_prob": 0.0001796939383490952,
-  "fd_payout_x": 11232.38,
+  "est_prob": 0.00017212787778702807,
+  "fd_payout_x": 11856.4,
   "legs_detail": [
    {
     "id": "401892663:25594:742.196315199",
@@ -96978,22 +96994,6 @@
     "close_odds": 225
    },
    {
-    "id": "401892662:25610:742.196315187",
-    "event": "401892662",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Washington Capitals -1.5",
-    "market": "Puck Line",
-    "odds": 194,
-    "prob": 0.3899,
-    "raw_prob": 0.3899,
-    "game": "Florida Panthers at Washington Capitals",
-    "result": null,
-    "close_odds": 194
-   },
-   {
     "id": "401892661:7000427:742.196266212",
     "event": "401892661",
     "sport": "nhl",
@@ -97008,6 +97008,22 @@
     "game": "Anaheim Ducks at Calgary Flames",
     "result": null,
     "close_odds": 164
+   },
+   {
+    "id": "401892662:25610:742.196315187",
+    "event": "401892662",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Washington Capitals -1.5",
+    "market": "Puck Line",
+    "odds": 194,
+    "prob": 0.3899,
+    "raw_prob": 0.3899,
+    "game": "Florida Panthers at Washington Capitals",
+    "result": null,
+    "close_odds": 194
    },
    {
     "id": "401862822:49562268:742.195356437",
@@ -97056,6 +97072,22 @@
     "game": "North Carolina Tar Heels at UConn Huskies",
     "result": null,
     "close_odds": 200
+   },
+   {
+    "id": "401862818:48906568:742.195355252",
+    "event": "401862818",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "South Florida (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 280,
+    "prob": 0.273,
+    "raw_prob": 0.273,
+    "game": "South Florida Bulls at East Carolina Pirates",
+    "result": null,
+    "close_odds": 280
    },
    {
     "id": "401864533:48659263:742.195355428",
@@ -97072,25 +97104,9 @@
     "game": "New Mexico Lobos at Nevada Wolf Pack",
     "result": null,
     "close_odds": 280
-   },
-   {
-    "id": "401862818:48906568:742.195355252",
-    "event": "401862818",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -7.5,
-    "pick": "South Florida (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 260,
-    "prob": 0.285,
-    "raw_prob": 0.285,
-    "game": "South Florida Bulls at East Carolina Pirates",
-    "result": null,
-    "close_odds": 260
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -97101,8 +97117,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 10,
-  "est_prob": 2.018440015066656e-05,
-  "fd_payout_x": 104461.11,
+  "est_prob": 1.9334530670638497e-05,
+  "fd_payout_x": 110264.51,
   "legs_detail": [
    {
     "id": "401892663:25594:742.196315199",
@@ -97199,6 +97215,22 @@
     "game": "North Carolina Tar Heels at UConn Huskies",
     "result": null,
     "close_odds": 200
+   },
+   {
+    "id": "401862818:48906568:742.195355252",
+    "event": "401862818",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "South Florida (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 280,
+    "prob": 0.273,
+    "raw_prob": 0.273,
+    "game": "South Florida Bulls at East Carolina Pirates",
+    "result": null,
+    "close_odds": 280
    },
    {
     "id": "401864533:48659263:742.195355428",
@@ -97231,22 +97263,6 @@
     "game": "Oklahoma State Cowboys at Kansas State Wildcats",
     "result": null,
     "close_odds": 200
-   },
-   {
-    "id": "401862818:48906568:742.195355252",
-    "event": "401862818",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -7.5,
-    "pick": "South Florida (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 260,
-    "prob": 0.285,
-    "raw_prob": 0.285,
-    "game": "South Florida Bulls at East Carolina Pirates",
-    "result": null,
-    "close_odds": 260
    },
    {
     "id": "401858512:48858303:742.195356073",
@@ -97265,7 +97281,7 @@
     "close_odds": 210
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -97276,8 +97292,8 @@
   "type": "lottery",
   "label": "~1,000,000x",
   "n": 13,
-  "est_prob": 1.9524661155240973e-06,
-  "fd_payout_x": 1124213.64,
+  "est_prob": 1.9280032522616298e-06,
+  "fd_payout_x": 1150573.41,
   "legs_detail": [
    {
     "id": "401892663:25594:742.196315199",
@@ -97376,6 +97392,22 @@
     "close_odds": 200
    },
    {
+    "id": "401862818:48906568:742.195355252",
+    "event": "401862818",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "South Florida (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 280,
+    "prob": 0.273,
+    "raw_prob": 0.273,
+    "game": "South Florida Bulls at East Carolina Pirates",
+    "result": null,
+    "close_odds": 280
+   },
+   {
     "id": "401909290:7891385:742.196228188",
     "event": "401909290",
     "sport": "nba",
@@ -97384,12 +97416,12 @@
     "line": 3.5,
     "pick": "Dallas Mavericks +3.5",
     "market": "Alternate Spread",
-    "odds": -335,
-    "prob": 0.7762,
-    "raw_prob": 0.7762,
+    "odds": -330,
+    "prob": 0.7749,
+    "raw_prob": 0.7749,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -335
+    "close_odds": -330
    },
    {
     "id": "401864533:48659263:742.195355428",
@@ -97422,22 +97454,6 @@
     "game": "Oklahoma State Cowboys at Kansas State Wildcats",
     "result": null,
     "close_odds": 200
-   },
-   {
-    "id": "401862818:48906568:742.195355252",
-    "event": "401862818",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -7.5,
-    "pick": "South Florida (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 260,
-    "prob": 0.285,
-    "raw_prob": 0.285,
-    "game": "South Florida Bulls at East Carolina Pirates",
-    "result": null,
-    "close_odds": 260
    },
    {
     "id": "401858512:48858303:742.195356073",
@@ -97472,23 +97488,23 @@
     "close_odds": 180
    },
    {
-    "id": "401858510:47936164:742.195355349",
-    "event": "401858510",
+    "id": "401869945:59955443:742.195357127",
+    "event": "401869945",
     "sport": "college-football",
     "kind": "spread",
     "side": "away",
-    "line": -10.5,
-    "pick": "Nebraska (-10.5)",
+    "line": 2.5,
+    "pick": "Old Dominion (+2.5)",
     "market": "Alternate Spread",
-    "odds": 196,
-    "prob": 0.3435,
-    "raw_prob": 0.3435,
-    "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
+    "odds": 186,
+    "prob": 0.3547,
+    "raw_prob": 0.3547,
+    "game": "Old Dominion Monarchs at Coastal Carolina Chanticleers",
     "result": null,
-    "close_odds": 196
+    "close_odds": 186
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -97516,7 +97532,7 @@
     "raw_prob": 0.8915,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909295:7890734:742.196228367",
@@ -97867,7 +97883,7 @@
     "raw_prob": 0.8965,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909288:7927486:742.196227923",
@@ -97963,7 +97979,7 @@
     "raw_prob": 0.8836,
     "game": "Oklahoma City Thunder at Memphis Grizzlies",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909289:7888411:742.196205630",
@@ -98250,7 +98266,7 @@
     "raw_prob": 0.8915,
     "game": "Utah Jazz at Dallas Mavericks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909294:7889051:742.196226002",
@@ -98600,9 +98616,25 @@
   "type": "lottery",
   "label": "25-leg best-chance lottery",
   "n": 25,
-  "est_prob": 0.03848538918688158,
+  "est_prob": 0.03847985546569042,
   "fd_payout_x": 11.32,
   "legs_detail": [
+   {
+    "id": "401909290:7891052:742.196228188",
+    "event": "401909290",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 9.5,
+    "pick": "Dallas Mavericks +9.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8921,
+    "raw_prob": 0.8921,
+    "game": "Utah Jazz at Dallas Mavericks",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "401909295:7890734:742.196228367",
     "event": "401909295",
@@ -98618,22 +98650,6 @@
     "game": "San Antonio Spurs at Sacramento Kings",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909290:7891052:742.196228188",
-    "event": "401909290",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 9.5,
-    "pick": "Dallas Mavericks +9.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8901,
-    "raw_prob": 0.8901,
-    "game": "Utah Jazz at Dallas Mavericks",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401856854:15845790:742.195357070",
@@ -98740,12 +98756,12 @@
     "line": 19.5,
     "pick": "Memphis Grizzlies +19.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8836,
-    "raw_prob": 0.8836,
+    "odds": -950,
+    "prob": 0.8815,
+    "raw_prob": 0.8815,
     "game": "Oklahoma City Thunder at Memphis Grizzlies",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909294:7884326:742.196226002",
@@ -98776,6 +98792,22 @@
     "prob": 0.8801,
     "raw_prob": 0.8801,
     "game": "Tulsa Golden Hurricane at Tulane Green Wave",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401858510:12247072:742.195355365",
+    "event": "401858510",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 70.5,
+    "ou": "under",
+    "pick": "Under (70.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
+    "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
     "result": null,
     "close_odds": -1000
    },
@@ -98860,22 +98892,6 @@
     "close_odds": -950
    },
    {
-    "id": "401858510:12247072:742.195355365",
-    "event": "401858510",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 70.5,
-    "ou": "under",
-    "pick": "Under (70.5)",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8771,
-    "raw_prob": 0.8771,
-    "game": "Nebraska Cornhuskers at Illinois Fighting Illini",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401909289:7888529:742.196205630",
     "event": "401909289",
     "sport": "nba",
@@ -98884,12 +98900,12 @@
     "line": 12.5,
     "pick": "Philadelphia 76ers +12.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.876,
-    "raw_prob": 0.876,
+    "odds": -950,
+    "prob": 0.8739,
+    "raw_prob": 0.8739,
     "game": "Philadelphia 76ers at Cleveland Cavaliers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401869945:12194333:742.195357124",
@@ -99003,7 +99019,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 00:17 UTC",
+  "logged": "2026-11-07 00:29 UTC",
   "locked": false,
   "result": null,
   "favorite": false
