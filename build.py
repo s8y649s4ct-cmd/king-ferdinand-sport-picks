@@ -128,9 +128,16 @@ json.dump(wxc,open('.cache/geo.json','w'))
 # ---------- candidate legs ----------
 PROP_VIG=1.07; ALT_VIG=1.045
 def side_of(g,txt):
-  t=toks(txt)
-  if t & toks(g['fd']['home']): return 'home'
-  if t & toks(g['fd']['away']): return 'away'
+  # 2026-11-07 3 PM review fix: score both sides instead of returning 'home' on any shared token.
+  # Old code mapped "Michigan State" to home "Michigan" (stopword 'state') and "New Jersey" to "New York" ('new').
+  t=toks(txt); sh=len(t&toks(g['fd']['home'])); sa=len(t&toks(g['fd']['away']))
+  if sh==sa:
+    if not sh: return None
+    rw=lambda s:set(re.findall(r'[a-z]+',norm(s)))-{'draw','and','or'}
+    rt=rw(txt); jac=lambda s:len(rt&rw(s))/max(1,len(rt|rw(s)))
+    jh,ja=jac(g['fd']['home']),jac(g['fd']['away'])
+    return 'home' if jh>ja else 'away' if ja>jh else None
+  return 'home' if sh>sa else 'away'
 def num(s):
   m=re.search(r'([+-]?\d+(?:\.\d+)?)\)?\s*(?:goals?)?\s*$',s,re.I); return float(m.group(1)) if m else None
 models=cfg['models']

@@ -110,9 +110,17 @@ def live_model(g,L,wp):
   if k=='spread' and L.get('line') is not None: return P(lambda h,a:((h-a) if sd=='home' else (a-h))+L['line']>0)
   if k=='total' and L.get('line') is not None: return P(lambda h,a:(h+a>L['line']) if L['ou']=='over' else (h+a<L['line']))
 def side_of(g,txt):
-  t=toks(txt)
-  if t & toks(g['teams']['home']['name']+' '+g['teams']['home']['short']): return 'home'
-  if t & toks(g['teams']['away']['name']+' '+g['teams']['away']['short']): return 'away'
+  # 2026-11-07 3 PM review fix: score both sides instead of returning 'home' on any shared token.
+  # Old code mapped "Michigan State" to home "Michigan" (stopword 'state') and "New Jersey" to "New York" ('new').
+  H=g['teams']['home']['name']+' '+g['teams']['home']['short']; A=g['teams']['away']['name']+' '+g['teams']['away']['short']
+  t=toks(txt); sh=len(t&toks(H)); sa=len(t&toks(A))
+  if sh==sa:
+    if not sh: return None
+    rw=lambda s:set(re.findall(r'[a-z]+',norm(s)))-{'draw','and','or'}
+    rt=rw(txt); jac=lambda s:len(rt&rw(s))/max(1,len(rt|rw(s)))
+    jh,ja=jac(H),jac(A)
+    return 'home' if jh>ja else 'away' if ja>jh else None
+  return 'home' if sh>sa else 'away'
 def num(s):
   m=re.search(r'([+-]?\d+(?:\.\d+)?)\)?\s*(?:goals?)?\s*$',s,re.I); return float(m.group(1)) if m else None
 def parse_game_markets(g,mk,live):
