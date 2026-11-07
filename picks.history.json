@@ -96828,7 +96828,7 @@
     "raw_prob": 0.2728,
     "game": "Vanderbilt Commodores at Mississippi State Bulldogs",
     "result": null,
-    "close_odds": 280
+    "close_odds": 255
    }
   ],
   "logged": "2026-11-07 05:44 UTC",
@@ -96939,7 +96939,7 @@
     "raw_prob": 0.334,
     "game": "Vanderbilt Commodores at Mississippi State Bulldogs",
     "result": null,
-    "close_odds": 210
+    "close_odds": 196
    }
   ],
   "logged": "2026-11-07 05:44 UTC",
@@ -97050,7 +97050,7 @@
     "raw_prob": 0.334,
     "game": "Vanderbilt Commodores at Mississippi State Bulldogs",
     "result": null,
-    "close_odds": 210
+    "close_odds": 196
    },
    {
     "id": "401858292:48315334:742.195356144",
@@ -97336,7 +97336,7 @@
     "raw_prob": 0.334,
     "game": "Vanderbilt Commodores at Mississippi State Bulldogs",
     "result": null,
-    "close_odds": 210
+    "close_odds": 196
    },
    {
     "id": "401858285:48094339:742.195356189",
@@ -98978,8 +98978,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2614,
-  "fd_payout_x": 4.3,
+  "est_prob": 0.2632,
+  "fd_payout_x": 4.27,
   "legs_detail": [
    {
     "id": "401858511:48442807:742.195361655",
@@ -99030,39 +99030,38 @@
     "close_odds": -295
    },
    {
-    "id": "401860911:15516344:742.195360509",
-    "event": "401860911",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 78.5,
-    "ou": "under",
-    "pick": "Under (78.5)",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7386,
-    "raw_prob": 0.7386,
-    "game": "Boise State Broncos at Colorado State Rams",
-    "result": null,
-    "close_odds": -295
-   },
-   {
-    "id": "401909939:7711020:742.196403436",
+    "id": "401909939:7891042:742.196403439",
     "event": "401909939",
     "sport": "nba",
-    "kind": "total",
-    "line": 216.5,
-    "ou": "over",
-    "pick": "Over 216.5",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7379,
-    "raw_prob": 0.7379,
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Atlanta Hawks +1.5",
+    "market": "Alternate Spread",
+    "odds": -300,
+    "prob": 0.7431,
+    "raw_prob": 0.7431,
     "game": "Brooklyn Nets at Atlanta Hawks",
     "result": null,
-    "close_odds": -295
+    "close_odds": -300
+   },
+   {
+    "id": "401864532:661961:742.194983345",
+    "event": "401864532",
+    "sport": "college-football",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Hawaii",
+    "market": "Moneyline",
+    "odds": -300,
+    "prob": 0.7385,
+    "raw_prob": 0.7385,
+    "game": "Hawai'i Rainbow Warriors at UTEP Miners",
+    "result": null,
+    "close_odds": -300
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -99094,7 +99093,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -99104,26 +99103,10 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.80174,
-  "est_raw": 0.80174,
+  "est_prob": 0.8012,
+  "est_raw": 0.8012,
   "fd_payout_x": 1.21,
   "legs_detail": [
-   {
-    "id": "401860911:21099554:742.195360509",
-    "event": "401860911",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 89.5,
-    "ou": "under",
-    "pick": "Under (89.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8954,
-    "raw_prob": 0.8954,
-    "game": "Boise State Broncos at Colorado State Rams",
-    "result": null,
-    "close_odds": -1000
-   },
    {
     "id": "401860912:21662438:742.195362476",
     "event": "401860912",
@@ -99139,9 +99122,25 @@
     "game": "Texas State Bobcats at Oregon State Beavers",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401856856:21099062:742.195362370",
+    "event": "401856856",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 87.5,
+    "ou": "under",
+    "pick": "Under (87.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8948,
+    "raw_prob": 0.8948,
+    "game": "West Virginia Mountaineers at Texas Tech Red Raiders",
+    "result": null,
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -99386,10 +99385,26 @@
   "date": "2026-11-07",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.46498,
-  "est_raw": 0.46498,
+  "est_prob": 0.46583,
+  "est_raw": 0.46583,
   "fd_payout_x": 1.82,
   "legs_detail": [
+   {
+    "id": "401909938:7889495:742.196397761",
+    "event": "401909938",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 8.5,
+    "pick": "Denver Nuggets +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8812,
+    "raw_prob": 0.8812,
+    "game": "Denver Nuggets at Indiana Pacers",
+    "result": null,
+    "close_odds": -950
+   },
    {
     "id": "401909944:7890767:742.196432257",
     "event": "401909944",
@@ -99439,38 +99454,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909940:7733196:742.196397889",
-    "event": "401909940",
-    "sport": "nba",
-    "kind": "total",
-    "line": 202.5,
-    "ou": "over",
-    "pick": "Over 202.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8796,
-    "raw_prob": 0.8796,
-    "game": "New York Knicks at Cleveland Cavaliers",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401862820:12247074:742.195357701",
-    "event": "401862820",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 72.5,
-    "ou": "under",
-    "pick": "Under (72.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
-    "game": "Temple Owls at Navy Midshipmen",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401856850:12194341:742.195358665",
     "event": "401856850",
     "sport": "college-football",
@@ -99485,9 +99468,25 @@
     "game": "UCF Knights at Kansas Jayhawks",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401864534:12247072:742.195359030",
+    "event": "401864534",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 70.5,
+    "ou": "under",
+    "pick": "Under (70.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
+    "game": "Northern Illinois Huskies at San Jos\u00e9 State Spartans",
+    "result": null,
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -99751,7 +99750,7 @@
     "raw_prob": 0.8771,
     "game": "Temple Owls at Navy Midshipmen",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -850
    }
   ],
   "logged": "2026-11-07 17:37 UTC",
@@ -99908,7 +99907,7 @@
     "raw_prob": 0.8771,
     "game": "Temple Owls at Navy Midshipmen",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -850
    }
   ],
   "logged": "2026-11-07 17:03 UTC",
@@ -100066,7 +100065,7 @@
     "raw_prob": 0.8684,
     "game": "Louisiana Tech Bulldogs at Troy Trojans",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401858512:48858276:742.195356073",
@@ -100451,7 +100450,7 @@
     "raw_prob": 0.819,
     "game": "Sassuolo at AS Roma",
     "result": null,
-    "close_odds": -700
+    "close_odds": -750
    },
    {
     "id": "761937:1221386:742.195293934",
@@ -101047,7 +101046,7 @@
     "raw_prob": 0.8749,
     "game": "Brooklyn Nets at Atlanta Hawks",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401856742:48221133:742.195360230",
@@ -101521,7 +101520,7 @@
     "raw_prob": 0.8659,
     "game": "Hawai'i Rainbow Warriors at UTEP Miners",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401862820:12215025:742.195357701",
@@ -101537,7 +101536,7 @@
     "raw_prob": 0.8631,
     "game": "Temple Owls at Navy Midshipmen",
     "result": null,
-    "close_odds": -850
+    "close_odds": -720
    },
    {
     "id": "401858286:48659825:742.195356519",
@@ -101649,7 +101648,7 @@
     "raw_prob": 0.8562,
     "game": "Louisiana Tech Bulldogs at Troy Trojans",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401858512:12197178:742.195356051",
@@ -101696,7 +101695,7 @@
     "raw_prob": 0.8514,
     "game": "Penn State Nittany Lions at Washington Huskies",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401874803:1221386:742.195221270",
@@ -102195,7 +102194,7 @@
     "raw_prob": 0.819,
     "game": "Sassuolo at AS Roma",
     "result": null,
-    "close_odds": -700
+    "close_odds": -750
    },
    {
     "id": "761937:1221386:742.195293934",
@@ -102604,7 +102603,7 @@
     "raw_prob": 0.7907,
     "game": "St. Louis CITY SC at Houston Dynamo FC",
     "result": null,
-    "close_odds": -590
+    "close_odds": -600
    },
    {
     "id": "761947:80260160:742.195162959",
@@ -102901,7 +102900,7 @@
     "raw_prob": 0.8589,
     "game": "New York Knicks at Cleveland Cavaliers",
     "result": null,
-    "close_odds": -850
+    "close_odds": -900
    },
    {
     "id": "401871098:12197198:742.195358968",
@@ -102917,7 +102916,7 @@
     "raw_prob": 0.856,
     "game": "Louisiana Tech Bulldogs at Troy Trojans",
     "result": null,
-    "close_odds": -800
+    "close_odds": -750
    },
    {
     "id": "401862819:49562881:742.195358205",
@@ -103282,7 +103281,7 @@
     "raw_prob": 0.8533,
     "game": "Penn State Nittany Lions at Washington Huskies",
     "result": null,
-    "close_odds": -800
+    "close_odds": -650
    },
    {
     "id": "401856743:48219801:742.195355988",
@@ -103943,7 +103942,7 @@
     "raw_prob": 0.8277,
     "game": "Sassuolo at AS Roma",
     "result": null,
-    "close_odds": -700
+    "close_odds": -750
    },
    {
     "id": "401874811:1222347:742.195221505",
@@ -104655,7 +104654,7 @@
     "close_odds": 190
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -104750,7 +104749,7 @@
     "close_odds": -310
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -104861,7 +104860,7 @@
     "close_odds": 190
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105004,7 +105003,7 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105014,9 +105013,9 @@
   "date": "2026-11-07",
   "type": "lottery",
   "label": "~100x",
-  "n": 9,
-  "est_prob": 0.030131460929960167,
-  "fd_payout_x": 105.77,
+  "n": 8,
+  "est_prob": 0.03181586631384508,
+  "fd_payout_x": 102.31,
   "legs_detail": [
    {
     "id": "401858511:48442772:742.195361655",
@@ -105115,38 +105114,6 @@
     "close_odds": -400
    },
    {
-    "id": "401860912:20740681:742.195362476",
-    "event": "401860912",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 86.5,
-    "ou": "under",
-    "pick": "Under (86.5)",
-    "market": "Alternate Total Points",
-    "odds": -480,
-    "prob": 0.825,
-    "raw_prob": 0.825,
-    "game": "Texas State Bobcats at Oregon State Beavers",
-    "result": null,
-    "close_odds": -480
-   },
-   {
-    "id": "401860911:21099554:742.195360509",
-    "event": "401860911",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 89.5,
-    "ou": "under",
-    "pick": "Under (89.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8954,
-    "raw_prob": 0.8954,
-    "game": "Boise State Broncos at Colorado State Rams",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401856856:20642383:742.195362370",
     "event": "401856856",
     "sport": "college-football",
@@ -105161,9 +105128,25 @@
     "game": "West Virginia Mountaineers at Texas Tech Red Raiders",
     "result": null,
     "close_odds": -770
+   },
+   {
+    "id": "401892664:4303418:742.196423298",
+    "event": "401892664",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "New York Rangers +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -350,
+    "prob": 0.78,
+    "raw_prob": 0.78,
+    "game": "New York Rangers at Seattle Kraken",
+    "result": null,
+    "close_odds": -350
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105338,7 +105321,7 @@
     "close_odds": 200
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105348,9 +105331,9 @@
   "date": "2026-11-07",
   "type": "lottery",
   "label": "~1,000,000x",
-  "n": 12,
-  "est_prob": 6.476701858414718e-06,
-  "fd_payout_x": 1009862.27,
+  "n": 15,
+  "est_prob": 5.902387916304038e-06,
+  "fd_payout_x": 1101416.35,
   "legs_detail": [
    {
     "id": "401858511:48442772:742.195361655",
@@ -105513,6 +105496,38 @@
     "close_odds": 200
    },
    {
+    "id": "401892668:7735390:742.196422932",
+    "event": "401892668",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 2.5,
+    "pick": "Chicago Blackhawks +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -122,
+    "prob": 0.5628,
+    "raw_prob": 0.5628,
+    "game": "Chicago Blackhawks at Carolina Hurricanes",
+    "result": null,
+    "close_odds": -122
+   },
+   {
+    "id": "401909943:7891583:742.196400371",
+    "event": "401909943",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 4.5,
+    "pick": "Houston Rockets +4.5",
+    "market": "Alternate Spread",
+    "odds": -400,
+    "prob": 0.8029,
+    "raw_prob": 0.8029,
+    "game": "Houston Rockets at Phoenix Suns",
+    "result": null,
+    "close_odds": -400
+   },
+   {
     "id": "401858291:48442993:742.195361149",
     "event": "401858291",
     "sport": "college-football",
@@ -105529,23 +105544,39 @@
     "close_odds": 200
    },
    {
-    "id": "401864532:49918051:742.195361945",
-    "event": "401864532",
+    "id": "401860912:20740681:742.195362476",
+    "event": "401860912",
     "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "UTEP (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 215,
-    "prob": 0.3266,
-    "raw_prob": 0.3266,
-    "game": "Hawai'i Rainbow Warriors at UTEP Miners",
+    "kind": "total",
+    "line": 86.5,
+    "ou": "under",
+    "pick": "Under (86.5)",
+    "market": "Alternate Total Points",
+    "odds": -480,
+    "prob": 0.825,
+    "raw_prob": 0.825,
+    "game": "Texas State Bobcats at Oregon State Beavers",
     "result": null,
-    "close_odds": 215
+    "close_odds": -480
+   },
+   {
+    "id": "401856856:12386723:742.195362370",
+    "event": "401856856",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 79.5,
+    "ou": "under",
+    "pick": "Under (79.5)",
+    "market": "Alternate Total Points",
+    "odds": -400,
+    "prob": 0.7984,
+    "raw_prob": 0.7984,
+    "game": "West Virginia Mountaineers at Texas Tech Red Raiders",
+    "result": null,
+    "close_odds": -400
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -105556,7 +105587,7 @@
   "type": "lottery",
   "label": "25-leg best-chance lottery",
   "n": 25,
-  "est_prob": 0.049814464774239536,
+  "est_prob": 0.049846038638269884,
   "fd_payout_x": 11.38,
   "legs_detail": [
    {
@@ -105572,22 +105603,6 @@
     "prob": 0.9416,
     "raw_prob": 0.9416,
     "game": "Michigan State Spartans at Michigan Wolverines",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401860911:21099554:742.195360509",
-    "event": "401860911",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 89.5,
-    "ou": "under",
-    "pick": "Under (89.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8954,
-    "raw_prob": 0.8954,
-    "game": "Boise State Broncos at Colorado State Rams",
     "result": null,
     "close_odds": -1000
    },
@@ -105688,6 +105703,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401860911:21099554:742.195360509",
+    "event": "401860911",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 89.5,
+    "ou": "under",
+    "pick": "Under (89.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8904,
+    "raw_prob": 0.8904,
+    "game": "Boise State Broncos at Colorado State Rams",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401869927:12247074:742.195357204",
     "event": "401869927",
     "sport": "college-football",
@@ -105732,6 +105763,22 @@
     "prob": 0.8851,
     "raw_prob": 0.8851,
     "game": "Alabama Crimson Tide at LSU Tigers",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401862820:12386717:742.195357701",
+    "event": "401862820",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 73.5,
+    "ou": "under",
+    "pick": "Under (73.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8851,
+    "raw_prob": 0.8851,
+    "game": "Temple Owls at Navy Midshipmen",
     "result": null,
     "close_odds": -1000
    },
@@ -105864,38 +105911,6 @@
     "close_odds": -950
    },
    {
-    "id": "401909940:7733196:742.196397889",
-    "event": "401909940",
-    "sport": "nba",
-    "kind": "total",
-    "line": 202.5,
-    "ou": "over",
-    "pick": "Over 202.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8796,
-    "raw_prob": 0.8796,
-    "game": "New York Knicks at Cleveland Cavaliers",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401862820:12247074:742.195357701",
-    "event": "401862820",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 72.5,
-    "ou": "under",
-    "pick": "Under (72.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
-    "game": "Temple Owls at Navy Midshipmen",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401856850:12194341:742.195358665",
     "event": "401856850",
     "sport": "college-football",
@@ -105924,6 +105939,22 @@
     "prob": 0.8792,
     "raw_prob": 0.8792,
     "game": "Northern Illinois Huskies at San Jos\u00e9 State Spartans",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401871098:12197202:742.195358968",
+    "event": "401871098",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 65.5,
+    "ou": "under",
+    "pick": "Under (65.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
+    "game": "Louisiana Tech Bulldogs at Troy Trojans",
     "result": null,
     "close_odds": -1000
    },
@@ -105960,7 +105991,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-07 18:37 UTC",
+  "logged": "2026-11-07 18:49 UTC",
   "locked": false,
   "result": null,
   "favorite": false
