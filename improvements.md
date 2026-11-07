@@ -368,3 +368,14 @@ Payout-aware rebuild backtests (13 graded shadow days 10-25..11-06; ladder/Best 
 - Leg-reuse cap 3/5: fewer absolute wins, worse ROI -> REJECTED (again).
 - v2 live: top-pick 85.7% vs 83.4%, but 1-4 35/52, 5+ 37/232 (ROI -0.34) -> REJECTED for switch; recommend only.
 Changes: cleared legs.json news_adj (was dated 2026-11-06; 11-06 games finished / pending tickets already locked). No model change. v1 stays live; v2 not switched. FanDuel links / King's Favorites / no-live pregame / update.sh preserved. Backups /workspace/kfsp_backups/2026-11-07/. Backtest detail /workspace/kfsp_review/r1107/bt.json.
+
+## 2026-11-07 10:40 AM ET intraday review (10:30 AM ET)
+Status: v1 live (live_model/allow_switch untouched). Ladder: 10 of 25 locked at early soccer kickoffs (7:30–10:00 AM ET: #11, 12, 13, 16, 18, 19, 20, 22, 23, 24); the rest (first kicks noon ET+) and Best Parlay / unlocked Lottery still follow the board. None unlocked.
+Graded since 3 AM: one late 11-06 ladder ticket graded a win (~9:38 AM ET refresh). Record: ladder 71-236, Best 2-10, Lottery 16-174, green 25-28, 2-leg 0-0. No 11-07 game finished yet, so no new losing-leg pattern to study; no model change.
+Research (~10:35 AM ET):
+- NBA report 9:15 AM ET: IND without Haliburton/Furphy/Sheppard, Oubre + McConnell Q (helps our DEN legs; DEN-IND in Mexico City). GSW: Butler, Porzingis, Moody out; Draymond, Santos, Payton II Q. ORL: Banchero, Suggs, Isaac, Penda, Nelson out. NYK: Josh Hart out; CLE: Allen/Tyson/Merrill out. PHX: Mark Williams out. WAS@OKC, SAS@POR clean.
+- NHL Daily Faceoff (3/24 confirmed): Thompson vs Schmid confirmed (FLA-WSH); TOR Bobrovsky likely (.889) vs MTL Fowler (.923) — supports Best MTL +1.5 (now off Best); MIN Pickard confirmed (.833, back-to-back) — supports Lottery TB legs; STL-NSH unconfirmed (Hofer/Saros).
+- CFB: Wake Forest holding QB Gio Lopez (Pizzella starts vs Merrimack, Thamel 10:08 AM ET); Boise State QB Madsen out (Cutforth); Oregon without QB Moore + RB Davison at OSU; Northwestern QB Chiles out (helps Iowa +13.5 / Under); KSU 4th-string QB, Rutgers Lonergan + Wisconsin Joseph out, Syracuse Angeli Q (all support our Unders).
+Change (backup /workspace/kfsp_backups/2026-11-07-am/): legs.json news_adj today only, same -2.5 pt side rule on Wake Forest, Boise State, Oregon, Golden State, NY Knicks; 38 out/Q players excluded from props/TD.
+Effect: Wake Forest -31.5 and Boise State ML dropped from unlocked tickets; GSW +3.5 dropped from Best Parlay. New Best ~27.2% / 4.40x: Michigan State +21.5, NSH +1.5, DEN +1.5, SAS +3.5, Under 78.5. Locked #16 (GSW +8.5, Oregon +26.5) and #20 (Boise State ML) keep their legs as shown.
+Published 66a73d06 (~10:35 AM ET). Site 200. v2 switch_ready still true, not re-reported.
