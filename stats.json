@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07 22:57 UTC",
- "graded_legs": 1632,
+ "updated": "2026-11-07 23:09 UTC",
+ "graded_legs": 1638,
  "calibration": {
   "85-90%": {
    "n": 708,
@@ -9,16 +9,16 @@
    "hit": 0.869
   },
   "75-80%": {
-   "n": 131,
-   "wins": 105,
+   "n": 133,
+   "wins": 107,
    "pred": 0.784,
-   "hit": 0.802
+   "hit": 0.805
   },
   "80-85%": {
-   "n": 295,
-   "wins": 242,
-   "pred": 0.825,
-   "hit": 0.82
+   "n": 299,
+   "wins": 246,
+   "pred": 0.826,
+   "hit": 0.823
   },
   "65-70%": {
    "n": 24,
@@ -101,10 +101,10 @@
  },
  "by_sport": {
   "usa.1": {
-   "n": 84,
-   "wins": 60,
-   "pred": 0.675,
-   "hit": 0.714
+   "n": 90,
+   "wins": 66,
+   "pred": 0.684,
+   "hit": 0.733
   },
   "college-football": {
    "n": 307,
@@ -169,10 +169,10 @@
  },
  "by_market": {
   "total": {
-   "n": 739,
-   "wins": 595,
+   "n": 742,
+   "wins": 598,
    "pred": 0.817,
-   "hit": 0.805
+   "hit": 0.806
   },
   "spread": {
    "n": 682,
@@ -181,10 +181,10 @@
    "hit": 0.738
   },
   "dc": {
-   "n": 58,
-   "wins": 47,
+   "n": 61,
+   "wins": 50,
    "pred": 0.788,
-   "hit": 0.81
+   "hit": 0.82
   },
   "ml": {
    "n": 27,
@@ -236,10 +236,10 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1796,
+  "legs_tracked": 1801,
   "avg_clv_pts": 0.0,
-  "beat_close": 447,
-  "worse_than_close": 529
+  "beat_close": 446,
+  "worse_than_close": 530
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
