@@ -67,7 +67,7 @@ return `<div class="card fav favrec"><span class=favtag>👑 King's Favorites re
 let MDMAP=null,REG=localStorage.getItem('fdRegion')||'PA';
 function mdUrl(u){const ids=[...u.matchAll(/marketId%5B\d+%5D=([\d.]+)/g)].map(x=>x[1]);if(!MDMAP||!ids.length||ids.some(i=>!MDMAP[i]))return null;return u.replace(/(marketId%5B\d+%5D=)([\d.]+)/g,(a,p,i)=>p+MDMAP[i]);}
 function applyRegion(root){(root||document).querySelectorAll('a.fdbtn[data-pa]').forEach(a=>{const pa=a.dataset.pa;if(!a.dataset.t)a.dataset.t=a.textContent;
- if(REG==='MD'){const m=mdUrl(pa);if(m){a.href=m;a.textContent=a.dataset.t;a.classList.remove('off');a.removeAttribute('aria-disabled');}else{a.removeAttribute('href');a.textContent='not on FanDuel MD';a.classList.add('off');a.setAttribute('aria-disabled','true');}}
+ if(REG==='MD'){const m=a.dataset.md?(a.dataset.md==='none'?null:a.dataset.md):mdUrl(pa);if(m){a.href=m;a.textContent=a.dataset.t;a.classList.remove('off');a.removeAttribute('aria-disabled');}else{a.removeAttribute('href');a.textContent='not on FanDuel MD';a.classList.add('off');a.setAttribute('aria-disabled','true');}}
  else{a.href=pa;a.textContent=a.dataset.t;a.classList.remove('off');a.removeAttribute('aria-disabled');}});}
 function setRegion(r){REG=r;localStorage.setItem('fdRegion',r);const b=document.getElementById('region');if(b){b.textContent='FanDuel: '+r;b.setAttribute('aria-label','FanDuel state '+r+', tap to switch');}applyRegion();}
 function loadMd(){fetch('md.json?'+Date.now()).then(r=>r.json()).then(d=>{MDMAP=d.map||{};applyRegion();}).catch(()=>{MDMAP={};applyRegion();});}
