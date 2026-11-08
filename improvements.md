@@ -391,3 +391,18 @@ Research (~3:05 PM ET): MSU 13 out (top 3 RBs, backup QB Fancher, TE Savoury), Q
 news_adj added: Michigan State -2.5, Tampa Bay -2.5 (backup goalie); 17 players added to props/TD exclusion (55 total).
 New Best Parlay ~21.7% / 4.42x: Under 76.5 WVU-TTU, Hawaii ML, Over 59.5 Boise-CSU, HOU +1.5, SAS +3.5.
 Published 48b46ef0 (~3:10 PM ET). v2 switch_ready still true, not re-reported.
+
+## 2026-11-08 daily review #13, ~3:00 AM ET
+Record (all graded tickets through 11-07): 95 won, 451 lost (17.4%). Ladder 77-258 (23.0%), Best Parlay 2-11, Lottery 16-182 (8.1%), green favorites 25-34 (42.4%), 2-leg board 0-0. 11-07: 5-20 overall. Main legs 1,788 graded: 74.6% hit vs 76.3% pred (Brier .1457, log loss .465). 11-07 legs 168/201 = 83.6% vs 85.5%.
+Calibration: 85-90% 86.1% vs 87.3% (818); 80-85% 82.8% vs 82.6%; 90-95% 79.0% vs 93.3% (62, mostly legacy 10-25/26). By sport: NHL 61.3% vs 67.1% (326, still most overconfident); NBA 77.6% vs 80.5%; CFB 80.5% vs 82.1%; NFL 74.8% vs 74.2%. Odds bands: <=-800 86.8% vs 87.6% (999); -300..-150 56.4% vs 66.9% (78, small).
+Extra tabs: Live 61.7% vs 62.4% (11,172); Props 74.4% vs 76.3% (3,765); NBA 3s/reb 73.3% vs 73.7% (1,294); NFL TD 43.0% vs 40.6% (142). All close to calibrated; FanDuel's own price is about as good as the model on Live/Props.
+Shadow (5,240 graded): v1 Brier .1539 / top-pick 84.7% (489); v2 Brier .1530 / top-pick 86.9%. v2 still better per leg and top pick, but rebuilt v2 tickets lose: ladder 1-4 36/56 vs 39/56, 5+ 40/261 (ROI -0.33) vs 46/261 (ROI +0.00). Recommend only; v1 stays live (live_model/allow_switch untouched).
+11-07 losses (root cause): CFB scoring explosion. Deep alt Unders at -800..-1000 lost on Boise-CSU (102 pts vs Under 87.5-89.5), OKST-KSU (94 vs 83.5/84.5), WKU-MTSU (93 vs 71.5/72.5), WVU-TTU, Wyoming-UNLV, Tulsa-Tulane, ISU-Baylor, Temple-Navy, Oregon-OSU (69 vs 60.5/61.5); also Merrimack +63.5 (lost 0-77), Kentucky +23.5 (6-34), ORL-GSW Unders 241.5-243.5, early soccer Over 1.5s / Man City DC, NHL Under 8.5s and LA Kings +1.5. CFB Unders 63/82 on 11-07 vs 87.6% rated. Finals verified against ESPN: no grading bug, no missed news that would have flipped a locked leg.
+Diagnosis: CFB total Unders priced -900 or shorter hit 183/216 = 84.7% vs 87.9% rated (85.5% before 11-07), so the model was overrating them by ~3 pts even before yesterday; -899..-700 band 78.2% vs 85.7% but those rarely make tickets.
+Payout-aware rebuild backtest (14 graded shadow days 10-25..11-07; /workspace/kfsp_review/r1108/bt.json, bt2.json):
+- baseline: ladder 1-4 39/56 (1.30x, ROI -0.13); 5+ 46/261 (10.10x, ROI +0.00); top-pick 83.7%.
+- CFB deep Under (-900 or shorter) -2/-3/-4 pts: 1-4 41/56; 5+ 51/52/50 of 261 (ROI +0.16/+0.19/+0.14), avg payout unchanged (10.13x); with 11-07 excluded still +5/+4/+3 wins; up on 5 days, down on 2. ADOPTED -3 pts.
+- all CFB Unders -3/-5, cap at 0.85, drop entirely, mid-band -4, blend with Pinnacle: all weaker or flat -> rejected.
+- no NHL trim: 5+ 41/261 (ROI -0.22) -> NHL trim confirmed again.
+Changes (backup /workspace/kfsp_backups/2026-11-08/): build.py CFB_DEEP_UNDER_HC=0.03 applied to CFB total Unders at -900 or shorter (after NHL trim, before v2 shadow, so future shadow v1 includes it). Cleared stale legs.json news_adj (dated 11-07). v1 stays live; FanDuel links / King's Favorites / no-live pregame / update.sh preserved.
+Expected effect: deep CFB alt Unders rank a bit lower, so ladder/Best/Lottery lean on better-calibrated legs; backtest suggests roughly +1 to +2 ladder wins per CFB-heavy Saturday. Small sample, nothing guaranteed.

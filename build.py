@@ -260,6 +260,13 @@ cal=stats.get('calibration',{})
 NHL_CAP=0.80
 for L in cands:
   if L.get('sport')=='nhl' and L['prob']>=0.85: L['nhl_trim_from']=L['prob']; L['prob']=NHL_CAP; L['raw_prob']=NHL_CAP
+# 2026-11-08 daily review: deep CFB alt Unders (FanDuel -900 or shorter) hit 183/216 = 84.7% vs 87.9% rated (pre-11-07 85.5%).
+# Payout-aware rebuild backtest (14 graded days): -3 pts -> ladder 1-4 41/56 vs 39/56, 5+ 52/261 vs 46/261 (ROI +0.19 vs +0.00),
+# still +4 wins with 11-07 excluded, smooth for -2/-3/-4. Calibration fix, not a payout trade.
+CFB_DEEP_UNDER_HC=0.03
+for L in cands:
+  if L.get('sport')=='college-football' and L.get('kind')=='total' and L.get('ou')=='under' and (L.get('odds') or 0)<=-900:
+    L['cfbu_hc_from']=L['prob']; L['prob']=max(0.01,L['prob']-CFB_DEEP_UNDER_HC); L['raw_prob']=L['prob']
 # ---------- v2 shadow engine (Pinnacle anchor + power ratings + player impact) ----------
 import v2
 try: V2INFO=v2.score(cands,games,G,get,SPORTS,toks,cfg)
