@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08 02:02 UTC",
- "graded_legs": 1708,
+ "updated": "2026-11-08 02:20 UTC",
+ "graded_legs": 1715,
  "calibration": {
   "85-90%": {
    "n": 761,
@@ -9,16 +9,16 @@
    "hit": 0.866
   },
   "75-80%": {
-   "n": 133,
-   "wins": 107,
+   "n": 137,
+   "wins": 110,
    "pred": 0.784,
-   "hit": 0.805
+   "hit": 0.803
   },
   "80-85%": {
-   "n": 303,
-   "wins": 250,
+   "n": 306,
+   "wins": 253,
    "pred": 0.826,
-   "hit": 0.825
+   "hit": 0.827
   },
   "65-70%": {
    "n": 24,
@@ -101,10 +101,10 @@
  },
  "by_sport": {
   "usa.1": {
-   "n": 93,
-   "wins": 69,
-   "pred": 0.689,
-   "hit": 0.742
+   "n": 100,
+   "wins": 75,
+   "pred": 0.697,
+   "hit": 0.75
   },
   "college-football": {
    "n": 367,
@@ -169,10 +169,10 @@
  },
  "by_market": {
   "total": {
-   "n": 782,
-   "wins": 629,
+   "n": 787,
+   "wins": 634,
    "pred": 0.819,
-   "hit": 0.804
+   "hit": 0.806
   },
   "spread": {
    "n": 710,
@@ -181,10 +181,10 @@
    "hit": 0.732
   },
   "dc": {
-   "n": 62,
-   "wins": 51,
-   "pred": 0.789,
-   "hit": 0.823
+   "n": 64,
+   "wins": 52,
+   "pred": 0.788,
+   "hit": 0.812
   },
   "ml": {
    "n": 28,
@@ -238,7 +238,7 @@
  "clv": {
   "legs_tracked": 1803,
   "avg_clv_pts": -0.0,
-  "beat_close": 450,
+  "beat_close": 449,
   "worse_than_close": 536
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
