@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08 16:58 UTC",
+ "updated": "2026-11-08 17:10 UTC",
  "date": "2026-11-08",
  "bar": {
   "leg": 0.92,
@@ -8,26 +8,11 @@
  },
  "board": [
   {
-   "id": "2026-11-08-2L-401873039:12194325:742.195448882-401873050:12194333:742.195451366",
+   "id": "2026-11-08-2L-401873050:12194333:742.195451366-401873039:12197186:742.195448882",
    "date": "2026-11-08",
    "n": 2,
-   "joint": 0.8659,
+   "joint": 0.8625,
    "legs": [
-    {
-     "id": "401873039:12194325:742.195448882",
-     "event": "401873039",
-     "sport": "nfl",
-     "pick": "Under (58.5)",
-     "market": "Alternate Total Points",
-     "game": "Cleveland Browns at New Orleans Saints",
-     "start": "2026-11-08T18:00Z",
-     "odds": -1000,
-     "model": 0.8742,
-     "calibrated": 0.9318,
-     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195448882&selectionId%5B0%5D=12194325",
-     "result": null,
-     "why": "FanDuel no-vig 85.8%, line model 89.1% -> est. 87.4% (edge +1.7 pts)"
-    },
     {
      "id": "401873050:12194333:742.195451366",
      "event": "401873050",
@@ -36,31 +21,53 @@
      "market": "Alternate Total Points",
      "game": "Tampa Bay Buccaneers at Chicago Bears",
      "start": "2026-11-09T01:20Z",
-     "odds": -950,
-     "model": 0.8646,
-     "calibrated": 0.9293,
+     "odds": -900,
+     "model": 0.8624,
+     "calibrated": 0.9287,
      "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195451366&selectionId%5B0%5D=12194333",
      "result": null,
-     "why": "FanDuel no-vig 85.4%, line model 87.6% -> est. 86.5% (edge +1.1 pts); research +0.0 pts: weather fine (wind 7.5 mph, rain 0%)"
+     "why": "FanDuel no-vig 84.9%, line model 87.6% -> est. 86.2% (edge +1.3 pts); research +0.0 pts: weather fine (wind 7.5 mph, rain 0%)"
+    },
+    {
+     "id": "401873039:12197186:742.195448882",
+     "event": "401873039",
+     "sport": "nfl",
+     "pick": "Under (57.5)",
+     "market": "Alternate Total Points",
+     "game": "Cleveland Browns at New Orleans Saints",
+     "start": "2026-11-08T18:00Z",
+     "odds": -900,
+     "model": 0.8624,
+     "calibrated": 0.9287,
+     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195448882&selectionId%5B0%5D=12197186",
+     "result": null,
+     "why": "FanDuel no-vig 84.9%, line model 87.6% -> est. 86.2% (edge +1.3 pts)"
     }
    ],
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195448882&selectionId%5B0%5D=12194325&marketId%5B1%5D=742.195451366&selectionId%5B1%5D=12194333"
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195451366&selectionId%5B0%5D=12194333&marketId%5B1%5D=742.195448882&selectionId%5B1%5D=12197186"
   }
  ],
  "near_miss": [
-  {
-   "pick": "Under (58.5)",
-   "game": "Cleveland Browns at New Orleans Saints",
-   "sport": "nfl",
-   "start": "2026-11-08T18:00Z",
-   "calibrated": 0.932
-  },
   {
    "pick": "Under (62.5)",
    "game": "Tampa Bay Buccaneers at Chicago Bears",
    "sport": "nfl",
    "start": "2026-11-09T01:20Z",
    "calibrated": 0.929
+  },
+  {
+   "pick": "Under (57.5)",
+   "game": "Cleveland Browns at New Orleans Saints",
+   "sport": "nfl",
+   "start": "2026-11-08T18:00Z",
+   "calibrated": 0.929
+  },
+  {
+   "pick": "Under (64.5)",
+   "game": "Los Angeles Rams at Washington Commanders",
+   "sport": "nfl",
+   "start": "2026-11-08T18:00Z",
+   "calibrated": 0.919
   },
   {
    "pick": "Minnesota Timberwolves +3.5",
@@ -81,13 +88,6 @@
    "game": "Miami Heat at Sacramento Kings",
    "sport": "nba",
    "start": "2026-11-09T02:00Z",
-   "calibrated": 0.861
-  },
-  {
-   "pick": "Dallas Mavericks +8.5",
-   "game": "Brooklyn Nets at Dallas Mavericks",
-   "sport": "nba",
-   "start": "2026-11-09T00:30Z",
    "calibrated": 0.861
   }
  ],
