@@ -113908,7 +113908,7 @@
     "close_odds": -290
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -113940,7 +113940,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -113987,7 +113987,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -114051,7 +114051,7 @@
     "close_odds": -800
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -114131,7 +114131,7 @@
     "close_odds": -450
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -114227,7 +114227,7 @@
     "close_odds": -750
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -114338,7 +114338,7 @@
     "close_odds": -900
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -114465,7 +114465,7 @@
     "close_odds": -360
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -114608,7 +114608,7 @@
     "close_odds": -550
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -114767,7 +114767,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -114942,7 +114942,7 @@
     "close_odds": -750
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115133,7 +115133,7 @@
     "close_odds": -360
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115340,7 +115340,7 @@
     "close_odds": -550
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115435,7 +115435,7 @@
     "close_odds": 146
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115446,8 +115446,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 7,
-  "est_prob": 0.00010167271906625283,
-  "fd_payout_x": 10305.15,
+  "est_prob": 9.769949475062384e-05,
+  "fd_payout_x": 10569.39,
   "legs_detail": [
    {
     "id": "401892681:7735598:742.196706698",
@@ -115514,19 +115514,20 @@
     "close_odds": 240
    },
    {
-    "id": "401909953:8622709:742.196423690",
-    "event": "401909953",
+    "id": "401909952:7891050:742.196700112",
+    "event": "401909952",
     "sport": "nba",
-    "kind": "ml",
+    "kind": "spread",
     "side": "home",
-    "pick": "Charlotte Hornets",
-    "market": "Moneyline",
-    "odds": 290,
-    "prob": 0.2431,
-    "raw_prob": 0.2431,
-    "game": "Cleveland Cavaliers at Charlotte Hornets",
+    "line": -9.5,
+    "pick": "Atlanta Hawks -9.5",
+    "market": "Alternate Spread",
+    "odds": 245,
+    "prob": 0.2799,
+    "raw_prob": 0.2799,
+    "game": "Los Angeles Lakers at Atlanta Hawks",
     "result": null,
-    "close_odds": 290
+    "close_odds": 245
    },
    {
     "id": "401909958:237487:742.196423694",
@@ -115544,23 +115545,25 @@
     "close_odds": 300
    },
    {
-    "id": "401909952:7891050:742.196700112",
-    "event": "401909952",
+    "id": "401909953:36981588:742.196704456",
+    "event": "401909953",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": -9.5,
-    "pick": "Atlanta Hawks -9.5",
-    "market": "Alternate Spread",
-    "odds": 245,
-    "prob": 0.2799,
-    "raw_prob": 0.2799,
-    "game": "Los Angeles Lakers at Atlanta Hawks",
+    "kind": "prop",
+    "line": 11.5,
+    "ou": "over",
+    "player": "Evan Mobley",
+    "stat": "REB",
+    "pick": "Evan Mobley",
+    "market": "12+ Rebounds",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
+    "game": "Cleveland Cavaliers at Charlotte Hornets",
     "result": null,
-    "close_odds": 245
+    "close_odds": 300
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115703,7 +115706,7 @@
     "close_odds": 230
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115862,7 +115865,7 @@
     "close_odds": -480
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115873,8 +115876,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 10,
-  "est_prob": 8.584609693332326e-06,
-  "fd_payout_x": 116755.75,
+  "est_prob": 8.493750741343581e-06,
+  "fd_payout_x": 116227.45,
   "legs_detail": [
    {
     "id": "401892682:136344:742.196614503",
@@ -115957,21 +115960,6 @@
     "close_odds": 158
    },
    {
-    "id": "401909953:8622709:742.196423690",
-    "event": "401909953",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "home",
-    "pick": "Charlotte Hornets",
-    "market": "Moneyline",
-    "odds": 290,
-    "prob": 0.2431,
-    "raw_prob": 0.2431,
-    "game": "Cleveland Cavaliers at Charlotte Hornets",
-    "result": null,
-    "close_odds": 290
-   },
-   {
     "id": "401909958:15588149:742.196678164",
     "event": "401909958",
     "sport": "nba",
@@ -116000,12 +115988,30 @@
     "stat": "REB",
     "pick": "Ivica Zubac",
     "market": "12+ Rebounds",
-    "odds": 240,
-    "prob": 0.2799,
-    "raw_prob": 0.2799,
+    "odds": 230,
+    "prob": 0.2882,
+    "raw_prob": 0.2882,
     "game": "Indiana Pacers at Dallas Mavericks",
     "result": null,
-    "close_odds": 240
+    "close_odds": 230
+   },
+   {
+    "id": "401909953:36981588:742.196704456",
+    "event": "401909953",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 11.5,
+    "ou": "over",
+    "player": "Evan Mobley",
+    "stat": "REB",
+    "pick": "Evan Mobley",
+    "market": "12+ Rebounds",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
+    "game": "Cleveland Cavaliers at Charlotte Hornets",
+    "result": null,
+    "close_odds": 300
    },
    {
     "id": "401909954:53570076:742.196693899",
@@ -116044,7 +116050,7 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -116235,7 +116241,7 @@
     "close_odds": -205
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -116246,8 +116252,8 @@
   "type": "lottery",
   "label": "~1,000,000x",
   "n": 11,
-  "est_prob": 8.756838147123142e-07,
-  "fd_payout_x": 1013041.27,
+  "est_prob": 7.88205824985498e-07,
+  "fd_payout_x": 1029366.37,
   "legs_detail": [
    {
     "id": "401892681:7735598:742.196706698",
@@ -116278,22 +116284,6 @@
     "prob": 0.284,
     "raw_prob": 0.284,
     "game": "New York Islanders at San Jose Sharks",
-    "result": null,
-    "close_odds": 280
-   },
-   {
-    "id": "401873051:12267697:742.195450832",
-    "event": "401873051",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": -10.5,
-    "pick": "Buffalo Bills (-10.5)",
-    "market": "Alternate Spread",
-    "odds": 280,
-    "prob": 0.2705,
-    "raw_prob": 0.2705,
-    "game": "Buffalo Bills at Minnesota Vikings",
     "result": null,
     "close_odds": 280
    },
@@ -116330,19 +116320,20 @@
     "close_odds": -128
    },
    {
-    "id": "401909953:8622709:742.196423690",
-    "event": "401909953",
+    "id": "401909959:7889286:742.196699789",
+    "event": "401909959",
     "sport": "nba",
-    "kind": "ml",
+    "kind": "spread",
     "side": "home",
-    "pick": "Charlotte Hornets",
-    "market": "Moneyline",
-    "odds": 290,
-    "prob": 0.2431,
-    "raw_prob": 0.2431,
-    "game": "Cleveland Cavaliers at Charlotte Hornets",
+    "line": -16.5,
+    "pick": "Golden State Warriors -16.5",
+    "market": "Alternate Spread",
+    "odds": 220,
+    "prob": 0.3036,
+    "raw_prob": 0.3036,
+    "game": "New Orleans Pelicans at Golden State Warriors",
     "result": null,
-    "close_odds": 290
+    "close_odds": 220
    },
    {
     "id": "401909958:15588149:742.196678164",
@@ -116363,22 +116354,22 @@
     "close_odds": 250
    },
    {
-    "id": "401909956:12706223:742.196701584",
-    "event": "401909956",
+    "id": "401909953:36981588:742.196704456",
+    "event": "401909953",
     "sport": "nba",
     "kind": "prop",
     "line": 11.5,
     "ou": "over",
-    "player": "Ivica Zubac",
+    "player": "Evan Mobley",
     "stat": "REB",
-    "pick": "Ivica Zubac",
+    "pick": "Evan Mobley",
     "market": "12+ Rebounds",
-    "odds": 240,
-    "prob": 0.2799,
-    "raw_prob": 0.2799,
-    "game": "Indiana Pacers at Dallas Mavericks",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
+    "game": "Cleveland Cavaliers at Charlotte Hornets",
     "result": null,
-    "close_odds": 240
+    "close_odds": 300
    },
    {
     "id": "401909954:53570076:742.196693899",
@@ -116417,6 +116408,24 @@
     "close_odds": 300
    },
    {
+    "id": "401909956:6126021:742.196701623",
+    "event": "401909956",
+    "sport": "nba",
+    "kind": "prop",
+    "line": 5.5,
+    "ou": "over",
+    "player": "Kyrie Irving",
+    "stat": "REB",
+    "pick": "Kyrie Irving",
+    "market": "6+ Rebounds",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
+    "game": "Indiana Pacers at Dallas Mavericks",
+    "result": null,
+    "close_odds": 300
+   },
+   {
     "id": "401909957:40126264:742.196695967",
     "event": "401909957",
     "sport": "nba",
@@ -116435,7 +116444,7 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -116642,7 +116651,7 @@
     "close_odds": -360
    }
   ],
-  "logged": "2026-11-09 16:45 UTC",
+  "logged": "2026-11-09 16:54 UTC",
   "locked": false,
   "result": null,
   "favorite": false
