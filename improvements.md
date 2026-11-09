@@ -447,3 +447,15 @@ Research (~10:35 AM ET):
 Change (backup /workspace/kfsp_backups/2026-11-09-am/): legs.json news_adj today only, -2.5 pts on Houston Rockets (Denver status unresolved; market already prices a shorthanded Denver) and Toronto Raptors (Barnes/Quickley Q); 20 Q/out players added to the props/TD exclusion list.
 Effect: Toronto +5.5 left the Best Parlay; New Best ~22.3% / 4.33x: ATL +7.5, DAL +6.5, CLE-CHA Under 226.5, NOP-GSW Under 243.5, WAS-DET Under 229.5. Houston +7.5/+6.5 dropped from the top of the leg pool.
 Researched 2-leg board rewritten for 11-09 (prices re-verified on FanDuel PA and MD event pages 15:36 UTC = 10:36 AM ET, all identical): A1 ATL +15.5 (-950) + BUF-MIN Under 59.5 (-1000) est. $1.22/$1, break-even 82.3%; A2 SAS +7.5 (-1000) + CLE +7.5 (-950) $1.22, 82.3%; A3 GSW +6.5 (-900) + DAL +12.5 (-900) $1.23, 81.0%; B ATL +10.5 (-400) + SAS +3.5 (-480) $1.51, 66.2%. Strict 2-leg board: no pair qualifies today (no leg reaches the 0.92 calibrated bar; best near miss MNF Under 59.5 at 0.887). Not strict-qualified; no edge over FanDuel demonstrated.
+
+## 2026-11-09 3:00 PM ET intraday review (~3:06–3:12 PM ET)
+Status: v1 live (live_model/allow_switch untouched). All of today's games start 7:00 PM ET or later, so no ladder ticket has locked; nothing unlocked.
+Graded since 10:30 AM: no games finished. Record unchanged: ladder 83-277, Best 3-12, Lottery 18-198, green 28-36, researched 2-leg 5-1. No new losing-leg pattern; no model change (no backtest-proven fix pending).
+Research (~3:05 PM ET):
+- Denver: Jokic, Murray, Gordon, C. Johnson, Braun and DeRozan all upgraded to probable (ESPN, ~2:20 PM ET). FanDuel repriced fast: Houston ML -344 -> -182.
+- Lakers: Luka Doncic off the injury report, expected to play (Dave McMenamin / NY Post 2:30 PM ET); Austin Reaves questionable (illness), Quentin Grimes out. Hawks ML only moved -125 -> -120.
+- Other NBA: SAS Vassell now out; DET Isaiah Joe out; DAL Morez Johnson Q; GSW Payton II Q, Will Richard out; TOR Murray-Boyles Q (illness), Barnes/Quickley still Q; WAS Coulibaly Q, Davis Q; HOU Tshiebwe out; CHA Diabate doubtful.
+- NHL (Daily Faceoff): Garand vs Levi confirmed; PHI Woll likely on a back-to-back vs VAN Merilainen; Sorokin likely vs Askarov (SJS third game in four nights).
+- MNF: no change (Wentz starts; Murray, Jennings, Claiborne out; BUF Palmer out, Dawkins Q). Indoors.
+Changes (backup /workspace/kfsp_backups/2026-11-09-pm/): removed the Houston -2.5 news_adj (Denver uncertainty resolved and already priced, so keeping it would double-count); kept Toronto -2.5 with updated reason. Props/TD exclusion list: removed Luka and the six Denver probables; added Reaves, Isaiah Joe, Morez Johnson Jr., Payton II, Murray-Boyles, Coulibaly, Tshiebwe, Will Richard, Landale, Goodwin (23 total). Researched 2-leg notes updated (Luka plays; Vassell out); no pair changed.
+Effect: New Best ~22.0% / 4.39x: ATL +6.5, IND-DAL Over 214.5, CLE-CHA Under 226.5, HOU +4.5, WAS-DET Over 207.5 (DAL +5.5 and MEM-TOR Under 239.5 left). Published aed4cede (~3:08 PM ET), site 200. v2 switch_ready still true, not re-reported.
