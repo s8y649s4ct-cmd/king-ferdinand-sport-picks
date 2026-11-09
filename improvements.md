@@ -419,3 +419,20 @@ Research (~10:40 AM ET):
 Change (backup /workspace/kfsp_backups/2026-11-08-am/): legs.json news_adj today only — Anaheim Ducks -2.5 pts on side/ML (Brossoit probable starter); 20 out/Q/DTD players added to the exclusion list (Norman Powell plus effectively unavailable NFL/NBA names). Researched 2-leg board rewritten with re-verified FanDuel PA prices (A2 LV Under 68.5 -1000→-1100; C NYG Under 43.5 -245→-250; P1 McBride 5+ -650→-600; P2 White 1+ -1000→-950; P3 Nacua 60+ -500→-490 and McBride 40+ -380→-360). Notes corrected: A.J. Brown verified on NE; Minshew confirmed to start; Darnold out / Lock expected; Sanders starts rather than only "projected."
 Effect: ANA +1.5 stayed on Best Parlay after the -2.5 pt haircut (79.16% -> 76.66%). New Best ~24.29% / 4.36x: Vegas Golden Knights +1.5, Anaheim Ducks +1.5, Dallas Mavericks +1.5, Under 250.5 (MIA@SAC), Under 238.5 (NOP@LAC). Previous fifth leg Under (59.5) LV@SF was replaced in the unlocked rebuild. Locked tickets untouched. No model/code change.
 Published 3109a424 (~10:42 AM ET). Site 200. v2 switch_ready still true, not re-reported.
+
+## 2026-11-09 daily review #14, ~3:05 AM ET
+Record (all graded tickets through 11-08): 109 won, 488 lost (18.3%). Ladder 83-277 (23.1%), Best Parlay 3-12, Lottery 18-198 (8.3%), green favorites 28-36 (43.8%), researched 2-leg board 5-1. 11-08: 6-30 overall (ladder 6/25: tickets 1, 2, 3, 6, 11, 12 won). Main legs 1,944 graded: 75.2% hit vs 76.1% pred (Brier .1441, log loss .461). 11-08 legs 113/135 = 83.7% vs 78.5% pred (better than predicted).
+Calibration: <=-800 86.9% vs 87.6% (1,065); -800..-500 82.0% vs 82.4%; -300..-150 58.8% vs 67.5% (85, small; rarely on tickets). By sport: NHL 63.5% vs 67.2% (351, still most overconfident but improving); NBA 78.0% vs 80.7%; CFB 80.5% vs 82.1%; NFL 73.7% vs 72.0%; soccer leagues mostly under-predicted. CLV flat (-0.01 pts; 483 beat / 579 worse).
+Extra tabs: Live 61.8% vs 62.4% (11,673); Props 74.7% vs 76.3% (4,115); NBA 3s/reb 73.4% vs 73.7% (1,357); NFL TD 40.7% vs 40.6% (209). All near calibrated.
+Shadow (5,670 graded): v1 Brier .1524 / top-pick 85.2% (539); v2 Brier .1517 / top-pick 87.4%. Rebuilt v2 tickets still lose: ladder 1-4 40/60 vs 45/60, 5+ 45/282 (ROI -0.23) vs 59/282 (ROI +0.28). Recommend only; v1 stays live.
+11-08 losses (root cause): leg reuse on a few games that went wrong. Over 1.5 Goals Atalanta-Monza (on 7 tickets) and Rayo-Real Sociedad (on 6); NFL Unders HOU@LAC 55.5-56.5 and GB@NE 59.5-60.5 (-900..-1000); NOP +13.5/+14.5 and Unders 249.5/250.5 at LAC (NBA blowout); Lottery longshots PHI -1.5 / TB -1.5 puck lines and NFL plus-money spreads. Soccer Over 1.5 is actually under-predicted overall (69/82 = 84.1% vs 79.7%), NFL deep Unders calibrated (90.4% vs 89.4%), so these were variance concentrated by reuse, not a bad estimate. No grading bug found; no missed news that would have flipped a locked leg.
+Watch list: NBA Unders 81.3% vs 87.3% (187) and NHL Unders 57.1% vs 70.5% (56) are overrated.
+Payout-aware rebuild backtest (15 graded shadow days 10-25..11-08; /workspace/kfsp_review/r1109/bt.json):
+- baseline (NHL trim + CFB deep Under -3): ladder 1-4 45/60 (1.30x, ROI -0.05); 5+ 59/282 (11.00x, ROI +0.28); top-pick 84.8%.
+- no NHL trim: 5+ 50/282 (ROI +0.01) -> trim confirmed again.
+- NBA Unders -2/-3 deep or -3 all: 1-4 43-44/60, 5+ 58/282, ROI +0.05 -> REJECTED (fewer wins, much lower ROI; same as 11-07).
+- NHL Unders -5/-10: 1-4 46/60 (+1) but 5+ 54-55/282 (ROI +0.10/+0.11) -> REJECTED (net fewer wins).
+- soccer Over 1.5 +2: 5+ 51/282 (ROI -0.21) -> REJECTED.
+- combo NBA deep Under -3 + NHL Under -5: 1-4 45/60, 5+ 56/282 -> REJECTED.
+- v2 live: REJECTED for switch.
+Changes (backup /workspace/kfsp_backups/2026-11-09/): cleared stale legs.json news_adj (dated 11-08). No model change. v1 stays live (live_model/allow_switch untouched). FanDuel links / King's Favorites / no-live pregame / update.sh preserved.
