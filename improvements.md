@@ -436,3 +436,14 @@ Payout-aware rebuild backtest (15 graded shadow days 10-25..11-08; /workspace/kf
 - combo NBA deep Under -3 + NHL Under -5: 1-4 45/60, 5+ 56/282 -> REJECTED.
 - v2 live: REJECTED for switch.
 Changes (backup /workspace/kfsp_backups/2026-11-09/): cleared stale legs.json news_adj (dated 11-08). No model change. v1 stays live (live_model/allow_switch untouched). FanDuel links / King's Favorites / no-live pregame / update.sh preserved.
+
+## 2026-11-09 10:30 AM ET intraday review (~10:33–10:40 AM ET)
+Status: v1 live (live_model/allow_switch untouched). Today's slate is all evening (first tip 7:00 PM ET), so none of the 12 ladder tickets has started; ladder, Best Parlay and Lottery still follow the board. Nothing unlocked.
+Graded since 3 AM: no games finished (11-08 fully graded at 3 AM). Record unchanged: ladder 83-277, Best 3-12, Lottery 18-198, green 28-36, researched 2-leg 5-1. No new losing-leg pattern; no model change.
+Research (~10:35 AM ET):
+- NBA (ESPN injuries + team reports on X): Denver's whole starting five (Jokic elbow, Murray, Braun, Gordon, C. Johnson) plus DeRozan questionable after being stranded in Mexico City; line moved HOU -4.5 to -8.5, total 222.5 to 217.5. Toronto: Barnes and Quickley questionable, Kawhi Leonard and Bittle out. Lakers on a back-to-back, Luka sat Sunday, Monday report not filed yet. CLE Allen Q (Merrill/Tyson/Tomlin out); CHA without Miller, Knueppel, Schroder, G. Williams. WAS Anthony Davis Q. SAS Harris out, Vassell Q. IND Haliburton out, McConnell Q. DAL Lively out. GSW Butler/Porzingis/Moody/Richard out. HOU Capela/Adams out.
+- NFL MNF BUF@MIN: Kyler Murray out, Carson Wentz starts; Jennings out; BUF Palmer out, Dawkins Q. FanDuel total 43.5 (lookahead 47.5). Indoors.
+- NHL Daily Faceoff (0/6 confirmed): NYR Garand vs EDM Levi; PHI Woll likely vs VAN Lankinen (.804); NYI Sorokin vs SJS Askarov.
+Change (backup /workspace/kfsp_backups/2026-11-09-am/): legs.json news_adj today only, -2.5 pts on Houston Rockets (Denver status unresolved; market already prices a shorthanded Denver) and Toronto Raptors (Barnes/Quickley Q); 20 Q/out players added to the props/TD exclusion list.
+Effect: Toronto +5.5 left the Best Parlay; New Best ~22.3% / 4.33x: ATL +7.5, DAL +6.5, CLE-CHA Under 226.5, NOP-GSW Under 243.5, WAS-DET Under 229.5. Houston +7.5/+6.5 dropped from the top of the leg pool.
+Researched 2-leg board rewritten for 11-09 (prices re-verified on FanDuel PA and MD event pages 15:36 UTC = 10:36 AM ET, all identical): A1 ATL +15.5 (-950) + BUF-MIN Under 59.5 (-1000) est. $1.22/$1, break-even 82.3%; A2 SAS +7.5 (-1000) + CLE +7.5 (-950) $1.22, 82.3%; A3 GSW +6.5 (-900) + DAL +12.5 (-900) $1.23, 81.0%; B ATL +10.5 (-400) + SAS +3.5 (-480) $1.51, 66.2%. Strict 2-leg board: no pair qualifies today (no leg reaches the 0.92 calibrated bar; best near miss MNF Under 59.5 at 0.887). Not strict-qualified; no edge over FanDuel demonstrated.
