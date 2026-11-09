@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08 19:01 UTC",
- "date": "2026-11-08",
+ "updated": "2026-11-09 06:50 UTC",
+ "date": "2026-11-09",
  "bar": {
   "leg": 0.92,
   "joint": 0.85,
@@ -9,90 +9,90 @@
  "board": [],
  "near_miss": [
   {
-   "pick": "Under (62.5)",
-   "game": "Tampa Bay Buccaneers at Chicago Bears",
+   "pick": "Under (59.5)",
+   "game": "Buffalo Bills at Minnesota Vikings",
    "sport": "nfl",
-   "start": "2026-11-09T01:20Z",
-   "calibrated": 0.932
+   "start": "2026-11-10T01:15Z",
+   "calibrated": 0.888
   },
   {
-   "pick": "Detroit Pistons +9.5",
-   "game": "Los Angeles Lakers at Detroit Pistons",
+   "pick": "Atlanta Hawks +17.5",
+   "game": "Los Angeles Lakers at Atlanta Hawks",
    "sport": "nba",
-   "start": "2026-11-08T23:00Z",
-   "calibrated": 0.861
+   "start": "2026-11-10T00:00Z",
+   "calibrated": 0.859
   },
   {
-   "pick": "Boston Celtics +3.5",
-   "game": "Boston Celtics at Milwaukee Bucks",
+   "pick": "Cleveland Cavaliers +6.5",
+   "game": "Cleveland Cavaliers at Charlotte Hornets",
    "sport": "nba",
-   "start": "2026-11-09T01:00Z",
-   "calibrated": 0.861
+   "start": "2026-11-10T00:00Z",
+   "calibrated": 0.859
   },
   {
-   "pick": "Miami Heat +6.5",
-   "game": "Miami Heat at Sacramento Kings",
+   "pick": "Detroit Pistons +5.5",
+   "game": "Washington Wizards at Detroit Pistons",
    "sport": "nba",
-   "start": "2026-11-09T02:00Z",
-   "calibrated": 0.861
+   "start": "2026-11-10T00:00Z",
+   "calibrated": 0.859
   },
   {
-   "pick": "Dallas Mavericks +8.5",
-   "game": "Brooklyn Nets at Dallas Mavericks",
+   "pick": "Toronto Raptors +12.5",
+   "game": "Memphis Grizzlies at Toronto Raptors",
    "sport": "nba",
-   "start": "2026-11-09T00:30Z",
-   "calibrated": 0.861
+   "start": "2026-11-10T00:30Z",
+   "calibrated": 0.859
   },
   {
-   "pick": "Minnesota Timberwolves +3.5",
-   "game": "Utah Jazz at Minnesota Timberwolves",
+   "pick": "Indiana Pacers +18.5",
+   "game": "Indiana Pacers at Dallas Mavericks",
    "sport": "nba",
-   "start": "2026-11-09T00:00Z",
-   "calibrated": 0.86
+   "start": "2026-11-10T01:00Z",
+   "calibrated": 0.859
   }
  ],
  "record": {
-  "won": 0,
-  "lost": 0,
-  "pending": 6,
-  "win_pct": null
+  "won": 5,
+  "lost": 1,
+  "pending": 0,
+  "win_pct": 0.833
  },
  "backtest": {
-  "tickets": 11,
-  "won": 9,
-  "win_pct": 0.818,
-  "avg_joint": 0.905,
+  "tickets": 12,
+  "won": 10,
+  "win_pct": 0.833,
+  "avg_joint": 0.903,
   "days": 15,
   "grid": [
    {
     "leg_bar": 0.8,
-    "tickets": 11,
-    "won": 9,
-    "win_pct": 0.818
+    "tickets": 12,
+    "won": 10,
+    "win_pct": 0.833
    },
    {
     "leg_bar": 0.86,
-    "tickets": 11,
-    "won": 9,
-    "win_pct": 0.818
+    "tickets": 12,
+    "won": 10,
+    "win_pct": 0.833
    },
    {
     "leg_bar": 0.88,
-    "tickets": 11,
-    "won": 9,
-    "win_pct": 0.818
+    "tickets": 12,
+    "won": 10,
+    "win_pct": 0.833
    },
    {
     "leg_bar": 0.9,
-    "tickets": 11,
-    "won": 9,
-    "win_pct": 0.818
+    "tickets": 12,
+    "won": 10,
+    "win_pct": 0.833
    },
    {
     "leg_bar": 0.92,
-    "tickets": 11,
-    "won": 9,
-    "win_pct": 0.818
+    "tickets": 12,
+    "won": 10,
+    "win_pct": 0.833
    }
   ],
   "tickets_detail": [
@@ -132,23 +132,28 @@
     "won": true
    },
    {
-    "date": "2026-10-29",
-    "joint": 0.864,
+    "date": "2026-11-07",
+    "joint": 0.887,
     "won": true
    },
    {
-    "date": "2026-10-31",
-    "joint": 0.899,
+    "date": "2026-11-07",
+    "joint": 0.887,
     "won": false
    },
    {
-    "date": "2026-10-31",
-    "joint": 0.897,
+    "date": "2026-11-07",
+    "joint": 0.885,
     "won": true
    },
    {
-    "date": "2026-10-31",
-    "joint": 0.87,
+    "date": "2026-11-07",
+    "joint": 0.884,
+    "won": true
+   },
+   {
+    "date": "2026-11-07",
+    "joint": 0.869,
     "won": false
    }
   ]
