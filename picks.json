@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 05:08 UTC",
+ "updated": "2026-11-10 05:21 UTC",
  "date": "2026-11-09",
  "ladder_stats": {
   "tickets": 12,
@@ -2010,7 +2010,7 @@
    "name": "New Orleans Pelicans at Golden State Warriors",
    "start": "2026-11-10T03:00Z",
    "state": "in",
-   "status": "6:38 - 4th",
+   "status": "35.8 - 4th",
    "venue": "Chase Center",
    "indoor": true,
    "city": {
@@ -2025,7 +2025,7 @@
     "home": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "124",
+     "score": "138",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -2038,7 +2038,7 @@
     "away": {
      "name": "New Orleans Pelicans",
      "short": "Pelicans",
-     "score": "79",
+     "score": "87",
      "winner": null,
      "record": "4-6",
      "ml_open": null,
@@ -2102,8 +2102,8 @@
    "sport": "nhl",
    "name": "Philadelphia Flyers at Vancouver Canucks",
    "start": "2026-11-10T02:30Z",
-   "state": "in",
-   "status": "0:58 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -2120,27 +2120,27 @@
      "name": "Vancouver Canucks",
      "short": "Canucks",
      "score": "1",
-     "winner": null,
-     "record": "3-15-1",
+     "winner": false,
+     "record": "3-16-1",
      "ml_open": null,
      "ml": null,
      "tid": "22",
      "abbr": "VAN",
-     "home_rec": "1-7-0",
+     "home_rec": "1-8-0",
      "road_rec": "2-8-1"
     },
     "away": {
      "name": "Philadelphia Flyers",
      "short": "Flyers",
-     "score": "2",
-     "winner": null,
-     "record": "4-10-5",
+     "score": "3",
+     "winner": true,
+     "record": "5-10-5",
      "ml_open": null,
      "ml": null,
      "tid": "15",
      "abbr": "PHI",
      "home_rec": "3-4-3",
-     "road_rec": "1-6-2"
+     "road_rec": "2-6-2"
     }
    }
   },
@@ -2150,7 +2150,7 @@
    "name": "New York Islanders at San Jose Sharks",
    "start": "2026-11-10T03:00Z",
    "state": "in",
-   "status": "12:59 - 3rd",
+   "status": "9:30 - 3rd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -2752,8 +2752,8 @@
  "weather": [],
  "moves": [],
  "stats": {
-  "updated": "2026-11-10 05:08 UTC",
-  "graded_legs": 1989,
+  "updated": "2026-11-10 05:21 UTC",
+  "graded_legs": 1994,
   "calibration": {
    "85-90%": {
     "n": 902,
@@ -2762,14 +2762,14 @@
     "hit": 0.864
    },
    "75-80%": {
-    "n": 158,
-    "wins": 128,
+    "n": 160,
+    "wins": 130,
     "pred": 0.784,
-    "hit": 0.81
+    "hit": 0.812
    },
    "80-85%": {
-    "n": 359,
-    "wins": 303,
+    "n": 360,
+    "wins": 304,
     "pred": 0.825,
     "hit": 0.844
    },
@@ -2810,16 +2810,16 @@
     "hit": 0.375
    },
    "25-30%": {
-    "n": 108,
+    "n": 109,
     "wins": 28,
     "pred": 0.274,
-    "hit": 0.259
+    "hit": 0.257
    },
    "60-65%": {
-    "n": 22,
+    "n": 23,
     "wins": 10,
-    "pred": 0.627,
-    "hit": 0.455
+    "pred": 0.625,
+    "hit": 0.435
    },
    "30-35%": {
     "n": 53,
@@ -2872,10 +2872,10 @@
     "hit": 0.776
    },
    "nhl": {
-    "n": 354,
-    "wins": 225,
+    "n": 359,
+    "wins": 228,
     "pred": 0.671,
-    "hit": 0.636
+    "hit": 0.635
    },
    "mlb": {
     "n": 10,
@@ -2922,15 +2922,15 @@
   },
   "by_market": {
    "total": {
-    "n": 918,
-    "wins": 743,
+    "n": 920,
+    "wins": 744,
     "pred": 0.822,
     "hit": 0.809
    },
    "spread": {
-    "n": 829,
-    "wins": 616,
-    "pred": 0.749,
+    "n": 832,
+    "wins": 618,
+    "pred": 0.748,
     "hit": 0.743
    },
    "dc": {
@@ -2965,10 +2965,10 @@
    }
   },
   "parlays": {
-   "graded": 606,
+   "graded": 608,
    "won": 107,
-   "expected": 120.12,
-   "pending": 15,
+   "expected": 120.35,
+   "pending": 13,
    "by_type": {
     "ladder": {
      "graded": 366,
@@ -2976,14 +2976,14 @@
      "expected": 97.96
     },
     "best": {
-     "graded": 15,
+     "graded": 16,
      "won": 3,
-     "expected": 3.04
+     "expected": 3.24
     },
     "lottery": {
-     "graded": 225,
+     "graded": 226,
      "won": 18,
-     "expected": 19.02
+     "expected": 19.06
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -2998,9 +2998,9 @@
  },
  "favorites_record": {
   "won": 29,
-  "lost": 37,
-  "pending": 2,
-  "win_pct": 0.439,
+  "lost": 38,
+  "pending": 1,
+  "win_pct": 0.433,
   "by_legs": {
    "2": {
     "won": 11,
@@ -3016,9 +3016,9 @@
    },
    "4": {
     "won": 7,
-    "lost": 12,
-    "pending": 1,
-    "win_pct": 0.368
+    "lost": 13,
+    "pending": 0,
+    "win_pct": 0.35
    },
    "5": {
     "won": 3,
@@ -3047,7 +3047,7 @@
     "n": 4,
     "est_prob": 0.1977,
     "fd_payout_x": 4.59,
-    "result": null,
+    "result": "loss",
     "source": "logged",
     "legs": [
      {
@@ -3072,7 +3072,7 @@
       "pick": "Over 5.5",
       "game": "Philadelphia Flyers at Vancouver Canucks",
       "odds": -160,
-      "result": null
+      "result": "loss"
      }
     ]
    },
@@ -5320,43 +5320,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 12 legs.",
  "model_check": {
   "v1": {
-   "n": 5826,
+   "n": 5838,
    "brier": 0.1523,
-   "logloss": 0.4811,
+   "logloss": 0.4812,
    "picks": 1478,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.11,
-   "top_picks_graded": 1463,
-   "top_picks_won": 1231,
-   "top_picks_expected": 1222.77,
-   "top_win_rate": 0.8414217361585783
+   "top_picks_graded": 1466,
+   "top_picks_won": 1233,
+   "top_picks_expected": 1224.92,
+   "top_win_rate": 0.8410641200545702
   },
   "v2": {
-   "n": 5826,
+   "n": 5838,
    "brier": 0.1517,
-   "logloss": 0.4802,
+   "logloss": 0.4803,
    "picks": 551,
    "avg_clv_fd_pts": 0.33,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 548,
-   "top_picks_won": 478,
-   "top_picks_expected": 483.67,
-   "top_win_rate": 0.8722627737226277
+   "top_picks_graded": 549,
+   "top_picks_won": 479,
+   "top_picks_expected": 484.53,
+   "top_win_rate": 0.8724954462659381
   },
-  "graded": 5826,
+  "graded": 5838,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 5826,
-    "v2": 5826,
+    "v1": 5838,
+    "v2": 5838,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4811,
-    "v2": 0.4802,
+    "v1": 0.4812,
+    "v2": 0.4803,
     "pass": true
    },
    {
@@ -5373,14 +5373,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1463,
-    "v2": 548,
+    "v1": 1466,
+    "v2": 549,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1231/1463",
-    "v2": "478/548",
+    "v1": "1233/1466",
+    "v2": "479/549",
     "pass": true
    }
   ],
