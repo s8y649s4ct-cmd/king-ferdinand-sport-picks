@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 05:21 UTC",
+ "updated": "2026-11-10 05:24 UTC",
  "date": "2026-11-09",
  "ladder_stats": {
   "tickets": 12,
@@ -2009,8 +2009,8 @@
    "sport": "nba",
    "name": "New Orleans Pelicans at Golden State Warriors",
    "start": "2026-11-10T03:00Z",
-   "state": "in",
-   "status": "35.8 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Chase Center",
    "indoor": true,
    "city": {
@@ -2026,27 +2026,27 @@
      "name": "Golden State Warriors",
      "short": "Warriors",
      "score": "138",
-     "winner": null,
-     "record": "7-3",
+     "winner": true,
+     "record": "8-3",
      "ml_open": null,
      "ml": null,
      "tid": "9",
      "abbr": "GS",
-     "home_rec": "5-1",
+     "home_rec": "6-1",
      "road_rec": "2-2"
     },
     "away": {
      "name": "New Orleans Pelicans",
      "short": "Pelicans",
      "score": "87",
-     "winner": null,
-     "record": "4-6",
+     "winner": false,
+     "record": "4-7",
      "ml_open": null,
      "ml": null,
      "tid": "3",
      "abbr": "NO",
      "home_rec": "3-3",
-     "road_rec": "1-3"
+     "road_rec": "1-4"
     }
    }
   },
@@ -2150,7 +2150,7 @@
    "name": "New York Islanders at San Jose Sharks",
    "start": "2026-11-10T03:00Z",
    "state": "in",
-   "status": "9:30 - 3rd",
+   "status": "9:07 - 3rd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -2752,12 +2752,12 @@
  "weather": [],
  "moves": [],
  "stats": {
-  "updated": "2026-11-10 05:21 UTC",
-  "graded_legs": 1994,
+  "updated": "2026-11-10 05:24 UTC",
+  "graded_legs": 2002,
   "calibration": {
    "85-90%": {
-    "n": 902,
-    "wins": 779,
+    "n": 904,
+    "wins": 781,
     "pred": 0.873,
     "hit": 0.864
    },
@@ -2780,10 +2780,10 @@
     "hit": 0.583
    },
    "90-95%": {
-    "n": 62,
-    "wins": 49,
-    "pred": 0.933,
-    "hit": 0.79
+    "n": 63,
+    "wins": 50,
+    "pred": 0.932,
+    "hit": 0.794
    },
    "95-100%": {
     "n": 55,
@@ -2792,10 +2792,10 @@
     "hit": 0.945
    },
    "70-75%": {
-    "n": 60,
-    "wins": 50,
+    "n": 61,
+    "wins": 51,
     "pred": 0.73,
-    "hit": 0.833
+    "hit": 0.836
    },
    "40-45%": {
     "n": 43,
@@ -2804,16 +2804,16 @@
     "hit": 0.349
    },
    "45-50%": {
-    "n": 16,
-    "wins": 6,
+    "n": 17,
+    "wins": 7,
     "pred": 0.475,
-    "hit": 0.375
+    "hit": 0.412
    },
    "25-30%": {
-    "n": 109,
+    "n": 110,
     "wins": 28,
     "pred": 0.274,
-    "hit": 0.257
+    "hit": 0.255
    },
    "60-65%": {
     "n": 23,
@@ -2822,16 +2822,16 @@
     "hit": 0.435
    },
    "30-35%": {
-    "n": 53,
-    "wins": 17,
+    "n": 54,
+    "wins": 18,
     "pred": 0.325,
-    "hit": 0.321
+    "hit": 0.333
    },
    "20-25%": {
-    "n": 58,
+    "n": 59,
     "wins": 12,
     "pred": 0.236,
-    "hit": 0.207
+    "hit": 0.203
    },
    "35-40%": {
     "n": 44,
@@ -2866,9 +2866,9 @@
     "hit": 0.805
    },
    "nba": {
-    "n": 714,
-    "wins": 554,
-    "pred": 0.8,
+    "n": 722,
+    "wins": 560,
+    "pred": 0.797,
     "hit": 0.776
    },
    "nhl": {
@@ -2922,16 +2922,16 @@
   },
   "by_market": {
    "total": {
-    "n": 920,
-    "wins": 744,
+    "n": 921,
+    "wins": 745,
     "pred": 0.822,
     "hit": 0.809
    },
    "spread": {
-    "n": 832,
-    "wins": 618,
+    "n": 837,
+    "wins": 623,
     "pred": 0.748,
-    "hit": 0.743
+    "hit": 0.744
    },
    "dc": {
     "n": 71,
@@ -2958,22 +2958,22 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 71,
+    "n": 73,
     "wins": 17,
-    "pred": 0.284,
-    "hit": 0.239
+    "pred": 0.283,
+    "hit": 0.233
    }
   },
   "parlays": {
-   "graded": 608,
-   "won": 107,
-   "expected": 120.35,
-   "pending": 13,
+   "graded": 610,
+   "won": 109,
+   "expected": 121.44,
+   "pending": 11,
    "by_type": {
     "ladder": {
-     "graded": 366,
-     "won": 86,
-     "expected": 97.96
+     "graded": 368,
+     "won": 88,
+     "expected": 99.04
     },
     "best": {
      "graded": 16,
@@ -2997,16 +2997,16 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "favorites_record": {
-  "won": 29,
+  "won": 30,
   "lost": 38,
-  "pending": 1,
-  "win_pct": 0.433,
+  "pending": 0,
+  "win_pct": 0.441,
   "by_legs": {
    "2": {
-    "won": 11,
+    "won": 12,
     "lost": 5,
-    "pending": 1,
-    "win_pct": 0.688
+    "pending": 0,
+    "win_pct": 0.706
    },
    "3": {
     "won": 8,
@@ -3054,7 +3054,7 @@
       "pick": "Under 240.5",
       "game": "New Orleans Pelicans at Golden State Warriors",
       "odds": -295,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "San Antonio Spurs -1.5",
@@ -3149,14 +3149,14 @@
     "n": 2,
     "est_prob": 0.79191,
     "fd_payout_x": 1.23,
-    "result": null,
+    "result": "win",
     "source": "logged",
     "legs": [
      {
       "pick": "Golden State Warriors +3.5",
       "game": "New Orleans Pelicans at Golden State Warriors",
       "odds": -900,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Houston Rockets +11.5",
@@ -5320,43 +5320,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 12 legs.",
  "model_check": {
   "v1": {
-   "n": 5838,
-   "brier": 0.1523,
-   "logloss": 0.4812,
+   "n": 5859,
+   "brier": 0.1525,
+   "logloss": 0.4817,
    "picks": 1478,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.11,
-   "top_picks_graded": 1466,
-   "top_picks_won": 1233,
-   "top_picks_expected": 1224.92,
-   "top_win_rate": 0.8410641200545702
+   "top_picks_graded": 1470,
+   "top_picks_won": 1237,
+   "top_picks_expected": 1228.5,
+   "top_win_rate": 0.8414965986394558
   },
   "v2": {
-   "n": 5838,
-   "brier": 0.1517,
-   "logloss": 0.4803,
+   "n": 5859,
+   "brier": 0.152,
+   "logloss": 0.4812,
    "picks": 551,
    "avg_clv_fd_pts": 0.33,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 549,
+   "top_picks_graded": 550,
    "top_picks_won": 479,
-   "top_picks_expected": 484.53,
-   "top_win_rate": 0.8724954462659381
+   "top_picks_expected": 485.45,
+   "top_win_rate": 0.8709090909090909
   },
-  "graded": 5838,
+  "graded": 5859,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 5838,
-    "v2": 5838,
+    "v1": 5859,
+    "v2": 5859,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4812,
-    "v2": 0.4803,
+    "v1": 0.4817,
+    "v2": 0.4812,
     "pass": true
    },
    {
@@ -5373,14 +5373,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1466,
-    "v2": 549,
+    "v1": 1470,
+    "v2": 550,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1233/1466",
-    "v2": "479/549",
+    "v1": "1237/1470",
+    "v2": "479/550",
     "pass": true
    }
   ],
