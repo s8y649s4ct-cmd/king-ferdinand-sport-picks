@@ -113889,11 +113889,11 @@
     "raw_prob": 0.6002,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -160
+    "close_odds": -168
    }
   ],
   "logged": "2026-11-10 01:47 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -114187,7 +114187,7 @@
     "raw_prob": 0.8,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -750
+    "close_odds": -800
    },
    {
     "id": "401892682:7745689:742.196706524",
@@ -114438,7 +114438,7 @@
     "raw_prob": 0.7913,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-10 00:07 UTC",
@@ -114563,7 +114563,7 @@
     "raw_prob": 0.7881,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -550
    },
    {
     "id": "401892682:8359782:742.196706510",
@@ -114892,7 +114892,7 @@
     "raw_prob": 0.8,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -750
+    "close_odds": -800
    },
    {
     "id": "401892682:7745689:742.196706524",
@@ -115096,7 +115096,7 @@
     "raw_prob": 0.7913,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-10 00:07 UTC",
@@ -115284,7 +115284,7 @@
     "raw_prob": 0.7881,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -550
    },
    {
     "id": "401892682:8359782:742.196706510",
@@ -115314,8 +115314,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.03606413475999999,
-  "fd_payout_x": 28.6,
+  "est_prob": 0.037636816000000003,
+  "fd_payout_x": 30.61,
   "legs_detail": [
    {
     "id": "401892682:7745684:742.196706524",
@@ -115334,6 +115334,22 @@
     "close_odds": 280
    },
    {
+    "id": "401892681:7735598:742.196706698",
+    "event": "401892681",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -2.5,
+    "pick": "Philadelphia Flyers -2.5",
+    "market": "Alternate Puck Line",
+    "odds": 280,
+    "prob": 0.28,
+    "raw_prob": 0.28,
+    "game": "Philadelphia Flyers at Vancouver Canucks",
+    "result": null,
+    "close_odds": 280
+   },
+   {
     "id": "401909959:7889052:742.196699789",
     "event": "401909959",
     "sport": "nba",
@@ -115348,27 +115364,72 @@
     "game": "New Orleans Pelicans at Golden State Warriors",
     "result": null,
     "close_odds": 112
-   },
-   {
-    "id": "401909958:64155911:742.196678095",
-    "event": "401909958",
-    "sport": "nba",
-    "kind": "prop",
-    "line": 7.5,
-    "ou": "over",
-    "player": "Stephon Castle",
-    "stat": "ASS",
-    "pick": "Stephon Castle",
-    "market": "8+ Assists",
-    "odds": 255,
-    "prob": 0.2683,
-    "raw_prob": 0.2683,
-    "game": "San Antonio Spurs at Phoenix Suns",
-    "result": null,
-    "close_odds": 255
    }
   ],
-  "logged": "2026-11-10 01:47 UTC",
+  "logged": "2026-11-10 02:00 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-09-lottery-3-leg best-chance lottery",
+  "date": "2026-11-09",
+  "type": "lottery",
+  "label": "3-leg best-chance lottery",
+  "n": 3,
+  "est_prob": 0.5695129011,
+  "fd_payout_x": 1.76,
+  "legs_detail": [
+   {
+    "id": "401909959:7888964:742.196699789",
+    "event": "401909959",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 3.5,
+    "pick": "Golden State Warriors +3.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.8931,
+    "raw_prob": 0.8931,
+    "game": "New Orleans Pelicans at Golden State Warriors",
+    "result": null,
+    "close_odds": -900
+   },
+   {
+    "id": "401892682:7745647:742.196706524",
+    "event": "401892682",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "New York Islanders +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -370,
+    "prob": 0.7975,
+    "raw_prob": 0.7975,
+    "game": "New York Islanders at San Jose Sharks",
+    "result": null,
+    "close_odds": -370
+   },
+   {
+    "id": "401892681:7000415:742.196706698",
+    "event": "401892681",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Philadelphia Flyers +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -400,
+    "prob": 0.7996,
+    "raw_prob": 0.7996,
+    "game": "Philadelphia Flyers at Vancouver Canucks",
+    "result": null,
+    "close_odds": -400
+   }
+  ],
+  "logged": "2026-11-10 02:00 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115412,7 +115473,7 @@
     "raw_prob": 0.2834,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": 270
+    "close_odds": 280
    },
    {
     "id": "401909958:64155911:742.196678095",
@@ -115450,7 +115511,7 @@
    }
   ],
   "logged": "2026-11-10 01:47 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -115525,11 +115586,11 @@
     "raw_prob": 0.7956,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-10 01:47 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -115556,7 +115617,7 @@
     "raw_prob": 0.2737,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": 270
+    "close_odds": 280
    },
    {
     "id": "401892682:7745684:742.196706524",
@@ -115657,7 +115718,7 @@
     "raw_prob": 0.2737,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": 270
+    "close_odds": 280
    },
    {
     "id": "401873051:12246875:742.195450832",
@@ -115818,7 +115879,7 @@
     "raw_prob": 0.789,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-10 01:22 UTC",
@@ -115929,7 +115990,7 @@
     "raw_prob": 0.789,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-10 01:14 UTC",
@@ -115960,7 +116021,7 @@
     "raw_prob": 0.2768,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": 270
+    "close_odds": 280
    },
    {
     "id": "401892682:7745684:742.196706524",
@@ -116205,7 +116266,7 @@
     "raw_prob": 0.7913,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-10 00:59 UTC",
@@ -116236,7 +116297,7 @@
     "raw_prob": 0.2768,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": 270
+    "close_odds": 280
    },
    {
     "id": "401892682:7745684:742.196706524",
@@ -116531,7 +116592,7 @@
     "raw_prob": 0.7913,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-10 00:28 UTC",
@@ -116706,7 +116767,7 @@
     "raw_prob": 0.7913,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-09 21:45 UTC",
@@ -116737,7 +116798,7 @@
     "raw_prob": 0.2768,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": 270
+    "close_odds": 280
    },
    {
     "id": "401892682:7745684:742.196706524",
@@ -117102,7 +117163,7 @@
     "raw_prob": 0.7913,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-09 23:00 UTC",
@@ -117309,7 +117370,7 @@
     "raw_prob": 0.7913,
     "game": "Philadelphia Flyers at Vancouver Canucks",
     "result": null,
-    "close_odds": -380
+    "close_odds": -400
    }
   ],
   "logged": "2026-11-09 23:53 UTC",
