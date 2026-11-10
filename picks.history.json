@@ -117431,7 +117431,7 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2241,
+  "est_prob": 0.2253,
   "fd_payout_x": 4.29,
   "legs_detail": [
    {
@@ -117483,6 +117483,22 @@
     "close_odds": -290
    },
    {
+    "id": "401909962:7901306:742.196854047",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 10.5,
+    "pick": "Los Angeles Clippers +10.5",
+    "market": "Alternate Spread",
+    "odds": -290,
+    "prob": 0.7345,
+    "raw_prob": 0.7345,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -290
+   },
+   {
     "id": "401909960:7889795:742.196868066",
     "event": "401909960",
     "sport": "nba",
@@ -117497,25 +117513,9 @@
     "game": "Milwaukee Bucks at New York Knicks",
     "result": null,
     "close_odds": -300
-   },
-   {
-    "id": "401909963:7711399:742.196868147",
-    "event": "401909963",
-    "sport": "nba",
-    "kind": "total",
-    "line": 239.5,
-    "ou": "under",
-    "pick": "Under 239.5",
-    "market": "Alternate Total Points",
-    "odds": -290,
-    "prob": 0.7307,
-    "raw_prob": 0.7307,
-    "game": "Miami Heat at Utah Jazz",
-    "result": null,
-    "close_odds": -290
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -117526,9 +117526,40 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.8875,
-  "est_raw": 0.8875,
-  "fd_payout_x": 1.11,
+  "est_prob": 0.8896,
+  "est_raw": 0.8896,
+  "fd_payout_x": 1.1,
+  "legs_detail": [
+   {
+    "id": "401909962:7884538:742.196854047",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 18.5,
+    "pick": "Los Angeles Clippers +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8896,
+    "raw_prob": 0.8896,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -1000
+   }
+  ],
+  "logged": "2026-11-10 08:06 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-10-2",
+  "date": "2026-11-10",
+  "type": "ladder",
+  "n": 2,
+  "est_prob": 0.78659,
+  "est_raw": 0.78659,
+  "fd_payout_x": 1.22,
   "legs_detail": [
    {
     "id": "401909961:7927527:742.196851064",
@@ -117545,22 +117576,7 @@
     "game": "Boston Celtics at Philadelphia 76ers",
     "result": null,
     "close_odds": -950
-   }
-  ],
-  "logged": "2026-11-10 08:01 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-10-2",
-  "date": "2026-11-10",
-  "type": "ladder",
-  "n": 2,
-  "est_prob": 0.78544,
-  "est_raw": 0.78544,
-  "fd_payout_x": 1.22,
-  "legs_detail": [
+   },
    {
     "id": "401909963:7883750:742.196868181",
     "event": "401909963",
@@ -117576,7 +117592,23 @@
     "game": "Miami Heat at Utah Jazz",
     "result": null,
     "close_odds": -950
-   },
+   }
+  ],
+  "logged": "2026-11-10 08:06 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": true,
+  "favorite_source": "logged"
+ },
+ {
+  "id": "2026-11-10-3",
+  "date": "2026-11-10",
+  "type": "ladder",
+  "n": 3,
+  "est_prob": 0.68253,
+  "est_raw": 0.68253,
+  "fd_payout_x": 1.35,
+  "legs_detail": [
    {
     "id": "401909965:7913887:742.196868400",
     "event": "401909965",
@@ -117590,38 +117622,6 @@
     "prob": 0.8862,
     "raw_prob": 0.8862,
     "game": "Oklahoma City Thunder at Portland Trail Blazers",
-    "result": null,
-    "close_odds": -950
-   }
-  ],
-  "logged": "2026-11-10 08:01 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
- },
- {
-  "id": "2026-11-10-3",
-  "date": "2026-11-10",
-  "type": "ladder",
-  "n": 3,
-  "est_prob": 0.68123,
-  "est_raw": 0.68123,
-  "fd_payout_x": 1.35,
-  "legs_detail": [
-   {
-    "id": "401909962:7884538:742.196854047",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 18.5,
-    "pick": "Los Angeles Clippers +18.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8845,
-    "raw_prob": 0.8845,
-    "game": "LA Clippers at Phoenix Suns",
     "result": null,
     "close_odds": -950
    },
@@ -117658,7 +117658,7 @@
     "close_odds": -900
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -117669,25 +117669,25 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.56751,
-  "est_raw": 0.56751,
-  "fd_payout_x": 1.51,
+  "est_prob": 0.56576,
+  "est_raw": 0.56576,
+  "fd_payout_x": 1.5,
   "legs_detail": [
    {
-    "id": "401909962:7747570:742.196854027",
-    "event": "401909962",
+    "id": "401909963:7755153:742.196868147",
+    "event": "401909963",
     "sport": "nba",
     "kind": "total",
-    "line": 246.5,
+    "line": 249.5,
     "ou": "under",
-    "pick": "Under 246.5",
+    "pick": "Under 249.5",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8776,
-    "raw_prob": 0.8776,
-    "game": "LA Clippers at Phoenix Suns",
+    "odds": -1000,
+    "prob": 0.8749,
+    "raw_prob": 0.8749,
+    "game": "Miami Heat at Utah Jazz",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401866460:12194333:742.196709043",
@@ -117738,36 +117738,35 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
+  "favorite": false
  },
  {
   "id": "2026-11-10-5",
   "date": "2026-11-10",
   "type": "ladder",
   "n": 5,
-  "est_prob": 0.50386,
-  "est_raw": 0.50386,
-  "fd_payout_x": 1.7,
+  "est_prob": 0.50381,
+  "est_raw": 0.50381,
+  "fd_payout_x": 1.73,
   "legs_detail": [
    {
-    "id": "401909963:7755153:742.196868147",
-    "event": "401909963",
+    "id": "401909962:7913428:742.196854047",
+    "event": "401909962",
     "sport": "nba",
-    "kind": "total",
-    "line": 249.5,
-    "ou": "under",
-    "pick": "Under 249.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8749,
-    "raw_prob": 0.8749,
-    "game": "Miami Heat at Utah Jazz",
+    "kind": "spread",
+    "side": "away",
+    "line": 17.5,
+    "pick": "Los Angeles Clippers +17.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8748,
+    "raw_prob": 0.8748,
+    "game": "LA Clippers at Phoenix Suns",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -850
    },
    {
     "id": "401909965:7890440:742.196868400",
@@ -117834,10 +117833,11 @@
     "close_odds": -900
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
-  "favorite": false
+  "favorite": true,
+  "favorite_source": "logged"
  },
  {
   "id": "2026-11-10-6",
@@ -117942,7 +117942,7 @@
     "close_odds": -250
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -117952,9 +117952,9 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.16025,
-  "est_raw": 0.16025,
-  "fd_payout_x": 4.18,
+  "est_prob": 0.16064,
+  "est_raw": 0.16064,
+  "fd_payout_x": 4.13,
   "legs_detail": [
    {
     "id": "401909963:7883717:742.196868181",
@@ -117989,6 +117989,22 @@
     "close_odds": -950
    },
    {
+    "id": "401909962:7747570:742.196854027",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "total",
+    "line": 246.5,
+    "ou": "under",
+    "pick": "Under 246.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8703,
+    "raw_prob": 0.8703,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -900
+   },
+   {
     "id": "401909965:7733081:742.196868386",
     "event": "401909965",
     "sport": "nba",
@@ -118003,22 +118019,6 @@
     "game": "Oklahoma City Thunder at Portland Trail Blazers",
     "result": null,
     "close_odds": -900
-   },
-   {
-    "id": "401909962:7913428:742.196854047",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 17.5,
-    "pick": "Los Angeles Clippers +17.5",
-    "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.8682,
-    "raw_prob": 0.8682,
-    "game": "LA Clippers at Phoenix Suns",
-    "result": null,
-    "close_odds": -800
    },
    {
     "id": "401909964:7733196:742.196868264",
@@ -118068,7 +118068,7 @@
     "close_odds": -225
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -118078,26 +118078,10 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 8,
-  "est_prob": 0.12581,
-  "est_raw": 0.12581,
+  "est_prob": 0.12519,
+  "est_raw": 0.12519,
   "fd_payout_x": 4.01,
   "legs_detail": [
-   {
-    "id": "401909962:7700492:742.196854027",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "total",
-    "line": 245.5,
-    "ou": "under",
-    "pick": "Under 245.5",
-    "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8672,
-    "raw_prob": 0.8672,
-    "game": "LA Clippers at Phoenix Suns",
-    "result": null,
-    "close_odds": -850
-   },
    {
     "id": "401909965:7711048:742.196868386",
     "event": "401909965",
@@ -118129,6 +118113,22 @@
     "game": "Ohio Bobcats at Miami (OH) RedHawks",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909964:7760688:742.196868264",
+    "event": "401909964",
+    "sport": "nba",
+    "kind": "total",
+    "line": 242.5,
+    "ou": "under",
+    "pick": "Under 242.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8629,
+    "raw_prob": 0.8629,
+    "game": "Orlando Magic at Sacramento Kings",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401909960:7889688:742.196868066",
@@ -118211,7 +118211,7 @@
     "close_odds": -235
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -118221,10 +118221,26 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.07987,
-  "est_raw": 0.07987,
-  "fd_payout_x": 8.91,
+  "est_prob": 0.08234,
+  "est_raw": 0.08234,
+  "fd_payout_x": 8.77,
   "legs_detail": [
+   {
+    "id": "401909962:7884538:742.196854047",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 18.5,
+    "pick": "Los Angeles Clippers +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8896,
+    "raw_prob": 0.8896,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "401909961:7927527:742.196851064",
     "event": "401909961",
@@ -118256,22 +118272,6 @@
     "game": "Miami Heat at Utah Jazz",
     "result": null,
     "close_odds": -950
-   },
-   {
-    "id": "401909964:7760688:742.196868264",
-    "event": "401909964",
-    "sport": "nba",
-    "kind": "total",
-    "line": 242.5,
-    "ou": "under",
-    "pick": "Under 242.5",
-    "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8629,
-    "raw_prob": 0.8629,
-    "game": "Orlando Magic at Sacramento Kings",
-    "result": null,
-    "close_odds": -850
    },
    {
     "id": "401909960:7707476:742.196868056",
@@ -118367,7 +118367,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -118377,9 +118377,9 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 10,
-  "est_prob": 0.04296,
-  "est_raw": 0.04296,
-  "fd_payout_x": 9.66,
+  "est_prob": 0.04336,
+  "est_raw": 0.04336,
+  "fd_payout_x": 9.61,
   "legs_detail": [
    {
     "id": "401909965:7913887:742.196868400",
@@ -118414,20 +118414,20 @@
     "close_odds": -1000
    },
    {
-    "id": "401909962:7707157:742.196854027",
-    "event": "401909962",
+    "id": "401909963:7755153:742.196868147",
+    "event": "401909963",
     "sport": "nba",
     "kind": "total",
-    "line": 205.5,
-    "ou": "over",
-    "pick": "Over 205.5",
+    "line": 249.5,
+    "ou": "under",
+    "pick": "Under 249.5",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8669,
-    "raw_prob": 0.8669,
-    "game": "LA Clippers at Phoenix Suns",
+    "odds": -1000,
+    "prob": 0.8749,
+    "raw_prob": 0.8749,
+    "game": "Miami Heat at Utah Jazz",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909964:7883272:742.196868269",
@@ -118541,7 +118541,7 @@
     "close_odds": -235
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -118553,23 +118553,23 @@
   "n": 11,
   "est_prob": 0.01126,
   "est_raw": 0.01126,
-  "fd_payout_x": 29.3,
+  "fd_payout_x": 29.77,
   "legs_detail": [
    {
-    "id": "401909963:7755153:742.196868147",
-    "event": "401909963",
+    "id": "401909962:7913428:742.196854047",
+    "event": "401909962",
     "sport": "nba",
-    "kind": "total",
-    "line": 249.5,
-    "ou": "under",
-    "pick": "Under 249.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8749,
-    "raw_prob": 0.8749,
-    "game": "Miami Heat at Utah Jazz",
+    "kind": "spread",
+    "side": "away",
+    "line": 17.5,
+    "pick": "Los Angeles Clippers +17.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8748,
+    "raw_prob": 0.8748,
+    "game": "LA Clippers at Phoenix Suns",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -850
    },
    {
     "id": "401909961:7889244:742.196851064",
@@ -118729,7 +118729,7 @@
     "close_odds": -235
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -118739,26 +118739,10 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 12,
-  "est_prob": 0.05346,
-  "est_raw": 0.05346,
-  "fd_payout_x": 12.5,
+  "est_prob": 0.0526,
+  "est_raw": 0.0526,
+  "fd_payout_x": 12.56,
   "legs_detail": [
-   {
-    "id": "401909962:7884538:742.196854047",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 18.5,
-    "pick": "Los Angeles Clippers +18.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8845,
-    "raw_prob": 0.8845,
-    "game": "LA Clippers at Phoenix Suns",
-    "result": null,
-    "close_odds": -950
-   },
    {
     "id": "401909964:7883365:742.196868269",
     "event": "401909964",
@@ -118822,6 +118806,22 @@
     "game": "Boston Celtics at Philadelphia 76ers",
     "result": null,
     "close_odds": -950
+   },
+   {
+    "id": "401909962:7747570:742.196854027",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "total",
+    "line": 246.5,
+    "ou": "under",
+    "pick": "Under 246.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8703,
+    "raw_prob": 0.8703,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -900
    },
    {
     "id": "401866460:12194333:742.196709043",
@@ -118932,7 +118932,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -118942,10 +118942,26 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 13,
-  "est_prob": 0.02899,
-  "est_raw": 0.02899,
-  "fd_payout_x": 12.58,
+  "est_prob": 0.02939,
+  "est_raw": 0.02939,
+  "fd_payout_x": 12.52,
   "legs_detail": [
+   {
+    "id": "401909962:7884538:742.196854047",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 18.5,
+    "pick": "Los Angeles Clippers +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8896,
+    "raw_prob": 0.8896,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "401909961:7927527:742.196851064",
     "event": "401909961",
@@ -118975,22 +118991,6 @@
     "prob": 0.8863,
     "raw_prob": 0.8863,
     "game": "Miami Heat at Utah Jazz",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909962:7747570:742.196854027",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "total",
-    "line": 246.5,
-    "ou": "under",
-    "pick": "Under 246.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8776,
-    "raw_prob": 0.8776,
-    "game": "LA Clippers at Phoenix Suns",
     "result": null,
     "close_odds": -950
    },
@@ -119154,7 +119154,7 @@
     "close_odds": -235
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -119164,25 +119164,25 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 14,
-  "est_prob": 0.00682,
-  "est_raw": 0.00682,
-  "fd_payout_x": 41.33,
+  "est_prob": 0.00687,
+  "est_raw": 0.00687,
+  "fd_payout_x": 40.41,
   "legs_detail": [
    {
-    "id": "401909962:7913428:742.196854047",
-    "event": "401909962",
+    "id": "401909963:7755153:742.196868147",
+    "event": "401909963",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 17.5,
-    "pick": "Los Angeles Clippers +17.5",
-    "market": "Alternate Spread",
-    "odds": -800,
-    "prob": 0.8682,
-    "raw_prob": 0.8682,
-    "game": "LA Clippers at Phoenix Suns",
+    "kind": "total",
+    "line": 249.5,
+    "ou": "under",
+    "pick": "Under 249.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8749,
+    "raw_prob": 0.8749,
+    "game": "Miami Heat at Utah Jazz",
     "result": null,
-    "close_odds": -800
+    "close_odds": -1000
    },
    {
     "id": "401909965:7711048:742.196868386",
@@ -119390,7 +119390,7 @@
     "close_odds": -235
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -119400,9 +119400,9 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 15,
-  "est_prob": 0.00643,
-  "est_raw": 0.00643,
-  "fd_payout_x": 53.08,
+  "est_prob": 0.00649,
+  "est_raw": 0.00649,
+  "fd_payout_x": 53.93,
   "legs_detail": [
    {
     "id": "401909965:7913887:742.196868400",
@@ -119437,20 +119437,36 @@
     "close_odds": -1000
    },
    {
-    "id": "401909963:7755153:742.196868147",
+    "id": "401909962:7913428:742.196854047",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 17.5,
+    "pick": "Los Angeles Clippers +17.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8748,
+    "raw_prob": 0.8748,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -850
+   },
+   {
+    "id": "401909963:7883717:742.196868181",
     "event": "401909963",
     "sport": "nba",
-    "kind": "total",
-    "line": 249.5,
-    "ou": "under",
-    "pick": "Under 249.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8749,
-    "raw_prob": 0.8749,
+    "kind": "spread",
+    "side": "away",
+    "line": 5.5,
+    "pick": "Miami Heat +5.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8743,
+    "raw_prob": 0.8743,
     "game": "Miami Heat at Utah Jazz",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -850
    },
    {
     "id": "401909961:7889244:742.196851064",
@@ -119483,22 +119499,6 @@
     "game": "Western Michigan Broncos at Akron Zips",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909962:7700492:742.196854027",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "total",
-    "line": 245.5,
-    "ou": "under",
-    "pick": "Under 245.5",
-    "market": "Alternate Total Points",
-    "odds": -850,
-    "prob": 0.8672,
-    "raw_prob": 0.8672,
-    "game": "LA Clippers at Phoenix Suns",
-    "result": null,
-    "close_odds": -850
    },
    {
     "id": "401909964:7760688:742.196868264",
@@ -119641,7 +119641,7 @@
     "close_odds": -137
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -119651,25 +119651,25 @@
   "date": "2026-11-10",
   "type": "ladder",
   "n": 16,
-  "est_prob": 0.00531,
-  "est_raw": 0.00531,
-  "fd_payout_x": 53.85,
+  "est_prob": 0.00541,
+  "est_raw": 0.00541,
+  "fd_payout_x": 53.53,
   "legs_detail": [
    {
-    "id": "401909963:7883717:742.196868181",
+    "id": "401909963:7883750:742.196868181",
     "event": "401909963",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 5.5,
-    "pick": "Miami Heat +5.5",
+    "line": 6.5,
+    "pick": "Miami Heat +6.5",
     "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.8743,
-    "raw_prob": 0.8743,
+    "odds": -950,
+    "prob": 0.8863,
+    "raw_prob": 0.8863,
     "game": "Miami Heat at Utah Jazz",
     "result": null,
-    "close_odds": -850
+    "close_odds": -950
    },
    {
     "id": "401909965:7890440:742.196868400",
@@ -119704,20 +119704,20 @@
     "close_odds": -950
    },
    {
-    "id": "401909962:7707157:742.196854027",
+    "id": "401909962:7747570:742.196854027",
     "event": "401909962",
     "sport": "nba",
     "kind": "total",
-    "line": 205.5,
-    "ou": "over",
-    "pick": "Over 205.5",
+    "line": 246.5,
+    "ou": "under",
+    "pick": "Under 246.5",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8669,
-    "raw_prob": 0.8669,
+    "odds": -900,
+    "prob": 0.8703,
+    "raw_prob": 0.8703,
     "game": "LA Clippers at Phoenix Suns",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909960:7711399:742.196868056",
@@ -119908,7 +119908,7 @@
     "close_odds": -235
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -119919,8 +119919,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 5,
-  "est_prob": 0.05384408215201554,
-  "fd_payout_x": 26.5,
+  "est_prob": 0.05404456220515968,
+  "fd_payout_x": 26.38,
   "legs_detail": [
    {
     "id": "401909961:7927527:742.196851064",
@@ -119939,20 +119939,20 @@
     "close_odds": -950
    },
    {
-    "id": "401909963:7883750:742.196868181",
-    "event": "401909963",
+    "id": "401909962:7884538:742.196854047",
+    "event": "401909962",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 6.5,
-    "pick": "Miami Heat +6.5",
+    "line": 18.5,
+    "pick": "Los Angeles Clippers +18.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8863,
-    "raw_prob": 0.8863,
-    "game": "Miami Heat at Utah Jazz",
+    "odds": -1000,
+    "prob": 0.8896,
+    "raw_prob": 0.8896,
+    "game": "LA Clippers at Phoenix Suns",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401892686:25608:742.196757622",
@@ -120003,7 +120003,7 @@
     "close_odds": 180
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120114,7 +120114,7 @@
     "close_odds": 230
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120241,7 +120241,7 @@
     "close_odds": 152
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120252,8 +120252,8 @@
   "type": "lottery",
   "label": "~100x",
   "n": 8,
-  "est_prob": 0.014824445226797154,
-  "fd_payout_x": 106.83,
+  "est_prob": 0.01490992252544799,
+  "fd_payout_x": 106.32,
   "legs_detail": [
    {
     "id": "401892686:25608:742.196757622",
@@ -120336,6 +120336,22 @@
     "close_odds": -950
    },
    {
+    "id": "401909962:7884538:742.196854047",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 18.5,
+    "pick": "Los Angeles Clippers +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8896,
+    "raw_prob": 0.8896,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401892688:25586:742.196757612",
     "event": "401892688",
     "sport": "nhl",
@@ -120350,22 +120366,6 @@
     "game": "New Jersey Devils at Winnipeg Jets",
     "result": null,
     "close_odds": 160
-   },
-   {
-    "id": "401909962:7884538:742.196854047",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 18.5,
-    "pick": "Los Angeles Clippers +18.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8845,
-    "raw_prob": 0.8845,
-    "game": "LA Clippers at Phoenix Suns",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401892689:25613:742.196757637",
@@ -120384,7 +120384,7 @@
     "close_odds": 172
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120394,9 +120394,9 @@
   "date": "2026-11-10",
   "type": "lottery",
   "label": "~10,000x",
-  "n": 11,
-  "est_prob": 0.0002281843874898532,
-  "fd_payout_x": 10507.66,
+  "n": 10,
+  "est_prob": 0.00022997600685361138,
+  "fd_payout_x": 10342.95,
   "legs_detail": [
    {
     "id": "401892686:25608:742.196757622",
@@ -120495,22 +120495,6 @@
     "close_odds": 168
    },
    {
-    "id": "401892683:25602:742.196758342",
-    "event": "401892683",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Colorado Avalanche -1.5",
-    "market": "Puck Line",
-    "odds": 152,
-    "prob": 0.424,
-    "raw_prob": 0.424,
-    "game": "Colorado Avalanche at Toronto Maple Leafs",
-    "result": null,
-    "close_odds": 152
-   },
-   {
     "id": "401866460:49892699:742.196709039",
     "event": "401866460",
     "sport": "college-football",
@@ -120527,55 +120511,55 @@
     "close_odds": 230
    },
    {
-    "id": "401909961:7889215:742.196851064",
+    "id": "401892683:25602:742.196758342",
+    "event": "401892683",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Colorado Avalanche -1.5",
+    "market": "Puck Line",
+    "odds": 152,
+    "prob": 0.424,
+    "raw_prob": 0.424,
+    "game": "Colorado Avalanche at Toronto Maple Leafs",
+    "result": null,
+    "close_odds": 152
+   },
+   {
+    "id": "401909961:7889290:742.196851064",
     "event": "401909961",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 3.5,
-    "pick": "Boston Celtics +3.5",
+    "line": 1.5,
+    "pick": "Boston Celtics +1.5",
     "market": "Alternate Spread",
-    "odds": -170,
-    "prob": 0.6383,
-    "raw_prob": 0.6383,
+    "odds": -134,
+    "prob": 0.5796,
+    "raw_prob": 0.5796,
     "game": "Boston Celtics at Philadelphia 76ers",
     "result": null,
-    "close_odds": -170
+    "close_odds": -134
    },
    {
-    "id": "401909965:7890554:742.196868400",
+    "id": "401909965:7890484:742.196868400",
     "event": "401909965",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 6.5,
-    "pick": "Oklahoma City Thunder +6.5",
+    "line": 3.5,
+    "pick": "Oklahoma City Thunder +3.5",
     "market": "Alternate Spread",
-    "odds": -250,
-    "prob": 0.7205,
-    "raw_prob": 0.7205,
+    "odds": -174,
+    "prob": 0.6396,
+    "raw_prob": 0.6396,
     "game": "Oklahoma City Thunder at Portland Trail Blazers",
     "result": null,
-    "close_odds": -250
-   },
-   {
-    "id": "401909964:7883326:742.196868269",
-    "event": "401909964",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 5.5,
-    "pick": "Orlando Magic +5.5",
-    "market": "Alternate Spread",
-    "odds": -390,
-    "prob": 0.7998,
-    "raw_prob": 0.7998,
-    "game": "Orlando Magic at Sacramento Kings",
-    "result": null,
-    "close_odds": -390
+    "close_odds": -174
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120782,7 +120766,7 @@
     "close_odds": 280
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120792,9 +120776,9 @@
   "date": "2026-11-10",
   "type": "lottery",
   "label": "~1,000,000x",
-  "n": 14,
-  "est_prob": 2.196616372042822e-06,
-  "fd_payout_x": 1010393.89,
+  "n": 12,
+  "est_prob": 1.8176926489586687e-06,
+  "fd_payout_x": 1053331.53,
   "legs_detail": [
    {
     "id": "401892686:25608:742.196757622",
@@ -120861,6 +120845,22 @@
     "close_odds": 172
    },
    {
+    "id": "401866460:49892698:742.196709039",
+    "event": "401866460",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -10.5,
+    "pick": "Ohio (-10.5)",
+    "market": "Alternate Spread",
+    "odds": 300,
+    "prob": 0.2623,
+    "raw_prob": 0.2623,
+    "game": "Ohio Bobcats at Miami (OH) RedHawks",
+    "result": null,
+    "close_odds": 300
+   },
+   {
     "id": "401892688:25586:742.196757612",
     "event": "401892688",
     "sport": "nhl",
@@ -120893,22 +120893,6 @@
     "close_odds": 168
    },
    {
-    "id": "401866460:49892699:742.196709039",
-    "event": "401866460",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -7.5,
-    "pick": "Ohio (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 230,
-    "prob": 0.3229,
-    "raw_prob": 0.3229,
-    "game": "Ohio Bobcats at Miami (OH) RedHawks",
-    "result": null,
-    "close_odds": 230
-   },
-   {
     "id": "401892683:25602:742.196758342",
     "event": "401892683",
     "sport": "nhl",
@@ -120923,21 +120907,6 @@
     "game": "Colorado Avalanche at Toronto Maple Leafs",
     "result": null,
     "close_odds": 152
-   },
-   {
-    "id": "401909962:6023845:742.196584649",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Los Angeles Clippers",
-    "market": "Moneyline",
-    "odds": 148,
-    "prob": 0.4049,
-    "raw_prob": 0.4049,
-    "game": "LA Clippers at Phoenix Suns",
-    "result": null,
-    "close_odds": 148
    },
    {
     "id": "401866458:50104922:742.196708935",
@@ -120956,71 +120925,59 @@
     "close_odds": 280
    },
    {
-    "id": "401866459:49917667:742.196708994",
+    "id": "401866459:49917663:742.196708994",
     "event": "401866459",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -14.5,
-    "pick": "Bowling Green (-14.5)",
+    "line": -15.5,
+    "pick": "Bowling Green (-15.5)",
     "market": "Alternate Spread",
-    "odds": 255,
-    "prob": 0.2759,
-    "raw_prob": 0.2759,
+    "odds": 280,
+    "prob": 0.2562,
+    "raw_prob": 0.2562,
     "game": "Kent State Golden Flashes at Bowling Green Falcons",
     "result": null,
-    "close_odds": 255
+    "close_odds": 280
    },
    {
-    "id": "401909961:7889290:742.196851064",
-    "event": "401909961",
+    "id": "401909962:92431712:742.196867906",
+    "event": "401909962",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Boston Celtics +1.5",
-    "market": "Alternate Spread",
-    "odds": -134,
-    "prob": 0.5796,
-    "raw_prob": 0.5796,
-    "game": "Boston Celtics at Philadelphia 76ers",
+    "kind": "prop",
+    "line": 3.5,
+    "ou": "over",
+    "player": "Keaton Wagler",
+    "stat": "ASS",
+    "pick": "Keaton Wagler",
+    "market": "4+ Assists",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
+    "game": "LA Clippers at Phoenix Suns",
     "result": null,
-    "close_odds": -134
+    "close_odds": 300
    },
    {
-    "id": "401909965:7890484:742.196868400",
+    "id": "401909965:18970806:742.196846644",
     "event": "401909965",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 3.5,
-    "pick": "Oklahoma City Thunder +3.5",
-    "market": "Alternate Spread",
-    "odds": -174,
-    "prob": 0.6396,
-    "raw_prob": 0.6396,
+    "kind": "prop",
+    "line": 7.5,
+    "ou": "over",
+    "player": "Shai Gilgeous-Alexander",
+    "stat": "ASS",
+    "pick": "Shai Gilgeous-Alexander",
+    "market": "8+ Assists",
+    "odds": 300,
+    "prob": 0.2336,
+    "raw_prob": 0.2336,
     "game": "Oklahoma City Thunder at Portland Trail Blazers",
     "result": null,
-    "close_odds": -174
-   },
-   {
-    "id": "401909964:7891215:742.196868269",
-    "event": "401909964",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": -11.5,
-    "pick": "Orlando Magic -11.5",
-    "market": "Alternate Spread",
-    "odds": 192,
-    "prob": 0.3314,
-    "raw_prob": 0.3314,
-    "game": "Orlando Magic at Sacramento Kings",
-    "result": null,
-    "close_odds": 192
+    "close_odds": 300
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -121031,9 +120988,25 @@
   "type": "lottery",
   "label": "16-leg best-chance lottery",
   "n": 16,
-  "est_prob": 0.005975090186495818,
-  "fd_payout_x": 59.47,
+  "est_prob": 0.006009542374117219,
+  "fd_payout_x": 59.18,
   "legs_detail": [
+   {
+    "id": "401909962:7884538:742.196854047",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 18.5,
+    "pick": "Los Angeles Clippers +18.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8896,
+    "raw_prob": 0.8896,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": -1000
+   },
    {
     "id": "401909961:7927527:742.196851064",
     "event": "401909961",
@@ -121079,22 +121052,6 @@
     "prob": 0.8862,
     "raw_prob": 0.8862,
     "game": "Oklahoma City Thunder at Portland Trail Blazers",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909962:7884538:742.196854047",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 18.5,
-    "pick": "Los Angeles Clippers +18.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8845,
-    "raw_prob": 0.8845,
-    "game": "LA Clippers at Phoenix Suns",
     "result": null,
     "close_odds": -950
    },
@@ -121287,7 +121244,7 @@
     "close_odds": -235
    }
   ],
-  "logged": "2026-11-10 08:01 UTC",
+  "logged": "2026-11-10 08:06 UTC",
   "locked": false,
   "result": null,
   "favorite": false
