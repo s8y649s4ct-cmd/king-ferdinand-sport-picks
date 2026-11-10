@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-10 02:46 UTC",
+ "updated": "2026-11-10 03:01 UTC",
  "date": "2026-11-09",
  "ladder_stats": {
   "tickets": 12,
-  "leg_slots": 80,
-  "unique_legs": 32,
+  "leg_slots": 78,
+  "unique_legs": 31,
   "unique_games": 12,
-  "games_available": 2,
+  "games_available": 0,
   "max_leg_reuse": 6,
   "max_game_reuse": 8,
-  "game_cap": 3,
+  "game_cap": 2,
   "disjoint_up_to": 2
  },
  "legs": {
@@ -27,191 +27,20 @@
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36290202, fetched 2026-11-10 02:46 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36290202, fetched 2026-11-10 03:01 UTC",
    "dist_prob": 0.9088,
    "market_prob": 0.8832,
-   "prob": 0.9024,
+   "prob": 0.8832,
    "pre_research": 0.8832,
    "research": [
-    "rest 2.1d vs 1.0d",
-    "opponent on back-to-back (+1.0)",
-    "travel 0 mi since last game",
-    "form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3",
-    "form edge (+0.4)",
-    "home record 5-1",
-    "FanDuel price moved our way -620 -> -1000 (+0.5)"
+    "research: game started or no data"
    ],
-   "research_adj": 0.0192,
-   "raw_prob": 0.9024,
-   "v1_prob": 0.9024,
-   "v2_prob": 0.9075,
-   "v2_src": "Pinnacle: Pinnacle -9 line extrapolated 13.5 pts",
-   "sharp_prob": 0.9075,
-   "sharp_edge": -0.0016,
-   "power_prob": 0.9071,
-   "power_margin_home": 11.4,
-   "v2_injuries": [
-    "Gary Payton II Out (6p/3r/1a, 15 min): -1.0 pts",
-    "Will Richard Out (6p/2r/1a, 20 min): -1.4 pts",
-    "Kristaps Porzingis Out (20p/8r/2a, 30 min): -6.0 pts",
-    "Zion Williamson Out (24p/6r/4a, 31 min): -6.0 pts",
-    "Trendon Watford Out (8p/4r/2a, 17 min): -1.6 pts",
-    "Trey Murphy III Out (15p/4r/2a, 29 min): -4.8 pts",
-    "Yves Missi Out (8p/7r/1a, 23 min): -2.3 pts"
-   ],
-   "why": "FanDuel no-vig 85.8%, line model 90.9% -> est. 90.2% (edge +4.5 pts); research +1.9 pts: rest 2.1d vs 1.0d; opponent on back-to-back (+1.0); travel 0 mi since last game; form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3; form edge (+0.4); home record 5-1; FanDuel price moved our way -620 -> -1000 (+0.5)",
+   "research_adj": 0,
+   "raw_prob": 0.8832,
+   "v1_prob": 0.8832,
    "fd_market_id": "742.196699789",
    "fd_selection_id": "7889023",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7889023",
-   "fd_region": "PA"
-  },
-  "401892682:7745689:742.196706524": {
-   "kind": "spread",
-   "side": "away",
-   "line": 2.5,
-   "id": "401892682:7745689:742.196706524",
-   "event": "401892682",
-   "sport": "nhl",
-   "game": "New York Islanders at San Jose Sharks",
-   "start": "2026-11-10T03:00Z",
-   "market": "Alternate Puck Line",
-   "pick": "New York Islanders +2.5",
-   "odds": -750,
-   "fd_prob": 0.8324,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-10 02:46 UTC",
-   "dist_prob": 0.938,
-   "market_prob": 0.8852,
-   "prob": 0.8,
-   "pre_research": 0.8852,
-   "research": [
-    "rest 2.1d vs 2.1d",
-    "travel 2565 mi since last game",
-    "long trip, short rest (-0.5)",
-    "form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2",
-    "form edge (+0.3)",
-    "away record 3-3-1",
-    "opponent key player: G Kyle Keyser Injured Reserve",
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
-   ],
-   "research_adj": -0.017,
-   "raw_prob": 0.8,
-   "nhl_trim_from": 0.8682,
-   "v1_prob": 0.8,
-   "v2_prob": 0.8571,
-   "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.8555,
-   "sharp_edge": -0.0268,
-   "power_prob": 0.866,
-   "power_margin_home": -0.4,
-   "why": "FanDuel no-vig 83.2%, line model 93.8% -> est. 80.0% (edge -3.2 pts); research -1.7 pts: rest 2.1d vs 2.1d; travel 2565 mi since last game; long trip, short rest (-0.5); form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2; form edge (+0.3); away record 3-3-1; opponent key player: G Kyle Keyser Injured Reserve; low-scoring sport, one goal decides line (-1.5 volatility)",
-   "fd_market_id": "742.196706524",
-   "fd_selection_id": "7745689",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706524&selectionId%5B0%5D=7745689",
-   "fd_region": "PA"
-  },
-  "401909959:7888964:742.196699789": {
-   "kind": "spread",
-   "side": "home",
-   "line": 3.5,
-   "id": "401909959:7888964:742.196699789",
-   "event": "401909959",
-   "sport": "nba",
-   "game": "New Orleans Pelicans at Golden State Warriors",
-   "start": "2026-11-10T03:00Z",
-   "market": "Alternate Spread",
-   "pick": "Golden State Warriors +3.5",
-   "odds": -800,
-   "fd_prob": 0.8386,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36290202, fetched 2026-11-10 02:46 UTC",
-   "dist_prob": 0.8944,
-   "market_prob": 0.8665,
-   "prob": 0.8857,
-   "pre_research": 0.8665,
-   "research": [
-    "rest 2.1d vs 1.0d",
-    "opponent on back-to-back (+1.0)",
-    "travel 0 mi since last game",
-    "form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3",
-    "form edge (+0.4)",
-    "home record 5-1",
-    "FanDuel price moved our way -520 -> -800 (+0.5)"
-   ],
-   "research_adj": 0.0192,
-   "raw_prob": 0.8857,
-   "v1_prob": 0.8857,
-   "v2_prob": 0.8929,
-   "v2_src": "Pinnacle: Pinnacle -9 line extrapolated 12.5 pts",
-   "sharp_prob": 0.8929,
-   "sharp_edge": 0.0041,
-   "power_prob": 0.8925,
-   "power_margin_home": 11.4,
-   "v2_injuries": [
-    "Gary Payton II Out (6p/3r/1a, 15 min): -1.0 pts",
-    "Will Richard Out (6p/2r/1a, 20 min): -1.4 pts",
-    "Kristaps Porzingis Out (20p/8r/2a, 30 min): -6.0 pts",
-    "Zion Williamson Out (24p/6r/4a, 31 min): -6.0 pts",
-    "Trendon Watford Out (8p/4r/2a, 17 min): -1.6 pts",
-    "Trey Murphy III Out (15p/4r/2a, 29 min): -4.8 pts",
-    "Yves Missi Out (8p/7r/1a, 23 min): -2.3 pts"
-   ],
-   "why": "FanDuel no-vig 83.9%, line model 89.4% -> est. 88.6% (edge +4.7 pts); research +1.9 pts: rest 2.1d vs 1.0d; opponent on back-to-back (+1.0); travel 0 mi since last game; form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3; form edge (+0.4); home record 5-1; FanDuel price moved our way -520 -> -800 (+0.5)",
-   "fd_market_id": "742.196699789",
-   "fd_selection_id": "7888964",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7888964",
-   "fd_region": "PA"
-  },
-  "401909959:7888965:742.196699789": {
-   "kind": "spread",
-   "side": "home",
-   "line": 2.5,
-   "id": "401909959:7888965:742.196699789",
-   "event": "401909959",
-   "sport": "nba",
-   "game": "New Orleans Pelicans at Golden State Warriors",
-   "start": "2026-11-10T03:00Z",
-   "market": "Alternate Spread",
-   "pick": "Golden State Warriors +2.5",
-   "odds": -700,
-   "fd_prob": 0.8255,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36290202, fetched 2026-11-10 02:46 UTC",
-   "dist_prob": 0.8783,
-   "market_prob": 0.8519,
-   "prob": 0.8711,
-   "pre_research": 0.8519,
-   "research": [
-    "rest 2.1d vs 1.0d",
-    "opponent on back-to-back (+1.0)",
-    "travel 0 mi since last game",
-    "form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3",
-    "form edge (+0.4)",
-    "home record 5-1",
-    "FanDuel price moved our way -460 -> -700 (+0.5)"
-   ],
-   "research_adj": 0.0192,
-   "raw_prob": 0.8711,
-   "v1_prob": 0.8711,
-   "v2_prob": 0.8767,
-   "v2_src": "Pinnacle: Pinnacle -9 line extrapolated 11.5 pts",
-   "sharp_prob": 0.8768,
-   "sharp_edge": 0.0018,
-   "power_prob": 0.8762,
-   "power_margin_home": 11.4,
-   "v2_injuries": [
-    "Gary Payton II Out (6p/3r/1a, 15 min): -1.0 pts",
-    "Will Richard Out (6p/2r/1a, 20 min): -1.4 pts",
-    "Kristaps Porzingis Out (20p/8r/2a, 30 min): -6.0 pts",
-    "Zion Williamson Out (24p/6r/4a, 31 min): -6.0 pts",
-    "Trendon Watford Out (8p/4r/2a, 17 min): -1.6 pts",
-    "Trey Murphy III Out (15p/4r/2a, 29 min): -4.8 pts",
-    "Yves Missi Out (8p/7r/1a, 23 min): -2.3 pts"
-   ],
-   "why": "FanDuel no-vig 82.5%, line model 87.8% -> est. 87.1% (edge +4.6 pts); research +1.9 pts: rest 2.1d vs 1.0d; opponent on back-to-back (+1.0); travel 0 mi since last game; form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3; form edge (+0.4); home record 5-1; FanDuel price moved our way -460 -> -700 (+0.5)",
-   "fd_market_id": "742.196699789",
-   "fd_selection_id": "7888965",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7888965",
    "fd_region": "PA"
   },
   "401892682:7745647:742.196706524": {
@@ -228,7 +57,7 @@
    "odds": -370,
    "fd_prob": 0.7533,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-10 02:46 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-09 23:53 UTC",
    "dist_prob": 0.8757,
    "market_prob": 0.8145,
    "prob": 0.7975,
@@ -246,51 +75,16 @@
    "research_adj": -0.017,
    "raw_prob": 0.7975,
    "v1_prob": 0.7975,
-   "v2_prob": 0.7687,
+   "v2_prob": 0.7682,
    "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.7693,
-   "sharp_edge": -0.0179,
-   "power_prob": 0.7652,
+   "sharp_prob": 0.7687,
+   "sharp_edge": -0.0185,
+   "power_prob": 0.765,
    "power_margin_home": -0.4,
    "why": "FanDuel no-vig 75.3%, line model 87.6% -> est. 79.8% (edge +4.4 pts); research -1.7 pts: rest 2.1d vs 2.1d; travel 2565 mi since last game; long trip, short rest (-0.5); form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2; form edge (+0.3); away record 3-3-1; opponent key player: G Kyle Keyser Injured Reserve; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.196706524",
    "fd_selection_id": "7745647",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706524&selectionId%5B0%5D=7745647",
-   "fd_region": "PA"
-  },
-  "401892682:8359782:742.196706510": {
-   "kind": "total",
-   "ou": "under",
-   "line": 8.5,
-   "id": "401892682:8359782:742.196706510",
-   "event": "401892682",
-   "sport": "nhl",
-   "game": "New York Islanders at San Jose Sharks",
-   "start": "2026-11-10T03:00Z",
-   "market": "Alternate Total Goals",
-   "pick": "Under 8.5",
-   "odds": -550,
-   "fd_prob": 0.7983,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-10 02:46 UTC",
-   "dist_prob": 0.7977,
-   "market_prob": 0.798,
-   "prob": 0.783,
-   "pre_research": 0.798,
-   "research": [
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
-   ],
-   "research_adj": -0.015,
-   "raw_prob": 0.783,
-   "v1_prob": 0.783,
-   "v2_prob": 0.8498,
-   "v2_src": "Pinnacle: Pinnacle total 7.5 extrapolated",
-   "sharp_prob": 0.8498,
-   "sharp_edge": 0.0037,
-   "why": "FanDuel no-vig 79.8%, line model 79.8% -> est. 78.3% (edge -1.5 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
-   "fd_market_id": "742.196706510",
-   "fd_selection_id": "8359782",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706510&selectionId%5B0%5D=8359782",
    "fd_region": "PA"
   },
   "401909952:7891310:742.196700112": {
@@ -339,6 +133,60 @@
    "fd_market_id": "742.196700112",
    "fd_selection_id": "7891310",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700112&selectionId%5B0%5D=7891310",
+   "fd_region": "PA"
+  },
+  "401909959:7888964:742.196699789": {
+   "kind": "spread",
+   "side": "home",
+   "line": 3.5,
+   "id": "401909959:7888964:742.196699789",
+   "event": "401909959",
+   "sport": "nba",
+   "game": "New Orleans Pelicans at Golden State Warriors",
+   "start": "2026-11-10T03:00Z",
+   "market": "Alternate Spread",
+   "pick": "Golden State Warriors +3.5",
+   "odds": -900,
+   "fd_prob": 0.8491,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36290202, fetched 2026-11-09 23:53 UTC",
+   "dist_prob": 0.9088,
+   "market_prob": 0.8789,
+   "prob": 0.8931,
+   "pre_research": 0.8789,
+   "research": [
+    "rest 2.1d vs 1.0d",
+    "opponent on back-to-back (+1.0)",
+    "travel 0 mi since last game",
+    "form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3",
+    "form edge (+0.4)",
+    "home record 5-1",
+    "DraftKings line -11.5 vs FanDuel -12.5 (-0.5)",
+    "FanDuel price moved our way -520 -> -900 (+0.5)"
+   ],
+   "research_adj": 0.0142,
+   "raw_prob": 0.8931,
+   "v1_prob": 0.8931,
+   "v2_prob": 0.8976,
+   "v2_src": "Pinnacle: Pinnacle -9 line extrapolated 12.5 pts",
+   "sharp_prob": 0.8967,
+   "sharp_edge": -0.0033,
+   "power_prob": 0.9032,
+   "power_margin_home": 12.1,
+   "v2_injuries": [
+    "Gary Payton II Day-To-Day (6p/3r/1a, 15 min): -0.3 pts",
+    "Will Richard Out (6p/2r/1a, 20 min): -1.4 pts",
+    "Gui Santos Day-To-Day (6p/3r/2a, 16 min): -0.4 pts",
+    "Kristaps Porzingis Out (20p/8r/2a, 30 min): -6.0 pts",
+    "Zion Williamson Out (24p/6r/4a, 31 min): -6.0 pts",
+    "Trendon Watford Out (8p/4r/2a, 17 min): -1.6 pts",
+    "Trey Murphy III Out (15p/4r/2a, 29 min): -4.8 pts",
+    "Yves Missi Out (8p/7r/1a, 23 min): -2.3 pts"
+   ],
+   "why": "FanDuel no-vig 84.9%, line model 90.9% -> est. 89.3% (edge +4.4 pts); research +1.4 pts: rest 2.1d vs 1.0d; opponent on back-to-back (+1.0); travel 0 mi since last game; form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3; form edge (+0.4); home record 5-1; DraftKings line -11.5 vs FanDuel -12.5 (-0.5); FanDuel price moved our way -520 -> -900 (+0.5)",
+   "fd_market_id": "742.196699789",
+   "fd_selection_id": "7888964",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7888964",
    "fd_region": "PA"
   },
   "401909957:7891512:742.196700661": {
@@ -723,6 +571,60 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700342&selectionId%5B0%5D=7747570",
    "fd_region": "PA"
   },
+  "401909959:7888965:742.196699789": {
+   "kind": "spread",
+   "side": "home",
+   "line": 2.5,
+   "id": "401909959:7888965:742.196699789",
+   "event": "401909959",
+   "sport": "nba",
+   "game": "New Orleans Pelicans at Golden State Warriors",
+   "start": "2026-11-10T03:00Z",
+   "market": "Alternate Spread",
+   "pick": "Golden State Warriors +2.5",
+   "odds": -750,
+   "fd_prob": 0.8324,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36290202, fetched 2026-11-09 23:53 UTC",
+   "dist_prob": 0.8944,
+   "market_prob": 0.8634,
+   "prob": 0.8776,
+   "pre_research": 0.8634,
+   "research": [
+    "rest 2.1d vs 1.0d",
+    "opponent on back-to-back (+1.0)",
+    "travel 0 mi since last game",
+    "form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3",
+    "form edge (+0.4)",
+    "home record 5-1",
+    "DraftKings line -11.5 vs FanDuel -12.5 (-0.5)",
+    "FanDuel price moved our way -460 -> -750 (+0.5)"
+   ],
+   "research_adj": 0.0142,
+   "raw_prob": 0.8776,
+   "v1_prob": 0.8776,
+   "v2_prob": 0.882,
+   "v2_src": "Pinnacle: Pinnacle -9 line extrapolated 11.5 pts",
+   "sharp_prob": 0.8809,
+   "sharp_edge": -0.0015,
+   "power_prob": 0.8882,
+   "power_margin_home": 12.1,
+   "v2_injuries": [
+    "Gary Payton II Day-To-Day (6p/3r/1a, 15 min): -0.3 pts",
+    "Will Richard Out (6p/2r/1a, 20 min): -1.4 pts",
+    "Gui Santos Day-To-Day (6p/3r/2a, 16 min): -0.4 pts",
+    "Kristaps Porzingis Out (20p/8r/2a, 30 min): -6.0 pts",
+    "Zion Williamson Out (24p/6r/4a, 31 min): -6.0 pts",
+    "Trendon Watford Out (8p/4r/2a, 17 min): -1.6 pts",
+    "Trey Murphy III Out (15p/4r/2a, 29 min): -4.8 pts",
+    "Yves Missi Out (8p/7r/1a, 23 min): -2.3 pts"
+   ],
+   "why": "FanDuel no-vig 83.2%, line model 89.4% -> est. 87.8% (edge +4.5 pts); research +1.4 pts: rest 2.1d vs 1.0d; opponent on back-to-back (+1.0); travel 0 mi since last game; form 7-3 last 10, avg margin +5.0 vs 4-6 last 10, avg margin -0.3; form edge (+0.4); home record 5-1; DraftKings line -11.5 vs FanDuel -12.5 (-0.5); FanDuel price moved our way -460 -> -750 (+0.5)",
+   "fd_market_id": "742.196699789",
+   "fd_selection_id": "7888965",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7888965",
+   "fd_region": "PA"
+  },
   "401892681:7735594:742.196706698": {
    "kind": "spread",
    "side": "away",
@@ -766,6 +668,51 @@
    "fd_market_id": "742.196706698",
    "fd_selection_id": "7735594",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706698&selectionId%5B0%5D=7735594",
+   "fd_region": "PA"
+  },
+  "401892682:7745689:742.196706524": {
+   "kind": "spread",
+   "side": "away",
+   "line": 2.5,
+   "id": "401892682:7745689:742.196706524",
+   "event": "401892682",
+   "sport": "nhl",
+   "game": "New York Islanders at San Jose Sharks",
+   "start": "2026-11-10T03:00Z",
+   "market": "Alternate Puck Line",
+   "pick": "New York Islanders +2.5",
+   "odds": -750,
+   "fd_prob": 0.8324,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-09 23:53 UTC",
+   "dist_prob": 0.938,
+   "market_prob": 0.8852,
+   "prob": 0.8,
+   "pre_research": 0.8852,
+   "research": [
+    "rest 2.1d vs 2.1d",
+    "travel 2565 mi since last game",
+    "long trip, short rest (-0.5)",
+    "form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2",
+    "form edge (+0.3)",
+    "away record 3-3-1",
+    "opponent key player: G Kyle Keyser Injured Reserve",
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.017,
+   "raw_prob": 0.8,
+   "nhl_trim_from": 0.8682,
+   "v1_prob": 0.8,
+   "v2_prob": 0.8575,
+   "v2_src": "Pinnacle: Pinnacle exact line",
+   "sharp_prob": 0.856,
+   "sharp_edge": -0.0264,
+   "power_prob": 0.8659,
+   "power_margin_home": -0.4,
+   "why": "FanDuel no-vig 83.2%, line model 93.8% -> est. 80.0% (edge -3.2 pts); research -1.7 pts: rest 2.1d vs 2.1d; travel 2565 mi since last game; long trip, short rest (-0.5); form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2; form edge (+0.3); away record 3-3-1; opponent key player: G Kyle Keyser Injured Reserve; low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.196706524",
+   "fd_selection_id": "7745689",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706524&selectionId%5B0%5D=7745689",
    "fd_region": "PA"
   },
   "401909958:7890802:742.196700814": {
@@ -1385,6 +1332,41 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706670&selectionId%5B0%5D=8359782",
    "fd_region": "PA"
   },
+  "401892682:8359782:742.196706510": {
+   "kind": "total",
+   "ou": "under",
+   "line": 8.5,
+   "id": "401892682:8359782:742.196706510",
+   "event": "401892682",
+   "sport": "nhl",
+   "game": "New York Islanders at San Jose Sharks",
+   "start": "2026-11-10T03:00Z",
+   "market": "Alternate Total Goals",
+   "pick": "Under 8.5",
+   "odds": -550,
+   "fd_prob": 0.7983,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-09 23:53 UTC",
+   "dist_prob": 0.7977,
+   "market_prob": 0.798,
+   "prob": 0.783,
+   "pre_research": 0.798,
+   "research": [
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.015,
+   "raw_prob": 0.783,
+   "v1_prob": 0.783,
+   "v2_prob": 0.8539,
+   "v2_src": "Pinnacle: Pinnacle total 7.5 extrapolated",
+   "sharp_prob": 0.8539,
+   "sharp_edge": 0.0078,
+   "why": "FanDuel no-vig 79.8%, line model 79.8% -> est. 78.3% (edge -1.5 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.196706510",
+   "fd_selection_id": "8359782",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706510&selectionId%5B0%5D=8359782",
+   "fd_region": "PA"
+  },
   "401909956:7733081:742.196700565": {
    "kind": "total",
    "ou": "under",
@@ -1451,7 +1433,7 @@
    "shared_games": 2,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7888964&marketId%5B1%5D=742.196700661&selectionId%5B1%5D=7891512",
    "favorite": true,
-   "corr_prob": 0.784
+   "corr_prob": 0.79017
   },
   {
    "n": 3,
@@ -1508,7 +1490,7 @@
    "shared_games": 5,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700134&selectionId%5B0%5D=7729382&marketId%5B1%5D=742.196700342&selectionId%5B1%5D=7747570&marketId%5B2%5D=742.196699789&selectionId%5B2%5D=7888965&marketId%5B3%5D=742.196706698&selectionId%5B3%5D=7735594&marketId%5B4%5D=742.196706524&selectionId%5B4%5D=7745689",
    "favorite": false,
-   "corr_prob": 0.43128
+   "corr_prob": 0.43455
   },
   {
    "n": 6,
@@ -1574,7 +1556,7 @@
    "shared_games": 8,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700814&selectionId%5B0%5D=7890800&marketId%5B1%5D=742.196699789&selectionId%5B1%5D=7888964&marketId%5B2%5D=742.196699947&selectionId%5B2%5D=7888839&marketId%5B3%5D=742.195450848&selectionId%5B3%5D=12197194&marketId%5B4%5D=742.196700040&selectionId%5B4%5D=7890369&marketId%5B5%5D=742.196706627&selectionId%5B5%5D=7000407&marketId%5B6%5D=742.196706670&selectionId%5B6%5D=8359782&marketId%5B7%5D=742.196706510&selectionId%5B7%5D=8359782",
    "favorite": false,
-   "corr_prob": 0.26782
+   "corr_prob": 0.27003
   },
   {
    "n": 9,
@@ -1598,7 +1580,7 @@
    "shared_games": 9,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700112&selectionId%5B0%5D=7891310&marketId%5B1%5D=742.196700357&selectionId%5B1%5D=7890665&marketId%5B2%5D=742.196700661&selectionId%5B2%5D=7891512&marketId%5B3%5D=742.196700040&selectionId%5B3%5D=7928987&marketId%5B4%5D=742.196699789&selectionId%5B4%5D=7888965&marketId%5B5%5D=742.196700814&selectionId%5B5%5D=7890802&marketId%5B6%5D=742.196699917&selectionId%5B6%5D=7711076&marketId%5B7%5D=742.196700565&selectionId%5B7%5D=7733081&marketId%5B8%5D=742.196706627&selectionId%5B8%5D=7735512",
    "favorite": false,
-   "corr_prob": 0.2884
+   "corr_prob": 0.29025
   },
   {
    "n": 10,
@@ -1623,7 +1605,7 @@
    "shared_games": 10,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700814&selectionId%5B0%5D=7890800&marketId%5B1%5D=742.196699789&selectionId%5B1%5D=7888964&marketId%5B2%5D=742.196700134&selectionId%5B2%5D=7729382&marketId%5B3%5D=742.196700565&selectionId%5B3%5D=7711958&marketId%5B4%5D=742.196700342&selectionId%5B4%5D=7747570&marketId%5B5%5D=742.195450848&selectionId%5B5%5D=12197194&marketId%5B6%5D=742.196700036&selectionId%5B6%5D=7711399&marketId%5B7%5D=742.196700661&selectionId%5B7%5D=7915067&marketId%5B8%5D=742.196706698&selectionId%5B8%5D=7735594&marketId%5B9%5D=742.196706524&selectionId%5B9%5D=7745689",
    "favorite": false,
-   "corr_prob": 0.23225
+   "corr_prob": 0.234
   },
   {
    "n": 11,
@@ -1649,7 +1631,7 @@
    "shared_games": 11,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699947&selectionId%5B0%5D=7888839&marketId%5B1%5D=742.196700112&selectionId%5B1%5D=7891143&marketId%5B2%5D=742.196699789&selectionId%5B2%5D=7888965&marketId%5B3%5D=742.196700357&selectionId%5B3%5D=7890837&marketId%5B4%5D=742.196700563&selectionId%5B4%5D=7941248&marketId%5B5%5D=742.195450848&selectionId%5B5%5D=12197194&marketId%5B6%5D=742.196700694&selectionId%5B6%5D=7711983&marketId%5B7%5D=742.196700040&selectionId%5B7%5D=7890369&marketId%5B8%5D=742.196706627&selectionId%5B8%5D=7000407&marketId%5B9%5D=742.196706524&selectionId%5B9%5D=7745647&marketId%5B10%5D=742.196706698&selectionId%5B10%5D=7000415",
    "favorite": false,
-   "corr_prob": 0.17335
+   "corr_prob": 0.17497
   },
   {
    "n": 12,
@@ -1676,29 +1658,15 @@
    "shared_games": 12,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700112&selectionId%5B0%5D=7891310&marketId%5B1%5D=742.196699789&selectionId%5B1%5D=7888964&marketId%5B2%5D=742.196700357&selectionId%5B2%5D=7890665&marketId%5B3%5D=742.196700661&selectionId%5B3%5D=7891512&marketId%5B4%5D=742.196700040&selectionId%5B4%5D=7928987&marketId%5B5%5D=742.196700814&selectionId%5B5%5D=7890802&marketId%5B6%5D=742.195450848&selectionId%5B6%5D=12197194&marketId%5B7%5D=742.196700563&selectionId%5B7%5D=7891168&marketId%5B8%5D=742.196699917&selectionId%5B8%5D=7711076&marketId%5B9%5D=742.196706627&selectionId%5B9%5D=7735512&marketId%5B10%5D=742.196706670&selectionId%5B10%5D=8359782&marketId%5B11%5D=742.196706510&selectionId%5B11%5D=8359782",
    "favorite": false,
-   "corr_prob": 0.1572
+   "corr_prob": 0.1584
   }
  ],
- "lottery": [
-  {
-   "label": "2-leg best-chance lottery",
-   "target_x": null,
-   "n": 2,
-   "legs": [
-    "401909959:7889023:742.196699789",
-    "401892682:7745647:742.196706524"
-   ],
-   "est_prob": 0.719664,
-   "fd_payout_x": 1.4,
-   "one_in": 1,
-   "fd_odds": "+40",
-   "ev": 0.006,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7889023&marketId%5B1%5D=742.196706524&selectionId%5B1%5D=7745647",
-   "favorite": false
-  }
- ],
+ "lottery": [],
  "best": null,
- "started": [],
+ "started": [
+  "401909959:7889023:742.196699789",
+  "401892682:7745647:742.196706524"
+ ],
  "games": [
   {
    "id": "401873051",
@@ -1706,7 +1674,7 @@
    "name": "Buffalo Bills at Minnesota Vikings",
    "start": "2026-11-10T01:15Z",
    "state": "in",
-   "status": "0:44 - 2nd",
+   "status": "Halftime",
    "venue": "U.S. Bank Stadium",
    "indoor": true,
    "city": {
@@ -1738,7 +1706,7 @@
     "home": {
      "name": "Minnesota Vikings",
      "short": "Vikings",
-     "score": "3",
+     "score": "6",
      "winner": null,
      "record": "6-1",
      "ml_open": null,
@@ -1906,8 +1874,8 @@
    "sport": "nba",
    "name": "Memphis Grizzlies at Toronto Raptors",
    "start": "2026-11-10T00:30Z",
-   "state": "in",
-   "status": "3:42 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Scotiabank Arena",
    "indoor": true,
    "city": {
@@ -1922,28 +1890,28 @@
     "home": {
      "name": "Toronto Raptors",
      "short": "Raptors",
-     "score": "97",
-     "winner": null,
-     "record": "5-4",
+     "score": "102",
+     "winner": false,
+     "record": "5-5",
      "ml_open": null,
      "ml": null,
      "tid": "28",
      "abbr": "TOR",
-     "home_rec": "2-1",
+     "home_rec": "2-2",
      "road_rec": "3-3"
     },
     "away": {
      "name": "Memphis Grizzlies",
      "short": "Grizzlies",
-     "score": "113",
-     "winner": null,
-     "record": "6-3",
+     "score": "118",
+     "winner": true,
+     "record": "7-3",
      "ml_open": null,
      "ml": null,
      "tid": "29",
      "abbr": "MEM",
      "home_rec": "2-3",
-     "road_rec": "4-0"
+     "road_rec": "5-0"
     }
    }
   },
@@ -1953,7 +1921,7 @@
    "name": "Indiana Pacers at Dallas Mavericks",
    "start": "2026-11-10T01:00Z",
    "state": "in",
-   "status": "3:18 - 3rd",
+   "status": "9:20 - 4th",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -1968,7 +1936,7 @@
     "home": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "84",
+     "score": "98",
      "winner": null,
      "record": "6-4",
      "ml_open": null,
@@ -1981,7 +1949,7 @@
     "away": {
      "name": "Indiana Pacers",
      "short": "Pacers",
-     "score": "84",
+     "score": "97",
      "winner": null,
      "record": "3-7",
      "ml_open": null,
@@ -1999,7 +1967,7 @@
    "name": "Denver Nuggets at Houston Rockets",
    "start": "2026-11-10T01:30Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "6:20 - 3rd",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
    "city": {
@@ -2014,7 +1982,7 @@
     "home": {
      "name": "Houston Rockets",
      "short": "Rockets",
-     "score": "54",
+     "score": "60",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -2027,7 +1995,7 @@
     "away": {
      "name": "Denver Nuggets",
      "short": "Nuggets",
-     "score": "40",
+     "score": "53",
      "winner": null,
      "record": "5-3",
      "ml_open": null,
@@ -2045,7 +2013,7 @@
    "name": "San Antonio Spurs at Phoenix Suns",
    "start": "2026-11-10T02:00Z",
    "state": "in",
-   "status": "9:23 - 2nd",
+   "status": "3:02 - 2nd",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2060,7 +2028,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "27",
+     "score": "42",
      "winner": null,
      "record": "3-5",
      "ml_open": null,
@@ -2073,7 +2041,7 @@
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "41",
+     "score": "57",
      "winner": null,
      "record": "8-2",
      "ml_open": null,
@@ -2090,7 +2058,7 @@
    "sport": "nba",
    "name": "New Orleans Pelicans at Golden State Warriors",
    "start": "2026-11-10T03:00Z",
-   "state": "pre",
+   "state": "in",
    "status": "11/9 - 10:00 PM EST",
    "venue": "Chase Center",
    "indoor": true,
@@ -2099,7 +2067,7 @@
     "state": "CA"
    },
    "espn_wx": null,
-   "line": "GS -11.5",
+   "line": "GS -10.5",
    "total": 228.5,
    "book": "Draft Kings",
    "teams": {
@@ -2130,7 +2098,7 @@
      "road_rec": "1-3"
     }
    },
-   "espn_hs": -11.5
+   "espn_hs": -10.5
   },
   {
    "id": "401892680",
@@ -2138,7 +2106,7 @@
    "name": "New York Rangers at Edmonton Oilers",
    "start": "2026-11-10T01:00Z",
    "state": "in",
-   "status": "0:13 - 2nd",
+   "status": "End of 2nd",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -2185,7 +2153,7 @@
    "name": "Philadelphia Flyers at Vancouver Canucks",
    "start": "2026-11-10T02:30Z",
    "state": "in",
-   "status": "17:57 - 1st",
+   "status": "9:53 - 1st",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -2214,7 +2182,7 @@
     "away": {
      "name": "Philadelphia Flyers",
      "short": "Flyers",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "4-10-5",
      "ml_open": null,
@@ -2231,7 +2199,7 @@
    "sport": "nhl",
    "name": "New York Islanders at San Jose Sharks",
    "start": "2026-11-10T03:00Z",
-   "state": "pre",
+   "state": "in",
    "status": "11/9 - 10:00 PM EST",
    "venue": "SAP Center at San Jose",
    "indoor": true,
@@ -2442,7 +2410,12 @@
   },
   {
    "team": "Charlotte Hornets",
-   "t": "Moussa Diabate - Out: Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland.",
+   "t": "Brandon Miller - Day-To-Day: Miller (groin) is listed as out for Monday's game against Cleveland.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Charlotte Hornets",
+   "t": "Moussa Diabate - Day-To-Day: Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2458,11 +2431,6 @@
   {
    "team": "Charlotte Hornets",
    "t": "Dennis Schroder - Out: Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "Charlotte Hornets",
-   "t": "Brandon Miller - Out: Miller (groin) is listed as out for Monday's game against Cleveland.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2567,12 +2535,12 @@
   },
   {
    "team": "Los Angeles Lakers",
-   "t": "Austin Reaves - Out: Reaves (illness) has been ruled out for Monday's game against Atlanta, Benjamin Royer of The Orange County Register reports.",
+   "t": "Austin Reaves - Day-To-Day: Reaves (illness) has been ruled out for Monday's game against Atlanta, Benjamin Royer of The Orange County Register reports.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "Los Angeles Lakers",
-   "t": "Quentin Grimes - Out: Grimes (finger) is out for Monday's game against Atlanta, per Dave McMenamin of ESPN.com.",
+   "t": "Quentin Grimes - Day-To-Day: Grimes (finger) is out for Monday's game against Atlanta, per Dave McMenamin of ESPN.com.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2667,7 +2635,7 @@
   },
   {
    "team": "Washington Wizards",
-   "t": "Bilal Coulibaly - Out: Coulibaly (hand) is out for Monday's game against the Pistons.",
+   "t": "Bilal Coulibaly - Day-To-Day: Coulibaly (hand) is out for Monday's game against the Pistons.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2855,24 +2823,17 @@
    "open": "-130",
    "now": "-142",
    "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "New York Islanders at San Jose Sharks",
-   "team": "New York Islanders +2.5",
-   "open": -650,
-   "now": -750,
-   "src": "FanDuel (since first snapshot)"
   }
  ],
  "stats": {
-  "updated": "2026-11-10 02:46 UTC",
-  "graded_legs": 1957,
+  "updated": "2026-11-10 03:01 UTC",
+  "graded_legs": 1963,
   "calibration": {
    "85-90%": {
-    "n": 886,
-    "wins": 763,
+    "n": 890,
+    "wins": 767,
     "pred": 0.873,
-    "hit": 0.861
+    "hit": 0.862
    },
    "75-80%": {
     "n": 158,
@@ -2923,10 +2884,10 @@
     "hit": 0.375
    },
    "25-30%": {
-    "n": 102,
-    "wins": 25,
+    "n": 104,
+    "wins": 26,
     "pred": 0.275,
-    "hit": 0.245
+    "hit": 0.25
    },
    "60-65%": {
     "n": 22,
@@ -2979,9 +2940,9 @@
     "hit": 0.805
    },
    "nba": {
-    "n": 689,
-    "wins": 536,
-    "pred": 0.806,
+    "n": 695,
+    "wins": 541,
+    "pred": 0.805,
     "hit": 0.778
    },
    "nhl": {
@@ -3035,16 +2996,16 @@
   },
   "by_market": {
    "total": {
-    "n": 910,
-    "wins": 736,
+    "n": 912,
+    "wins": 738,
     "pred": 0.822,
     "hit": 0.809
    },
    "spread": {
-    "n": 813,
-    "wins": 601,
-    "pred": 0.749,
-    "hit": 0.739
+    "n": 815,
+    "wins": 603,
+    "pred": 0.75,
+    "hit": 0.74
    },
    "dc": {
     "n": 71,
@@ -3071,10 +3032,10 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 63,
-    "wins": 15,
-    "pred": 0.289,
-    "hit": 0.238
+    "n": 65,
+    "wins": 16,
+    "pred": 0.288,
+    "hit": 0.246
    }
   },
   "parlays": {
@@ -3245,7 +3206,7 @@
       "pick": "Memphis Grizzlies +14.5",
       "game": "Memphis Grizzlies at Toronto Raptors",
       "odds": -950,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Houston Rockets +11.5",
@@ -5430,46 +5391,46 @@
   ]
  },
  "feature": null,
- "note": "286 FanDuel-priced candidates (ml, prop, spread, total) across 2 games; best single market per game kept (odds -1000 to +300); 2 not-yet-started games -> parlays up to 12 legs.",
+ "note": "292 FanDuel-priced candidates (ml, prop, spread, total) across 2 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 12 legs.",
  "model_check": {
   "v1": {
-   "n": 5714,
-   "brier": 0.1523,
-   "logloss": 0.4811,
+   "n": 5739,
+   "brier": 0.1521,
+   "logloss": 0.4806,
    "picks": 1478,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.11,
-   "top_picks_graded": 1434,
-   "top_picks_won": 1204,
-   "top_picks_expected": 1197.88,
-   "top_win_rate": 0.8396094839609484
+   "top_picks_graded": 1439,
+   "top_picks_won": 1208,
+   "top_picks_expected": 1202.24,
+   "top_win_rate": 0.8394718554551772
   },
   "v2": {
-   "n": 5714,
-   "brier": 0.1516,
-   "logloss": 0.4799,
+   "n": 5739,
+   "brier": 0.1513,
+   "logloss": 0.4793,
    "picks": 551,
    "avg_clv_fd_pts": 0.33,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 542,
-   "top_picks_won": 473,
-   "top_picks_expected": 478.27,
-   "top_win_rate": 0.8726937269372693
+   "top_picks_graded": 543,
+   "top_picks_won": 474,
+   "top_picks_expected": 479.17,
+   "top_win_rate": 0.8729281767955801
   },
-  "graded": 5714,
+  "graded": 5739,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 5714,
-    "v2": 5714,
+    "v1": 5739,
+    "v2": 5739,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4811,
-    "v2": 0.4799,
+    "v1": 0.4806,
+    "v2": 0.4793,
     "pass": true
    },
    {
@@ -5486,14 +5447,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1434,
-    "v2": 542,
+    "v1": 1439,
+    "v2": 543,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1204/1434",
-    "v2": "473/542",
+    "v1": "1208/1439",
+    "v2": "474/543",
     "pass": true
    }
   ],
@@ -5503,25 +5464,16 @@
   "live_model": "v1",
   "v2_info": {
    "pinnacle": {
-    "leagues_ok": 2,
-    "leagues": 2,
-    "games_matched": 2,
-    "games_pre": 2
+    "leagues_ok": 0,
+    "leagues": 0,
+    "games_matched": 0,
+    "games_pre": 0
    },
-   "candidates_pre": 286,
-   "sharp_covered": 151,
-   "sharp_coverage_pct": 52.8,
-   "power": {
-    "nhl": {
-     "teams": 2,
-     "games": 35
-    },
-    "nba": {
-     "teams": 2,
-     "games": 20
-    }
-   },
-   "injury_adjusted_teams": 2
+   "candidates_pre": 0,
+   "sharp_covered": 0,
+   "sharp_coverage_pct": 0.0,
+   "power": {},
+   "injury_adjusted_teams": 0
   },
   "clv_v1_history": {
    "legs_tracked": 1968,
@@ -5532,19 +5484,10 @@
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 60,
-   "of": 286,
+   "dropped": 0,
+   "of": 292,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
-   "examples": [
-    "Over 4.5 (New York Islanders at San Jose Sharks) -600: FanDuel implies 85.7% vs Pinnacle fair 74.7%",
-    "Golden State Warriors -22.5 (New Orleans Pelicans at Golden State Warriors) +290: FanDuel implies 25.6% vs Pinnacle fair 16.2%",
-    "Golden State Warriors -21.5 (New Orleans Pelicans at Golden State Warriors) +265: FanDuel implies 27.4% vs Pinnacle fair 18.4%",
-    "Golden State Warriors -20.5 (New Orleans Pelicans at Golden State Warriors) +240: FanDuel implies 29.4% vs Pinnacle fair 20.7%",
-    "Golden State Warriors -19.5 (New Orleans Pelicans at Golden State Warriors) +220: FanDuel implies 31.2% vs Pinnacle fair 23.1%",
-    "Golden State Warriors -18.5 (New Orleans Pelicans at Golden State Warriors) +196: FanDuel implies 33.8% vs Pinnacle fair 25.8%",
-    "Golden State Warriors -15.5 (New Orleans Pelicans at Golden State Warriors) +140: FanDuel implies 41.7% vs Pinnacle fair 34.4%",
-    "Over 240.5 (New Orleans Pelicans at Golden State Warriors) +230: FanDuel implies 30.3% vs Pinnacle fair 23.2%"
-   ]
+   "examples": []
   }
  },
  "favorite_rule": "Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with a raw (un-boosted) estimated hit chance of 50% or more."
