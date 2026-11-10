@@ -1,157 +1,208 @@
 {
- "date": "2026-11-09",
- "prices_checked": "2026-11-09 15:36 UTC",
- "expires": "2026-11-10T05:00:00Z",
+ "date": "2026-11-10",
+ "prices_checked": "2026-11-10 15:36 UTC",
+ "expires": "2026-11-11T05:00:00Z",
  "options": [
   {
    "id": "A1",
-   "tier": "Thin payout, widest cushions (NBA + MNF, different sports)",
+   "tier": "Thin payout, widest cushions (CFB + NBA)",
    "legs": [
     {
-     "game": "Los Angeles Lakers @ Atlanta Hawks",
-     "start": "2026-11-10T00:00:00Z",
+     "game": "Western Michigan Broncos @ Akron Zips",
+     "start": "2026-11-11T00:00:00Z",
      "market": "Alternate Spread",
-     "pick": "Atlanta Hawks +15.5",
-     "odds_pa": -950,
-     "odds_md": -950,
-     "main_total": null,
-     "note": "Hawks are about -1.5 favorites, so this covers anything short of a 16+ point Lakers win. Update 3:10 PM ET: Luka Doncic is off the injury report and expected to play (Dave McMenamin); Austin Reaves questionable (illness), Quentin Grimes out. Lakers on a back-to-back. Hawks without Asa Newell, Keshon Gilbert, Jock Landale, Mouhamed Gueye, Henri Veesaar (ESPN). Market barely moved on the Luka news (Hawks ML -125 to -120), so the cushion is a bit tighter but intact.",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700112&selectionId%5B0%5D=7913174",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196838851&selectionId%5B0%5D=7913174"
-    },
-    {
-     "game": "Buffalo Bills @ Minnesota Vikings",
-     "start": "2026-11-10T01:15:00Z",
-     "market": "Alternate Total Points",
-     "pick": "Under (59.5)",
+     "pick": "Western Michigan (+2.5)",
      "odds_pa": -1000,
      "odds_md": -1000,
-     "main_total": 43.5,
-     "note": "Vikings QB Kyler Murray (hamstring) out; Carson Wentz starts (Ian Rapoport via ESPN). Jauan Jennings out; Bills WR Joshua Palmer out, LT Dion Dawkins questionable. Total fell from 47.5 on the lookahead to 43.5 at FanDuel after the QB news. Indoors at U.S. Bank Stadium. 8:15 PM ET kickoff, the last-starting leg here.",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.195450848&selectionId%5B0%5D=12197190",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.195589585&selectionId%5B0%5D=12197190",
-     "cushion": 16.0
+     "main_line": -14.5,
+     "note": "Western Michigan is -14.5 at Akron (ML about -675, moved from -600), so this only needs WMU to win or lose by 2 or fewer. Mostly clear, 50F (ESPN/AccuWeather). College football has had upset/explosion nights; one-score MAC games happen. 7:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196708935&selectionId%5B0%5D=49917709",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196847673&selectionId%5B0%5D=49917709",
+     "est_model": 0.8795,
+     "fd_novig": 0.8576
+    },
+    {
+     "game": "Orlando Magic @ Sacramento Kings",
+     "start": "2026-11-11T03:00:00Z",
+     "market": "Alternate Spread",
+     "pick": "Orlando Magic +10.5",
+     "odds_pa": -1000,
+     "odds_md": -1000,
+     "main_line": -6.5,
+     "note": "Magic are -6.5 favorites at Sacramento, so this covers anything short of an 11+ point Kings win. Orlando still without Paolo Banchero, Jalen Suggs and Jonathan Isaac; Kings without Maxime Raynaud, with Domantas Sabonis (knee) and Keegan Murray (wrist) questionable. 10:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883402",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.197007007&selectionId%5B0%5D=7883402",
+     "est_model": 0.893,
+     "fd_novig": 0.8576
     }
    ],
-   "est_return_per_1": 1.216,
-   "break_even": 0.823,
-   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700112&selectionId%5B0%5D=7913174&marketId%5B1%5D=742.195450848&selectionId%5B1%5D=12197190",
-   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196838851&selectionId%5B0%5D=7913174&marketId%5B1%5D=724.195589585&selectionId%5B1%5D=12197190"
+   "est_return_per_1": 1.21,
+   "break_even": 0.826,
+   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196708935&selectionId%5B0%5D=49917709&marketId%5B1%5D=742.196868269&selectionId%5B1%5D=7883402",
+   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196847673&selectionId%5B0%5D=49917709&marketId%5B1%5D=724.197007007&selectionId%5B1%5D=7883402"
   },
   {
    "id": "A2",
-   "tier": "Thin payout, favorites getting points",
+   "tier": "Thin payout, favorites getting points or laying little",
    "legs": [
     {
-     "game": "San Antonio Spurs @ Phoenix Suns",
-     "start": "2026-11-10T02:00:00Z",
+     "game": "Milwaukee Bucks @ New York Knicks",
+     "start": "2026-11-11T00:30:00Z",
      "market": "Alternate Spread",
-     "pick": "San Antonio Spurs +7.5",
-     "odds_pa": -1000,
-     "odds_md": -1000,
-     "main_total": null,
-     "note": "Spurs are -8.5 favorites at Phoenix, so this covers anything short of an 8+ point Suns win. Spurs without Tobias Harris (calf) and Jayden Quaintance; Devin Vassell now out (groin, Express-News, 1:41 PM ET). Suns without Mark Williams; Jordan Goodwin out/questionable (calf).",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700814&selectionId%5B0%5D=7890800",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196839554&selectionId%5B0%5D=7890800"
-    },
-    {
-     "game": "Cleveland Cavaliers @ Charlotte Hornets",
-     "start": "2026-11-10T00:00:00Z",
-     "market": "Alternate Spread",
-     "pick": "Cleveland Cavaliers +7.5",
-     "odds_pa": -950,
-     "odds_md": -950,
-     "main_total": null,
-     "note": "Cavs are -8.5 to -9.5 favorites. Charlotte is without Brandon Miller, Kon Knueppel, Dennis Schroder and Grant Williams; Moussa Diabate questionable. Cleveland without Sam Merrill, Jaylon Tyson, Nae'Qwan Tomlin; Jarrett Allen questionable (knee).",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699947&selectionId%5B0%5D=7888839",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196838681&selectionId%5B0%5D=7888839"
-    }
-   ],
-   "est_return_per_1": 1.216,
-   "break_even": 0.823,
-   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700814&selectionId%5B0%5D=7890800&marketId%5B1%5D=742.196699947&selectionId%5B1%5D=7888839",
-   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196839554&selectionId%5B0%5D=7890800&marketId%5B1%5D=724.196838681&selectionId%5B1%5D=7888839"
-  },
-  {
-   "id": "A3",
-   "tier": "Thin payout, favorites getting points",
-   "legs": [
-    {
-     "game": "New Orleans Pelicans @ Golden State Warriors",
-     "start": "2026-11-10T03:00:00Z",
-     "market": "Alternate Spread",
-     "pick": "Golden State Warriors +6.5",
+     "pick": "New York Knicks -1.5",
      "odds_pa": -900,
      "odds_md": -900,
-     "main_total": null,
-     "note": "Warriors are -9.5 favorites at home. Golden State still without Jimmy Butler, Kristaps Porzingis, Moses Moody, Will Richard; Gui Santos probable. Pelicans' Yves Missi out. 11:00 PM ET tip, the latest game.",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7889079",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196838526&selectionId%5B0%5D=7889079"
+     "main_line": -15.5,
+     "note": "Knicks are -15.5 at home (ESPN line), ML about -1040, so this only needs a Knicks win by 2+. Bucks' Tyler Herro (contusion) questionable; Knicks' Josh Hart (ankle) questionable (ESPN injuries). 7:30 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868066&selectionId%5B0%5D=7901064",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.197006801&selectionId%5B0%5D=7901064",
+     "est_model": 0.8737,
+     "fd_novig": 0.8491
     },
     {
-     "game": "Indiana Pacers @ Dallas Mavericks",
-     "start": "2026-11-10T01:00:00Z",
+     "game": "Miami Heat @ Utah Jazz",
+     "start": "2026-11-11T02:00:00Z",
      "market": "Alternate Spread",
-     "pick": "Dallas Mavericks +12.5",
+     "pick": "Miami Heat +7.5",
      "odds_pa": -900,
      "odds_md": -900,
-     "main_total": null,
-     "note": "Mavs are -3.5 favorites, so this covers anything short of a 13+ point Pacers win. Indiana without Tyrese Haliburton, Johnny Furphy, Ben Sheppard; T.J. McConnell questionable. Dallas without Dereck Lively II and Tarik Biberovic.",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700563&selectionId%5B0%5D=7941463",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196839303&selectionId%5B0%5D=7941463"
+     "main_line": -8.5,
+     "note": "Heat are -8.5 favorites at Utah, so this covers anything short of an 8+ point Jazz win. Utah without Keyonte George (ankle, out) and Jaren Jackson Jr.; Lauri Markkanen questionable (wrist). Giannis Antetokounmpo probable (wrist). 9:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868181&selectionId%5B0%5D=7883735",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.197006919&selectionId%5B0%5D=7883735",
+     "est_model": 0.884,
+     "fd_novig": 0.8491
     }
    ],
    "est_return_per_1": 1.235,
    "break_even": 0.81,
-   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7889079&marketId%5B1%5D=742.196700563&selectionId%5B1%5D=7941463",
-   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196838526&selectionId%5B0%5D=7889079&marketId%5B1%5D=724.196839303&selectionId%5B1%5D=7941463"
+   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868066&selectionId%5B0%5D=7901064&marketId%5B1%5D=742.196868181&selectionId%5B1%5D=7883735",
+   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.197006801&selectionId%5B0%5D=7901064&marketId%5B1%5D=724.197006919&selectionId%5B1%5D=7883735"
+  },
+  {
+   "id": "A3",
+   "tier": "Thin payout, near pick-em games with big cushions (NBA + CFB)",
+   "legs": [
+    {
+     "game": "Boston Celtics @ Philadelphia 76ers",
+     "start": "2026-11-11T01:00:00Z",
+     "market": "Alternate Spread",
+     "pick": "Boston Celtics +14.5",
+     "odds_pa": -950,
+     "odds_md": -950,
+     "main_line": -1.5,
+     "note": "Celtics are about -1.5 at Philadelphia, so this covers anything short of a 15+ point 76ers win. 76ers without Adem Bona, Dominick Barlow, Ariel Hukporti. 8:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7927527",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196989811&selectionId%5B0%5D=7927527",
+     "est_model": 0.8875,
+     "fd_novig": 0.8535
+    },
+    {
+     "game": "Ohio Bobcats @ Miami (OH) RedHawks",
+     "start": "2026-11-11T01:00:00Z",
+     "market": "Alternate Spread",
+     "pick": "Ohio (+16.5)",
+     "odds_pa": -1000,
+     "odds_md": -1000,
+     "main_line": -1.5,
+     "note": "Ohio is about -1.5 at Miami (OH) (ML moved from -102 to -118), so this covers anything short of a 17+ point RedHawks win. Clear, 51F. 8:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196709039&selectionId%5B0%5D=48218805",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196847776&selectionId%5B0%5D=48218805",
+     "est_model": 0.8769,
+     "fd_novig": 0.8576
+    }
+   ],
+   "est_return_per_1": 1.216,
+   "break_even": 0.823,
+   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7927527&marketId%5B1%5D=742.196709039&selectionId%5B1%5D=48218805",
+   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196989811&selectionId%5B0%5D=7927527&marketId%5B1%5D=724.196847776&selectionId%5B1%5D=48218805"
+  },
+  {
+   "id": "A4",
+   "tier": "Thin payout, big cushions, latest tips",
+   "legs": [
+    {
+     "game": "LA Clippers @ Phoenix Suns",
+     "start": "2026-11-11T02:00:00Z",
+     "market": "Alternate Spread",
+     "pick": "Los Angeles Clippers +18.5",
+     "odds_pa": -950,
+     "odds_md": -950,
+     "main_line": -3.5,
+     "note": "Suns are -3.5 at home, so this covers anything short of a 19+ point Suns win. Clippers without Brandon Ingram, Bradley Beal and Yanic Konan Niederhauser; Cam Christie questionable. Suns without Mark Williams and Jordan Goodwin. 9:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854047&selectionId%5B0%5D=7884538",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196992791&selectionId%5B0%5D=7884538",
+     "est_model": 0.8875,
+     "fd_novig": 0.8535
+    },
+    {
+     "game": "Oklahoma City Thunder @ Portland Trail Blazers",
+     "start": "2026-11-11T04:00:00Z",
+     "market": "Alternate Spread",
+     "pick": "Oklahoma City Thunder +13.5",
+     "odds_pa": -950,
+     "odds_md": -950,
+     "main_line": -1.5,
+     "note": "Thunder are about -1.5 at Portland, so this covers anything short of a 14+ point Blazers win. OKC is thin: Chet Holmgren, Jalen Williams, Cason Wallace and now Jaylin Williams (back) out. Portland without Ja Morant, Vit Krejci, Shaedon Sharpe. 11:00 PM ET, the latest leg on the board.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868400&selectionId%5B0%5D=7890440",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.197007137&selectionId%5B0%5D=7890440",
+     "est_model": 0.8762,
+     "fd_novig": 0.8535
+    }
+   ],
+   "est_return_per_1": 1.222,
+   "break_even": 0.819,
+   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854047&selectionId%5B0%5D=7884538&marketId%5B1%5D=742.196868400&selectionId%5B1%5D=7890440",
+   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196992791&selectionId%5B0%5D=7884538&marketId%5B1%5D=724.197007137&selectionId%5B1%5D=7890440"
   },
   {
    "id": "B",
    "tier": "Higher payout, clearly lower win chance than A",
    "legs": [
     {
-     "game": "Los Angeles Lakers @ Atlanta Hawks",
-     "start": "2026-11-10T00:00:00Z",
+     "game": "LA Clippers @ Phoenix Suns",
+     "start": "2026-11-11T02:00:00Z",
      "market": "Alternate Spread",
-     "pick": "Atlanta Hawks +10.5",
-     "odds_pa": -400,
-     "odds_md": -400,
-     "main_total": null,
-     "note": "Same Lakers back-to-back / Luka status note as A1; 5 fewer points of cushion than +15.5.",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700112&selectionId%5B0%5D=7891311",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196838851&selectionId%5B0%5D=7891311"
-    },
-    {
-     "game": "San Antonio Spurs @ Phoenix Suns",
-     "start": "2026-11-10T02:00:00Z",
-     "market": "Alternate Spread",
-     "pick": "San Antonio Spurs +3.5",
+     "pick": "Los Angeles Clippers +14.5",
      "odds_pa": -480,
      "odds_md": -480,
-     "main_total": null,
-     "note": "Same Spurs/Suns injury note as A2; only 3.5 points of cushion, so a Suns win by 4+ loses it.",
-     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700814&selectionId%5B0%5D=7890870",
-     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196839554&selectionId%5B0%5D=7890870"
+     "main_line": -3.5,
+     "note": "Suns -3.5, so an 11-point cushion; same injury picture as the +18.5 line above. 9:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854047&selectionId%5B0%5D=7901308",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196992791&selectionId%5B0%5D=7901308",
+     "est_model": 0.8197,
+     "fd_novig": 0.7919
+    },
+    {
+     "game": "Orlando Magic @ Sacramento Kings",
+     "start": "2026-11-11T03:00:00Z",
+     "market": "Alternate Spread",
+     "pick": "Orlando Magic +5.5",
+     "odds_pa": -390,
+     "odds_md": -390,
+     "main_line": -6.5,
+     "note": "Magic -6.5, so this covers a Magic win or a Kings win by 5 or fewer (12-point cushion vs the main line). Same injury picture as the +10.5 line. 10:00 PM ET.",
+     "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883326",
+     "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.197007007&selectionId%5B0%5D=7883326",
+     "est_model": 0.8048,
+     "fd_novig": 0.7616
     }
    ],
-   "est_return_per_1": 1.51,
-   "break_even": 0.662,
-   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196700112&selectionId%5B0%5D=7891311&marketId%5B1%5D=742.196700814&selectionId%5B1%5D=7890870",
-   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196838851&selectionId%5B0%5D=7891311&marketId%5B1%5D=724.196839554&selectionId%5B1%5D=7890870"
+   "est_return_per_1": 1.518,
+   "break_even": 0.659,
+   "pa_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854047&selectionId%5B0%5D=7901308&marketId%5B1%5D=742.196868269&selectionId%5B1%5D=7883326",
+   "md_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=724.196992791&selectionId%5B0%5D=7901308&marketId%5B1%5D=724.197007007&selectionId%5B1%5D=7883326"
   }
  ],
- "overlap": "A1 and B both use Hawks vs Lakers, and A2 and B both use Spurs at Suns, so B is an alternative to those, not a set to stack. Seven of the eight legs are NBA: a night of upsets or blowouts can sink several at once. Houston and Toronto legs were left out on purpose (Denver starters and Raptors' Barnes/Quickley are questionable).",
- "disclaimer": "Research comparisons only, not strict-qualified picks and not endorsements. No win probability is claimed and no independent edge over FanDuel prices has been demonstrated; the strict 2-leg board has no qualifying pair today. Combined return is an estimate (leg prices multiplied), not a FanDuel quote; check the slip. Prices are FanDuel PA/MD public prices at the time shown and will move. Check injury reports and inactives before tip/kickoff. Nothing is guaranteed; this site places no bets.",
+ "overlap": "A1 and B both use Magic at Kings, and A4 and B both use Clippers at Suns, so B is an alternative to those, not a set to stack. A1-A4 use eight different games. Six of the ten legs are NBA: a night of blowouts can sink several at once. NHL legs were left out on purpose: NHL legs have hit about 63% vs 67% predicted in KFSP's graded history, and New Jersey is starting Jake Allen while Winnipeg uses backup Nico Daws (Daily Faceoff).",
+ "disclaimer": "Research comparisons only, not strict-qualified picks and not endorsements. No win probability is claimed and no independent edge over FanDuel prices has been demonstrated; the strict 2-leg board has no qualifying pair today. Combined return is an estimate (leg prices multiplied), not a FanDuel quote; check the slip. Prices are FanDuel PA/MD public prices at the time shown and will move. Check injury reports before tip/kickoff. Nothing is guaranteed; this site places no bets.",
  "sources": [
   "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
-  "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
   "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries",
-  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261109",
-  "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261109",
-  "https://www.dailyfaceoff.com/starting-goalies/",
-  "https://x.com/johnny_lockzzz/status/2119803446744555741",
-  "https://x.com/lossesstayup/status/2119804335341351151",
-  "https://x.com/sportspickerz/status/2119769851258339731"
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261110",
+  "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261110&groups=80",
+  "https://www.dailyfaceoff.com/starting-goalies",
+  "https://sbapi.pa.sportsbook.fanduel.com/api/event-page",
+  "https://sbapi.md.sportsbook.fanduel.com/api/event-page"
  ]
 }
