@@ -113824,25 +113824,9 @@
   "type": "best",
   "label": "best",
   "n": 4,
-  "est_prob": 0.2422,
-  "fd_payout_x": 3.83,
+  "est_prob": 0.1943,
+  "fd_payout_x": 4.76,
   "legs_detail": [
-   {
-    "id": "401909957:7891583:742.196700661",
-    "event": "401909957",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 4.5,
-    "pick": "Houston Rockets +4.5",
-    "market": "Alternate Spread",
-    "odds": -300,
-    "prob": 0.741,
-    "raw_prob": 0.741,
-    "game": "Denver Nuggets at Houston Rockets",
-    "result": null,
-    "close_odds": -300
-   },
    {
     "id": "401909959:7729371:742.196699771",
     "event": "401909959",
@@ -113890,9 +113874,25 @@
     "game": "New York Islanders at San Jose Sharks",
     "result": null,
     "close_odds": -172
+   },
+   {
+    "id": "401892681:8359772:742.196706670",
+    "event": "401892681",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 5.5,
+    "ou": "over",
+    "pick": "Over 5.5",
+    "market": "Alternate Total Goals",
+    "odds": -152,
+    "prob": 0.5944,
+    "raw_prob": 0.5944,
+    "game": "Philadelphia Flyers at Vancouver Canucks",
+    "result": null,
+    "close_odds": -152
    }
   ],
-  "logged": "2026-11-10 01:22 UTC",
+  "logged": "2026-11-10 01:34 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -113966,12 +113966,11 @@
     "prob": 0.8867,
     "raw_prob": 0.8867,
     "game": "Denver Nuggets at Houston Rockets",
-    "result": null,
-    "close_odds": -950
+    "result": null
    }
   ],
-  "logged": "2026-11-10 01:22 UTC",
-  "locked": false,
+  "logged": "2026-11-10 01:34 UTC",
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -114235,7 +114234,7 @@
     "raw_prob": 0.8765,
     "game": "San Antonio Spurs at Phoenix Suns",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909956:7941248:742.196700563",
@@ -114689,7 +114688,7 @@
     "raw_prob": 0.8765,
     "game": "San Antonio Spurs at Phoenix Suns",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401909953:7711076:742.196699917",
@@ -115206,7 +115205,7 @@
     "raw_prob": 0.8765,
     "game": "San Antonio Spurs at Phoenix Suns",
     "result": null,
-    "close_odds": -800
+    "close_odds": -850
    },
    {
     "id": "401873051:12197194:742.195450848",
@@ -115310,13 +115309,76 @@
   "favorite": false
  },
  {
+  "id": "2026-11-09-lottery-~25x",
+  "date": "2026-11-09",
+  "type": "lottery",
+  "label": "~25x",
+  "n": 3,
+  "est_prob": 0.040771906616000005,
+  "fd_payout_x": 28.73,
+  "legs_detail": [
+   {
+    "id": "401892681:7735598:742.196706698",
+    "event": "401892681",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -2.5,
+    "pick": "Philadelphia Flyers -2.5",
+    "market": "Alternate Puck Line",
+    "odds": 300,
+    "prob": 0.2737,
+    "raw_prob": 0.2737,
+    "game": "Philadelphia Flyers at Vancouver Canucks",
+    "result": null,
+    "close_odds": 300
+   },
+   {
+    "id": "401892682:136344:742.196614503",
+    "event": "401892682",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "New York Islanders -1.5",
+    "market": "Puck Line",
+    "odds": 168,
+    "prob": 0.4106,
+    "raw_prob": 0.4106,
+    "game": "New York Islanders at San Jose Sharks",
+    "result": null,
+    "close_odds": 168
+   },
+   {
+    "id": "401909958:7890838:742.196700814",
+    "event": "401909958",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": -13.5,
+    "pick": "San Antonio Spurs -13.5",
+    "market": "Alternate Spread",
+    "odds": 168,
+    "prob": 0.3628,
+    "raw_prob": 0.3628,
+    "game": "San Antonio Spurs at Phoenix Suns",
+    "result": null,
+    "close_odds": 168
+   }
+  ],
+  "logged": "2026-11-10 01:34 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
   "id": "2026-11-09-lottery-~100x",
   "date": "2026-11-09",
   "type": "lottery",
   "label": "~100x",
   "n": 4,
-  "est_prob": 0.010006876638079998,
-  "fd_payout_x": 112.78,
+  "est_prob": 0.009870753683811998,
+  "fd_payout_x": 114.4,
   "legs_detail": [
    {
     "id": "401892681:7735598:742.196706698",
@@ -115377,110 +115439,94 @@
     "stat": "ASS",
     "pick": "Stephon Castle",
     "market": "8+ Assists",
-    "odds": 250,
-    "prob": 0.272,
-    "raw_prob": 0.272,
+    "odds": 255,
+    "prob": 0.2683,
+    "raw_prob": 0.2683,
     "game": "San Antonio Spurs at Phoenix Suns",
     "result": null,
-    "close_odds": 250
+    "close_odds": 255
    }
   ],
-  "logged": "2026-11-10 01:22 UTC",
+  "logged": "2026-11-10 01:34 UTC",
   "locked": false,
   "result": null,
   "favorite": false
  },
  {
-  "id": "2026-11-09-lottery-~25x",
+  "id": "2026-11-09-lottery-4-leg best-chance lottery",
   "date": "2026-11-09",
   "type": "lottery",
-  "label": "~25x",
-  "n": 5,
-  "est_prob": 0.04839923602091407,
-  "fd_payout_x": 25.16,
+  "label": "4-leg best-chance lottery",
+  "n": 4,
+  "est_prob": 0.50475523868055,
+  "fd_payout_x": 2.0,
   "legs_detail": [
    {
-    "id": "401892681:25589:742.196614495",
-    "event": "401892681",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Philadelphia Flyers -1.5",
-    "market": "Puck Line",
-    "odds": 176,
-    "prob": 0.4016,
-    "raw_prob": 0.4016,
-    "game": "Philadelphia Flyers at Vancouver Canucks",
-    "result": null,
-    "close_odds": 176
-   },
-   {
-    "id": "401892682:136344:742.196614503",
-    "event": "401892682",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "New York Islanders -1.5",
-    "market": "Puck Line",
-    "odds": 168,
-    "prob": 0.4106,
-    "raw_prob": 0.4106,
-    "game": "New York Islanders at San Jose Sharks",
-    "result": null,
-    "close_odds": 168
-   },
-   {
-    "id": "401909959:7889052:742.196699789",
-    "event": "401909959",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": -13.5,
-    "pick": "Golden State Warriors -13.5",
-    "market": "Alternate Spread",
-    "odds": 112,
-    "prob": 0.4733,
-    "raw_prob": 0.4733,
-    "game": "New Orleans Pelicans at Golden State Warriors",
-    "result": null,
-    "close_odds": 112
-   },
-   {
-    "id": "401909958:7890823:742.196700814",
+    "id": "401909958:7890800:742.196700814",
     "event": "401909958",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 1.5,
-    "pick": "San Antonio Spurs +1.5",
+    "line": 7.5,
+    "pick": "San Antonio Spurs +7.5",
     "market": "Alternate Spread",
-    "odds": -375,
-    "prob": 0.7916,
-    "raw_prob": 0.7916,
+    "odds": -1000,
+    "prob": 0.8982,
+    "raw_prob": 0.8982,
     "game": "San Antonio Spurs at Phoenix Suns",
     "result": null,
-    "close_odds": -375
+    "close_odds": -1000
    },
    {
-    "id": "401909957:7891494:742.196700661",
-    "event": "401909957",
+    "id": "401909959:7888964:742.196699789",
+    "event": "401909959",
     "sport": "nba",
     "kind": "spread",
     "side": "home",
-    "line": 6.5,
-    "pick": "Houston Rockets +6.5",
+    "line": 3.5,
+    "pick": "Golden State Warriors +3.5",
     "market": "Alternate Spread",
-    "odds": -375,
-    "prob": 0.7834,
-    "raw_prob": 0.7834,
-    "game": "Denver Nuggets at Houston Rockets",
+    "odds": -900,
+    "prob": 0.8931,
+    "raw_prob": 0.8931,
+    "game": "New Orleans Pelicans at Golden State Warriors",
     "result": null,
-    "close_odds": -375
+    "close_odds": -900
+   },
+   {
+    "id": "401892682:7745647:742.196706524",
+    "event": "401892682",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "New York Islanders +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -370,
+    "prob": 0.7975,
+    "raw_prob": 0.7975,
+    "game": "New York Islanders at San Jose Sharks",
+    "result": null,
+    "close_odds": -370
+   },
+   {
+    "id": "401892681:7000415:742.196706698",
+    "event": "401892681",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Philadelphia Flyers +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -350,
+    "prob": 0.789,
+    "raw_prob": 0.789,
+    "game": "Philadelphia Flyers at Vancouver Canucks",
+    "result": null,
+    "close_odds": -350
    }
   ],
-  "logged": "2026-11-10 01:22 UTC",
+  "logged": "2026-11-10 01:34 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -115542,7 +115588,7 @@
     "raw_prob": 0.261,
     "game": "New Orleans Pelicans at Golden State Warriors",
     "result": null,
-    "close_odds": 265
+    "close_odds": 285
    },
    {
     "id": "401909958:64155911:742.196678095",
@@ -115560,7 +115606,7 @@
     "raw_prob": 0.272,
     "game": "San Antonio Spurs at Phoenix Suns",
     "result": null,
-    "close_odds": 250
+    "close_odds": 255
    },
    {
     "id": "401909957:42683087:742.196696036",
@@ -115582,7 +115628,7 @@
    }
   ],
   "logged": "2026-11-10 01:22 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -115774,7 +115820,7 @@
    }
   ],
   "logged": "2026-11-10 01:22 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -116757,7 +116803,7 @@
     "raw_prob": 0.2646,
     "game": "San Antonio Spurs at Phoenix Suns",
     "result": null,
-    "close_odds": 250
+    "close_odds": 255
    },
    {
     "id": "401909959:7889052:742.196699789",
