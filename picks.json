@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 03:03 UTC",
+ "updated": "2026-11-10 03:12 UTC",
  "date": "2026-11-09",
  "ladder_stats": {
   "tickets": 12,
@@ -13,80 +13,6 @@
   "disjoint_up_to": 2
  },
  "legs": {
-  "401909959:7889023:742.196699789": {
-   "kind": "spread",
-   "side": "home",
-   "line": 4.5,
-   "id": "401909959:7889023:742.196699789",
-   "event": "401909959",
-   "sport": "nba",
-   "game": "New Orleans Pelicans at Golden State Warriors",
-   "start": "2026-11-10T03:00Z",
-   "market": "Alternate Spread",
-   "pick": "Golden State Warriors +4.5",
-   "odds": -1000,
-   "fd_prob": 0.8576,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36290202, fetched 2026-11-10 03:03 UTC",
-   "dist_prob": 0.9088,
-   "market_prob": 0.8832,
-   "prob": 0.8832,
-   "pre_research": 0.8832,
-   "research": [
-    "research: game started or no data"
-   ],
-   "research_adj": 0,
-   "raw_prob": 0.8832,
-   "v1_prob": 0.8832,
-   "fd_market_id": "742.196699789",
-   "fd_selection_id": "7889023",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196699789&selectionId%5B0%5D=7889023",
-   "fd_region": "PA"
-  },
-  "401892682:7745647:742.196706524": {
-   "kind": "spread",
-   "side": "away",
-   "line": 1.5,
-   "id": "401892682:7745647:742.196706524",
-   "event": "401892682",
-   "sport": "nhl",
-   "game": "New York Islanders at San Jose Sharks",
-   "start": "2026-11-10T03:00Z",
-   "market": "Alternate Puck Line",
-   "pick": "New York Islanders +1.5",
-   "odds": -370,
-   "fd_prob": 0.7533,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-09 23:53 UTC",
-   "dist_prob": 0.8757,
-   "market_prob": 0.8145,
-   "prob": 0.7975,
-   "pre_research": 0.8145,
-   "research": [
-    "rest 2.1d vs 2.1d",
-    "travel 2565 mi since last game",
-    "long trip, short rest (-0.5)",
-    "form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2",
-    "form edge (+0.3)",
-    "away record 3-3-1",
-    "opponent key player: G Kyle Keyser Injured Reserve",
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
-   ],
-   "research_adj": -0.017,
-   "raw_prob": 0.7975,
-   "v1_prob": 0.7975,
-   "v2_prob": 0.7682,
-   "v2_src": "Pinnacle: Pinnacle exact line",
-   "sharp_prob": 0.7687,
-   "sharp_edge": -0.0185,
-   "power_prob": 0.765,
-   "power_margin_home": -0.4,
-   "why": "FanDuel no-vig 75.3%, line model 87.6% -> est. 79.8% (edge +4.4 pts); research -1.7 pts: rest 2.1d vs 2.1d; travel 2565 mi since last game; long trip, short rest (-0.5); form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2; form edge (+0.3); away record 3-3-1; opponent key player: G Kyle Keyser Injured Reserve; low-scoring sport, one goal decides line (-1.5 volatility)",
-   "fd_market_id": "742.196706524",
-   "fd_selection_id": "7745647",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706524&selectionId%5B0%5D=7745647",
-   "fd_region": "PA"
-  },
   "401909952:7891310:742.196700112": {
    "kind": "spread",
    "side": "home",
@@ -1156,6 +1082,50 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706627&selectionId%5B0%5D=7735512",
    "fd_region": "PA"
   },
+  "401892682:7745647:742.196706524": {
+   "kind": "spread",
+   "side": "away",
+   "line": 1.5,
+   "id": "401892682:7745647:742.196706524",
+   "event": "401892682",
+   "sport": "nhl",
+   "game": "New York Islanders at San Jose Sharks",
+   "start": "2026-11-10T03:00Z",
+   "market": "Alternate Puck Line",
+   "pick": "New York Islanders +1.5",
+   "odds": -370,
+   "fd_prob": 0.7533,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36296139, fetched 2026-11-09 23:53 UTC",
+   "dist_prob": 0.8757,
+   "market_prob": 0.8145,
+   "prob": 0.7975,
+   "pre_research": 0.8145,
+   "research": [
+    "rest 2.1d vs 2.1d",
+    "travel 2565 mi since last game",
+    "long trip, short rest (-0.5)",
+    "form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2",
+    "form edge (+0.3)",
+    "away record 3-3-1",
+    "opponent key player: G Kyle Keyser Injured Reserve",
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.017,
+   "raw_prob": 0.7975,
+   "v1_prob": 0.7975,
+   "v2_prob": 0.7682,
+   "v2_src": "Pinnacle: Pinnacle exact line",
+   "sharp_prob": 0.7687,
+   "sharp_edge": -0.0185,
+   "power_prob": 0.765,
+   "power_margin_home": -0.4,
+   "why": "FanDuel no-vig 75.3%, line model 87.6% -> est. 79.8% (edge +4.4 pts); research -1.7 pts: rest 2.1d vs 2.1d; travel 2565 mi since last game; long trip, short rest (-0.5); form 4-6 last 10, avg margin -0.6 vs 3-7 last 10, avg margin -1.2; form edge (+0.3); away record 3-3-1; opponent key player: G Kyle Keyser Injured Reserve; low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.196706524",
+   "fd_selection_id": "7745647",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196706524&selectionId%5B0%5D=7745647",
+   "fd_region": "PA"
+  },
   "401892681:7000415:742.196706698": {
    "kind": "spread",
    "side": "away",
@@ -1663,10 +1633,7 @@
  ],
  "lottery": [],
  "best": null,
- "started": [
-  "401909959:7889023:742.196699789",
-  "401892682:7745647:742.196706524"
- ],
+ "started": [],
  "games": [
   {
    "id": "401873051",
@@ -1674,7 +1641,7 @@
    "name": "Buffalo Bills at Minnesota Vikings",
    "start": "2026-11-10T01:15Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "13:11 - 3rd",
    "venue": "U.S. Bank Stadium",
    "indoor": true,
    "city": {
@@ -1684,8 +1651,8 @@
    },
    "espn_wx": {
     "displayValue": "33",
-    "temperature": 50,
-    "highTemperature": 50,
+    "temperature": 49,
+    "highTemperature": 49,
     "conditionId": "Clear",
     "link": {
      "language": "en-US",
@@ -1921,7 +1888,7 @@
    "name": "Indiana Pacers at Dallas Mavericks",
    "start": "2026-11-10T01:00Z",
    "state": "in",
-   "status": "9:14 - 4th",
+   "status": "6:39 - 4th",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -1936,7 +1903,7 @@
     "home": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "100",
+     "score": "106",
      "winner": null,
      "record": "6-4",
      "ml_open": null,
@@ -1949,7 +1916,7 @@
     "away": {
      "name": "Indiana Pacers",
      "short": "Pacers",
-     "score": "97",
+     "score": "103",
      "winner": null,
      "record": "3-7",
      "ml_open": null,
@@ -1967,7 +1934,7 @@
    "name": "Denver Nuggets at Houston Rockets",
    "start": "2026-11-10T01:30Z",
    "state": "in",
-   "status": "5:25 - 3rd",
+   "status": "1:50 - 3rd",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
    "city": {
@@ -1982,7 +1949,7 @@
     "home": {
      "name": "Houston Rockets",
      "short": "Rockets",
-     "score": "60",
+     "score": "70",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -1995,7 +1962,7 @@
     "away": {
      "name": "Denver Nuggets",
      "short": "Nuggets",
-     "score": "58",
+     "score": "62",
      "winner": null,
      "record": "5-3",
      "ml_open": null,
@@ -2013,7 +1980,7 @@
    "name": "San Antonio Spurs at Phoenix Suns",
    "start": "2026-11-10T02:00Z",
    "state": "in",
-   "status": "2:02 - 2nd",
+   "status": "0.0 - 2nd",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2028,7 +1995,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "44",
+     "score": "46",
      "winner": null,
      "record": "3-5",
      "ml_open": null,
@@ -2041,7 +2008,7 @@
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "59",
+     "score": "61",
      "winner": null,
      "record": "8-2",
      "ml_open": null,
@@ -2059,7 +2026,7 @@
    "name": "New Orleans Pelicans at Golden State Warriors",
    "start": "2026-11-10T03:00Z",
    "state": "in",
-   "status": "11/9 - 10:00 PM EST",
+   "status": "10:55 - 1st",
    "venue": "Chase Center",
    "indoor": true,
    "city": {
@@ -2067,18 +2034,18 @@
     "state": "CA"
    },
    "espn_wx": null,
-   "line": "GS -10.5",
-   "total": 228.5,
-   "book": "Draft Kings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "0",
+     "score": "5",
      "winner": null,
      "record": "7-3",
-     "ml_open": "-378",
-     "ml": "-542",
+     "ml_open": null,
+     "ml": null,
      "tid": "9",
      "abbr": "GS",
      "home_rec": "5-1",
@@ -2087,18 +2054,17 @@
     "away": {
      "name": "New Orleans Pelicans",
      "short": "Pelicans",
-     "score": "0",
+     "score": "3",
      "winner": null,
      "record": "4-6",
-     "ml_open": "+300",
-     "ml": "+409",
+     "ml_open": null,
+     "ml": null,
      "tid": "3",
      "abbr": "NO",
      "home_rec": "3-3",
      "road_rec": "1-3"
     }
-   },
-   "espn_hs": -10.5
+   }
   },
   {
    "id": "401892680",
@@ -2106,7 +2072,7 @@
    "name": "New York Rangers at Edmonton Oilers",
    "start": "2026-11-10T01:00Z",
    "state": "in",
-   "status": "20:00 - 3rd",
+   "status": "14:50 - 3rd",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -2153,7 +2119,7 @@
    "name": "Philadelphia Flyers at Vancouver Canucks",
    "start": "2026-11-10T02:30Z",
    "state": "in",
-   "status": "9:08 - 1st",
+   "status": "3:37 - 1st",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -2200,7 +2166,7 @@
    "name": "New York Islanders at San Jose Sharks",
    "start": "2026-11-10T03:00Z",
    "state": "in",
-   "status": "11/9 - 10:00 PM EST",
+   "status": "16:44 - 1st",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -2209,9 +2175,9 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "NYI -142",
-   "total": 6.5,
-   "book": "Draft Kings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "San Jose Sharks",
@@ -2219,8 +2185,8 @@
      "score": "0",
      "winner": null,
      "record": "7-11-1",
-     "ml_open": "+110",
-     "ml": "+120",
+     "ml_open": null,
+     "ml": null,
      "tid": "18",
      "abbr": "SJ",
      "home_rec": "3-5-0",
@@ -2232,8 +2198,8 @@
      "score": "0",
      "winner": null,
      "record": "7-6-3",
-     "ml_open": "-130",
-     "ml": "-142",
+     "ml_open": null,
+     "ml": null,
      "tid": "12",
      "abbr": "NYI",
      "home_rec": "4-3-2",
@@ -2435,7 +2401,7 @@
   },
   {
    "team": "Cleveland Cavaliers",
-   "t": "Sam Merrill - Out: Merrill (elbow) is listed as out for Monday's game against the Hornets.",
+   "t": "Sam Merrill - Day-To-Day: Merrill (elbow) is listed as out for Monday's game against the Hornets.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2545,17 +2511,17 @@
   },
   {
    "team": "Memphis Grizzlies",
-   "t": "Quinten Post - Day-To-Day: Post is doubtful to return to Monday's game against Toronto due to a head injury.",
+   "t": "Isaiah Stewart - Day-To-Day: Stewart (knee) has been ruled out for Monday's game against Toronto.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Memphis Grizzlies",
+   "t": "Quinten Post - Day-To-Day: Post (head) didn't return to Monday's 118-102 win over the Raptors. He ended the night with one rebound in two minutes.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "Memphis Grizzlies",
    "t": "Scotty Pippen Jr. - Out: Pippen (back) won't play in Monday's game versus the Raptors.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "Memphis Grizzlies",
-   "t": "Isaiah Stewart - Out: Stewart (knee) has been ruled out for Monday's game against Toronto.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2610,17 +2576,17 @@
   },
   {
    "team": "Toronto Raptors",
-   "t": "Immanuel Quickley - Out: Quickley (hamstring) has been ruled out for Monday's game against Memphis, Esfandiar Baraheni of The Athletic reports.",
+   "t": "Immanuel Quickley - Day-To-Day: Quickley (hamstring) has been ruled out for Monday's game against Memphis, Esfandiar Baraheni of The Athletic reports.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "Toronto Raptors",
-   "t": "Collin Murray-Boyles - Out: Murray-Boyles (illness) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.",
+   "t": "Collin Murray-Boyles - Day-To-Day: Murray-Boyles (illness) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "Toronto Raptors",
-   "t": "Scottie Barnes - Out: Barnes (groin) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.",
+   "t": "Scottie Barnes - Day-To-Day: Barnes (groin) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -2795,38 +2761,9 @@
   }
  ],
  "weather": [],
- "moves": [
-  {
-   "g": "New Orleans Pelicans at Golden State Warriors",
-   "team": "Golden State Warriors",
-   "open": "-378",
-   "now": "-542",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "New Orleans Pelicans at Golden State Warriors",
-   "team": "New Orleans Pelicans",
-   "open": "+300",
-   "now": "+409",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "New York Islanders at San Jose Sharks",
-   "team": "San Jose Sharks",
-   "open": "+110",
-   "now": "+120",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "New York Islanders at San Jose Sharks",
-   "team": "New York Islanders",
-   "open": "-130",
-   "now": "-142",
-   "src": "ESPN/DraftKings"
-  }
- ],
+ "moves": [],
  "stats": {
-  "updated": "2026-11-10 03:03 UTC",
+  "updated": "2026-11-10 03:12 UTC",
   "graded_legs": 1963,
   "calibration": {
    "85-90%": {
@@ -5391,7 +5328,7 @@
   ]
  },
  "feature": null,
- "note": "292 FanDuel-priced candidates (ml, prop, spread, total) across 2 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 12 legs.",
+ "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 12 legs.",
  "model_check": {
   "v1": {
    "n": 5739,
@@ -5485,7 +5422,7 @@
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
    "dropped": 0,
-   "of": 292,
+   "of": 0,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": []
   }
