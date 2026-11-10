@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 04:19 UTC",
+ "updated": "2026-11-10 04:30 UTC",
  "date": "2026-11-09",
  "ladder_stats": {
   "tickets": 12,
@@ -1640,8 +1640,8 @@
    "sport": "nfl",
    "name": "Buffalo Bills at Minnesota Vikings",
    "start": "2026-11-10T01:15Z",
-   "state": "in",
-   "status": "3:22 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "U.S. Bank Stadium",
    "indoor": true,
    "city": {
@@ -1649,23 +1649,7 @@
     "state": "MN",
     "country": "USA"
    },
-   "espn_wx": {
-    "displayValue": "33",
-    "temperature": 49,
-    "highTemperature": 49,
-    "conditionId": "Clear",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "55415"
-     ],
-     "href": "http://www.accuweather.com/en/us/us-bank-stadium-mn/55415/current-weather/35911_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
+   "espn_wx": null,
    "line": null,
    "total": null,
    "book": null,
@@ -1674,27 +1658,27 @@
      "name": "Minnesota Vikings",
      "short": "Vikings",
      "score": "6",
-     "winner": null,
-     "record": "6-1",
+     "winner": false,
+     "record": "6-2",
      "ml_open": null,
      "ml": null,
      "tid": "16",
      "abbr": "MIN",
-     "home_rec": "3-0",
+     "home_rec": "3-1",
      "road_rec": "3-1"
     },
     "away": {
      "name": "Buffalo Bills",
      "short": "Bills",
      "score": "23",
-     "winner": null,
-     "record": "6-1",
+     "winner": true,
+     "record": "7-1",
      "ml_open": null,
      "ml": null,
      "tid": "2",
      "abbr": "BUF",
      "home_rec": "3-1",
-     "road_rec": "3-0"
+     "road_rec": "4-0"
     }
    }
   },
@@ -1979,8 +1963,8 @@
    "sport": "nba",
    "name": "San Antonio Spurs at Phoenix Suns",
    "start": "2026-11-10T02:00Z",
-   "state": "in",
-   "status": "25.7 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -1996,27 +1980,27 @@
      "name": "Phoenix Suns",
      "short": "Suns",
      "score": "96",
-     "winner": null,
-     "record": "3-5",
+     "winner": false,
+     "record": "3-6",
      "ml_open": null,
      "ml": null,
      "tid": "21",
      "abbr": "PHX",
-     "home_rec": "3-2",
+     "home_rec": "3-3",
      "road_rec": "0-3"
     },
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
      "score": "122",
-     "winner": null,
-     "record": "8-2",
+     "winner": true,
+     "record": "9-2",
      "ml_open": null,
      "ml": null,
      "tid": "24",
      "abbr": "SA",
      "home_rec": "4-2",
-     "road_rec": "4-0"
+     "road_rec": "5-0"
     }
    }
   },
@@ -2026,7 +2010,7 @@
    "name": "New Orleans Pelicans at Golden State Warriors",
    "start": "2026-11-10T03:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "8:13 - 3rd",
    "venue": "Chase Center",
    "indoor": true,
    "city": {
@@ -2041,7 +2025,7 @@
     "home": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "72",
+     "score": "84",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -2054,7 +2038,7 @@
     "away": {
      "name": "New Orleans Pelicans",
      "short": "Pelicans",
-     "score": "43",
+     "score": "55",
      "winner": null,
      "record": "4-6",
      "ml_open": null,
@@ -2119,7 +2103,7 @@
    "name": "Philadelphia Flyers at Vancouver Canucks",
    "start": "2026-11-10T02:30Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "19:35 - 3rd",
    "venue": "Rogers Arena",
    "indoor": true,
    "city": {
@@ -2148,7 +2132,7 @@
     "away": {
      "name": "Philadelphia Flyers",
      "short": "Flyers",
-     "score": "2",
+     "score": "3",
      "winner": null,
      "record": "4-10-5",
      "ml_open": null,
@@ -2166,7 +2150,7 @@
    "name": "New York Islanders at San Jose Sharks",
    "start": "2026-11-10T03:00Z",
    "state": "in",
-   "status": "8:44 - 2nd",
+   "status": "4:02 - 2nd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -2182,7 +2166,7 @@
     "home": {
      "name": "San Jose Sharks",
      "short": "Sharks",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "7-11-1",
      "ml_open": null,
@@ -2763,14 +2747,14 @@
  "weather": [],
  "moves": [],
  "stats": {
-  "updated": "2026-11-10 04:19 UTC",
-  "graded_legs": 1979,
+  "updated": "2026-11-10 04:30 UTC",
+  "graded_legs": 1989,
   "calibration": {
    "85-90%": {
-    "n": 898,
-    "wins": 775,
+    "n": 902,
+    "wins": 779,
     "pred": 0.873,
-    "hit": 0.863
+    "hit": 0.864
    },
    "75-80%": {
     "n": 158,
@@ -2803,10 +2787,10 @@
     "hit": 0.945
    },
    "70-75%": {
-    "n": 59,
-    "wins": 49,
+    "n": 60,
+    "wins": 50,
     "pred": 0.73,
-    "hit": 0.831
+    "hit": 0.833
    },
    "40-45%": {
     "n": 43,
@@ -2821,10 +2805,10 @@
     "hit": 0.375
    },
    "25-30%": {
-    "n": 104,
-    "wins": 26,
-    "pred": 0.275,
-    "hit": 0.25
+    "n": 108,
+    "wins": 28,
+    "pred": 0.274,
+    "hit": 0.259
    },
    "60-65%": {
     "n": 22,
@@ -2839,10 +2823,10 @@
     "hit": 0.321
    },
    "20-25%": {
-    "n": 57,
-    "wins": 11,
+    "n": 58,
+    "wins": 12,
     "pred": 0.236,
-    "hit": 0.193
+    "hit": 0.207
    },
    "35-40%": {
     "n": 44,
@@ -2877,10 +2861,10 @@
     "hit": 0.805
    },
    "nba": {
-    "n": 708,
-    "wins": 550,
-    "pred": 0.802,
-    "hit": 0.777
+    "n": 714,
+    "wins": 554,
+    "pred": 0.8,
+    "hit": 0.776
    },
    "nhl": {
     "n": 354,
@@ -2901,10 +2885,10 @@
     "hit": 0.875
    },
    "nfl": {
-    "n": 179,
-    "wins": 132,
-    "pred": 0.72,
-    "hit": 0.737
+    "n": 183,
+    "wins": 136,
+    "pred": 0.717,
+    "hit": 0.743
    },
    "esp.1": {
     "n": 41,
@@ -2933,16 +2917,16 @@
   },
   "by_market": {
    "total": {
-    "n": 916,
-    "wins": 741,
+    "n": 918,
+    "wins": 743,
     "pred": 0.822,
     "hit": 0.809
    },
    "spread": {
-    "n": 823,
-    "wins": 610,
-    "pred": 0.75,
-    "hit": 0.741
+    "n": 829,
+    "wins": 616,
+    "pred": 0.749,
+    "hit": 0.743
    },
    "dc": {
     "n": 71,
@@ -2969,22 +2953,22 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 69,
+    "n": 71,
     "wins": 17,
-    "pred": 0.285,
-    "hit": 0.246
+    "pred": 0.284,
+    "hit": 0.239
    }
   },
   "parlays": {
-   "graded": 603,
-   "won": 105,
-   "expected": 119.12,
-   "pending": 18,
+   "graded": 606,
+   "won": 107,
+   "expected": 120.12,
+   "pending": 15,
    "by_type": {
     "ladder": {
-     "graded": 364,
-     "won": 84,
-     "expected": 96.96
+     "graded": 366,
+     "won": 86,
+     "expected": 97.96
     },
     "best": {
      "graded": 15,
@@ -2992,9 +2976,9 @@
      "expected": 3.04
     },
     "lottery": {
-     "graded": 224,
+     "graded": 225,
      "won": 18,
-     "expected": 19.01
+     "expected": 19.02
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -3008,10 +2992,10 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "favorites_record": {
-  "won": 28,
+  "won": 29,
   "lost": 37,
-  "pending": 3,
-  "win_pct": 0.431,
+  "pending": 2,
+  "win_pct": 0.439,
   "by_legs": {
    "2": {
     "won": 11,
@@ -3026,10 +3010,10 @@
     "win_pct": 0.5
    },
    "4": {
-    "won": 6,
+    "won": 7,
     "lost": 12,
-    "pending": 2,
-    "win_pct": 0.333
+    "pending": 1,
+    "win_pct": 0.368
    },
    "5": {
     "won": 3,
@@ -3071,7 +3055,7 @@
       "pick": "San Antonio Spurs -1.5",
       "game": "San Antonio Spurs at Phoenix Suns",
       "odds": -300,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Over 5.5",
@@ -3094,7 +3078,7 @@
     "n": 4,
     "est_prob": 0.55001,
     "fd_payout_x": 1.64,
-    "result": null,
+    "result": "win",
     "source": "logged",
     "legs": [
      {
@@ -3113,7 +3097,7 @@
       "pick": "Under (61.5)",
       "game": "Buffalo Bills at Minnesota Vikings",
       "odds": -1000,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Edmonton Oilers +1.5",
@@ -5331,43 +5315,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 12 legs.",
  "model_check": {
   "v1": {
-   "n": 5799,
-   "brier": 0.1518,
-   "logloss": 0.48,
+   "n": 5826,
+   "brier": 0.1523,
+   "logloss": 0.4811,
    "picks": 1478,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.11,
-   "top_picks_graded": 1458,
-   "top_picks_won": 1226,
-   "top_picks_expected": 1218.44,
-   "top_win_rate": 0.840877914951989
+   "top_picks_graded": 1463,
+   "top_picks_won": 1231,
+   "top_picks_expected": 1222.77,
+   "top_win_rate": 0.8414217361585783
   },
   "v2": {
-   "n": 5799,
-   "brier": 0.1511,
-   "logloss": 0.4787,
+   "n": 5826,
+   "brier": 0.1517,
+   "logloss": 0.4802,
    "picks": 551,
    "avg_clv_fd_pts": 0.33,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 546,
-   "top_picks_won": 477,
-   "top_picks_expected": 481.87,
-   "top_win_rate": 0.8736263736263736
+   "top_picks_graded": 548,
+   "top_picks_won": 478,
+   "top_picks_expected": 483.67,
+   "top_win_rate": 0.8722627737226277
   },
-  "graded": 5799,
+  "graded": 5826,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 5799,
-    "v2": 5799,
+    "v1": 5826,
+    "v2": 5826,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.48,
-    "v2": 0.4787,
+    "v1": 0.4811,
+    "v2": 0.4802,
     "pass": true
    },
    {
@@ -5384,14 +5368,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1458,
-    "v2": 546,
+    "v1": 1463,
+    "v2": 548,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1226/1458",
-    "v2": "477/546",
+    "v1": "1231/1463",
+    "v2": "478/548",
     "pass": true
    }
   ],
