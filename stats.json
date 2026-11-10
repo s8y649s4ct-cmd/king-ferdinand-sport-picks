@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-10 05:53 UTC",
- "graded_legs": 2002,
+ "updated": "2026-11-10 06:03 UTC",
+ "graded_legs": 2007,
  "calibration": {
   "85-90%": {
    "n": 904,
@@ -9,16 +9,16 @@
    "hit": 0.864
   },
   "75-80%": {
-   "n": 160,
-   "wins": 130,
+   "n": 162,
+   "wins": 132,
    "pred": 0.784,
-   "hit": 0.812
+   "hit": 0.815
   },
   "80-85%": {
-   "n": 360,
-   "wins": 304,
+   "n": 361,
+   "wins": 305,
    "pred": 0.825,
-   "hit": 0.844
+   "hit": 0.845
   },
   "65-70%": {
    "n": 24,
@@ -57,16 +57,16 @@
    "hit": 0.412
   },
   "25-30%": {
-   "n": 110,
+   "n": 111,
    "wins": 28,
    "pred": 0.274,
-   "hit": 0.255
+   "hit": 0.252
   },
   "60-65%": {
-   "n": 23,
+   "n": 24,
    "wins": 10,
    "pred": 0.625,
-   "hit": 0.435
+   "hit": 0.417
   },
   "30-35%": {
    "n": 54,
@@ -119,8 +119,8 @@
    "hit": 0.776
   },
   "nhl": {
-   "n": 359,
-   "wins": 228,
+   "n": 364,
+   "wins": 231,
    "pred": 0.671,
    "hit": 0.635
   },
@@ -169,15 +169,15 @@
  },
  "by_market": {
   "total": {
-   "n": 921,
-   "wins": 745,
-   "pred": 0.822,
-   "hit": 0.809
+   "n": 923,
+   "wins": 746,
+   "pred": 0.821,
+   "hit": 0.808
   },
   "spread": {
-   "n": 837,
-   "wins": 623,
-   "pred": 0.748,
+   "n": 840,
+   "wins": 625,
+   "pred": 0.747,
    "hit": 0.744
   },
   "dc": {
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 610,
-  "won": 109,
-  "expected": 121.44,
-  "pending": 11,
+  "graded": 621,
+  "won": 120,
+  "expected": 125.72,
+  "pending": 25,
   "by_type": {
    "ladder": {
-    "graded": 368,
-    "won": 88,
-    "expected": 99.04
+    "graded": 372,
+    "won": 92,
+    "expected": 100.16
    },
    "best": {
     "graded": 16,
@@ -228,15 +228,15 @@
     "expected": 3.24
    },
    "lottery": {
-    "graded": 226,
-    "won": 18,
-    "expected": 19.06
+    "graded": 233,
+    "won": 25,
+    "expected": 22.23
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 1968,
+  "legs_tracked": 2035,
   "avg_clv_pts": -0.02,
   "beat_close": 487,
   "worse_than_close": 596
