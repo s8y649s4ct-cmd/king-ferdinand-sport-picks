@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 05:34 UTC",
+ "updated": "2026-11-11 05:51 UTC",
  "date": "2026-11-10",
  "ladder_stats": {
   "tickets": 16,
@@ -2739,7 +2739,7 @@
    "name": "Oklahoma City Thunder at Portland Trail Blazers",
    "start": "2026-11-11T04:00Z",
    "state": "in",
-   "status": "9:01 - 3rd",
+   "status": "3:26 - 3rd",
    "venue": "Moda Center",
    "indoor": true,
    "city": {
@@ -2754,7 +2754,7 @@
     "home": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "67",
+     "score": "85",
      "winner": null,
      "record": "6-3",
      "ml_open": null,
@@ -2767,7 +2767,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "64",
+     "score": "75",
      "winner": null,
      "record": "8-2",
      "ml_open": null,
@@ -3066,8 +3066,8 @@
    "sport": "nhl",
    "name": "Nashville Predators at Los Angeles Kings",
    "start": "2026-11-11T03:00Z",
-   "state": "in",
-   "status": "3:35 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3084,27 +3084,27 @@
      "name": "Los Angeles Kings",
      "short": "Kings",
      "score": "0",
-     "winner": null,
-     "record": "5-8-2",
+     "winner": false,
+     "record": "5-9-2",
      "ml_open": null,
      "ml": null,
      "tid": "8",
      "abbr": "LA",
-     "home_rec": "2-5-0",
+     "home_rec": "2-6-0",
      "road_rec": "3-3-2"
     },
     "away": {
      "name": "Nashville Predators",
      "short": "Predators",
-     "score": "2",
-     "winner": null,
-     "record": "8-4-5",
+     "score": "3",
+     "winner": true,
+     "record": "9-4-5",
      "ml_open": null,
      "ml": null,
      "tid": "27",
      "abbr": "NSH",
      "home_rec": "6-3-2",
-     "road_rec": "2-1-3"
+     "road_rec": "3-1-3"
     }
    }
   }
@@ -3659,14 +3659,14 @@
   },
   {
    "g": "Ohio Bobcats at Miami (OH) RedHawks",
-   "w": "45.0F, wind 6.5 mph, rain 100%",
+   "w": "44.8F, wind 6.3 mph, rain 100%",
    "src": "open-meteo"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-11 05:34 UTC",
-  "graded_legs": 2075,
+  "updated": "2026-11-11 05:51 UTC",
+  "graded_legs": 2082,
   "calibration": {
    "85-90%": {
     "n": 935,
@@ -3675,16 +3675,16 @@
     "hit": 0.862
    },
    "75-80%": {
-    "n": 164,
-    "wins": 134,
+    "n": 166,
+    "wins": 135,
     "pred": 0.784,
-    "hit": 0.817
+    "hit": 0.813
    },
    "80-85%": {
-    "n": 370,
+    "n": 372,
     "wins": 312,
     "pred": 0.824,
-    "hit": 0.843
+    "hit": 0.839
    },
    "65-70%": {
     "n": 25,
@@ -3723,16 +3723,16 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 120,
+    "n": 121,
     "wins": 31,
     "pred": 0.274,
-    "hit": 0.258
+    "hit": 0.256
    },
    "60-65%": {
-    "n": 24,
+    "n": 25,
     "wins": 10,
-    "pred": 0.625,
-    "hit": 0.417
+    "pred": 0.624,
+    "hit": 0.4
    },
    "30-35%": {
     "n": 56,
@@ -3747,10 +3747,10 @@
     "hit": 0.2
    },
    "35-40%": {
-    "n": 46,
+    "n": 47,
     "wins": 14,
     "pred": 0.38,
-    "hit": 0.304
+    "hit": 0.298
    },
    "55-60%": {
     "n": 16,
@@ -3785,10 +3785,10 @@
     "hit": 0.769
    },
    "nhl": {
-    "n": 379,
-    "wins": 240,
+    "n": 386,
+    "wins": 241,
     "pred": 0.67,
-    "hit": 0.633
+    "hit": 0.624
    },
    "mlb": {
     "n": 10,
@@ -3835,16 +3835,16 @@
   },
   "by_market": {
    "total": {
-    "n": 940,
-    "wins": 760,
+    "n": 943,
+    "wins": 761,
     "pred": 0.822,
-    "hit": 0.809
+    "hit": 0.807
    },
    "spread": {
-    "n": 878,
+    "n": 882,
     "wins": 650,
-    "pred": 0.746,
-    "hit": 0.74
+    "pred": 0.745,
+    "hit": 0.737
    },
    "dc": {
     "n": 71,
@@ -3878,15 +3878,15 @@
    }
   },
   "parlays": {
-   "graded": 644,
+   "graded": 648,
    "won": 120,
-   "expected": 130.25,
-   "pending": 7,
+   "expected": 131.49,
+   "pending": 3,
    "by_type": {
     "ladder": {
-     "graded": 384,
+     "graded": 386,
      "won": 92,
-     "expected": 103.42
+     "expected": 104.02
     },
     "best": {
      "graded": 17,
@@ -3894,9 +3894,9 @@
      "expected": 3.42
     },
     "lottery": {
-     "graded": 243,
+     "graded": 245,
      "won": 25,
-     "expected": 23.33
+     "expected": 23.98
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -3991,7 +3991,7 @@
       "pick": "Over 5.5",
       "game": "Nashville Predators at Los Angeles Kings",
       "odds": -152,
-      "result": null
+      "result": "loss"
      }
     ]
    },
@@ -6365,43 +6365,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 16 legs.",
  "model_check": {
   "v1": {
-   "n": 6085,
-   "brier": 0.1521,
-   "logloss": 0.4807,
+   "n": 6097,
+   "brier": 0.1525,
+   "logloss": 0.4815,
    "picks": 1549,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.1,
-   "top_picks_graded": 1534,
-   "top_picks_won": 1289,
-   "top_picks_expected": 1281.17,
-   "top_win_rate": 0.8402868318122555
+   "top_picks_graded": 1536,
+   "top_picks_won": 1290,
+   "top_picks_expected": 1282.53,
+   "top_win_rate": 0.83984375
   },
   "v2": {
-   "n": 6085,
-   "brier": 0.1516,
-   "logloss": 0.4802,
+   "n": 6097,
+   "brier": 0.152,
+   "logloss": 0.481,
    "picks": 567,
    "avg_clv_fd_pts": 0.33,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 565,
+   "top_picks_graded": 566,
    "top_picks_won": 491,
-   "top_picks_expected": 498.77,
-   "top_win_rate": 0.8690265486725663
+   "top_picks_expected": 499.66,
+   "top_win_rate": 0.8674911660777385
   },
-  "graded": 6085,
+  "graded": 6097,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6085,
-    "v2": 6085,
+    "v1": 6097,
+    "v2": 6097,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4807,
-    "v2": 0.4802,
+    "v1": 0.4815,
+    "v2": 0.481,
     "pass": true
    },
    {
@@ -6418,14 +6418,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1534,
-    "v2": 565,
+    "v1": 1536,
+    "v2": 566,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1289/1534",
-    "v2": "491/565",
+    "v1": "1290/1536",
+    "v2": "491/566",
     "pass": true
    }
   ],
