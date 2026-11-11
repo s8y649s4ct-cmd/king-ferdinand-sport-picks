@@ -117515,7 +117515,7 @@
     "close_odds": -154
    }
   ],
-  "logged": "2026-11-11 01:22 UTC",
+  "logged": "2026-11-11 01:32 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -117547,7 +117547,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-11 01:22 UTC",
+  "logged": "2026-11-11 01:32 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -117594,7 +117594,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-11 01:22 UTC",
+  "logged": "2026-11-11 01:32 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -119891,8 +119891,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.027425975109000002,
-  "fd_payout_x": 39.0,
+  "est_prob": 0.037796386836,
+  "fd_payout_x": 28.6,
   "legs_detail": [
    {
     "id": "401892689:7742231:742.196904999",
@@ -119926,22 +119926,23 @@
     "close_odds": 150
    },
    {
-    "id": "401909963:237484:742.196584627",
+    "id": "401909963:7890442:742.196868181",
     "event": "401909963",
     "sport": "nba",
-    "kind": "ml",
+    "kind": "spread",
     "side": "home",
-    "pick": "Utah Jazz",
-    "market": "Moneyline",
-    "odds": 290,
-    "prob": 0.2441,
-    "raw_prob": 0.2441,
+    "line": 3.5,
+    "pick": "Utah Jazz +3.5",
+    "market": "Alternate Spread",
+    "odds": 186,
+    "prob": 0.3364,
+    "raw_prob": 0.3364,
     "game": "Miami Heat at Utah Jazz",
     "result": null,
-    "close_odds": 290
+    "close_odds": 186
    }
   ],
-  "logged": "2026-11-11 01:22 UTC",
+  "logged": "2026-11-11 01:32 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -119952,7 +119953,7 @@
   "type": "lottery",
   "label": "~100x",
   "n": 4,
-  "est_prob": 0.007158179503449001,
+  "est_prob": 0.007120057285692,
   "fd_payout_x": 142.35,
   "legs_detail": [
    {
@@ -119987,21 +119988,6 @@
     "close_odds": 150
    },
    {
-    "id": "401909963:237484:742.196584627",
-    "event": "401909963",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "home",
-    "pick": "Utah Jazz",
-    "market": "Moneyline",
-    "odds": 290,
-    "prob": 0.2441,
-    "raw_prob": 0.2441,
-    "game": "Miami Heat at Utah Jazz",
-    "result": null,
-    "close_odds": 290
-   },
-   {
     "id": "401909965:17971698:742.196846589",
     "event": "401909965",
     "sport": "nba",
@@ -120018,9 +120004,24 @@
     "game": "Oklahoma City Thunder at Portland Trail Blazers",
     "result": null,
     "close_odds": 265
+   },
+   {
+    "id": "401909963:237484:742.196584627",
+    "event": "401909963",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "home",
+    "pick": "Utah Jazz",
+    "market": "Moneyline",
+    "odds": 290,
+    "prob": 0.2428,
+    "raw_prob": 0.2428,
+    "game": "Miami Heat at Utah Jazz",
+    "result": null,
+    "close_odds": 290
    }
   ],
-  "logged": "2026-11-11 01:22 UTC",
+  "logged": "2026-11-11 01:32 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120031,7 +120032,7 @@
   "type": "lottery",
   "label": "~500x",
   "n": 5,
-  "est_prob": 0.0016721507320056866,
+  "est_prob": 0.0016632453819376513,
   "fd_payout_x": 569.4,
   "legs_detail": [
    {
@@ -120051,21 +120052,6 @@
     "close_odds": 300
    },
    {
-    "id": "401909962:6023845:742.196584649",
-    "event": "401909962",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "Los Angeles Clippers",
-    "market": "Moneyline",
-    "odds": 150,
-    "prob": 0.4017,
-    "raw_prob": 0.4017,
-    "game": "LA Clippers at Phoenix Suns",
-    "result": null,
-    "close_odds": 150
-   },
-   {
     "id": "401909963:237484:742.196584627",
     "event": "401909963",
     "sport": "nba",
@@ -120074,8 +120060,8 @@
     "pick": "Utah Jazz",
     "market": "Moneyline",
     "odds": 290,
-    "prob": 0.2441,
-    "raw_prob": 0.2441,
+    "prob": 0.2428,
+    "raw_prob": 0.2428,
     "game": "Miami Heat at Utah Jazz",
     "result": null,
     "close_odds": 290
@@ -120099,16 +120085,31 @@
     "close_odds": 265
    },
    {
-    "id": "401909964:36981633:742.196852751",
+    "id": "401909962:6023845:742.196584649",
+    "event": "401909962",
+    "sport": "nba",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Los Angeles Clippers",
+    "market": "Moneyline",
+    "odds": 150,
+    "prob": 0.4017,
+    "raw_prob": 0.4017,
+    "game": "LA Clippers at Phoenix Suns",
+    "result": null,
+    "close_odds": 150
+   },
+   {
+    "id": "401909964:26969962:742.196852832",
     "event": "401909964",
     "sport": "nba",
     "kind": "prop",
-    "line": 29.5,
+    "line": 4.5,
     "ou": "over",
-    "player": "Franz Wagner",
-    "stat": "POI",
-    "pick": "Franz Wagner",
-    "market": "30+ Points",
+    "player": "Desmond Bane",
+    "stat": "3PM",
+    "pick": "Desmond Bane",
+    "market": "5+ Threes",
     "odds": 300,
     "prob": 0.2336,
     "raw_prob": 0.2336,
@@ -120117,7 +120118,7 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-11-11 01:22 UTC",
+  "logged": "2026-11-11 01:32 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120212,7 +120213,7 @@
     "close_odds": -340
    }
   ],
-  "logged": "2026-11-11 01:22 UTC",
+  "logged": "2026-11-11 01:32 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -120472,7 +120473,7 @@
     "raw_prob": 0.2396,
     "game": "Orlando Magic at Sacramento Kings",
     "result": null,
-    "close_odds": 290
+    "close_odds": 285
    }
   ],
   "logged": "2026-11-11 00:55 UTC",
@@ -120730,7 +120731,7 @@
     "raw_prob": 0.2683,
     "game": "Orlando Magic at Sacramento Kings",
     "result": null,
-    "close_odds": 280
+    "close_odds": 240
    },
    {
     "id": "401909965:17971698:742.196846589",
