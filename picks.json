@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11 01:32 UTC",
+ "updated": "2026-11-11 01:50 UTC",
  "date": "2026-11-10",
  "ladder_stats": {
   "tickets": 16,
-  "leg_slots": 146,
-  "unique_legs": 50,
+  "leg_slots": 147,
+  "unique_legs": 52,
   "unique_games": 16,
   "games_available": 5,
   "max_leg_reuse": 9,
@@ -13,40 +13,50 @@
   "disjoint_up_to": 2
  },
  "legs": {
-  "401909962:7747570:742.196854027": {
-   "kind": "total",
-   "ou": "under",
-   "line": 246.5,
-   "id": "401909962:7747570:742.196854027",
+  "401909962:7901445:742.196854047": {
+   "kind": "spread",
+   "side": "away",
+   "line": 19.5,
+   "id": "401909962:7901445:742.196854047",
    "event": "401909962",
    "sport": "nba",
    "game": "LA Clippers at Phoenix Suns",
    "start": "2026-11-11T02:00Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 246.5",
+   "market": "Alternate Spread",
+   "pick": "Los Angeles Clippers +19.5",
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:32 UTC",
-   "dist_prob": 0.9022,
-   "market_prob": 0.8799,
-   "prob": 0.8899,
-   "pre_research": 0.8799,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:50 UTC",
+   "dist_prob": 0.9088,
+   "market_prob": 0.8832,
+   "prob": 0.8968,
+   "pre_research": 0.8832,
    "research": [
-    "DraftKings total 223.5 vs FanDuel 224.5 (+0.5)",
-    "FanDuel price moved our way -750 -> -1000 (+0.5)"
+    "rest 2.0d vs 1.0d",
+    "opponent on back-to-back (+1.0)",
+    "travel 363 mi since last game",
+    "form 2-7 last 9, avg margin -4.0 vs 3-6 last 9, avg margin -8.4",
+    "form edge (+0.4)",
+    "away record 0-4"
    ],
-   "research_adj": 0.01,
-   "raw_prob": 0.8899,
-   "v1_prob": 0.8899,
-   "v2_prob": 0.9096,
-   "v2_src": "Pinnacle: Pinnacle total 226 extrapolated",
-   "sharp_prob": 0.9096,
-   "sharp_edge": 0.0005,
-   "why": "FanDuel no-vig 85.8%, line model 90.2% -> est. 89.0% (edge +3.2 pts); research +1.0 pts: DraftKings total 223.5 vs FanDuel 224.5 (+0.5); FanDuel price moved our way -750 -> -1000 (+0.5)",
-   "fd_market_id": "742.196854027",
-   "fd_selection_id": "7747570",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7747570",
+   "research_adj": 0.0136,
+   "raw_prob": 0.8968,
+   "v1_prob": 0.8968,
+   "v2_prob": 0.902,
+   "v2_src": "Pinnacle: Pinnacle -6 line extrapolated 13.5 pts",
+   "sharp_prob": 0.9123,
+   "sharp_edge": 0.0032,
+   "power_prob": 0.8436,
+   "power_margin_home": 7.4,
+   "v2_injuries": [
+    "Yanic Konan Niederhauser Out (4p/3r/0a, 10 min): -0.5 pts",
+    "Brandon Ingram Out (20p/5r/4a, 33 min): -6.0 pts"
+   ],
+   "why": "FanDuel no-vig 85.8%, line model 90.9% -> est. 89.7% (edge +3.9 pts); research +1.4 pts: rest 2.0d vs 1.0d; opponent on back-to-back (+1.0); travel 363 mi since last game; form 2-7 last 9, avg margin -4.0 vs 3-6 last 9, avg margin -8.4; form edge (+0.4); away record 0-4",
+   "fd_market_id": "742.196854047",
+   "fd_selection_id": "7901445",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854047&selectionId%5B0%5D=7901445",
    "fd_region": "PA"
   },
   "401909963:7890450:742.196868181": {
@@ -63,7 +73,7 @@
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.9217,
    "market_prob": 0.8897,
    "prob": 0.8846,
@@ -95,25 +105,25 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868181&selectionId%5B0%5D=7890450",
    "fd_region": "PA"
   },
-  "401909964:7883402:742.196868269": {
+  "401909964:7883365:742.196868269": {
    "kind": "spread",
    "side": "away",
-   "line": 10.5,
-   "id": "401909964:7883402:742.196868269",
+   "line": 9.5,
+   "id": "401909964:7883365:742.196868269",
    "event": "401909964",
    "sport": "nba",
    "game": "Orlando Magic at Sacramento Kings",
    "start": "2026-11-11T03:00Z",
    "market": "Alternate Spread",
-   "pick": "Orlando Magic +10.5",
-   "odds": -950,
-   "fd_prob": 0.8535,
+   "pick": "Orlando Magic +9.5",
+   "odds": -900,
+   "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:32 UTC",
-   "dist_prob": 0.9088,
-   "market_prob": 0.8812,
-   "prob": 0.8845,
-   "pre_research": 0.8812,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:50 UTC",
+   "dist_prob": 0.8944,
+   "market_prob": 0.8717,
+   "prob": 0.875,
+   "pre_research": 0.8717,
    "research": [
     "rest 3.1d vs 2.0d",
     "travel 75 mi since last game",
@@ -122,24 +132,24 @@
     "away record 2-3"
    ],
    "research_adj": 0.0033,
-   "raw_prob": 0.8845,
-   "v1_prob": 0.8845,
-   "v2_prob": 0.8889,
-   "v2_src": "Pinnacle: Pinnacle +3 line extrapolated 13.5 pts",
-   "sharp_prob": 0.913,
-   "sharp_edge": 0.0082,
-   "power_prob": 0.7526,
-   "power_margin_home": 2.3,
+   "raw_prob": 0.875,
+   "v1_prob": 0.875,
+   "v2_prob": 0.8658,
+   "v2_src": "Pinnacle: Pinnacle +3 line extrapolated 12.5 pts",
+   "sharp_prob": 0.899,
+   "sharp_edge": -0.001,
+   "power_prob": 0.6775,
+   "power_margin_home": 4.0,
    "v2_injuries": [
     "Maxime Raynaud Out (12p/8r/1a, 26 min): -3.8 pts",
-    "Tristan da Silva Day-To-Day (9p/4r/2a, 24 min): -0.7 pts",
+    "Tristan da Silva Out (9p/4r/2a, 24 min): -2.4 pts",
     "Jalen Suggs Out (13p/4r/4a, 27 min): -3.9 pts",
     "Jonathan Isaac Out (7p/4r/1a, 19 min): -1.5 pts"
    ],
-   "why": "FanDuel no-vig 85.4%, line model 90.9% -> est. 88.4% (edge +3.1 pts); research +0.3 pts: rest 3.1d vs 2.0d; travel 75 mi since last game; form 2-7 last 9, avg margin -9.2 vs 1-9 last 10, avg margin -13.3; form edge (+0.3); away record 2-3",
+   "why": "FanDuel no-vig 84.9%, line model 89.4% -> est. 87.5% (edge +2.6 pts); research +0.3 pts: rest 3.1d vs 2.0d; travel 75 mi since last game; form 2-7 last 9, avg margin -9.2 vs 1-9 last 10, avg margin -13.3; form edge (+0.3); away record 2-3",
    "fd_market_id": "742.196868269",
-   "fd_selection_id": "7883402",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883402",
+   "fd_selection_id": "7883365",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883365",
    "fd_region": "PA"
   },
   "401909965:7913887:742.196868400": {
@@ -156,7 +166,7 @@
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.9088,
    "market_prob": 0.8832,
    "prob": 0.8832,
@@ -201,7 +211,7 @@
    "odds": -650,
    "fd_prob": 0.8176,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.938,
    "market_prob": 0.8778,
    "prob": 0.8,
@@ -243,7 +253,7 @@
    "odds": -900,
    "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8944,
    "market_prob": 0.8717,
    "prob": 0.8853,
@@ -286,26 +296,25 @@
    "start": "2026-11-11T02:00Z",
    "market": "Alternate Total Points",
    "pick": "Under 245.5",
-   "odds": -850,
-   "fd_prob": 0.8441,
+   "odds": -950,
+   "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8916,
-   "market_prob": 0.8679,
-   "prob": 0.8779,
-   "pre_research": 0.8679,
+   "market_prob": 0.8726,
+   "prob": 0.8776,
+   "pre_research": 0.8726,
    "research": [
-    "DraftKings total 223.5 vs FanDuel 224.5 (+0.5)",
-    "FanDuel price moved our way -670 -> -850 (+0.5)"
+    "FanDuel price moved our way -670 -> -950 (+0.5)"
    ],
-   "research_adj": 0.01,
-   "raw_prob": 0.8779,
-   "v1_prob": 0.8779,
-   "v2_prob": 0.8997,
-   "v2_src": "Pinnacle: Pinnacle total 226 extrapolated",
-   "sharp_prob": 0.8997,
-   "sharp_edge": 0.0049,
-   "why": "FanDuel no-vig 84.4%, line model 89.2% -> est. 87.8% (edge +3.4 pts); research +1.0 pts: DraftKings total 223.5 vs FanDuel 224.5 (+0.5); FanDuel price moved our way -670 -> -850 (+0.5)",
+   "research_adj": 0.005,
+   "raw_prob": 0.8776,
+   "v1_prob": 0.8776,
+   "v2_prob": 0.8913,
+   "v2_src": "Pinnacle: Pinnacle total 227 extrapolated",
+   "sharp_prob": 0.8913,
+   "sharp_edge": -0.0134,
+   "why": "FanDuel no-vig 85.4%, line model 89.2% -> est. 87.8% (edge +2.4 pts); research +0.5 pts: FanDuel price moved our way -670 -> -950 (+0.5)",
    "fd_market_id": "742.196854027",
    "fd_selection_id": "7700492",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7700492",
@@ -325,7 +334,7 @@
    "odds": -750,
    "fd_prob": 0.8324,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8783,
    "market_prob": 0.8554,
    "prob": 0.869,
@@ -371,7 +380,7 @@
    "odds": -850,
    "fd_prob": 0.8441,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8944,
    "market_prob": 0.8692,
    "prob": 0.8743,
@@ -417,7 +426,7 @@
    "odds": -900,
    "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.9088,
    "market_prob": 0.8789,
    "prob": 0.8738,
@@ -463,7 +472,7 @@
    "odds": -950,
    "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8916,
    "market_prob": 0.8726,
    "prob": 0.8726,
@@ -496,7 +505,7 @@
    "odds": -750,
    "fd_prob": 0.8324,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8783,
    "market_prob": 0.8554,
    "prob": 0.8605,
@@ -528,51 +537,39 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868181&selectionId%5B0%5D=7883717",
    "fd_region": "PA"
   },
-  "401909964:7883365:742.196868269": {
-   "kind": "spread",
-   "side": "away",
-   "line": 9.5,
-   "id": "401909964:7883365:742.196868269",
+  "401909964:7733196:742.196868264": {
+   "kind": "total",
+   "ou": "over",
+   "line": 202.5,
+   "id": "401909964:7733196:742.196868264",
    "event": "401909964",
    "sport": "nba",
    "game": "Orlando Magic at Sacramento Kings",
    "start": "2026-11-11T03:00Z",
-   "market": "Alternate Spread",
-   "pick": "Orlando Magic +9.5",
-   "odds": -800,
-   "fd_prob": 0.8386,
+   "market": "Alternate Total Points",
+   "pick": "Over 202.5",
+   "odds": -950,
+   "fd_prob": 0.8535,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:32 UTC",
-   "dist_prob": 0.8944,
-   "market_prob": 0.8665,
-   "prob": 0.8698,
-   "pre_research": 0.8665,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:50 UTC",
+   "dist_prob": 0.8681,
+   "market_prob": 0.8608,
+   "prob": 0.8658,
+   "pre_research": 0.8608,
    "research": [
-    "rest 3.1d vs 2.0d",
-    "travel 75 mi since last game",
-    "form 2-7 last 9, avg margin -9.2 vs 1-9 last 10, avg margin -13.3",
-    "form edge (+0.3)",
-    "away record 2-3"
+    "DraftKings total 222.5 vs FanDuel 221.5 (+0.5)"
    ],
-   "research_adj": 0.0033,
-   "raw_prob": 0.8698,
-   "v1_prob": 0.8698,
-   "v2_prob": 0.873,
-   "v2_src": "Pinnacle: Pinnacle +3 line extrapolated 12.5 pts",
-   "sharp_prob": 0.899,
-   "sharp_edge": 0.0101,
-   "power_prob": 0.7256,
-   "power_margin_home": 2.3,
-   "v2_injuries": [
-    "Maxime Raynaud Out (12p/8r/1a, 26 min): -3.8 pts",
-    "Tristan da Silva Day-To-Day (9p/4r/2a, 24 min): -0.7 pts",
-    "Jalen Suggs Out (13p/4r/4a, 27 min): -3.9 pts",
-    "Jonathan Isaac Out (7p/4r/1a, 19 min): -1.5 pts"
-   ],
-   "why": "FanDuel no-vig 83.9%, line model 89.4% -> est. 87.0% (edge +3.1 pts); research +0.3 pts: rest 3.1d vs 2.0d; travel 75 mi since last game; form 2-7 last 9, avg margin -9.2 vs 1-9 last 10, avg margin -13.3; form edge (+0.3); away record 2-3",
-   "fd_market_id": "742.196868269",
-   "fd_selection_id": "7883365",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883365",
+   "research_adj": 0.005,
+   "raw_prob": 0.8658,
+   "v1_prob": 0.8658,
+   "v2_prob": 0.8789,
+   "v2_src": "Pinnacle: Pinnacle total 220 extrapolated",
+   "sharp_prob": 0.8789,
+   "sharp_edge": -0.0258,
+   "why": "FanDuel no-vig 85.4%, line model 86.8% -> est. 86.6% (edge +1.2 pts); research +0.5 pts: DraftKings total 222.5 vs FanDuel 221.5 (+0.5)",
+   "fd_market_id": "742.196868264",
+   "fd_selection_id": "7733196",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868264&selectionId%5B0%5D=7733196",
    "fd_region": "PA"
   },
   "401909964:7760688:742.196868264": {
@@ -586,25 +583,25 @@
    "start": "2026-11-11T03:00Z",
    "market": "Alternate Total Points",
    "pick": "Under 242.5",
-   "odds": -950,
-   "fd_prob": 0.8535,
+   "odds": -900,
+   "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8916,
-   "market_prob": 0.8726,
-   "prob": 0.8676,
-   "pre_research": 0.8726,
+   "market_prob": 0.8703,
+   "prob": 0.8653,
+   "pre_research": 0.8703,
    "research": [
     "DraftKings total 222.5 vs FanDuel 221.5 (-0.5)"
    ],
    "research_adj": -0.005,
-   "raw_prob": 0.8676,
-   "v1_prob": 0.8676,
+   "raw_prob": 0.8653,
+   "v1_prob": 0.8653,
    "v2_prob": 0.8853,
    "v2_src": "Pinnacle: Pinnacle total 225 extrapolated",
    "sharp_prob": 0.8853,
-   "sharp_edge": -0.0195,
-   "why": "FanDuel no-vig 85.4%, line model 89.2% -> est. 86.8% (edge +1.4 pts); research -0.5 pts: DraftKings total 222.5 vs FanDuel 221.5 (-0.5)",
+   "sharp_edge": -0.0147,
+   "why": "FanDuel no-vig 84.9%, line model 89.2% -> est. 86.5% (edge +1.6 pts); research -0.5 pts: DraftKings total 222.5 vs FanDuel 221.5 (-0.5)",
    "fd_market_id": "742.196868264",
    "fd_selection_id": "7760688",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868264&selectionId%5B0%5D=7760688",
@@ -624,7 +621,7 @@
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.9022,
    "market_prob": 0.8799,
    "prob": 0.8799,
@@ -657,7 +654,7 @@
    "odds": -900,
    "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8944,
    "market_prob": 0.8717,
    "prob": 0.8717,
@@ -702,7 +699,7 @@
    "odds": -900,
    "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8916,
    "market_prob": 0.8703,
    "prob": 0.8703,
@@ -735,7 +732,7 @@
    "odds": -900,
    "fd_prob": 0.8491,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8803,
    "market_prob": 0.8647,
    "prob": 0.8647,
@@ -768,7 +765,7 @@
    "odds": -1000,
    "fd_prob": 0.8576,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8944,
    "market_prob": 0.876,
    "prob": 0.8,
@@ -801,14 +798,14 @@
    "start": "2026-11-11T03:00Z",
    "market": "Alternate Puck Line",
    "pick": "Los Angeles Kings +1.5",
-   "odds": -340,
-   "fd_prob": 0.7395,
+   "odds": -350,
+   "fd_prob": 0.7443,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.8757,
-   "market_prob": 0.8076,
-   "prob": 0.7926,
-   "pre_research": 0.8076,
+   "market_prob": 0.81,
+   "prob": 0.795,
+   "pre_research": 0.81,
    "research": [
     "rest 3.0d vs 3.4d",
     "travel 0 mi since last game",
@@ -817,15 +814,15 @@
     "low-scoring sport, one goal decides line (-1.5 volatility)"
    ],
    "research_adj": -0.015,
-   "raw_prob": 0.7926,
-   "v1_prob": 0.7926,
+   "raw_prob": 0.795,
+   "v1_prob": 0.795,
    "v2_prob": 0.7533,
    "v2_src": "Pinnacle: Pinnacle exact line",
    "sharp_prob": 0.7615,
-   "sharp_edge": -0.0113,
+   "sharp_edge": -0.0163,
    "power_prob": 0.7067,
    "power_margin_home": -0.1,
-   "why": "FanDuel no-vig 74.0%, line model 87.6% -> est. 79.3% (edge +5.3 pts); research -1.5 pts: rest 3.0d vs 3.4d; travel 0 mi since last game; form 5-5 last 10, avg margin +0.3 vs 6-4 last 10, avg margin +0.5; home record 2-5-0; low-scoring sport, one goal decides line (-1.5 volatility)",
+   "why": "FanDuel no-vig 74.4%, line model 87.6% -> est. 79.5% (edge +5.1 pts); research -1.5 pts: rest 3.0d vs 3.4d; travel 0 mi since last game; form 5-5 last 10, avg margin +0.3 vs 6-4 last 10, avg margin +0.5; home record 2-5-0; low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.196904999",
    "fd_selection_id": "7000409",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7000409",
@@ -842,25 +839,25 @@
    "start": "2026-11-11T03:00Z",
    "market": "Alternate Total Goals",
    "pick": "Under 8.5",
-   "odds": -600,
-   "fd_prob": 0.8086,
+   "odds": -650,
+   "fd_prob": 0.8176,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.7977,
-   "market_prob": 0.8031,
-   "prob": 0.7881,
-   "pre_research": 0.8031,
+   "market_prob": 0.8076,
+   "prob": 0.7926,
+   "pre_research": 0.8076,
    "research": [
     "low-scoring sport, one goal decides line (-1.5 volatility)"
    ],
    "research_adj": -0.015,
-   "raw_prob": 0.7881,
-   "v1_prob": 0.7881,
+   "raw_prob": 0.7926,
+   "v1_prob": 0.7926,
    "v2_prob": 0.8307,
    "v2_src": "Pinnacle: Pinnacle exact total",
    "sharp_prob": 0.8307,
-   "sharp_edge": -0.0264,
-   "why": "FanDuel no-vig 80.9%, line model 79.8% -> est. 78.8% (edge -2.0 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
+   "sharp_edge": -0.036,
+   "why": "FanDuel no-vig 81.8%, line model 79.8% -> est. 79.3% (edge -2.5 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.196904978",
    "fd_selection_id": "8359782",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904978&selectionId%5B0%5D=8359782",
@@ -906,6 +903,53 @@
    "fd_market_id": "742.196708935",
    "fd_selection_id": "49917709",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196708935&selectionId%5B0%5D=49917709",
+   "fd_region": "PA"
+  },
+  "401909964:7883402:742.196868269": {
+   "kind": "spread",
+   "side": "away",
+   "line": 10.5,
+   "id": "401909964:7883402:742.196868269",
+   "event": "401909964",
+   "sport": "nba",
+   "game": "Orlando Magic at Sacramento Kings",
+   "start": "2026-11-11T03:00Z",
+   "market": "Alternate Spread",
+   "pick": "Orlando Magic +10.5",
+   "odds": -950,
+   "fd_prob": 0.8535,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-10 23:52 UTC",
+   "dist_prob": 0.9088,
+   "market_prob": 0.8812,
+   "prob": 0.8845,
+   "pre_research": 0.8812,
+   "research": [
+    "rest 3.1d vs 2.0d",
+    "travel 75 mi since last game",
+    "form 2-7 last 9, avg margin -9.2 vs 1-9 last 10, avg margin -13.3",
+    "form edge (+0.3)",
+    "away record 2-3"
+   ],
+   "research_adj": 0.0033,
+   "raw_prob": 0.8845,
+   "v1_prob": 0.8845,
+   "v2_prob": 0.8941,
+   "v2_src": "Pinnacle: Pinnacle +3 line extrapolated 13.5 pts",
+   "sharp_prob": 0.9156,
+   "sharp_edge": 0.0109,
+   "power_prob": 0.7721,
+   "power_margin_home": 1.5,
+   "v2_injuries": [
+    "Maxime Raynaud Out (12p/8r/1a, 26 min): -3.8 pts",
+    "Tristan da Silva Day-To-Day (9p/4r/2a, 24 min): -0.7 pts",
+    "Jalen Suggs Out (13p/4r/4a, 27 min): -3.9 pts",
+    "Jonathan Isaac Out (7p/4r/1a, 19 min): -1.5 pts"
+   ],
+   "why": "FanDuel no-vig 85.4%, line model 90.9% -> est. 88.4% (edge +3.1 pts); research +0.3 pts: rest 3.1d vs 2.0d; travel 75 mi since last game; form 2-7 last 9, avg margin -9.2 vs 1-9 last 10, avg margin -13.3; form edge (+0.3); away record 2-3",
+   "fd_market_id": "742.196868269",
+   "fd_selection_id": "7883402",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883402",
    "fd_region": "PA"
   },
   "401866460:12197198:742.196709043": {
@@ -1988,6 +2032,41 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196709043&selectionId%5B0%5D=12194337",
    "fd_region": "PA"
   },
+  "401909962:7747570:742.196854027": {
+   "kind": "total",
+   "ou": "under",
+   "line": 246.5,
+   "id": "401909962:7747570:742.196854027",
+   "event": "401909962",
+   "sport": "nba",
+   "game": "LA Clippers at Phoenix Suns",
+   "start": "2026-11-11T02:00Z",
+   "market": "Alternate Total Points",
+   "pick": "Under 246.5",
+   "odds": -1000,
+   "fd_prob": 0.8576,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-10 23:52 UTC",
+   "dist_prob": 0.9022,
+   "market_prob": 0.8799,
+   "prob": 0.8849,
+   "pre_research": 0.8799,
+   "research": [
+    "FanDuel price moved our way -750 -> -1000 (+0.5)"
+   ],
+   "research_adj": 0.005,
+   "raw_prob": 0.8849,
+   "v1_prob": 0.8849,
+   "v2_prob": 0.9019,
+   "v2_src": "Pinnacle: Pinnacle total 227 extrapolated",
+   "sharp_prob": 0.9019,
+   "sharp_edge": -0.0072,
+   "why": "FanDuel no-vig 85.8%, line model 90.2% -> est. 88.5% (edge +2.7 pts); research +0.5 pts: FanDuel price moved our way -750 -> -1000 (+0.5)",
+   "fd_market_id": "742.196854027",
+   "fd_selection_id": "7747570",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7747570",
+   "fd_region": "PA"
+  },
   "401909963:7755153:742.196868147": {
    "kind": "total",
    "ou": "under",
@@ -2021,42 +2100,6 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868147&selectionId%5B0%5D=7755153",
    "fd_region": "PA"
   },
-  "401909962:7711076:742.196854027": {
-   "kind": "total",
-   "ou": "under",
-   "line": 236.5,
-   "id": "401909962:7711076:742.196854027",
-   "event": "401909962",
-   "sport": "nba",
-   "game": "LA Clippers at Phoenix Suns",
-   "start": "2026-11-11T02:00Z",
-   "market": "Alternate Total Points",
-   "pick": "Under 236.5",
-   "odds": -300,
-   "fd_prob": 0.7177,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:32 UTC",
-   "dist_prob": 0.7599,
-   "market_prob": 0.7388,
-   "prob": 0.7488,
-   "pre_research": 0.7388,
-   "research": [
-    "DraftKings total 223.5 vs FanDuel 224.5 (+0.5)",
-    "FanDuel price moved our way -260 -> -300 (+0.5)"
-   ],
-   "research_adj": 0.01,
-   "raw_prob": 0.7488,
-   "v1_prob": 0.7488,
-   "v2_prob": 0.7735,
-   "v2_src": "Pinnacle: Pinnacle total 226 extrapolated",
-   "sharp_prob": 0.7735,
-   "sharp_edge": 0.0235,
-   "why": "FanDuel no-vig 71.8%, line model 76.0% -> est. 74.9% (edge +3.1 pts); research +1.0 pts: DraftKings total 223.5 vs FanDuel 224.5 (+0.5); FanDuel price moved our way -260 -> -300 (+0.5)",
-   "fd_market_id": "742.196854027",
-   "fd_selection_id": "7711076",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7711076",
-   "fd_region": "PA"
-  },
   "401909964:7883437:742.196868269": {
    "kind": "spread",
    "side": "away",
@@ -2071,7 +2114,7 @@
    "odds": -300,
    "fd_prob": 0.7177,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.7734,
    "market_prob": 0.7455,
    "prob": 0.7488,
@@ -2086,15 +2129,15 @@
    "research_adj": 0.0033,
    "raw_prob": 0.7488,
    "v1_prob": 0.7488,
-   "v2_prob": 0.7449,
+   "v2_prob": 0.7366,
    "v2_src": "Pinnacle: Pinnacle +3 line extrapolated 6.5 pts",
    "sharp_prob": 0.7811,
    "sharp_edge": 0.0311,
-   "power_prob": 0.5396,
-   "power_margin_home": 2.3,
+   "power_prob": 0.4843,
+   "power_margin_home": 4.0,
    "v2_injuries": [
     "Maxime Raynaud Out (12p/8r/1a, 26 min): -3.8 pts",
-    "Tristan da Silva Day-To-Day (9p/4r/2a, 24 min): -0.7 pts",
+    "Tristan da Silva Out (9p/4r/2a, 24 min): -2.4 pts",
     "Jalen Suggs Out (13p/4r/4a, 27 min): -3.9 pts",
     "Jonathan Isaac Out (7p/4r/1a, 19 min): -1.5 pts"
    ],
@@ -2118,7 +2161,7 @@
    "odds": -300,
    "fd_prob": 0.7177,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.7599,
    "market_prob": 0.7388,
    "prob": 0.7388,
@@ -2151,7 +2194,7 @@
    "odds": -295,
    "fd_prob": 0.7147,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.7412,
    "market_prob": 0.7279,
    "prob": 0.7329,
@@ -2172,6 +2215,41 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868147&selectionId%5B0%5D=7712356",
    "fd_region": "PA"
   },
+  "401909962:7729448:742.196854027": {
+   "kind": "total",
+   "ou": "under",
+   "line": 235.5,
+   "id": "401909962:7729448:742.196854027",
+   "event": "401909962",
+   "sport": "nba",
+   "game": "LA Clippers at Phoenix Suns",
+   "start": "2026-11-11T02:00Z",
+   "market": "Alternate Total Points",
+   "pick": "Under 235.5",
+   "odds": -280,
+   "fd_prob": 0.7051,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:50 UTC",
+   "dist_prob": 0.7412,
+   "market_prob": 0.7232,
+   "prob": 0.7282,
+   "pre_research": 0.7232,
+   "research": [
+    "FanDuel price moved our way -240 -> -280 (+0.5)"
+   ],
+   "research_adj": 0.005,
+   "raw_prob": 0.7282,
+   "v1_prob": 0.7282,
+   "v2_prob": 0.7406,
+   "v2_src": "Pinnacle: Pinnacle total 227 extrapolated",
+   "sharp_prob": 0.7406,
+   "sharp_edge": 0.0038,
+   "why": "FanDuel no-vig 70.5%, line model 74.1% -> est. 72.8% (edge +2.3 pts); research +0.5 pts: FanDuel price moved our way -240 -> -280 (+0.5)",
+   "fd_market_id": "742.196854027",
+   "fd_selection_id": "7729448",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7729448",
+   "fd_region": "PA"
+  },
   "401892689:8359772:742.196904978": {
    "kind": "total",
    "ou": "over",
@@ -2183,25 +2261,25 @@
    "start": "2026-11-11T03:00Z",
    "market": "Alternate Total Goals",
    "pick": "Over 5.5",
-   "odds": -154,
-   "fd_prob": 0.5802,
+   "odds": -152,
+   "fd_prob": 0.5772,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.6615,
-   "market_prob": 0.6209,
-   "prob": 0.6059,
-   "pre_research": 0.6209,
+   "market_prob": 0.6194,
+   "prob": 0.6044,
+   "pre_research": 0.6194,
    "research": [
     "low-scoring sport, one goal decides line (-1.5 volatility)"
    ],
    "research_adj": -0.015,
-   "raw_prob": 0.6059,
-   "v1_prob": 0.6059,
+   "raw_prob": 0.6044,
+   "v1_prob": 0.6044,
    "v2_prob": 0.5636,
    "v2_src": "Pinnacle: Pinnacle exact total",
    "sharp_prob": 0.5636,
-   "sharp_edge": -0.0427,
-   "why": "FanDuel no-vig 58.0%, line model 66.1% -> est. 60.6% (edge +2.6 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
+   "sharp_edge": -0.0395,
+   "why": "FanDuel no-vig 57.7%, line model 66.1% -> est. 60.4% (edge +2.7 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
    "fd_market_id": "742.196904978",
    "fd_selection_id": "8359772",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904978&selectionId%5B0%5D=8359772",
@@ -2221,7 +2299,7 @@
    "odds": 300,
    "fd_prob": 0.2392,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36299765, fetched 2026-11-11 01:50 UTC",
    "dist_prob": 0.3503,
    "market_prob": 0.2947,
    "prob": 0.2797,
@@ -2258,13 +2336,13 @@
    "start": "2026-11-11T02:00Z",
    "market": "Moneyline",
    "pick": "Los Angeles Clippers",
-   "odds": 150,
-   "fd_prob": 0.3845,
+   "odds": 148,
+   "fd_prob": 0.3874,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:32 UTC",
-   "market_prob": 0.3881,
-   "prob": 0.4017,
-   "pre_research": 0.3881,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:50 UTC",
+   "market_prob": 0.3857,
+   "prob": 0.3993,
+   "pre_research": 0.3857,
    "research": [
     "rest 2.0d vs 1.0d",
     "opponent on back-to-back (+1.0)",
@@ -2274,69 +2352,90 @@
     "away record 0-4"
    ],
    "research_adj": 0.0136,
-   "raw_prob": 0.4017,
-   "v1_prob": 0.4017,
-   "v2_prob": 0.3627,
+   "raw_prob": 0.3993,
+   "v1_prob": 0.3993,
+   "v2_prob": 0.3639,
    "v2_src": "Pinnacle: Pinnacle moneyline de-vig",
-   "sharp_prob": 0.3792,
-   "sharp_edge": -0.0208,
+   "sharp_prob": 0.3807,
+   "sharp_edge": -0.0226,
    "power_prob": 0.2691,
    "power_margin_home": 7.4,
    "v2_injuries": [
     "Yanic Konan Niederhauser Out (4p/3r/0a, 10 min): -0.5 pts",
     "Brandon Ingram Out (20p/5r/4a, 33 min): -6.0 pts"
    ],
-   "why": "FanDuel no-vig 38.5% -> est. 40.2% (edge +1.7 pts); research +1.4 pts: rest 2.0d vs 1.0d; opponent on back-to-back (+1.0); travel 363 mi since last game; form 2-7 last 9, avg margin -4.0 vs 3-6 last 9, avg margin -8.4; form edge (+0.4); away record 0-4",
+   "why": "FanDuel no-vig 38.7% -> est. 39.9% (edge +1.2 pts); research +1.4 pts: rest 2.0d vs 1.0d; opponent on back-to-back (+1.0); travel 363 mi since last game; form 2-7 last 9, avg margin -4.0 vs 3-6 last 9, avg margin -8.4; form edge (+0.4); away record 0-4",
    "fd_market_id": "742.196584649",
    "fd_selection_id": "6023845",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196584649&selectionId%5B0%5D=6023845",
    "fd_region": "PA"
   },
-  "401909963:7890442:742.196868181": {
-   "kind": "spread",
-   "side": "home",
-   "line": 3.5,
-   "id": "401909963:7890442:742.196868181",
+  "401909964:36981633:742.196852751": {
+   "kind": "prop",
+   "player": "Franz Wagner",
+   "stat": "POI",
+   "ou": "over",
+   "line": 29.5,
+   "id": "401909964:36981633:742.196852751",
+   "event": "401909964",
+   "sport": "nba",
+   "game": "Orlando Magic at Sacramento Kings",
+   "start": "2026-11-11T03:00Z",
+   "market": "30+ Points",
+   "pick": "Franz Wagner",
+   "odds": 260,
+   "fd_prob": 0.2596,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:50 UTC",
+   "market_prob": 0.2596,
+   "prob": 0.2646,
+   "pre_research": 0.2596,
+   "research": [
+    "FanDuel price moved our way +300 -> +260 (+0.5)"
+   ],
+   "research_adj": 0.005,
+   "raw_prob": 0.2646,
+   "v1_prob": 0.2646,
+   "v2_prob": 0.2596,
+   "v2_src": "no sharp price -> FanDuel no-vig/line model",
+   "why": "FanDuel no-vig 26.0% -> est. 26.5% (edge +0.5 pts); research +0.5 pts: FanDuel price moved our way +300 -> +260 (+0.5)",
+   "fd_market_id": "742.196852751",
+   "fd_selection_id": "36981633",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196852751&selectionId%5B0%5D=36981633",
+   "fd_region": "PA"
+  },
+  "401909963:21254178:742.196823986": {
+   "kind": "prop",
+   "player": "Josh Okogie",
+   "stat": "REB",
+   "ou": "over",
+   "line": 5.5,
+   "id": "401909963:21254178:742.196823986",
    "event": "401909963",
    "sport": "nba",
    "game": "Miami Heat at Utah Jazz",
    "start": "2026-11-11T02:00Z",
-   "market": "Alternate Spread",
-   "pick": "Utah Jazz +3.5",
-   "odds": 186,
-   "fd_prob": 0.3346,
+   "market": "6+ Rebounds",
+   "pick": "Josh Okogie",
+   "odds": 255,
+   "fd_prob": 0.2633,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
-   "dist_prob": 0.3385,
-   "market_prob": 0.3365,
-   "prob": 0.3364,
-   "pre_research": 0.3365,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
+   "market_prob": 0.2633,
+   "prob": 0.2683,
+   "pre_research": 0.2633,
    "research": [
-    "rest 2.1d vs 2.0d",
-    "travel 985 mi since last game",
-    "form 1-9 last 10, avg margin -11.7 vs 4-6 last 10, avg margin -5.3",
-    "form edge (-0.5)",
-    "home record 1-4",
-    "FanDuel price moved our way +205 -> +186 (+0.5)"
+    "FanDuel price moved our way +300 -> +255 (+0.5)"
    ],
-   "research_adj": -0.0001,
-   "raw_prob": 0.3364,
-   "v1_prob": 0.3364,
-   "v2_prob": 0.2982,
-   "v2_src": "Pinnacle: Pinnacle +6.5 line extrapolated 3 pts",
-   "sharp_prob": 0.3229,
-   "sharp_edge": -0.0268,
-   "power_prob": 0.1583,
-   "power_margin_home": -15.5,
-   "v2_injuries": [
-    "Lauri Markkanen Out (19p/7r/2a, 31 min): -6.0 pts",
-    "Keyonte George Out (17p/3r/5a, 30 min): -6.0 pts",
-    "Jusuf Nurkic Out (12p/9r/3a, 24 min): -3.7 pts"
-   ],
-   "why": "FanDuel no-vig 33.5%, line model 33.9% -> est. 33.6% (edge +0.2 pts); research -0.0 pts: rest 2.1d vs 2.0d; travel 985 mi since last game; form 1-9 last 10, avg margin -11.7 vs 4-6 last 10, avg margin -5.3; form edge (-0.5); home record 1-4; FanDuel price moved our way +205 -> +186 (+0.5)",
-   "fd_market_id": "742.196868181",
-   "fd_selection_id": "7890442",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868181&selectionId%5B0%5D=7890442",
+   "research_adj": 0.005,
+   "raw_prob": 0.2683,
+   "v1_prob": 0.2683,
+   "v2_prob": 0.2633,
+   "v2_src": "no sharp price -> FanDuel no-vig/line model",
+   "why": "FanDuel no-vig 26.3% -> est. 26.8% (edge +0.5 pts); research +0.5 pts: FanDuel price moved our way +300 -> +255 (+0.5)",
+   "fd_market_id": "742.196823986",
+   "fd_selection_id": "21254178",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196823986&selectionId%5B0%5D=21254178",
    "fd_region": "PA"
   },
   "401909965:17971698:742.196846589": {
@@ -2355,7 +2454,7 @@
    "odds": 265,
    "fd_prob": 0.256,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "market_prob": 0.256,
    "prob": 0.261,
    "pre_research": 0.256,
@@ -2386,7 +2485,7 @@
    "odds": 290,
    "fd_prob": 0.2468,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "market_prob": 0.2479,
    "prob": 0.2428,
    "pre_research": 0.2479,
@@ -2417,38 +2516,6 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196584627&selectionId%5B0%5D=237484",
    "fd_region": "PA"
   },
-  "401909964:26969962:742.196852832": {
-   "kind": "prop",
-   "player": "Desmond Bane",
-   "stat": "3PM",
-   "ou": "over",
-   "line": 4.5,
-   "id": "401909964:26969962:742.196852832",
-   "event": "401909964",
-   "sport": "nba",
-   "game": "Orlando Magic at Sacramento Kings",
-   "start": "2026-11-11T03:00Z",
-   "market": "5+ Threes",
-   "pick": "Desmond Bane",
-   "odds": 300,
-   "fd_prob": 0.2336,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:32 UTC",
-   "market_prob": 0.2336,
-   "prob": 0.2336,
-   "pre_research": 0.2336,
-   "research": [],
-   "research_adj": 0.0,
-   "raw_prob": 0.2336,
-   "v1_prob": 0.2336,
-   "v2_prob": 0.2336,
-   "v2_src": "no sharp price -> FanDuel no-vig/line model",
-   "why": "FanDuel no-vig 23.4% -> est. 23.4% (edge +0.0 pts)",
-   "fd_market_id": "742.196852832",
-   "fd_selection_id": "26969962",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196852832&selectionId%5B0%5D=26969962",
-   "fd_region": "PA"
-  },
   "401909962:11339193:742.196867849": {
    "kind": "prop",
    "player": "Kris Dunn",
@@ -2465,7 +2532,7 @@
    "odds": 300,
    "fd_prob": 0.2336,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295142, fetched 2026-11-11 01:50 UTC",
    "market_prob": 0.2336,
    "prob": 0.2336,
    "pre_research": 0.2336,
@@ -2481,23 +2548,23 @@
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196867849&selectionId%5B0%5D=11339193",
    "fd_region": "PA"
   },
-  "401909963:14388955:742.196823973": {
+  "401909963:7582836:742.196823969": {
    "kind": "prop",
-   "player": "Bam Adebayo",
-   "stat": "REB",
+   "player": "Giannis Antetokounmpo",
+   "stat": "ASS",
    "ou": "over",
-   "line": 11.5,
-   "id": "401909963:14388955:742.196823973",
+   "line": 7.5,
+   "id": "401909963:7582836:742.196823969",
    "event": "401909963",
    "sport": "nba",
    "game": "Miami Heat at Utah Jazz",
    "start": "2026-11-11T02:00Z",
-   "market": "12+ Rebounds",
-   "pick": "Bam Adebayo",
+   "market": "8+ Assists",
+   "pick": "Giannis Antetokounmpo",
    "odds": 300,
    "fd_prob": 0.2336,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295141, fetched 2026-11-11 01:50 UTC",
    "market_prob": 0.2336,
    "prob": 0.2336,
    "pre_research": 0.2336,
@@ -2508,9 +2575,9 @@
    "v2_prob": 0.2336,
    "v2_src": "no sharp price -> FanDuel no-vig/line model",
    "why": "FanDuel no-vig 23.4% -> est. 23.4% (edge +0.0 pts)",
-   "fd_market_id": "742.196823973",
-   "fd_selection_id": "14388955",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196823973&selectionId%5B0%5D=14388955",
+   "fd_market_id": "742.196823969",
+   "fd_selection_id": "7582836",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196823969&selectionId%5B0%5D=7582836",
    "fd_region": "PA"
   },
   "401909965:81146655:742.196846595": {
@@ -2529,7 +2596,7 @@
    "odds": 300,
    "fd_prob": 0.2336,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:32 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295140, fetched 2026-11-11 01:50 UTC",
    "market_prob": 0.2336,
    "prob": 0.2336,
    "pre_research": 0.2336,
@@ -2544,39 +2611,73 @@
    "fd_selection_id": "81146655",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196846595&selectionId%5B0%5D=81146655",
    "fd_region": "PA"
+  },
+  "401909964:41402682:742.196852761": {
+   "kind": "prop",
+   "player": "Wendell Carter Jr.",
+   "stat": "REB",
+   "ou": "over",
+   "line": 11.5,
+   "id": "401909964:41402682:742.196852761",
+   "event": "401909964",
+   "sport": "nba",
+   "game": "Orlando Magic at Sacramento Kings",
+   "start": "2026-11-11T03:00Z",
+   "market": "12+ Rebounds",
+   "pick": "Wendell Carter Jr.",
+   "odds": 300,
+   "fd_prob": 0.2336,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36295138, fetched 2026-11-11 01:50 UTC",
+   "market_prob": 0.2336,
+   "prob": 0.2236,
+   "pre_research": 0.2336,
+   "research": [
+    "FanDuel price moved against us +255 -> +300 (-1.0)"
+   ],
+   "research_adj": -0.01,
+   "raw_prob": 0.2236,
+   "v1_prob": 0.2236,
+   "v2_prob": 0.2336,
+   "v2_src": "no sharp price -> FanDuel no-vig/line model",
+   "why": "FanDuel no-vig 23.4% -> est. 22.4% (edge -1.0 pts); research -1.0 pts: FanDuel price moved against us +255 -> +300 (-1.0)",
+   "fd_market_id": "742.196852761",
+   "fd_selection_id": "41402682",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196852761&selectionId%5B0%5D=41402682",
+   "fd_region": "PA"
   }
  },
  "parlays": [
   {
    "n": 1,
    "legs": [
-    "401909962:7747570:742.196854027"
+    "401909962:7901445:742.196854047"
    ],
-   "est_prob": 0.8899,
-   "est_raw": 0.8899,
+   "est_prob": 0.8968,
+   "est_raw": 0.8968,
    "fd_payout_x": 1.1,
-   "ev": -0.021,
-   "shared_legs": 1,
+   "ev": -0.014,
+   "shared_legs": 0,
    "shared_games": 1,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7747570",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854047&selectionId%5B0%5D=7901445",
    "favorite": false,
-   "corr_prob": 0.8882
+   "corr_prob": 0.8942
   },
   {
    "n": 2,
    "legs": [
     "401909963:7890450:742.196868181",
-    "401909964:7883402:742.196868269"
+    "401909965:7913887:742.196868400"
    ],
-   "est_prob": 0.78243,
-   "est_raw": 0.78243,
-   "fd_payout_x": 1.22,
-   "ev": -0.049,
+   "est_prob": 0.78128,
+   "est_raw": 0.78128,
+   "fd_payout_x": 1.21,
+   "ev": -0.055,
    "shared_legs": 1,
    "shared_games": 2,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868181&selectionId%5B0%5D=7890450&marketId%5B1%5D=742.196868269&selectionId%5B1%5D=7883402",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868181&selectionId%5B0%5D=7890450&marketId%5B1%5D=742.196868400&selectionId%5B1%5D=7913887",
    "favorite": true,
-   "corr_prob": 0.7811
+   "corr_prob": 0.78005
   },
   {
    "n": 3,
@@ -2654,7 +2755,7 @@
    "shared_games": 6,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7700492&marketId%5B1%5D=742.196868269&selectionId%5B1%5D=7883365&marketId%5B2%5D=742.196868056&selectionId%5B2%5D=7747629&marketId%5B3%5D=742.196905653&selectionId%5B3%5D=8359782&marketId%5B4%5D=742.196905256&selectionId%5B4%5D=44560463&marketId%5B5%5D=742.196904978&selectionId%5B5%5D=8359769",
    "favorite": false,
-   "corr_prob": 0.35642
+   "corr_prob": 0.35807
   },
   {
    "n": 7,
@@ -2676,7 +2777,7 @@
    "shared_games": 7,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196708935&selectionId%5B0%5D=49917635&marketId%5B1%5D=742.196709039&selectionId%5B1%5D=48218787&marketId%5B2%5D=742.196868269&selectionId%5B2%5D=7883365&marketId%5B3%5D=742.196708973&selectionId%5B3%5D=12197186&marketId%5B4%5D=742.196905416&selectionId%5B4%5D=8359769&marketId%5B5%5D=742.196905653&selectionId%5B5%5D=8359782&marketId%5B6%5D=742.196904824&selectionId%5B6%5D=7739903",
    "favorite": false,
-   "corr_prob": 0.32595
+   "corr_prob": 0.32827
   },
   {
    "n": 8,
@@ -2699,7 +2800,7 @@
    "shared_games": 8,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868066&selectionId%5B0%5D=7901064&marketId%5B1%5D=742.196854027&selectionId%5B1%5D=7700492&marketId%5B2%5D=742.196868400&selectionId%5B2%5D=7890440&marketId%5B3%5D=742.196708908&selectionId%5B3%5D=12194332&marketId%5B4%5D=742.196905728&selectionId%5B4%5D=7000403&marketId%5B5%5D=742.196905256&selectionId%5B5%5D=44560463&marketId%5B6%5D=742.196904978&selectionId%5B6%5D=8359769&marketId%5B7%5D=742.196906164&selectionId%5B7%5D=7000423",
    "favorite": false,
-   "corr_prob": 0.24497
+   "corr_prob": 0.24485
   },
   {
    "n": 9,
@@ -2723,7 +2824,7 @@
    "shared_games": 9,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7927527&marketId%5B1%5D=742.196868147&selectionId%5B1%5D=7711958&marketId%5B2%5D=742.196868264&selectionId%5B2%5D=7760688&marketId%5B3%5D=742.196709043&selectionId%5B3%5D=12197202&marketId%5B4%5D=742.196708994&selectionId%5B4%5D=49892556&marketId%5B5%5D=742.196905416&selectionId%5B5%5D=8359769&marketId%5B6%5D=742.196904824&selectionId%5B6%5D=7000413&marketId%5B7%5D=742.196905256&selectionId%5B7%5D=10777404&marketId%5B8%5D=742.196904999&selectionId%5B8%5D=7000409",
    "favorite": false,
-   "corr_prob": 0.2186
+   "corr_prob": 0.21873
   },
   {
    "n": 10,
@@ -2774,7 +2875,7 @@
    "shared_games": 11,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7889244&marketId%5B1%5D=742.196708994&selectionId%5B1%5D=49892579&marketId%5B2%5D=742.196868386&selectionId%5B2%5D=7711048&marketId%5B3%5D=742.196709043&selectionId%5B3%5D=12194333&marketId%5B4%5D=742.196905416&selectionId%5B4%5D=8359769&marketId%5B5%5D=742.196905653&selectionId%5B5%5D=8359782&marketId%5B6%5D=742.196905728&selectionId%5B6%5D=7000403&marketId%5B7%5D=742.196905264&selectionId%5B7%5D=8359769&marketId%5B8%5D=742.196904824&selectionId%5B8%5D=7739903&marketId%5B9%5D=742.196906164&selectionId%5B9%5D=7000423&marketId%5B10%5D=742.196904978&selectionId%5B10%5D=8359782",
    "favorite": false,
-   "corr_prob": 0.13225
+   "corr_prob": 0.13298
   },
   {
    "n": 12,
@@ -2801,7 +2902,7 @@
    "shared_games": 12,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7927527&marketId%5B1%5D=742.196854047&selectionId%5B1%5D=7884538&marketId%5B2%5D=742.196868181&selectionId%5B2%5D=7883750&marketId%5B3%5D=742.196868066&selectionId%5B3%5D=7991117&marketId%5B4%5D=742.196708935&selectionId%5B4%5D=49917635&marketId%5B5%5D=742.196868269&selectionId%5B5%5D=7883365&marketId%5B6%5D=742.196708973&selectionId%5B6%5D=12197186&marketId%5B7%5D=742.196709043&selectionId%5B7%5D=12194337&marketId%5B8%5D=742.196904824&selectionId%5B8%5D=7000413&marketId%5B9%5D=742.196905256&selectionId%5B9%5D=44560463&marketId%5B10%5D=742.196904999&selectionId%5B10%5D=7742137&marketId%5B11%5D=742.196906164&selectionId%5B11%5D=7735428",
    "favorite": false,
-   "corr_prob": 0.14
+   "corr_prob": 0.14095
   },
   {
    "n": 13,
@@ -2825,11 +2926,11 @@
    "fd_payout_x": 4.76,
    "ev": -0.384,
    "locked": true,
-   "shared_legs": 12,
+   "shared_legs": 11,
    "shared_games": 13,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7747570&marketId%5B1%5D=742.196868400&selectionId%5B1%5D=7913887&marketId%5B2%5D=742.196851064&selectionId%5B2%5D=7889244&marketId%5B3%5D=742.196868147&selectionId%5B3%5D=7755153&marketId%5B4%5D=742.196868066&selectionId%5B4%5D=7901064&marketId%5B5%5D=742.196708908&selectionId%5B5%5D=12194332&marketId%5B6%5D=742.196868264&selectionId%5B6%5D=7760688&marketId%5B7%5D=742.196708994&selectionId%5B7%5D=49892556&marketId%5B8%5D=742.196905416&selectionId%5B8%5D=8359769&marketId%5B9%5D=742.196905653&selectionId%5B9%5D=8359782&marketId%5B10%5D=742.196905728&selectionId%5B10%5D=7000403&marketId%5B11%5D=742.196904978&selectionId%5B11%5D=8359769&marketId%5B12%5D=742.196905256&selectionId%5B12%5D=10777404",
    "favorite": false,
-   "corr_prob": 0.12878
+   "corr_prob": 0.12777
   },
   {
    "n": 14,
@@ -2858,7 +2959,7 @@
    "shared_games": 14,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7927527&marketId%5B1%5D=742.196584622&selectionId%5B1%5D=237482&marketId%5B2%5D=742.196708935&selectionId%5B2%5D=49917709&marketId%5B3%5D=742.196868269&selectionId%5B3%5D=7883402&marketId%5B4%5D=742.196868386&selectionId%5B4%5D=7711958&marketId%5B5%5D=742.196854027&selectionId%5B5%5D=7700492&marketId%5B6%5D=742.196709043&selectionId%5B6%5D=12197198&marketId%5B7%5D=742.196868147&selectionId%5B7%5D=7711958&marketId%5B8%5D=742.196708994&selectionId%5B8%5D=49892579&marketId%5B9%5D=742.196905416&selectionId%5B9%5D=8359769&marketId%5B10%5D=742.196905653&selectionId%5B10%5D=8359782&marketId%5B11%5D=742.196905728&selectionId%5B11%5D=7000403&marketId%5B12%5D=742.196904824&selectionId%5B12%5D=7739903&marketId%5B13%5D=742.196906164&selectionId%5B13%5D=7000423",
    "favorite": false,
-   "corr_prob": 0.1159
+   "corr_prob": 0.11585
   },
   {
    "n": 15,
@@ -2888,7 +2989,7 @@
    "shared_games": 15,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7889244&marketId%5B1%5D=742.196868066&selectionId%5B1%5D=7991117&marketId%5B2%5D=742.196854047&selectionId%5B2%5D=7913428&marketId%5B3%5D=742.196708935&selectionId%5B3%5D=49917635&marketId%5B4%5D=742.196868400&selectionId%5B4%5D=7890440&marketId%5B5%5D=742.196709039&selectionId%5B5%5D=48218787&marketId%5B6%5D=742.196868269&selectionId%5B6%5D=7883365&marketId%5B7%5D=742.196868181&selectionId%5B7%5D=7883717&marketId%5B8%5D=742.196708973&selectionId%5B8%5D=12197186&marketId%5B9%5D=742.196905416&selectionId%5B9%5D=8359769&marketId%5B10%5D=742.196905653&selectionId%5B10%5D=8359782&marketId%5B11%5D=742.196904824&selectionId%5B11%5D=7000413&marketId%5B12%5D=742.196905264&selectionId%5B12%5D=8359769&marketId%5B13%5D=742.196906164&selectionId%5B13%5D=7735428&marketId%5B14%5D=742.196904999&selectionId%5B14%5D=7000409",
    "favorite": false,
-   "corr_prob": 0.08225
+   "corr_prob": 0.08317
   },
   {
    "n": 16,
@@ -2919,7 +3020,7 @@
    "shared_games": 16,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196851064&selectionId%5B0%5D=7927527&marketId%5B1%5D=742.196854047&selectionId%5B1%5D=7884538&marketId%5B2%5D=742.196868181&selectionId%5B2%5D=7883750&marketId%5B3%5D=742.196868066&selectionId%5B3%5D=7901064&marketId%5B4%5D=742.196708908&selectionId%5B4%5D=12194332&marketId%5B5%5D=742.196868386&selectionId%5B5%5D=7733081&marketId%5B6%5D=742.196868264&selectionId%5B6%5D=7760688&marketId%5B7%5D=742.196709043&selectionId%5B7%5D=12197202&marketId%5B8%5D=742.196708994&selectionId%5B8%5D=49892556&marketId%5B9%5D=742.196905416&selectionId%5B9%5D=8359769&marketId%5B10%5D=742.196905653&selectionId%5B10%5D=8359782&marketId%5B11%5D=742.196905728&selectionId%5B11%5D=7000403&marketId%5B12%5D=742.196905256&selectionId%5B12%5D=44560463&marketId%5B13%5D=742.196904824&selectionId%5B13%5D=7739903&marketId%5B14%5D=742.196906164&selectionId%5B14%5D=7000423&marketId%5B15%5D=742.196904978&selectionId%5B15%5D=8359782",
    "favorite": false,
-   "corr_prob": 0.0674
+   "corr_prob": 0.06767
   }
  ],
  "lottery": [
@@ -2930,14 +3031,14 @@
    "legs": [
     "401892689:7742231:742.196904999",
     "401909962:6023845:742.196584649",
-    "401909963:7890442:742.196868181"
+    "401909964:36981633:742.196852751"
    ],
-   "est_prob": 0.037796386836,
-   "fd_payout_x": 28.6,
-   "one_in": 26,
-   "fd_odds": "+2760",
-   "ev": 0.081,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196584649&selectionId%5B1%5D=6023845&marketId%5B2%5D=742.196868181&selectionId%5B2%5D=7890442",
+   "est_prob": 0.029551641966,
+   "fd_payout_x": 35.71,
+   "one_in": 34,
+   "fd_odds": "+3471",
+   "ev": 0.055,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196584649&selectionId%5B1%5D=6023845&marketId%5B2%5D=742.196852751&selectionId%5B2%5D=36981633",
    "favorite": false
   },
   {
@@ -2947,15 +3048,15 @@
    "legs": [
     "401892689:7742231:742.196904999",
     "401909962:6023845:742.196584649",
-    "401909965:17971698:742.196846589",
-    "401909963:237484:742.196584627"
+    "401909964:36981633:742.196852751",
+    "401909963:21254178:742.196823986"
    ],
-   "est_prob": 0.007120057285692,
-   "fd_payout_x": 142.35,
-   "one_in": 140,
-   "fd_odds": "+14135",
-   "ev": 0.014,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196584649&selectionId%5B1%5D=6023845&marketId%5B2%5D=742.196846589&selectionId%5B2%5D=17971698&marketId%5B3%5D=742.196584627&selectionId%5B3%5D=237484",
+   "est_prob": 0.007928705539477799,
+   "fd_payout_x": 126.78,
+   "one_in": 126,
+   "fd_odds": "+12578",
+   "ev": 0.005,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196584649&selectionId%5B1%5D=6023845&marketId%5B2%5D=742.196852751&selectionId%5B2%5D=36981633&marketId%5B3%5D=742.196823986&selectionId%5B3%5D=21254178",
    "favorite": false
   },
   {
@@ -2964,17 +3065,17 @@
    "n": 5,
    "legs": [
     "401892689:7742231:742.196904999",
-    "401909963:237484:742.196584627",
-    "401909965:17971698:742.196846589",
     "401909962:6023845:742.196584649",
-    "401909964:26969962:742.196852832"
+    "401909965:17971698:742.196846589",
+    "401909963:237484:742.196584627",
+    "401909964:36981633:742.196852751"
    ],
-   "est_prob": 0.0016632453819376513,
-   "fd_payout_x": 569.4,
-   "one_in": 601,
-   "fd_odds": "+56840",
-   "ev": -0.053,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196584627&selectionId%5B1%5D=237484&marketId%5B2%5D=742.196846589&selectionId%5B2%5D=17971698&marketId%5B3%5D=742.196584649&selectionId%5B3%5D=6023845&marketId%5B4%5D=742.196852832&selectionId%5B4%5D=26969962",
+   "est_prob": 0.0018727111926989928,
+   "fd_payout_x": 508.36,
+   "one_in": 534,
+   "fd_odds": "+50736",
+   "ev": -0.048,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196584649&selectionId%5B1%5D=6023845&marketId%5B2%5D=742.196846589&selectionId%5B2%5D=17971698&marketId%5B3%5D=742.196584627&selectionId%5B3%5D=237484&marketId%5B4%5D=742.196852751&selectionId%5B4%5D=36981633",
    "favorite": false
   },
   {
@@ -2984,16 +3085,16 @@
    "legs": [
     "401892689:7742231:742.196904999",
     "401909962:11339193:742.196867849",
-    "401909963:14388955:742.196823973",
-    "401909964:26969962:742.196852832",
-    "401909965:81146655:742.196846595"
+    "401909963:7582836:742.196823969",
+    "401909965:81146655:742.196846595",
+    "401909964:41402682:742.196852761"
    ],
-   "est_prob": 0.0008328826593162036,
+   "est_prob": 0.0007972284358865716,
    "fd_payout_x": 1024.0,
-   "one_in": 1201,
+   "one_in": 1254,
    "fd_odds": "+102300",
-   "ev": -0.147,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196867849&selectionId%5B1%5D=11339193&marketId%5B2%5D=742.196823973&selectionId%5B2%5D=14388955&marketId%5B3%5D=742.196852832&selectionId%5B3%5D=26969962&marketId%5B4%5D=742.196846595&selectionId%5B4%5D=81146655",
+   "ev": -0.184,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904999&selectionId%5B0%5D=7742231&marketId%5B1%5D=742.196867849&selectionId%5B1%5D=11339193&marketId%5B2%5D=742.196823969&selectionId%5B2%5D=7582836&marketId%5B3%5D=742.196846595&selectionId%5B3%5D=81146655&marketId%5B4%5D=742.196852761&selectionId%5B4%5D=41402682",
    "favorite": false
   },
   {
@@ -3001,36 +3102,36 @@
    "target_x": null,
    "n": 5,
    "legs": [
-    "401909962:7747570:742.196854027",
-    "401909964:7883402:742.196868269",
+    "401909962:7901445:742.196854047",
     "401909963:7890450:742.196868181",
     "401909965:7913887:742.196868400",
+    "401909964:7883365:742.196868269",
     "401892689:7000409:742.196904999"
    ],
-   "est_prob": 0.48741524370085915,
+   "est_prob": 0.4873901822092801,
    "fd_payout_x": 1.9,
    "one_in": 2,
    "fd_odds": "+90",
-   "ev": -0.072,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7747570&marketId%5B1%5D=742.196868269&selectionId%5B1%5D=7883402&marketId%5B2%5D=742.196868181&selectionId%5B2%5D=7890450&marketId%5B3%5D=742.196868400&selectionId%5B3%5D=7913887&marketId%5B4%5D=742.196904999&selectionId%5B4%5D=7000409",
+   "ev": -0.073,
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854047&selectionId%5B0%5D=7901445&marketId%5B1%5D=742.196868181&selectionId%5B1%5D=7890450&marketId%5B2%5D=742.196868400&selectionId%5B2%5D=7913887&marketId%5B3%5D=742.196868269&selectionId%5B3%5D=7883365&marketId%5B4%5D=742.196904999&selectionId%5B4%5D=7000409",
    "favorite": false
   }
  ],
  "best": {
   "n": 5,
   "legs": [
-   "401909962:7711076:742.196854027",
    "401909964:7883437:742.196868269",
    "401909965:7712356:742.196868386",
    "401909963:7712356:742.196868147",
+   "401909962:7729448:742.196854027",
    "401892689:8359772:742.196904978"
   ],
-  "est_prob": 0.184,
-  "fd_payout_x": 5.23,
-  "score": 0.3045025917768514,
-  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7711076&marketId%5B1%5D=742.196868269&selectionId%5B1%5D=7883437&marketId%5B2%5D=742.196868386&selectionId%5B2%5D=7712356&marketId%5B3%5D=742.196868147&selectionId%5B3%5D=7712356&marketId%5B4%5D=742.196904978&selectionId%5B4%5D=8359772",
+  "est_prob": 0.1784,
+  "fd_payout_x": 5.36,
+  "score": 0.2994728981735746,
+  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883437&marketId%5B1%5D=742.196868386&selectionId%5B1%5D=7712356&marketId%5B2%5D=742.196868147&selectionId%5B2%5D=7712356&marketId%5B3%5D=742.196854027&selectionId%5B3%5D=7729448&marketId%5B4%5D=742.196904978&selectionId%5B4%5D=8359772",
   "favorite": true,
-  "corr_prob": 0.18645
+  "corr_prob": 0.18113
  },
  "started": [],
  "games": [
@@ -3040,7 +3141,7 @@
    "name": "Western Michigan Broncos at Akron Zips",
    "start": "2026-11-11T00:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "13:34 - 3rd",
    "venue": "InfoCision Stadium",
    "indoor": false,
    "city": {
@@ -3103,7 +3204,7 @@
    "name": "Kent State Golden Flashes at Bowling Green Falcons",
    "start": "2026-11-11T00:00Z",
    "state": "in",
-   "status": "0:34 - 2nd",
+   "status": "Halftime",
    "venue": "Doyt L. Perry Stadium",
    "indoor": false,
    "city": {
@@ -3135,7 +3236,7 @@
     "home": {
      "name": "Bowling Green Falcons",
      "short": "Bowling Green",
-     "score": "14",
+     "score": "17",
      "winner": null,
      "record": "2-7",
      "ml_open": null,
@@ -3166,7 +3267,7 @@
    "name": "Ohio Bobcats at Miami (OH) RedHawks",
    "start": "2026-11-11T01:00Z",
    "state": "in",
-   "status": "7:57 - 1st",
+   "status": "1:10 - 1st",
    "venue": "Yager Stadium",
    "indoor": false,
    "city": {
@@ -3229,7 +3330,7 @@
    "name": "Milwaukee Bucks at New York Knicks",
    "start": "2026-11-11T00:30Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "9:26 - 3rd",
    "venue": "Madison Square Garden",
    "indoor": true,
    "city": {
@@ -3244,7 +3345,7 @@
     "home": {
      "name": "New York Knicks",
      "short": "Knicks",
-     "score": "58",
+     "score": "63",
      "winner": null,
      "record": "5-4",
      "ml_open": null,
@@ -3257,7 +3358,7 @@
     "away": {
      "name": "Milwaukee Bucks",
      "short": "Bucks",
-     "score": "34",
+     "score": "43",
      "winner": null,
      "record": "1-9",
      "ml_open": null,
@@ -3275,7 +3376,7 @@
    "name": "Boston Celtics at Philadelphia 76ers",
    "start": "2026-11-11T01:00Z",
    "state": "in",
-   "status": "4:01 - 1st",
+   "status": "8:00 - 2nd",
    "venue": "Xfinity Mobile Arena",
    "indoor": true,
    "city": {
@@ -3290,7 +3391,7 @@
     "home": {
      "name": "Philadelphia 76ers",
      "short": "76ers",
-     "score": "20",
+     "score": "33",
      "winner": null,
      "record": "9-2",
      "ml_open": null,
@@ -3303,7 +3404,7 @@
     "away": {
      "name": "Boston Celtics",
      "short": "Celtics",
-     "score": "23",
+     "score": "41",
      "winner": null,
      "record": "8-2",
      "ml_open": null,
@@ -3330,7 +3431,7 @@
    },
    "espn_wx": null,
    "line": "PHX -3.5",
-   "total": 223.5,
+   "total": 224.5,
    "book": "DraftKings",
    "teams": {
     "home": {
@@ -3340,7 +3441,7 @@
      "winner": null,
      "record": "3-6",
      "ml_open": "-168",
-     "ml": "-173",
+     "ml": "-179",
      "tid": "21",
      "abbr": "PHX",
      "home_rec": "3-3",
@@ -3353,7 +3454,7 @@
      "winner": null,
      "record": "2-7",
      "ml_open": "+141",
-     "ml": "+145",
+     "ml": "+150",
      "tid": "12",
      "abbr": "LAC",
      "home_rec": "2-3",
@@ -3509,7 +3610,7 @@
    "name": "Colorado Avalanche at Toronto Maple Leafs",
    "start": "2026-11-11T00:00Z",
    "state": "in",
-   "status": "4:41 - 2nd",
+   "status": "End of 2nd",
    "venue": "Scotiabank Arena",
    "indoor": true,
    "city": {
@@ -3525,7 +3626,7 @@
     "home": {
      "name": "Toronto Maple Leafs",
      "short": "Maple Leafs",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "8-9-2",
      "ml_open": null,
@@ -3556,7 +3657,7 @@
    "name": "Minnesota Wild at Montreal Canadiens",
    "start": "2026-11-11T00:00Z",
    "state": "in",
-   "status": "11:18 - 2nd",
+   "status": "3:33 - 2nd",
    "venue": "Bell Centre",
    "indoor": true,
    "city": {
@@ -3603,7 +3704,7 @@
    "name": "Washington Capitals at Ottawa Senators",
    "start": "2026-11-11T00:00Z",
    "state": "in",
-   "status": "5:52 - 2nd",
+   "status": "End of 2nd",
    "venue": "Canadian Tire Centre",
    "indoor": true,
    "city": {
@@ -3619,7 +3720,7 @@
     "home": {
      "name": "Ottawa Senators",
      "short": "Senators",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "11-6-1",
      "ml_open": null,
@@ -3650,7 +3751,7 @@
    "name": "New Jersey Devils at Winnipeg Jets",
    "start": "2026-11-11T00:00Z",
    "state": "in",
-   "status": "5:49 - 2nd",
+   "status": "End of 2nd",
    "venue": "Canada Life Centre",
    "indoor": true,
    "city": {
@@ -3697,7 +3798,7 @@
    "name": "Florida Panthers at Columbus Blue Jackets",
    "start": "2026-11-11T00:30Z",
    "state": "in",
-   "status": "17:53 - 2nd",
+   "status": "10:42 - 2nd",
    "venue": "Nationwide Arena",
    "indoor": true,
    "city": {
@@ -3726,7 +3827,7 @@
     "away": {
      "name": "Florida Panthers",
      "short": "Panthers",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "9-7-2",
      "ml_open": null,
@@ -3744,7 +3845,7 @@
    "name": "Detroit Red Wings at St. Louis Blues",
    "start": "2026-11-11T01:00Z",
    "state": "in",
-   "status": "5:22 - 1st",
+   "status": "End of 1st",
    "venue": "Enterprise Center",
    "indoor": true,
    "city": {
@@ -3773,7 +3874,7 @@
     "away": {
      "name": "Detroit Red Wings",
      "short": "Red Wings",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "7-8-3",
      "ml_open": null,
@@ -3981,17 +4082,17 @@
   },
   {
    "team": "LA Clippers",
+   "t": "Cam Christie - Out: Christie is questionable for Tuesday's game against the Suns due to a right ankle sprain, Ohm Youngmisuk of ESPN.com reports.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "LA Clippers",
    "t": "Yanic Konan Niederhauser - Out: Niederhauser (foot) is out for Tuesday's game against Phoenix, Ohm Youngmisuk of ESPN.com reports.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "LA Clippers",
    "t": "Brandon Ingram - Out: Ingram (Achilles) has been ruled out for Tuesday's game at Phoenix, Ohm Youngmisuk of ESPN.com reports.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "LA Clippers",
-   "t": "Cam Christie - Day-To-Day: Christie is questionable for Tuesday's game against the Suns due to a right ankle sprain, Ohm Youngmisuk of ESPN.com reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -4041,7 +4142,7 @@
   },
   {
    "team": "Orlando Magic",
-   "t": "Tristan da Silva - Day-To-Day: Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain.",
+   "t": "Tristan da Silva - Out: Da Silva (calf) has been ruled out for Tuesday's game against the Kings, Jason Beede of the Orlando Sentinel reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -4382,14 +4483,14 @@
    "g": "LA Clippers at Phoenix Suns",
    "team": "Phoenix Suns",
    "open": "-168",
-   "now": "-173",
+   "now": "-179",
    "src": "ESPN/DraftKings"
   },
   {
    "g": "LA Clippers at Phoenix Suns",
    "team": "LA Clippers",
    "open": "+141",
-   "now": "+145",
+   "now": "+150",
    "src": "ESPN/DraftKings"
   },
   {
@@ -4449,10 +4550,10 @@
    "src": "ESPN/DraftKings"
   },
   {
-   "g": "Orlando Magic at Sacramento Kings",
-   "team": "Orlando Magic +10.5",
-   "open": -1000,
-   "now": -950,
+   "g": "LA Clippers at Phoenix Suns",
+   "team": "Los Angeles Clippers +19.5",
+   "open": -950,
+   "now": -1000,
    "src": "FanDuel (since first snapshot)"
   },
   {
@@ -4464,7 +4565,7 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-11 01:32 UTC",
+  "updated": "2026-11-11 01:50 UTC",
   "graded_legs": 2007,
   "calibration": {
    "85-90%": {
@@ -4702,8 +4803,8 @@
   },
   "clv": {
    "legs_tracked": 2042,
-   "avg_clv_pts": -0.02,
-   "beat_close": 501,
+   "avg_clv_pts": -0.01,
+   "beat_close": 504,
    "worse_than_close": 604
   },
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
@@ -4757,17 +4858,11 @@
     "date": "2026-11-10",
     "type": "best",
     "n": 5,
-    "est_prob": 0.184,
-    "fd_payout_x": 5.23,
+    "est_prob": 0.1784,
+    "fd_payout_x": 5.36,
     "result": null,
     "source": "logged",
     "legs": [
-     {
-      "pick": "Under 236.5",
-      "game": "LA Clippers at Phoenix Suns",
-      "odds": -300,
-      "result": null
-     },
      {
       "pick": "Orlando Magic +3.5",
       "game": "Orlando Magic at Sacramento Kings",
@@ -4787,9 +4882,15 @@
       "result": null
      },
      {
+      "pick": "Under 235.5",
+      "game": "LA Clippers at Phoenix Suns",
+      "odds": -280,
+      "result": null
+     },
+     {
       "pick": "Over 5.5",
       "game": "Nashville Predators at Los Angeles Kings",
-      "odds": -154,
+      "odds": -152,
       "result": null
      }
     ]
@@ -4865,8 +4966,8 @@
     "date": "2026-11-10",
     "type": "ladder",
     "n": 2,
-    "est_prob": 0.78243,
-    "fd_payout_x": 1.22,
+    "est_prob": 0.78128,
+    "fd_payout_x": 1.21,
     "result": null,
     "source": "logged",
     "legs": [
@@ -4877,9 +4978,9 @@
       "result": null
      },
      {
-      "pick": "Orlando Magic +10.5",
-      "game": "Orlando Magic at Sacramento Kings",
-      "odds": -950,
+      "pick": "Oklahoma City Thunder +14.5",
+      "game": "Oklahoma City Thunder at Portland Trail Blazers",
+      "odds": -1000,
       "result": null
      }
     ]
@@ -7163,58 +7264,9 @@
  "feature": {
   "criteria": "Per game, the highest-probability FanDuel market priced -300 or longer (so each leg pays something); one leg per game, games not started; choose 3-6 legs maximizing P(win) x ln(payout) with payout >= 3.5x.",
   "n": 5,
-  "est_prob": 0.184,
-  "fd_payout_x": 5.23,
+  "est_prob": 0.1784,
+  "fd_payout_x": 5.36,
   "legs": [
-   {
-    "id": "401909962:7711076:742.196854027",
-    "game": "LA Clippers at Phoenix Suns",
-    "start": "2026-11-11T02:00Z",
-    "pick": "Under 236.5",
-    "market": "Alternate Total Points",
-    "odds": -300,
-    "odds_status": "FanDuel-verified (FanDuel public sportsbook API, NJ)",
-    "teams": {
-     "away": {
-      "name": "LA Clippers",
-      "record": "2-7",
-      "last5": "L 127-101 @ MIN, L 124-112 @ GS, L 125-118 vs TOR, L 117-116 OT vs MIA, W 139-123 vs NO (ESPN; may include preseason)",
-      "injuries": "Yanic Konan Niederhauser: Out; Brandon Ingram: Out; Cam Christie: Day-To-Day; Bradley Beal: Out; Jordan Miller: Out",
-      "injuries_none_listed": false,
-      "leaders": "Points: Darius Garland 21.2; Assists: Darius Garland 7.0; Rebounds: Isaiah Jackson 6.1"
-     },
-     "home": {
-      "name": "Phoenix Suns",
-      "record": "3-6",
-      "last5": "L 116-113 @ GS, L 132-119 vs POR, W 117-104 vs ORL, W 102-99 vs HOU, L 122-96 vs SA (ESPN; may include preseason)",
-      "injuries": "Mark Williams: Out",
-      "injuries_none_listed": false,
-      "leaders": "Points: Devin Booker 26.0; Assists: Devin Booker 4.8; Rebounds: Miles Bridges 7.8"
-     }
-    },
-    "h2h": "not found",
-    "rest_travel": "LA Clippers: 2.0d rest, 363 mi travel; Phoenix Suns: 1.0d rest (back-to-back), 0 mi travel",
-    "coaching": "no free structured source (not scored)",
-    "research": [
-     "DraftKings total 223.5 vs FanDuel 224.5 (+0.5)",
-     "FanDuel price moved our way -260 -> -300 (+0.5)"
-    ],
-    "research_adj": 0.01,
-    "venue": "Mortgage Matchup Center (indoor)",
-    "weather": "indoor - n/a",
-    "line_moves": "Phoenix Suns ML -168 -> -173 (ESPN/DraftKings); LA Clippers ML +141 -> +145 (ESPN/DraftKings)",
-    "sharp_public": "not found (no free public betting-split source)",
-    "espn_line": "DraftKings: PHX -3.5, O/U 223.5",
-    "predictor": "ESPN BPI: home 65.5% / away 34.5%",
-    "probs": {
-     "fanduel_no_vig": 0.7177,
-     "distribution_model": 0.7599,
-     "team_model": null,
-     "final": 0.7488
-    },
-    "why": "Highest blended win probability of 214 FanDuel markets priced -300 or longer for this game. Next best: Under 235.5 (Alternate Total Points, -275, 73.2%); Los Angeles Clippers +10.5 (Alternate Spread, -265, 72.1%); Over 213.5 (Alternate Total Points, -295, 71.3%)",
-    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7711076"
-   },
    {
     "id": "401909964:7883437:742.196868269",
     "game": "Orlando Magic at Sacramento Kings",
@@ -7254,7 +7306,7 @@
     "research_adj": 0.0033,
     "venue": "Golden 1 Center (indoor)",
     "weather": "indoor - n/a",
-    "line_moves": "Sacramento Kings ML +157 -> +180 (ESPN/DraftKings); Orlando Magic ML -188 -> -217 (ESPN/DraftKings); Orlando Magic +10.5 ML -1000 -> -950 (FanDuel (since first snapshot))",
+    "line_moves": "Sacramento Kings ML +157 -> +180 (ESPN/DraftKings); Orlando Magic ML -188 -> -217 (ESPN/DraftKings)",
     "sharp_public": "not found (no free public betting-split source)",
     "espn_line": "DraftKings: ORL -5.5, O/U 222.5",
     "predictor": "ESPN BPI: home 28.4% / away 71.6%",
@@ -7264,7 +7316,7 @@
      "team_model": null,
      "final": 0.7488
     },
-    "why": "Highest blended win probability of 192 FanDuel markets priced -300 or longer for this game. Next best: Over 210.5 (Alternate Total Points, -300, 73.5%); Under 233.5 (Alternate Total Points, -300, 73.4%); Orlando Magic +2.5 (Alternate Spread, -265, 72.4%)",
+    "why": "Highest blended win probability of 191 FanDuel markets priced -300 or longer for this game. Next best: Under 233.5 (Alternate Total Points, -300, 73.4%); Orlando Magic +2.5 (Alternate Spread, -280, 73.0%); Over 211.5 (Alternate Total Points, -290, 72.2%)",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883437"
    },
    {
@@ -7358,8 +7410,56 @@
      "team_model": null,
      "final": 0.7329
     },
-    "why": "Highest blended win probability of 203 FanDuel markets priced -300 or longer for this game. Next best: Over 216.5 (Alternate Total Points, -300, 73.0%); Utah Jazz +16.5 (Alternate Spread, -280, 72.1%); Under 237.5 (Alternate Total Points, -275, 71.7%)",
+    "why": "Highest blended win probability of 204 FanDuel markets priced -300 or longer for this game. Next best: Over 216.5 (Alternate Total Points, -300, 73.0%); Utah Jazz +16.5 (Alternate Spread, -280, 72.1%); Under 237.5 (Alternate Total Points, -275, 71.7%)",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868147&selectionId%5B0%5D=7712356"
+   },
+   {
+    "id": "401909962:7729448:742.196854027",
+    "game": "LA Clippers at Phoenix Suns",
+    "start": "2026-11-11T02:00Z",
+    "pick": "Under 235.5",
+    "market": "Alternate Total Points",
+    "odds": -280,
+    "odds_status": "FanDuel-verified (FanDuel public sportsbook API, NJ)",
+    "teams": {
+     "away": {
+      "name": "LA Clippers",
+      "record": "2-7",
+      "last5": "L 127-101 @ MIN, L 124-112 @ GS, L 125-118 vs TOR, L 117-116 OT vs MIA, W 139-123 vs NO (ESPN; may include preseason)",
+      "injuries": "Yanic Konan Niederhauser: Out; Brandon Ingram: Out; Cam Christie: Day-To-Day; Bradley Beal: Out; Jordan Miller: Out",
+      "injuries_none_listed": false,
+      "leaders": "Points: Darius Garland 21.2; Assists: Darius Garland 7.0; Rebounds: Isaiah Jackson 6.1"
+     },
+     "home": {
+      "name": "Phoenix Suns",
+      "record": "3-6",
+      "last5": "L 116-113 @ GS, L 132-119 vs POR, W 117-104 vs ORL, W 102-99 vs HOU, L 122-96 vs SA (ESPN; may include preseason)",
+      "injuries": "Mark Williams: Out",
+      "injuries_none_listed": false,
+      "leaders": "Points: Devin Booker 26.0; Assists: Devin Booker 4.8; Rebounds: Miles Bridges 7.8"
+     }
+    },
+    "h2h": "not found",
+    "rest_travel": "LA Clippers: 2.0d rest, 363 mi travel; Phoenix Suns: 1.0d rest (back-to-back), 0 mi travel",
+    "coaching": "no free structured source (not scored)",
+    "research": [
+     "FanDuel price moved our way -240 -> -280 (+0.5)"
+    ],
+    "research_adj": 0.005,
+    "venue": "Mortgage Matchup Center (indoor)",
+    "weather": "indoor - n/a",
+    "line_moves": "Phoenix Suns ML -168 -> -179 (ESPN/DraftKings); LA Clippers ML +141 -> +150 (ESPN/DraftKings); Los Angeles Clippers +19.5 ML -950 -> -1000 (FanDuel (since first snapshot))",
+    "sharp_public": "not found (no free public betting-split source)",
+    "espn_line": "DraftKings: PHX -3.5, O/U 224.5",
+    "predictor": "ESPN BPI: home 65.5% / away 34.5%",
+    "probs": {
+     "fanduel_no_vig": 0.7051,
+     "distribution_model": 0.7412,
+     "team_model": null,
+     "final": 0.7282
+    },
+    "why": "Highest blended win probability of 212 FanDuel markets priced -300 or longer for this game. Next best: Los Angeles Clippers +10.5 (Alternate Spread, -265, 72.1%); Under 234.5 (Alternate Total Points, -265, 71.3%); Over 213.5 (Alternate Total Points, -280, 71.3%)",
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7729448"
    },
    {
     "id": "401892689:8359772:742.196904978",
@@ -7367,7 +7467,7 @@
     "start": "2026-11-11T03:00Z",
     "pick": "Over 5.5",
     "market": "Alternate Total Goals",
-    "odds": -154,
+    "odds": -152,
     "odds_status": "FanDuel-verified (FanDuel public sportsbook API, NJ)",
     "teams": {
      "away": {
@@ -7401,19 +7501,19 @@
     "espn_line": "DraftKings: LA -125, O/U 6.5",
     "predictor": "not found",
     "probs": {
-     "fanduel_no_vig": 0.5802,
+     "fanduel_no_vig": 0.5772,
      "distribution_model": 0.6615,
      "team_model": null,
-     "final": 0.6059
+     "final": 0.6044
     },
-    "why": "Highest blended win probability of 15 FanDuel markets priced -300 or longer for this game. Next best: Nashville Predators +1.5 (Alternate Puck Line, -225, 56.6%); Nashville Predators +1.5 (Puck Line, -220, 56.2%); Los Angeles Kings (Moneyline, -130, 53.6%)",
+    "why": "Highest blended win probability of 15 FanDuel markets priced -300 or longer for this game. Next best: Nashville Predators +1.5 (Alternate Puck Line, -225, 56.6%); Nashville Predators +1.5 (Puck Line, -220, 56.2%); Los Angeles Kings (Moneyline, -128, 52.4%)",
     "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196904978&selectionId%5B0%5D=8359772"
    }
   ],
-  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196854027&selectionId%5B0%5D=7711076&marketId%5B1%5D=742.196868269&selectionId%5B1%5D=7883437&marketId%5B2%5D=742.196868386&selectionId%5B2%5D=7712356&marketId%5B3%5D=742.196868147&selectionId%5B3%5D=7712356&marketId%5B4%5D=742.196904978&selectionId%5B4%5D=8359772",
+  "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196868269&selectionId%5B0%5D=7883437&marketId%5B1%5D=742.196868386&selectionId%5B1%5D=7712356&marketId%5B2%5D=742.196868147&selectionId%5B2%5D=7712356&marketId%5B3%5D=742.196854027&selectionId%5B3%5D=7729448&marketId%5B4%5D=742.196904978&selectionId%5B4%5D=8359772",
   "favorite": true
  },
- "note": "1085 FanDuel-priced candidates (ml, prop, spread, total) across 5 games; best single market per game kept (odds -1000 to +300); 5 not-yet-started games -> parlays up to 16 legs.",
+ "note": "1093 FanDuel-priced candidates (ml, prop, spread, total) across 5 games; best single market per game kept (odds -1000 to +300); 5 not-yet-started games -> parlays up to 16 legs.",
  "model_check": {
   "v1": {
    "n": 5870,
@@ -7491,9 +7591,9 @@
     "games_matched": 5,
     "games_pre": 5
    },
-   "candidates_pre": 1085,
-   "sharp_covered": 533,
-   "sharp_coverage_pct": 49.1,
+   "candidates_pre": 1093,
+   "sharp_covered": 530,
+   "sharp_coverage_pct": 48.5,
    "power": {
     "nhl": {
      "teams": 2,
@@ -7508,25 +7608,25 @@
   },
   "clv_v1_history": {
    "legs_tracked": 2042,
-   "avg_clv_pts": -0.02,
-   "beat_close": 501,
+   "avg_clv_pts": -0.01,
+   "beat_close": 504,
    "worse_than_close": 604
   },
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 200,
-   "of": 1085,
+   "dropped": 194,
+   "of": 1093,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
-    "Sacramento Kings -6.5 (Orlando Magic at Sacramento Kings) +290: FanDuel implies 25.6% vs Pinnacle fair 15.2%",
-    "Sacramento Kings -4.5 (Orlando Magic at Sacramento Kings) +240: FanDuel implies 29.4% vs Pinnacle fair 19.5%",
-    "Sacramento Kings -5.5 (Orlando Magic at Sacramento Kings) +270: FanDuel implies 27.0% vs Pinnacle fair 17.3%",
     "Sacramento Kings -3.5 (Orlando Magic at Sacramento Kings) +220: FanDuel implies 31.2% vs Pinnacle fair 21.9%",
+    "Los Angeles Clippers -6.5 (LA Clippers at Phoenix Suns) +245: FanDuel implies 29.0% vs Pinnacle fair 19.6%",
     "Miami Heat -19.5 (Miami Heat at Utah Jazz) +275: FanDuel implies 26.7% vs Pinnacle fair 17.3%",
+    "Sacramento Kings -5.5 (Orlando Magic at Sacramento Kings) +280: FanDuel implies 26.3% vs Pinnacle fair 17.3%",
     "Los Angeles Clippers -7.5 (LA Clippers at Phoenix Suns) +280: FanDuel implies 26.3% vs Pinnacle fair 17.4%",
-    "Sacramento Kings -2.5 (Orlando Magic at Sacramento Kings) +200: FanDuel implies 33.3% vs Pinnacle fair 24.4%",
-    "Sacramento Kings -1.5 (Orlando Magic at Sacramento Kings) +178: FanDuel implies 36.0% vs Pinnacle fair 27.1%"
+    "Sacramento Kings -4.5 (Orlando Magic at Sacramento Kings) +255: FanDuel implies 28.2% vs Pinnacle fair 19.5%",
+    "Miami Heat -18.5 (Miami Heat at Utah Jazz) +255: FanDuel implies 28.2% vs Pinnacle fair 19.6%",
+    "Los Angeles Clippers -1.5 (LA Clippers at Phoenix Suns) +140: FanDuel implies 41.7% vs Pinnacle fair 33.1%"
    ]
   }
  },
