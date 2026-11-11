@@ -121552,8 +121552,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2225,
-  "fd_payout_x": 4.36,
+  "est_prob": 0.2226,
+  "fd_payout_x": 4.34,
   "legs_detail": [
    {
     "id": "401909970:7914293:742.197078476",
@@ -121572,36 +121572,36 @@
     "close_odds": -300
    },
    {
-    "id": "401909973:7883515:742.197087631",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 4.5,
-    "pick": "Orlando Magic +4.5",
-    "market": "Alternate Spread",
-    "odds": -290,
-    "prob": 0.7425,
-    "raw_prob": 0.7425,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -290
-   },
-   {
-    "id": "401909968:7889290:742.197077789",
+    "id": "401909968:7927478:742.197077789",
     "event": "401909968",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 1.5,
-    "pick": "Boston Celtics +1.5",
+    "line": 2.5,
+    "pick": "Boston Celtics +2.5",
     "market": "Alternate Spread",
     "odds": -300,
-    "prob": 0.7388,
-    "raw_prob": 0.7388,
+    "prob": 0.7438,
+    "raw_prob": 0.7438,
     "game": "Boston Celtics at Toronto Raptors",
     "result": null,
     "close_odds": -300
+   },
+   {
+    "id": "401909973:7711003:742.197087632",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "total",
+    "line": 226.5,
+    "ou": "under",
+    "pick": "Under 226.5",
+    "market": "Alternate Total Points",
+    "odds": -295,
+    "prob": 0.7379,
+    "raw_prob": 0.7379,
+    "game": "Orlando Magic at Utah Jazz",
+    "result": null,
+    "close_odds": -295
    },
    {
     "id": "401909972:7992958:742.197078210",
@@ -121636,7 +121636,7 @@
     "close_odds": -290
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -121668,7 +121668,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -121678,8 +121678,8 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.79329,
-  "est_raw": 0.79329,
+  "est_prob": 0.79033,
+  "est_raw": 0.79033,
   "fd_payout_x": 1.21,
   "legs_detail": [
    {
@@ -121699,23 +121699,23 @@
     "close_odds": -1000
    },
    {
-    "id": "401909973:7883410:742.197087631",
-    "event": "401909973",
+    "id": "401909968:7733134:742.197077827",
+    "event": "401909968",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 11.5,
-    "pick": "Orlando Magic +11.5",
-    "market": "Alternate Spread",
+    "kind": "total",
+    "line": 237.5,
+    "ou": "under",
+    "pick": "Under 237.5",
+    "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8832,
-    "raw_prob": 0.8832,
-    "game": "Orlando Magic at Utah Jazz",
+    "prob": 0.8799,
+    "raw_prob": 0.8799,
+    "game": "Boston Celtics at Toronto Raptors",
     "result": null,
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -121726,9 +121726,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 3,
-  "est_prob": 0.67846,
-  "est_raw": 0.67846,
-  "fd_payout_x": 1.35,
+  "est_prob": 0.679,
+  "est_raw": 0.679,
+  "fd_payout_x": 1.34,
   "legs_detail": [
    {
     "id": "401909967:7933309:742.197077651",
@@ -121763,6 +121763,38 @@
     "close_odds": -950
    },
    {
+    "id": "401909973:7883410:742.197087631",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 11.5,
+    "pick": "Orlando Magic +11.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8782,
+    "raw_prob": 0.8782,
+    "game": "Orlando Magic at Utah Jazz",
+    "result": null,
+    "close_odds": -1000
+   }
+  ],
+  "logged": "2026-11-11 13:26 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": true,
+  "favorite_source": "logged"
+ },
+ {
+  "id": "2026-11-11-4",
+  "date": "2026-11-11",
+  "type": "ladder",
+  "n": 4,
+  "est_prob": 0.58725,
+  "est_raw": 0.58725,
+  "fd_payout_x": 1.49,
+  "legs_detail": [
+   {
     "id": "401909970:7889514:742.197078476",
     "event": "401909970",
     "sport": "nba",
@@ -121777,23 +121809,7 @@
     "game": "Denver Nuggets at Memphis Grizzlies",
     "result": null,
     "close_odds": -950
-   }
-  ],
-  "logged": "2026-11-11 13:20 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
- },
- {
-  "id": "2026-11-11-4",
-  "date": "2026-11-11",
-  "type": "ladder",
-  "n": 4,
-  "est_prob": 0.58524,
-  "est_raw": 0.58524,
-  "fd_payout_x": 1.49,
-  "legs_detail": [
+   },
    {
     "id": "401909966:7883309:742.197077991",
     "event": "401909966",
@@ -121827,22 +121843,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909968:7927485:742.197077789",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Boston Celtics +8.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8745,
-    "raw_prob": 0.8745,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401866461:49892642:742.196709151",
     "event": "401866461",
     "sport": "college-football",
@@ -121859,7 +121859,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -121957,7 +121957,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -121967,9 +121967,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.32261,
-  "est_raw": 0.32261,
-  "fd_payout_x": 2.43,
+  "est_prob": 0.32331,
+  "est_raw": 0.32331,
+  "fd_payout_x": 2.4,
   "legs_detail": [
    {
     "id": "401909971:7884336:742.197078757",
@@ -121988,18 +121988,18 @@
     "close_odds": -900
    },
    {
-    "id": "401909974:7711818:742.197078949",
-    "event": "401909974",
+    "id": "401909968:7889161:742.197077789",
+    "event": "401909968",
     "sport": "nba",
-    "kind": "total",
-    "line": 243.5,
-    "ou": "under",
-    "pick": "Under 243.5",
-    "market": "Alternate Total Points",
+    "kind": "spread",
+    "side": "away",
+    "line": 9.5,
+    "pick": "Boston Celtics +9.5",
+    "market": "Alternate Spread",
     "odds": -900,
-    "prob": 0.8753,
-    "raw_prob": 0.8753,
-    "game": "Golden State Warriors at Houston Rockets",
+    "prob": 0.8772,
+    "raw_prob": 0.8772,
+    "game": "Boston Celtics at Toronto Raptors",
     "result": null,
     "close_odds": -900
    },
@@ -122044,12 +122044,12 @@
     "line": 2.5,
     "pick": "Vegas Golden Knights +2.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
+    "odds": -650,
     "prob": 0.8,
     "raw_prob": 0.8,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892695:7739947:742.197116855",
@@ -122068,7 +122068,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -122078,10 +122078,26 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.38152,
-  "est_raw": 0.38152,
+  "est_prob": 0.38591,
+  "est_raw": 0.38591,
   "fd_payout_x": 2.06,
   "legs_detail": [
+   {
+    "id": "401909974:7711818:742.197078949",
+    "event": "401909974",
+    "sport": "nba",
+    "kind": "total",
+    "line": 243.5,
+    "ou": "under",
+    "pick": "Under 243.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8753,
+    "raw_prob": 0.8753,
+    "game": "Golden State Warriors at Houston Rockets",
+    "result": null,
+    "close_odds": -900
+   },
    {
     "id": "401909970:7729460:742.197078507",
     "event": "401909970",
@@ -122097,6 +122113,22 @@
     "game": "Denver Nuggets at Memphis Grizzlies",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909973:7729448:742.197087632",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "total",
+    "line": 235.5,
+    "ou": "under",
+    "pick": "Under 235.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8747,
+    "raw_prob": 0.8747,
+    "game": "Orlando Magic at Utah Jazz",
+    "result": null,
+    "close_odds": -900
    },
    {
     "id": "401909966:7733081:742.197077987",
@@ -122147,38 +122179,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909968:7711076:742.197077827",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "total",
-    "line": 236.5,
-    "ou": "under",
-    "pick": "Under 236.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8703,
-    "raw_prob": 0.8703,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401909973:7729448:742.197087632",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "total",
-    "line": 235.5,
-    "ou": "under",
-    "pick": "Under 235.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8697,
-    "raw_prob": 0.8697,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -900
-   },
-   {
     "id": "401866461:12194345:742.196709162",
     "event": "401866461",
     "sport": "college-football",
@@ -122195,7 +122195,7 @@
     "close_odds": -800
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -122205,9 +122205,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 8,
-  "est_prob": 0.24201,
-  "est_raw": 0.24201,
-  "fd_payout_x": 3.22,
+  "est_prob": 0.24107,
+  "est_raw": 0.24107,
+  "fd_payout_x": 2.84,
   "legs_detail": [
    {
     "id": "401909969:7890823:742.197078357",
@@ -122308,39 +122308,39 @@
     "close_odds": -700
    },
    {
-    "id": "401892695:7000417:742.197116855",
+    "id": "401892695:7669430:742.197116933",
     "event": "401892695",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Pittsburgh Penguins +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -370,
-    "prob": 0.7995,
-    "raw_prob": 0.7995,
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -850,
+    "prob": 0.7959,
+    "raw_prob": 0.7959,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -370
+    "close_odds": -850
    },
    {
-    "id": "401892690:7000420:742.197115040",
-    "event": "401892690",
+    "id": "401892693:15334251:742.197117876",
+    "event": "401892693",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": 1.5,
-    "pick": "Tampa Bay Lightning +1.5",
+    "pick": "Vegas Golden Knights +1.5",
     "market": "Alternate Puck Line",
     "odds": -330,
-    "prob": 0.7941,
-    "raw_prob": 0.7941,
-    "game": "Tampa Bay Lightning at Buffalo Sabres",
+    "prob": 0.7946,
+    "raw_prob": 0.7946,
+    "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
     "close_odds": -330
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -122350,42 +122350,10 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.25083,
-  "est_raw": 0.25083,
-  "fd_payout_x": 3.16,
+  "est_prob": 0.24084,
+  "est_raw": 0.24084,
+  "fd_payout_x": 3.17,
   "legs_detail": [
-   {
-    "id": "401909971:7889101:742.197078757",
-    "event": "401909971",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 3.5,
-    "pick": "Los Angeles Lakers +3.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
-    "game": "Los Angeles Lakers at Milwaukee Bucks",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909973:7883402:742.197087631",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 10.5,
-    "pick": "Orlando Magic +10.5",
-    "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.8692,
-    "raw_prob": 0.8692,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -850
-   },
    {
     "id": "401909966:7711048:742.197077987",
     "event": "401909966",
@@ -122401,6 +122369,22 @@
     "game": "Washington Wizards at Indiana Pacers",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909968:7711076:742.197077827",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "total",
+    "line": 236.5,
+    "ou": "under",
+    "pick": "Under 236.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8679,
+    "raw_prob": 0.8679,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401909972:7755153:742.197078212",
@@ -122467,6 +122451,22 @@
     "close_odds": -800
    },
    {
+    "id": "401909973:7883402:742.197087631",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 10.5,
+    "pick": "Orlando Magic +10.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8642,
+    "raw_prob": 0.8642,
+    "game": "Orlando Magic at Utah Jazz",
+    "result": null,
+    "close_odds": -850
+   },
+   {
     "id": "401892692:7000407:742.197116361",
     "event": "401892692",
     "sport": "nhl",
@@ -122483,23 +122483,23 @@
     "close_odds": -650
    },
    {
-    "id": "401892693:15334251:742.197117876",
-    "event": "401892693",
+    "id": "401892690:7000420:742.197115040",
+    "event": "401892690",
     "sport": "nhl",
     "kind": "spread",
-    "side": "home",
+    "side": "away",
     "line": 1.5,
-    "pick": "Vegas Golden Knights +1.5",
+    "pick": "Tampa Bay Lightning +1.5",
     "market": "Alternate Puck Line",
-    "odds": -320,
-    "prob": 0.7919,
-    "raw_prob": 0.7919,
-    "game": "Utah Mammoth at Vegas Golden Knights",
+    "odds": -330,
+    "prob": 0.7941,
+    "raw_prob": 0.7941,
+    "game": "Tampa Bay Lightning at Buffalo Sabres",
     "result": null,
-    "close_odds": -320
+    "close_odds": -330
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -122509,10 +122509,26 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 10,
-  "est_prob": 0.16033,
-  "est_raw": 0.16033,
-  "fd_payout_x": 3.19,
+  "est_prob": 0.16826,
+  "est_raw": 0.16826,
+  "fd_payout_x": 3.65,
   "legs_detail": [
+   {
+    "id": "401909971:7889101:742.197078757",
+    "event": "401909971",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 3.5,
+    "pick": "Los Angeles Lakers +3.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.9012,
+    "raw_prob": 0.9012,
+    "game": "Los Angeles Lakers at Milwaukee Bucks",
+    "result": null,
+    "close_odds": -950
+   },
    {
     "id": "401909969:7890823:742.197078357",
     "event": "401909969",
@@ -122562,22 +122578,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909968:7710978:742.197077827",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "total",
-    "line": 196.5,
-    "ou": "over",
-    "pick": "Over 196.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8608,
-    "raw_prob": 0.8608,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401866463:12194328:742.196709110",
     "event": "401866463",
     "sport": "college-football",
@@ -122612,20 +122612,20 @@
     "close_odds": -850
    },
    {
-    "id": "401892695:7669430:742.197116933",
+    "id": "401892695:7000417:742.197116855",
     "event": "401892695",
     "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -800,
-    "prob": 0.7931,
-    "raw_prob": 0.7931,
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Pittsburgh Penguins +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -350,
+    "prob": 0.795,
+    "raw_prob": 0.795,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -350
    },
    {
     "id": "401892694:7669430:742.197113795",
@@ -122676,7 +122676,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -122686,26 +122686,10 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 11,
-  "est_prob": 0.18712,
-  "est_raw": 0.18712,
-  "fd_payout_x": 3.54,
+  "est_prob": 0.18243,
+  "est_raw": 0.18243,
+  "fd_payout_x": 3.5,
   "legs_detail": [
-   {
-    "id": "401909971:7884336:742.197078757",
-    "event": "401909971",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "Los Angeles Lakers +2.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8917,
-    "raw_prob": 0.8917,
-    "game": "Los Angeles Lakers at Milwaukee Bucks",
-    "result": null,
-    "close_odds": -900
-   },
    {
     "id": "401909967:7888728:742.197077651",
     "event": "401909967",
@@ -122719,6 +122703,22 @@
     "prob": 0.8639,
     "raw_prob": 0.8639,
     "game": "Cleveland Cavaliers at New York Knicks",
+    "result": null,
+    "close_odds": -800
+   },
+   {
+    "id": "401909973:7711361:742.197087632",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "total",
+    "line": 234.5,
+    "ou": "under",
+    "pick": "Under 234.5",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.8634,
+    "raw_prob": 0.8634,
+    "game": "Orlando Magic at Utah Jazz",
     "result": null,
     "close_odds": -800
    },
@@ -122737,6 +122737,22 @@
     "game": "Denver Nuggets at Memphis Grizzlies",
     "result": null,
     "close_odds": -850
+   },
+   {
+    "id": "401909968:7913291:742.197077789",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 20.5,
+    "pick": "Toronto Raptors +20.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8626,
+    "raw_prob": 0.8626,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401909966:7747570:742.197077987",
@@ -122783,22 +122799,6 @@
     "prob": 0.8615,
     "raw_prob": 0.8615,
     "game": "Brooklyn Nets at New Orleans Pelicans",
-    "result": null,
-    "close_odds": -750
-   },
-   {
-    "id": "401909968:7889211:742.197077789",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Boston Celtics +7.5",
-    "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8567,
-    "raw_prob": 0.8567,
-    "game": "Boston Celtics at Toronto Raptors",
     "result": null,
     "close_odds": -750
    },
@@ -122867,7 +122867,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -122877,9 +122877,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 12,
-  "est_prob": 0.12701,
-  "est_raw": 0.12701,
-  "fd_payout_x": 4.7,
+  "est_prob": 0.12599,
+  "est_raw": 0.12599,
+  "fd_payout_x": 4.8,
   "legs_detail": [
    {
     "id": "401909969:7890823:742.197078357",
@@ -122898,20 +122898,36 @@
     "close_odds": -1000
    },
    {
-    "id": "401909973:7883410:742.197087631",
-    "event": "401909973",
+    "id": "401909971:7884336:742.197078757",
+    "event": "401909971",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 11.5,
-    "pick": "Orlando Magic +11.5",
+    "line": 2.5,
+    "pick": "Los Angeles Lakers +2.5",
     "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8832,
-    "raw_prob": 0.8832,
-    "game": "Orlando Magic at Utah Jazz",
+    "odds": -900,
+    "prob": 0.8917,
+    "raw_prob": 0.8917,
+    "game": "Los Angeles Lakers at Milwaukee Bucks",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -900
+   },
+   {
+    "id": "401909968:7927485:742.197077789",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 8.5,
+    "pick": "Boston Celtics +8.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8617,
+    "raw_prob": 0.8617,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -750
    },
    {
     "id": "401909970:7711204:742.197078507",
@@ -122944,22 +122960,6 @@
     "game": "Cleveland Cavaliers at New York Knicks",
     "result": null,
     "close_odds": -800
-   },
-   {
-    "id": "401909966:7920379:742.197077991",
-    "event": "401909966",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "Indiana Pacers +11.5",
-    "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8584,
-    "raw_prob": 0.8584,
-    "game": "Washington Wizards at Indiana Pacers",
-    "result": null,
-    "close_odds": -750
    },
    {
     "id": "401866462:12197201:742.196709249",
@@ -123044,22 +123044,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892693:53322288:742.197117876",
-    "event": "401892693",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Vegas Golden Knights +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Utah Mammoth at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -600
-   },
-   {
     "id": "401892695:7739947:742.197116855",
     "event": "401892695",
     "sport": "nhl",
@@ -123074,9 +123058,25 @@
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
     "close_odds": -700
+   },
+   {
+    "id": "401892693:8359782:742.197117917",
+    "event": "401892693",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -550,
+    "prob": 0.783,
+    "raw_prob": 0.783,
+    "game": "Utah Mammoth at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -550
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -123086,9 +123086,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 13,
-  "est_prob": 0.11013,
-  "est_raw": 0.11013,
-  "fd_payout_x": 6.08,
+  "est_prob": 0.11179,
+  "est_raw": 0.11179,
+  "fd_payout_x": 4.69,
   "legs_detail": [
    {
     "id": "401909971:7889101:742.197078757",
@@ -123123,20 +123123,20 @@
     "close_odds": -950
    },
    {
-    "id": "401909973:7729448:742.197087632",
+    "id": "401909973:7883410:742.197087631",
     "event": "401909973",
     "sport": "nba",
-    "kind": "total",
-    "line": 235.5,
-    "ou": "under",
-    "pick": "Under 235.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8697,
-    "raw_prob": 0.8697,
+    "kind": "spread",
+    "side": "away",
+    "line": 11.5,
+    "pick": "Orlando Magic +11.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8782,
+    "raw_prob": 0.8782,
     "game": "Orlando Magic at Utah Jazz",
     "result": null,
-    "close_odds": -900
+    "close_odds": -1000
    },
    {
     "id": "401866462:49917178:742.196709250",
@@ -123155,6 +123155,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401909966:7920379:742.197077991",
+    "event": "401909966",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 11.5,
+    "pick": "Indiana Pacers +11.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8584,
+    "raw_prob": 0.8584,
+    "game": "Washington Wizards at Indiana Pacers",
+    "result": null,
+    "close_odds": -750
+   },
+   {
     "id": "401909974:7891595:742.197078941",
     "event": "401909974",
     "sport": "nba",
@@ -123169,22 +123185,6 @@
     "game": "Golden State Warriors at Houston Rockets",
     "result": null,
     "close_odds": -720
-   },
-   {
-    "id": "401909968:7729448:742.197077827",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "total",
-    "line": 235.5,
-    "ou": "under",
-    "pick": "Under 235.5",
-    "market": "Alternate Total Points",
-    "odds": -750,
-    "prob": 0.8564,
-    "raw_prob": 0.8564,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -750
    },
    {
     "id": "401866461:12197206:742.196709162",
@@ -123253,6 +123253,22 @@
     "close_odds": -650
    },
    {
+    "id": "401892693:53322288:742.197117876",
+    "event": "401892693",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Vegas Golden Knights +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Utah Mammoth at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -650
+   },
+   {
     "id": "401892694:7737451:742.197113749",
     "event": "401892694",
     "sport": "nhl",
@@ -123269,39 +123285,23 @@
     "close_odds": -700
    },
    {
-    "id": "401892695:7000417:742.197116855",
+    "id": "401892695:7669430:742.197116933",
     "event": "401892695",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Pittsburgh Penguins +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -370,
-    "prob": 0.7995,
-    "raw_prob": 0.7995,
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -850,
+    "prob": 0.7959,
+    "raw_prob": 0.7959,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -370
-   },
-   {
-    "id": "401892690:7000420:742.197115040",
-    "event": "401892690",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Tampa Bay Lightning +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -330,
-    "prob": 0.7941,
-    "raw_prob": 0.7941,
-    "game": "Tampa Bay Lightning at Buffalo Sabres",
-    "result": null,
-    "close_odds": -330
+    "close_odds": -850
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -123311,9 +123311,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 14,
-  "est_prob": 0.12881,
-  "est_raw": 0.12881,
-  "fd_payout_x": 5.2,
+  "est_prob": 0.13079,
+  "est_raw": 0.13079,
+  "fd_payout_x": 5.11,
   "legs_detail": [
    {
     "id": "401909969:7890823:742.197078357",
@@ -123346,6 +123346,22 @@
     "game": "Los Angeles Lakers at Milwaukee Bucks",
     "result": null,
     "close_odds": -900
+   },
+   {
+    "id": "401909968:7733134:742.197077827",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "total",
+    "line": 237.5,
+    "ou": "under",
+    "pick": "Under 237.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8799,
+    "raw_prob": 0.8799,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -1000
    },
    {
     "id": "401909967:7933309:742.197077651",
@@ -123412,20 +123428,20 @@
     "close_odds": -900
    },
    {
-    "id": "401909968:7927485:742.197077789",
-    "event": "401909968",
+    "id": "401909973:7729448:742.197087632",
+    "event": "401909973",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Boston Celtics +8.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8745,
-    "raw_prob": 0.8745,
-    "game": "Boston Celtics at Toronto Raptors",
+    "kind": "total",
+    "line": 235.5,
+    "ou": "under",
+    "pick": "Under 235.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8747,
+    "raw_prob": 0.8747,
+    "game": "Orlando Magic at Utah Jazz",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909972:7712036:742.197078212",
@@ -123442,22 +123458,6 @@
     "game": "Brooklyn Nets at New Orleans Pelicans",
     "result": null,
     "close_odds": -950
-   },
-   {
-    "id": "401909973:7883402:742.197087631",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 10.5,
-    "pick": "Orlando Magic +10.5",
-    "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.8692,
-    "raw_prob": 0.8692,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -850
    },
    {
     "id": "401866463:49921589:742.196709118",
@@ -123524,23 +123524,23 @@
     "close_odds": -650
    },
    {
-    "id": "401892693:15334251:742.197117876",
-    "event": "401892693",
+    "id": "401892690:7000420:742.197115040",
+    "event": "401892690",
     "sport": "nhl",
     "kind": "spread",
-    "side": "home",
+    "side": "away",
     "line": 1.5,
-    "pick": "Vegas Golden Knights +1.5",
+    "pick": "Tampa Bay Lightning +1.5",
     "market": "Alternate Puck Line",
-    "odds": -320,
-    "prob": 0.7919,
-    "raw_prob": 0.7919,
-    "game": "Utah Mammoth at Vegas Golden Knights",
+    "odds": -330,
+    "prob": 0.7941,
+    "raw_prob": 0.7941,
+    "game": "Tampa Bay Lightning at Buffalo Sabres",
     "result": null,
-    "close_odds": -320
+    "close_odds": -330
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -123550,9 +123550,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 15,
-  "est_prob": 0.0836,
-  "est_raw": 0.0836,
-  "fd_payout_x": 5.3,
+  "est_prob": 0.08545,
+  "est_raw": 0.08545,
+  "fd_payout_x": 6.7,
   "legs_detail": [
    {
     "id": "401909969:7890823:742.197078357",
@@ -123569,6 +123569,22 @@
     "game": "San Antonio Spurs at Chicago Bulls",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909968:7889161:742.197077789",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 9.5,
+    "pick": "Boston Celtics +9.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.8772,
+    "raw_prob": 0.8772,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -900
    },
    {
     "id": "401909974:7711818:742.197078949",
@@ -123651,22 +123667,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909968:7711076:742.197077827",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "total",
-    "line": 236.5,
-    "ou": "under",
-    "pick": "Under 236.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8703,
-    "raw_prob": 0.8703,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -900
-   },
-   {
     "id": "401909972:7755153:742.197078212",
     "event": "401909972",
     "sport": "nba",
@@ -123683,20 +123683,20 @@
     "close_odds": -950
    },
    {
-    "id": "401866463:12194345:742.196709110",
-    "event": "401866463",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 68.5,
-    "ou": "under",
-    "pick": "Under (68.5)",
-    "market": "Alternate Total Points",
-    "odds": -770,
-    "prob": 0.8613,
-    "raw_prob": 0.8613,
-    "game": "Massachusetts Minutemen at Toledo Rockets",
+    "id": "401909973:7883402:742.197087631",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 10.5,
+    "pick": "Orlando Magic +10.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8642,
+    "raw_prob": 0.8642,
+    "game": "Orlando Magic at Utah Jazz",
     "result": null,
-    "close_odds": -770
+    "close_odds": -850
    },
    {
     "id": "401866462:12197201:742.196709249",
@@ -123733,20 +123733,36 @@
     "close_odds": -1000
    },
    {
-    "id": "401892695:7669430:742.197116933",
+    "id": "401892695:7000417:742.197116855",
     "event": "401892695",
     "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -800,
-    "prob": 0.7931,
-    "raw_prob": 0.7931,
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Pittsburgh Penguins +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -350,
+    "prob": 0.795,
+    "raw_prob": 0.795,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -350
+   },
+   {
+    "id": "401892693:15334251:742.197117876",
+    "event": "401892693",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Vegas Golden Knights +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -330,
+    "prob": 0.7946,
+    "raw_prob": 0.7946,
+    "game": "Utah Mammoth at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -330
    },
    {
     "id": "401892694:7669430:742.197113795",
@@ -123765,22 +123781,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892693:7669430:742.197117917",
-    "event": "401892693",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7881,
-    "raw_prob": 0.7881,
-    "game": "Utah Mammoth at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -600
-   },
-   {
     "id": "401892690:7669430:742.197115009",
     "event": "401892690",
     "sport": "nhl",
@@ -123797,7 +123797,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -123807,9 +123807,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 16,
-  "est_prob": 0.07118,
-  "est_raw": 0.07118,
-  "fd_payout_x": 7.37,
+  "est_prob": 0.06889,
+  "est_raw": 0.06889,
+  "fd_payout_x": 7.47,
   "legs_detail": [
    {
     "id": "401909971:7889101:742.197078757",
@@ -123826,22 +123826,6 @@
     "game": "Los Angeles Lakers at Milwaukee Bucks",
     "result": null,
     "close_odds": -950
-   },
-   {
-    "id": "401909973:7883410:742.197087631",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 11.5,
-    "pick": "Orlando Magic +11.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8832,
-    "raw_prob": 0.8832,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -1000
    },
    {
     "id": "401909966:7711048:742.197077987",
@@ -123874,6 +123858,22 @@
     "game": "Buffalo Bulls at Ball State Cardinals",
     "result": null,
     "close_odds": -800
+   },
+   {
+    "id": "401909968:7711076:742.197077827",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "total",
+    "line": 236.5,
+    "ou": "under",
+    "pick": "Under 236.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8679,
+    "raw_prob": 0.8679,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401909967:7711074:742.197077664",
@@ -123924,20 +123924,20 @@
     "close_odds": -800
    },
    {
-    "id": "401909972:7992953:742.197078210",
-    "event": "401909972",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 10.5,
-    "pick": "New Orleans Pelicans +10.5",
-    "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8615,
-    "raw_prob": 0.8615,
-    "game": "Brooklyn Nets at New Orleans Pelicans",
+    "id": "401866463:12194345:742.196709110",
+    "event": "401866463",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 68.5,
+    "ou": "under",
+    "pick": "Under (68.5)",
+    "market": "Alternate Total Points",
+    "odds": -770,
+    "prob": 0.8613,
+    "raw_prob": 0.8613,
+    "game": "Massachusetts Minutemen at Toledo Rockets",
     "result": null,
-    "close_odds": -750
+    "close_odds": -770
    },
    {
     "id": "401866462:49917178:742.196709250",
@@ -124038,22 +124038,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892693:53322288:742.197117876",
-    "event": "401892693",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Vegas Golden Knights +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Utah Mammoth at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -600
-   },
-   {
     "id": "401892695:7739947:742.197116855",
     "event": "401892695",
     "sport": "nhl",
@@ -124068,9 +124052,25 @@
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
     "close_odds": -700
+   },
+   {
+    "id": "401892693:7669430:742.197117917",
+    "event": "401892693",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -600,
+    "prob": 0.7881,
+    "raw_prob": 0.7881,
+    "game": "Utah Mammoth at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -600
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -124080,9 +124080,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 17,
-  "est_prob": 0.05774,
-  "est_raw": 0.05774,
-  "fd_payout_x": 10.24,
+  "est_prob": 0.05652,
+  "est_raw": 0.05652,
+  "fd_payout_x": 8.42,
   "legs_detail": [
    {
     "id": "401909969:7890823:742.197078357",
@@ -124117,22 +124117,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909973:7729448:742.197087632",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "total",
-    "line": 235.5,
-    "ou": "under",
-    "pick": "Under 235.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8697,
-    "raw_prob": 0.8697,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -900
-   },
-   {
     "id": "401909967:7888728:742.197077651",
     "event": "401909967",
     "sport": "nba",
@@ -124145,6 +124129,22 @@
     "prob": 0.8639,
     "raw_prob": 0.8639,
     "game": "Cleveland Cavaliers at New York Knicks",
+    "result": null,
+    "close_odds": -800
+   },
+   {
+    "id": "401909973:7711361:742.197087632",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "total",
+    "line": 234.5,
+    "ou": "under",
+    "pick": "Under 234.5",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.8634,
+    "raw_prob": 0.8634,
+    "game": "Orlando Magic at Utah Jazz",
     "result": null,
     "close_odds": -800
    },
@@ -124165,6 +124165,22 @@
     "close_odds": -850
    },
    {
+    "id": "401909968:7913291:742.197077789",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 20.5,
+    "pick": "Toronto Raptors +20.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8626,
+    "raw_prob": 0.8626,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401909966:7747570:742.197077987",
     "event": "401909966",
     "sport": "nba",
@@ -124181,36 +124197,20 @@
     "close_odds": -850
    },
    {
-    "id": "401909974:7733196:742.197078949",
-    "event": "401909974",
+    "id": "401909972:7992953:742.197078210",
+    "event": "401909972",
     "sport": "nba",
-    "kind": "total",
-    "line": 202.5,
-    "ou": "over",
-    "pick": "Over 202.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8619,
-    "raw_prob": 0.8619,
-    "game": "Golden State Warriors at Houston Rockets",
+    "kind": "spread",
+    "side": "home",
+    "line": 10.5,
+    "pick": "New Orleans Pelicans +10.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8615,
+    "raw_prob": 0.8615,
+    "game": "Brooklyn Nets at New Orleans Pelicans",
     "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909968:7710978:742.197077827",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "total",
-    "line": 196.5,
-    "ou": "over",
-    "pick": "Over 196.5",
-    "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8608,
-    "raw_prob": 0.8608,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -950
+    "close_odds": -750
    },
    {
     "id": "401866463:12194328:742.196709110",
@@ -124311,20 +124311,20 @@
     "close_odds": -700
    },
    {
-    "id": "401892695:7000417:742.197116855",
+    "id": "401892695:7669430:742.197116933",
     "event": "401892695",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Pittsburgh Penguins +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -370,
-    "prob": 0.7995,
-    "raw_prob": 0.7995,
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -850,
+    "prob": 0.7959,
+    "raw_prob": 0.7959,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -370
+    "close_odds": -850
    },
    {
     "id": "401892690:7000420:742.197115040",
@@ -124343,23 +124343,23 @@
     "close_odds": -330
    },
    {
-    "id": "401892693:15334251:742.197117876",
+    "id": "401892693:8359782:742.197117917",
     "event": "401892693",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Vegas Golden Knights +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -320,
-    "prob": 0.7919,
-    "raw_prob": 0.7919,
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -550,
+    "prob": 0.783,
+    "raw_prob": 0.783,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": -320
+    "close_odds": -550
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -124369,9 +124369,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 18,
-  "est_prob": 0.04878,
-  "est_raw": 0.04878,
-  "fd_payout_x": 8.28,
+  "est_prob": 0.05065,
+  "est_raw": 0.05065,
+  "fd_payout_x": 8.98,
   "legs_detail": [
    {
     "id": "401909971:7889101:742.197078757",
@@ -124422,20 +124422,52 @@
     "close_odds": -950
    },
    {
-    "id": "401909973:7883402:742.197087631",
+    "id": "401909973:7883410:742.197087631",
     "event": "401909973",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 10.5,
-    "pick": "Orlando Magic +10.5",
+    "line": 11.5,
+    "pick": "Orlando Magic +11.5",
     "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.8692,
-    "raw_prob": 0.8692,
+    "odds": -1000,
+    "prob": 0.8782,
+    "raw_prob": 0.8782,
     "game": "Orlando Magic at Utah Jazz",
     "result": null,
-    "close_odds": -850
+    "close_odds": -1000
+   },
+   {
+    "id": "401909974:7733196:742.197078949",
+    "event": "401909974",
+    "sport": "nba",
+    "kind": "total",
+    "line": 202.5,
+    "ou": "over",
+    "pick": "Over 202.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8619,
+    "raw_prob": 0.8619,
+    "game": "Golden State Warriors at Houston Rockets",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909968:7927485:742.197077789",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 8.5,
+    "pick": "Boston Celtics +8.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8617,
+    "raw_prob": 0.8617,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -750
    },
    {
     "id": "401866462:49917178:742.196709250",
@@ -124500,38 +124532,6 @@
     "game": "Cleveland Cavaliers at New York Knicks",
     "result": null,
     "close_odds": -800
-   },
-   {
-    "id": "401909966:7920379:742.197077991",
-    "event": "401909966",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 11.5,
-    "pick": "Indiana Pacers +11.5",
-    "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8584,
-    "raw_prob": 0.8584,
-    "game": "Washington Wizards at Indiana Pacers",
-    "result": null,
-    "close_odds": -750
-   },
-   {
-    "id": "401909968:7889211:742.197077789",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 7.5,
-    "pick": "Boston Celtics +7.5",
-    "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8567,
-    "raw_prob": 0.8567,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -750
    },
    {
     "id": "401866463:12247072:742.196709110",
@@ -124600,20 +124600,36 @@
     "close_odds": -650
    },
    {
-    "id": "401892695:7669430:742.197116933",
+    "id": "401892693:53322288:742.197117876",
+    "event": "401892693",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Vegas Golden Knights +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Utah Mammoth at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -650
+   },
+   {
+    "id": "401892695:7000417:742.197116855",
     "event": "401892695",
     "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -800,
-    "prob": 0.7931,
-    "raw_prob": 0.7931,
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Pittsburgh Penguins +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -350,
+    "prob": 0.795,
+    "raw_prob": 0.795,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -800
+    "close_odds": -350
    },
    {
     "id": "401892694:7669430:742.197113795",
@@ -124632,22 +124648,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892693:7669430:742.197117917",
-    "event": "401892693",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7881,
-    "raw_prob": 0.7881,
-    "game": "Utah Mammoth at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -600
-   },
-   {
     "id": "401892690:7669430:742.197115009",
     "event": "401892690",
     "sport": "nhl",
@@ -124664,7 +124664,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -124674,9 +124674,9 @@
   "date": "2026-11-11",
   "type": "ladder",
   "n": 19,
-  "est_prob": 0.04575,
-  "est_raw": 0.04575,
-  "fd_payout_x": 10.3,
+  "est_prob": 0.0453,
+  "est_raw": 0.0453,
+  "fd_payout_x": 11.56,
   "legs_detail": [
    {
     "id": "401909969:7890823:742.197078357",
@@ -124711,18 +124711,18 @@
     "close_odds": -900
    },
    {
-    "id": "401909973:7883410:742.197087631",
-    "event": "401909973",
+    "id": "401909968:7733134:742.197077827",
+    "event": "401909968",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 11.5,
-    "pick": "Orlando Magic +11.5",
-    "market": "Alternate Spread",
+    "kind": "total",
+    "line": 237.5,
+    "ou": "under",
+    "pick": "Under 237.5",
+    "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8832,
-    "raw_prob": 0.8832,
-    "game": "Orlando Magic at Utah Jazz",
+    "prob": 0.8799,
+    "raw_prob": 0.8799,
+    "game": "Boston Celtics at Toronto Raptors",
     "result": null,
     "close_odds": -1000
    },
@@ -124759,20 +124759,20 @@
     "close_odds": -950
    },
    {
-    "id": "401909966:7883309:742.197077991",
-    "event": "401909966",
+    "id": "401909973:7729448:742.197087632",
+    "event": "401909973",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 12.5,
-    "pick": "Indiana Pacers +12.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8762,
-    "raw_prob": 0.8762,
-    "game": "Washington Wizards at Indiana Pacers",
+    "kind": "total",
+    "line": 235.5,
+    "ou": "under",
+    "pick": "Under 235.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8747,
+    "raw_prob": 0.8747,
+    "game": "Orlando Magic at Utah Jazz",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909972:7712036:742.197078212",
@@ -124791,6 +124791,22 @@
     "close_odds": -950
    },
    {
+    "id": "401909966:7920379:742.197077991",
+    "event": "401909966",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 11.5,
+    "pick": "Indiana Pacers +11.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8584,
+    "raw_prob": 0.8584,
+    "game": "Washington Wizards at Indiana Pacers",
+    "result": null,
+    "close_odds": -750
+   },
+   {
     "id": "401909974:7891595:742.197078941",
     "event": "401909974",
     "sport": "nba",
@@ -124805,22 +124821,6 @@
     "game": "Golden State Warriors at Houston Rockets",
     "result": null,
     "close_odds": -720
-   },
-   {
-    "id": "401909968:7729448:742.197077827",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "total",
-    "line": 235.5,
-    "ou": "under",
-    "pick": "Under 235.5",
-    "market": "Alternate Total Points",
-    "odds": -750,
-    "prob": 0.8564,
-    "raw_prob": 0.8564,
-    "game": "Boston Celtics at Toronto Raptors",
-    "result": null,
-    "close_odds": -750
    },
    {
     "id": "401866461:12197189:742.196709162",
@@ -124953,22 +124953,6 @@
     "close_odds": -650
    },
    {
-    "id": "401892693:53322288:742.197117876",
-    "event": "401892693",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Vegas Golden Knights +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Utah Mammoth at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -600
-   },
-   {
     "id": "401892695:7739947:742.197116855",
     "event": "401892695",
     "sport": "nhl",
@@ -124983,9 +124967,25 @@
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
     "close_odds": -700
+   },
+   {
+    "id": "401892693:15334251:742.197117876",
+    "event": "401892693",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Vegas Golden Knights +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -330,
+    "prob": 0.7946,
+    "raw_prob": 0.7946,
+    "game": "Utah Mammoth at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -330
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -124996,8 +124996,8 @@
   "type": "lottery",
   "label": "~500x",
   "n": 6,
-  "est_prob": 0.0036118042560590235,
-  "fd_payout_x": 523.98,
+  "est_prob": 0.0036818982439225196,
+  "fd_payout_x": 515.44,
   "legs_detail": [
    {
     "id": "401892693:13305501:742.196966903",
@@ -125008,12 +125008,12 @@
     "line": -1.5,
     "pick": "Vegas Golden Knights -1.5",
     "market": "Puck Line",
-    "odds": 186,
-    "prob": 0.4058,
-    "raw_prob": 0.4058,
+    "odds": 190,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": 186
+    "close_odds": 190
    },
    {
     "id": "401892690:25609:742.196966848",
@@ -125056,12 +125056,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 168,
-    "prob": 0.4126,
-    "raw_prob": 0.4126,
+    "odds": 160,
+    "prob": 0.4229,
+    "raw_prob": 0.4229,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": 168
+    "close_odds": 160
    },
    {
     "id": "401892691:226870:742.196966927",
@@ -125096,7 +125096,7 @@
     "close_odds": 230
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -125107,8 +125107,8 @@
   "type": "lottery",
   "label": "~100x",
   "n": 7,
-  "est_prob": 0.01576924553170834,
-  "fd_payout_x": 104.22,
+  "est_prob": 0.016075277981573755,
+  "fd_payout_x": 102.53,
   "legs_detail": [
    {
     "id": "401892693:13305501:742.196966903",
@@ -125119,12 +125119,12 @@
     "line": -1.5,
     "pick": "Vegas Golden Knights -1.5",
     "market": "Puck Line",
-    "odds": 186,
-    "prob": 0.4058,
-    "raw_prob": 0.4058,
+    "odds": 190,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": 186
+    "close_odds": 190
    },
    {
     "id": "401892690:25609:742.196966848",
@@ -125167,12 +125167,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 168,
-    "prob": 0.4126,
-    "raw_prob": 0.4126,
+    "odds": 160,
+    "prob": 0.4229,
+    "raw_prob": 0.4229,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": 168
+    "close_odds": 160
    },
    {
     "id": "401909971:7889101:742.197078757",
@@ -125223,7 +125223,7 @@
     "close_odds": -350
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -125234,8 +125234,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 8,
-  "est_prob": 0.05448430266084317,
-  "fd_payout_x": 25.22,
+  "est_prob": 0.05502076802912129,
+  "fd_payout_x": 25.35,
   "legs_detail": [
    {
     "id": "401892693:13305501:742.196966903",
@@ -125246,12 +125246,12 @@
     "line": -1.5,
     "pick": "Vegas Golden Knights -1.5",
     "market": "Puck Line",
-    "odds": 186,
-    "prob": 0.4058,
-    "raw_prob": 0.4058,
+    "odds": 190,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": 186
+    "close_odds": 190
    },
    {
     "id": "401892690:25609:742.196966848",
@@ -125294,12 +125294,12 @@
     "line": 1.5,
     "pick": "Pittsburgh Penguins +1.5",
     "market": "Alternate Puck Line",
-    "odds": -370,
-    "prob": 0.7995,
-    "raw_prob": 0.7995,
+    "odds": -350,
+    "prob": 0.795,
+    "raw_prob": 0.795,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -370
+    "close_odds": -350
    },
    {
     "id": "401909971:7889101:742.197078757",
@@ -125350,23 +125350,23 @@
     "close_odds": -390
    },
    {
-    "id": "401909973:7883300:742.197087631",
-    "event": "401909973",
+    "id": "401909972:7978362:742.197078210",
+    "event": "401909972",
     "sport": "nba",
     "kind": "spread",
-    "side": "away",
-    "line": 6.5,
-    "pick": "Orlando Magic +6.5",
+    "side": "home",
+    "line": 7.5,
+    "pick": "New Orleans Pelicans +7.5",
     "market": "Alternate Spread",
-    "odds": -370,
-    "prob": 0.7868,
-    "raw_prob": 0.7868,
-    "game": "Orlando Magic at Utah Jazz",
+    "odds": -410,
+    "prob": 0.8034,
+    "raw_prob": 0.8034,
+    "game": "Brooklyn Nets at New Orleans Pelicans",
     "result": null,
-    "close_odds": -370
+    "close_odds": -410
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -125377,8 +125377,8 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 10,
-  "est_prob": 0.001821157150545319,
-  "fd_payout_x": 1029.07,
+  "est_prob": 0.0018565001974431956,
+  "fd_payout_x": 1012.31,
   "legs_detail": [
    {
     "id": "401892693:13305501:742.196966903",
@@ -125389,12 +125389,12 @@
     "line": -1.5,
     "pick": "Vegas Golden Knights -1.5",
     "market": "Puck Line",
-    "odds": 186,
-    "prob": 0.4058,
-    "raw_prob": 0.4058,
+    "odds": 190,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": 186
+    "close_odds": 190
    },
    {
     "id": "401892690:25609:742.196966848",
@@ -125437,12 +125437,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 168,
-    "prob": 0.4126,
-    "raw_prob": 0.4126,
+    "odds": 160,
+    "prob": 0.4229,
+    "raw_prob": 0.4229,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": 168
+    "close_odds": 160
    },
    {
     "id": "401892691:226870:742.196966927",
@@ -125541,7 +125541,7 @@
     "close_odds": 230
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -125551,9 +125551,9 @@
   "date": "2026-11-11",
   "type": "lottery",
   "label": "~10,000x",
-  "n": 12,
-  "est_prob": 0.00018332948421962407,
-  "fd_payout_x": 10531.35,
+  "n": 11,
+  "est_prob": 0.00018312305140939165,
+  "fd_payout_x": 10571.38,
   "legs_detail": [
    {
     "id": "401892693:13305501:742.196966903",
@@ -125564,12 +125564,12 @@
     "line": -1.5,
     "pick": "Vegas Golden Knights -1.5",
     "market": "Puck Line",
-    "odds": 186,
-    "prob": 0.4058,
-    "raw_prob": 0.4058,
+    "odds": 190,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": 186
+    "close_odds": 190
    },
    {
     "id": "401892690:25609:742.196966848",
@@ -125612,12 +125612,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 168,
-    "prob": 0.4126,
-    "raw_prob": 0.4126,
+    "odds": 160,
+    "prob": 0.4229,
+    "raw_prob": 0.4229,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": 168
+    "close_odds": 160
    },
    {
     "id": "401892691:226870:742.196966927",
@@ -125652,20 +125652,20 @@
     "close_odds": 230
    },
    {
-    "id": "401909973:7883437:742.197087631",
-    "event": "401909973",
+    "id": "401909971:3531945:742.197078757",
+    "event": "401909971",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 3.5,
-    "pick": "Orlando Magic +3.5",
+    "line": -11.5,
+    "pick": "Los Angeles Lakers -11.5",
     "market": "Alternate Spread",
-    "odds": -245,
-    "prob": 0.7135,
-    "raw_prob": 0.7135,
-    "game": "Orlando Magic at Utah Jazz",
+    "odds": -118,
+    "prob": 0.5456,
+    "raw_prob": 0.5456,
+    "game": "Los Angeles Lakers at Milwaukee Bucks",
     "result": null,
-    "close_odds": -245
+    "close_odds": -118
    },
    {
     "id": "401909970:7914215:742.197078476",
@@ -125684,22 +125684,6 @@
     "close_odds": -225
    },
    {
-    "id": "401909972:7992967:742.197078210",
-    "event": "401909972",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "New Orleans Pelicans +6.5",
-    "market": "Alternate Spread",
-    "odds": -350,
-    "prob": 0.7804,
-    "raw_prob": 0.7804,
-    "game": "Brooklyn Nets at New Orleans Pelicans",
-    "result": null,
-    "close_odds": -350
-   },
-   {
     "id": "401909966:2643767:742.197077991",
     "event": "401909966",
     "sport": "nba",
@@ -125748,7 +125732,7 @@
     "close_odds": 280
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -125759,8 +125743,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 14,
-  "est_prob": 1.5938434463390996e-05,
-  "fd_payout_x": 120648.57,
+  "est_prob": 1.7345355908586583e-05,
+  "fd_payout_x": 110621.37,
   "legs_detail": [
    {
     "id": "401892693:13305501:742.196966903",
@@ -125771,12 +125755,12 @@
     "line": -1.5,
     "pick": "Vegas Golden Knights -1.5",
     "market": "Puck Line",
-    "odds": 186,
-    "prob": 0.4058,
-    "raw_prob": 0.4058,
+    "odds": 190,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": 186
+    "close_odds": 190
    },
    {
     "id": "401892690:25609:742.196966848",
@@ -125819,12 +125803,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 168,
-    "prob": 0.4126,
-    "raw_prob": 0.4126,
+    "odds": 160,
+    "prob": 0.4229,
+    "raw_prob": 0.4229,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": 168
+    "close_odds": 160
    },
    {
     "id": "401866461:49892662:742.196709151",
@@ -125939,22 +125923,6 @@
     "close_odds": -178
    },
    {
-    "id": "401909973:7883437:742.197087631",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 3.5,
-    "pick": "Orlando Magic +3.5",
-    "market": "Alternate Spread",
-    "odds": -245,
-    "prob": 0.7135,
-    "raw_prob": 0.7135,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -245
-   },
-   {
     "id": "401909972:7978307:742.197078210",
     "event": "401909972",
     "sport": "nba",
@@ -125985,9 +125953,25 @@
     "game": "Golden State Warriors at Houston Rockets",
     "result": null,
     "close_odds": -245
+   },
+   {
+    "id": "401909968:7889215:742.197077789",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 3.5,
+    "pick": "Boston Celtics +3.5",
+    "market": "Alternate Spread",
+    "odds": -320,
+    "prob": 0.7617,
+    "raw_prob": 0.7617,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -320
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -125998,8 +125982,8 @@
   "type": "lottery",
   "label": "~1,000,000x",
   "n": 17,
-  "est_prob": 1.4094528833416235e-06,
-  "fd_payout_x": 1290949.91,
+  "est_prob": 1.676042262029045e-06,
+  "fd_payout_x": 1092030.64,
   "legs_detail": [
    {
     "id": "401892693:13305501:742.196966903",
@@ -126010,12 +125994,12 @@
     "line": -1.5,
     "pick": "Vegas Golden Knights -1.5",
     "market": "Puck Line",
-    "odds": 186,
-    "prob": 0.4058,
-    "raw_prob": 0.4058,
+    "odds": 190,
+    "prob": 0.4036,
+    "raw_prob": 0.4036,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": 186
+    "close_odds": 190
    },
    {
     "id": "401892690:25609:742.196966848",
@@ -126058,12 +126042,12 @@
     "line": -1.5,
     "pick": "Pittsburgh Penguins -1.5",
     "market": "Puck Line",
-    "odds": 168,
-    "prob": 0.4126,
-    "raw_prob": 0.4126,
+    "odds": 160,
+    "prob": 0.4229,
+    "raw_prob": 0.4229,
     "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": 168
+    "close_odds": 160
    },
    {
     "id": "401866461:49892662:742.196709151",
@@ -126178,22 +126162,6 @@
     "close_odds": -178
    },
    {
-    "id": "401909973:7883437:742.197087631",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 3.5,
-    "pick": "Orlando Magic +3.5",
-    "market": "Alternate Spread",
-    "odds": -245,
-    "prob": 0.7135,
-    "raw_prob": 0.7135,
-    "game": "Orlando Magic at Utah Jazz",
-    "result": null,
-    "close_odds": -245
-   },
-   {
     "id": "401909972:7978307:742.197078210",
     "event": "401909972",
     "sport": "nba",
@@ -126222,6 +126190,38 @@
     "prob": 0.7102,
     "raw_prob": 0.7102,
     "game": "Golden State Warriors at Houston Rockets",
+    "result": null,
+    "close_odds": -245
+   },
+   {
+    "id": "401909968:7889215:742.197077789",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 3.5,
+    "pick": "Boston Celtics +3.5",
+    "market": "Alternate Spread",
+    "odds": -320,
+    "prob": 0.7617,
+    "raw_prob": 0.7617,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -320
+   },
+   {
+    "id": "401909973:7883437:742.197087631",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 3.5,
+    "pick": "Orlando Magic +3.5",
+    "market": "Alternate Spread",
+    "odds": -245,
+    "prob": 0.7085,
+    "raw_prob": 0.7085,
+    "game": "Orlando Magic at Utah Jazz",
     "result": null,
     "close_odds": -245
    },
@@ -126255,25 +126255,9 @@
     "game": "Massachusetts Minutemen at Toledo Rockets",
     "result": null,
     "close_odds": 176
-   },
-   {
-    "id": "401909969:7747570:742.197078367",
-    "event": "401909969",
-    "sport": "nba",
-    "kind": "total",
-    "line": 246.5,
-    "ou": "under",
-    "pick": "Under 246.5",
-    "market": "Alternate Total Points",
-    "odds": -190,
-    "prob": 0.6484,
-    "raw_prob": 0.6484,
-    "game": "San Antonio Spurs at Chicago Bulls",
-    "result": null,
-    "close_odds": -190
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -126413,7 +126397,7 @@
     "raw_prob": 0.8745,
     "game": "Boston Celtics at Toronto Raptors",
     "result": null,
-    "close_odds": -950
+    "close_odds": -750
    },
    {
     "id": "401866461:12194345:742.196709162",
@@ -126568,7 +126552,7 @@
     "raw_prob": 0.5686,
     "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": -235
+    "close_odds": -240
    }
   ],
   "logged": "2026-11-11 06:40 UTC",
@@ -126582,7 +126566,7 @@
   "type": "lottery",
   "label": "19-leg best-chance lottery",
   "n": 19,
-  "est_prob": 0.05088814310471136,
+  "est_prob": 0.05079855497800932,
   "fd_payout_x": 13.38,
   "legs_detail": [
    {
@@ -126614,22 +126598,6 @@
     "prob": 0.8982,
     "raw_prob": 0.8982,
     "game": "San Antonio Spurs at Chicago Bulls",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
-    "id": "401909973:7883410:742.197087631",
-    "event": "401909973",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 11.5,
-    "pick": "Orlando Magic +11.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8832,
-    "raw_prob": 0.8832,
-    "game": "Orlando Magic at Utah Jazz",
     "result": null,
     "close_odds": -1000
    },
@@ -126666,6 +126634,22 @@
     "close_odds": -950
    },
    {
+    "id": "401909968:7733134:742.197077827",
+    "event": "401909968",
+    "sport": "nba",
+    "kind": "total",
+    "line": 237.5,
+    "ou": "under",
+    "pick": "Under 237.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8799,
+    "raw_prob": 0.8799,
+    "game": "Boston Celtics at Toronto Raptors",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401909970:7889514:742.197078476",
     "event": "401909970",
     "sport": "nba",
@@ -126680,6 +126664,22 @@
     "game": "Denver Nuggets at Memphis Grizzlies",
     "result": null,
     "close_odds": -950
+   },
+   {
+    "id": "401909973:7883410:742.197087631",
+    "event": "401909973",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 11.5,
+    "pick": "Orlando Magic +11.5",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8782,
+    "raw_prob": 0.8782,
+    "game": "Orlando Magic at Utah Jazz",
+    "result": null,
+    "close_odds": -1000
    },
    {
     "id": "401909974:7891520:742.197078941",
@@ -126710,22 +126710,6 @@
     "prob": 0.8762,
     "raw_prob": 0.8762,
     "game": "Washington Wizards at Indiana Pacers",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909968:7927485:742.197077789",
-    "event": "401909968",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "Boston Celtics +8.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8745,
-    "raw_prob": 0.8745,
-    "game": "Boston Celtics at Toronto Raptors",
     "result": null,
     "close_odds": -950
    },
@@ -126844,20 +126828,20 @@
     "close_odds": -360
    },
    {
-    "id": "401892695:7000417:742.197116855",
-    "event": "401892695",
+    "id": "401892693:15334251:742.197117876",
+    "event": "401892693",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": 1.5,
-    "pick": "Pittsburgh Penguins +1.5",
+    "pick": "Vegas Golden Knights +1.5",
     "market": "Alternate Puck Line",
-    "odds": -370,
-    "prob": 0.7995,
-    "raw_prob": 0.7995,
-    "game": "Pittsburgh Penguins at San Jose Sharks",
+    "odds": -330,
+    "prob": 0.7946,
+    "raw_prob": 0.7946,
+    "game": "Utah Mammoth at Vegas Golden Knights",
     "result": null,
-    "close_odds": -370
+    "close_odds": -330
    },
    {
     "id": "401892690:7000420:742.197115040",
@@ -126876,23 +126860,23 @@
     "close_odds": -330
    },
    {
-    "id": "401892693:15334251:742.197117876",
-    "event": "401892693",
+    "id": "401892695:7000417:742.197116855",
+    "event": "401892695",
     "sport": "nhl",
     "kind": "spread",
-    "side": "home",
+    "side": "away",
     "line": 1.5,
-    "pick": "Vegas Golden Knights +1.5",
+    "pick": "Pittsburgh Penguins +1.5",
     "market": "Alternate Puck Line",
-    "odds": -320,
-    "prob": 0.7919,
-    "raw_prob": 0.7919,
-    "game": "Utah Mammoth at Vegas Golden Knights",
+    "odds": -350,
+    "prob": 0.795,
+    "raw_prob": 0.795,
+    "game": "Pittsburgh Penguins at San Jose Sharks",
     "result": null,
-    "close_odds": -320
+    "close_odds": -350
    }
   ],
-  "logged": "2026-11-11 13:20 UTC",
+  "logged": "2026-11-11 13:26 UTC",
   "locked": false,
   "result": null,
   "favorite": false
