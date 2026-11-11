@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 04:53 UTC",
+ "updated": "2026-11-11 05:11 UTC",
  "date": "2026-11-10",
  "ladder_stats": {
   "tickets": 16,
@@ -2363,53 +2363,6 @@
  "started": [],
  "games": [
   {
-   "id": "401866460",
-   "sport": "college-football",
-   "name": "Ohio Bobcats at Miami (OH) RedHawks",
-   "start": "2026-11-11T01:00Z",
-   "state": "post",
-   "status": "Final",
-   "venue": "Yager Stadium",
-   "indoor": false,
-   "city": {
-    "city": "Oxford",
-    "state": "OH",
-    "country": "USA"
-   },
-   "espn_wx": null,
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "Miami (OH) RedHawks",
-     "short": "Miami OH",
-     "score": "34",
-     "winner": true,
-     "record": "6-4",
-     "ml_open": null,
-     "ml": null,
-     "tid": "193",
-     "abbr": "M-OH",
-     "home_rec": "4-2",
-     "road_rec": "2-2"
-    },
-    "away": {
-     "name": "Ohio Bobcats",
-     "short": "Ohio",
-     "score": "17",
-     "winner": false,
-     "record": "7-3",
-     "ml_open": null,
-     "ml": null,
-     "tid": "195",
-     "abbr": "OHIO",
-     "home_rec": "4-0",
-     "road_rec": "3-3"
-    }
-   }
-  },
-  {
    "id": "401866458",
    "sport": "college-football",
    "name": "Western Michigan Broncos at Akron Zips",
@@ -2500,6 +2453,53 @@
      "abbr": "KENT",
      "home_rec": "3-1",
      "road_rec": "0-6"
+    }
+   }
+  },
+  {
+   "id": "401866460",
+   "sport": "college-football",
+   "name": "Ohio Bobcats at Miami (OH) RedHawks",
+   "start": "2026-11-11T01:00Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Yager Stadium",
+   "indoor": false,
+   "city": {
+    "city": "Oxford",
+    "state": "OH",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "Miami (OH) RedHawks",
+     "short": "Miami OH",
+     "score": "34",
+     "winner": true,
+     "record": "6-4",
+     "ml_open": null,
+     "ml": null,
+     "tid": "193",
+     "abbr": "M-OH",
+     "home_rec": "4-2",
+     "road_rec": "2-2"
+    },
+    "away": {
+     "name": "Ohio Bobcats",
+     "short": "Ohio",
+     "score": "17",
+     "winner": false,
+     "record": "7-3",
+     "ml_open": null,
+     "ml": null,
+     "tid": "195",
+     "abbr": "OHIO",
+     "home_rec": "4-0",
+     "road_rec": "3-3"
     }
    }
   },
@@ -2693,7 +2693,7 @@
    "name": "Orlando Magic at Sacramento Kings",
    "start": "2026-11-11T03:00Z",
    "state": "in",
-   "status": "End of 3rd",
+   "status": "5:23 - 4th",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -2708,7 +2708,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "76",
+     "score": "87",
      "winner": null,
      "record": "1-9",
      "ml_open": null,
@@ -2721,7 +2721,7 @@
     "away": {
      "name": "Orlando Magic",
      "short": "Magic",
-     "score": "84",
+     "score": "99",
      "winner": null,
      "record": "2-7",
      "ml_open": null,
@@ -2739,7 +2739,7 @@
    "name": "Oklahoma City Thunder at Portland Trail Blazers",
    "start": "2026-11-11T04:00Z",
    "state": "in",
-   "status": "End of 1st",
+   "status": "1:00 - 2nd",
    "venue": "Moda Center",
    "indoor": true,
    "city": {
@@ -2754,7 +2754,7 @@
     "home": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "26",
+     "score": "57",
      "winner": null,
      "record": "6-3",
      "ml_open": null,
@@ -2767,7 +2767,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "27",
+     "score": "54",
      "winner": null,
      "record": "8-2",
      "ml_open": null,
@@ -3067,7 +3067,7 @@
    "name": "Nashville Predators at Los Angeles Kings",
    "start": "2026-11-11T03:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "15:15 - 3rd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3648,11 +3648,6 @@
  ],
  "weather": [
   {
-   "g": "Ohio Bobcats at Miami (OH) RedHawks",
-   "w": "45.0F, wind 6.5 mph, rain 100%",
-   "src": "open-meteo"
-  },
-  {
    "g": "Western Michigan Broncos at Akron Zips",
    "w": "48.3F, wind 1.9 mph, rain 0%",
    "src": "open-meteo"
@@ -3661,11 +3656,16 @@
    "g": "Kent State Golden Flashes at Bowling Green Falcons",
    "w": "57.0F, wind 3.6 mph, rain 0%",
    "src": "open-meteo"
+  },
+  {
+   "g": "Ohio Bobcats at Miami (OH) RedHawks",
+   "w": "45.0F, wind 6.5 mph, rain 100%",
+   "src": "open-meteo"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-11 04:53 UTC",
+  "updated": "2026-11-11 05:11 UTC",
   "graded_legs": 2067,
   "calibration": {
    "85-90%": {
