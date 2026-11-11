@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-11 04:25 UTC",
- "graded_legs": 2040,
+ "updated": "2026-11-11 04:34 UTC",
+ "graded_legs": 2049,
  "calibration": {
   "85-90%": {
-   "n": 916,
-   "wins": 792,
+   "n": 921,
+   "wins": 794,
    "pred": 0.873,
-   "hit": 0.865
+   "hit": 0.862
   },
   "75-80%": {
    "n": 164,
@@ -39,16 +39,16 @@
    "hit": 0.945
   },
   "70-75%": {
-   "n": 61,
+   "n": 62,
    "wins": 51,
    "pred": 0.73,
-   "hit": 0.836
+   "hit": 0.823
   },
   "40-45%": {
-   "n": 44,
+   "n": 45,
    "wins": 15,
    "pred": 0.422,
-   "hit": 0.341
+   "hit": 0.333
   },
   "45-50%": {
    "n": 17,
@@ -57,10 +57,10 @@
    "hit": 0.412
   },
   "25-30%": {
-   "n": 115,
+   "n": 116,
    "wins": 29,
    "pred": 0.274,
-   "hit": 0.252
+   "hit": 0.25
   },
   "60-65%": {
    "n": 24,
@@ -75,10 +75,10 @@
    "hit": 0.327
   },
   "20-25%": {
-   "n": 60,
+   "n": 61,
    "wins": 12,
    "pred": 0.236,
-   "hit": 0.2
+   "hit": 0.197
   },
   "35-40%": {
    "n": 46,
@@ -113,10 +113,10 @@
    "hit": 0.804
   },
   "nba": {
-   "n": 732,
-   "wins": 568,
-   "pred": 0.796,
-   "hit": 0.776
+   "n": 741,
+   "wins": 570,
+   "pred": 0.794,
+   "hit": 0.769
   },
   "nhl": {
    "n": 379,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 929,
-   "wins": 750,
+   "n": 932,
+   "wins": 752,
    "pred": 0.822,
    "hit": 0.807
   },
   "spread": {
-   "n": 864,
+   "n": 867,
    "wins": 643,
-   "pred": 0.745,
-   "hit": 0.744
+   "pred": 0.746,
+   "hit": 0.742
   },
   "dc": {
    "n": 71,
@@ -187,10 +187,10 @@
    "hit": 0.831
   },
   "ml": {
-   "n": 33,
+   "n": 34,
    "wins": 26,
-   "pred": 0.664,
-   "hit": 0.788
+   "pred": 0.656,
+   "hit": 0.765
   },
   "dnb": {
    "n": 15,
@@ -205,32 +205,32 @@
    "hit": 0.491
   },
   "prop": {
-   "n": 75,
+   "n": 77,
    "wins": 17,
-   "pred": 0.283,
-   "hit": 0.227
+   "pred": 0.282,
+   "hit": 0.221
   }
  },
  "parlays": {
-  "graded": 636,
+  "graded": 644,
   "won": 120,
-  "expected": 127.95,
-  "pending": 15,
+  "expected": 130.25,
+  "pending": 7,
   "by_type": {
    "ladder": {
-    "graded": 382,
+    "graded": 384,
     "won": 92,
-    "expected": 102.31
+    "expected": 103.42
    },
    "best": {
-    "graded": 16,
+    "graded": 17,
     "won": 3,
-    "expected": 3.24
+    "expected": 3.42
    },
    "lottery": {
-    "graded": 238,
+    "graded": 243,
     "won": 25,
-    "expected": 22.31
+    "expected": 23.33
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
