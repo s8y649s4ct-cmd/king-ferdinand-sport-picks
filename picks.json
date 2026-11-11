@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 04:00 UTC",
+ "updated": "2026-11-11 04:11 UTC",
  "date": "2026-11-10",
  "ladder_stats": {
   "tickets": 16,
@@ -2370,7 +2370,7 @@
    "name": "Ohio Bobcats at Miami (OH) RedHawks",
    "start": "2026-11-11T01:00Z",
    "state": "in",
-   "status": "14:16 - 4th",
+   "status": "12:16 - 4th",
    "venue": "Yager Stadium",
    "indoor": false,
    "city": {
@@ -2619,7 +2619,7 @@
    "name": "LA Clippers at Phoenix Suns",
    "start": "2026-11-11T02:00Z",
    "state": "in",
-   "status": "11:14 - 4th",
+   "status": "5:56 - 4th",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2634,7 +2634,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "101",
+     "score": "117",
      "winner": null,
      "record": "3-6",
      "ml_open": null,
@@ -2647,7 +2647,7 @@
     "away": {
      "name": "LA Clippers",
      "short": "Clippers",
-     "score": "73",
+     "score": "92",
      "winner": null,
      "record": "2-7",
      "ml_open": null,
@@ -2665,7 +2665,7 @@
    "name": "Miami Heat at Utah Jazz",
    "start": "2026-11-11T02:00Z",
    "state": "in",
-   "status": "1:19 - 3rd",
+   "status": "8:58 - 4th",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -2680,7 +2680,7 @@
     "home": {
      "name": "Utah Jazz",
      "short": "Jazz",
-     "score": "70",
+     "score": "78",
      "winner": null,
      "record": "1-9",
      "ml_open": null,
@@ -2693,7 +2693,7 @@
     "away": {
      "name": "Miami Heat",
      "short": "Heat",
-     "score": "89",
+     "score": "99",
      "winner": null,
      "record": "4-6",
      "ml_open": null,
@@ -2711,7 +2711,7 @@
    "name": "Orlando Magic at Sacramento Kings",
    "start": "2026-11-11T03:00Z",
    "state": "in",
-   "status": "3:11 - 2nd",
+   "status": "Halftime",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -2726,7 +2726,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "43",
+     "score": "52",
      "winner": null,
      "record": "1-9",
      "ml_open": null,
@@ -2739,7 +2739,7 @@
     "away": {
      "name": "Orlando Magic",
      "short": "Magic",
-     "score": "52",
+     "score": "57",
      "winner": null,
      "record": "2-7",
      "ml_open": null,
@@ -2789,7 +2789,7 @@
      "winner": null,
      "record": "8-2",
      "ml_open": "-122",
-     "ml": "-118",
+     "ml": "-117",
      "tid": "25",
      "abbr": "OKC",
      "home_rec": "5-0",
@@ -3086,7 +3086,7 @@
    "name": "Nashville Predators at Los Angeles Kings",
    "start": "2026-11-11T03:00Z",
    "state": "in",
-   "status": "End of 1st",
+   "status": "15:52 - 2nd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3694,7 +3694,7 @@
    "g": "Oklahoma City Thunder at Portland Trail Blazers",
    "team": "Oklahoma City Thunder",
    "open": "-122",
-   "now": "-118",
+   "now": "-117",
    "src": "ESPN/DraftKings"
   },
   {
@@ -3706,7 +3706,7 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-11 04:00 UTC",
+  "updated": "2026-11-11 04:11 UTC",
   "graded_legs": 2040,
   "calibration": {
    "85-90%": {
@@ -6403,7 +6403,7 @@
   ]
  },
  "feature": null,
- "note": "276 FanDuel-priced candidates (ml, prop, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 16 legs.",
+ "note": "275 FanDuel-priced candidates (ml, prop, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 16 legs.",
  "model_check": {
   "v1": {
    "n": 6008,
@@ -6497,7 +6497,7 @@
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
    "dropped": 0,
-   "of": 276,
+   "of": 275,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": []
   }
