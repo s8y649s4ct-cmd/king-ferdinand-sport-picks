@@ -127905,8 +127905,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2334,
-  "fd_payout_x": 4.31,
+  "est_prob": 0.2237,
+  "fd_payout_x": 4.25,
   "legs_detail": [
    {
     "id": "401892701:7000420:742.197301046",
@@ -127925,22 +127925,6 @@
     "close_odds": -300
    },
    {
-    "id": "401909979:7889883:742.197296211",
-    "event": "401909979",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Phoenix Suns +2.5",
-    "market": "Alternate Spread",
-    "odds": -300,
-    "prob": 0.752,
-    "raw_prob": 0.752,
-    "game": "Charlotte Hornets at Phoenix Suns",
-    "result": null,
-    "close_odds": -300
-   },
-   {
     "id": "401909978:7891252:742.197296102",
     "event": "401909978",
     "sport": "nba",
@@ -127949,47 +127933,62 @@
     "line": 3.5,
     "pick": "Minnesota Timberwolves +3.5",
     "market": "Alternate Spread",
-    "odds": -280,
-    "prob": 0.7392,
-    "raw_prob": 0.7392,
+    "odds": -290,
+    "prob": 0.7425,
+    "raw_prob": 0.7425,
     "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -280
+    "close_odds": -290
    },
    {
-    "id": "401909977:7890172:742.197295536",
+    "id": "401891808:25607:742.197168140",
+    "event": "401891808",
+    "sport": "nhl",
+    "kind": "ml",
+    "side": "away",
+    "pick": "Carolina Hurricanes",
+    "market": "Moneyline",
+    "odds": -300,
+    "prob": 0.7302,
+    "raw_prob": 0.7302,
+    "game": "Carolina Hurricanes at Seattle Kraken",
+    "result": null,
+    "close_odds": -300
+   },
+   {
+    "id": "401909977:7711204:742.197295533",
     "event": "401909977",
     "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": -3.5,
-    "pick": "Detroit Pistons -3.5",
-    "market": "Alternate Spread",
+    "kind": "total",
+    "line": 209.5,
+    "ou": "over",
+    "pick": "Over 209.5",
+    "market": "Alternate Total Points",
     "odds": -300,
-    "prob": 0.7389,
-    "raw_prob": 0.7389,
+    "prob": 0.7295,
+    "raw_prob": 0.7295,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
     "close_odds": -300
    },
    {
-    "id": "401909976:7707590:742.197295744",
-    "event": "401909976",
+    "id": "401909979:7711983:742.197296241",
+    "event": "401909979",
     "sport": "nba",
     "kind": "total",
-    "line": 210.5,
+    "line": 203.5,
     "ou": "over",
-    "pick": "Over 210.5",
+    "pick": "Over 203.5",
     "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7329,
-    "raw_prob": 0.7329,
-    "game": "Toronto Raptors at Philadelphia 76ers",
+    "odds": -300,
+    "prob": 0.7295,
+    "raw_prob": 0.7295,
+    "game": "Charlotte Hornets at Phoenix Suns",
     "result": null,
-    "close_odds": -295
+    "close_odds": -300
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -128000,9 +127999,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 1,
-  "est_prob": 0.9012,
-  "est_raw": 0.9012,
-  "fd_payout_x": 1.11,
+  "est_prob": 0.9032,
+  "est_raw": 0.9032,
+  "fd_payout_x": 1.1,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -128013,15 +128012,15 @@
     "line": 5.5,
     "pick": "Detroit Pistons +5.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
+    "odds": -1000,
+    "prob": 0.9032,
+    "raw_prob": 0.9032,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128031,9 +128030,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.78544,
-  "est_raw": 0.78544,
-  "fd_payout_x": 1.22,
+  "est_prob": 0.78047,
+  "est_raw": 0.78047,
+  "fd_payout_x": 1.24,
   "legs_detail": [
    {
     "id": "401909979:7889962:742.197296211",
@@ -128052,23 +128051,23 @@
     "close_odds": -950
    },
    {
-    "id": "401909978:7755153:742.197296107",
-    "event": "401909978",
+    "id": "401909976:7888498:742.197295740",
+    "event": "401909976",
     "sport": "nba",
-    "kind": "total",
-    "line": 249.5,
-    "ou": "under",
-    "pick": "Under 249.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8848,
-    "raw_prob": 0.8848,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "kind": "spread",
+    "side": "home",
+    "line": 6.5,
+    "pick": "Philadelphia 76ers +6.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
+    "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -850
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -128079,25 +128078,25 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 3,
-  "est_prob": 0.67179,
-  "est_raw": 0.67179,
-  "fd_payout_x": 1.36,
+  "est_prob": 0.66799,
+  "est_raw": 0.66799,
+  "fd_payout_x": 1.37,
   "legs_detail": [
    {
-    "id": "401909976:7888498:742.197295740",
-    "event": "401909976",
+    "id": "401909978:7914078:742.197296102",
+    "event": "401909978",
     "sport": "nba",
     "kind": "spread",
     "side": "home",
-    "line": 6.5,
-    "pick": "Philadelphia 76ers +6.5",
+    "line": 10.5,
+    "pick": "Minnesota Timberwolves +10.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
-    "game": "Toronto Raptors at Philadelphia 76ers",
+    "odds": -900,
+    "prob": 0.8789,
+    "raw_prob": 0.8789,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401862824:12197193:742.196714406",
@@ -128132,7 +128131,7 @@
     "close_odds": -850
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -128212,7 +128211,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -128308,7 +128307,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128318,9 +128317,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.35023,
-  "est_raw": 0.35023,
-  "fd_payout_x": 2.11,
+  "est_prob": 0.34761,
+  "est_raw": 0.34761,
+  "fd_payout_x": 2.1,
   "legs_detail": [
    {
     "id": "401909977:7804113:742.197295536",
@@ -128339,20 +128338,20 @@
     "close_odds": -850
    },
    {
-    "id": "401909978:7914078:742.197296102",
-    "event": "401909978",
+    "id": "401909976:7711818:742.197295744",
+    "event": "401909976",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 10.5,
-    "pick": "Minnesota Timberwolves +10.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8812,
-    "raw_prob": 0.8812,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "kind": "total",
+    "line": 243.5,
+    "ou": "under",
+    "pick": "Under 243.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
+    "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909979:7889950:742.197296211",
@@ -128419,7 +128418,7 @@
     "close_odds": -850
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128429,25 +128428,25 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.34289,
-  "est_raw": 0.34289,
-  "fd_payout_x": 2.16,
+  "est_prob": 0.33762,
+  "est_raw": 0.33762,
+  "fd_payout_x": 2.17,
   "legs_detail": [
    {
-    "id": "401909976:7888498:742.197295740",
-    "event": "401909976",
+    "id": "401909978:7733081:742.197296107",
+    "event": "401909978",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Philadelphia 76ers +6.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
-    "game": "Toronto Raptors at Philadelphia 76ers",
+    "kind": "total",
+    "line": 247.5,
+    "ou": "under",
+    "pick": "Under 247.5",
+    "market": "Alternate Total Points",
+    "odds": -900,
+    "prob": 0.8703,
+    "raw_prob": 0.8703,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401862824:48906610:742.196714390",
@@ -128546,7 +128545,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128689,7 +128688,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128699,9 +128698,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.25497,
-  "est_raw": 0.25497,
-  "fd_payout_x": 2.79,
+  "est_prob": 0.24741,
+  "est_raw": 0.24741,
+  "fd_payout_x": 2.78,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -128712,44 +128711,12 @@
     "line": 5.5,
     "pick": "Detroit Pistons +5.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
+    "odds": -1000,
+    "prob": 0.9032,
+    "raw_prob": 0.9032,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909976:7888498:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Philadelphia 76ers +6.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909978:7711958:742.197296107",
-    "event": "401909978",
-    "sport": "nba",
-    "kind": "total",
-    "line": 248.5,
-    "ou": "under",
-    "pick": "Under 248.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8756,
-    "raw_prob": 0.8756,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -900
+    "close_odds": -1000
    },
    {
     "id": "401909979:7711361:742.197296241",
@@ -128760,12 +128727,28 @@
     "ou": "under",
     "pick": "Under 234.5",
     "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8697,
-    "raw_prob": 0.8697,
+    "odds": -950,
+    "prob": 0.8719,
+    "raw_prob": 0.8719,
     "game": "Charlotte Hornets at Phoenix Suns",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
+   },
+   {
+    "id": "401909978:7711048:742.197296107",
+    "event": "401909978",
+    "sport": "nba",
+    "kind": "total",
+    "line": 206.5,
+    "ou": "over",
+    "pick": "Over 206.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401873052:12197182:742.196701282",
@@ -128782,6 +128765,22 @@
     "game": "Washington Commanders at New York Giants",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909976:7760688:742.197295744",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "total",
+    "line": 242.5,
+    "ou": "under",
+    "pick": "Under 242.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8622,
+    "raw_prob": 0.8622,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401862824:12194332:742.196714406",
@@ -128848,7 +128847,7 @@
     "close_odds": -550
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128858,25 +128857,25 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 10,
-  "est_prob": 0.14368,
-  "est_raw": 0.14368,
-  "fd_payout_x": 4.35,
+  "est_prob": 0.14195,
+  "est_raw": 0.14195,
+  "fd_payout_x": 4.46,
   "legs_detail": [
    {
-    "id": "401909978:7915220:742.197296102",
+    "id": "401909978:7888962:742.197296102",
     "event": "401909978",
     "sport": "nba",
     "kind": "spread",
-    "side": "away",
-    "line": 20.5,
-    "pick": "Dallas Mavericks +20.5",
+    "side": "home",
+    "line": 9.5,
+    "pick": "Minnesota Timberwolves +9.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8739,
-    "raw_prob": 0.8739,
+    "odds": -750,
+    "prob": 0.8634,
+    "raw_prob": 0.8634,
     "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -950
+    "close_odds": -750
    },
    {
     "id": "401892696:8359769:742.197300309",
@@ -129023,7 +129022,7 @@
     "close_odds": -550
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -129033,9 +129032,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 11,
-  "est_prob": 0.15194,
-  "est_raw": 0.15194,
-  "fd_payout_x": 3.53,
+  "est_prob": 0.15113,
+  "est_raw": 0.15113,
+  "fd_payout_x": 3.57,
   "legs_detail": [
    {
     "id": "401909977:7804113:742.197295536",
@@ -129078,12 +129077,12 @@
     "line": 6.5,
     "pick": "Philadelphia 76ers +6.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
+    "odds": -850,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -850
    },
    {
     "id": "401873052:12197182:742.196701282",
@@ -129214,7 +129213,7 @@
     "close_odds": -850
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -129224,9 +129223,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 12,
-  "est_prob": 0.14474,
-  "est_raw": 0.14474,
-  "fd_payout_x": 4.63,
+  "est_prob": 0.14596,
+  "est_raw": 0.14596,
+  "fd_payout_x": 4.49,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -129237,26 +129236,26 @@
     "line": 5.5,
     "pick": "Detroit Pistons +5.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
+    "odds": -1000,
+    "prob": 0.9032,
+    "raw_prob": 0.9032,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
-    "id": "401909978:7755153:742.197296107",
-    "event": "401909978",
+    "id": "401909976:7711818:742.197295744",
+    "event": "401909976",
     "sport": "nba",
     "kind": "total",
-    "line": 249.5,
+    "line": 243.5,
     "ou": "under",
-    "pick": "Under 249.5",
+    "pick": "Under 243.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8848,
-    "raw_prob": 0.8848,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
+    "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
     "close_odds": -1000
    },
@@ -129309,6 +129308,22 @@
     "close_odds": -850
    },
    {
+    "id": "401909978:7747570:742.197296107",
+    "event": "401909978",
+    "sport": "nba",
+    "kind": "total",
+    "line": 246.5,
+    "ou": "under",
+    "pick": "Under 246.5",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.8594,
+    "raw_prob": 0.8594,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -800
+   },
+   {
     "id": "401892696:8359769:742.197300309",
     "event": "401892696",
     "sport": "nhl",
@@ -129355,22 +129370,6 @@
     "game": "New York Islanders at Los Angeles Kings",
     "result": null,
     "close_odds": -700
-   },
-   {
-    "id": "401892704:86696246:742.197302208",
-    "event": "401892704",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Utah Mammoth +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -650,
-    "prob": 0.8443,
-    "raw_prob": 0.8443,
-    "game": "St. Louis Blues at Utah Mammoth",
-    "result": null,
-    "close_odds": -650
    },
    {
     "id": "401892703:7000405:742.197301613",
@@ -129421,7 +129420,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -129431,26 +129430,10 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 13,
-  "est_prob": 0.10019,
-  "est_raw": 0.10019,
-  "fd_payout_x": 5.95,
+  "est_prob": 0.09569,
+  "est_raw": 0.09569,
+  "fd_payout_x": 6.21,
   "legs_detail": [
-   {
-    "id": "401909976:7888498:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Philadelphia 76ers +6.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -950
-   },
    {
     "id": "401909978:7914078:742.197296102",
     "event": "401909978",
@@ -129460,12 +129443,12 @@
     "line": 10.5,
     "pick": "Minnesota Timberwolves +10.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8812,
-    "raw_prob": 0.8812,
+    "odds": -900,
+    "prob": 0.8789,
+    "raw_prob": 0.8789,
     "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -950
+    "close_odds": -900
    },
    {
     "id": "401909979:7711361:742.197296241",
@@ -129476,12 +129459,12 @@
     "ou": "under",
     "pick": "Under 234.5",
     "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8697,
-    "raw_prob": 0.8697,
+    "odds": -950,
+    "prob": 0.8719,
+    "raw_prob": 0.8719,
     "game": "Charlotte Hornets at Phoenix Suns",
     "result": null,
-    "close_odds": -900
+    "close_odds": -950
    },
    {
     "id": "401862824:48906610:742.196714390",
@@ -129564,6 +129547,22 @@
     "close_odds": -700
    },
    {
+    "id": "401892704:86696246:742.197302208",
+    "event": "401892704",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Utah Mammoth +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8443,
+    "raw_prob": 0.8443,
+    "game": "St. Louis Blues at Utah Mammoth",
+    "result": null,
+    "close_odds": -650
+   },
+   {
     "id": "401892697:7000410:742.197300996",
     "event": "401892697",
     "sport": "nhl",
@@ -129644,7 +129643,7 @@
     "close_odds": -600
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -129654,9 +129653,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 14,
-  "est_prob": 0.07531,
-  "est_raw": 0.07531,
-  "fd_payout_x": 6.63,
+  "est_prob": 0.07301,
+  "est_raw": 0.07301,
+  "fd_payout_x": 6.7,
   "legs_detail": [
    {
     "id": "401909977:7804113:742.197295536",
@@ -129675,33 +129674,17 @@
     "close_odds": -850
    },
    {
-    "id": "401909976:7888498:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Philadelphia 76ers +6.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909978:7711958:742.197296107",
+    "id": "401909978:7733081:742.197296107",
     "event": "401909978",
     "sport": "nba",
     "kind": "total",
-    "line": 248.5,
+    "line": 247.5,
     "ou": "under",
-    "pick": "Under 248.5",
+    "pick": "Under 247.5",
     "market": "Alternate Total Points",
     "odds": -900,
-    "prob": 0.8756,
-    "raw_prob": 0.8756,
+    "prob": 0.8703,
+    "raw_prob": 0.8703,
     "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
     "close_odds": -900
@@ -129721,6 +129704,22 @@
     "game": "Washington Commanders at New York Giants",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909976:7760688:742.197295744",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "total",
+    "line": 242.5,
+    "ou": "under",
+    "pick": "Under 242.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8622,
+    "raw_prob": 0.8622,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401869969:12197198:742.196714448",
@@ -129883,7 +129882,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -129893,9 +129892,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 15,
-  "est_prob": 0.0695,
-  "est_raw": 0.0695,
-  "fd_payout_x": 7.38,
+  "est_prob": 0.07007,
+  "est_raw": 0.07007,
+  "fd_payout_x": 7.43,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -129906,12 +129905,12 @@
     "line": 5.5,
     "pick": "Detroit Pistons +5.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
+    "odds": -1000,
+    "prob": 0.9032,
+    "raw_prob": 0.9032,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909979:7889962:742.197296211",
@@ -129930,20 +129929,20 @@
     "close_odds": -950
    },
    {
-    "id": "401909978:7915220:742.197296102",
-    "event": "401909978",
+    "id": "401909976:7888498:742.197295740",
+    "event": "401909976",
     "sport": "nba",
     "kind": "spread",
-    "side": "away",
-    "line": 20.5,
-    "pick": "Dallas Mavericks +20.5",
+    "side": "home",
+    "line": 6.5,
+    "pick": "Philadelphia 76ers +6.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8739,
-    "raw_prob": 0.8739,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "odds": -850,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
+    "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -850
    },
    {
     "id": "401869969:60464353:742.196714443",
@@ -130138,7 +130137,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -130148,9 +130147,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 16,
-  "est_prob": 0.06075,
-  "est_raw": 0.06075,
-  "fd_payout_x": 9.07,
+  "est_prob": 0.06514,
+  "est_raw": 0.06514,
+  "fd_payout_x": 9.02,
   "legs_detail": [
    {
     "id": "401909977:7804113:742.197295536",
@@ -130169,20 +130168,20 @@
     "close_odds": -850
    },
    {
-    "id": "401909976:7888498:742.197295740",
+    "id": "401909976:7711818:742.197295744",
     "event": "401909976",
     "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Philadelphia 76ers +6.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
+    "kind": "total",
+    "line": 243.5,
+    "ou": "under",
+    "pick": "Under 243.5",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909979:7889950:742.197296211",
@@ -130199,6 +130198,22 @@
     "game": "Charlotte Hornets at Phoenix Suns",
     "result": null,
     "close_odds": -800
+   },
+   {
+    "id": "401909978:7711048:742.197296107",
+    "event": "401909978",
+    "sport": "nba",
+    "kind": "total",
+    "line": 206.5,
+    "ou": "over",
+    "pick": "Over 206.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401873052:12197182:742.196701282",
@@ -130345,22 +130360,6 @@
     "close_odds": -450
    },
    {
-    "id": "401892697:7742232:742.197300996",
-    "event": "401892697",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "Minnesota Wild +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -950,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Minnesota Wild at Toronto Maple Leafs",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401892702:7000399:742.197301368",
     "event": "401892702",
     "sport": "nhl",
@@ -130409,7 +130408,7 @@
     "close_odds": -600
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -130419,9 +130418,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 17,
-  "est_prob": 0.05283,
-  "est_raw": 0.05283,
-  "fd_payout_x": 9.18,
+  "est_prob": 0.04787,
+  "est_raw": 0.04787,
+  "fd_payout_x": 9.07,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -130432,44 +130431,12 @@
     "line": 5.5,
     "pick": "Detroit Pistons +5.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
+    "odds": -1000,
+    "prob": 0.9032,
+    "raw_prob": 0.9032,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909978:7755153:742.197296107",
-    "event": "401909978",
-    "sport": "nba",
-    "kind": "total",
-    "line": 249.5,
-    "ou": "under",
-    "pick": "Under 249.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8848,
-    "raw_prob": 0.8848,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
-    "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909976:7888498:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Philadelphia 76ers +6.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -950
    },
    {
     "id": "401862824:12197193:742.196714406",
@@ -130488,6 +130455,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401909979:7711361:742.197296241",
+    "event": "401909979",
+    "sport": "nba",
+    "kind": "total",
+    "line": 234.5,
+    "ou": "under",
+    "pick": "Under 234.5",
+    "market": "Alternate Total Points",
+    "odds": -950,
+    "prob": 0.8719,
+    "raw_prob": 0.8719,
+    "game": "Charlotte Hornets at Phoenix Suns",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401869969:12194337:742.196714448",
     "event": "401869969",
     "sport": "college-football",
@@ -130504,20 +130487,20 @@
     "close_odds": -850
    },
    {
-    "id": "401909979:7711361:742.197296241",
-    "event": "401909979",
+    "id": "401909978:7888962:742.197296102",
+    "event": "401909978",
     "sport": "nba",
-    "kind": "total",
-    "line": 234.5,
-    "ou": "under",
-    "pick": "Under 234.5",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8697,
-    "raw_prob": 0.8697,
-    "game": "Charlotte Hornets at Phoenix Suns",
+    "kind": "spread",
+    "side": "home",
+    "line": 9.5,
+    "pick": "Minnesota Timberwolves +9.5",
+    "market": "Alternate Spread",
+    "odds": -750,
+    "prob": 0.8634,
+    "raw_prob": 0.8634,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -900
+    "close_odds": -750
    },
    {
     "id": "401873052:12197182:742.196701282",
@@ -130534,6 +130517,22 @@
     "game": "Washington Commanders at New York Giants",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909976:7760688:742.197295744",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "total",
+    "line": 242.5,
+    "ou": "under",
+    "pick": "Under 242.5",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8622,
+    "raw_prob": 0.8622,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401892696:8359769:742.197300309",
@@ -130584,22 +130583,6 @@
     "close_odds": -700
    },
    {
-    "id": "401892704:86696246:742.197302208",
-    "event": "401892704",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Utah Mammoth +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -650,
-    "prob": 0.8443,
-    "raw_prob": 0.8443,
-    "game": "St. Louis Blues at Utah Mammoth",
-    "result": null,
-    "close_odds": -650
-   },
-   {
     "id": "401892703:7000405:742.197301613",
     "event": "401892703",
     "sport": "nhl",
@@ -130630,6 +130613,22 @@
     "game": "Washington Capitals at New Jersey Devils",
     "result": null,
     "close_odds": -450
+   },
+   {
+    "id": "401892697:7742232:742.197300996",
+    "event": "401892697",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 2.5,
+    "pick": "Minnesota Wild +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -950,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Minnesota Wild at Toronto Maple Leafs",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401892698:8359782:742.197300172",
@@ -130696,7 +130695,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -130706,9 +130705,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 18,
-  "est_prob": 0.04547,
-  "est_raw": 0.04547,
-  "fd_payout_x": 10.1,
+  "est_prob": 0.04434,
+  "est_raw": 0.04434,
+  "fd_payout_x": 10.5,
   "legs_detail": [
    {
     "id": "401909977:7804113:742.197295536",
@@ -130751,28 +130750,12 @@
     "line": 6.5,
     "pick": "Philadelphia 76ers +6.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
+    "odds": -850,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909978:7914078:742.197296102",
-    "event": "401909978",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 10.5,
-    "pick": "Minnesota Timberwolves +10.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8812,
-    "raw_prob": 0.8812,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -950
+    "close_odds": -850
    },
    {
     "id": "401862824:48906610:742.196714390",
@@ -130805,6 +130788,22 @@
     "game": "Washington Commanders at New York Giants",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401909978:7747570:742.197296107",
+    "event": "401909978",
+    "sport": "nba",
+    "kind": "total",
+    "line": 246.5,
+    "ou": "under",
+    "pick": "Under 246.5",
+    "market": "Alternate Total Points",
+    "odds": -800,
+    "prob": 0.8594,
+    "raw_prob": 0.8594,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -800
    },
    {
     "id": "401869969:12197198:742.196714448",
@@ -130871,20 +130870,20 @@
     "close_odds": -700
    },
    {
-    "id": "401892704:8359782:742.197302184",
+    "id": "401892704:86696246:742.197302208",
     "event": "401892704",
     "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -700,
-    "prob": 0.8399,
-    "raw_prob": 0.8399,
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Utah Mammoth +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8443,
+    "raw_prob": 0.8443,
     "game": "St. Louis Blues at Utah Mammoth",
     "result": null,
-    "close_odds": -700
+    "close_odds": -650
    },
    {
     "id": "401892703:7000405:742.197301613",
@@ -130999,7 +130998,7 @@
     "close_odds": -850
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131062,7 +131061,7 @@
     "close_odds": 194
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131157,7 +131156,7 @@
     "close_odds": -410
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131268,7 +131267,7 @@
     "close_odds": 158
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131279,8 +131278,8 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 9,
-  "est_prob": 0.002288941301740318,
-  "fd_payout_x": 1047.96,
+  "est_prob": 0.0022940210649487966,
+  "fd_payout_x": 1042.97,
   "legs_detail": [
    {
     "id": "401892698:25602:742.197167879",
@@ -131403,12 +131402,12 @@
     "line": 5.5,
     "pick": "Detroit Pistons +5.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
+    "odds": -1000,
+    "prob": 0.9032,
+    "raw_prob": 0.9032,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909978:7927639:742.197296102",
@@ -131427,7 +131426,7 @@
     "close_odds": -400
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131438,8 +131437,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 11,
-  "est_prob": 0.00026738442897430173,
-  "fd_payout_x": 10369.26,
+  "est_prob": 0.0002680916325007977,
+  "fd_payout_x": 10311.54,
   "legs_detail": [
    {
     "id": "401892698:25602:742.197167879",
@@ -131610,15 +131609,15 @@
     "line": 3.5,
     "pick": "Detroit Pistons +3.5",
     "market": "Alternate Spread",
-    "odds": -670,
-    "prob": 0.8696,
-    "raw_prob": 0.8696,
+    "odds": -700,
+    "prob": 0.8719,
+    "raw_prob": 0.8719,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -670
+    "close_odds": -700
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131629,8 +131628,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 13,
-  "est_prob": 2.834843876602502e-05,
-  "fd_payout_x": 103045.18,
+  "est_prob": 2.7314866520298033e-05,
+  "fd_payout_x": 107338.73,
   "legs_detail": [
    {
     "id": "401892698:25602:742.197167879",
@@ -131793,20 +131792,20 @@
     "close_odds": -410
    },
    {
-    "id": "401909977:7890344:742.197295536",
-    "event": "401909977",
+    "id": "401909978:7927639:742.197296102",
+    "event": "401909978",
     "sport": "nba",
     "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Detroit Pistons +1.5",
+    "side": "home",
+    "line": 6.5,
+    "pick": "Minnesota Timberwolves +6.5",
     "market": "Alternate Spread",
-    "odds": -500,
-    "prob": 0.8338,
-    "raw_prob": 0.8338,
-    "game": "Detroit Pistons at Washington Wizards",
+    "odds": -400,
+    "prob": 0.8034,
+    "raw_prob": 0.8034,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -500
+    "close_odds": -400
    },
    {
     "id": "401892697:7000410:742.197300996",
@@ -131841,7 +131840,7 @@
     "close_odds": 280
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131851,9 +131850,9 @@
   "date": "2026-11-12",
   "type": "lottery",
   "label": "~1,000,000x",
-  "n": 13,
-  "est_prob": 2.5268503092902083e-06,
-  "fd_payout_x": 1177309.93,
+  "n": 16,
+  "est_prob": 2.6381729470688166e-06,
+  "fd_payout_x": 1102947.41,
   "legs_detail": [
    {
     "id": "401892698:25602:742.197167879",
@@ -132000,6 +131999,54 @@
     "close_odds": 154
    },
    {
+    "id": "401909979:7889885:742.197296211",
+    "event": "401909979",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 5.5,
+    "pick": "Phoenix Suns +5.5",
+    "market": "Alternate Spread",
+    "odds": -410,
+    "prob": 0.8118,
+    "raw_prob": 0.8118,
+    "game": "Charlotte Hornets at Phoenix Suns",
+    "result": null,
+    "close_odds": -410
+   },
+   {
+    "id": "401909977:7890079:742.197295536",
+    "event": "401909977",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 3.5,
+    "pick": "Detroit Pistons +3.5",
+    "market": "Alternate Spread",
+    "odds": -700,
+    "prob": 0.8719,
+    "raw_prob": 0.8719,
+    "game": "Detroit Pistons at Washington Wizards",
+    "result": null,
+    "close_odds": -700
+   },
+   {
+    "id": "401892697:7000410:742.197300996",
+    "event": "401892697",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Minnesota Wild +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -430,
+    "prob": 0.8096,
+    "raw_prob": 0.8096,
+    "game": "Minnesota Wild at Toronto Maple Leafs",
+    "result": null,
+    "close_odds": -430
+   },
+   {
     "id": "401869969:48315417:742.196714443",
     "event": "401869969",
     "sport": "college-football",
@@ -132016,38 +132063,6 @@
     "close_odds": 280
    },
    {
-    "id": "401873052:12248278:742.196701315",
-    "event": "401873052",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -7.5,
-    "pick": "New York Giants (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 255,
-    "prob": 0.283,
-    "raw_prob": 0.283,
-    "game": "Washington Commanders at New York Giants",
-    "result": null,
-    "close_odds": 255
-   },
-   {
-    "id": "401892697:25604:742.197168541",
-    "event": "401892697",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Minnesota Wild -1.5",
-    "market": "Puck Line",
-    "odds": 126,
-    "prob": 0.4482,
-    "raw_prob": 0.4482,
-    "game": "Minnesota Wild at Toronto Maple Leafs",
-    "result": null,
-    "close_odds": 126
-   },
-   {
     "id": "401862824:49077385:742.196714390",
     "event": "401862824",
     "sport": "college-football",
@@ -132062,9 +132077,41 @@
     "game": "Memphis Tigers at South Florida Bulls",
     "result": null,
     "close_odds": 162
+   },
+   {
+    "id": "401909976:7888424:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 3.5,
+    "pick": "Philadelphia 76ers +3.5",
+    "market": "Alternate Spread",
+    "odds": -480,
+    "prob": 0.8166,
+    "raw_prob": 0.8166,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -480
+   },
+   {
+    "id": "401873052:12248278:742.196701315",
+    "event": "401873052",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "home",
+    "line": -7.5,
+    "pick": "New York Giants (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 255,
+    "prob": 0.283,
+    "raw_prob": 0.283,
+    "game": "Washington Commanders at New York Giants",
+    "result": null,
+    "close_odds": 255
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -132075,8 +132122,8 @@
   "type": "lottery",
   "label": "18-leg best-chance lottery",
   "n": 18,
-  "est_prob": 0.04714304089915842,
-  "fd_payout_x": 12.13,
+  "est_prob": 0.04668305128856151,
+  "fd_payout_x": 12.33,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -132087,12 +132134,12 @@
     "line": 5.5,
     "pick": "Detroit Pistons +5.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.9012,
-    "raw_prob": 0.9012,
+    "odds": -1000,
+    "prob": 0.9032,
+    "raw_prob": 0.9032,
     "game": "Detroit Pistons at Washington Wizards",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    },
    {
     "id": "401909979:7889962:742.197296211",
@@ -132111,22 +132158,6 @@
     "close_odds": -950
    },
    {
-    "id": "401909978:7755153:742.197296107",
-    "event": "401909978",
-    "sport": "nba",
-    "kind": "total",
-    "line": 249.5,
-    "ou": "under",
-    "pick": "Under 249.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8848,
-    "raw_prob": 0.8848,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401909976:7888498:742.197295740",
     "event": "401909976",
     "sport": "nba",
@@ -132135,12 +132166,28 @@
     "line": 6.5,
     "pick": "Philadelphia 76ers +6.5",
     "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8839,
-    "raw_prob": 0.8839,
+    "odds": -850,
+    "prob": 0.8792,
+    "raw_prob": 0.8792,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -850
+   },
+   {
+    "id": "401909978:7914078:742.197296102",
+    "event": "401909978",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 10.5,
+    "pick": "Minnesota Timberwolves +10.5",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.8789,
+    "raw_prob": 0.8789,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "result": null,
+    "close_odds": -900
    },
    {
     "id": "401869969:12194337:742.196714448",
@@ -132367,7 +132414,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-12 14:37 UTC",
+  "logged": "2026-11-12 14:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
