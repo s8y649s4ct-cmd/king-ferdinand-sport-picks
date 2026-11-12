@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 03:15 UTC",
+ "updated": "2026-11-12 03:25 UTC",
  "date": "2026-11-11",
  "ladder_stats": {
   "tickets": 20,
@@ -13,53 +13,6 @@
   "disjoint_up_to": 2
  },
  "legs": {
-  "401909975:7914256:742.197160022": {
-   "kind": "spread",
-   "side": "home",
-   "line": 12.5,
-   "id": "401909975:7914256:742.197160022",
-   "event": "401909975",
-   "sport": "nba",
-   "game": "Oklahoma City Thunder at Portland Trail Blazers",
-   "start": "2026-11-12T03:00Z",
-   "market": "Alternate Spread",
-   "pick": "Portland Trail Blazers +12.5",
-   "odds": -800,
-   "fd_prob": 0.8386,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36307386, fetched 2026-11-11 23:59 UTC",
-   "dist_prob": 0.8944,
-   "market_prob": 0.8665,
-   "prob": 0.8715,
-   "pre_research": 0.8665,
-   "research": [
-    "rest 1.0d vs 1.0d",
-    "travel 0 mi since last game",
-    "form 7-3 last 10, avg margin +7.0 vs 7-3 last 10, avg margin +4.8",
-    "home record 2-2",
-    "FanDuel price moved our way -500 -> -800 (+0.5)"
-   ],
-   "research_adj": 0.005,
-   "raw_prob": 0.8715,
-   "v1_prob": 0.8715,
-   "v2_prob": 0.8767,
-   "v2_src": "Pinnacle: Pinnacle +1.5 line extrapolated 11 pts",
-   "sharp_prob": 0.879,
-   "sharp_edge": -0.0099,
-   "power_prob": 0.8632,
-   "power_margin_home": 0.6,
-   "v2_injuries": [
-    "Vit Krejci Out (6p/2r/2a, 19 min): -1.4 pts",
-    "Ja Morant Out (22p/5r/7a, 32 min): -6.0 pts",
-    "Jaylin Williams Out (6p/5r/2a, 17 min): -1.3 pts",
-    "Ajay Mitchell Out (12p/3r/3a, 23 min): -3.0 pts"
-   ],
-   "why": "FanDuel no-vig 83.9%, line model 89.4% -> est. 87.2% (edge +3.3 pts); research +0.5 pts: rest 1.0d vs 1.0d; travel 0 mi since last game; form 7-3 last 10, avg margin +7.0 vs 7-3 last 10, avg margin +4.8; home record 2-2; FanDuel price moved our way -500 -> -800 (+0.5)",
-   "fd_market_id": "742.197160022",
-   "fd_selection_id": "7914256",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197160022&selectionId%5B0%5D=7914256",
-   "fd_region": "PA"
-  },
   "401891808:25607:742.197168140": {
    "kind": "ml",
    "side": "away",
@@ -73,7 +26,7 @@
    "odds": -285,
    "fd_prob": 0.7095,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 03:15 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 03:25 UTC",
    "market_prob": 0.7115,
    "prob": 0.7215,
    "pre_research": 0.7115,
@@ -1057,6 +1010,53 @@
    "fd_market_id": "742.197077827",
    "fd_selection_id": "7711076",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197077827&selectionId%5B0%5D=7711076",
+   "fd_region": "PA"
+  },
+  "401909975:7914256:742.197160022": {
+   "kind": "spread",
+   "side": "home",
+   "line": 12.5,
+   "id": "401909975:7914256:742.197160022",
+   "event": "401909975",
+   "sport": "nba",
+   "game": "Oklahoma City Thunder at Portland Trail Blazers",
+   "start": "2026-11-12T03:00Z",
+   "market": "Alternate Spread",
+   "pick": "Portland Trail Blazers +12.5",
+   "odds": -800,
+   "fd_prob": 0.8386,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36307386, fetched 2026-11-11 23:59 UTC",
+   "dist_prob": 0.8944,
+   "market_prob": 0.8665,
+   "prob": 0.8715,
+   "pre_research": 0.8665,
+   "research": [
+    "rest 1.0d vs 1.0d",
+    "travel 0 mi since last game",
+    "form 7-3 last 10, avg margin +7.0 vs 7-3 last 10, avg margin +4.8",
+    "home record 2-2",
+    "FanDuel price moved our way -500 -> -800 (+0.5)"
+   ],
+   "research_adj": 0.005,
+   "raw_prob": 0.8715,
+   "v1_prob": 0.8715,
+   "v2_prob": 0.8767,
+   "v2_src": "Pinnacle: Pinnacle +1.5 line extrapolated 11 pts",
+   "sharp_prob": 0.879,
+   "sharp_edge": -0.0099,
+   "power_prob": 0.8632,
+   "power_margin_home": 0.6,
+   "v2_injuries": [
+    "Vit Krejci Out (6p/2r/2a, 19 min): -1.4 pts",
+    "Ja Morant Out (22p/5r/7a, 32 min): -6.0 pts",
+    "Jaylin Williams Out (6p/5r/2a, 17 min): -1.3 pts",
+    "Ajay Mitchell Out (12p/3r/3a, 23 min): -3.0 pts"
+   ],
+   "why": "FanDuel no-vig 83.9%, line model 89.4% -> est. 87.2% (edge +3.3 pts); research +0.5 pts: rest 1.0d vs 1.0d; travel 0 mi since last game; form 7-3 last 10, avg margin +7.0 vs 7-3 last 10, avg margin +4.8; home record 2-2; FanDuel price moved our way -500 -> -800 (+0.5)",
+   "fd_market_id": "742.197160022",
+   "fd_selection_id": "7914256",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197160022&selectionId%5B0%5D=7914256",
    "fd_region": "PA"
   },
   "401909973:7711361:742.197087632": {
@@ -3476,9 +3476,7 @@
   }
  ],
  "best": null,
- "started": [
-  "401909975:7914256:742.197160022"
- ],
+ "started": [],
  "games": [
   {
    "id": "401866461",
@@ -3486,7 +3484,7 @@
    "name": "Buffalo Bulls at Ball State Cardinals",
    "start": "2026-11-12T00:30Z",
    "state": "in",
-   "status": "12:29 - 4th",
+   "status": "6:54 - 4th",
    "venue": "Scheumann Stadium",
    "indoor": false,
    "city": {
@@ -3549,7 +3547,7 @@
    "name": "Sacramento State Hornets at Central Michigan Chippewas",
    "start": "2026-11-12T00:30Z",
    "state": "in",
-   "status": "5:15 - 4th",
+   "status": "2:00 - 4th",
    "venue": "Kelly/Shorts Stadium",
    "indoor": false,
    "city": {
@@ -3612,7 +3610,7 @@
    "name": "Massachusetts Minutemen at Toledo Rockets",
    "start": "2026-11-12T00:30Z",
    "state": "in",
-   "status": "15:00 - 3rd",
+   "status": "10:57 - 4th",
    "venue": "Glass Bowl",
    "indoor": false,
    "city": {
@@ -3812,8 +3810,8 @@
    "sport": "nba",
    "name": "San Antonio Spurs at Chicago Bulls",
    "start": "2026-11-12T01:00Z",
-   "state": "in",
-   "status": "1:48 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "United Center",
    "indoor": true,
    "city": {
@@ -3828,28 +3826,28 @@
     "home": {
      "name": "Chicago Bulls",
      "short": "Bulls",
-     "score": "108",
-     "winner": null,
-     "record": "1-8",
+     "score": "119",
+     "winner": false,
+     "record": "1-9",
      "ml_open": null,
      "ml": null,
      "tid": "4",
      "abbr": "CHI",
-     "home_rec": "0-3",
+     "home_rec": "0-4",
      "road_rec": "1-5"
     },
     "away": {
      "name": "San Antonio Spurs",
      "short": "Spurs",
-     "score": "120",
-     "winner": null,
-     "record": "9-2",
+     "score": "124",
+     "winner": true,
+     "record": "10-2",
      "ml_open": null,
      "ml": null,
      "tid": "24",
      "abbr": "SA",
      "home_rec": "4-2",
-     "road_rec": "5-0"
+     "road_rec": "6-0"
     }
    }
   },
@@ -3859,7 +3857,7 @@
    "name": "Denver Nuggets at Memphis Grizzlies",
    "start": "2026-11-12T01:00Z",
    "state": "in",
-   "status": "4:00 - 4th",
+   "status": "13.9 - 4th",
    "venue": "FedExForum",
    "indoor": true,
    "city": {
@@ -3874,7 +3872,7 @@
     "home": {
      "name": "Memphis Grizzlies",
      "short": "Grizzlies",
-     "score": "111",
+     "score": "118",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -3887,7 +3885,7 @@
     "away": {
      "name": "Denver Nuggets",
      "short": "Nuggets",
-     "score": "113",
+     "score": "120",
      "winner": null,
      "record": "5-4",
      "ml_open": null,
@@ -3905,7 +3903,7 @@
    "name": "Los Angeles Lakers at Milwaukee Bucks",
    "start": "2026-11-12T01:00Z",
    "state": "in",
-   "status": "5:30 - 4th",
+   "status": "3:18 - 4th",
    "venue": "Fiserv Forum",
    "indoor": true,
    "city": {
@@ -3920,7 +3918,7 @@
     "home": {
      "name": "Milwaukee Bucks",
      "short": "Bucks",
-     "score": "86",
+     "score": "95",
      "winner": null,
      "record": "1-10",
      "ml_open": null,
@@ -3933,7 +3931,7 @@
     "away": {
      "name": "Los Angeles Lakers",
      "short": "Lakers",
-     "score": "108",
+     "score": "115",
      "winner": null,
      "record": "10-2",
      "ml_open": null,
@@ -3951,7 +3949,7 @@
    "name": "Brooklyn Nets at New Orleans Pelicans",
    "start": "2026-11-12T01:00Z",
    "state": "in",
-   "status": "6:54 - 4th",
+   "status": "4:46 - 4th",
    "venue": "Smoothie King Center",
    "indoor": true,
    "city": {
@@ -3966,7 +3964,7 @@
     "home": {
      "name": "New Orleans Pelicans",
      "short": "Pelicans",
-     "score": "92",
+     "score": "97",
      "winner": null,
      "record": "4-7",
      "ml_open": null,
@@ -3979,7 +3977,7 @@
     "away": {
      "name": "Brooklyn Nets",
      "short": "Nets",
-     "score": "128",
+     "score": "135",
      "winner": null,
      "record": "2-8",
      "ml_open": null,
@@ -4043,7 +4041,7 @@
    "name": "Golden State Warriors at Houston Rockets",
    "start": "2026-11-12T02:30Z",
    "state": "in",
-   "status": "10:58 - 2nd",
+   "status": "7:40 - 2nd",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
    "city": {
@@ -4058,7 +4056,7 @@
     "home": {
      "name": "Houston Rockets",
      "short": "Rockets",
-     "score": "37",
+     "score": "41",
      "winner": null,
      "record": "8-3",
      "ml_open": null,
@@ -4071,7 +4069,7 @@
     "away": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "20",
+     "score": "31",
      "winner": null,
      "record": "8-3",
      "ml_open": null,
@@ -4089,7 +4087,7 @@
    "name": "Oklahoma City Thunder at Portland Trail Blazers",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "10:14 - 1st",
+   "status": "5:20 - 1st",
    "venue": "Moda Center",
    "indoor": true,
    "city": {
@@ -4104,7 +4102,7 @@
     "home": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "5",
+     "score": "14",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -4117,7 +4115,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "4",
+     "score": "23",
      "winner": null,
      "record": "8-3",
      "ml_open": null,
@@ -4181,8 +4179,8 @@
    "sport": "nhl",
    "name": "New York Rangers at Calgary Flames",
    "start": "2026-11-12T00:30Z",
-   "state": "in",
-   "status": "1:51 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Scotiabank Saddledome",
    "indoor": true,
    "city": {
@@ -4199,27 +4197,27 @@
      "name": "Calgary Flames",
      "short": "Flames",
      "score": "1",
-     "winner": null,
-     "record": "8-9-1",
+     "winner": false,
+     "record": "8-10-1",
      "ml_open": null,
      "ml": null,
      "tid": "3",
      "abbr": "CGY",
-     "home_rec": "6-4-0",
+     "home_rec": "6-5-0",
      "road_rec": "2-5-1"
     },
     "away": {
      "name": "New York Rangers",
      "short": "Rangers",
-     "score": "2",
-     "winner": null,
-     "record": "10-8-1",
+     "score": "3",
+     "winner": true,
+     "record": "11-8-1",
      "ml_open": null,
      "ml": null,
      "tid": "13",
      "abbr": "NYR",
      "home_rec": "8-2-0",
-     "road_rec": "2-6-1"
+     "road_rec": "3-6-1"
     }
    }
   },
@@ -4229,7 +4227,7 @@
    "name": "Philadelphia Flyers at Edmonton Oilers",
    "start": "2026-11-12T02:00Z",
    "state": "in",
-   "status": "15:36 - 2nd",
+   "status": "8:11 - 2nd",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -4245,7 +4243,7 @@
     "home": {
      "name": "Edmonton Oilers",
      "short": "Oilers",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "13-3-3",
      "ml_open": null,
@@ -4276,7 +4274,7 @@
    "name": "Utah Mammoth at Vegas Golden Knights",
    "start": "2026-11-12T02:30Z",
    "state": "in",
-   "status": "4:56 - 1st",
+   "status": "1:22 - 1st",
    "venue": "T-Mobile Arena",
    "indoor": true,
    "city": {
@@ -4323,7 +4321,7 @@
    "name": "Nashville Predators at Anaheim Ducks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "17:11 - 1st",
+   "status": "11:31 - 1st",
    "venue": "Honda Center",
    "indoor": true,
    "city": {
@@ -4339,7 +4337,7 @@
     "home": {
      "name": "Anaheim Ducks",
      "short": "Ducks",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "10-7-1",
      "ml_open": null,
@@ -4370,7 +4368,7 @@
    "name": "Pittsburgh Penguins at San Jose Sharks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "16:06 - 1st",
+   "status": "11:03 - 1st",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -4399,7 +4397,7 @@
     "away": {
      "name": "Pittsburgh Penguins",
      "short": "Penguins",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "6-10-2",
      "ml_open": null,
@@ -4711,6 +4709,11 @@
   },
   {
    "team": "Los Angeles Lakers",
+   "t": "Collin Sexton - Day-To-Day: Sexton went back to the locker room during Wednesday's game against the Bucks after bumping heads with Ryan Rollins, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Los Angeles Lakers",
    "t": "Austin Reaves - Day-To-Day: Reaves exited Wednesday's game against the Bucks with an undisclosed injury, Khobi Price of The California Post reports.",
    "src": "ESPN injuries feed"
   },
@@ -4861,12 +4864,12 @@
   },
   {
    "team": "Toronto Raptors",
-   "t": "Kawhi Leonard - Out: Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
+   "t": "Trayce Jackson-Davis - Day-To-Day: Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "Toronto Raptors",
-   "t": "Trayce Jackson-Davis - Out: Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
+   "t": "Kawhi Leonard - Out: Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -5174,24 +5177,24 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-12 03:15 UTC",
-  "graded_legs": 2110,
+  "updated": "2026-11-12 03:25 UTC",
+  "graded_legs": 2121,
   "calibration": {
    "85-90%": {
-    "n": 956,
-    "wins": 824,
+    "n": 962,
+    "wins": 830,
     "pred": 0.873,
-    "hit": 0.862
+    "hit": 0.863
    },
    "75-80%": {
-    "n": 167,
-    "wins": 136,
+    "n": 169,
+    "wins": 138,
     "pred": 0.784,
-    "hit": 0.814
+    "hit": 0.817
    },
    "80-85%": {
-    "n": 374,
-    "wins": 314,
+    "n": 376,
+    "wins": 316,
     "pred": 0.824,
     "hit": 0.84
    },
@@ -5232,10 +5235,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 123,
+    "n": 124,
     "wins": 31,
     "pred": 0.274,
-    "hit": 0.252
+    "hit": 0.25
    },
    "60-65%": {
     "n": 26,
@@ -5288,16 +5291,16 @@
     "hit": 0.798
    },
    "nba": {
-    "n": 784,
-    "wins": 603,
+    "n": 791,
+    "wins": 609,
     "pred": 0.791,
-    "hit": 0.769
+    "hit": 0.77
    },
    "nhl": {
-    "n": 389,
-    "wins": 244,
-    "pred": 0.671,
-    "hit": 0.627
+    "n": 393,
+    "wins": 248,
+    "pred": 0.672,
+    "hit": 0.631
    },
    "mlb": {
     "n": 10,
@@ -5344,16 +5347,16 @@
   },
   "by_market": {
    "total": {
-    "n": 957,
-    "wins": 774,
+    "n": 962,
+    "wins": 779,
     "pred": 0.822,
-    "hit": 0.809
+    "hit": 0.81
    },
    "spread": {
-    "n": 894,
-    "wins": 659,
+    "n": 899,
+    "wins": 664,
     "pred": 0.747,
-    "hit": 0.737
+    "hit": 0.739
    },
    "dc": {
     "n": 71,
@@ -5380,17 +5383,17 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 85,
+    "n": 86,
     "wins": 20,
     "pred": 0.28,
-    "hit": 0.235
+    "hit": 0.233
    }
   },
   "parlays": {
-   "graded": 653,
+   "graded": 655,
    "won": 120,
    "expected": 134.03,
-   "pending": 35,
+   "pending": 33,
    "by_type": {
     "ladder": {
      "graded": 390,
@@ -5403,7 +5406,7 @@
      "expected": 3.42
     },
     "lottery": {
-     "graded": 246,
+     "graded": 248,
      "won": 25,
      "expected": 24.86
     }
@@ -5530,7 +5533,7 @@
       "pick": "Chicago Bulls +32.5",
       "game": "San Antonio Spurs at Chicago Bulls",
       "odds": -950,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -7997,46 +8000,46 @@
   ]
  },
  "feature": null,
- "note": "271 FanDuel-priced candidates (ml, prop, spread, total) across 2 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 20 legs.",
+ "note": "6 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 20 legs.",
  "model_check": {
   "v1": {
-   "n": 6173,
-   "brier": 0.1518,
-   "logloss": 0.4798,
+   "n": 6203,
+   "brier": 0.1514,
+   "logloss": 0.4787,
    "picks": 1637,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.09,
-   "top_picks_graded": 1560,
-   "top_picks_won": 1311,
-   "top_picks_expected": 1303.0,
-   "top_win_rate": 0.8403846153846154
+   "top_picks_graded": 1570,
+   "top_picks_won": 1320,
+   "top_picks_expected": 1311.34,
+   "top_win_rate": 0.8407643312101911
   },
   "v2": {
-   "n": 6173,
-   "brier": 0.1513,
-   "logloss": 0.4793,
+   "n": 6203,
+   "brier": 0.1508,
+   "logloss": 0.4781,
    "picks": 587,
    "avg_clv_fd_pts": 0.32,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 571,
-   "top_picks_won": 495,
-   "top_picks_expected": 504.13,
-   "top_win_rate": 0.8669001751313485
+   "top_picks_graded": 573,
+   "top_picks_won": 497,
+   "top_picks_expected": 505.95,
+   "top_win_rate": 0.8673647469458988
   },
-  "graded": 6173,
+  "graded": 6203,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6173,
-    "v2": 6173,
+    "v1": 6203,
+    "v2": 6203,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4798,
-    "v2": 0.4793,
+    "v1": 0.4787,
+    "v2": 0.4781,
     "pass": true
    },
    {
@@ -8053,14 +8056,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1560,
-    "v2": 571,
+    "v1": 1570,
+    "v2": 573,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1311/1560",
-    "v2": "495/571",
+    "v1": "1320/1570",
+    "v2": "497/573",
     "pass": true
    }
   ],
@@ -8096,7 +8099,7 @@
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
    "dropped": 3,
-   "of": 271,
+   "of": 6,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": [
     "Seattle Kraken +1.5 (Carolina Hurricanes at Seattle Kraken) -114: FanDuel implies 53.3% vs Pinnacle fair 48.0%",
