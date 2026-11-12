@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 03:45 UTC",
+ "updated": "2026-11-12 03:58 UTC",
  "date": "2026-11-11",
  "ladder_stats": {
   "tickets": 20,
@@ -26,7 +26,7 @@
    "odds": -285,
    "fd_prob": 0.7095,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 03:45 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 03:58 UTC",
    "market_prob": 0.7115,
    "prob": 0.7215,
    "pre_research": 0.7115,
@@ -3484,7 +3484,7 @@
    "name": "Buffalo Bulls at Ball State Cardinals",
    "start": "2026-11-12T00:30Z",
    "state": "in",
-   "status": "2:59 - 4th",
+   "status": "End of 4th",
    "venue": "Scheumann Stadium",
    "indoor": false,
    "city": {
@@ -3542,69 +3542,6 @@
    }
   },
   {
-   "id": "401866463",
-   "sport": "college-football",
-   "name": "Massachusetts Minutemen at Toledo Rockets",
-   "start": "2026-11-12T00:30Z",
-   "state": "in",
-   "status": "3:23 - 4th",
-   "venue": "Glass Bowl",
-   "indoor": false,
-   "city": {
-    "city": "Toledo",
-    "state": "OH",
-    "country": "USA"
-   },
-   "espn_wx": {
-    "displayValue": "7",
-    "temperature": 48,
-    "highTemperature": 48,
-    "conditionId": "Cloudy",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "43606"
-     ],
-     "href": "http://www.accuweather.com/en/us/glass-bowl-oh/43620/current-weather/53618_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "Toledo Rockets",
-     "short": "Toledo",
-     "score": "24",
-     "winner": null,
-     "record": "7-2",
-     "ml_open": null,
-     "ml": null,
-     "tid": "2649",
-     "abbr": "TOL",
-     "home_rec": null,
-     "road_rec": null
-    },
-    "away": {
-     "name": "Massachusetts Minutemen",
-     "short": "UMass",
-     "score": "0",
-     "winner": null,
-     "record": "5-4",
-     "ml_open": null,
-     "ml": null,
-     "tid": "113",
-     "abbr": "MASS",
-     "home_rec": null,
-     "road_rec": null
-    }
-   }
-  },
-  {
    "id": "401866462",
    "sport": "college-football",
    "name": "Sacramento State Hornets at Central Michigan Chippewas",
@@ -3648,6 +3585,53 @@
      "abbr": "SAC",
      "home_rec": "2-4",
      "road_rec": "0-5"
+    }
+   }
+  },
+  {
+   "id": "401866463",
+   "sport": "college-football",
+   "name": "Massachusetts Minutemen at Toledo Rockets",
+   "start": "2026-11-12T00:30Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Glass Bowl",
+   "indoor": false,
+   "city": {
+    "city": "Toledo",
+    "state": "OH",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "Toledo Rockets",
+     "short": "Toledo",
+     "score": "24",
+     "winner": true,
+     "record": "8-2",
+     "ml_open": null,
+     "ml": null,
+     "tid": "2649",
+     "abbr": "TOL",
+     "home_rec": "5-1",
+     "road_rec": "3-1"
+    },
+    "away": {
+     "name": "Massachusetts Minutemen",
+     "short": "UMass",
+     "score": "0",
+     "winner": false,
+     "record": "5-5",
+     "ml_open": null,
+     "ml": null,
+     "tid": "113",
+     "abbr": "MASS",
+     "home_rec": "3-2",
+     "road_rec": "2-3"
     }
    }
   },
@@ -3979,7 +3963,7 @@
    "name": "Orlando Magic at Utah Jazz",
    "start": "2026-11-12T02:00Z",
    "state": "in",
-   "status": "3:49 - 3rd",
+   "status": "End of 3rd",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -3994,7 +3978,7 @@
     "home": {
      "name": "Utah Jazz",
      "short": "Jazz",
-     "score": "79",
+     "score": "85",
      "winner": null,
      "record": "1-10",
      "ml_open": null,
@@ -4007,7 +3991,7 @@
     "away": {
      "name": "Orlando Magic",
      "short": "Magic",
-     "score": "82",
+     "score": "85",
      "winner": null,
      "record": "3-7",
      "ml_open": null,
@@ -4025,7 +4009,7 @@
    "name": "Golden State Warriors at Houston Rockets",
    "start": "2026-11-12T02:30Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "11:41 - 3rd",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
    "city": {
@@ -4071,7 +4055,7 @@
    "name": "Oklahoma City Thunder at Portland Trail Blazers",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "7:05 - 2nd",
+   "status": "3:48 - 2nd",
    "venue": "Moda Center",
    "indoor": true,
    "city": {
@@ -4086,7 +4070,7 @@
     "home": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "38",
+     "score": "44",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -4099,7 +4083,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "41",
+     "score": "45",
      "winner": null,
      "record": "8-3",
      "ml_open": null,
@@ -4258,7 +4242,7 @@
    "name": "Utah Mammoth at Vegas Golden Knights",
    "start": "2026-11-12T02:30Z",
    "state": "in",
-   "status": "19:39 - 2nd",
+   "status": "13:49 - 2nd",
    "venue": "T-Mobile Arena",
    "indoor": true,
    "city": {
@@ -4274,7 +4258,7 @@
     "home": {
      "name": "Vegas Golden Knights",
      "short": "Golden Knights",
-     "score": "1",
+     "score": "3",
      "winner": null,
      "record": "12-5-2",
      "ml_open": null,
@@ -4305,7 +4289,7 @@
    "name": "Nashville Predators at Anaheim Ducks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "0:56 - 1st",
+   "status": "End of 1st",
    "venue": "Honda Center",
    "indoor": true,
    "city": {
@@ -4352,7 +4336,7 @@
    "name": "Pittsburgh Penguins at San Jose Sharks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "1:21 - 1st",
+   "status": "End of 1st",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -4693,6 +4677,11 @@
   },
   {
    "team": "Los Angeles Lakers",
+   "t": "Luka Doncic - Day-To-Day: Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Los Angeles Lakers",
    "t": "Austin Reaves - Out: Reaves will not return to Wednesday's game against the Bucks due to a left heel injury, Benjamin Royer of The Orange County Register reports.",
    "src": "ESPN injuries feed"
   },
@@ -4723,7 +4712,7 @@
   },
   {
    "team": "Milwaukee Bucks",
-   "t": "Ryan Rollins - Day-To-Day: Rollins exited to the locker room in the fourth quarter of Wednesday's game against the Lakers due to an apparent head injury, per the broadcast.",
+   "t": "Ryan Rollins - Day-To-Day: Rollins (head) exited to the locker room in the fourth quarter of Wednesday's 123-112 loss to the Lakers and did not return, finishing with eight points (3-10 FG, 2-6 3Pt), seven rebounds, four assists and one steal across 24 minutes.",
    "src": "ESPN injuries feed"
   },
   {
@@ -5098,6 +5087,11 @@
   },
   {
    "team": "Tampa Bay Lightning",
+   "t": "Erik Cernak - Out: out",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Tampa Bay Lightning",
    "t": "Brayden Point - Injured Reserve: ir",
    "src": "ESPN injuries feed"
   },
@@ -5139,13 +5133,13 @@
    "src": "ESPN/AccuWeather"
   },
   {
-   "g": "Massachusetts Minutemen at Toledo Rockets",
-   "w": "7, 48F",
-   "src": "ESPN/AccuWeather"
-  },
-  {
    "g": "Sacramento State Hornets at Central Michigan Chippewas",
    "w": "68.5F, wind 3.5 mph, rain 0%",
+   "src": "open-meteo"
+  },
+  {
+   "g": "Massachusetts Minutemen at Toledo Rockets",
+   "w": "46.9F, wind 3.5 mph, rain 2%",
    "src": "open-meteo"
   }
  ],
@@ -5166,12 +5160,12 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-12 03:45 UTC",
-  "graded_legs": 2143,
+  "updated": "2026-11-12 03:58 UTC",
+  "graded_legs": 2148,
   "calibration": {
    "85-90%": {
-    "n": 978,
-    "wins": 845,
+    "n": 982,
+    "wins": 848,
     "pred": 0.873,
     "hit": 0.864
    },
@@ -5182,10 +5176,10 @@
     "hit": 0.817
    },
    "80-85%": {
-    "n": 376,
-    "wins": 316,
+    "n": 377,
+    "wins": 317,
     "pred": 0.824,
-    "hit": 0.84
+    "hit": 0.841
    },
    "65-70%": {
     "n": 25,
@@ -5274,8 +5268,8 @@
     "hit": 0.75
    },
    "college-football": {
-    "n": 431,
-    "wins": 345,
+    "n": 436,
+    "wins": 349,
     "pred": 0.818,
     "hit": 0.8
    },
@@ -5336,16 +5330,16 @@
   },
   "by_market": {
    "total": {
-    "n": 968,
-    "wins": 785,
+    "n": 971,
+    "wins": 787,
     "pred": 0.823,
     "hit": 0.811
    },
    "spread": {
-    "n": 909,
-    "wins": 672,
+    "n": 911,
+    "wins": 674,
     "pred": 0.748,
-    "hit": 0.739
+    "hit": 0.74
    },
    "dc": {
     "n": 71,
@@ -5379,15 +5373,15 @@
    }
   },
   "parlays": {
-   "graded": 663,
+   "graded": 664,
    "won": 122,
-   "expected": 136.14,
-   "pending": 25,
+   "expected": 136.39,
+   "pending": 24,
    "by_type": {
     "ladder": {
-     "graded": 394,
+     "graded": 395,
      "won": 94,
-     "expected": 107.57
+     "expected": 107.82
     },
     "best": {
      "graded": 17,
@@ -7992,43 +7986,43 @@
  "note": "6 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 20 legs.",
  "model_check": {
   "v1": {
-   "n": 6271,
-   "brier": 0.151,
-   "logloss": 0.4777,
+   "n": 6279,
+   "brier": 0.1509,
+   "logloss": 0.4776,
    "picks": 1637,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.09,
-   "top_picks_graded": 1593,
-   "top_picks_won": 1341,
-   "top_picks_expected": 1331.47,
-   "top_win_rate": 0.8418079096045198
+   "top_picks_graded": 1596,
+   "top_picks_won": 1343,
+   "top_picks_expected": 1334.05,
+   "top_win_rate": 0.8414786967418546
   },
   "v2": {
-   "n": 6271,
-   "brier": 0.1505,
-   "logloss": 0.4772,
+   "n": 6279,
+   "brier": 0.1504,
+   "logloss": 0.4771,
    "picks": 587,
    "avg_clv_fd_pts": 0.32,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 577,
-   "top_picks_won": 501,
-   "top_picks_expected": 509.56,
-   "top_win_rate": 0.8682842287694974
+   "top_picks_graded": 578,
+   "top_picks_won": 502,
+   "top_picks_expected": 510.47,
+   "top_win_rate": 0.8685121107266436
   },
-  "graded": 6271,
+  "graded": 6279,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6271,
-    "v2": 6271,
+    "v1": 6279,
+    "v2": 6279,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4777,
-    "v2": 0.4772,
+    "v1": 0.4776,
+    "v2": 0.4771,
     "pass": true
    },
    {
@@ -8045,14 +8039,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1593,
-    "v2": 577,
+    "v1": 1596,
+    "v2": 578,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1341/1593",
-    "v2": "501/577",
+    "v1": "1343/1596",
+    "v2": "502/578",
     "pass": true
    }
   ],
