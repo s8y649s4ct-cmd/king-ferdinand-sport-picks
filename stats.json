@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12 05:38 UTC",
- "graded_legs": 2182,
+ "updated": "2026-11-12 05:48 UTC",
+ "graded_legs": 2187,
  "calibration": {
   "85-90%": {
    "n": 999,
@@ -9,16 +9,16 @@
    "hit": 0.866
   },
   "75-80%": {
-   "n": 172,
-   "wins": 141,
+   "n": 173,
+   "wins": 142,
    "pred": 0.785,
-   "hit": 0.82
+   "hit": 0.821
   },
   "80-85%": {
-   "n": 381,
-   "wins": 321,
+   "n": 383,
+   "wins": 322,
    "pred": 0.824,
-   "hit": 0.843
+   "hit": 0.841
   },
   "65-70%": {
    "n": 25,
@@ -63,16 +63,16 @@
    "hit": 0.25
   },
   "60-65%": {
-   "n": 26,
-   "wins": 10,
-   "pred": 0.624,
-   "hit": 0.385
+   "n": 27,
+   "wins": 11,
+   "pred": 0.625,
+   "hit": 0.407
   },
   "30-35%": {
-   "n": 56,
+   "n": 57,
    "wins": 18,
-   "pred": 0.325,
-   "hit": 0.321
+   "pred": 0.324,
+   "hit": 0.316
   },
   "20-25%": {
    "n": 69,
@@ -119,8 +119,8 @@
    "hit": 0.767
   },
   "nhl": {
-   "n": 401,
-   "wins": 254,
+   "n": 406,
+   "wins": 257,
    "pred": 0.672,
    "hit": 0.633
   },
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 981,
-   "wins": 796,
+   "n": 983,
+   "wins": 798,
    "pred": 0.822,
-   "hit": 0.811
+   "hit": 0.812
   },
   "spread": {
-   "n": 928,
-   "wins": 690,
-   "pred": 0.75,
-   "hit": 0.744
+   "n": 931,
+   "wins": 691,
+   "pred": 0.749,
+   "hit": 0.742
   },
   "dc": {
    "n": 71,
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 672,
+  "graded": 679,
   "won": 125,
-  "expected": 138.05,
-  "pending": 16,
+  "expected": 139.57,
+  "pending": 9,
   "by_type": {
    "ladder": {
-    "graded": 398,
+    "graded": 401,
     "won": 97,
-    "expected": 109.43
+    "expected": 109.9
    },
    "best": {
     "graded": 17,
@@ -228,9 +228,9 @@
     "expected": 3.42
    },
    "lottery": {
-    "graded": 257,
+    "graded": 261,
     "won": 25,
-    "expected": 25.12
+    "expected": 26.18
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
