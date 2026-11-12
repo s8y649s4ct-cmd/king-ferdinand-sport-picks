@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 04:53 UTC",
+ "updated": "2026-11-12 05:11 UTC",
  "date": "2026-11-11",
  "ladder_stats": {
   "tickets": 20,
@@ -26,7 +26,7 @@
    "odds": -285,
    "fd_prob": 0.7095,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 04:53 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 05:11 UTC",
    "market_prob": 0.7115,
    "prob": 0.7215,
    "pre_research": 0.7115,
@@ -3992,8 +3992,8 @@
    "sport": "nba",
    "name": "Golden State Warriors at Houston Rockets",
    "start": "2026-11-12T02:30Z",
-   "state": "in",
-   "status": "8:31 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Toyota Center (Houston)",
    "indoor": true,
    "city": {
@@ -4008,28 +4008,28 @@
     "home": {
      "name": "Houston Rockets",
      "short": "Rockets",
-     "score": "96",
-     "winner": null,
-     "record": "8-3",
+     "score": "115",
+     "winner": true,
+     "record": "9-3",
      "ml_open": null,
      "ml": null,
      "tid": "10",
      "abbr": "HOU",
-     "home_rec": "5-1",
+     "home_rec": "6-1",
      "road_rec": "3-2"
     },
     "away": {
      "name": "Golden State Warriors",
      "short": "Warriors",
-     "score": "85",
-     "winner": null,
-     "record": "8-3",
+     "score": "108",
+     "winner": false,
+     "record": "8-4",
      "ml_open": null,
      "ml": null,
      "tid": "9",
      "abbr": "GS",
      "home_rec": "6-1",
-     "road_rec": "2-2"
+     "road_rec": "2-3"
     }
    }
   },
@@ -4039,7 +4039,7 @@
    "name": "Oklahoma City Thunder at Portland Trail Blazers",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "11:32 - 4th",
+   "status": "5:10 - 4th",
    "venue": "Moda Center",
    "indoor": true,
    "city": {
@@ -4054,7 +4054,7 @@
     "home": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "88",
+     "score": "99",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -4067,7 +4067,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "85",
+     "score": "98",
      "winner": null,
      "record": "8-3",
      "ml_open": null,
@@ -4226,7 +4226,7 @@
    "name": "Utah Mammoth at Vegas Golden Knights",
    "start": "2026-11-12T02:30Z",
    "state": "in",
-   "status": "15:00 - 3rd",
+   "status": "5:20 - 3rd",
    "venue": "T-Mobile Arena",
    "indoor": true,
    "city": {
@@ -4242,7 +4242,7 @@
     "home": {
      "name": "Vegas Golden Knights",
      "short": "Golden Knights",
-     "score": "4",
+     "score": "5",
      "winner": null,
      "record": "12-5-2",
      "ml_open": null,
@@ -4255,7 +4255,7 @@
     "away": {
      "name": "Utah Mammoth",
      "short": "Mammoth",
-     "score": "2",
+     "score": "3",
      "winner": null,
      "record": "10-7-1",
      "ml_open": null,
@@ -4273,7 +4273,7 @@
    "name": "Nashville Predators at Anaheim Ducks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "13:59 - 3rd",
    "venue": "Honda Center",
    "indoor": true,
    "city": {
@@ -4320,7 +4320,7 @@
    "name": "Pittsburgh Penguins at San Jose Sharks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "17:04 - 3rd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -4661,17 +4661,17 @@
   },
   {
    "team": "Los Angeles Lakers",
+   "t": "Collin Sexton - Day-To-Day: Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Los Angeles Lakers",
    "t": "Austin Reaves - Day-To-Day: Head coach JJ Redick said that X-rays on Reaves' left heel came back negative, but they won't have another update until he undergoes further imaging back in Los Angeles on Thursday, Dave McMenamin of ESPN.com reports.",
    "src": "ESPN injuries feed"
   },
   {
    "team": "Los Angeles Lakers",
    "t": "Luka Doncic - Day-To-Day: Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "Los Angeles Lakers",
-   "t": "Collin Sexton - Day-To-Day: Sexton went back to the locker room during Wednesday's game against the Bucks after bumping heads with Ryan Rollins, Thuc Nhi Nguyen of the Los Angeles Times reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -5086,6 +5086,11 @@
   },
   {
    "team": "Utah Mammoth",
+   "t": "Nick Schmaltz - Day-To-Day: day-to-day",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Utah Mammoth",
    "t": "Logan Cooley - Out: out",
    "src": "ESPN injuries feed"
   },
@@ -5149,12 +5154,12 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-12 04:53 UTC",
-  "graded_legs": 2162,
+  "updated": "2026-11-12 05:11 UTC",
+  "graded_legs": 2169,
   "calibration": {
    "85-90%": {
-    "n": 990,
-    "wins": 856,
+    "n": 995,
+    "wins": 861,
     "pred": 0.873,
     "hit": 0.865
    },
@@ -5225,10 +5230,10 @@
     "hit": 0.321
    },
    "20-25%": {
-    "n": 66,
+    "n": 68,
     "wins": 13,
     "pred": 0.236,
-    "hit": 0.197
+    "hit": 0.191
    },
    "35-40%": {
     "n": 47,
@@ -5263,8 +5268,8 @@
     "hit": 0.803
    },
    "nba": {
-    "n": 814,
-    "wins": 626,
+    "n": 821,
+    "wins": 631,
     "pred": 0.788,
     "hit": 0.769
    },
@@ -5319,16 +5324,16 @@
   },
   "by_market": {
    "total": {
-    "n": 976,
-    "wins": 791,
+    "n": 978,
+    "wins": 793,
     "pred": 0.822,
-    "hit": 0.81
+    "hit": 0.811
    },
    "spread": {
-    "n": 918,
-    "wins": 681,
-    "pred": 0.749,
-    "hit": 0.742
+    "n": 921,
+    "wins": 684,
+    "pred": 0.75,
+    "hit": 0.743
    },
    "dc": {
     "n": 71,
@@ -5355,22 +5360,22 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 91,
+    "n": 93,
     "wins": 22,
-    "pred": 0.279,
-    "hit": 0.242
+    "pred": 0.278,
+    "hit": 0.237
    }
   },
   "parlays": {
-   "graded": 665,
-   "won": 122,
-   "expected": 136.39,
-   "pending": 23,
+   "graded": 669,
+   "won": 124,
+   "expected": 137.85,
+   "pending": 19,
    "by_type": {
     "ladder": {
-     "graded": 395,
-     "won": 94,
-     "expected": 107.82
+     "graded": 397,
+     "won": 96,
+     "expected": 109.28
     },
     "best": {
      "graded": 17,
@@ -5378,7 +5383,7 @@
      "expected": 3.42
     },
     "lottery": {
-     "graded": 253,
+     "graded": 255,
      "won": 25,
      "expected": 25.07
     }
@@ -5394,22 +5399,22 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "favorites_record": {
-  "won": 31,
+  "won": 33,
   "lost": 42,
-  "pending": 3,
-  "win_pct": 0.425,
+  "pending": 1,
+  "win_pct": 0.44,
   "by_legs": {
    "2": {
-    "won": 12,
+    "won": 13,
     "lost": 6,
-    "pending": 1,
-    "win_pct": 0.667
+    "pending": 0,
+    "win_pct": 0.684
    },
    "3": {
-    "won": 8,
+    "won": 9,
     "lost": 9,
-    "pending": 1,
-    "win_pct": 0.471
+    "pending": 0,
+    "win_pct": 0.5
    },
    "4": {
     "won": 8,
@@ -5516,14 +5521,14 @@
     "n": 3,
     "est_prob": 0.68535,
     "fd_payout_x": 1.35,
-    "result": null,
+    "result": "win",
     "source": "logged",
     "legs": [
      {
       "pick": "Under 241.5",
       "game": "Golden State Warriors at Houston Rockets",
       "odds": -950,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Indiana Pacers +12.5",
@@ -5546,14 +5551,14 @@
     "n": 2,
     "est_prob": 0.77316,
     "fd_payout_x": 1.22,
-    "result": null,
+    "result": "win",
     "source": "logged",
     "legs": [
      {
       "pick": "Under 241.5",
       "game": "Golden State Warriors at Houston Rockets",
       "odds": -950,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Utah Jazz +18.5",
@@ -7975,43 +7980,43 @@
  "note": "6 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 20 legs.",
  "model_check": {
   "v1": {
-   "n": 6326,
-   "brier": 0.1507,
-   "logloss": 0.4769,
+   "n": 6341,
+   "brier": 0.1503,
+   "logloss": 0.4761,
    "picks": 1637,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.09,
-   "top_picks_graded": 1609,
-   "top_picks_won": 1356,
-   "top_picks_expected": 1344.69,
-   "top_win_rate": 0.8427594779366065
+   "top_picks_graded": 1615,
+   "top_picks_won": 1362,
+   "top_picks_expected": 1349.97,
+   "top_win_rate": 0.843343653250774
   },
   "v2": {
-   "n": 6326,
-   "brier": 0.1501,
-   "logloss": 0.4763,
+   "n": 6341,
+   "brier": 0.1498,
+   "logloss": 0.4754,
    "picks": 587,
    "avg_clv_fd_pts": 0.32,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 581,
-   "top_picks_won": 505,
-   "top_picks_expected": 513.13,
-   "top_win_rate": 0.8691910499139415
+   "top_picks_graded": 582,
+   "top_picks_won": 506,
+   "top_picks_expected": 514.05,
+   "top_win_rate": 0.8694158075601375
   },
-  "graded": 6326,
+  "graded": 6341,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6326,
-    "v2": 6326,
+    "v1": 6341,
+    "v2": 6341,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4769,
-    "v2": 0.4763,
+    "v1": 0.4761,
+    "v2": 0.4754,
     "pass": true
    },
    {
@@ -8028,14 +8033,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1609,
-    "v2": 581,
+    "v1": 1615,
+    "v2": 582,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1356/1609",
-    "v2": "505/581",
+    "v1": "1362/1615",
+    "v2": "506/582",
     "pass": true
    }
   ],
