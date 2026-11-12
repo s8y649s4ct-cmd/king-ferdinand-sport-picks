@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 04:31 UTC",
+ "updated": "2026-11-12 04:33 UTC",
  "date": "2026-11-11",
  "ladder_stats": {
   "tickets": 20,
@@ -26,7 +26,7 @@
    "odds": -285,
    "fd_prob": 0.7095,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 04:31 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 04:33 UTC",
    "market_prob": 0.7115,
    "prob": 0.7215,
    "pre_research": 0.7115,
@@ -3946,8 +3946,8 @@
    "sport": "nba",
    "name": "Orlando Magic at Utah Jazz",
    "start": "2026-11-12T02:00Z",
-   "state": "in",
-   "status": "2.0 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -3963,27 +3963,27 @@
      "name": "Utah Jazz",
      "short": "Jazz",
      "score": "108",
-     "winner": null,
-     "record": "1-10",
+     "winner": false,
+     "record": "1-11",
      "ml_open": null,
      "ml": null,
      "tid": "26",
      "abbr": "UTAH",
-     "home_rec": "1-5",
+     "home_rec": "1-6",
      "road_rec": "0-5"
     },
     "away": {
      "name": "Orlando Magic",
      "short": "Magic",
      "score": "123",
-     "winner": null,
-     "record": "3-7",
+     "winner": true,
+     "record": "4-7",
      "ml_open": null,
      "ml": null,
      "tid": "19",
      "abbr": "ORL",
      "home_rec": "0-4",
-     "road_rec": "3-3"
+     "road_rec": "4-3"
     }
    }
   },
@@ -4039,7 +4039,7 @@
    "name": "Oklahoma City Thunder at Portland Trail Blazers",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "7:56 - 3rd",
+   "status": "6:58 - 3rd",
    "venue": "Moda Center",
    "indoor": true,
    "city": {
@@ -4054,7 +4054,7 @@
     "home": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "67",
+     "score": "68",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -4067,7 +4067,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "60",
+     "score": "63",
      "winner": null,
      "record": "8-3",
      "ml_open": null,
@@ -4179,7 +4179,7 @@
    "name": "Philadelphia Flyers at Edmonton Oilers",
    "start": "2026-11-12T02:00Z",
    "state": "in",
-   "status": "5:16 - 3rd",
+   "status": "3:36 - 3rd",
    "venue": "Rogers Place",
    "indoor": true,
    "city": {
@@ -4273,7 +4273,7 @@
    "name": "Nashville Predators at Anaheim Ducks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "4:45 - 2nd",
+   "status": "3:53 - 2nd",
    "venue": "Honda Center",
    "indoor": true,
    "city": {
@@ -4302,7 +4302,7 @@
     "away": {
      "name": "Nashville Predators",
      "short": "Predators",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "9-4-5",
      "ml_open": null,
@@ -4320,7 +4320,7 @@
    "name": "Pittsburgh Penguins at San Jose Sharks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "8:06 - 2nd",
+   "status": "7:24 - 2nd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -5149,14 +5149,14 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-12 04:31 UTC",
-  "graded_legs": 2153,
+  "updated": "2026-11-12 04:33 UTC",
+  "graded_legs": 2159,
   "calibration": {
    "85-90%": {
-    "n": 986,
-    "wins": 852,
+    "n": 990,
+    "wins": 856,
     "pred": 0.873,
-    "hit": 0.864
+    "hit": 0.865
    },
    "75-80%": {
     "n": 169,
@@ -5207,10 +5207,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 127,
-    "wins": 32,
+    "n": 128,
+    "wins": 33,
     "pred": 0.274,
-    "hit": 0.252
+    "hit": 0.258
    },
    "60-65%": {
     "n": 26,
@@ -5225,10 +5225,10 @@
     "hit": 0.321
    },
    "20-25%": {
-    "n": 65,
+    "n": 66,
     "wins": 13,
     "pred": 0.236,
-    "hit": 0.2
+    "hit": 0.197
    },
    "35-40%": {
     "n": 47,
@@ -5263,9 +5263,9 @@
     "hit": 0.803
    },
    "nba": {
-    "n": 808,
-    "wins": 621,
-    "pred": 0.789,
+    "n": 814,
+    "wins": 626,
+    "pred": 0.788,
     "hit": 0.769
    },
    "nhl": {
@@ -5319,16 +5319,16 @@
   },
   "by_market": {
    "total": {
-    "n": 973,
-    "wins": 789,
+    "n": 974,
+    "wins": 790,
     "pred": 0.823,
     "hit": 0.811
    },
    "spread": {
-    "n": 914,
-    "wins": 677,
+    "n": 917,
+    "wins": 680,
     "pred": 0.749,
-    "hit": 0.741
+    "hit": 0.742
    },
    "dc": {
     "n": 71,
@@ -5355,17 +5355,17 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 89,
-    "wins": 21,
+    "n": 91,
+    "wins": 22,
     "pred": 0.279,
-    "hit": 0.236
+    "hit": 0.242
    }
   },
   "parlays": {
-   "graded": 664,
+   "graded": 665,
    "won": 122,
    "expected": 136.39,
-   "pending": 24,
+   "pending": 23,
    "by_type": {
     "ladder": {
      "graded": 395,
@@ -5378,7 +5378,7 @@
      "expected": 3.42
     },
     "lottery": {
-     "graded": 252,
+     "graded": 253,
      "won": 25,
      "expected": 25.07
     }
@@ -5535,7 +5535,7 @@
       "pick": "Orlando Magic +11.5",
       "game": "Orlando Magic at Utah Jazz",
       "odds": -950,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -5559,7 +5559,7 @@
       "pick": "Utah Jazz +18.5",
       "game": "Orlando Magic at Utah Jazz",
       "odds": -1000,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -7975,43 +7975,43 @@
  "note": "6 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 20 legs.",
  "model_check": {
   "v1": {
-   "n": 6292,
-   "brier": 0.151,
-   "logloss": 0.4779,
+   "n": 6315,
+   "brier": 0.1507,
+   "logloss": 0.477,
    "picks": 1637,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.09,
-   "top_picks_graded": 1600,
-   "top_picks_won": 1347,
-   "top_picks_expected": 1337.46,
-   "top_win_rate": 0.841875
+   "top_picks_graded": 1606,
+   "top_picks_won": 1353,
+   "top_picks_expected": 1342.43,
+   "top_win_rate": 0.8424657534246576
   },
   "v2": {
-   "n": 6292,
-   "brier": 0.1505,
-   "logloss": 0.4774,
+   "n": 6315,
+   "brier": 0.1502,
+   "logloss": 0.4765,
    "picks": 587,
    "avg_clv_fd_pts": 0.32,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 579,
-   "top_picks_won": 503,
-   "top_picks_expected": 511.38,
-   "top_win_rate": 0.8687392055267703
+   "top_picks_graded": 580,
+   "top_picks_won": 504,
+   "top_picks_expected": 512.28,
+   "top_win_rate": 0.8689655172413793
   },
-  "graded": 6292,
+  "graded": 6315,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6292,
-    "v2": 6292,
+    "v1": 6315,
+    "v2": 6315,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4779,
-    "v2": 0.4774,
+    "v1": 0.477,
+    "v2": 0.4765,
     "pass": true
    },
    {
@@ -8028,14 +8028,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1600,
-    "v2": 579,
+    "v1": 1606,
+    "v2": 580,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1347/1600",
-    "v2": "503/579",
+    "v1": "1353/1606",
+    "v2": "504/580",
     "pass": true
    }
   ],
