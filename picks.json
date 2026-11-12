@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 05:20 UTC",
+ "updated": "2026-11-12 05:31 UTC",
  "date": "2026-11-11",
  "ladder_stats": {
   "tickets": 20,
@@ -26,7 +26,7 @@
    "odds": -285,
    "fd_prob": 0.7095,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 05:20 UTC",
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309079, fetched 2026-11-12 05:31 UTC",
    "market_prob": 0.7115,
    "prob": 0.7215,
    "pre_research": 0.7115,
@@ -4038,8 +4038,8 @@
    "sport": "nba",
    "name": "Oklahoma City Thunder at Portland Trail Blazers",
    "start": "2026-11-12T03:00Z",
-   "state": "in",
-   "status": "2:24 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Moda Center",
    "indoor": true,
    "city": {
@@ -4054,28 +4054,28 @@
     "home": {
      "name": "Portland Trail Blazers",
      "short": "Trail Blazers",
-     "score": "106",
-     "winner": null,
-     "record": "7-3",
+     "score": "118",
+     "winner": true,
+     "record": "8-3",
      "ml_open": null,
      "ml": null,
      "tid": "22",
      "abbr": "POR",
-     "home_rec": "2-2",
+     "home_rec": "3-2",
      "road_rec": "5-1"
     },
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "100",
-     "winner": null,
-     "record": "8-3",
+     "score": "108",
+     "winner": false,
+     "record": "8-4",
      "ml_open": null,
      "ml": null,
      "tid": "25",
      "abbr": "OKC",
      "home_rec": "5-0",
-     "road_rec": "3-3"
+     "road_rec": "3-4"
     }
    }
   },
@@ -4225,8 +4225,8 @@
    "sport": "nhl",
    "name": "Utah Mammoth at Vegas Golden Knights",
    "start": "2026-11-12T02:30Z",
-   "state": "in",
-   "status": "0:51 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "T-Mobile Arena",
    "indoor": true,
    "city": {
@@ -4243,27 +4243,27 @@
      "name": "Vegas Golden Knights",
      "short": "Golden Knights",
      "score": "5",
-     "winner": null,
-     "record": "12-5-2",
+     "winner": true,
+     "record": "13-5-2",
      "ml_open": null,
      "ml": null,
      "tid": "37",
      "abbr": "VGK",
-     "home_rec": "6-3-0",
+     "home_rec": "7-3-0",
      "road_rec": "6-2-2"
     },
     "away": {
      "name": "Utah Mammoth",
      "short": "Mammoth",
      "score": "3",
-     "winner": null,
-     "record": "10-7-1",
+     "winner": false,
+     "record": "10-8-1",
      "ml_open": null,
      "ml": null,
      "tid": "129764",
      "abbr": "UTA",
      "home_rec": "4-2-0",
-     "road_rec": "6-5-1"
+     "road_rec": "6-6-1"
     }
    }
   },
@@ -4273,7 +4273,7 @@
    "name": "Nashville Predators at Anaheim Ducks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "11:03 - 3rd",
+   "status": "6:11 - 3rd",
    "venue": "Honda Center",
    "indoor": true,
    "city": {
@@ -4289,7 +4289,7 @@
     "home": {
      "name": "Anaheim Ducks",
      "short": "Ducks",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "10-7-1",
      "ml_open": null,
@@ -4320,7 +4320,7 @@
    "name": "Pittsburgh Penguins at San Jose Sharks",
    "start": "2026-11-12T03:00Z",
    "state": "in",
-   "status": "12:51 - 3rd",
+   "status": "8:28 - 3rd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -4336,7 +4336,7 @@
     "home": {
      "name": "San Jose Sharks",
      "short": "Sharks",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "8-11-1",
      "ml_open": null,
@@ -5154,26 +5154,26 @@
   }
  ],
  "stats": {
-  "updated": "2026-11-12 05:20 UTC",
-  "graded_legs": 2169,
+  "updated": "2026-11-12 05:31 UTC",
+  "graded_legs": 2182,
   "calibration": {
    "85-90%": {
-    "n": 995,
-    "wins": 861,
+    "n": 999,
+    "wins": 865,
     "pred": 0.873,
-    "hit": 0.865
+    "hit": 0.866
    },
    "75-80%": {
-    "n": 169,
-    "wins": 138,
-    "pred": 0.784,
-    "hit": 0.817
+    "n": 172,
+    "wins": 141,
+    "pred": 0.785,
+    "hit": 0.82
    },
    "80-85%": {
-    "n": 380,
-    "wins": 320,
+    "n": 381,
+    "wins": 321,
     "pred": 0.824,
-    "hit": 0.842
+    "hit": 0.843
    },
    "65-70%": {
     "n": 25,
@@ -5194,10 +5194,10 @@
     "hit": 0.945
    },
    "70-75%": {
-    "n": 65,
-    "wins": 54,
-    "pred": 0.73,
-    "hit": 0.831
+    "n": 66,
+    "wins": 55,
+    "pred": 0.731,
+    "hit": 0.833
    },
    "40-45%": {
     "n": 46,
@@ -5212,10 +5212,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 129,
+    "n": 132,
     "wins": 33,
     "pred": 0.274,
-    "hit": 0.256
+    "hit": 0.25
    },
    "60-65%": {
     "n": 26,
@@ -5230,10 +5230,10 @@
     "hit": 0.321
    },
    "20-25%": {
-    "n": 68,
+    "n": 69,
     "wins": 13,
     "pred": 0.236,
-    "hit": 0.191
+    "hit": 0.188
    },
    "35-40%": {
     "n": 47,
@@ -5268,16 +5268,16 @@
     "hit": 0.803
    },
    "nba": {
-    "n": 821,
-    "wins": 631,
-    "pred": 0.788,
-    "hit": 0.769
+    "n": 829,
+    "wins": 636,
+    "pred": 0.786,
+    "hit": 0.767
    },
    "nhl": {
-    "n": 396,
-    "wins": 250,
+    "n": 401,
+    "wins": 254,
     "pred": 0.672,
-    "hit": 0.631
+    "hit": 0.633
    },
    "mlb": {
     "n": 10,
@@ -5324,16 +5324,16 @@
   },
   "by_market": {
    "total": {
-    "n": 978,
-    "wins": 793,
+    "n": 981,
+    "wins": 796,
     "pred": 0.822,
     "hit": 0.811
    },
    "spread": {
-    "n": 921,
-    "wins": 684,
+    "n": 928,
+    "wins": 690,
     "pred": 0.75,
-    "hit": 0.743
+    "hit": 0.744
    },
    "dc": {
     "n": 71,
@@ -5360,22 +5360,22 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 93,
+    "n": 96,
     "wins": 22,
-    "pred": 0.278,
-    "hit": 0.237
+    "pred": 0.277,
+    "hit": 0.229
    }
   },
   "parlays": {
-   "graded": 669,
-   "won": 124,
-   "expected": 137.85,
-   "pending": 19,
+   "graded": 672,
+   "won": 125,
+   "expected": 138.05,
+   "pending": 16,
    "by_type": {
     "ladder": {
-     "graded": 397,
-     "won": 96,
-     "expected": 109.28
+     "graded": 398,
+     "won": 97,
+     "expected": 109.43
     },
     "best": {
      "graded": 17,
@@ -5383,9 +5383,9 @@
      "expected": 3.42
     },
     "lottery": {
-     "graded": 255,
+     "graded": 257,
      "won": 25,
-     "expected": 25.07
+     "expected": 25.12
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -5456,7 +5456,7 @@
       "pick": "Portland Trail Blazers +6.5",
       "game": "Oklahoma City Thunder at Portland Trail Blazers",
       "odds": -290,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Carolina Hurricanes",
@@ -7980,43 +7980,43 @@
  "note": "6 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 20 legs.",
  "model_check": {
   "v1": {
-   "n": 6341,
-   "brier": 0.1503,
-   "logloss": 0.4761,
+   "n": 6381,
+   "brier": 0.15,
+   "logloss": 0.4753,
    "picks": 1637,
    "avg_clv_fd_pts": 0.13,
    "avg_clv_sharp_pts": 0.09,
-   "top_picks_graded": 1615,
-   "top_picks_won": 1362,
-   "top_picks_expected": 1349.97,
-   "top_win_rate": 0.843343653250774
+   "top_picks_graded": 1623,
+   "top_picks_won": 1367,
+   "top_picks_expected": 1356.06,
+   "top_win_rate": 0.8422674060382008
   },
   "v2": {
-   "n": 6341,
-   "brier": 0.1498,
-   "logloss": 0.4754,
+   "n": 6381,
+   "brier": 0.1495,
+   "logloss": 0.4746,
    "picks": 587,
    "avg_clv_fd_pts": 0.32,
    "avg_clv_sharp_pts": 0.44,
-   "top_picks_graded": 582,
-   "top_picks_won": 506,
-   "top_picks_expected": 514.05,
-   "top_win_rate": 0.8694158075601375
+   "top_picks_graded": 584,
+   "top_picks_won": 508,
+   "top_picks_expected": 515.8,
+   "top_win_rate": 0.8698630136986302
   },
-  "graded": 6341,
+  "graded": 6381,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6341,
-    "v2": 6341,
+    "v1": 6381,
+    "v2": 6381,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4761,
-    "v2": 0.4754,
+    "v1": 0.4753,
+    "v2": 0.4746,
     "pass": true
    },
    {
@@ -8033,14 +8033,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1615,
-    "v2": 582,
+    "v1": 1623,
+    "v2": 584,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1362/1615",
-    "v2": "506/582",
+    "v1": "1367/1623",
+    "v2": "508/584",
     "pass": true
    }
   ],
