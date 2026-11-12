@@ -127905,25 +127905,9 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2313,
-  "fd_payout_x": 4.37,
+  "est_prob": 0.2221,
+  "fd_payout_x": 4.31,
   "legs_detail": [
-   {
-    "id": "401892701:7000404:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Columbus Blue Jackets +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -280,
-    "prob": 0.7769,
-    "raw_prob": 0.7769,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": -280
-   },
    {
     "id": "401909979:7889883:742.197296211",
     "event": "401909979",
@@ -127937,6 +127921,22 @@
     "prob": 0.752,
     "raw_prob": 0.752,
     "game": "Charlotte Hornets at Phoenix Suns",
+    "result": null,
+    "close_odds": -300
+   },
+   {
+    "id": "401909976:7888495:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Philadelphia 76ers +1.5",
+    "market": "Alternate Spread",
+    "odds": -300,
+    "prob": 0.7505,
+    "raw_prob": 0.7505,
+    "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
     "close_odds": -300
    },
@@ -127973,23 +127973,23 @@
     "close_odds": -280
    },
    {
-    "id": "401909976:7711347:742.197295744",
-    "event": "401909976",
-    "sport": "nba",
+    "id": "401869969:12197182:742.196714448",
+    "event": "401869969",
+    "sport": "college-football",
     "kind": "total",
-    "line": 214.5,
-    "ou": "over",
-    "pick": "Over 214.5",
+    "line": 55.5,
+    "ou": "under",
+    "pick": "Under (55.5)",
     "market": "Alternate Total Points",
-    "odds": -300,
-    "prob": 0.7248,
-    "raw_prob": 0.7248,
-    "game": "Toronto Raptors at Philadelphia 76ers",
+    "odds": -295,
+    "prob": 0.7204,
+    "raw_prob": 0.7204,
+    "game": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
     "result": null,
-    "close_odds": -300
+    "close_odds": -295
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -128021,7 +128021,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128031,10 +128031,26 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 2,
-  "est_prob": 0.7969,
-  "est_raw": 0.7969,
-  "fd_payout_x": 1.21,
+  "est_prob": 0.80317,
+  "est_raw": 0.80317,
+  "fd_payout_x": 1.22,
   "legs_detail": [
+   {
+    "id": "401909976:7888418:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 8.5,
+    "pick": "Philadelphia 76ers +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8962,
+    "raw_prob": 0.8962,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -950
+   },
    {
     "id": "401909979:7889893:742.197296211",
     "event": "401909979",
@@ -128050,7 +128066,23 @@
     "game": "Charlotte Hornets at Phoenix Suns",
     "result": null,
     "close_odds": -1000
-   },
+   }
+  ],
+  "logged": "2026-11-12 23:45 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": true,
+  "favorite_source": "logged"
+ },
+ {
+  "id": "2026-11-12-3",
+  "date": "2026-11-12",
+  "type": "ladder",
+  "n": 3,
+  "est_prob": 0.68034,
+  "est_raw": 0.68034,
+  "fd_payout_x": 1.33,
+  "legs_detail": [
    {
     "id": "401873052:12194321:742.196701282",
     "event": "401873052",
@@ -128066,38 +128098,6 @@
     "game": "Washington Commanders at New York Giants",
     "result": null,
     "close_odds": -1000
-   }
-  ],
-  "logged": "2026-11-12 23:38 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": true,
-  "favorite_source": "logged"
- },
- {
-  "id": "2026-11-12-3",
-  "date": "2026-11-12",
-  "type": "ladder",
-  "n": 3,
-  "est_prob": 0.68011,
-  "est_raw": 0.68011,
-  "fd_payout_x": 1.34,
-  "legs_detail": [
-   {
-    "id": "401909976:7888517:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 7.5,
-    "pick": "Philadelphia 76ers +7.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8889,
-    "raw_prob": 0.8889,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401909978:7914078:742.197296102",
@@ -128132,7 +128132,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -128212,7 +128212,7 @@
     "close_odds": -700
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -128317,9 +128317,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.3853,
-  "est_raw": 0.3853,
-  "fd_payout_x": 2.11,
+  "est_prob": 0.38438,
+  "est_raw": 0.38438,
+  "fd_payout_x": 2.07,
   "legs_detail": [
    {
     "id": "401909977:7804113:742.197295536",
@@ -128370,20 +128370,20 @@
     "close_odds": -900
    },
    {
-    "id": "401909976:7711503:742.197295744",
-    "event": "401909976",
+    "id": "401909978:7747570:742.197296107",
+    "event": "401909978",
     "sport": "nba",
     "kind": "total",
-    "line": 204.5,
-    "ou": "over",
-    "pick": "Over 204.5",
+    "line": 246.5,
+    "ou": "under",
+    "pick": "Under 246.5",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.874,
-    "raw_prob": 0.874,
-    "game": "Toronto Raptors at Philadelphia 76ers",
+    "odds": -950,
+    "prob": 0.8719,
+    "raw_prob": 0.8719,
+    "game": "Dallas Mavericks at Minnesota Timberwolves",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401892698:7745987:742.197300178",
@@ -128410,15 +128410,15 @@
     "line": 2.5,
     "pick": "Columbus Blue Jackets +2.5",
     "market": "Alternate Puck Line",
-    "odds": -550,
+    "odds": -650,
     "prob": 0.8,
     "raw_prob": 0.8,
     "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -550
+    "close_odds": -650
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128428,23 +128428,23 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 7,
-  "est_prob": 0.3157,
-  "est_raw": 0.3157,
-  "fd_payout_x": 2.2,
+  "est_prob": 0.32003,
+  "est_raw": 0.32003,
+  "fd_payout_x": 2.24,
   "legs_detail": [
    {
-    "id": "401909978:7747570:742.197296107",
-    "event": "401909978",
+    "id": "401909976:7888418:742.197295740",
+    "event": "401909976",
     "sport": "nba",
-    "kind": "total",
-    "line": 246.5,
-    "ou": "under",
-    "pick": "Under 246.5",
-    "market": "Alternate Total Points",
+    "kind": "spread",
+    "side": "home",
+    "line": 8.5,
+    "pick": "Philadelphia 76ers +8.5",
+    "market": "Alternate Spread",
     "odds": -950,
-    "prob": 0.8719,
-    "raw_prob": 0.8719,
-    "game": "Dallas Mavericks at Minnesota Timberwolves",
+    "prob": 0.8962,
+    "raw_prob": 0.8962,
+    "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
     "close_odds": -950
    },
@@ -128481,22 +128481,6 @@
     "close_odds": -1000
    },
    {
-    "id": "401892699:8359782:742.197300365",
-    "event": "401892699",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -750,
-    "prob": 0.8484,
-    "raw_prob": 0.8484,
-    "game": "Detroit Red Wings at Florida Panthers",
-    "result": null,
-    "close_odds": -750
-   },
-   {
     "id": "401892704:8359782:742.197302184",
     "event": "401892704",
     "sport": "nhl",
@@ -128529,6 +128513,22 @@
     "close_odds": -700
    },
    {
+    "id": "401892699:7000408:742.197300350",
+    "event": "401892699",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Florida Panthers +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8367,
+    "raw_prob": 0.8367,
+    "game": "Detroit Red Wings at Florida Panthers",
+    "result": null,
+    "close_odds": -650
+   },
+   {
     "id": "401892697:7742232:742.197300996",
     "event": "401892697",
     "sport": "nhl",
@@ -128545,7 +128545,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128697,9 +128697,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.22412,
-  "est_raw": 0.22412,
-  "fd_payout_x": 3.72,
+  "est_prob": 0.23205,
+  "est_raw": 0.23205,
+  "fd_payout_x": 3.25,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -128734,6 +128734,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401909976:7888418:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 8.5,
+    "pick": "Philadelphia 76ers +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8962,
+    "raw_prob": 0.8962,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401873052:12194321:742.196701282",
     "event": "401873052",
     "sport": "nfl",
@@ -128748,22 +128764,6 @@
     "game": "Washington Commanders at New York Giants",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909976:7888517:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 7.5,
-    "pick": "Philadelphia 76ers +7.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8889,
-    "raw_prob": 0.8889,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401869969:12194336:742.196714448",
@@ -128782,36 +128782,36 @@
     "close_odds": -1000
    },
    {
-    "id": "401892697:7000410:742.197300996",
-    "event": "401892697",
+    "id": "401892699:8359782:742.197300365",
+    "event": "401892699",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Minnesota Wild +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -430,
-    "prob": 0.8096,
-    "raw_prob": 0.8096,
-    "game": "Minnesota Wild at Toronto Maple Leafs",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -750,
+    "prob": 0.8484,
+    "raw_prob": 0.8484,
+    "game": "Detroit Red Wings at Florida Panthers",
     "result": null,
-    "close_odds": -430
+    "close_odds": -750
    },
    {
-    "id": "401892702:7000399:742.197301368",
-    "event": "401892702",
+    "id": "401892701:7669430:742.197301035",
+    "event": "401892701",
     "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Buffalo Sabres +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -450,
-    "prob": 0.8093,
-    "raw_prob": 0.8093,
-    "game": "Buffalo Sabres at Chicago Blackhawks",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "over",
+    "pick": "Over 4.5",
+    "market": "Alternate Total Goals",
+    "odds": -600,
+    "prob": 0.7931,
+    "raw_prob": 0.7931,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -450
+    "close_odds": -600
    },
    {
     "id": "401892696:7000398:742.197300301",
@@ -128846,7 +128846,7 @@
     "close_odds": -600
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -128986,7 +128986,7 @@
     "raw_prob": 0.783,
     "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -480
+    "close_odds": -550
    },
    {
     "id": "401892702:8359782:742.197301419",
@@ -129191,7 +129191,7 @@
     "raw_prob": 0.8,
     "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -480
+    "close_odds": -430
    },
    {
     "id": "401892698:7000414:742.197300178",
@@ -129220,9 +129220,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 12,
-  "est_prob": 0.14433,
-  "est_raw": 0.14433,
-  "fd_payout_x": 4.96,
+  "est_prob": 0.13612,
+  "est_raw": 0.13612,
+  "fd_payout_x": 4.73,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -129273,22 +129273,6 @@
     "close_odds": -1000
    },
    {
-    "id": "401909976:7888517:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 7.5,
-    "pick": "Philadelphia 76ers +7.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8889,
-    "raw_prob": 0.8889,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -900
-   },
-   {
     "id": "401909978:7914078:742.197296102",
     "event": "401909978",
     "sport": "nba",
@@ -129337,6 +129321,22 @@
     "close_odds": -800
    },
    {
+    "id": "401892699:8359782:742.197300365",
+    "event": "401892699",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -750,
+    "prob": 0.8484,
+    "raw_prob": 0.8484,
+    "game": "Detroit Red Wings at Florida Panthers",
+    "result": null,
+    "close_odds": -750
+   },
+   {
     "id": "401892703:7000405:742.197301613",
     "event": "401892703",
     "sport": "nhl",
@@ -129369,22 +129369,6 @@
     "close_odds": -450
    },
    {
-    "id": "401892697:7000410:742.197300996",
-    "event": "401892697",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Minnesota Wild +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -430,
-    "prob": 0.8096,
-    "raw_prob": 0.8096,
-    "game": "Minnesota Wild at Toronto Maple Leafs",
-    "result": null,
-    "close_odds": -430
-   },
-   {
     "id": "401892698:7745987:742.197300178",
     "event": "401892698",
     "sport": "nhl",
@@ -129399,6 +129383,22 @@
     "game": "Colorado Avalanche at Ottawa Senators",
     "result": null,
     "close_odds": -600
+   },
+   {
+    "id": "401892701:7746352:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Columbus Blue Jackets +2.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8,
+    "raw_prob": 0.8,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": -650
    },
    {
     "id": "401892696:8359782:742.197300309",
@@ -129417,7 +129417,7 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -129843,7 +129843,7 @@
     "raw_prob": 0.783,
     "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -480
+    "close_odds": -550
    },
    {
     "id": "401892702:8359782:742.197301419",
@@ -129921,7 +129921,7 @@
     "raw_prob": 0.8932,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -900
+    "close_odds": -750
    },
    {
     "id": "401909978:7914078:742.197296102",
@@ -130096,7 +130096,7 @@
     "raw_prob": 0.8,
     "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -480
+    "close_odds": -430
    },
    {
     "id": "401892702:7737355:742.197301368",
@@ -130141,9 +130141,9 @@
   "date": "2026-11-12",
   "type": "ladder",
   "n": 16,
-  "est_prob": 0.06098,
-  "est_raw": 0.06098,
-  "fd_payout_x": 7.81,
+  "est_prob": 0.06088,
+  "est_raw": 0.06088,
+  "fd_payout_x": 8.09,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -130158,6 +130158,22 @@
     "prob": 0.9012,
     "raw_prob": 0.9012,
     "game": "Detroit Pistons at Washington Wizards",
+    "result": null,
+    "close_odds": -950
+   },
+   {
+    "id": "401909976:7888418:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 8.5,
+    "pick": "Philadelphia 76ers +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8962,
+    "raw_prob": 0.8962,
+    "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
     "close_odds": -950
    },
@@ -130210,22 +130226,6 @@
     "close_odds": -900
    },
    {
-    "id": "401909976:7711503:742.197295744",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "total",
-    "line": 204.5,
-    "ou": "over",
-    "pick": "Over 204.5",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.874,
-    "raw_prob": 0.874,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401869969:12197197:742.196714448",
     "event": "401869969",
     "sport": "college-football",
@@ -130258,22 +130258,6 @@
     "close_odds": -770
    },
    {
-    "id": "401892699:8359782:742.197300365",
-    "event": "401892699",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 8.5,
-    "ou": "under",
-    "pick": "Under 8.5",
-    "market": "Alternate Total Goals",
-    "odds": -750,
-    "prob": 0.8484,
-    "raw_prob": 0.8484,
-    "game": "Detroit Red Wings at Florida Panthers",
-    "result": null,
-    "close_odds": -750
-   },
-   {
     "id": "401892705:8359782:742.197302313",
     "event": "401892705",
     "sport": "nhl",
@@ -130288,6 +130272,22 @@
     "game": "New York Islanders at Los Angeles Kings",
     "result": null,
     "close_odds": -700
+   },
+   {
+    "id": "401892699:7000408:742.197300350",
+    "event": "401892699",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Florida Panthers +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -650,
+    "prob": 0.8367,
+    "raw_prob": 0.8367,
+    "game": "Detroit Red Wings at Florida Panthers",
+    "result": null,
+    "close_odds": -650
    },
    {
     "id": "401892703:7000405:742.197301613",
@@ -130354,22 +130354,6 @@
     "close_odds": -800
    },
    {
-    "id": "401892701:7669430:742.197301035",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "over",
-    "pick": "Over 4.5",
-    "market": "Alternate Total Goals",
-    "odds": -600,
-    "prob": 0.7931,
-    "raw_prob": 0.7931,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": -600
-   },
-   {
     "id": "401892696:8359782:742.197300309",
     "event": "401892696",
     "sport": "nhl",
@@ -130400,9 +130384,25 @@
     "game": "Colorado Avalanche at Ottawa Senators",
     "result": null,
     "close_odds": -550
+   },
+   {
+    "id": "401892701:8359782:742.197301035",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 8.5,
+    "ou": "under",
+    "pick": "Under 8.5",
+    "market": "Alternate Total Goals",
+    "odds": -550,
+    "prob": 0.783,
+    "raw_prob": 0.783,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": -550
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -130446,7 +130446,7 @@
     "raw_prob": 0.8932,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -900
+    "close_odds": -750
    },
    {
     "id": "401909979:7889950:742.197296211",
@@ -130972,7 +130972,7 @@
     "raw_prob": 0.783,
     "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -480
+    "close_odds": -550
    },
    {
     "id": "401891808:7669430:742.197299829",
@@ -131001,8 +131001,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.06775569966,
-  "fd_payout_x": 25.22,
+  "est_prob": 0.06590214906,
+  "fd_payout_x": 25.81,
   "legs_detail": [
    {
     "id": "401892704:10777405:742.197302208",
@@ -131021,22 +131021,6 @@
     "close_odds": 184
    },
    {
-    "id": "401892701:7000431:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.4021,
-    "raw_prob": 0.4021,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 198
-   },
-   {
     "id": "401892705:25613:742.197168435",
     "event": "401892705",
     "sport": "nhl",
@@ -131051,9 +131035,25 @@
     "game": "New York Islanders at Los Angeles Kings",
     "result": null,
     "close_odds": 198
+   },
+   {
+    "id": "401892696:25596:742.197168565",
+    "event": "401892696",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Boston Bruins -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.3911,
+    "raw_prob": 0.3911,
+    "game": "Montreal Canadiens at Boston Bruins",
+    "result": null,
+    "close_odds": 205
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131063,88 +131063,9 @@
   "date": "2026-11-12",
   "type": "lottery",
   "label": "~100x",
-  "n": 4,
-  "est_prob": 0.017430506966301,
-  "fd_payout_x": 106.56,
-  "legs_detail": [
-   {
-    "id": "401892701:7000431:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.4021,
-    "raw_prob": 0.4021,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401892698:7000441:742.197300178",
-    "event": "401892698",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Ottawa Senators -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 200,
-    "prob": 0.3965,
-    "raw_prob": 0.3965,
-    "game": "Colorado Avalanche at Ottawa Senators",
-    "result": null,
-    "close_odds": 200
-   },
-   {
-    "id": "401892705:25613:742.197168435",
-    "event": "401892705",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Los Angeles Kings -1.5",
-    "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3993,
-    "raw_prob": 0.3993,
-    "game": "New York Islanders at Los Angeles Kings",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401892704:7669353:742.197302184",
-    "event": "401892704",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 300,
-    "prob": 0.2738,
-    "raw_prob": 0.2738,
-    "game": "St. Louis Blues at Utah Mammoth",
-    "result": null,
-    "close_odds": 300
-   }
-  ],
-  "logged": "2026-11-12 23:38 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-12-lottery-~500x",
-  "date": "2026-11-12",
-  "type": "lottery",
-  "label": "~500x",
-  "n": 9,
-  "est_prob": 0.004944675823083302,
-  "fd_payout_x": 501.33,
+  "n": 5,
+  "est_prob": 0.020744767449008033,
+  "fd_payout_x": 101.64,
   "legs_detail": [
    {
     "id": "401892704:10777405:742.197302208",
@@ -131161,22 +131082,6 @@
     "game": "St. Louis Blues at Utah Mammoth",
     "result": null,
     "close_odds": 184
-   },
-   {
-    "id": "401892701:7000431:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.4021,
-    "raw_prob": 0.4021,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 198
    },
    {
     "id": "401892705:25613:742.197168435",
@@ -131227,71 +131132,134 @@
     "close_odds": 200
    },
    {
-    "id": "401909977:7890344:742.197295536",
-    "event": "401909977",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Detroit Pistons +1.5",
-    "market": "Alternate Spread",
-    "odds": -460,
-    "prob": 0.8337,
-    "raw_prob": 0.8337,
-    "game": "Detroit Pistons at Washington Wizards",
-    "result": null,
-    "close_odds": -460
-   },
-   {
-    "id": "401909979:7890029:742.197296211",
-    "event": "401909979",
-    "sport": "nba",
+    "id": "401892701:7000404:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
     "kind": "spread",
     "side": "home",
-    "line": 6.5,
-    "pick": "Phoenix Suns +6.5",
-    "market": "Alternate Spread",
-    "odds": -480,
-    "prob": 0.8328,
-    "raw_prob": 0.8328,
-    "game": "Charlotte Hornets at Phoenix Suns",
+    "line": 1.5,
+    "pick": "Columbus Blue Jackets +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -320,
+    "prob": 0.7939,
+    "raw_prob": 0.7939,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -480
+    "close_odds": -320
+   }
+  ],
+  "logged": "2026-11-12 23:45 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-12-lottery-~500x",
+  "date": "2026-11-12",
+  "type": "lottery",
+  "label": "~500x",
+  "n": 6,
+  "est_prob": 0.004552098609500409,
+  "fd_payout_x": 568.34,
+  "legs_detail": [
+   {
+    "id": "401892704:10777405:742.197302208",
+    "event": "401892704",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "St. Louis Blues -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 184,
+    "prob": 0.422,
+    "raw_prob": 0.422,
+    "game": "St. Louis Blues at Utah Mammoth",
+    "result": null,
+    "close_odds": 184
    },
    {
-    "id": "401892700:7000413:742.197300082",
+    "id": "401892705:25613:742.197168435",
+    "event": "401892705",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Los Angeles Kings -1.5",
+    "market": "Puck Line",
+    "odds": 198,
+    "prob": 0.3993,
+    "raw_prob": 0.3993,
+    "game": "New York Islanders at Los Angeles Kings",
+    "result": null,
+    "close_odds": 198
+   },
+   {
+    "id": "401892696:25596:742.197168565",
+    "event": "401892696",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Boston Bruins -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.3911,
+    "raw_prob": 0.3911,
+    "game": "Montreal Canadiens at Boston Bruins",
+    "result": null,
+    "close_odds": 205
+   },
+   {
+    "id": "401892698:7000441:742.197300178",
+    "event": "401892698",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Ottawa Senators -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 200,
+    "prob": 0.3965,
+    "raw_prob": 0.3965,
+    "game": "Colorado Avalanche at Ottawa Senators",
+    "result": null,
+    "close_odds": 200
+   },
+   {
+    "id": "401892701:7000431:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Columbus Blue Jackets -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 178,
+    "prob": 0.4136,
+    "raw_prob": 0.4136,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": 178
+   },
+   {
+    "id": "401892700:25586:742.197168497",
     "event": "401892700",
     "sport": "nhl",
     "kind": "spread",
     "side": "home",
-    "line": 1.5,
-    "pick": "New Jersey Devils +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -450,
-    "prob": 0.8203,
-    "raw_prob": 0.8203,
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Puck Line",
+    "odds": 164,
+    "prob": 0.4212,
+    "raw_prob": 0.4212,
     "game": "Washington Capitals at New Jersey Devils",
     "result": null,
-    "close_odds": -450
-   },
-   {
-    "id": "401892703:7000405:742.197301613",
-    "event": "401892703",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 1.5,
-    "pick": "Dallas Stars +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -480,
-    "prob": 0.8263,
-    "raw_prob": 0.8263,
-    "game": "Winnipeg Jets at Dallas Stars",
-    "result": null,
-    "close_odds": -480
+    "close_odds": 164
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131302,8 +131270,8 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 9,
-  "est_prob": 0.002538946064467496,
-  "fd_payout_x": 1082.88,
+  "est_prob": 0.0026115595430583343,
+  "fd_payout_x": 1010.2,
   "legs_detail": [
    {
     "id": "401892704:10777405:742.197302208",
@@ -131320,22 +131288,6 @@
     "game": "St. Louis Blues at Utah Mammoth",
     "result": null,
     "close_odds": 184
-   },
-   {
-    "id": "401892701:7000431:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.4021,
-    "raw_prob": 0.4021,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 198
    },
    {
     "id": "401892705:25613:742.197168435",
@@ -131384,6 +131336,22 @@
     "game": "Colorado Avalanche at Ottawa Senators",
     "result": null,
     "close_odds": 200
+   },
+   {
+    "id": "401892701:7000431:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Columbus Blue Jackets -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 178,
+    "prob": 0.4136,
+    "raw_prob": 0.4136,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": 178
    },
    {
     "id": "401909977:7890344:742.197295536",
@@ -131450,7 +131418,7 @@
     "close_odds": -480
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131461,8 +131429,8 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 13,
-  "est_prob": 0.00027093085150298456,
-  "fd_payout_x": 11785.29,
+  "est_prob": 0.00028165552075937677,
+  "fd_payout_x": 10894.06,
   "legs_detail": [
    {
     "id": "401892704:10777405:742.197302208",
@@ -131479,22 +131447,6 @@
     "game": "St. Louis Blues at Utah Mammoth",
     "result": null,
     "close_odds": 184
-   },
-   {
-    "id": "401892701:7000431:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.4021,
-    "raw_prob": 0.4021,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 198
    },
    {
     "id": "401892696:25596:742.197168565",
@@ -131543,6 +131495,22 @@
     "game": "Colorado Avalanche at Ottawa Senators",
     "result": null,
     "close_odds": 200
+   },
+   {
+    "id": "401892701:7000431:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Columbus Blue Jackets -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 178,
+    "prob": 0.4136,
+    "raw_prob": 0.4136,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": 178
    },
    {
     "id": "401892700:25586:742.197168497",
@@ -131593,6 +131561,22 @@
     "close_odds": -410
    },
    {
+    "id": "401909976:7888487:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 4.5,
+    "pick": "Philadelphia 76ers +4.5",
+    "market": "Alternate Spread",
+    "odds": -430,
+    "prob": 0.8139,
+    "raw_prob": 0.8139,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -430
+   },
+   {
     "id": "401892703:25612:742.197168474",
     "event": "401892703",
     "sport": "nhl",
@@ -131607,22 +131591,6 @@
     "game": "Winnipeg Jets at Dallas Stars",
     "result": null,
     "close_odds": 160
-   },
-   {
-    "id": "401909976:7888424:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "Philadelphia 76ers +3.5",
-    "market": "Alternate Spread",
-    "odds": -410,
-    "prob": 0.8053,
-    "raw_prob": 0.8053,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -410
    },
    {
     "id": "401892697:7000410:742.197300996",
@@ -131673,7 +131641,7 @@
     "close_odds": 160
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -131684,8 +131652,8 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 13,
-  "est_prob": 3.2179709231605924e-05,
-  "fd_payout_x": 114967.11,
+  "est_prob": 3.504121979219672e-05,
+  "fd_payout_x": 100518.32,
   "legs_detail": [
    {
     "id": "401892704:10777405:742.197302208",
@@ -131702,22 +131670,6 @@
     "game": "St. Louis Blues at Utah Mammoth",
     "result": null,
     "close_odds": 184
-   },
-   {
-    "id": "401892701:7000431:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.4021,
-    "raw_prob": 0.4021,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 198
    },
    {
     "id": "401892696:25596:742.197168565",
@@ -131766,6 +131718,245 @@
     "game": "Colorado Avalanche at Ottawa Senators",
     "result": null,
     "close_odds": 200
+   },
+   {
+    "id": "401892701:7000431:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Columbus Blue Jackets -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 178,
+    "prob": 0.4136,
+    "raw_prob": 0.4136,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": 178
+   },
+   {
+    "id": "401892700:25586:742.197168497",
+    "event": "401892700",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "New Jersey Devils -1.5",
+    "market": "Puck Line",
+    "odds": 164,
+    "prob": 0.4212,
+    "raw_prob": 0.4212,
+    "game": "Washington Capitals at New Jersey Devils",
+    "result": null,
+    "close_odds": 164
+   },
+   {
+    "id": "401892703:25612:742.197168474",
+    "event": "401892703",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Dallas Stars -1.5",
+    "market": "Puck Line",
+    "odds": 160,
+    "prob": 0.4154,
+    "raw_prob": 0.4154,
+    "game": "Winnipeg Jets at Dallas Stars",
+    "result": null,
+    "close_odds": 160
+   },
+   {
+    "id": "401892702:25597:742.197168515",
+    "event": "401892702",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Buffalo Sabres -1.5",
+    "market": "Puck Line",
+    "odds": 160,
+    "prob": 0.4129,
+    "raw_prob": 0.4129,
+    "game": "Buffalo Sabres at Chicago Blackhawks",
+    "result": null,
+    "close_odds": 160
+   },
+   {
+    "id": "401909979:7889885:742.197296211",
+    "event": "401909979",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 5.5,
+    "pick": "Phoenix Suns +5.5",
+    "market": "Alternate Spread",
+    "odds": -410,
+    "prob": 0.8118,
+    "raw_prob": 0.8118,
+    "game": "Charlotte Hornets at Phoenix Suns",
+    "result": null,
+    "close_odds": -410
+   },
+   {
+    "id": "401909976:7888487:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 4.5,
+    "pick": "Philadelphia 76ers +4.5",
+    "market": "Alternate Spread",
+    "odds": -430,
+    "prob": 0.8139,
+    "raw_prob": 0.8139,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -430
+   },
+   {
+    "id": "401892697:7000410:742.197300996",
+    "event": "401892697",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Minnesota Wild +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -430,
+    "prob": 0.8096,
+    "raw_prob": 0.8096,
+    "game": "Minnesota Wild at Toronto Maple Leafs",
+    "result": null,
+    "close_odds": -430
+   },
+   {
+    "id": "401873052:12248278:742.196701315",
+    "event": "401873052",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "home",
+    "line": -7.5,
+    "pick": "New York Giants (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 255,
+    "prob": 0.303,
+    "raw_prob": 0.303,
+    "game": "Washington Commanders at New York Giants",
+    "result": null,
+    "close_odds": 255
+   },
+   {
+    "id": "401892699:7669353:742.197300365",
+    "event": "401892699",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5",
+    "market": "Alternate Total Goals",
+    "odds": 290,
+    "prob": 0.2769,
+    "raw_prob": 0.2769,
+    "game": "Detroit Red Wings at Florida Panthers",
+    "result": null,
+    "close_odds": 290
+   }
+  ],
+  "logged": "2026-11-12 23:45 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-12-lottery-~1,000,000x",
+  "date": "2026-11-12",
+  "type": "lottery",
+  "label": "~1,000,000x",
+  "n": 15,
+  "est_prob": 3.7062452681825357e-06,
+  "fd_payout_x": 1001170.17,
+  "legs_detail": [
+   {
+    "id": "401892704:10777405:742.197302208",
+    "event": "401892704",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "St. Louis Blues -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 184,
+    "prob": 0.422,
+    "raw_prob": 0.422,
+    "game": "St. Louis Blues at Utah Mammoth",
+    "result": null,
+    "close_odds": 184
+   },
+   {
+    "id": "401892696:25596:742.197168565",
+    "event": "401892696",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Boston Bruins -1.5",
+    "market": "Puck Line",
+    "odds": 205,
+    "prob": 0.3911,
+    "raw_prob": 0.3911,
+    "game": "Montreal Canadiens at Boston Bruins",
+    "result": null,
+    "close_odds": 205
+   },
+   {
+    "id": "401892705:25613:742.197168435",
+    "event": "401892705",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Los Angeles Kings -1.5",
+    "market": "Puck Line",
+    "odds": 198,
+    "prob": 0.3993,
+    "raw_prob": 0.3993,
+    "game": "New York Islanders at Los Angeles Kings",
+    "result": null,
+    "close_odds": 198
+   },
+   {
+    "id": "401892698:7000441:742.197300178",
+    "event": "401892698",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Ottawa Senators -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 200,
+    "prob": 0.3965,
+    "raw_prob": 0.3965,
+    "game": "Colorado Avalanche at Ottawa Senators",
+    "result": null,
+    "close_odds": 200
+   },
+   {
+    "id": "401892701:7000431:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Columbus Blue Jackets -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 178,
+    "prob": 0.4136,
+    "raw_prob": 0.4136,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": 178
    },
    {
     "id": "401892700:25586:742.197168497",
@@ -131840,12 +132031,12 @@
     "ou": "under",
     "pick": "Under 4.5",
     "market": "Alternate Total Goals",
-    "odds": 280,
-    "prob": 0.2801,
-    "raw_prob": 0.2801,
+    "odds": 290,
+    "prob": 0.2769,
+    "raw_prob": 0.2769,
     "game": "Detroit Red Wings at Florida Panthers",
     "result": null,
-    "close_odds": 280
+    "close_odds": 290
    },
    {
     "id": "401909977:7890344:742.197295536",
@@ -131888,219 +132079,12 @@
     "line": 3.5,
     "pick": "Philadelphia 76ers +3.5",
     "market": "Alternate Spread",
-    "odds": -410,
-    "prob": 0.8053,
-    "raw_prob": 0.8053,
+    "odds": -375,
+    "prob": 0.7929,
+    "raw_prob": 0.7929,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -410
-   }
-  ],
-  "logged": "2026-11-12 23:38 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-12-lottery-~1,000,000x",
-  "date": "2026-11-12",
-  "type": "lottery",
-  "label": "~1,000,000x",
-  "n": 15,
-  "est_prob": 3.7216020645987506e-06,
-  "fd_payout_x": 1017521.12,
-  "legs_detail": [
-   {
-    "id": "401892704:10777405:742.197302208",
-    "event": "401892704",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "St. Louis Blues -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 184,
-    "prob": 0.422,
-    "raw_prob": 0.422,
-    "game": "St. Louis Blues at Utah Mammoth",
-    "result": null,
-    "close_odds": 184
-   },
-   {
-    "id": "401892701:7000431:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Columbus Blue Jackets -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.4021,
-    "raw_prob": 0.4021,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401892696:25596:742.197168565",
-    "event": "401892696",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Boston Bruins -1.5",
-    "market": "Puck Line",
-    "odds": 205,
-    "prob": 0.3911,
-    "raw_prob": 0.3911,
-    "game": "Montreal Canadiens at Boston Bruins",
-    "result": null,
-    "close_odds": 205
-   },
-   {
-    "id": "401892705:25613:742.197168435",
-    "event": "401892705",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Los Angeles Kings -1.5",
-    "market": "Puck Line",
-    "odds": 198,
-    "prob": 0.3993,
-    "raw_prob": 0.3993,
-    "game": "New York Islanders at Los Angeles Kings",
-    "result": null,
-    "close_odds": 198
-   },
-   {
-    "id": "401892698:7000441:742.197300178",
-    "event": "401892698",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Ottawa Senators -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 200,
-    "prob": 0.3965,
-    "raw_prob": 0.3965,
-    "game": "Colorado Avalanche at Ottawa Senators",
-    "result": null,
-    "close_odds": 200
-   },
-   {
-    "id": "401892700:25586:742.197168497",
-    "event": "401892700",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "New Jersey Devils -1.5",
-    "market": "Puck Line",
-    "odds": 164,
-    "prob": 0.4212,
-    "raw_prob": 0.4212,
-    "game": "Washington Capitals at New Jersey Devils",
-    "result": null,
-    "close_odds": 164
-   },
-   {
-    "id": "401892703:25612:742.197168474",
-    "event": "401892703",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Dallas Stars -1.5",
-    "market": "Puck Line",
-    "odds": 160,
-    "prob": 0.4154,
-    "raw_prob": 0.4154,
-    "game": "Winnipeg Jets at Dallas Stars",
-    "result": null,
-    "close_odds": 160
-   },
-   {
-    "id": "401892702:25597:742.197168515",
-    "event": "401892702",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Buffalo Sabres -1.5",
-    "market": "Puck Line",
-    "odds": 160,
-    "prob": 0.4129,
-    "raw_prob": 0.4129,
-    "game": "Buffalo Sabres at Chicago Blackhawks",
-    "result": null,
-    "close_odds": 160
-   },
-   {
-    "id": "401873052:12248280:742.196701315",
-    "event": "401873052",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -8.5,
-    "pick": "New York Giants (-8.5)",
-    "market": "Alternate Spread",
-    "odds": 290,
-    "prob": 0.2777,
-    "raw_prob": 0.2777,
-    "game": "Washington Commanders at New York Giants",
-    "result": null,
-    "close_odds": 290
-   },
-   {
-    "id": "401892699:7669353:742.197300365",
-    "event": "401892699",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 4.5,
-    "ou": "under",
-    "pick": "Under 4.5",
-    "market": "Alternate Total Goals",
-    "odds": 280,
-    "prob": 0.2801,
-    "raw_prob": 0.2801,
-    "game": "Detroit Red Wings at Florida Panthers",
-    "result": null,
-    "close_odds": 280
-   },
-   {
-    "id": "401909977:7890344:742.197295536",
-    "event": "401909977",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Detroit Pistons +1.5",
-    "market": "Alternate Spread",
-    "odds": -460,
-    "prob": 0.8337,
-    "raw_prob": 0.8337,
-    "game": "Detroit Pistons at Washington Wizards",
-    "result": null,
-    "close_odds": -460
-   },
-   {
-    "id": "401909979:7889885:742.197296211",
-    "event": "401909979",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 5.5,
-    "pick": "Phoenix Suns +5.5",
-    "market": "Alternate Spread",
-    "odds": -410,
-    "prob": 0.8118,
-    "raw_prob": 0.8118,
-    "game": "Charlotte Hornets at Phoenix Suns",
-    "result": null,
-    "close_odds": -410
+    "close_odds": -375
    },
    {
     "id": "401862824:48906567:742.196714390",
@@ -132119,22 +132103,6 @@
     "close_odds": 132
    },
    {
-    "id": "401892697:7000410:742.197300996",
-    "event": "401892697",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Minnesota Wild +1.5",
-    "market": "Alternate Puck Line",
-    "odds": -430,
-    "prob": 0.8096,
-    "raw_prob": 0.8096,
-    "game": "Minnesota Wild at Toronto Maple Leafs",
-    "result": null,
-    "close_odds": -430
-   },
-   {
     "id": "401869969:48315417:742.196714443",
     "event": "401869969",
     "sport": "college-football",
@@ -132151,7 +132119,7 @@
     "close_odds": 285
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -132162,8 +132130,8 @@
   "type": "lottery",
   "label": "17-leg best-chance lottery",
   "n": 17,
-  "est_prob": 0.05731833380928732,
-  "fd_payout_x": 13.08,
+  "est_prob": 0.05734841319927907,
+  "fd_payout_x": 14.45,
   "legs_detail": [
    {
     "id": "401909977:7890137:742.197295536",
@@ -132182,6 +132150,22 @@
     "close_odds": -950
    },
    {
+    "id": "401909976:7888418:742.197295740",
+    "event": "401909976",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 8.5,
+    "pick": "Philadelphia 76ers +8.5",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8962,
+    "raw_prob": 0.8962,
+    "game": "Toronto Raptors at Philadelphia 76ers",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401909979:7889893:742.197296211",
     "event": "401909979",
     "sport": "nba",
@@ -132196,22 +132180,6 @@
     "game": "Charlotte Hornets at Phoenix Suns",
     "result": null,
     "close_odds": -1000
-   },
-   {
-    "id": "401909976:7888517:742.197295740",
-    "event": "401909976",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 7.5,
-    "pick": "Philadelphia 76ers +7.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8889,
-    "raw_prob": 0.8889,
-    "game": "Toronto Raptors at Philadelphia 76ers",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401873052:12194321:742.196701282",
@@ -132390,6 +132358,22 @@
     "close_odds": -450
    },
    {
+    "id": "401892701:7000404:742.197301046",
+    "event": "401892701",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": 1.5,
+    "pick": "Columbus Blue Jackets +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -320,
+    "prob": 0.7939,
+    "raw_prob": 0.7939,
+    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
+    "result": null,
+    "close_odds": -320
+   },
+   {
     "id": "401892698:7000414:742.197300178",
     "event": "401892698",
     "sport": "nhl",
@@ -132420,25 +132404,9 @@
     "game": "Montreal Canadiens at Boston Bruins",
     "result": null,
     "close_odds": -340
-   },
-   {
-    "id": "401892701:7746352:742.197301046",
-    "event": "401892701",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Columbus Blue Jackets +2.5",
-    "market": "Alternate Puck Line",
-    "odds": -550,
-    "prob": 0.8,
-    "raw_prob": 0.8,
-    "game": "Tampa Bay Lightning at Columbus Blue Jackets",
-    "result": null,
-    "close_odds": -550
    }
   ],
-  "logged": "2026-11-12 23:38 UTC",
+  "logged": "2026-11-12 23:45 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -132482,7 +132450,7 @@
     "raw_prob": 0.8932,
     "game": "Toronto Raptors at Philadelphia 76ers",
     "result": null,
-    "close_odds": -900
+    "close_odds": -750
    },
    {
     "id": "401909979:7889962:742.197296211",
@@ -132722,7 +132690,7 @@
     "raw_prob": 0.8,
     "game": "Tampa Bay Lightning at Columbus Blue Jackets",
     "result": null,
-    "close_odds": -480
+    "close_odds": -430
    },
    {
     "id": "401891808:7000401:742.197299848",
