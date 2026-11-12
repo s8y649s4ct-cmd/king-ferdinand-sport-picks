@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12 19:35 UTC",
- "graded_legs": 2193,
+ "updated": "2026-11-12 19:48 UTC",
+ "graded_legs": 2198,
  "calibration": {
   "85-90%": {
    "n": 999,
@@ -9,14 +9,14 @@
    "hit": 0.866
   },
   "75-80%": {
-   "n": 174,
-   "wins": 143,
+   "n": 175,
+   "wins": 144,
    "pred": 0.785,
-   "hit": 0.822
+   "hit": 0.823
   },
   "80-85%": {
-   "n": 385,
-   "wins": 324,
+   "n": 387,
+   "wins": 326,
    "pred": 0.824,
    "hit": 0.842
   },
@@ -39,10 +39,10 @@
    "hit": 0.945
   },
   "70-75%": {
-   "n": 66,
-   "wins": 55,
-   "pred": 0.731,
-   "hit": 0.833
+   "n": 67,
+   "wins": 56,
+   "pred": 0.73,
+   "hit": 0.836
   },
   "40-45%": {
    "n": 47,
@@ -57,10 +57,10 @@
    "hit": 0.412
   },
   "25-30%": {
-   "n": 132,
+   "n": 133,
    "wins": 33,
    "pred": 0.274,
-   "hit": 0.25
+   "hit": 0.248
   },
   "60-65%": {
    "n": 27,
@@ -119,10 +119,10 @@
    "hit": 0.767
   },
   "nhl": {
-   "n": 412,
-   "wins": 261,
+   "n": 417,
+   "wins": 265,
    "pred": 0.671,
-   "hit": 0.633
+   "hit": 0.635
   },
   "mlb": {
    "n": 10,
@@ -169,14 +169,14 @@
  },
  "by_market": {
   "total": {
-   "n": 985,
-   "wins": 800,
+   "n": 987,
+   "wins": 802,
    "pred": 0.822,
-   "hit": 0.812
+   "hit": 0.813
   },
   "spread": {
-   "n": 935,
-   "wins": 693,
+   "n": 936,
+   "wins": 694,
    "pred": 0.749,
    "hit": 0.741
   },
@@ -187,10 +187,10 @@
    "hit": 0.831
   },
   "ml": {
-   "n": 38,
-   "wins": 28,
-   "pred": 0.651,
-   "hit": 0.737
+   "n": 40,
+   "wins": 29,
+   "pred": 0.643,
+   "hit": 0.725
   },
   "dnb": {
    "n": 15,
@@ -212,33 +212,33 @@
   }
  },
  "parlays": {
-  "graded": 681,
-  "won": 127,
-  "expected": 140.11,
-  "pending": 35,
+  "graded": 688,
+  "won": 134,
+  "expected": 141.46,
+  "pending": 28,
   "by_type": {
    "ladder": {
-    "graded": 403,
-    "won": 99,
-    "expected": 110.44
+    "graded": 408,
+    "won": 104,
+    "expected": 110.84
    },
    "best": {
-    "graded": 17,
-    "won": 3,
-    "expected": 3.42
+    "graded": 18,
+    "won": 4,
+    "expected": 3.65
    },
    "lottery": {
-    "graded": 261,
-    "won": 25,
-    "expected": 26.18
+    "graded": 262,
+    "won": 26,
+    "expected": 26.9
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 2205,
+  "legs_tracked": 2202,
   "avg_clv_pts": -0.01,
-  "beat_close": 529,
+  "beat_close": 528,
   "worse_than_close": 637
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
