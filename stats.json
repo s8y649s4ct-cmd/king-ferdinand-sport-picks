@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13 03:40 UTC",
- "graded_legs": 2233,
+ "updated": "2026-11-13 03:47 UTC",
+ "graded_legs": 2241,
  "calibration": {
   "85-90%": {
    "n": 1006,
@@ -9,16 +9,16 @@
    "hit": 0.867
   },
   "75-80%": {
-   "n": 183,
-   "wins": 149,
+   "n": 185,
+   "wins": 151,
    "pred": 0.785,
-   "hit": 0.814
+   "hit": 0.816
   },
   "80-85%": {
-   "n": 400,
-   "wins": 337,
+   "n": 402,
+   "wins": 338,
    "pred": 0.823,
-   "hit": 0.843
+   "hit": 0.841
   },
   "65-70%": {
    "n": 26,
@@ -45,10 +45,10 @@
    "hit": 0.836
   },
   "40-45%": {
-   "n": 49,
+   "n": 51,
    "wins": 16,
    "pred": 0.421,
-   "hit": 0.327
+   "hit": 0.314
   },
   "45-50%": {
    "n": 17,
@@ -57,10 +57,10 @@
    "hit": 0.412
   },
   "25-30%": {
-   "n": 134,
+   "n": 136,
    "wins": 33,
    "pred": 0.274,
-   "hit": 0.246
+   "hit": 0.243
   },
   "60-65%": {
    "n": 27,
@@ -119,10 +119,10 @@
    "hit": 0.769
   },
   "nhl": {
-   "n": 440,
-   "wins": 279,
-   "pred": 0.674,
-   "hit": 0.634
+   "n": 448,
+   "wins": 282,
+   "pred": 0.672,
+   "hit": 0.629
   },
   "mlb": {
    "n": 10,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 997,
-   "wins": 809,
+   "n": 999,
+   "wins": 810,
    "pred": 0.821,
    "hit": 0.811
   },
   "spread": {
-   "n": 960,
-   "wins": 712,
-   "pred": 0.749,
-   "hit": 0.742
+   "n": 966,
+   "wins": 714,
+   "pred": 0.748,
+   "hit": 0.739
   },
   "dc": {
    "n": 71,
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 704,
+  "graded": 710,
   "won": 135,
-  "expected": 144.29,
-  "pending": 17,
+  "expected": 145.44,
+  "pending": 11,
   "by_type": {
    "ladder": {
-    "graded": 419,
+    "graded": 422,
     "won": 105,
-    "expected": 113.36
+    "expected": 114.25
    },
    "best": {
     "graded": 18,
@@ -228,9 +228,9 @@
     "expected": 3.65
    },
    "lottery": {
-    "graded": 267,
+    "graded": 270,
     "won": 26,
-    "expected": 27.21
+    "expected": 27.46
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
