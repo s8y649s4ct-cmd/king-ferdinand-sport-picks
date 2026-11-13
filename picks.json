@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 04:15 UTC",
+ "updated": "2026-11-13 04:27 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
@@ -2473,8 +2473,8 @@
    "sport": "nfl",
    "name": "Washington Commanders at New York Giants",
    "start": "2026-11-13T01:15Z",
-   "state": "in",
-   "status": "0:48 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "MetLife Stadium",
    "indoor": false,
    "city": {
@@ -2482,23 +2482,7 @@
     "state": "NJ",
     "country": "USA"
    },
-   "espn_wx": {
-    "displayValue": "7",
-    "temperature": 48,
-    "highTemperature": 48,
-    "conditionId": "Cloudy",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "07073"
-     ],
-     "href": "http://www.accuweather.com/en/us/metlife-stadium-nj/07073/current-weather/52866_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
+   "espn_wx": null,
    "line": null,
    "total": null,
    "book": null,
@@ -2507,27 +2491,27 @@
      "name": "New York Giants",
      "short": "Giants",
      "score": "21",
-     "winner": null,
-     "record": "5-2-1",
+     "winner": false,
+     "record": "5-3-1",
      "ml_open": null,
      "ml": null,
      "tid": "19",
      "abbr": "NYG",
-     "home_rec": "3-1",
+     "home_rec": "3-2",
      "road_rec": "2-1-1"
     },
     "away": {
      "name": "Washington Commanders",
      "short": "Commanders",
      "score": "24",
-     "winner": null,
-     "record": "2-5-1",
+     "winner": true,
+     "record": "3-5-1",
      "ml_open": null,
      "ml": null,
      "tid": "28",
      "abbr": "WSH",
      "home_rec": "2-2-1",
-     "road_rec": "0-3"
+     "road_rec": "1-3"
     }
    }
   },
@@ -2537,7 +2521,7 @@
    "name": "Memphis Tigers at South Florida Bulls",
    "start": "2026-11-13T01:00Z",
    "state": "in",
-   "status": "8:04 - 4th",
+   "status": "4:10 - 4th",
    "venue": "Raymond James Stadium",
    "indoor": false,
    "city": {
@@ -2546,10 +2530,10 @@
     "country": "USA"
    },
    "espn_wx": {
-    "displayValue": "12",
-    "temperature": 72,
-    "highTemperature": 72,
-    "conditionId": "A shower",
+    "displayValue": "38",
+    "temperature": 73,
+    "highTemperature": 73,
+    "conditionId": "Mostly cloudy",
     "link": {
      "language": "en-US",
      "rel": [
@@ -2582,7 +2566,7 @@
     "away": {
      "name": "Memphis Tigers",
      "short": "Memphis",
-     "score": "38",
+     "score": "45",
      "winner": null,
      "record": "7-2",
      "ml_open": null,
@@ -2600,7 +2584,7 @@
    "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "12:27 - 3rd",
+   "status": "8:46 - 3rd",
    "venue": "Malone Stadium",
    "indoor": false,
    "city": {
@@ -2610,8 +2594,8 @@
    },
    "espn_wx": {
     "displayValue": "33",
-    "temperature": 56,
-    "highTemperature": 56,
+    "temperature": 54,
+    "highTemperature": 54,
     "conditionId": "Clear",
     "link": {
      "language": "en-US",
@@ -2801,7 +2785,7 @@
    "name": "Charlotte Hornets at Phoenix Suns",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "3:40 - 4th",
+   "status": "10.0 - 4th",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2816,7 +2800,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "92",
+     "score": "99",
      "winner": null,
      "record": "4-6",
      "ml_open": null,
@@ -2829,7 +2813,7 @@
     "away": {
      "name": "Charlotte Hornets",
      "short": "Hornets",
-     "score": "86",
+     "score": "95",
      "winner": null,
      "record": "4-7",
      "ml_open": null,
@@ -3269,7 +3253,7 @@
    "name": "St. Louis Blues at Utah Mammoth",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "18:32 - 3rd",
+   "status": "12:49 - 3rd",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -3316,7 +3300,7 @@
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
    "state": "in",
-   "status": "16:01 - 2nd",
+   "status": "12:03 - 2nd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3332,7 +3316,7 @@
     "home": {
      "name": "Los Angeles Kings",
      "short": "Kings",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "5-9-2",
      "ml_open": null,
@@ -3345,7 +3329,7 @@
     "away": {
      "name": "New York Islanders",
      "short": "Islanders",
-     "score": "2",
+     "score": "3",
      "winner": null,
      "record": "7-6-4",
      "ml_open": null,
@@ -4028,28 +4012,28 @@
  "weather": [
   {
    "g": "Washington Commanders at New York Giants",
-   "w": "7, 48F",
-   "src": "ESPN/AccuWeather"
+   "w": "46.9F, wind 9.9 mph, rain 73%",
+   "src": "open-meteo"
   },
   {
    "g": "Memphis Tigers at South Florida Bulls",
-   "w": "12, 72F",
+   "w": "38, 73F",
    "src": "ESPN/AccuWeather"
   },
   {
    "g": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
-   "w": "33, 56F",
+   "w": "33, 54F",
    "src": "ESPN/AccuWeather"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-13 04:15 UTC",
-  "graded_legs": 2241,
+  "updated": "2026-11-13 04:27 UTC",
+  "graded_legs": 2244,
   "calibration": {
    "85-90%": {
-    "n": 1006,
-    "wins": 872,
+    "n": 1008,
+    "wins": 874,
     "pred": 0.873,
     "hit": 0.867
    },
@@ -4102,10 +4086,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 136,
+    "n": 137,
     "wins": 33,
     "pred": 0.274,
-    "hit": 0.243
+    "hit": 0.241
    },
    "60-65%": {
     "n": 27,
@@ -4182,10 +4166,10 @@
     "hit": 0.875
    },
    "nfl": {
-    "n": 183,
-    "wins": 136,
-    "pred": 0.717,
-    "hit": 0.743
+    "n": 186,
+    "wins": 138,
+    "pred": 0.716,
+    "hit": 0.742
    },
    "esp.1": {
     "n": 41,
@@ -4214,16 +4198,16 @@
   },
   "by_market": {
    "total": {
-    "n": 999,
-    "wins": 810,
+    "n": 1001,
+    "wins": 812,
     "pred": 0.821,
     "hit": 0.811
    },
    "spread": {
-    "n": 966,
+    "n": 967,
     "wins": 714,
-    "pred": 0.748,
-    "hit": 0.739
+    "pred": 0.747,
+    "hit": 0.738
    },
    "dc": {
     "n": 71,
@@ -4257,10 +4241,10 @@
    }
   },
   "parlays": {
-   "graded": 710,
+   "graded": 711,
    "won": 135,
    "expected": 145.44,
-   "pending": 11,
+   "pending": 10,
    "by_type": {
     "ladder": {
      "graded": 422,
@@ -4273,7 +4257,7 @@
      "expected": 3.65
     },
     "lottery": {
-     "graded": 270,
+     "graded": 271,
      "won": 26,
      "expected": 27.46
     }
@@ -6960,43 +6944,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 6586,
-   "brier": 0.1505,
-   "logloss": 0.4764,
+   "n": 6598,
+   "brier": 0.1503,
+   "logloss": 0.4759,
    "picks": 1698,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 1668,
-   "top_picks_won": 1403,
-   "top_picks_expected": 1390.65,
-   "top_win_rate": 0.8411270983213429
+   "top_picks_graded": 1670,
+   "top_picks_won": 1405,
+   "top_picks_expected": 1392.42,
+   "top_win_rate": 0.8413173652694611
   },
   "v2": {
-   "n": 6586,
-   "brier": 0.1498,
-   "logloss": 0.4751,
+   "n": 6598,
+   "brier": 0.1495,
+   "logloss": 0.4745,
    "picks": 604,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.43,
-   "top_picks_graded": 598,
-   "top_picks_won": 520,
-   "top_picks_expected": 528.09,
-   "top_win_rate": 0.8695652173913043
+   "top_picks_graded": 599,
+   "top_picks_won": 521,
+   "top_picks_expected": 528.97,
+   "top_win_rate": 0.8697829716193656
   },
-  "graded": 6586,
+  "graded": 6598,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6586,
-    "v2": 6586,
+    "v1": 6598,
+    "v2": 6598,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4764,
-    "v2": 0.4751,
+    "v1": 0.4759,
+    "v2": 0.4745,
     "pass": true
    },
    {
@@ -7013,14 +6997,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1668,
-    "v2": 598,
+    "v1": 1670,
+    "v2": 599,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1403/1668",
-    "v2": "520/598",
+    "v1": "1405/1670",
+    "v2": "521/599",
     "pass": true
    }
   ],
