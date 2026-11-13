@@ -610,3 +610,4 @@ Research (~3:18 PM ET):
 - Weather unchanged: Pittsburgh rain/snow ~41F (small risk to FSU-PITT Over 35.5/36.5 legs, which have 15+ points of cushion), Rose Bowl 62F, Boulder clear 47F.
 - Line moves (ESPN/DK open -> now): PITT -142 -> -170, NYK -130 -> -337 (Haliburton out), ORL -319 -> -395, UCLA -500 -> -395 (toward Illinois; UCLA +5.5/+4.5 legs are repriced live), COL +310 -> +260.
 Assessment: no news makes a ticket leg weaker beyond what FanDuel already prices; the model reads live FanDuel prices every 10 minutes, so a manual news_adj would double-count (11-09 Houston lesson). Nothing pulled or replaced. Researched 2-leg board left as published at 10:40 AM ET (none of its legs had negative news). Work folder /workspace/kfsp_review/r1113pm/.
+Rebuilt and published 198cf887 (~3:19 PM ET), site 200. v2 switch_ready still true, not re-reported. No model change.
