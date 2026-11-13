@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 03:03 UTC",
+ "updated": "2026-11-13 03:17 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
@@ -13,36 +13,6 @@
   "disjoint_up_to": 3
  },
  "legs": {
-  "401892705:8359769:742.197302313": {
-   "kind": "total",
-   "ou": "over",
-   "line": 3.5,
-   "id": "401892705:8359769:742.197302313",
-   "event": "401892705",
-   "sport": "nhl",
-   "game": "New York Islanders at Los Angeles Kings",
-   "start": "2026-11-13T03:00Z",
-   "market": "Alternate Total Goals",
-   "pick": "Over 3.5",
-   "odds": -800,
-   "fd_prob": 0.8386,
-   "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309081, fetched 2026-11-13 03:03 UTC",
-   "dist_prob": 0.7977,
-   "market_prob": 0.8181,
-   "prob": 0.8181,
-   "pre_research": 0.8181,
-   "research": [
-    "research: game started or no data"
-   ],
-   "research_adj": 0,
-   "raw_prob": 0.8181,
-   "v1_prob": 0.8181,
-   "fd_market_id": "742.197302313",
-   "fd_selection_id": "8359769",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197302313&selectionId%5B0%5D=8359769",
-   "fd_region": "PA"
-  },
   "401909977:7890137:742.197295536": {
    "kind": "spread",
    "side": "away",
@@ -2496,9 +2466,7 @@
  ],
  "lottery": [],
  "best": null,
- "started": [
-  "401892705:8359769:742.197302313"
- ],
+ "started": [],
  "games": [
   {
    "id": "401873052",
@@ -2506,7 +2474,7 @@
    "name": "Washington Commanders at New York Giants",
    "start": "2026-11-13T01:15Z",
    "state": "in",
-   "status": "10:22 - 3rd",
+   "status": "4:06 - 3rd",
    "venue": "MetLife Stadium",
    "indoor": false,
    "city": {
@@ -2551,7 +2519,7 @@
     "away": {
      "name": "Washington Commanders",
      "short": "Commanders",
-     "score": "10",
+     "score": "17",
      "winner": null,
      "record": "2-5-1",
      "ml_open": null,
@@ -2569,7 +2537,7 @@
    "name": "Memphis Tigers at South Florida Bulls",
    "start": "2026-11-13T01:00Z",
    "state": "in",
-   "status": "Halftime",
+   "status": "12:25 - 3rd",
    "venue": "Raymond James Stadium",
    "indoor": false,
    "city": {
@@ -2632,7 +2600,7 @@
    "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "5:39 - 2nd",
+   "status": "4:39 - 2nd",
    "venue": "Malone Stadium",
    "indoor": false,
    "city": {
@@ -2740,8 +2708,8 @@
    "sport": "nba",
    "name": "Detroit Pistons at Washington Wizards",
    "start": "2026-11-13T00:00Z",
-   "state": "in",
-   "status": "1:22 - 2OT",
+   "state": "post",
+   "status": "Final/2OT",
    "venue": "Capital One Arena",
    "indoor": true,
    "city": {
@@ -2756,28 +2724,28 @@
     "home": {
      "name": "Washington Wizards",
      "short": "Wizards",
-     "score": "136",
-     "winner": null,
-     "record": "4-8",
+     "score": "140",
+     "winner": false,
+     "record": "4-9",
      "ml_open": null,
      "ml": null,
      "tid": "27",
      "abbr": "WSH",
-     "home_rec": "2-2",
+     "home_rec": "2-3",
      "road_rec": "2-6"
     },
     "away": {
      "name": "Detroit Pistons",
      "short": "Pistons",
-     "score": "140",
-     "winner": null,
-     "record": "7-3",
+     "score": "144",
+     "winner": true,
+     "record": "8-3",
      "ml_open": null,
      "ml": null,
      "tid": "8",
      "abbr": "DET",
      "home_rec": "3-2",
-     "road_rec": "4-1"
+     "road_rec": "5-1"
     }
    }
   },
@@ -2786,8 +2754,8 @@
    "sport": "nba",
    "name": "Dallas Mavericks at Minnesota Timberwolves",
    "start": "2026-11-13T01:00Z",
-   "state": "in",
-   "status": "7:17 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Target Center",
    "indoor": true,
    "city": {
@@ -2802,28 +2770,28 @@
     "home": {
      "name": "Minnesota Timberwolves",
      "short": "Timberwolves",
-     "score": "112",
-     "winner": null,
-     "record": "8-3",
+     "score": "133",
+     "winner": true,
+     "record": "9-3",
      "ml_open": null,
      "ml": null,
      "tid": "16",
      "abbr": "MIN",
-     "home_rec": "4-1",
+     "home_rec": "5-1",
      "road_rec": "4-2"
     },
     "away": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "75",
-     "winner": null,
-     "record": "7-4",
+     "score": "94",
+     "winner": false,
+     "record": "7-5",
      "ml_open": null,
      "ml": null,
      "tid": "6",
      "abbr": "DAL",
      "home_rec": "5-2",
-     "road_rec": "2-2"
+     "road_rec": "2-3"
     }
    }
   },
@@ -2833,7 +2801,7 @@
    "name": "Charlotte Hornets at Phoenix Suns",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "2:25 - 2nd",
+   "status": "Halftime",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2848,7 +2816,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "53",
+     "score": "55",
      "winner": null,
      "record": "4-6",
      "ml_open": null,
@@ -2861,7 +2829,7 @@
     "away": {
      "name": "Charlotte Hornets",
      "short": "Hornets",
-     "score": "45",
+     "score": "50",
      "winner": null,
      "record": "4-7",
      "ml_open": null,
@@ -3159,8 +3127,8 @@
    "sport": "nhl",
    "name": "Detroit Red Wings at Florida Panthers",
    "start": "2026-11-13T00:30Z",
-   "state": "in",
-   "status": "2:00 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "Amerant Bank Arena",
    "indoor": true,
    "city": {
@@ -3177,27 +3145,27 @@
      "name": "Florida Panthers",
      "short": "Panthers",
      "score": "5",
-     "winner": null,
-     "record": "10-7-2",
+     "winner": true,
+     "record": "11-7-2",
      "ml_open": null,
      "ml": null,
      "tid": "26",
      "abbr": "FLA",
-     "home_rec": "4-2-0",
+     "home_rec": "5-2-0",
      "road_rec": "6-5-2"
     },
     "away": {
      "name": "Detroit Red Wings",
      "short": "Red Wings",
      "score": "4",
-     "winner": null,
-     "record": "7-9-3",
+     "winner": false,
+     "record": "7-10-3",
      "ml_open": null,
      "ml": null,
      "tid": "5",
      "abbr": "DET",
      "home_rec": "4-5-1",
-     "road_rec": "3-4-2"
+     "road_rec": "3-5-2"
     }
    }
   },
@@ -3207,7 +3175,7 @@
    "name": "Buffalo Sabres at Chicago Blackhawks",
    "start": "2026-11-13T01:00Z",
    "state": "in",
-   "status": "17:18 - 3rd",
+   "status": "9:46 - 3rd",
    "venue": "United Center",
    "indoor": true,
    "city": {
@@ -3223,7 +3191,7 @@
     "home": {
      "name": "Chicago Blackhawks",
      "short": "Blackhawks",
-     "score": "1",
+     "score": "2",
      "winner": null,
      "record": "4-13-1",
      "ml_open": null,
@@ -3254,7 +3222,7 @@
    "name": "Winnipeg Jets at Dallas Stars",
    "start": "2026-11-13T01:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "15:03 - 3rd",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -3283,7 +3251,7 @@
     "away": {
      "name": "Winnipeg Jets",
      "short": "Jets",
-     "score": "5",
+     "score": "6",
      "winner": null,
      "record": "8-8-3",
      "ml_open": null,
@@ -3301,7 +3269,7 @@
    "name": "St. Louis Blues at Utah Mammoth",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "End of 1st",
+   "status": "15:23 - 2nd",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -3348,7 +3316,7 @@
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
    "state": "in",
-   "status": "11/12 - 10:00 PM EST",
+   "status": "14:10 - 1st",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3357,9 +3325,9 @@
     "country": "USA"
    },
    "espn_wx": null,
-   "line": "LA -125",
-   "total": 5.5,
-   "book": "DraftKings",
+   "line": null,
+   "total": null,
+   "book": null,
    "teams": {
     "home": {
      "name": "Los Angeles Kings",
@@ -3367,8 +3335,8 @@
      "score": "0",
      "winner": null,
      "record": "5-9-2",
-     "ml_open": "-135",
-     "ml": "-125",
+     "ml_open": null,
+     "ml": null,
      "tid": "8",
      "abbr": "LA",
      "home_rec": "2-6-0",
@@ -3380,8 +3348,8 @@
      "score": "0",
      "winner": null,
      "record": "7-6-4",
-     "ml_open": "+114",
-     "ml": "+105",
+     "ml_open": null,
+     "ml": null,
      "tid": "12",
      "abbr": "NYI",
      "home_rec": "4-3-2",
@@ -4064,31 +4032,16 @@
    "src": "ESPN/AccuWeather"
   }
  ],
- "moves": [
-  {
-   "g": "New York Islanders at Los Angeles Kings",
-   "team": "Los Angeles Kings",
-   "open": "-135",
-   "now": "-125",
-   "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "New York Islanders at Los Angeles Kings",
-   "team": "New York Islanders",
-   "open": "+114",
-   "now": "+105",
-   "src": "ESPN/DraftKings"
-  }
- ],
+ "moves": [],
  "stats": {
-  "updated": "2026-11-13 03:03 UTC",
-  "graded_legs": 2222,
+  "updated": "2026-11-13 03:17 UTC",
+  "graded_legs": 2233,
   "calibration": {
    "85-90%": {
-    "n": 1002,
-    "wins": 868,
+    "n": 1006,
+    "wins": 872,
     "pred": 0.873,
-    "hit": 0.866
+    "hit": 0.867
    },
    "75-80%": {
     "n": 183,
@@ -4097,8 +4050,8 @@
     "hit": 0.814
    },
    "80-85%": {
-    "n": 396,
-    "wins": 334,
+    "n": 400,
+    "wins": 337,
     "pred": 0.823,
     "hit": 0.843
    },
@@ -4109,10 +4062,10 @@
     "hit": 0.615
    },
    "90-95%": {
-    "n": 64,
-    "wins": 51,
-    "pred": 0.932,
-    "hit": 0.797
+    "n": 65,
+    "wins": 52,
+    "pred": 0.931,
+    "hit": 0.8
    },
    "95-100%": {
     "n": 55,
@@ -4139,10 +4092,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 133,
+    "n": 134,
     "wins": 33,
     "pred": 0.274,
-    "hit": 0.248
+    "hit": 0.246
    },
    "60-65%": {
     "n": 27,
@@ -4157,10 +4110,10 @@
     "hit": 0.31
    },
    "20-25%": {
-    "n": 69,
+    "n": 70,
     "wins": 13,
     "pred": 0.236,
-    "hit": 0.188
+    "hit": 0.186
    },
    "35-40%": {
     "n": 49,
@@ -4195,16 +4148,16 @@
     "hit": 0.803
    },
    "nba": {
-    "n": 833,
-    "wins": 640,
+    "n": 841,
+    "wins": 647,
     "pred": 0.786,
-    "hit": 0.768
+    "hit": 0.769
    },
    "nhl": {
-    "n": 437,
-    "wins": 278,
+    "n": 440,
+    "wins": 279,
     "pred": 0.674,
-    "hit": 0.636
+    "hit": 0.634
    },
    "mlb": {
     "n": 10,
@@ -4251,16 +4204,16 @@
   },
   "by_market": {
    "total": {
-    "n": 994,
-    "wins": 808,
-    "pred": 0.822,
-    "hit": 0.813
+    "n": 997,
+    "wins": 809,
+    "pred": 0.821,
+    "hit": 0.811
    },
    "spread": {
-    "n": 953,
-    "wins": 705,
-    "pred": 0.748,
-    "hit": 0.74
+    "n": 960,
+    "wins": 712,
+    "pred": 0.749,
+    "hit": 0.742
    },
    "dc": {
     "n": 71,
@@ -4287,22 +4240,22 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 96,
+    "n": 97,
     "wins": 22,
     "pred": 0.277,
-    "hit": 0.229
+    "hit": 0.227
    }
   },
   "parlays": {
-   "graded": 696,
-   "won": 134,
-   "expected": 142.17,
-   "pending": 25,
+   "graded": 704,
+   "won": 135,
+   "expected": 144.29,
+   "pending": 17,
    "by_type": {
     "ladder": {
-     "graded": 413,
-     "won": 104,
-     "expected": 111.44
+     "graded": 419,
+     "won": 105,
+     "expected": 113.36
     },
     "best": {
      "graded": 18,
@@ -4310,9 +4263,9 @@
      "expected": 3.65
     },
     "lottery": {
-     "graded": 265,
+     "graded": 267,
      "won": 26,
-     "expected": 27.0
+     "expected": 27.21
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -4327,9 +4280,9 @@
  },
  "favorites_record": {
   "won": 34,
-  "lost": 42,
-  "pending": 3,
-  "win_pct": 0.447,
+  "lost": 43,
+  "pending": 2,
+  "win_pct": 0.442,
   "by_legs": {
    "2": {
     "won": 13,
@@ -4339,9 +4292,9 @@
    },
    "3": {
     "won": 9,
-    "lost": 9,
-    "pending": 1,
-    "win_pct": 0.5
+    "lost": 10,
+    "pending": 0,
+    "win_pct": 0.474
    },
    "4": {
     "won": 9,
@@ -4412,7 +4365,7 @@
     "n": 3,
     "est_prob": 0.63612,
     "fd_payout_x": 1.37,
-    "result": null,
+    "result": "loss",
     "source": "logged",
     "legs": [
      {
@@ -4431,7 +4384,7 @@
       "pick": "Under 8.5",
       "game": "Detroit Red Wings at Florida Panthers",
       "odds": -750,
-      "result": null
+      "result": "loss"
      }
     ]
    },
@@ -6994,46 +6947,46 @@
   ]
  },
  "feature": null,
- "note": "22 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
+ "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 6502,
-   "brier": 0.1499,
-   "logloss": 0.4749,
+   "n": 6562,
+   "brier": 0.1501,
+   "logloss": 0.4755,
    "picks": 1698,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 1652,
-   "top_picks_won": 1392,
-   "top_picks_expected": 1377.92,
-   "top_win_rate": 0.8426150121065376
+   "top_picks_graded": 1663,
+   "top_picks_won": 1401,
+   "top_picks_expected": 1387.03,
+   "top_win_rate": 0.8424533974744438
   },
   "v2": {
-   "n": 6502,
-   "brier": 0.1492,
-   "logloss": 0.4738,
+   "n": 6562,
+   "brier": 0.1494,
+   "logloss": 0.4742,
    "picks": 604,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.43,
-   "top_picks_graded": 593,
-   "top_picks_won": 516,
-   "top_picks_expected": 523.6,
-   "top_win_rate": 0.8701517706576728
+   "top_picks_graded": 596,
+   "top_picks_won": 519,
+   "top_picks_expected": 526.33,
+   "top_win_rate": 0.8708053691275168
   },
-  "graded": 6502,
+  "graded": 6562,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6502,
-    "v2": 6502,
+    "v1": 6562,
+    "v2": 6562,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4749,
-    "v2": 0.4738,
+    "v1": 0.4755,
+    "v2": 0.4742,
     "pass": true
    },
    {
@@ -7050,14 +7003,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1652,
-    "v2": 593,
+    "v1": 1663,
+    "v2": 596,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1392/1652",
-    "v2": "516/593",
+    "v1": "1401/1663",
+    "v2": "519/596",
     "pass": true
    }
   ],
@@ -7088,7 +7041,7 @@
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
    "dropped": 0,
-   "of": 22,
+   "of": 0,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
    "examples": []
   }
