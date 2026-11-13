@@ -1,51 +1,46 @@
 {
- "updated": "2026-11-13 02:56 UTC",
+ "updated": "2026-11-13 03:03 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
-  "leg_slots": 172,
+  "leg_slots": 171,
   "unique_legs": 50,
   "unique_games": 18,
-  "games_available": 1,
+  "games_available": 0,
   "max_leg_reuse": 10,
   "max_game_reuse": 12,
   "game_cap": 2,
   "disjoint_up_to": 3
  },
  "legs": {
-  "401892705:8359782:742.197302313": {
+  "401892705:8359769:742.197302313": {
    "kind": "total",
-   "ou": "under",
-   "line": 8.5,
-   "id": "401892705:8359782:742.197302313",
+   "ou": "over",
+   "line": 3.5,
+   "id": "401892705:8359769:742.197302313",
    "event": "401892705",
    "sport": "nhl",
    "game": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
    "market": "Alternate Total Goals",
-   "pick": "Under 8.5",
-   "odds": -750,
-   "fd_prob": 0.8324,
+   "pick": "Over 3.5",
+   "odds": -800,
+   "fd_prob": 0.8386,
    "verified": true,
-   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309081, fetched 2026-11-13 02:56 UTC",
-   "dist_prob": 0.8944,
-   "market_prob": 0.8634,
-   "prob": 0.8484,
-   "pre_research": 0.8634,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309081, fetched 2026-11-13 03:03 UTC",
+   "dist_prob": 0.7977,
+   "market_prob": 0.8181,
+   "prob": 0.8181,
+   "pre_research": 0.8181,
    "research": [
-    "low-scoring sport, one goal decides line (-1.5 volatility)"
+    "research: game started or no data"
    ],
-   "research_adj": -0.015,
-   "raw_prob": 0.8484,
-   "v1_prob": 0.8484,
-   "v2_prob": 0.8378,
-   "v2_src": "Pinnacle: Pinnacle exact total",
-   "sharp_prob": 0.8378,
-   "sharp_edge": -0.0446,
-   "why": "FanDuel no-vig 83.2%, line model 89.4% -> est. 84.8% (edge +1.6 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
+   "research_adj": 0,
+   "raw_prob": 0.8181,
+   "v1_prob": 0.8181,
    "fd_market_id": "742.197302313",
-   "fd_selection_id": "8359782",
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197302313&selectionId%5B0%5D=8359782",
+   "fd_selection_id": "8359769",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197302313&selectionId%5B0%5D=8359769",
    "fd_region": "PA"
   },
   "401909977:7890137:742.197295536": {
@@ -346,6 +341,41 @@
    "fd_market_id": "742.197296211",
    "fd_selection_id": "7889950",
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197296211&selectionId%5B0%5D=7889950",
+   "fd_region": "PA"
+  },
+  "401892705:8359782:742.197302313": {
+   "kind": "total",
+   "ou": "under",
+   "line": 8.5,
+   "id": "401892705:8359782:742.197302313",
+   "event": "401892705",
+   "sport": "nhl",
+   "game": "New York Islanders at Los Angeles Kings",
+   "start": "2026-11-13T03:00Z",
+   "market": "Alternate Total Goals",
+   "pick": "Under 8.5",
+   "odds": -700,
+   "fd_prob": 0.8255,
+   "verified": true,
+   "odds_src": "FanDuel Sportsbook public API (NJ), event 36309081, fetched 2026-11-12 16:56 UTC",
+   "dist_prob": 0.8944,
+   "market_prob": 0.8599,
+   "prob": 0.8449,
+   "pre_research": 0.8599,
+   "research": [
+    "low-scoring sport, one goal decides line (-1.5 volatility)"
+   ],
+   "research_adj": -0.015,
+   "raw_prob": 0.8449,
+   "v1_prob": 0.8449,
+   "v2_prob": 0.8416,
+   "v2_src": "Pinnacle: Pinnacle exact total",
+   "sharp_prob": 0.8416,
+   "sharp_edge": -0.0334,
+   "why": "FanDuel no-vig 82.5%, line model 89.4% -> est. 84.5% (edge +1.9 pts); research -1.5 pts: low-scoring sport, one goal decides line (-1.5 volatility)",
+   "fd_market_id": "742.197302313",
+   "fd_selection_id": "8359782",
+   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197302313&selectionId%5B0%5D=8359782",
    "fd_region": "PA"
   },
   "401892703:7000405:742.197301613": {
@@ -2090,7 +2120,7 @@
    "shared_games": 4,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197296211&selectionId%5B0%5D=7889950&marketId%5B1%5D=742.197302313&selectionId%5B1%5D=8359782&marketId%5B2%5D=742.197301613&selectionId%5B2%5D=7000405&marketId%5B3%5D=742.197301368&selectionId%5B3%5D=7000399",
    "favorite": false,
-   "corr_prob": 0.48888
+   "corr_prob": 0.48662
   },
   {
    "n": 5,
@@ -2153,7 +2183,7 @@
    "shared_games": 7,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197295740&selectionId%5B0%5D=7888418&marketId%5B1%5D=742.196714406&selectionId%5B1%5D=12197206&marketId%5B2%5D=742.196714443&selectionId%5B2%5D=73403600&marketId%5B3%5D=742.197302184&selectionId%5B3%5D=8359782&marketId%5B4%5D=742.197302313&selectionId%5B4%5D=8359782&marketId%5B5%5D=742.197300350&selectionId%5B5%5D=7000408&marketId%5B6%5D=742.197300996&selectionId%5B6%5D=7742232",
    "favorite": false,
-   "corr_prob": 0.3177
+   "corr_prob": 0.31635
   },
   {
    "n": 8,
@@ -2225,7 +2255,7 @@
    "shared_games": 10,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.196714443&selectionId%5B0%5D=73403600&marketId%5B1%5D=742.197300365&selectionId%5B1%5D=8359782&marketId%5B2%5D=742.197302313&selectionId%5B2%5D=8359782&marketId%5B3%5D=742.197301613&selectionId%5B3%5D=7000405&marketId%5B4%5D=742.197300082&selectionId%5B4%5D=7000413&marketId%5B5%5D=742.197300996&selectionId%5B5%5D=7000410&marketId%5B6%5D=742.197300172&selectionId%5B6%5D=7669430&marketId%5B7%5D=742.197301035&selectionId%5B7%5D=8359782&marketId%5B8%5D=742.197301419&selectionId%5B8%5D=8359782&marketId%5B9%5D=742.197299829&selectionId%5B9%5D=7669430",
    "favorite": false,
-   "corr_prob": 0.1269
+   "corr_prob": 0.1266
   },
   {
    "n": 11,
@@ -2306,7 +2336,7 @@
    "shared_games": 13,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197296211&selectionId%5B0%5D=7889950&marketId%5B1%5D=742.197296102&selectionId%5B1%5D=7888962&marketId%5B2%5D=742.196701282&selectionId%5B2%5D=12197182&marketId%5B3%5D=742.197302184&selectionId%5B3%5D=8359782&marketId%5B4%5D=742.197300365&selectionId%5B4%5D=8359782&marketId%5B5%5D=742.197302313&selectionId%5B5%5D=8359782&marketId%5B6%5D=742.197301613&selectionId%5B6%5D=7000405&marketId%5B7%5D=742.197300996&selectionId%5B7%5D=7000410&marketId%5B8%5D=742.197300301&selectionId%5B8%5D=7739802&marketId%5B9%5D=742.197300178&selectionId%5B9%5D=7745987&marketId%5B10%5D=742.197301368&selectionId%5B10%5D=7000399&marketId%5B11%5D=742.197301035&selectionId%5B11%5D=7669430&marketId%5B12%5D=742.197299829&selectionId%5B12%5D=8359782",
    "favorite": false,
-   "corr_prob": 0.08303
+   "corr_prob": 0.08267
   },
   {
    "n": 14,
@@ -2365,7 +2395,7 @@
    "shared_games": 15,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197295536&selectionId%5B0%5D=7890137&marketId%5B1%5D=742.197295740&selectionId%5B1%5D=7888517&marketId%5B2%5D=742.197296102&selectionId%5B2%5D=7914078&marketId%5B3%5D=742.196714406&selectionId%5B3%5D=12197193&marketId%5B4%5D=742.196714443&selectionId%5B4%5D=60464353&marketId%5B5%5D=742.197300365&selectionId%5B5%5D=8359782&marketId%5B6%5D=742.197302313&selectionId%5B6%5D=8359782&marketId%5B7%5D=742.197302184&selectionId%5B7%5D=8359782&marketId%5B8%5D=742.197301613&selectionId%5B8%5D=7000405&marketId%5B9%5D=742.197300082&selectionId%5B9%5D=7000413&marketId%5B10%5D=742.197299848&selectionId%5B10%5D=7000401&marketId%5B11%5D=742.197300309&selectionId%5B11%5D=8359769&marketId%5B12%5D=742.197301046&selectionId%5B12%5D=7739770&marketId%5B13%5D=742.197301368&selectionId%5B13%5D=7737355&marketId%5B14%5D=742.197300172&selectionId%5B14%5D=7669430",
    "favorite": false,
-   "corr_prob": 0.06698
+   "corr_prob": 0.06663
   },
   {
    "n": 16,
@@ -2396,7 +2426,7 @@
    "shared_games": 16,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197295536&selectionId%5B0%5D=7890137&marketId%5B1%5D=742.197295740&selectionId%5B1%5D=7888418&marketId%5B2%5D=742.197296102&selectionId%5B2%5D=7914078&marketId%5B3%5D=742.197296211&selectionId%5B3%5D=7889962&marketId%5B4%5D=742.196701282&selectionId%5B4%5D=12197182&marketId%5B5%5D=742.196714448&selectionId%5B5%5D=12197197&marketId%5B6%5D=742.196714406&selectionId%5B6%5D=12194341&marketId%5B7%5D=742.197302313&selectionId%5B7%5D=8359782&marketId%5B8%5D=742.197300350&selectionId%5B8%5D=7000408&marketId%5B9%5D=742.197301613&selectionId%5B9%5D=7000405&marketId%5B10%5D=742.197300082&selectionId%5B10%5D=7000413&marketId%5B11%5D=742.197300996&selectionId%5B11%5D=7742232&marketId%5B12%5D=742.197301368&selectionId%5B12%5D=7737355&marketId%5B13%5D=742.197300309&selectionId%5B13%5D=8359782&marketId%5B14%5D=742.197300172&selectionId%5B14%5D=7669430&marketId%5B15%5D=742.197301035&selectionId%5B15%5D=8359782",
    "favorite": false,
-   "corr_prob": 0.05992
+   "corr_prob": 0.05962
   },
   {
    "n": 17,
@@ -2428,7 +2458,7 @@
    "shared_games": 17,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197295536&selectionId%5B0%5D=7890137&marketId%5B1%5D=742.197295740&selectionId%5B1%5D=7888517&marketId%5B2%5D=742.197296211&selectionId%5B2%5D=7889950&marketId%5B3%5D=742.197296102&selectionId%5B3%5D=7888962&marketId%5B4%5D=742.196714448&selectionId%5B4%5D=12197197&marketId%5B5%5D=742.196701282&selectionId%5B5%5D=12197182&marketId%5B6%5D=742.196714406&selectionId%5B6%5D=12194332&marketId%5B7%5D=742.197300365&selectionId%5B7%5D=8359782&marketId%5B8%5D=742.197302313&selectionId%5B8%5D=8359782&marketId%5B9%5D=742.197301613&selectionId%5B9%5D=7000405&marketId%5B10%5D=742.197300082&selectionId%5B10%5D=7000413&marketId%5B11%5D=742.197300996&selectionId%5B11%5D=7742232&marketId%5B12%5D=742.197300178&selectionId%5B12%5D=7745987&marketId%5B13%5D=742.197300301&selectionId%5B13%5D=7000398&marketId%5B14%5D=742.197301035&selectionId%5B14%5D=7669430&marketId%5B15%5D=742.197299829&selectionId%5B15%5D=8359782&marketId%5B16%5D=742.197301419&selectionId%5B16%5D=8359782",
    "favorite": false,
-   "corr_prob": 0.04745
+   "corr_prob": 0.04727
   },
   {
    "n": 18,
@@ -2461,28 +2491,14 @@
    "shared_games": 18,
    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197295536&selectionId%5B0%5D=7804113&marketId%5B1%5D=742.197296211&selectionId%5B1%5D=7889962&marketId%5B2%5D=742.197296102&selectionId%5B2%5D=7914078&marketId%5B3%5D=742.197295744&selectionId%5B3%5D=7695584&marketId%5B4%5D=742.196714406&selectionId%5B4%5D=12197193&marketId%5B5%5D=742.196701282&selectionId%5B5%5D=12197182&marketId%5B6%5D=742.196714448&selectionId%5B6%5D=12194336&marketId%5B7%5D=742.197302184&selectionId%5B7%5D=8359782&marketId%5B8%5D=742.197300365&selectionId%5B8%5D=8359782&marketId%5B9%5D=742.197302313&selectionId%5B9%5D=8359782&marketId%5B10%5D=742.197301613&selectionId%5B10%5D=7000405&marketId%5B11%5D=742.197300082&selectionId%5B11%5D=7000413&marketId%5B12%5D=742.197300996&selectionId%5B12%5D=7000410&marketId%5B13%5D=742.197300309&selectionId%5B13%5D=8359769&marketId%5B14%5D=742.197301368&selectionId%5B14%5D=7737355&marketId%5B15%5D=742.197300172&selectionId%5B15%5D=8359782&marketId%5B16%5D=742.197301035&selectionId%5B16%5D=8359782&marketId%5B17%5D=742.197299829&selectionId%5B17%5D=7669430",
    "favorite": false,
-   "corr_prob": 0.04025
+   "corr_prob": 0.04013
   }
  ],
- "lottery": [
-  {
-   "label": "1-leg best-chance lottery",
-   "target_x": null,
-   "n": 1,
-   "legs": [
-    "401892705:8359782:742.197302313"
-   ],
-   "est_prob": 0.8484,
-   "fd_payout_x": 1.13,
-   "one_in": 1,
-   "fd_odds": "+13",
-   "ev": -0.038,
-   "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197302313&selectionId%5B0%5D=8359782",
-   "favorite": false
-  }
- ],
+ "lottery": [],
  "best": null,
- "started": [],
+ "started": [
+  "401892705:8359769:742.197302313"
+ ],
  "games": [
   {
    "id": "401873052",
@@ -2490,7 +2506,7 @@
    "name": "Washington Commanders at New York Giants",
    "start": "2026-11-13T01:15Z",
    "state": "in",
-   "status": "12:24 - 3rd",
+   "status": "10:22 - 3rd",
    "venue": "MetLife Stadium",
    "indoor": false,
    "city": {
@@ -2522,7 +2538,7 @@
     "home": {
      "name": "New York Giants",
      "short": "Giants",
-     "score": "7",
+     "score": "14",
      "winner": null,
      "record": "5-2-1",
      "ml_open": null,
@@ -2616,7 +2632,7 @@
    "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "9:55 - 2nd",
+   "status": "5:39 - 2nd",
    "venue": "Malone Stadium",
    "indoor": false,
    "city": {
@@ -2626,8 +2642,8 @@
    },
    "espn_wx": {
     "displayValue": "33",
-    "temperature": 56,
-    "highTemperature": 56,
+    "temperature": 58,
+    "highTemperature": 58,
     "conditionId": "Clear",
     "link": {
      "language": "en-US",
@@ -2725,7 +2741,7 @@
    "name": "Detroit Pistons at Washington Wizards",
    "start": "2026-11-13T00:00Z",
    "state": "in",
-   "status": "4:57 - 2OT",
+   "status": "1:22 - 2OT",
    "venue": "Capital One Arena",
    "indoor": true,
    "city": {
@@ -2740,7 +2756,7 @@
     "home": {
      "name": "Washington Wizards",
      "short": "Wizards",
-     "score": "132",
+     "score": "136",
      "winner": null,
      "record": "4-8",
      "ml_open": null,
@@ -2753,7 +2769,7 @@
     "away": {
      "name": "Detroit Pistons",
      "short": "Pistons",
-     "score": "132",
+     "score": "140",
      "winner": null,
      "record": "7-3",
      "ml_open": null,
@@ -2771,7 +2787,7 @@
    "name": "Dallas Mavericks at Minnesota Timberwolves",
    "start": "2026-11-13T01:00Z",
    "state": "in",
-   "status": "10:11 - 4th",
+   "status": "7:17 - 4th",
    "venue": "Target Center",
    "indoor": true,
    "city": {
@@ -2786,7 +2802,7 @@
     "home": {
      "name": "Minnesota Timberwolves",
      "short": "Timberwolves",
-     "score": "108",
+     "score": "112",
      "winner": null,
      "record": "8-3",
      "ml_open": null,
@@ -2799,7 +2815,7 @@
     "away": {
      "name": "Dallas Mavericks",
      "short": "Mavericks",
-     "score": "72",
+     "score": "75",
      "winner": null,
      "record": "7-4",
      "ml_open": null,
@@ -2817,7 +2833,7 @@
    "name": "Charlotte Hornets at Phoenix Suns",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "3:57 - 2nd",
+   "status": "2:25 - 2nd",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2832,7 +2848,7 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "50",
+     "score": "53",
      "winner": null,
      "record": "4-6",
      "ml_open": null,
@@ -2845,7 +2861,7 @@
     "away": {
      "name": "Charlotte Hornets",
      "short": "Hornets",
-     "score": "40",
+     "score": "45",
      "winner": null,
      "record": "4-7",
      "ml_open": null,
@@ -3144,7 +3160,7 @@
    "name": "Detroit Red Wings at Florida Panthers",
    "start": "2026-11-13T00:30Z",
    "state": "in",
-   "status": "4:33 - 3rd",
+   "status": "2:00 - 3rd",
    "venue": "Amerant Bank Arena",
    "indoor": true,
    "city": {
@@ -3160,7 +3176,7 @@
     "home": {
      "name": "Florida Panthers",
      "short": "Panthers",
-     "score": "3",
+     "score": "5",
      "winner": null,
      "record": "10-7-2",
      "ml_open": null,
@@ -3191,7 +3207,7 @@
    "name": "Buffalo Sabres at Chicago Blackhawks",
    "start": "2026-11-13T01:00Z",
    "state": "in",
-   "status": "End of 2nd",
+   "status": "17:18 - 3rd",
    "venue": "United Center",
    "indoor": true,
    "city": {
@@ -3331,7 +3347,7 @@
    "sport": "nhl",
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
-   "state": "pre",
+   "state": "in",
    "status": "11/12 - 10:00 PM EST",
    "venue": "crypto.com Arena",
    "indoor": true,
@@ -3618,6 +3634,11 @@
   {
    "team": "Toronto Raptors",
    "t": "Nate Bittle - Out: Bittle (foot) is listed as out for Monday's game against Memphis.",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Washington Wizards",
+   "t": "Bub Carrington - Out: The Wizards exercised the fourth-year team option on Carrington on Sunday, Brett Siegel of ClutchPoints.com reports.",
    "src": "ESPN injuries feed"
   },
   {
@@ -4039,7 +4060,7 @@
   },
   {
    "g": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
-   "w": "33, 56F",
+   "w": "33, 58F",
    "src": "ESPN/AccuWeather"
   }
  ],
@@ -4057,17 +4078,10 @@
    "open": "+114",
    "now": "+105",
    "src": "ESPN/DraftKings"
-  },
-  {
-   "g": "New York Islanders at Los Angeles Kings",
-   "team": "Under 8.5",
-   "open": -700,
-   "now": -750,
-   "src": "FanDuel (since first snapshot)"
   }
  ],
  "stats": {
-  "updated": "2026-11-13 02:56 UTC",
+  "updated": "2026-11-13 03:03 UTC",
   "graded_legs": 2222,
   "calibration": {
    "85-90%": {
@@ -6980,7 +6994,7 @@
   ]
  },
  "feature": null,
- "note": "22 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 1 not-yet-started games -> parlays up to 18 legs.",
+ "note": "22 FanDuel-priced candidates (ml, spread, total) across 1 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
    "n": 6502,
@@ -7053,20 +7067,15 @@
   "live_model": "v1",
   "v2_info": {
    "pinnacle": {
-    "leagues_ok": 1,
-    "leagues": 1,
-    "games_matched": 1,
-    "games_pre": 1
+    "leagues_ok": 0,
+    "leagues": 0,
+    "games_matched": 0,
+    "games_pre": 0
    },
-   "candidates_pre": 22,
-   "sharp_covered": 22,
-   "sharp_coverage_pct": 100.0,
-   "power": {
-    "nhl": {
-     "teams": 2,
-     "games": 33
-    }
-   },
+   "candidates_pre": 0,
+   "sharp_covered": 0,
+   "sharp_coverage_pct": 0.0,
+   "power": {},
    "injury_adjusted_teams": 0
   },
   "clv_v1_history": {
@@ -7078,19 +7087,10 @@
   "sharp_filter": {
    "active": false,
    "note": "Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.",
-   "dropped": 11,
+   "dropped": 0,
    "of": 22,
    "rule": "Legs dropped when FanDuel's price implies a chance more than 3 pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
-   "examples": [
-    "Under 6.5 (New York Islanders at Los Angeles Kings) -158: FanDuel implies 61.2% vs Pinnacle fair 55.1%",
-    "Under 5.5 (New York Islanders at Los Angeles Kings) +102: FanDuel implies 49.5% vs Pinnacle fair 44.4%",
-    "New York Islanders -1.5 (New York Islanders at Los Angeles Kings) +240: FanDuel implies 29.4% vs Pinnacle fair 24.5%",
-    "Under 5.5 (New York Islanders at Los Angeles Kings) +104: FanDuel implies 49.0% vs Pinnacle fair 44.4%",
-    "Under 8.5 (New York Islanders at Los Angeles Kings) -750: FanDuel implies 88.2% vs Pinnacle fair 83.8%",
-    "New York Islanders +2.5 (New York Islanders at Los Angeles Kings) -550: FanDuel implies 84.6% vs Pinnacle fair 80.2%",
-    "Under 7.5 (New York Islanders at Los Angeles Kings) -430: FanDuel implies 81.1% vs Pinnacle fair 76.8%",
-    "New York Islanders +1.5 (New York Islanders at Los Angeles Kings) -280: FanDuel implies 73.7% vs Pinnacle fair 69.3%"
-   ]
+   "examples": []
   }
  },
  "favorite_rule": "Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with a raw (un-boosted) estimated hit chance of 50% or more."
