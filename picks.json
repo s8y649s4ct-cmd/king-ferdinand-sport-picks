@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 05:12 UTC",
+ "updated": "2026-11-13 05:29 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
@@ -2521,7 +2521,7 @@
    "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "8:40 - 4th",
+   "status": "4:16 - 4th",
    "venue": "Malone Stadium",
    "indoor": false,
    "city": {
@@ -2553,7 +2553,7 @@
     "home": {
      "name": "UL Monroe Warhawks",
      "short": "UL Monroe",
-     "score": "14",
+     "score": "21",
      "winner": null,
      "record": "2-7",
      "ml_open": null,
@@ -3236,8 +3236,8 @@
    "sport": "nhl",
    "name": "St. Louis Blues at Utah Mammoth",
    "start": "2026-11-13T02:00Z",
-   "state": "in",
-   "status": "In SO",
+   "state": "post",
+   "status": "Final/SO",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -3254,27 +3254,27 @@
      "name": "Utah Mammoth",
      "short": "Mammoth",
      "score": "0",
-     "winner": null,
-     "record": "10-8-1",
+     "winner": false,
+     "record": "10-8-2",
      "ml_open": null,
      "ml": null,
      "tid": "129764",
      "abbr": "UTA",
-     "home_rec": "4-2-0",
+     "home_rec": "4-2-1",
      "road_rec": "6-6-1"
     },
     "away": {
      "name": "St. Louis Blues",
      "short": "Blues",
-     "score": "0",
-     "winner": null,
-     "record": "8-8-2",
+     "score": "1",
+     "winner": true,
+     "record": "9-8-2",
      "ml_open": null,
      "ml": null,
      "tid": "19",
      "abbr": "STL",
      "home_rec": "5-2-1",
-     "road_rec": "3-6-1"
+     "road_rec": "4-6-1"
     }
    }
   },
@@ -3284,7 +3284,7 @@
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
    "state": "in",
-   "status": "19:26 - 3rd",
+   "status": "13:06 - 3rd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3313,7 +3313,7 @@
     "away": {
      "name": "New York Islanders",
      "short": "Islanders",
-     "score": "3",
+     "score": "4",
      "winner": null,
      "record": "7-6-4",
      "ml_open": null,
@@ -4012,8 +4012,8 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-13 05:12 UTC",
-  "graded_legs": 2262,
+  "updated": "2026-11-13 05:29 UTC",
+  "graded_legs": 2268,
   "calibration": {
    "85-90%": {
     "n": 1017,
@@ -4028,10 +4028,10 @@
     "hit": 0.817
    },
    "80-85%": {
-    "n": 403,
-    "wins": 339,
+    "n": 406,
+    "wins": 342,
     "pred": 0.823,
-    "hit": 0.841
+    "hit": 0.842
    },
    "65-70%": {
     "n": 26,
@@ -4058,10 +4058,10 @@
     "hit": 0.836
    },
    "40-45%": {
-    "n": 53,
+    "n": 54,
     "wins": 17,
     "pred": 0.422,
-    "hit": 0.321
+    "hit": 0.315
    },
    "45-50%": {
     "n": 17,
@@ -4070,16 +4070,16 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 139,
+    "n": 140,
     "wins": 34,
-    "pred": 0.274,
-    "hit": 0.245
+    "pred": 0.275,
+    "hit": 0.243
    },
    "60-65%": {
-    "n": 27,
-    "wins": 11,
+    "n": 28,
+    "wins": 12,
     "pred": 0.625,
-    "hit": 0.407
+    "hit": 0.429
    },
    "30-35%": {
     "n": 59,
@@ -4132,10 +4132,10 @@
     "hit": 0.768
    },
    "nhl": {
-    "n": 448,
-    "wins": 282,
-    "pred": 0.672,
-    "hit": 0.629
+    "n": 454,
+    "wins": 286,
+    "pred": 0.671,
+    "hit": 0.63
    },
    "mlb": {
     "n": 10,
@@ -4182,16 +4182,16 @@
   },
   "by_market": {
    "total": {
-    "n": 1006,
-    "wins": 814,
+    "n": 1008,
+    "wins": 816,
     "pred": 0.82,
-    "hit": 0.809
+    "hit": 0.81
    },
    "spread": {
-    "n": 978,
-    "wins": 722,
-    "pred": 0.747,
-    "hit": 0.738
+    "n": 982,
+    "wins": 724,
+    "pred": 0.746,
+    "hit": 0.737
    },
    "dc": {
     "n": 71,
@@ -4225,15 +4225,15 @@
    }
   },
   "parlays": {
-   "graded": 715,
-   "won": 137,
-   "expected": 146.96,
-   "pending": 6,
+   "graded": 717,
+   "won": 138,
+   "expected": 147.15,
+   "pending": 4,
    "by_type": {
     "ladder": {
-     "graded": 425,
-     "won": 107,
-     "expected": 115.75
+     "graded": 426,
+     "won": 108,
+     "expected": 115.89
     },
     "best": {
      "graded": 18,
@@ -4241,9 +4241,9 @@
      "expected": 3.65
     },
     "lottery": {
-     "graded": 272,
+     "graded": 273,
      "won": 26,
-     "expected": 27.47
+     "expected": 27.52
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -4326,7 +4326,7 @@
       "pick": "Under 6.5",
       "game": "St. Louis Blues at Utah Mammoth",
       "odds": -164,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Under 6.5",
@@ -6928,43 +6928,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 6630,
-   "brier": 0.1502,
-   "logloss": 0.4756,
+   "n": 6643,
+   "brier": 0.1503,
+   "logloss": 0.4759,
    "picks": 1698,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 1679,
-   "top_picks_won": 1412,
-   "top_picks_expected": 1400.23,
-   "top_win_rate": 0.8409767718880286
+   "top_picks_graded": 1683,
+   "top_picks_won": 1416,
+   "top_picks_expected": 1403.11,
+   "top_win_rate": 0.8413547237076648
   },
   "v2": {
-   "n": 6630,
-   "brier": 0.1495,
-   "logloss": 0.4744,
+   "n": 6643,
+   "brier": 0.1496,
+   "logloss": 0.4747,
    "picks": 604,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.43,
-   "top_picks_graded": 601,
+   "top_picks_graded": 602,
    "top_picks_won": 522,
-   "top_picks_expected": 530.8,
-   "top_win_rate": 0.8685524126455907
+   "top_picks_expected": 531.68,
+   "top_win_rate": 0.867109634551495
   },
-  "graded": 6630,
+  "graded": 6643,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6630,
-    "v2": 6630,
+    "v1": 6643,
+    "v2": 6643,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4756,
-    "v2": 0.4744,
+    "v1": 0.4759,
+    "v2": 0.4747,
     "pass": true
    },
    {
@@ -6981,14 +6981,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1679,
-    "v2": 601,
+    "v1": 1683,
+    "v2": 602,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1412/1679",
-    "v2": "522/601",
+    "v1": "1416/1683",
+    "v2": "522/602",
     "pass": true
    }
   ],
