@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 05:39 UTC",
+ "updated": "2026-11-13 05:51 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
@@ -2516,69 +2516,6 @@
    }
   },
   {
-   "id": "401869969",
-   "sport": "college-football",
-   "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
-   "start": "2026-11-13T02:00Z",
-   "state": "in",
-   "status": "1:37 - 4th",
-   "venue": "Malone Stadium",
-   "indoor": false,
-   "city": {
-    "city": "Monroe",
-    "state": "LA",
-    "country": "USA"
-   },
-   "espn_wx": {
-    "displayValue": "33",
-    "temperature": 54,
-    "highTemperature": 54,
-    "conditionId": "Clear",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "71203"
-     ],
-     "href": "http://www.accuweather.com/en/us/malone-stadium-la/71201/current-weather/53583_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "UL Monroe Warhawks",
-     "short": "UL Monroe",
-     "score": "21",
-     "winner": null,
-     "record": "2-7",
-     "ml_open": null,
-     "ml": null,
-     "tid": "2433",
-     "abbr": "ULM",
-     "home_rec": null,
-     "road_rec": null
-    },
-    "away": {
-     "name": "Louisiana Ragin' Cajuns",
-     "short": "Louisiana",
-     "score": "42",
-     "winner": null,
-     "record": "6-3",
-     "ml_open": null,
-     "ml": null,
-     "tid": "309",
-     "abbr": "UL",
-     "home_rec": null,
-     "road_rec": null
-    }
-   }
-  },
-  {
    "id": "401862824",
    "sport": "college-football",
    "name": "Memphis Tigers at South Florida Bulls",
@@ -2622,6 +2559,53 @@
      "abbr": "MEM",
      "home_rec": "5-0",
      "road_rec": "3-2"
+    }
+   }
+  },
+  {
+   "id": "401869969",
+   "sport": "college-football",
+   "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
+   "start": "2026-11-13T02:00Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Malone Stadium",
+   "indoor": false,
+   "city": {
+    "city": "Monroe",
+    "state": "LA",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "UL Monroe Warhawks",
+     "short": "UL Monroe",
+     "score": "21",
+     "winner": false,
+     "record": "2-8",
+     "ml_open": null,
+     "ml": null,
+     "tid": "2433",
+     "abbr": "ULM",
+     "home_rec": "0-5",
+     "road_rec": "2-3"
+    },
+    "away": {
+     "name": "Louisiana Ragin' Cajuns",
+     "short": "Louisiana",
+     "score": "42",
+     "winner": true,
+     "record": "7-3",
+     "ml_open": null,
+     "ml": null,
+     "tid": "309",
+     "abbr": "UL",
+     "home_rec": "5-0",
+     "road_rec": "2-3"
     }
    }
   },
@@ -3284,7 +3268,7 @@
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
    "state": "in",
-   "status": "9:22 - 3rd",
+   "status": "1:01 - 3rd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3313,7 +3297,7 @@
     "away": {
      "name": "New York Islanders",
      "short": "Islanders",
-     "score": "4",
+     "score": "5",
      "winner": null,
      "record": "7-6-4",
      "ml_open": null,
@@ -4000,26 +3984,26 @@
    "src": "open-meteo"
   },
   {
-   "g": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
-   "w": "33, 54F",
-   "src": "ESPN/AccuWeather"
-  },
-  {
    "g": "Memphis Tigers at South Florida Bulls",
    "w": "71.9F, wind 3.5 mph, rain 5%",
+   "src": "open-meteo"
+  },
+  {
+   "g": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
+   "w": "56.6F, wind 0.9 mph, rain 0%",
    "src": "open-meteo"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-13 05:39 UTC",
-  "graded_legs": 2268,
+  "updated": "2026-11-13 05:51 UTC",
+  "graded_legs": 2276,
   "calibration": {
    "85-90%": {
-    "n": 1017,
-    "wins": 881,
+    "n": 1022,
+    "wins": 886,
     "pred": 0.873,
-    "hit": 0.866
+    "hit": 0.867
    },
    "75-80%": {
     "n": 186,
@@ -4028,10 +4012,10 @@
     "hit": 0.817
    },
    "80-85%": {
-    "n": 406,
+    "n": 407,
     "wins": 342,
     "pred": 0.823,
-    "hit": 0.842
+    "hit": 0.84
    },
    "65-70%": {
     "n": 26,
@@ -4052,10 +4036,10 @@
     "hit": 0.945
    },
    "70-75%": {
-    "n": 67,
+    "n": 68,
     "wins": 56,
     "pred": 0.73,
-    "hit": 0.836
+    "hit": 0.824
    },
    "40-45%": {
     "n": 54,
@@ -4070,10 +4054,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 140,
+    "n": 141,
     "wins": 34,
-    "pred": 0.275,
-    "hit": 0.243
+    "pred": 0.274,
+    "hit": 0.241
    },
    "60-65%": {
     "n": 28,
@@ -4120,10 +4104,10 @@
     "hit": 0.75
    },
    "college-football": {
-    "n": 450,
-    "wins": 359,
-    "pred": 0.816,
-    "hit": 0.798
+    "n": 458,
+    "wins": 364,
+    "pred": 0.815,
+    "hit": 0.795
    },
    "nba": {
     "n": 850,
@@ -4182,14 +4166,14 @@
   },
   "by_market": {
    "total": {
-    "n": 1008,
-    "wins": 816,
+    "n": 1013,
+    "wins": 819,
     "pred": 0.82,
-    "hit": 0.81
+    "hit": 0.808
    },
    "spread": {
-    "n": 982,
-    "wins": 724,
+    "n": 985,
+    "wins": 726,
     "pred": 0.746,
     "hit": 0.737
    },
@@ -4225,10 +4209,10 @@
    }
   },
   "parlays": {
-   "graded": 717,
+   "graded": 718,
    "won": 138,
-   "expected": 147.15,
-   "pending": 4,
+   "expected": 147.35,
+   "pending": 3,
    "by_type": {
     "ladder": {
      "graded": 426,
@@ -4236,9 +4220,9 @@
      "expected": 115.89
     },
     "best": {
-     "graded": 18,
+     "graded": 19,
      "won": 4,
-     "expected": 3.65
+     "expected": 3.85
     },
     "lottery": {
      "graded": 273,
@@ -4258,9 +4242,9 @@
  },
  "favorites_record": {
   "won": 35,
-  "lost": 43,
-  "pending": 1,
-  "win_pct": 0.449,
+  "lost": 44,
+  "pending": 0,
+  "win_pct": 0.443,
   "by_legs": {
    "2": {
     "won": 14,
@@ -4276,9 +4260,9 @@
    },
    "4": {
     "won": 9,
-    "lost": 14,
-    "pending": 1,
-    "win_pct": 0.391
+    "lost": 15,
+    "pending": 0,
+    "win_pct": 0.375
    },
    "5": {
     "won": 3,
@@ -4307,7 +4291,7 @@
     "n": 4,
     "est_prob": 0.2008,
     "fd_payout_x": 4.76,
-    "result": null,
+    "result": "loss",
     "source": "logged",
     "legs": [
      {
@@ -4320,7 +4304,7 @@
       "pick": "Under (55.5)",
       "game": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
       "odds": -290,
-      "result": null
+      "result": "loss"
      },
      {
       "pick": "Under 6.5",
@@ -4356,7 +4340,7 @@
       "pick": "Over (31.5)",
       "game": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
       "odds": -1000,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Under 8.5",
@@ -6928,43 +6912,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 6643,
-   "brier": 0.1503,
-   "logloss": 0.4759,
+   "n": 6656,
+   "brier": 0.1501,
+   "logloss": 0.4752,
    "picks": 1698,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 1683,
-   "top_picks_won": 1416,
-   "top_picks_expected": 1403.11,
-   "top_win_rate": 0.8413547237076648
+   "top_picks_graded": 1689,
+   "top_picks_won": 1422,
+   "top_picks_expected": 1408.25,
+   "top_win_rate": 0.8419182948490231
   },
   "v2": {
-   "n": 6643,
-   "brier": 0.1496,
-   "logloss": 0.4747,
+   "n": 6656,
+   "brier": 0.1494,
+   "logloss": 0.4741,
    "picks": 604,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.43,
-   "top_picks_graded": 602,
-   "top_picks_won": 522,
-   "top_picks_expected": 531.68,
-   "top_win_rate": 0.867109634551495
+   "top_picks_graded": 603,
+   "top_picks_won": 523,
+   "top_picks_expected": 532.56,
+   "top_win_rate": 0.867330016583748
   },
-  "graded": 6643,
+  "graded": 6656,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6643,
-    "v2": 6643,
+    "v1": 6656,
+    "v2": 6656,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4759,
-    "v2": 0.4747,
+    "v1": 0.4752,
+    "v2": 0.4741,
     "pass": true
    },
    {
@@ -6981,14 +6965,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1683,
-    "v2": 602,
+    "v1": 1689,
+    "v2": 603,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1416/1683",
-    "v2": "522/602",
+    "v1": "1422/1689",
+    "v2": "523/603",
     "pass": true
    }
   ],
