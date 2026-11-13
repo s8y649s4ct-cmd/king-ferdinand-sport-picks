@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 04:27 UTC",
+ "updated": "2026-11-13 04:33 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
@@ -2521,7 +2521,7 @@
    "name": "Memphis Tigers at South Florida Bulls",
    "start": "2026-11-13T01:00Z",
    "state": "in",
-   "status": "4:10 - 4th",
+   "status": "2:50 - 4th",
    "venue": "Raymond James Stadium",
    "indoor": false,
    "city": {
@@ -2584,7 +2584,7 @@
    "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "8:46 - 3rd",
+   "status": "8:33 - 3rd",
    "venue": "Malone Stadium",
    "indoor": false,
    "city": {
@@ -2784,8 +2784,8 @@
    "sport": "nba",
    "name": "Charlotte Hornets at Phoenix Suns",
    "start": "2026-11-13T02:00Z",
-   "state": "in",
-   "status": "10.0 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Mortgage Matchup Center",
    "indoor": true,
    "city": {
@@ -2800,28 +2800,28 @@
     "home": {
      "name": "Phoenix Suns",
      "short": "Suns",
-     "score": "99",
-     "winner": null,
-     "record": "4-6",
+     "score": "101",
+     "winner": true,
+     "record": "5-6",
      "ml_open": null,
      "ml": null,
      "tid": "21",
      "abbr": "PHX",
-     "home_rec": "4-3",
+     "home_rec": "5-3",
      "road_rec": "0-3"
     },
     "away": {
      "name": "Charlotte Hornets",
      "short": "Hornets",
-     "score": "95",
-     "winner": null,
-     "record": "4-7",
+     "score": "96",
+     "winner": false,
+     "record": "4-8",
      "ml_open": null,
      "ml": null,
      "tid": "30",
      "abbr": "CHA",
      "home_rec": "3-4",
-     "road_rec": "1-3"
+     "road_rec": "1-4"
     }
    }
   },
@@ -3253,7 +3253,7 @@
    "name": "St. Louis Blues at Utah Mammoth",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "12:49 - 3rd",
+   "status": "9:13 - 3rd",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -3300,7 +3300,7 @@
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
    "state": "in",
-   "status": "12:03 - 2nd",
+   "status": "9:04 - 2nd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -4028,24 +4028,24 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-13 04:27 UTC",
-  "graded_legs": 2244,
+  "updated": "2026-11-13 04:33 UTC",
+  "graded_legs": 2253,
   "calibration": {
    "85-90%": {
-    "n": 1008,
-    "wins": 874,
+    "n": 1011,
+    "wins": 877,
     "pred": 0.873,
     "hit": 0.867
    },
    "75-80%": {
-    "n": 185,
-    "wins": 151,
+    "n": 186,
+    "wins": 152,
     "pred": 0.785,
-    "hit": 0.816
+    "hit": 0.817
    },
    "80-85%": {
-    "n": 402,
-    "wins": 338,
+    "n": 403,
+    "wins": 339,
     "pred": 0.823,
     "hit": 0.841
    },
@@ -4086,10 +4086,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 137,
-    "wins": 33,
+    "n": 138,
+    "wins": 34,
     "pred": 0.274,
-    "hit": 0.241
+    "hit": 0.246
    },
    "60-65%": {
     "n": 27,
@@ -4098,16 +4098,16 @@
     "hit": 0.407
    },
    "30-35%": {
-    "n": 58,
+    "n": 59,
     "wins": 18,
     "pred": 0.324,
-    "hit": 0.31
+    "hit": 0.305
    },
    "20-25%": {
-    "n": 70,
+    "n": 72,
     "wins": 13,
     "pred": 0.236,
-    "hit": 0.186
+    "hit": 0.181
    },
    "35-40%": {
     "n": 49,
@@ -4142,10 +4142,10 @@
     "hit": 0.803
    },
    "nba": {
-    "n": 841,
-    "wins": 647,
-    "pred": 0.786,
-    "hit": 0.769
+    "n": 850,
+    "wins": 653,
+    "pred": 0.784,
+    "hit": 0.768
    },
    "nhl": {
     "n": 448,
@@ -4198,16 +4198,16 @@
   },
   "by_market": {
    "total": {
-    "n": 1001,
+    "n": 1002,
     "wins": 812,
-    "pred": 0.821,
-    "hit": 0.811
+    "pred": 0.82,
+    "hit": 0.81
    },
    "spread": {
-    "n": 967,
-    "wins": 714,
+    "n": 973,
+    "wins": 719,
     "pred": 0.747,
-    "hit": 0.738
+    "hit": 0.739
    },
    "dc": {
     "n": 71,
@@ -4234,22 +4234,22 @@
     "hit": 0.491
    },
    "prop": {
-    "n": 97,
-    "wins": 22,
-    "pred": 0.277,
-    "hit": 0.227
+    "n": 99,
+    "wins": 23,
+    "pred": 0.276,
+    "hit": 0.232
    }
   },
   "parlays": {
-   "graded": 711,
-   "won": 135,
-   "expected": 145.44,
-   "pending": 10,
+   "graded": 714,
+   "won": 137,
+   "expected": 146.64,
+   "pending": 7,
    "by_type": {
     "ladder": {
-     "graded": 422,
-     "won": 105,
-     "expected": 114.25
+     "graded": 424,
+     "won": 107,
+     "expected": 115.43
     },
     "best": {
      "graded": 18,
@@ -4257,9 +4257,9 @@
      "expected": 3.65
     },
     "lottery": {
-     "graded": 271,
+     "graded": 272,
      "won": 26,
-     "expected": 27.46
+     "expected": 27.47
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -4273,16 +4273,16 @@
   "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
  },
  "favorites_record": {
-  "won": 34,
+  "won": 35,
   "lost": 43,
-  "pending": 2,
-  "win_pct": 0.442,
+  "pending": 1,
+  "win_pct": 0.449,
   "by_legs": {
    "2": {
-    "won": 13,
+    "won": 14,
     "lost": 6,
-    "pending": 1,
-    "win_pct": 0.684
+    "pending": 0,
+    "win_pct": 0.7
    },
    "3": {
     "won": 9,
@@ -4330,7 +4330,7 @@
       "pick": "Phoenix Suns +2.5",
       "game": "Charlotte Hornets at Phoenix Suns",
       "odds": -300,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Under (55.5)",
@@ -4389,7 +4389,7 @@
     "n": 2,
     "est_prob": 0.80317,
     "fd_payout_x": 1.22,
-    "result": null,
+    "result": "win",
     "source": "logged",
     "legs": [
      {
@@ -4402,7 +4402,7 @@
       "pick": "Phoenix Suns +10.5",
       "game": "Charlotte Hornets at Phoenix Suns",
       "odds": -1000,
-      "result": null
+      "result": "win"
      }
     ]
    },
@@ -6944,43 +6944,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 6598,
-   "brier": 0.1503,
-   "logloss": 0.4759,
+   "n": 6615,
+   "brier": 0.15,
+   "logloss": 0.475,
    "picks": 1698,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 1670,
-   "top_picks_won": 1405,
-   "top_picks_expected": 1392.42,
-   "top_win_rate": 0.8413173652694611
+   "top_picks_graded": 1673,
+   "top_picks_won": 1408,
+   "top_picks_expected": 1395.05,
+   "top_win_rate": 0.8416019127316199
   },
   "v2": {
-   "n": 6598,
-   "brier": 0.1495,
-   "logloss": 0.4745,
+   "n": 6615,
+   "brier": 0.1492,
+   "logloss": 0.4736,
    "picks": 604,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.43,
-   "top_picks_graded": 599,
-   "top_picks_won": 521,
-   "top_picks_expected": 528.97,
-   "top_win_rate": 0.8697829716193656
+   "top_picks_graded": 600,
+   "top_picks_won": 522,
+   "top_picks_expected": 529.89,
+   "top_win_rate": 0.87
   },
-  "graded": 6598,
+  "graded": 6615,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6598,
-    "v2": 6598,
+    "v1": 6615,
+    "v2": 6615,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4759,
-    "v2": 0.4745,
+    "v1": 0.475,
+    "v2": 0.4736,
     "pass": true
    },
    {
@@ -6997,14 +6997,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1670,
-    "v2": 599,
+    "v1": 1673,
+    "v2": 600,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1405/1670",
-    "v2": "521/599",
+    "v1": "1408/1673",
+    "v2": "522/600",
     "pass": true
    }
   ],
