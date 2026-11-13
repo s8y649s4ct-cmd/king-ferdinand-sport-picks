@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 04:50 UTC",
+ "updated": "2026-11-13 05:00 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
@@ -2516,75 +2516,12 @@
    }
   },
   {
-   "id": "401862824",
-   "sport": "college-football",
-   "name": "Memphis Tigers at South Florida Bulls",
-   "start": "2026-11-13T01:00Z",
-   "state": "in",
-   "status": "0:16 - 4th",
-   "venue": "Raymond James Stadium",
-   "indoor": false,
-   "city": {
-    "city": "Tampa",
-    "state": "FL",
-    "country": "USA"
-   },
-   "espn_wx": {
-    "displayValue": "7",
-    "temperature": 70,
-    "highTemperature": 70,
-    "conditionId": "Cloudy",
-    "link": {
-     "language": "en-US",
-     "rel": [
-      "33607"
-     ],
-     "href": "http://www.accuweather.com/en/us/raymond-james-stadium-fl/33602/current-weather/53558_poi?lang=en-us",
-     "text": "Weather",
-     "shortText": "Weather",
-     "isExternal": true,
-     "isPremium": false
-    }
-   },
-   "line": null,
-   "total": null,
-   "book": null,
-   "teams": {
-    "home": {
-     "name": "South Florida Bulls",
-     "short": "South Florida",
-     "score": "41",
-     "winner": null,
-     "record": "6-3",
-     "ml_open": null,
-     "ml": null,
-     "tid": "58",
-     "abbr": "USF",
-     "home_rec": null,
-     "road_rec": null
-    },
-    "away": {
-     "name": "Memphis Tigers",
-     "short": "Memphis",
-     "score": "52",
-     "winner": null,
-     "record": "7-2",
-     "ml_open": null,
-     "ml": null,
-     "tid": "235",
-     "abbr": "MEM",
-     "home_rec": null,
-     "road_rec": null
-    }
-   }
-  },
-  {
    "id": "401869969",
    "sport": "college-football",
    "name": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "2:36 - 3rd",
+   "status": "15:00 - 4th",
    "venue": "Malone Stadium",
    "indoor": false,
    "city": {
@@ -2638,6 +2575,53 @@
      "abbr": "UL",
      "home_rec": null,
      "road_rec": null
+    }
+   }
+  },
+  {
+   "id": "401862824",
+   "sport": "college-football",
+   "name": "Memphis Tigers at South Florida Bulls",
+   "start": "2026-11-13T01:00Z",
+   "state": "post",
+   "status": "Final",
+   "venue": "Raymond James Stadium",
+   "indoor": false,
+   "city": {
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA"
+   },
+   "espn_wx": null,
+   "line": null,
+   "total": null,
+   "book": null,
+   "teams": {
+    "home": {
+     "name": "South Florida Bulls",
+     "short": "South Florida",
+     "score": "41",
+     "winner": false,
+     "record": "6-4",
+     "ml_open": null,
+     "ml": null,
+     "tid": "58",
+     "abbr": "USF",
+     "home_rec": "4-2",
+     "road_rec": "2-2"
+    },
+    "away": {
+     "name": "Memphis Tigers",
+     "short": "Memphis",
+     "score": "52",
+     "winner": true,
+     "record": "8-2",
+     "ml_open": null,
+     "ml": null,
+     "tid": "235",
+     "abbr": "MEM",
+     "home_rec": "5-0",
+     "road_rec": "3-2"
     }
    }
   },
@@ -3253,7 +3237,7 @@
    "name": "St. Louis Blues at Utah Mammoth",
    "start": "2026-11-13T02:00Z",
    "state": "in",
-   "status": "End of 3rd",
+   "status": "1:15 - OT",
    "venue": "Delta Center",
    "indoor": true,
    "city": {
@@ -3300,7 +3284,7 @@
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
    "state": "in",
-   "status": "1:46 - 2nd",
+   "status": "End of 2nd",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -4016,26 +4000,26 @@
    "src": "open-meteo"
   },
   {
-   "g": "Memphis Tigers at South Florida Bulls",
-   "w": "7, 70F",
-   "src": "ESPN/AccuWeather"
-  },
-  {
    "g": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
    "w": "33, 56F",
    "src": "ESPN/AccuWeather"
+  },
+  {
+   "g": "Memphis Tigers at South Florida Bulls",
+   "w": "71.9F, wind 3.5 mph, rain 5%",
+   "src": "open-meteo"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-13 04:50 UTC",
-  "graded_legs": 2253,
+  "updated": "2026-11-13 05:00 UTC",
+  "graded_legs": 2262,
   "calibration": {
    "85-90%": {
-    "n": 1011,
-    "wins": 877,
+    "n": 1017,
+    "wins": 881,
     "pred": 0.873,
-    "hit": 0.867
+    "hit": 0.866
    },
    "75-80%": {
     "n": 186,
@@ -4074,10 +4058,10 @@
     "hit": 0.836
    },
    "40-45%": {
-    "n": 51,
-    "wins": 16,
-    "pred": 0.421,
-    "hit": 0.314
+    "n": 53,
+    "wins": 17,
+    "pred": 0.422,
+    "hit": 0.321
    },
    "45-50%": {
     "n": 17,
@@ -4086,10 +4070,10 @@
     "hit": 0.412
    },
    "25-30%": {
-    "n": 138,
+    "n": 139,
     "wins": 34,
     "pred": 0.274,
-    "hit": 0.246
+    "hit": 0.245
    },
    "60-65%": {
     "n": 27,
@@ -4136,10 +4120,10 @@
     "hit": 0.75
    },
    "college-football": {
-    "n": 441,
-    "wins": 354,
-    "pred": 0.819,
-    "hit": 0.803
+    "n": 450,
+    "wins": 359,
+    "pred": 0.816,
+    "hit": 0.798
    },
    "nba": {
     "n": 850,
@@ -4198,16 +4182,16 @@
   },
   "by_market": {
    "total": {
-    "n": 1002,
-    "wins": 812,
+    "n": 1006,
+    "wins": 814,
     "pred": 0.82,
-    "hit": 0.81
+    "hit": 0.809
    },
    "spread": {
-    "n": 973,
-    "wins": 719,
+    "n": 978,
+    "wins": 722,
     "pred": 0.747,
-    "hit": 0.739
+    "hit": 0.738
    },
    "dc": {
     "n": 71,
@@ -4241,15 +4225,15 @@
    }
   },
   "parlays": {
-   "graded": 714,
+   "graded": 715,
    "won": 137,
-   "expected": 146.64,
-   "pending": 7,
+   "expected": 146.96,
+   "pending": 6,
    "by_type": {
     "ladder": {
-     "graded": 424,
+     "graded": 425,
      "won": 107,
-     "expected": 115.43
+     "expected": 115.75
     },
     "best": {
      "graded": 18,
@@ -4366,7 +4350,7 @@
       "pick": "South Florida (+21.5)",
       "game": "Memphis Tigers at South Florida Bulls",
       "odds": -1000,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Over (31.5)",
@@ -6944,43 +6928,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 6615,
-   "brier": 0.15,
-   "logloss": 0.475,
+   "n": 6630,
+   "brier": 0.1502,
+   "logloss": 0.4756,
    "picks": 1698,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 1673,
-   "top_picks_won": 1408,
-   "top_picks_expected": 1395.05,
-   "top_win_rate": 0.8416019127316199
+   "top_picks_graded": 1679,
+   "top_picks_won": 1412,
+   "top_picks_expected": 1400.23,
+   "top_win_rate": 0.8409767718880286
   },
   "v2": {
-   "n": 6615,
-   "brier": 0.1492,
-   "logloss": 0.4736,
+   "n": 6630,
+   "brier": 0.1495,
+   "logloss": 0.4744,
    "picks": 604,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.43,
-   "top_picks_graded": 600,
+   "top_picks_graded": 601,
    "top_picks_won": 522,
-   "top_picks_expected": 529.89,
-   "top_win_rate": 0.87
+   "top_picks_expected": 530.8,
+   "top_win_rate": 0.8685524126455907
   },
-  "graded": 6615,
+  "graded": 6630,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6615,
-    "v2": 6615,
+    "v1": 6630,
+    "v2": 6630,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.475,
-    "v2": 0.4736,
+    "v1": 0.4756,
+    "v2": 0.4744,
     "pass": true
    },
    {
@@ -6997,14 +6981,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1673,
-    "v2": 600,
+    "v1": 1679,
+    "v2": 601,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1408/1673",
-    "v2": "522/600",
+    "v1": "1412/1679",
+    "v2": "522/601",
     "pass": true
    }
   ],
