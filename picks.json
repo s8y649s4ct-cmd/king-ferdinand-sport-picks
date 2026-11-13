@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 05:51 UTC",
+ "updated": "2026-11-13 05:56 UTC",
  "date": "2026-11-12",
  "ladder_stats": {
   "tickets": 18,
@@ -3267,8 +3267,8 @@
    "sport": "nhl",
    "name": "New York Islanders at Los Angeles Kings",
    "start": "2026-11-13T03:00Z",
-   "state": "in",
-   "status": "1:01 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "crypto.com Arena",
    "indoor": true,
    "city": {
@@ -3285,27 +3285,27 @@
      "name": "Los Angeles Kings",
      "short": "Kings",
      "score": "2",
-     "winner": null,
-     "record": "5-9-2",
+     "winner": false,
+     "record": "5-10-2",
      "ml_open": null,
      "ml": null,
      "tid": "8",
      "abbr": "LA",
-     "home_rec": "2-6-0",
+     "home_rec": "2-7-0",
      "road_rec": "3-3-2"
     },
     "away": {
      "name": "New York Islanders",
      "short": "Islanders",
      "score": "5",
-     "winner": null,
-     "record": "7-6-4",
+     "winner": true,
+     "record": "8-6-4",
      "ml_open": null,
      "ml": null,
      "tid": "12",
      "abbr": "NYI",
      "home_rec": "4-3-2",
-     "road_rec": "3-3-2"
+     "road_rec": "4-3-2"
     }
    }
   }
@@ -3996,8 +3996,8 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-13 05:51 UTC",
-  "graded_legs": 2276,
+  "updated": "2026-11-13 05:56 UTC",
+  "graded_legs": 2280,
   "calibration": {
    "85-90%": {
     "n": 1022,
@@ -4012,10 +4012,10 @@
     "hit": 0.817
    },
    "80-85%": {
-    "n": 407,
-    "wins": 342,
+    "n": 408,
+    "wins": 343,
     "pred": 0.823,
-    "hit": 0.84
+    "hit": 0.841
    },
    "65-70%": {
     "n": 26,
@@ -4060,10 +4060,10 @@
     "hit": 0.241
    },
    "60-65%": {
-    "n": 28,
+    "n": 29,
     "wins": 12,
-    "pred": 0.625,
-    "hit": 0.429
+    "pred": 0.624,
+    "hit": 0.414
    },
    "30-35%": {
     "n": 59,
@@ -4078,10 +4078,10 @@
     "hit": 0.181
    },
    "35-40%": {
-    "n": 49,
+    "n": 51,
     "wins": 14,
     "pred": 0.381,
-    "hit": 0.286
+    "hit": 0.275
    },
    "55-60%": {
     "n": 16,
@@ -4116,10 +4116,10 @@
     "hit": 0.768
    },
    "nhl": {
-    "n": 454,
-    "wins": 286,
-    "pred": 0.671,
-    "hit": 0.63
+    "n": 458,
+    "wins": 287,
+    "pred": 0.67,
+    "hit": 0.627
    },
    "mlb": {
     "n": 10,
@@ -4166,16 +4166,16 @@
   },
   "by_market": {
    "total": {
-    "n": 1013,
-    "wins": 819,
+    "n": 1015,
+    "wins": 820,
     "pred": 0.82,
     "hit": 0.808
    },
    "spread": {
-    "n": 985,
+    "n": 987,
     "wins": 726,
-    "pred": 0.746,
-    "hit": 0.737
+    "pred": 0.745,
+    "hit": 0.736
    },
    "dc": {
     "n": 71,
@@ -4209,10 +4209,10 @@
    }
   },
   "parlays": {
-   "graded": 718,
-   "won": 138,
-   "expected": 147.35,
-   "pending": 3,
+   "graded": 721,
+   "won": 141,
+   "expected": 149.21,
+   "pending": 0,
    "by_type": {
     "ladder": {
      "graded": 426,
@@ -4225,9 +4225,9 @@
      "expected": 3.85
     },
     "lottery": {
-     "graded": 273,
-     "won": 26,
-     "expected": 27.52
+     "graded": 276,
+     "won": 29,
+     "expected": 29.37
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -4316,7 +4316,7 @@
       "pick": "Under 6.5",
       "game": "New York Islanders at Los Angeles Kings",
       "odds": -154,
-      "result": null
+      "result": "loss"
      }
     ]
    },
@@ -6912,43 +6912,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -1000 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 6656,
-   "brier": 0.1501,
-   "logloss": 0.4752,
+   "n": 6668,
+   "brier": 0.1502,
+   "logloss": 0.4756,
    "picks": 1698,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 1689,
-   "top_picks_won": 1422,
-   "top_picks_expected": 1408.25,
-   "top_win_rate": 0.8419182948490231
+   "top_picks_graded": 1691,
+   "top_picks_won": 1424,
+   "top_picks_expected": 1409.67,
+   "top_win_rate": 0.8421052631578947
   },
   "v2": {
-   "n": 6656,
-   "brier": 0.1494,
-   "logloss": 0.4741,
+   "n": 6668,
+   "brier": 0.1495,
+   "logloss": 0.4743,
    "picks": 604,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.43,
-   "top_picks_graded": 603,
-   "top_picks_won": 523,
-   "top_picks_expected": 532.56,
-   "top_win_rate": 0.867330016583748
+   "top_picks_graded": 604,
+   "top_picks_won": 524,
+   "top_picks_expected": 533.45,
+   "top_win_rate": 0.8675496688741722
   },
-  "graded": 6656,
+  "graded": 6668,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 6656,
-    "v2": 6656,
+    "v1": 6668,
+    "v2": 6668,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4752,
-    "v2": 0.4741,
+    "v1": 0.4756,
+    "v2": 0.4743,
     "pass": true
    },
    {
@@ -6965,14 +6965,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 1689,
-    "v2": 603,
+    "v1": 1691,
+    "v2": 604,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1422/1689",
-    "v2": "523/603",
+    "v1": "1424/1691",
+    "v2": "524/604",
     "pass": true
    }
   ],
