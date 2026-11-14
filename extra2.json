@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 05:13 UTC",
+ "updated": "2026-11-14 05:22 UTC",
  "td": {
   "legs": {},
   "parlays": [],
@@ -54,16 +54,97 @@
   "rule": "Pregame only, FanDuel PA 'Any Time Touchdown Scorer' (rushing/receiving TDs; ESPN grading also counts only those). Chance = 50% market (Pinnacle no-vig 'Total Touchdowns over 0.5' when listed, else FanDuel price minus ~22% margin) + 50% ESPN game-log TD rate (this season, 2025 at half weight, shrunk toward market), then adjustments: implied team total from ESPN spread/total (\u00b13 pts), opponent rush/receiving TDs allowed in its last 6 games (\u00b12), touches trend, same-position teammate Out (+2); total adjustment capped \u00b15 pts and never more than 8 pts above the market. Out/Doubtful/Questionable/IR excluded. Max 1 leg per team, 2 per game; legs priced +250 or shorter with est. chance \u226525%. 2+ TD markets skipped (too unlikely). TD legs are coin flips at best, so read each ticket's chance honestly."
  },
  "nba3r": {
-  "legs": {},
-  "parlays": [],
+  "legs": {
+   "401909983:18970808:742.197614294": {
+    "haircut": 0.03,
+    "id": "401909983:18970808:742.197614294",
+    "event": "401909983",
+    "sport": "nba",
+    "game": "Brooklyn Nets at Memphis Grizzlies",
+    "start": "2026-11-15T01:00Z",
+    "market": "2+ Threes",
+    "player": "Michael Porter Jr.",
+    "team": "Brooklyn Nets",
+    "pick": "Michael Porter Jr. 2+ made threes",
+    "stat": "threePointFieldGoalsMade",
+    "line": 1.5,
+    "ou": "over",
+    "odds": -720,
+    "fd_prob": 0.8206,
+    "pin_prob": null,
+    "emp_prob": 0.8049,
+    "prob": 0.78,
+    "why": "this season 10/11 (avg 3.5); last 5 5/5; last 10 incl. 2025-26 9/10; 3PA 9.5/g this season vs 9.1 late 2025-26; Grizzlies allow 37.2 opp 3PA/g vs 37.8 slate avg; expected pace 102 poss vs 102; threes calibration haircut -3 pts (hit below estimate so far)",
+    "asof": "2026-11-14 05:22 UTC",
+    "injury": "none listed",
+    "aid": "4278104",
+    "fd_market_id": "742.197614294",
+    "fd_selection_id": 18970808,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197614294&selectionId%5B0%5D=18970808"
+   },
+   "401909983:8520906:742.197614336": {
+    "haircut": 0.06,
+    "id": "401909983:8520906:742.197614336",
+    "event": "401909983",
+    "sport": "nba",
+    "game": "Brooklyn Nets at Memphis Grizzlies",
+    "start": "2026-11-15T01:00Z",
+    "market": "4+ Rebounds",
+    "player": "Julius Randle",
+    "team": "Brooklyn Nets",
+    "pick": "Julius Randle 4+ rebounds",
+    "stat": "totalRebounds",
+    "line": 3.5,
+    "ou": "over",
+    "odds": -1000,
+    "fd_prob": 0.8496,
+    "pin_prob": null,
+    "emp_prob": 0.8599,
+    "prob": 0.7777,
+    "why": "this season 10/11 (avg 6.5); last 5 4/5; last 10 incl. 2025-26 9/10; Grizzlies allow 41.4 opp reb/g vs 43.5; expected pace 102 poss vs 102; rebounds calibration haircut -6 pts (hit below estimate so far)",
+    "asof": "2026-11-14 05:22 UTC",
+    "injury": "none listed",
+    "aid": "3064514",
+    "fd_market_id": "742.197614336",
+    "fd_selection_id": 8520906,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197614336&selectionId%5B0%5D=8520906"
+   }
+  },
+  "parlays": [
+   {
+    "n": 1,
+    "legs": [
+     "401909983:18970808:742.197614294"
+    ],
+    "est_prob": 0.78,
+    "fd_payout_x": 1.14,
+    "ev": -0.1117,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197614294&selectionId%5B0%5D=18970808",
+    "type": "nba3r",
+    "favorite": false
+   },
+   {
+    "n": 2,
+    "legs": [
+     "401909983:18970808:742.197614294",
+     "401909983:8520906:742.197614336"
+    ],
+    "est_prob": 0.6066,
+    "fd_payout_x": 1.25,
+    "ev": -0.2401,
+    "fd_link": "https://sportsbook.fanduel.com/addToBetslip?marketId%5B0%5D=742.197614294&selectionId%5B0%5D=18970808&marketId%5B1%5D=742.197614336&selectionId%5B1%5D=8520906",
+    "type": "nba3r",
+    "favorite": true
+   }
+  ],
   "coverage": {
-   "games": 3,
-   "fd_lines": 0,
-   "players_matched": 0,
+   "games": 5,
+   "fd_lines": 29,
+   "players_matched": 2,
    "pinnacle_priced": 0,
    "excluded_injury": [],
    "unmatched": 0,
-   "lines_scored": 0
+   "lines_scored": 29
   },
   "stats": {
    "graded_legs": 1740,
