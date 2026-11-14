@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-14 20:56 UTC",
- "graded_legs": 2393,
+ "updated": "2026-11-14 21:06 UTC",
+ "graded_legs": 2398,
  "calibration": {
   "85-90%": {
-   "n": 1115,
-   "wins": 964,
+   "n": 1118,
+   "wins": 967,
    "pred": 0.873,
    "hit": 0.865
   },
@@ -15,10 +15,10 @@
    "hit": 0.818
   },
   "80-85%": {
-   "n": 426,
-   "wins": 360,
+   "n": 428,
+   "wins": 361,
    "pred": 0.824,
-   "hit": 0.845
+   "hit": 0.843
   },
   "65-70%": {
    "n": 26,
@@ -107,9 +107,9 @@
    "hit": 0.75
   },
   "college-football": {
-   "n": 532,
-   "wins": 425,
-   "pred": 0.821,
+   "n": 537,
+   "wins": 429,
+   "pred": 0.822,
    "hit": 0.799
   },
   "nba": {
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 1075,
-   "wins": 870,
+   "n": 1077,
+   "wins": 871,
    "pred": 0.822,
    "hit": 0.809
   },
   "spread": {
-   "n": 1039,
-   "wins": 772,
+   "n": 1041,
+   "wins": 774,
    "pred": 0.751,
-   "hit": 0.743
+   "hit": 0.744
   },
   "dc": {
    "n": 71,
@@ -187,10 +187,10 @@
    "hit": 0.831
   },
   "ml": {
-   "n": 41,
-   "wins": 30,
-   "pred": 0.648,
-   "hit": 0.732
+   "n": 42,
+   "wins": 31,
+   "pred": 0.653,
+   "hit": 0.738
   },
   "dnb": {
    "n": 15,
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 752,
+  "graded": 753,
   "won": 146,
-  "expected": 155.29,
-  "pending": 40,
+  "expected": 155.33,
+  "pending": 39,
   "by_type": {
    "ladder": {
-    "graded": 453,
+    "graded": 454,
     "won": 113,
-    "expected": 121.7
+    "expected": 121.74
    },
    "best": {
     "graded": 19,
@@ -236,10 +236,10 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 2572,
+  "legs_tracked": 2573,
   "avg_clv_pts": -0.04,
-  "beat_close": 589,
-  "worse_than_close": 738
+  "beat_close": 591,
+  "worse_than_close": 740
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
