@@ -247,7 +247,7 @@ def parse_props(g,mk):
         'stat':spec[0],'stat_label':spec[1],'line':line,'ou':ou,'pick':f"{pl.strip()} {'Over' if ou=='over' else 'Under'} {line:g} {spec[1]}" if not isinstance(t,int) else f"{pl.strip()} {t}+ {spec[1]}",
         'odds':od(r),'fd_prob':round(min(p,.995),4),'fd_market_id':m['marketId'],'fd_selection_id':r['selectionId']})
   return out
-def roster(sp,lg,tid): return get(f'https://site.api.espn.com/apis/site/v2/sports/{sp}/{lg}/teams/{tid}/roster',ttl=3*3600) or {}
+def roster(sp,lg,tid): return get(f'https://site.api.espn.com/apis/site/v2/sports/{sp}/{lg}/teams/{tid}/roster',ttl=1800) or {}
 def teaminfo(sp,lg,tid): return get(f'https://site.api.espn.com/apis/site/v2/sports/{sp}/{lg}/teams/{tid}',ttl=6*3600) or {}
 def gamelog(sp,lg,aid,season=None,ttl=3*3600):
   return get(f'https://site.web.api.espn.com/apis/common/v3/sports/{sp}/{lg}/athletes/{aid}/gamelog'+(f'?season={season}' if season else ''),ttl=ttl) or {}

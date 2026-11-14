@@ -33,7 +33,7 @@ def fit_lam(line,p_over):  # Poisson mean that reproduces Pinnacle's P(X>line)
     if pois_ge(mid,int(line)+1)<p_over: lo=mid
     else: hi=mid
   return (lo+hi)/2
-def roster(sp,lg,tid): return get(f'https://site.api.espn.com/apis/site/v2/sports/{sp}/{lg}/teams/{tid}/roster',ttl=3*3600) or {}
+def roster(sp,lg,tid): return get(f'https://site.api.espn.com/apis/site/v2/sports/{sp}/{lg}/teams/{tid}/roster',ttl=1800) or {}
 def gamelog(sp,lg,aid,season=None,ttl=3*3600): return get(f'https://site.web.api.espn.com/apis/common/v3/sports/{sp}/{lg}/athletes/{aid}/gamelog'+(f'?season={season}' if season else ''),ttl=ttl) or {}
 def glrows(gl):
   names=gl.get('names') or []; evs=gl.get('events') or {}; rows=[]
