@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-14 20:23 UTC",
- "graded_legs": 2339,
+ "updated": "2026-11-14 20:34 UTC",
+ "graded_legs": 2373,
  "calibration": {
   "85-90%": {
-   "n": 1075,
-   "wins": 931,
+   "n": 1099,
+   "wins": 952,
    "pred": 0.873,
    "hit": 0.866
   },
@@ -15,10 +15,10 @@
    "hit": 0.818
   },
   "80-85%": {
-   "n": 413,
-   "wins": 348,
-   "pred": 0.823,
-   "hit": 0.843
+   "n": 422,
+   "wins": 357,
+   "pred": 0.824,
+   "hit": 0.846
   },
   "65-70%": {
    "n": 26,
@@ -39,10 +39,10 @@
    "hit": 0.945
   },
   "70-75%": {
-   "n": 68,
-   "wins": 56,
+   "n": 69,
+   "wins": 57,
    "pred": 0.73,
-   "hit": 0.824
+   "hit": 0.826
   },
   "40-45%": {
    "n": 54,
@@ -107,10 +107,10 @@
    "hit": 0.75
   },
   "college-football": {
-   "n": 478,
-   "wins": 379,
-   "pred": 0.817,
-   "hit": 0.793
+   "n": 512,
+   "wins": 410,
+   "pred": 0.82,
+   "hit": 0.801
   },
   "nba": {
    "n": 884,
@@ -169,15 +169,15 @@
  },
  "by_market": {
   "total": {
-   "n": 1041,
-   "wins": 840,
-   "pred": 0.821,
-   "hit": 0.807
+   "n": 1062,
+   "wins": 861,
+   "pred": 0.822,
+   "hit": 0.811
   },
   "spread": {
-   "n": 1020,
-   "wins": 757,
-   "pred": 0.749,
+   "n": 1033,
+   "wins": 767,
+   "pred": 0.75,
    "hit": 0.742
   },
   "dc": {
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 742,
-  "won": 144,
-  "expected": 153.77,
-  "pending": 50,
+  "graded": 744,
+  "won": 145,
+  "expected": 154.23,
+  "pending": 48,
   "by_type": {
    "ladder": {
-    "graded": 444,
-    "won": 111,
-    "expected": 120.22
+    "graded": 446,
+    "won": 112,
+    "expected": 120.67
    },
    "best": {
     "graded": 19,
@@ -236,10 +236,10 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 2573,
+  "legs_tracked": 2572,
   "avg_clv_pts": -0.04,
-  "beat_close": 588,
-  "worse_than_close": 734
+  "beat_close": 590,
+  "worse_than_close": 736
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
