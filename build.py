@@ -314,7 +314,11 @@ for n in range(1,NMAX+1):
   if len(opts)<n:  # relax cap
     opts=[(ls[0]['prob']-0.15*guse.get(e,0),ls[0]) for e,ls in byg.items() if n<5 or ls[0]['prob']>=LEG_FLOOR]
   if len(opts)<n: break  # not enough strong legs for a bigger ticket
-  sel=[L for _,L in sorted(opts,key=lambda t:-t[0])[:n]]
+  # 2026-11-14 daily review #19: fill ladder tickets with non-NHL games first, NHL only when other games run out.
+  # Selected NHL legs hit 63.1% vs 67.2% rated (463 graded, worst gap of any sport). Rebuild backtest, 20 graded days:
+  # ladder 1-4 63/80 vs 60/80, 5+ 74/342 vs 69/342 (ROI +0.22 vs +0.13); wins >= baseline in both halves and with the two best days removed.
+  NHL_LAST=cfg.get('ladder_nhl_last',False)
+  sel=[L for _,L in sorted(opts,key=lambda t:((NHL_LAST and t[1].get('sport')=='nhl'),-t[0]))[:n]]
   for L in sel: guse[L['event']]=guse.get(L['event'],0)+1; luse[L['id']]=luse.get(L['id'],0)+1
   sel.sort(key=lambda L:-L['prob'])
   P=math.prod(L['prob'] for L in sel); D=math.prod(dec(L['odds']) for L in sel)
