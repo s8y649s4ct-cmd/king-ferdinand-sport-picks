@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-14 02:28 UTC",
- "graded_legs": 2280,
+ "updated": "2026-11-14 02:34 UTC",
+ "graded_legs": 2284,
  "calibration": {
   "85-90%": {
-   "n": 1022,
-   "wins": 886,
+   "n": 1026,
+   "wins": 890,
    "pred": 0.873,
    "hit": 0.867
   },
@@ -113,10 +113,10 @@
    "hit": 0.795
   },
   "nba": {
-   "n": 850,
-   "wins": 653,
-   "pred": 0.784,
-   "hit": 0.768
+   "n": 854,
+   "wins": 657,
+   "pred": 0.785,
+   "hit": 0.769
   },
   "nhl": {
    "n": 458,
@@ -169,14 +169,14 @@
  },
  "by_market": {
   "total": {
-   "n": 1015,
-   "wins": 820,
+   "n": 1017,
+   "wins": 822,
    "pred": 0.82,
    "hit": 0.808
   },
   "spread": {
-   "n": 987,
-   "wins": 726,
+   "n": 989,
+   "wins": 728,
    "pred": 0.745,
    "hit": 0.736
   },
@@ -236,10 +236,10 @@
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 2348,
+  "legs_tracked": 2352,
   "avg_clv_pts": -0.02,
   "beat_close": 540,
-  "worse_than_close": 654
+  "worse_than_close": 658
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
 }
