@@ -133045,8 +133045,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2269,
-  "fd_payout_x": 4.39,
+  "est_prob": 0.2242,
+  "fd_payout_x": 4.43,
   "legs_detail": [
    {
     "id": "401909299:7891074:742.197436497",
@@ -133097,21 +133097,6 @@
     "close_odds": -300
    },
    {
-    "id": "401909296:237482:742.197115130",
-    "event": "401909296",
-    "sport": "nba",
-    "kind": "ml",
-    "side": "away",
-    "pick": "New York Knicks",
-    "market": "Moneyline",
-    "odds": -300,
-    "prob": 0.7396,
-    "raw_prob": 0.7396,
-    "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -300
-   },
-   {
     "id": "401909300:7890843:742.197436704",
     "event": "401909300",
     "sport": "nba",
@@ -133126,9 +133111,25 @@
     "game": "Memphis Grizzlies at New Orleans Pelicans",
     "result": null,
     "close_odds": -265
+   },
+   {
+    "id": "401856859:12197206:742.196717832",
+    "event": "401856859",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 67.5,
+    "ou": "under",
+    "pick": "Under (67.5)",
+    "market": "Alternate Total Points",
+    "odds": -290,
+    "prob": 0.7307,
+    "raw_prob": 0.7307,
+    "game": "Cincinnati Bearcats at Iowa State Cyclones",
+    "result": null,
+    "close_odds": -290
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -133160,7 +133161,7 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -133200,15 +133201,14 @@
     "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
+    "prob": 0.8897,
+    "raw_prob": 0.8897,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -133263,16 +133263,15 @@
     "line": 6.5,
     "pick": "Orlando Magic +6.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8821,
-    "raw_prob": 0.8821,
+    "odds": -950,
+    "prob": 0.8812,
+    "raw_prob": 0.8812,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -900
+    "result": null
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -133282,42 +133281,10 @@
   "date": "2026-11-13",
   "type": "ladder",
   "n": 4,
-  "est_prob": 0.59242,
-  "est_raw": 0.59242,
-  "fd_payout_x": 1.52,
+  "est_prob": 0.58244,
+  "est_raw": 0.58244,
+  "fd_payout_x": 1.51,
   "legs_detail": [
-   {
-    "id": "401909302:7890870:742.197436952",
-    "event": "401909302",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "San Antonio Spurs +3.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8812,
-    "raw_prob": 0.8812,
-    "game": "Golden State Warriors at San Antonio Spurs",
-    "result": null,
-    "close_odds": -950
-   },
-   {
-    "id": "401909298:7883669:742.197436614",
-    "event": "401909298",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 13.5,
-    "pick": "Miami Heat +13.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8791,
-    "raw_prob": 0.8791,
-    "game": "Cleveland Cavaliers at Miami Heat",
-    "result": null,
-    "close_odds": -1000
-   },
    {
     "id": "401909301:7890647:742.197436871",
     "event": "401909301",
@@ -133349,9 +133316,41 @@
     "game": "Cincinnati Bearcats at Iowa State Cyclones",
     "result": null,
     "close_odds": -770
+   },
+   {
+    "id": "401856886:12194332:742.196714884",
+    "event": "401856886",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 34.5,
+    "ou": "over",
+    "pick": "Over (34.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8727,
+    "raw_prob": 0.8727,
+    "game": "Auburn Tigers at Mississippi State Bulldogs",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401869937:12197189:742.196715959",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 35.5,
+    "ou": "over",
+    "pick": "Over (35.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8727,
+    "raw_prob": 0.8727,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -133440,15 +133439,14 @@
     "pick": "Over (35.5)",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8685,
-    "raw_prob": 0.8685,
+    "prob": 0.8635,
+    "raw_prob": 0.8635,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -950
+    "result": null
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -133457,42 +133455,10 @@
   "date": "2026-11-13",
   "type": "ladder",
   "n": 6,
-  "est_prob": 0.42267,
-  "est_raw": 0.42267,
-  "fd_payout_x": 1.87,
+  "est_prob": 0.42034,
+  "est_raw": 0.42034,
+  "fd_payout_x": 1.88,
   "legs_detail": [
-   {
-    "id": "401858301:12197173:742.196715032",
-    "event": "401858301",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 43.5,
-    "ou": "over",
-    "pick": "Over (43.5)",
-    "market": "Alternate Total Points",
-    "odds": -900,
-    "prob": 0.8684,
-    "raw_prob": 0.8684,
-    "game": "Wake Forest Demon Deacons at SMU Mustangs",
-    "result": null,
-    "close_odds": -900
-   },
-   {
-    "id": "401856889:48219810:742.196715682",
-    "event": "401856889",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "Alabama (+2.5)",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8675,
-    "raw_prob": 0.8675,
-    "game": "Alabama Crimson Tide at Vanderbilt Commodores",
-    "result": null,
-    "close_odds": -950
-   },
    {
     "id": "401858526:48858282:742.196714619",
     "event": "401858526",
@@ -133526,6 +133492,22 @@
     "close_odds": -850
    },
    {
+    "id": "401862829:12194337:742.196715858",
+    "event": "401862829",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 64.5,
+    "ou": "under",
+    "pick": "Under (64.5)",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8659,
+    "raw_prob": 0.8659,
+    "game": "UAB Blazers at Temple Owls",
+    "result": null,
+    "close_odds": -850
+   },
+   {
     "id": "401858297:48094345:742.196715441",
     "event": "401858297",
     "sport": "college-football",
@@ -133540,6 +133522,22 @@
     "game": "Georgia Tech Yellow Jackets at Clemson Tigers",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401862825:48093741:742.196715786",
+    "event": "401862825",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": 4.5,
+    "pick": "East Carolina (+4.5)",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8652,
+    "raw_prob": 0.8652,
+    "game": "East Carolina Pirates at Charlotte 49ers",
+    "result": null,
+    "close_odds": -950
    },
    {
     "id": "401858300:12247072:742.196714962",
@@ -133558,7 +133556,7 @@
     "close_odds": -800
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -133614,11 +133612,10 @@
     "pick": "New York Knicks +7.5",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
+    "prob": 0.8764,
+    "raw_prob": 0.8764,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401858522:48094179:742.196715274",
@@ -133661,12 +133658,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:15334251:742.197470876",
@@ -133685,8 +133682,8 @@
     "close_odds": -480
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -133725,8 +133722,8 @@
     "pick": "Under 241.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8746,
-    "raw_prob": 0.8746,
+    "prob": 0.8696,
+    "raw_prob": 0.8696,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -1000
@@ -133757,8 +133754,8 @@
     "pick": "Under 255.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8719,
-    "raw_prob": 0.8719,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
     "game": "Cleveland Cavaliers at Miami Heat",
     "result": null,
     "close_odds": -950
@@ -133772,12 +133769,12 @@
     "line": 2.5,
     "pick": "San Antonio Spurs +2.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8717,
-    "raw_prob": 0.8717,
+    "odds": -850,
+    "prob": 0.8692,
+    "raw_prob": 0.8692,
     "game": "Golden State Warriors at San Antonio Spurs",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909297:7695584:742.197434875",
@@ -133789,11 +133786,10 @@
     "pick": "Under 244.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8696,
-    "raw_prob": 0.8696,
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401858293:48035530:742.196714548",
@@ -133805,11 +133801,10 @@
     "pick": "Pittsburgh (+13.5)",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8683,
-    "raw_prob": 0.8683,
+    "prob": 0.8505,
+    "raw_prob": 0.8505,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401858301:48659626:742.196715034",
@@ -133828,8 +133823,8 @@
     "close_odds": -1000
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -133838,26 +133833,10 @@
   "date": "2026-11-13",
   "type": "ladder",
   "n": 9,
-  "est_prob": 0.26229,
-  "est_raw": 0.26229,
-  "fd_payout_x": 2.5,
+  "est_prob": 0.2626,
+  "est_raw": 0.2626,
+  "fd_payout_x": 2.49,
   "legs_detail": [
-   {
-    "id": "401858525:12197189:742.196715581",
-    "event": "401858525",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 35.5,
-    "ou": "over",
-    "pick": "Over (35.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8655,
-    "raw_prob": 0.8655,
-    "game": "Nebraska Cornhuskers at Rutgers Scarlet Knights",
-    "result": null,
-    "close_odds": -1000
-   },
    {
     "id": "401856859:15516344:742.196717832",
     "event": "401856859",
@@ -133887,6 +133866,22 @@
     "prob": 0.8645,
     "raw_prob": 0.8645,
     "game": "Auburn Tigers at Mississippi State Bulldogs",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
+    "id": "401862829:48315132:742.196715869",
+    "event": "401862829",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": 14.5,
+    "pick": "Temple (+14.5)",
+    "market": "Alternate Spread",
+    "odds": -1000,
+    "prob": 0.8645,
+    "raw_prob": 0.8645,
+    "game": "UAB Blazers at Temple Owls",
     "result": null,
     "close_odds": -1000
    },
@@ -133971,23 +133966,23 @@
     "close_odds": -850
    },
    {
-    "id": "401858520:12197205:742.196715350",
-    "event": "401858520",
+    "id": "401862825:12194340:742.196715789",
+    "event": "401862825",
     "sport": "college-football",
     "kind": "total",
-    "line": 27.5,
+    "line": 30.5,
     "ou": "over",
-    "pick": "Over (27.5)",
+    "pick": "Over (30.5)",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8558,
-    "raw_prob": 0.8558,
-    "game": "Wisconsin Badgers at Maryland Terrapins",
+    "odds": -1000,
+    "prob": 0.8578,
+    "raw_prob": 0.8578,
+    "game": "East Carolina Pirates at Charlotte 49ers",
     "result": null,
-    "close_odds": -950
+    "close_odds": -1000
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -134043,8 +134038,8 @@
     "pick": "Over 201.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8679,
-    "raw_prob": 0.8679,
+    "prob": 0.8729,
+    "raw_prob": 0.8729,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -1000
@@ -134062,8 +134057,7 @@
     "prob": 0.8669,
     "raw_prob": 0.8669,
     "game": "Golden State Warriors at San Antonio Spurs",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401909297:7883326:742.197434881",
@@ -134074,12 +134068,11 @@
     "line": 5.5,
     "pick": "Orlando Magic +5.5",
     "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8666,
-    "raw_prob": 0.8666,
+    "odds": -800,
+    "prob": 0.8665,
+    "raw_prob": 0.8665,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -750
+    "result": null
    },
    {
     "id": "401858296:48659865:742.196715211",
@@ -134138,12 +134131,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:53322288:742.197470876",
@@ -134162,8 +134155,8 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -134282,11 +134275,10 @@
     "pick": "Florida State (+20.5)",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8585,
-    "raw_prob": 0.8585,
+    "prob": 0.8713,
+    "raw_prob": 0.8713,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401858301:48447594:742.196715034",
@@ -134345,16 +134337,16 @@
     "ou": "under",
     "pick": "Under (64.5)",
     "market": "Alternate Total Points",
-    "odds": -770,
-    "prob": 0.8542,
-    "raw_prob": 0.8542,
+    "odds": -800,
+    "prob": 0.856,
+    "raw_prob": 0.856,
     "game": "Illinois Fighting Illini at UCLA Bruins",
     "result": null,
-    "close_odds": -770
+    "close_odds": -800
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -134393,11 +134385,10 @@
     "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
+    "prob": 0.8897,
+    "raw_prob": 0.8897,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401909299:7884456:742.197436464",
@@ -134441,8 +134432,8 @@
     "pick": "Under 240.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8669,
-    "raw_prob": 0.8669,
+    "prob": 0.8619,
+    "raw_prob": 0.8619,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -950
@@ -134536,12 +134527,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:8359769:742.197470856",
@@ -134560,8 +134551,8 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -134599,12 +134590,11 @@
     "ou": "over",
     "pick": "Over 204.5",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8658,
-    "raw_prob": 0.8658,
+    "odds": -900,
+    "prob": 0.8586,
+    "raw_prob": 0.8586,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401909302:7711903:742.197436928",
@@ -134615,12 +134605,12 @@
     "ou": "over",
     "pick": "Over 198.5",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8629,
-    "raw_prob": 0.8629,
+    "odds": -950,
+    "prob": 0.8558,
+    "raw_prob": 0.8558,
     "game": "Golden State Warriors at San Antonio Spurs",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909298:7674032:742.197436620",
@@ -134632,8 +134622,8 @@
     "pick": "Over 215.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8619,
-    "raw_prob": 0.8619,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
     "game": "Cleveland Cavaliers at Miami Heat",
     "result": null,
     "close_odds": -950
@@ -134664,11 +134654,10 @@
     "pick": "Pittsburgh (+12.5)",
     "market": "Alternate Spread",
     "odds": -770,
-    "prob": 0.856,
-    "raw_prob": 0.856,
+    "prob": 0.8382,
+    "raw_prob": 0.8382,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -770
+    "result": null
    },
    {
     "id": "401856886:48442387:742.196714882",
@@ -134783,8 +134772,8 @@
     "close_odds": -770
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -134839,11 +134828,10 @@
     "pick": "New York Knicks +7.5",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
+    "prob": 0.8764,
+    "raw_prob": 0.8764,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401861967:12194320:742.196714807",
@@ -134997,12 +134985,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:8359782:742.197470856",
@@ -135021,8 +135009,8 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -135076,12 +135064,11 @@
     "line": 6.5,
     "pick": "Orlando Magic +6.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8821,
-    "raw_prob": 0.8821,
+    "odds": -950,
+    "prob": 0.8812,
+    "raw_prob": 0.8812,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -900
+    "result": null
    },
    {
     "id": "401909302:7890870:742.197436952",
@@ -135157,11 +135144,10 @@
     "pick": "Over (35.5)",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8685,
-    "raw_prob": 0.8685,
+    "prob": 0.8635,
+    "raw_prob": 0.8635,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401858526:48858282:742.196714619",
@@ -135276,8 +135262,8 @@
     "close_odds": -850
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -135316,11 +135302,10 @@
     "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
+    "prob": 0.8897,
+    "raw_prob": 0.8897,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401909299:7711322:742.197436464",
@@ -135412,8 +135397,8 @@
     "pick": "Under 255.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8719,
-    "raw_prob": 0.8719,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
     "game": "Cleveland Cavaliers at Miami Heat",
     "result": null,
     "close_odds": -950
@@ -135427,12 +135412,12 @@
     "line": 2.5,
     "pick": "San Antonio Spurs +2.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8717,
-    "raw_prob": 0.8717,
+    "odds": -850,
+    "prob": 0.8692,
+    "raw_prob": 0.8692,
     "game": "Golden State Warriors at San Antonio Spurs",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401909297:7695584:742.197434875",
@@ -135444,11 +135429,10 @@
     "pick": "Under 244.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8696,
-    "raw_prob": 0.8696,
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401858293:48035530:742.196714548",
@@ -135460,11 +135444,10 @@
     "pick": "Pittsburgh (+13.5)",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8683,
-    "raw_prob": 0.8683,
+    "prob": 0.8505,
+    "raw_prob": 0.8505,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401858296:12215025:742.196715225",
@@ -135547,8 +135530,8 @@
     "close_odds": -480
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -135603,11 +135586,10 @@
     "pick": "New York Knicks +7.5",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
+    "prob": 0.8764,
+    "raw_prob": 0.8764,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401909299:7891153:742.197436497",
@@ -135635,8 +135617,8 @@
     "pick": "Under 241.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8746,
-    "raw_prob": 0.8746,
+    "prob": 0.8696,
+    "raw_prob": 0.8696,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -1000
@@ -135670,8 +135652,7 @@
     "prob": 0.8669,
     "raw_prob": 0.8669,
     "game": "Golden State Warriors at San Antonio Spurs",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401856860:48092702:742.196714688",
@@ -135810,12 +135791,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:53322288:742.197470876",
@@ -135834,8 +135815,8 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -135921,12 +135902,11 @@
     "line": 5.5,
     "pick": "Orlando Magic +5.5",
     "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8666,
-    "raw_prob": 0.8666,
+    "odds": -800,
+    "prob": 0.8665,
+    "raw_prob": 0.8665,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -750
+    "result": null
    },
    {
     "id": "401858525:12197189:742.196715581",
@@ -136034,11 +136014,10 @@
     "pick": "Florida State (+20.5)",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8585,
-    "raw_prob": 0.8585,
+    "prob": 0.8713,
+    "raw_prob": 0.8713,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401856860:12194345:742.196714705",
@@ -136081,12 +136060,12 @@
     "ou": "under",
     "pick": "Under (64.5)",
     "market": "Alternate Total Points",
-    "odds": -770,
-    "prob": 0.8542,
-    "raw_prob": 0.8542,
+    "odds": -800,
+    "prob": 0.856,
+    "raw_prob": 0.856,
     "game": "Illinois Fighting Illini at UCLA Bruins",
     "result": null,
-    "close_odds": -770
+    "close_odds": -800
    },
    {
     "id": "401858520:48220550:742.196715349",
@@ -136129,16 +136108,16 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -136177,11 +136156,10 @@
     "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
+    "prob": 0.8897,
+    "raw_prob": 0.8897,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401909299:7884456:742.197436464",
@@ -136225,8 +136203,8 @@
     "pick": "Over 201.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8679,
-    "raw_prob": 0.8679,
+    "prob": 0.8729,
+    "raw_prob": 0.8729,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -1000
@@ -136240,12 +136218,11 @@
     "ou": "over",
     "pick": "Over 204.5",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8658,
-    "raw_prob": 0.8658,
+    "odds": -900,
+    "prob": 0.8586,
+    "raw_prob": 0.8586,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401858525:12194345:742.196715581",
@@ -136272,12 +136249,12 @@
     "ou": "over",
     "pick": "Over 198.5",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8629,
-    "raw_prob": 0.8629,
+    "odds": -950,
+    "prob": 0.8558,
+    "raw_prob": 0.8558,
     "game": "Golden State Warriors at San Antonio Spurs",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401856859:48220065:742.196717851",
@@ -136305,8 +136282,8 @@
     "pick": "Over 215.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8619,
-    "raw_prob": 0.8619,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
     "game": "Cleveland Cavaliers at Miami Heat",
     "result": null,
     "close_odds": -950
@@ -136321,11 +136298,10 @@
     "pick": "Pittsburgh (+12.5)",
     "market": "Alternate Spread",
     "odds": -770,
-    "prob": 0.856,
-    "raw_prob": 0.856,
+    "prob": 0.8382,
+    "raw_prob": 0.8382,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -770
+    "result": null
    },
    {
     "id": "401856886:48442387:742.196714882",
@@ -136456,8 +136432,8 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -136527,12 +136503,11 @@
     "line": 6.5,
     "pick": "Orlando Magic +6.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8821,
-    "raw_prob": 0.8821,
+    "odds": -950,
+    "prob": 0.8812,
+    "raw_prob": 0.8812,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -900
+    "result": null
    },
    {
     "id": "401909300:7890684:742.197436704",
@@ -136576,11 +136551,10 @@
     "pick": "New York Knicks +7.5",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
+    "prob": 0.8764,
+    "raw_prob": 0.8764,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401909298:7883669:742.197436614",
@@ -136624,8 +136598,8 @@
     "pick": "Under 240.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8669,
-    "raw_prob": 0.8669,
+    "prob": 0.8619,
+    "raw_prob": 0.8619,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -950
@@ -136767,12 +136741,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:8359782:742.197470856",
@@ -136791,8 +136765,8 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -136847,11 +136821,10 @@
     "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
+    "prob": 0.8897,
+    "raw_prob": 0.8897,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401909299:7711322:742.197436464",
@@ -136911,11 +136884,10 @@
     "pick": "Over (35.5)",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8685,
-    "raw_prob": 0.8685,
+    "prob": 0.8635,
+    "raw_prob": 0.8635,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401858526:48858282:742.196714619",
@@ -137117,12 +137089,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:15334251:742.197470876",
@@ -137141,8 +137113,8 @@
     "close_odds": -480
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -137197,11 +137169,10 @@
     "pick": "New York Knicks +7.5",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
+    "prob": 0.8764,
+    "raw_prob": 0.8764,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401909299:7891153:742.197436497",
@@ -137293,8 +137264,8 @@
     "pick": "Under 255.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8719,
-    "raw_prob": 0.8719,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
     "game": "Cleveland Cavaliers at Miami Heat",
     "result": null,
     "close_odds": -950
@@ -137308,12 +137279,12 @@
     "line": 2.5,
     "pick": "San Antonio Spurs +2.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8717,
-    "raw_prob": 0.8717,
+    "odds": -850,
+    "prob": 0.8692,
+    "raw_prob": 0.8692,
     "game": "Golden State Warriors at San Antonio Spurs",
     "result": null,
-    "close_odds": -900
+    "close_odds": -850
    },
    {
     "id": "401861967:12194320:742.196714807",
@@ -137341,11 +137312,10 @@
     "pick": "Under 244.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8696,
-    "raw_prob": 0.8696,
+    "prob": 0.8746,
+    "raw_prob": 0.8746,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401858301:12197173:742.196715032",
@@ -137373,11 +137343,10 @@
     "pick": "Pittsburgh (+13.5)",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8683,
-    "raw_prob": 0.8683,
+    "prob": 0.8505,
+    "raw_prob": 0.8505,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401856889:48219810:742.196715682",
@@ -137484,12 +137453,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:53322288:742.197470876",
@@ -137508,8 +137477,8 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -137564,11 +137533,10 @@
     "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
+    "prob": 0.8897,
+    "raw_prob": 0.8897,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401909301:7747629:742.197436875",
@@ -137580,8 +137548,8 @@
     "pick": "Under 241.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8746,
-    "raw_prob": 0.8746,
+    "prob": 0.8696,
+    "raw_prob": 0.8696,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -1000
@@ -137647,8 +137615,7 @@
     "prob": 0.8669,
     "raw_prob": 0.8669,
     "game": "Golden State Warriors at San Antonio Spurs",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401909297:7883326:742.197434881",
@@ -137659,12 +137626,11 @@
     "line": 5.5,
     "pick": "Orlando Magic +5.5",
     "market": "Alternate Spread",
-    "odds": -750,
-    "prob": 0.8666,
-    "raw_prob": 0.8666,
+    "odds": -800,
+    "prob": 0.8665,
+    "raw_prob": 0.8665,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -750
+    "result": null
    },
    {
     "id": "401858296:12215025:742.196715225",
@@ -137804,11 +137770,10 @@
     "pick": "Florida State (+20.5)",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8585,
-    "raw_prob": 0.8585,
+    "prob": 0.8713,
+    "raw_prob": 0.8713,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401856860:12194345:742.196714705",
@@ -137835,12 +137800,12 @@
     "ou": "under",
     "pick": "Under (64.5)",
     "market": "Alternate Total Points",
-    "odds": -770,
-    "prob": 0.8542,
-    "raw_prob": 0.8542,
+    "odds": -800,
+    "prob": 0.856,
+    "raw_prob": 0.856,
     "game": "Illinois Fighting Illini at UCLA Bruins",
     "result": null,
-    "close_odds": -770
+    "close_odds": -800
    },
    {
     "id": "401858520:48220550:742.196715349",
@@ -137891,8 +137856,8 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -137947,11 +137912,10 @@
     "pick": "New York Knicks +7.5",
     "market": "Alternate Spread",
     "odds": -850,
-    "prob": 0.8792,
-    "raw_prob": 0.8792,
+    "prob": 0.8764,
+    "raw_prob": 0.8764,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -850
+    "result": null
    },
    {
     "id": "401909304:7733196:742.197437171",
@@ -137979,8 +137943,8 @@
     "pick": "Over 201.5",
     "market": "Alternate Total Points",
     "odds": -1000,
-    "prob": 0.8679,
-    "raw_prob": 0.8679,
+    "prob": 0.8729,
+    "raw_prob": 0.8729,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -1000
@@ -137994,12 +137958,11 @@
     "ou": "over",
     "pick": "Over 204.5",
     "market": "Alternate Total Points",
-    "odds": -950,
-    "prob": 0.8658,
-    "raw_prob": 0.8658,
+    "odds": -900,
+    "prob": 0.8586,
+    "raw_prob": 0.8586,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401856859:15516344:742.196717832",
@@ -138058,12 +138021,12 @@
     "ou": "over",
     "pick": "Over 198.5",
     "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8629,
-    "raw_prob": 0.8629,
+    "odds": -950,
+    "prob": 0.8558,
+    "raw_prob": 0.8558,
     "game": "Golden State Warriors at San Antonio Spurs",
     "result": null,
-    "close_odds": -1000
+    "close_odds": -950
    },
    {
     "id": "401909298:7674032:742.197436620",
@@ -138075,8 +138038,8 @@
     "pick": "Over 215.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8619,
-    "raw_prob": 0.8619,
+    "prob": 0.8669,
+    "raw_prob": 0.8669,
     "game": "Cleveland Cavaliers at Miami Heat",
     "result": null,
     "close_odds": -950
@@ -138139,11 +138102,10 @@
     "pick": "Pittsburgh (+12.5)",
     "market": "Alternate Spread",
     "odds": -770,
-    "prob": 0.856,
-    "raw_prob": 0.856,
+    "prob": 0.8382,
+    "raw_prob": 0.8382,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -770
+    "result": null
    },
    {
     "id": "401858296:48659865:742.196715211",
@@ -138266,12 +138228,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:8359782:742.197470856",
@@ -138290,8 +138252,8 @@
     "close_odds": -650
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -138346,11 +138308,10 @@
     "pick": "New York Knicks +8.5",
     "market": "Alternate Spread",
     "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
+    "prob": 0.8897,
+    "raw_prob": 0.8897,
     "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
+    "result": null
    },
    {
     "id": "401909299:7891067:742.197436497",
@@ -138393,12 +138354,11 @@
     "line": 6.5,
     "pick": "Orlando Magic +6.5",
     "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8821,
-    "raw_prob": 0.8821,
+    "odds": -950,
+    "prob": 0.8812,
+    "raw_prob": 0.8812,
     "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -900
+    "result": null
    },
    {
     "id": "401909302:7890870:742.197436952",
@@ -138490,11 +138450,10 @@
     "pick": "Over (35.5)",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8685,
-    "raw_prob": 0.8685,
+    "prob": 0.8635,
+    "raw_prob": 0.8635,
     "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -950
+    "result": null
    },
    {
     "id": "401858301:12197173:742.196715032",
@@ -138554,8 +138513,8 @@
     "pick": "Under 240.5",
     "market": "Alternate Total Points",
     "odds": -950,
-    "prob": 0.8669,
-    "raw_prob": 0.8669,
+    "prob": 0.8619,
+    "raw_prob": 0.8619,
     "game": "Utah Jazz at Houston Rockets",
     "result": null,
     "close_odds": -950
@@ -138681,12 +138640,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:15334251:742.197470876",
@@ -138705,7 +138664,86 @@
     "close_odds": -480
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
+  "locked": true,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-13-lottery-~100x",
+  "date": "2026-11-13",
+  "type": "lottery",
+  "label": "~100x",
+  "n": 4,
+  "est_prob": 0.0105459957869904,
+  "fd_payout_x": 112.53,
+  "legs_detail": [
+   {
+    "id": "401862829:48315171:742.196715869",
+    "event": "401862829",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -7.5,
+    "pick": "Temple (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 220,
+    "prob": 0.3342,
+    "raw_prob": 0.3342,
+    "game": "UAB Blazers at Temple Owls",
+    "result": null,
+    "close_odds": 220
+   },
+   {
+    "id": "401869937:48633476:742.196715966",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -7.5,
+    "pick": "Coastal Carolina (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 230,
+    "prob": 0.3173,
+    "raw_prob": 0.3173,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": 230
+   },
+   {
+    "id": "401892707:8359774:742.197470856",
+    "event": "401892707",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 7.5,
+    "ou": "over",
+    "pick": "Over 7.5",
+    "market": "Alternate Total Goals",
+    "odds": 260,
+    "prob": 0.2871,
+    "raw_prob": 0.2871,
+    "game": "Nashville Predators at Vegas Golden Knights",
+    "result": null,
+    "close_odds": 260
+   },
+   {
+    "id": "401856886:48442130:742.196714882",
+    "event": "401856886",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "Auburn (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 196,
+    "prob": 0.3464,
+    "raw_prob": 0.3464,
+    "game": "Auburn Tigers at Mississippi State Bulldogs",
+    "result": null,
+    "close_odds": 196
+   }
+  ],
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -138716,24 +138754,40 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 6,
-  "est_prob": 0.0010320523273192744,
-  "fd_payout_x": 1071.5,
+  "est_prob": 0.0011833711361985413,
+  "fd_payout_x": 1016.84,
   "legs_detail": [
    {
-    "id": "401858293:48035534:742.196714548",
-    "event": "401858293",
+    "id": "401862829:48315171:742.196715869",
+    "event": "401862829",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "Pittsburgh (-10.5)",
+    "line": -7.5,
+    "pick": "Temple (-7.5)",
     "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.3091,
-    "raw_prob": 0.3091,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
+    "odds": 220,
+    "prob": 0.3342,
+    "raw_prob": 0.3342,
+    "game": "UAB Blazers at Temple Owls",
     "result": null,
-    "close_odds": 235
+    "close_odds": 220
+   },
+   {
+    "id": "401869937:48633431:742.196715966",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -8.5,
+    "pick": "Coastal Carolina (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 255,
+    "prob": 0.295,
+    "raw_prob": 0.295,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": 255
    },
    {
     "id": "401892707:8359774:742.197470856",
@@ -138784,39 +138838,23 @@
     "close_odds": 180
    },
    {
-    "id": "401858520:48447510:742.196715349",
-    "event": "401858520",
+    "id": "401858526:48858265:742.196714619",
+    "event": "401858526",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": 2.5,
-    "pick": "Maryland (+2.5)",
+    "line": -17.5,
+    "pick": "UCLA (-17.5)",
     "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.2986,
-    "raw_prob": 0.2986,
-    "game": "Wisconsin Badgers at Maryland Terrapins",
+    "odds": 200,
+    "prob": 0.3347,
+    "raw_prob": 0.3347,
+    "game": "Illinois Fighting Illini at UCLA Bruins",
     "result": null,
-    "close_odds": 235
-   },
-   {
-    "id": "401858301:48447571:742.196715034",
-    "event": "401858301",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": -7.5,
-    "pick": "SMU (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 220,
-    "prob": 0.3118,
-    "raw_prob": 0.3118,
-    "game": "Wake Forest Demon Deacons at SMU Mustangs",
-    "result": null,
-    "close_odds": 220
+    "close_odds": 200
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -138827,24 +138865,40 @@
   "type": "lottery",
   "label": "~500x",
   "n": 6,
-  "est_prob": 0.002162742112477273,
-  "fd_payout_x": 520.87,
+  "est_prob": 0.002310172394359507,
+  "fd_payout_x": 527.25,
   "legs_detail": [
    {
-    "id": "401858293:48035534:742.196714548",
-    "event": "401858293",
+    "id": "401862829:48315171:742.196715869",
+    "event": "401862829",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "Pittsburgh (-10.5)",
+    "line": -7.5,
+    "pick": "Temple (-7.5)",
     "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.3091,
-    "raw_prob": 0.3091,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
+    "odds": 220,
+    "prob": 0.3342,
+    "raw_prob": 0.3342,
+    "game": "UAB Blazers at Temple Owls",
     "result": null,
-    "close_odds": 235
+    "close_odds": 220
+   },
+   {
+    "id": "401869937:48633431:742.196715966",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -8.5,
+    "pick": "Coastal Carolina (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 255,
+    "prob": 0.295,
+    "raw_prob": 0.295,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": 255
    },
    {
     "id": "401892707:8359774:742.197470856",
@@ -138877,6 +138931,22 @@
     "game": "Auburn Tigers at Mississippi State Bulldogs",
     "result": null,
     "close_odds": 196
+   },
+   {
+    "id": "401909300:7890724:742.197436704",
+    "event": "401909300",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Memphis Grizzlies +1.5",
+    "market": "Alternate Spread",
+    "odds": -180,
+    "prob": 0.6534,
+    "raw_prob": 0.6534,
+    "game": "Memphis Grizzlies at New Orleans Pelicans",
+    "result": null,
+    "close_odds": -180
    },
    {
     "id": "401856859:48220037:742.196717851",
@@ -138893,168 +138963,9 @@
     "game": "Cincinnati Bearcats at Iowa State Cyclones",
     "result": null,
     "close_odds": 180
-   },
-   {
-    "id": "401858520:48447510:742.196715349",
-    "event": "401858520",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Maryland (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.2986,
-    "raw_prob": 0.2986,
-    "game": "Wisconsin Badgers at Maryland Terrapins",
-    "result": null,
-    "close_odds": 235
-   },
-   {
-    "id": "401909300:7890724:742.197436704",
-    "event": "401909300",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Memphis Grizzlies +1.5",
-    "market": "Alternate Spread",
-    "odds": -180,
-    "prob": 0.6534,
-    "raw_prob": 0.6534,
-    "game": "Memphis Grizzlies at New Orleans Pelicans",
-    "result": null,
-    "close_odds": -180
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-13-lottery-~100x",
-  "date": "2026-11-13",
-  "type": "lottery",
-  "label": "~100x",
-  "n": 7,
-  "est_prob": 0.01081721348619563,
-  "fd_payout_x": 106.51,
-  "legs_detail": [
-   {
-    "id": "401909299:7891287:742.197436497",
-    "event": "401909299",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 5.5,
-    "pick": "Atlanta Hawks +5.5",
-    "market": "Alternate Spread",
-    "odds": -410,
-    "prob": 0.8153,
-    "raw_prob": 0.8153,
-    "game": "Atlanta Hawks at Chicago Bulls",
-    "result": null,
-    "close_odds": -410
-   },
-   {
-    "id": "401909296:7901111:742.197434444",
-    "event": "401909296",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 4.5,
-    "pick": "New York Knicks +4.5",
-    "market": "Alternate Spread",
-    "odds": -460,
-    "prob": 0.8312,
-    "raw_prob": 0.8312,
-    "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -460
-   },
-   {
-    "id": "401909300:7890724:742.197436704",
-    "event": "401909300",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Memphis Grizzlies +1.5",
-    "market": "Alternate Spread",
-    "odds": -180,
-    "prob": 0.6534,
-    "raw_prob": 0.6534,
-    "game": "Memphis Grizzlies at New Orleans Pelicans",
-    "result": null,
-    "close_odds": -180
-   },
-   {
-    "id": "401858293:48035534:742.196714548",
-    "event": "401858293",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": -10.5,
-    "pick": "Pittsburgh (-10.5)",
-    "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.3091,
-    "raw_prob": 0.3091,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": 235
-   },
-   {
-    "id": "401892707:8359774:742.197470856",
-    "event": "401892707",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 7.5,
-    "ou": "over",
-    "pick": "Over 7.5",
-    "market": "Alternate Total Goals",
-    "odds": 260,
-    "prob": 0.2871,
-    "raw_prob": 0.2871,
-    "game": "Nashville Predators at Vegas Golden Knights",
-    "result": null,
-    "close_odds": 260
-   },
-   {
-    "id": "401909304:7890484:742.197437175",
-    "event": "401909304",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 3.5,
-    "pick": "Oklahoma City Thunder +3.5",
-    "market": "Alternate Spread",
-    "odds": -375,
-    "prob": 0.7947,
-    "raw_prob": 0.7947,
-    "game": "Oklahoma City Thunder at LA Clippers",
-    "result": null,
-    "close_odds": -375
-   },
-   {
-    "id": "401856886:48442130:742.196714882",
-    "event": "401856886",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": -7.5,
-    "pick": "Auburn (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 196,
-    "prob": 0.3464,
-    "raw_prob": 0.3464,
-    "game": "Auburn Tigers at Mississippi State Bulldogs",
-    "result": null,
-    "close_odds": 196
-   }
-  ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -139064,10 +138975,26 @@
   "date": "2026-11-13",
   "type": "lottery",
   "label": "~25x",
-  "n": 10,
-  "est_prob": 0.04032141102838939,
-  "fd_payout_x": 25.48,
+  "n": 6,
+  "est_prob": 0.04503742175153125,
+  "fd_payout_x": 25.4,
   "legs_detail": [
+   {
+    "id": "401862829:48315171:742.196715869",
+    "event": "401862829",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -7.5,
+    "pick": "Temple (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 220,
+    "prob": 0.3342,
+    "raw_prob": 0.3342,
+    "game": "UAB Blazers at Temple Owls",
+    "result": null,
+    "close_odds": 220
+   },
    {
     "id": "401909299:7891287:742.197436497",
     "event": "401909299",
@@ -139085,20 +139012,20 @@
     "close_odds": -410
    },
    {
-    "id": "401909296:7901111:742.197434444",
-    "event": "401909296",
+    "id": "401909300:7890788:742.197436704",
+    "event": "401909300",
     "sport": "nba",
     "kind": "spread",
     "side": "away",
-    "line": 4.5,
-    "pick": "New York Knicks +4.5",
+    "line": 6.5,
+    "pick": "Memphis Grizzlies +6.5",
     "market": "Alternate Spread",
-    "odds": -460,
-    "prob": 0.8312,
-    "raw_prob": 0.8312,
-    "game": "New York Knicks at Indiana Pacers",
+    "odds": -335,
+    "prob": 0.7773,
+    "raw_prob": 0.7773,
+    "game": "Memphis Grizzlies at New Orleans Pelicans",
     "result": null,
-    "close_odds": -460
+    "close_odds": -335
    },
    {
     "id": "401909304:7890547:742.197437175",
@@ -139117,36 +139044,20 @@
     "close_odds": -430
    },
    {
-    "id": "401909297:7883280:742.197434881",
-    "event": "401909297",
-    "sport": "nba",
+    "id": "401869937:48633476:742.196715966",
+    "event": "401869937",
+    "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": 1.5,
-    "pick": "Orlando Magic +1.5",
+    "line": -7.5,
+    "pick": "Coastal Carolina (-7.5)",
     "market": "Alternate Spread",
-    "odds": -385,
-    "prob": 0.7932,
-    "raw_prob": 0.7932,
-    "game": "Milwaukee Bucks at Orlando Magic",
+    "odds": 230,
+    "prob": 0.3173,
+    "raw_prob": 0.3173,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
     "result": null,
-    "close_odds": -385
-   },
-   {
-    "id": "401909303:7890041:742.197437049",
-    "event": "401909303",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 6.5,
-    "pick": "Portland Trail Blazers +6.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8997,
-    "raw_prob": 0.8997,
-    "game": "Portland Trail Blazers at Sacramento Kings",
-    "result": null,
-    "close_odds": -1000
+    "close_odds": 230
    },
    {
     "id": "401856859:12247074:742.196717832",
@@ -139163,73 +139074,9 @@
     "game": "Cincinnati Bearcats at Iowa State Cyclones",
     "result": null,
     "close_odds": -480
-   },
-   {
-    "id": "401892707:8359772:742.197470856",
-    "event": "401892707",
-    "sport": "nhl",
-    "kind": "total",
-    "line": 5.5,
-    "ou": "over",
-    "pick": "Over 5.5",
-    "market": "Alternate Total Goals",
-    "odds": -150,
-    "prob": 0.6029,
-    "raw_prob": 0.6029,
-    "game": "Nashville Predators at Vegas Golden Knights",
-    "result": null,
-    "close_odds": -150
-   },
-   {
-    "id": "401909298:7883709:742.197436614",
-    "event": "401909298",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 9.5,
-    "pick": "Miami Heat +9.5",
-    "market": "Alternate Spread",
-    "odds": -480,
-    "prob": 0.8175,
-    "raw_prob": 0.8175,
-    "game": "Cleveland Cavaliers at Miami Heat",
-    "result": null,
-    "close_odds": -480
-   },
-   {
-    "id": "401861967:12215025:742.196714807",
-    "event": "401861967",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 71.5,
-    "ou": "under",
-    "pick": "Under (71.5)",
-    "market": "Alternate Total Points",
-    "odds": -480,
-    "prob": 0.8166,
-    "raw_prob": 0.8166,
-    "game": "James Madison Dukes at UConn Huskies",
-    "result": null,
-    "close_odds": -480
-   },
-   {
-    "id": "401858293:48035534:742.196714548",
-    "event": "401858293",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": -10.5,
-    "pick": "Pittsburgh (-10.5)",
-    "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.3091,
-    "raw_prob": 0.3091,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": 235
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -139239,25 +139086,41 @@
   "date": "2026-11-13",
   "type": "lottery",
   "label": "~10,000x",
-  "n": 12,
-  "est_prob": 0.000111034502743718,
-  "fd_payout_x": 10360.99,
+  "n": 10,
+  "est_prob": 0.00011672603412886226,
+  "fd_payout_x": 10748.9,
   "legs_detail": [
    {
-    "id": "401858293:48035534:742.196714548",
-    "event": "401858293",
+    "id": "401862829:48315171:742.196715869",
+    "event": "401862829",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "Pittsburgh (-10.5)",
+    "line": -7.5,
+    "pick": "Temple (-7.5)",
     "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.3091,
-    "raw_prob": 0.3091,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
+    "odds": 220,
+    "prob": 0.3342,
+    "raw_prob": 0.3342,
+    "game": "UAB Blazers at Temple Owls",
     "result": null,
-    "close_odds": 235
+    "close_odds": 220
+   },
+   {
+    "id": "401869937:48633431:742.196715966",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -8.5,
+    "pick": "Coastal Carolina (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 255,
+    "prob": 0.295,
+    "raw_prob": 0.295,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": 255
    },
    {
     "id": "401892707:8359774:742.197470856",
@@ -139322,22 +139185,6 @@
     "game": "Atlanta Hawks at Chicago Bulls",
     "result": null,
     "close_odds": -320
-   },
-   {
-    "id": "401909296:7901020:742.197434444",
-    "event": "401909296",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "New York Knicks +2.5",
-    "market": "Alternate Spread",
-    "odds": -360,
-    "prob": 0.7924,
-    "raw_prob": 0.7924,
-    "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -360
    },
    {
     "id": "401856859:48220037:742.196717851",
@@ -139356,87 +139203,55 @@
     "close_odds": 180
    },
    {
-    "id": "401858520:48447510:742.196715349",
-    "event": "401858520",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Maryland (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.2986,
-    "raw_prob": 0.2986,
-    "game": "Wisconsin Badgers at Maryland Terrapins",
-    "result": null,
-    "close_odds": 235
-   },
-   {
-    "id": "401909297:7883280:742.197434881",
-    "event": "401909297",
+    "id": "401909304:7890445:742.197437175",
+    "event": "401909304",
     "sport": "nba",
     "kind": "spread",
-    "side": "home",
+    "side": "away",
     "line": 1.5,
-    "pick": "Orlando Magic +1.5",
+    "pick": "Oklahoma City Thunder +1.5",
     "market": "Alternate Spread",
-    "odds": -385,
-    "prob": 0.7932,
-    "raw_prob": 0.7932,
-    "game": "Milwaukee Bucks at Orlando Magic",
+    "odds": -290,
+    "prob": 0.7493,
+    "raw_prob": 0.7493,
+    "game": "Oklahoma City Thunder at LA Clippers",
     "result": null,
-    "close_odds": -385
+    "close_odds": -290
    },
    {
-    "id": "401909298:7883598:742.197436614",
-    "event": "401909298",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "Miami Heat +3.5",
-    "market": "Alternate Spread",
-    "odds": -200,
-    "prob": 0.6656,
-    "raw_prob": 0.6656,
-    "game": "Cleveland Cavaliers at Miami Heat",
-    "result": null,
-    "close_odds": -200
-   },
-   {
-    "id": "401858526:48858303:742.196714619",
+    "id": "401858526:48858265:742.196714619",
     "event": "401858526",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "UCLA (-10.5)",
+    "line": -17.5,
+    "pick": "UCLA (-17.5)",
     "market": "Alternate Spread",
-    "odds": -104,
-    "prob": 0.5089,
-    "raw_prob": 0.5089,
+    "odds": 200,
+    "prob": 0.3347,
+    "raw_prob": 0.3347,
     "game": "Illinois Fighting Illini at UCLA Bruins",
     "result": null,
-    "close_odds": -104
+    "close_odds": 200
    },
    {
-    "id": "401858301:48447571:742.196715034",
-    "event": "401858301",
+    "id": "401862825:48906626:742.196715786",
+    "event": "401862825",
     "sport": "college-football",
     "kind": "spread",
-    "side": "home",
-    "line": -7.5,
-    "pick": "SMU (-7.5)",
+    "side": "away",
+    "line": -21.5,
+    "pick": "East Carolina (-21.5)",
     "market": "Alternate Spread",
-    "odds": 220,
-    "prob": 0.3118,
-    "raw_prob": 0.3118,
-    "game": "Wake Forest Demon Deacons at SMU Mustangs",
+    "odds": 285,
+    "prob": 0.2605,
+    "raw_prob": 0.2605,
+    "game": "East Carolina Pirates at Charlotte 49ers",
     "result": null,
-    "close_odds": 220
+    "close_odds": 285
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -139446,25 +139261,41 @@
   "date": "2026-11-13",
   "type": "lottery",
   "label": "~100,000x",
-  "n": 13,
-  "est_prob": 1.108820812719659e-05,
-  "fd_payout_x": 100431.95,
+  "n": 12,
+  "est_prob": 1.1070515073993931e-05,
+  "fd_payout_x": 111112.91,
   "legs_detail": [
    {
-    "id": "401858293:48035534:742.196714548",
-    "event": "401858293",
+    "id": "401862829:48315171:742.196715869",
+    "event": "401862829",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "Pittsburgh (-10.5)",
+    "line": -7.5,
+    "pick": "Temple (-7.5)",
     "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.3091,
-    "raw_prob": 0.3091,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
+    "odds": 220,
+    "prob": 0.3342,
+    "raw_prob": 0.3342,
+    "game": "UAB Blazers at Temple Owls",
     "result": null,
-    "close_odds": 235
+    "close_odds": 220
+   },
+   {
+    "id": "401869937:48633431:742.196715966",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -8.5,
+    "pick": "Coastal Carolina (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 255,
+    "prob": 0.295,
+    "raw_prob": 0.295,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": 255
    },
    {
     "id": "401892707:8359774:742.197470856",
@@ -139499,86 +139330,6 @@
     "close_odds": 196
    },
    {
-    "id": "401858520:48447510:742.196715349",
-    "event": "401858520",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Maryland (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.2986,
-    "raw_prob": 0.2986,
-    "game": "Wisconsin Badgers at Maryland Terrapins",
-    "result": null,
-    "close_odds": 235
-   },
-   {
-    "id": "401909300:7890724:742.197436704",
-    "event": "401909300",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 1.5,
-    "pick": "Memphis Grizzlies +1.5",
-    "market": "Alternate Spread",
-    "odds": -180,
-    "prob": 0.6534,
-    "raw_prob": 0.6534,
-    "game": "Memphis Grizzlies at New Orleans Pelicans",
-    "result": null,
-    "close_odds": -180
-   },
-   {
-    "id": "401858301:48447571:742.196715034",
-    "event": "401858301",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": -7.5,
-    "pick": "SMU (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 220,
-    "prob": 0.3118,
-    "raw_prob": 0.3118,
-    "game": "Wake Forest Demon Deacons at SMU Mustangs",
-    "result": null,
-    "close_odds": 220
-   },
-   {
-    "id": "401858526:48858265:742.196714619",
-    "event": "401858526",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": -17.5,
-    "pick": "UCLA (-17.5)",
-    "market": "Alternate Spread",
-    "odds": 196,
-    "prob": 0.3368,
-    "raw_prob": 0.3368,
-    "game": "Illinois Fighting Illini at UCLA Bruins",
-    "result": null,
-    "close_odds": 196
-   },
-   {
-    "id": "401856860:48092696:742.196714688",
-    "event": "401856860",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 2.5,
-    "pick": "Colorado (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 200,
-    "prob": 0.3318,
-    "raw_prob": 0.3318,
-    "game": "Houston Cougars at Colorado Buffaloes",
-    "result": null,
-    "close_odds": 200
-   },
-   {
     "id": "401909299:7891099:742.197436497",
     "event": "401909299",
     "sport": "nba",
@@ -139595,36 +139346,20 @@
     "close_odds": -320
    },
    {
-    "id": "401909296:7901020:742.197434444",
-    "event": "401909296",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "New York Knicks +2.5",
-    "market": "Alternate Spread",
-    "odds": -360,
-    "prob": 0.7924,
-    "raw_prob": 0.7924,
-    "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -360
-   },
-   {
-    "id": "401861967:50590120:742.196714822",
-    "event": "401861967",
+    "id": "401856859:48220037:742.196717851",
+    "event": "401856859",
     "sport": "college-football",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": -7.5,
-    "pick": "James Madison (-7.5)",
+    "pick": "Iowa State (-7.5)",
     "market": "Alternate Spread",
-    "odds": 134,
-    "prob": 0.4248,
-    "raw_prob": 0.4248,
-    "game": "James Madison Dukes at UConn Huskies",
+    "odds": 180,
+    "prob": 0.3606,
+    "raw_prob": 0.3606,
+    "game": "Cincinnati Bearcats at Iowa State Cyclones",
     "result": null,
-    "close_odds": 134
+    "close_odds": 180
    },
    {
     "id": "401909304:7890445:742.197437175",
@@ -139643,23 +139378,87 @@
     "close_odds": -290
    },
    {
-    "id": "401909302:7733046:742.197436928",
-    "event": "401909302",
-    "sport": "nba",
-    "kind": "total",
-    "line": 207.5,
-    "ou": "under",
-    "pick": "Under 207.5",
-    "market": "Alternate Total Points",
-    "odds": 260,
-    "prob": 0.272,
-    "raw_prob": 0.272,
-    "game": "Golden State Warriors at San Antonio Spurs",
+    "id": "401858526:48858265:742.196714619",
+    "event": "401858526",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -17.5,
+    "pick": "UCLA (-17.5)",
+    "market": "Alternate Spread",
+    "odds": 200,
+    "prob": 0.3347,
+    "raw_prob": 0.3347,
+    "game": "Illinois Fighting Illini at UCLA Bruins",
     "result": null,
-    "close_odds": 260
+    "close_odds": 200
+   },
+   {
+    "id": "401862825:48906626:742.196715786",
+    "event": "401862825",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -21.5,
+    "pick": "East Carolina (-21.5)",
+    "market": "Alternate Spread",
+    "odds": 285,
+    "prob": 0.2605,
+    "raw_prob": 0.2605,
+    "game": "East Carolina Pirates at Charlotte 49ers",
+    "result": null,
+    "close_odds": 285
+   },
+   {
+    "id": "401858520:48447510:742.196715349",
+    "event": "401858520",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": 2.5,
+    "pick": "Maryland (+2.5)",
+    "market": "Alternate Spread",
+    "odds": 235,
+    "prob": 0.2986,
+    "raw_prob": 0.2986,
+    "game": "Wisconsin Badgers at Maryland Terrapins",
+    "result": null,
+    "close_odds": 235
+   },
+   {
+    "id": "401909298:7883598:742.197436614",
+    "event": "401909298",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "home",
+    "line": 3.5,
+    "pick": "Miami Heat +3.5",
+    "market": "Alternate Spread",
+    "odds": -200,
+    "prob": 0.6656,
+    "raw_prob": 0.6656,
+    "game": "Cleveland Cavaliers at Miami Heat",
+    "result": null,
+    "close_odds": -200
+   },
+   {
+    "id": "401858301:48447571:742.196715034",
+    "event": "401858301",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -7.5,
+    "pick": "SMU (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 220,
+    "prob": 0.3118,
+    "raw_prob": 0.3118,
+    "game": "Wake Forest Demon Deacons at SMU Mustangs",
+    "result": null,
+    "close_odds": 220
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -139879,7 +139678,7 @@
     "raw_prob": 0.8252,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:15334251:742.197470876",
@@ -139899,7 +139698,7 @@
    }
   ],
   "logged": "2026-11-13 22:52 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -139908,25 +139707,41 @@
   "date": "2026-11-13",
   "type": "lottery",
   "label": "~1,000,000x",
-  "n": 15,
-  "est_prob": 9.895227518237805e-07,
-  "fd_payout_x": 1097798.5,
+  "n": 14,
+  "est_prob": 1.1566885943294029e-06,
+  "fd_payout_x": 1040016.84,
   "legs_detail": [
    {
-    "id": "401858293:48035534:742.196714548",
-    "event": "401858293",
+    "id": "401862829:48315171:742.196715869",
+    "event": "401862829",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "Pittsburgh (-10.5)",
+    "line": -7.5,
+    "pick": "Temple (-7.5)",
     "market": "Alternate Spread",
-    "odds": 235,
-    "prob": 0.3091,
-    "raw_prob": 0.3091,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
+    "odds": 220,
+    "prob": 0.3342,
+    "raw_prob": 0.3342,
+    "game": "UAB Blazers at Temple Owls",
     "result": null,
-    "close_odds": 235
+    "close_odds": 220
+   },
+   {
+    "id": "401869937:48633431:742.196715966",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "home",
+    "line": -8.5,
+    "pick": "Coastal Carolina (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 255,
+    "prob": 0.295,
+    "raw_prob": 0.295,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": 255
    },
    {
     "id": "401892707:8359774:742.197470856",
@@ -139961,20 +139776,36 @@
     "close_odds": 196
    },
    {
-    "id": "401856859:48220037:742.196717851",
-    "event": "401856859",
+    "id": "401862825:48906626:742.196715786",
+    "event": "401862825",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": -21.5,
+    "pick": "East Carolina (-21.5)",
+    "market": "Alternate Spread",
+    "odds": 285,
+    "prob": 0.2605,
+    "raw_prob": 0.2605,
+    "game": "East Carolina Pirates at Charlotte 49ers",
+    "result": null,
+    "close_odds": 285
+   },
+   {
+    "id": "401858526:48858265:742.196714619",
+    "event": "401858526",
     "sport": "college-football",
     "kind": "spread",
     "side": "home",
-    "line": -7.5,
-    "pick": "Iowa State (-7.5)",
+    "line": -17.5,
+    "pick": "UCLA (-17.5)",
     "market": "Alternate Spread",
-    "odds": 180,
-    "prob": 0.3606,
-    "raw_prob": 0.3606,
-    "game": "Cincinnati Bearcats at Iowa State Cyclones",
+    "odds": 200,
+    "prob": 0.3347,
+    "raw_prob": 0.3347,
+    "game": "Illinois Fighting Illini at UCLA Bruins",
     "result": null,
-    "close_odds": 180
+    "close_odds": 200
    },
    {
     "id": "401858520:48447510:742.196715349",
@@ -140025,22 +139856,6 @@
     "close_odds": 220
    },
    {
-    "id": "401858526:48858265:742.196714619",
-    "event": "401858526",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": -17.5,
-    "pick": "UCLA (-17.5)",
-    "market": "Alternate Spread",
-    "odds": 196,
-    "prob": 0.3368,
-    "raw_prob": 0.3368,
-    "game": "Illinois Fighting Illini at UCLA Bruins",
-    "result": null,
-    "close_odds": 196
-   },
-   {
     "id": "401856860:48092696:742.196714688",
     "event": "401856860",
     "sport": "college-football",
@@ -140073,22 +139888,6 @@
     "close_odds": -320
    },
    {
-    "id": "401909296:7901020:742.197434444",
-    "event": "401909296",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "New York Knicks +2.5",
-    "market": "Alternate Spread",
-    "odds": -360,
-    "prob": 0.7924,
-    "raw_prob": 0.7924,
-    "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -360
-   },
-   {
     "id": "401861967:50590120:742.196714822",
     "event": "401861967",
     "sport": "college-football",
@@ -140105,55 +139904,39 @@
     "close_odds": 134
    },
    {
-    "id": "401909302:7733046:742.197436928",
+    "id": "401909304:7890445:742.197437175",
+    "event": "401909304",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Oklahoma City Thunder +1.5",
+    "market": "Alternate Spread",
+    "odds": -290,
+    "prob": 0.7493,
+    "raw_prob": 0.7493,
+    "game": "Oklahoma City Thunder at LA Clippers",
+    "result": null,
+    "close_odds": -290
+   },
+   {
+    "id": "401909302:7711047:742.197436928",
     "event": "401909302",
     "sport": "nba",
     "kind": "total",
-    "line": 207.5,
+    "line": 206.5,
     "ou": "under",
-    "pick": "Under 207.5",
+    "pick": "Under 206.5",
     "market": "Alternate Total Points",
     "odds": 260,
-    "prob": 0.272,
-    "raw_prob": 0.272,
+    "prob": 0.2723,
+    "raw_prob": 0.2723,
     "game": "Golden State Warriors at San Antonio Spurs",
     "result": null,
     "close_odds": 260
-   },
-   {
-    "id": "401909298:7883598:742.197436614",
-    "event": "401909298",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 3.5,
-    "pick": "Miami Heat +3.5",
-    "market": "Alternate Spread",
-    "odds": -200,
-    "prob": 0.6656,
-    "raw_prob": 0.6656,
-    "game": "Cleveland Cavaliers at Miami Heat",
-    "result": null,
-    "close_odds": -200
-   },
-   {
-    "id": "401856889:12197180:742.196715665",
-    "event": "401856889",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 39.5,
-    "ou": "under",
-    "pick": "Under (39.5)",
-    "market": "Alternate Total Points",
-    "odds": 250,
-    "prob": 0.2786,
-    "raw_prob": 0.2786,
-    "game": "Alabama Crimson Tide at Vanderbilt Commodores",
-    "result": null,
-    "close_odds": 250
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -140501,7 +140284,7 @@
     "raw_prob": 0.8252,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:15334251:742.197470876",
@@ -140521,7 +140304,7 @@
    }
   ],
   "logged": "2026-11-13 23:27 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -140900,7 +140683,7 @@
     "raw_prob": 0.8252,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:15334251:742.197470876",
@@ -140920,7 +140703,7 @@
    }
   ],
   "logged": "2026-11-13 23:33 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -140930,8 +140713,8 @@
   "type": "lottery",
   "label": "25-leg best-chance lottery",
   "n": 25,
-  "est_prob": 0.031068126084893836,
-  "fd_payout_x": 15.63,
+  "est_prob": 0.029876540539310256,
+  "fd_payout_x": 15.37,
   "legs_detail": [
    {
     "id": "401909303:7890041:742.197437049",
@@ -140966,22 +140749,6 @@
     "close_odds": -1000
    },
    {
-    "id": "401909296:7901023:742.197434444",
-    "event": "401909296",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "away",
-    "line": 8.5,
-    "pick": "New York Knicks +8.5",
-    "market": "Alternate Spread",
-    "odds": -1000,
-    "prob": 0.8925,
-    "raw_prob": 0.8925,
-    "game": "New York Knicks at Indiana Pacers",
-    "result": null,
-    "close_odds": -1000
-   },
-   {
     "id": "401909299:7891067:742.197436497",
     "event": "401909299",
     "sport": "nba",
@@ -141012,22 +140779,6 @@
     "game": "Oklahoma City Thunder at LA Clippers",
     "result": null,
     "close_odds": -950
-   },
-   {
-    "id": "401909297:7883300:742.197434881",
-    "event": "401909297",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 6.5,
-    "pick": "Orlando Magic +6.5",
-    "market": "Alternate Spread",
-    "odds": -900,
-    "prob": 0.8821,
-    "raw_prob": 0.8821,
-    "game": "Milwaukee Bucks at Orlando Magic",
-    "result": null,
-    "close_odds": -900
    },
    {
     "id": "401909302:7890870:742.197436952",
@@ -141126,6 +140877,22 @@
     "close_odds": -1000
    },
    {
+    "id": "401869937:12197189:742.196715959",
+    "event": "401869937",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 35.5,
+    "ou": "over",
+    "pick": "Over (35.5)",
+    "market": "Alternate Total Points",
+    "odds": -1000,
+    "prob": 0.8727,
+    "raw_prob": 0.8727,
+    "game": "Arkansas State Red Wolves at Coastal Carolina Chanticleers",
+    "result": null,
+    "close_odds": -1000
+   },
+   {
     "id": "401861967:12386719:742.196714807",
     "event": "401861967",
     "sport": "college-football",
@@ -141174,22 +140941,6 @@
     "close_odds": -750
    },
    {
-    "id": "401858293:48035530:742.196714548",
-    "event": "401858293",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "home",
-    "line": 13.5,
-    "pick": "Pittsburgh (+13.5)",
-    "market": "Alternate Spread",
-    "odds": -850,
-    "prob": 0.8683,
-    "raw_prob": 0.8683,
-    "game": "Florida State Seminoles at Pittsburgh Panthers",
-    "result": null,
-    "close_odds": -850
-   },
-   {
     "id": "401858296:12215025:742.196715225",
     "event": "401858296",
     "sport": "college-football",
@@ -141202,6 +140953,22 @@
     "prob": 0.8659,
     "raw_prob": 0.8659,
     "game": "Duke Blue Devils at Miami Hurricanes",
+    "result": null,
+    "close_odds": -850
+   },
+   {
+    "id": "401862829:12194337:742.196715858",
+    "event": "401862829",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 64.5,
+    "ou": "under",
+    "pick": "Under (64.5)",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8659,
+    "raw_prob": 0.8659,
+    "game": "UAB Blazers at Temple Owls",
     "result": null,
     "close_odds": -850
    },
@@ -141270,6 +141037,22 @@
     "close_odds": -850
    },
    {
+    "id": "401862825:48093741:742.196715786",
+    "event": "401862825",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": 4.5,
+    "pick": "East Carolina (+4.5)",
+    "market": "Alternate Spread",
+    "odds": -950,
+    "prob": 0.8652,
+    "raw_prob": 0.8652,
+    "game": "East Carolina Pirates at Charlotte 49ers",
+    "result": null,
+    "close_odds": -950
+   },
+   {
     "id": "401858522:48094179:742.196715274",
     "event": "401858522",
     "sport": "college-football",
@@ -141310,12 +141093,12 @@
     "line": 1.5,
     "pick": "New York Rangers +1.5",
     "market": "Alternate Puck Line",
-    "odds": -600,
-    "prob": 0.8252,
-    "raw_prob": 0.8252,
+    "odds": -650,
+    "prob": 0.8297,
+    "raw_prob": 0.8297,
     "game": "New York Rangers at Vancouver Canucks",
     "result": null,
-    "close_odds": -600
+    "close_odds": -650
    },
    {
     "id": "401892707:15334251:742.197470876",
@@ -141334,7 +141117,7 @@
     "close_odds": -480
    }
   ],
-  "logged": "2026-11-13 23:52 UTC",
+  "logged": "2026-11-14 00:01 UTC",
   "locked": false,
   "result": null,
   "favorite": false
