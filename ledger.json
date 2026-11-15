@@ -1,5 +1,5 @@
 {
- "updated_et": "Sun Nov 15, 6:45 PM ET",
+ "updated_et": "Sun Nov 15, 6:54 PM ET",
  "stake": "1 unit flat per ticket at the posted FanDuel price",
  "overall": {
   "tickets": 844,
@@ -1193,12 +1193,12 @@
    "roi_pct": -0.69
   },
   "nfl": {
-   "legs": 228,
-   "won": 170,
-   "win_pct": 0.7456,
-   "avg_est": 0.7211,
-   "units": 10.56,
-   "roi_pct": 4.63
+   "legs": 230,
+   "won": 172,
+   "win_pct": 0.7478,
+   "avg_est": 0.7222,
+   "units": 10.79,
+   "roi_pct": 4.69
   },
   "mlb": {
    "legs": 10,
@@ -1210,53 +1210,53 @@
   }
  },
  "legs_as_singles_all": {
-  "legs": 2721,
-  "won": 2049,
-  "win_pct": 0.753,
+  "legs": 2723,
+  "won": 2051,
+  "win_pct": 0.7532,
   "avg_est": 0.7637,
-  "units": -157.75,
-  "roi_pct": -5.8
+  "units": -157.52,
+  "roi_pct": -5.78
  },
  "model_compare": {
   "v1 (live) top leg per game": {
-   "legs": 703,
-   "won": 596,
-   "win_pct": 0.8478,
+   "legs": 704,
+   "won": 597,
+   "win_pct": 0.848,
    "avg_est": 0.8547,
-   "units": -31.54,
-   "roi_pct": -4.49
+   "units": -31.43,
+   "roi_pct": -4.46
   },
   "v2 (shadow) top leg per game": {
-   "legs": 703,
-   "won": 612,
-   "win_pct": 0.8706,
+   "legs": 704,
+   "won": 613,
+   "win_pct": 0.8707,
    "avg_est": 0.885,
-   "units": -15.98,
-   "roi_pct": -2.27
+   "units": -15.87,
+   "roi_pct": -2.25
   },
   "note": "Same games, same FanDuel prices, graded the same way; each model\u2019s single best leg per game as a 1-unit single. Published tickets so far all used v1."
  },
  "separate_boards": {
   "Live picks": {
-   "tickets": 890,
-   "won": 737,
-   "lost": 153,
+   "tickets": 892,
+   "won": 738,
+   "lost": 154,
    "void": 0,
-   "win_pct": 0.8281,
-   "units": 59.68,
-   "roi_pct": 6.71,
+   "win_pct": 0.8274,
+   "units": 58.85,
+   "roi_pct": 6.6,
    "avg_payout_x": 1.29,
    "avg_est": 0.8693,
    "no_odds": 0,
    "by_type": {
     "single": {
-     "tickets": 890,
-     "won": 737,
-     "lost": 153,
+     "tickets": 892,
+     "won": 738,
+     "lost": 154,
      "void": 0,
-     "win_pct": 0.8281,
-     "units": 59.68,
-     "roi_pct": 6.71,
+     "win_pct": 0.8274,
+     "units": 58.85,
+     "roi_pct": 6.6,
      "avg_payout_x": 1.29,
      "avg_est": 0.8693
     }
@@ -1444,7 +1444,7 @@
    "2026-10-25",
    "2026-11-15"
   ],
-  "legs_graded": 5623,
+  "legs_graded": 5631,
   "min_n": 10,
   "pinnacle": {
    "grid": [
@@ -2183,101 +2183,101 @@
    "note": "Fit on older dates, scored on newer dates. Top leg per game = 1-unit single at the last pregame FanDuel price.",
    "split_50_50": {
     "train_before": "2026-11-05",
-    "test_legs": 2812,
+    "test_legs": 2820,
     "v1 raw (live)": {
-     "brier": 0.1575,
-     "logloss": 0.4919,
+     "brier": 0.1578,
+     "logloss": 0.4926,
      "top_leg_per_game": {
-      "n": 459,
-      "win_pct": 0.8562,
-      "units": -8.86,
-      "roi_pct": -1.93
+      "n": 461,
+      "win_pct": 0.8568,
+      "units": -8.59,
+      "roi_pct": -1.86
      }
     },
     "isotonic by sport x market": {
-     "brier": 0.1576,
-     "logloss": 0.4933,
+     "brier": 0.1579,
+     "logloss": 0.494,
      "top_leg_per_game": {
-      "n": 459,
-      "win_pct": 0.854,
-      "units": -8.34,
-      "roi_pct": -1.82
+      "n": 461,
+      "win_pct": 0.8547,
+      "units": -8.07,
+      "roi_pct": -1.75
      }
     },
     "Platt by sport": {
-     "brier": 0.1574,
-     "logloss": 0.492,
+     "brier": 0.1577,
+     "logloss": 0.4926,
      "top_leg_per_game": {
-      "n": 459,
-      "win_pct": 0.8562,
-      "units": -8.86,
-      "roi_pct": -1.93
+      "n": 461,
+      "win_pct": 0.8568,
+      "units": -8.59,
+      "roi_pct": -1.86
      }
     },
     "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
      "top_leg_per_game": {
-      "n": 459,
-      "win_pct": 0.8562,
-      "units": -8.79,
-      "roi_pct": -1.92
+      "n": 461,
+      "win_pct": 0.8568,
+      "units": -8.53,
+      "roi_pct": -1.85
      }
     },
     "v1 ranked by prob + 0.5 x edge": {
      "top_leg_per_game": {
-      "n": 459,
-      "win_pct": 0.8497,
-      "units": -8.62,
-      "roi_pct": -1.88
+      "n": 461,
+      "win_pct": 0.8503,
+      "units": -8.36,
+      "roi_pct": -1.81
      }
     }
    },
    "split_70_30": {
     "train_before": "2026-11-09",
-    "test_legs": 1487,
+    "test_legs": 1495,
     "v1 raw (live)": {
-     "brier": 0.1497,
-     "logloss": 0.4724,
+     "brier": 0.1503,
+     "logloss": 0.4738,
      "top_leg_per_game": {
-      "n": 209,
-      "win_pct": 0.8612,
-      "units": -5.14,
-      "roi_pct": -2.46
+      "n": 211,
+      "win_pct": 0.8626,
+      "units": -4.87,
+      "roi_pct": -2.31
      }
     },
     "isotonic by sport x market": {
-     "brier": 0.1512,
-     "logloss": 0.4778,
+     "brier": 0.1518,
+     "logloss": 0.4792,
      "top_leg_per_game": {
-      "n": 209,
-      "win_pct": 0.8708,
-      "units": -2.05,
-      "roi_pct": -0.98
+      "n": 211,
+      "win_pct": 0.872,
+      "units": -1.78,
+      "roi_pct": -0.84
      }
     },
     "Platt by sport": {
-     "brier": 0.1508,
-     "logloss": 0.4759,
+     "brier": 0.1514,
+     "logloss": 0.4772,
      "top_leg_per_game": {
-      "n": 209,
-      "win_pct": 0.8612,
-      "units": -5.14,
-      "roi_pct": -2.46
+      "n": 211,
+      "win_pct": 0.8626,
+      "units": -4.87,
+      "roi_pct": -2.31
      }
     },
     "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
      "top_leg_per_game": {
-      "n": 209,
-      "win_pct": 0.866,
-      "units": -4.01,
-      "roi_pct": -1.92
+      "n": 211,
+      "win_pct": 0.8673,
+      "units": -3.75,
+      "roi_pct": -1.78
      }
     },
     "v1 ranked by prob + 0.5 x edge": {
      "top_leg_per_game": {
-      "n": 209,
-      "win_pct": 0.8565,
-      "units": -4.1,
-      "roi_pct": -1.96
+      "n": 211,
+      "win_pct": 0.8578,
+      "units": -3.83,
+      "roi_pct": -1.82
      }
     }
    }
@@ -2294,6 +2294,6 @@
   "6+ legs tickets: ROI -32.4% on 581.",
   "3-5 legs tickets: ROI -34.0% on 170.",
   "2-leg tickets: ROI -14.4% on 65.",
-  "Model check (singles, same games): v1 -4.5% ROI on 703 legs vs v2 -2.3% on 703. Neither beats FanDuel's vig on its own."
+  "Model check (singles, same games): v1 -4.5% ROI on 704 legs vs v2 -2.2% on 704. Neither beats FanDuel's vig on its own."
  ]
 }
