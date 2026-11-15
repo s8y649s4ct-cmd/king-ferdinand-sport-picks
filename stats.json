@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-15 05:26 UTC",
- "graded_legs": 2616,
+ "updated": "2026-11-15 05:37 UTC",
+ "graded_legs": 2623,
  "calibration": {
   "85-90%": {
-   "n": 1290,
-   "wins": 1114,
+   "n": 1295,
+   "wins": 1115,
    "pred": 0.872,
-   "hit": 0.864
+   "hit": 0.861
   },
   "75-80%": {
    "n": 188,
@@ -15,10 +15,10 @@
    "hit": 0.819
   },
   "80-85%": {
-   "n": 453,
-   "wins": 383,
+   "n": 455,
+   "wins": 384,
    "pred": 0.825,
-   "hit": 0.845
+   "hit": 0.844
   },
   "65-70%": {
    "n": 26,
@@ -107,10 +107,10 @@
    "hit": 0.75
   },
   "college-football": {
-   "n": 730,
-   "wins": 589,
-   "pred": 0.82,
-   "hit": 0.807
+   "n": 735,
+   "wins": 590,
+   "pred": 0.821,
+   "hit": 0.803
   },
   "nba": {
    "n": 906,
@@ -119,10 +119,10 @@
    "hit": 0.77
   },
   "nhl": {
-   "n": 466,
-   "wins": 294,
-   "pred": 0.672,
-   "hit": 0.631
+   "n": 468,
+   "wins": 295,
+   "pred": 0.673,
+   "hit": 0.63
   },
   "mlb": {
    "n": 10,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 1185,
-   "wins": 967,
+   "n": 1189,
+   "wins": 968,
    "pred": 0.825,
-   "hit": 0.816
+   "hit": 0.814
   },
   "spread": {
-   "n": 1148,
-   "wins": 852,
+   "n": 1151,
+   "wins": 853,
    "pred": 0.755,
-   "hit": 0.742
+   "hit": 0.741
   },
   "dc": {
    "n": 71,
@@ -212,15 +212,15 @@
   }
  },
  "parlays": {
-  "graded": 781,
+  "graded": 784,
   "won": 152,
-  "expected": 160.56,
-  "pending": 20,
+  "expected": 161.41,
+  "pending": 17,
   "by_type": {
    "ladder": {
-    "graded": 471,
+    "graded": 472,
     "won": 119,
-    "expected": 126.59
+    "expected": 127.29
    },
    "best": {
     "graded": 20,
@@ -228,15 +228,15 @@
     "expected": 4.06
    },
    "lottery": {
-    "graded": 290,
+    "graded": 292,
     "won": 29,
-    "expected": 29.79
+    "expected": 29.94
    }
   },
   "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
  },
  "clv": {
-  "legs_tracked": 2609,
+  "legs_tracked": 2613,
   "avg_clv_pts": -0.05,
   "beat_close": 608,
   "worse_than_close": 774
