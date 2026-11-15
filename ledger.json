@@ -1,5 +1,5 @@
 {
- "updated_et": "Sun Nov 15, 10:36 AM ET",
+ "updated_et": "Sun Nov 15, 10:44 AM ET",
  "stake": "1 unit flat per ticket at the posted FanDuel price",
  "overall": {
   "tickets": 826,
@@ -991,6 +991,66 @@
    ],
    "result": "loss",
    "payout_x": 1.591
+  },
+  {
+   "date": "2026-11-15",
+   "id": "A1",
+   "tier": "Thin payout, two NFL Unders in domes (NFL + NFL)",
+   "legs": [
+    "Under (54.5)",
+    "Under (71.5)"
+   ],
+   "leg_results": [
+    null,
+    null
+   ],
+   "result": null,
+   "payout_x": 1.257
+  },
+  {
+   "date": "2026-11-15",
+   "id": "A2",
+   "tier": "Thin payout, two NBA road favorites getting points (NBA + NBA)",
+   "legs": [
+    "New York Knicks +10.5",
+    "Houston Rockets +6.5"
+   ],
+   "leg_results": [
+    null,
+    null
+   ],
+   "result": null,
+   "payout_x": 1.257
+  },
+  {
+   "date": "2026-11-15",
+   "id": "A3",
+   "tier": "Thin payout, NBA favorite + NFL dome Under (NBA + NFL)",
+   "legs": [
+    "San Antonio Spurs -2.5",
+    "Under (61.5)"
+   ],
+   "leg_results": [
+    null,
+    null
+   ],
+   "result": null,
+   "payout_x": 1.255
+  },
+  {
+   "date": "2026-11-15",
+   "id": "B",
+   "tier": "Bigger payout, smaller cushions (NBA + NBA; reuses the Knicks game from A2)",
+   "legs": [
+    "New York Knicks +4.5",
+    "Los Angeles Lakers +6.5"
+   ],
+   "leg_results": [
+    null,
+    null
+   ],
+   "result": null,
+   "payout_x": 1.778
   }
  ],
  "odds_coverage": "826 graded posted tickets; every one had its FanDuel price stored at posting (ladder/Best/Lottery: ticket payout; 2-leg and Value: leg odds), so ROI covers the full history. Researched 2-leg options before 2026-11-08 were not archived in machine-readable form and are not in the ledger.",
