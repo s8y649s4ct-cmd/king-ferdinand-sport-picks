@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-15 20:30 UTC",
- "graded_legs": 2659,
+ "updated": "2026-11-15 20:40 UTC",
+ "graded_legs": 2668,
  "calibration": {
   "85-90%": {
-   "n": 1327,
-   "wins": 1142,
+   "n": 1331,
+   "wins": 1145,
    "pred": 0.872,
-   "hit": 0.861
+   "hit": 0.86
   },
   "75-80%": {
-   "n": 188,
-   "wins": 154,
+   "n": 189,
+   "wins": 155,
    "pred": 0.785,
-   "hit": 0.819
+   "hit": 0.82
   },
   "80-85%": {
-   "n": 458,
-   "wins": 386,
+   "n": 461,
+   "wins": 389,
    "pred": 0.825,
-   "hit": 0.843
+   "hit": 0.844
   },
   "65-70%": {
    "n": 26,
@@ -39,10 +39,10 @@
    "hit": 0.945
   },
   "70-75%": {
-   "n": 73,
-   "wins": 60,
-   "pred": 0.73,
-   "hit": 0.822
+   "n": 74,
+   "wins": 61,
+   "pred": 0.731,
+   "hit": 0.824
   },
   "40-45%": {
    "n": 55,
@@ -113,10 +113,10 @@
    "hit": 0.803
   },
   "nba": {
-   "n": 906,
-   "wins": 698,
-   "pred": 0.79,
-   "hit": 0.77
+   "n": 915,
+   "wins": 706,
+   "pred": 0.791,
+   "hit": 0.772
   },
   "nhl": {
    "n": 469,
@@ -169,16 +169,16 @@
  },
  "by_market": {
   "total": {
-   "n": 1211,
-   "wins": 988,
+   "n": 1213,
+   "wins": 989,
    "pred": 0.826,
-   "hit": 0.816
+   "hit": 0.815
   },
   "spread": {
-   "n": 1165,
-   "wins": 863,
+   "n": 1170,
+   "wins": 868,
    "pred": 0.756,
-   "hit": 0.741
+   "hit": 0.742
   },
   "dc": {
    "n": 71,
@@ -205,22 +205,22 @@
    "hit": 0.491
   },
   "prop": {
-   "n": 99,
-   "wins": 23,
-   "pred": 0.276,
-   "hit": 0.232
+   "n": 101,
+   "wins": 25,
+   "pred": 0.288,
+   "hit": 0.248
   }
  },
  "parlays": {
-  "graded": 787,
+  "graded": 788,
   "won": 154,
-  "expected": 162.36,
-  "pending": 45,
+  "expected": 162.74,
+  "pending": 44,
   "by_type": {
    "ladder": {
-    "graded": 475,
+    "graded": 476,
     "won": 121,
-    "expected": 128.24
+    "expected": 128.62
    },
    "best": {
     "graded": 20,
@@ -238,7 +238,7 @@
  "clv": {
   "legs_tracked": 2696,
   "avg_clv_pts": -0.05,
-  "beat_close": 637,
+  "beat_close": 638,
   "worse_than_close": 802
  },
  "note": "Calibration factor applied to a probability bucket once it has 30+ graded legs."
