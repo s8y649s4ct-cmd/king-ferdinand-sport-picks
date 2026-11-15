@@ -3975,7 +3975,7 @@
    "pin_ev": 0.02,
    "conf": "Low",
    "tier": "short",
-   "bt_note": null
+   "bt_note": "Posted single tickets so far: 26-2, +2.3 units (+8.1% ROI)"
   },
   {
    "n": 2,
@@ -4000,7 +4000,7 @@
    "pin_ev": 0.018,
    "conf": "Low",
    "tier": "short",
-   "bt_note": null
+   "bt_note": "Posted 2-leg tickets so far: 44-21, -9.4 units (-14.4% ROI)"
   },
   {
    "n": 3,
@@ -4026,7 +4026,7 @@
    "pin_ev": 0.003,
    "conf": "Low",
    "tier": "short",
-   "bt_note": null
+   "bt_note": "Posted 3-5 legs tickets so far: 47-119, -53.9 units (-32.5% ROI)"
   },
   {
    "n": 5,
@@ -4054,7 +4054,7 @@
    "pin_ev": null,
    "conf": "Low",
    "tier": "long",
-   "bt_note": null
+   "bt_note": "Posted 3-5 legs tickets so far: 47-119, -53.9 units (-32.5% ROI)"
   },
   {
    "n": 6,
@@ -4083,7 +4083,7 @@
    "pin_ev": -0.195,
    "conf": "Low",
    "tier": "long",
-   "bt_note": null
+   "bt_note": "Posted 6+ legs tickets so far: 64-503, -196.2 units (-34.6% ROI)"
   }
  ],
  "lottery": [
@@ -4113,7 +4113,7 @@
    "pin_ev": -0.188,
    "conf": "Low",
    "tier": "long",
-   "bt_note": null
+   "bt_note": "Posted 3-5 legs tickets so far: 47-119, -53.9 units (-32.5% ROI)"
   },
   {
    "label": "~100x",
@@ -4140,7 +4140,7 @@
    "pin_ev": -0.18,
    "conf": "Low",
    "tier": "long",
-   "bt_note": null
+   "bt_note": "Posted 3-5 legs tickets so far: 47-119, -53.9 units (-32.5% ROI)"
   },
   {
    "label": "~500x",
@@ -4168,7 +4168,7 @@
    "pin_ev": -0.337,
    "conf": "Low",
    "tier": "long",
-   "bt_note": null
+   "bt_note": "Posted 3-5 legs tickets so far: 47-119, -53.9 units (-32.5% ROI)"
   },
   {
    "label": "~1,000x",
@@ -4197,7 +4197,7 @@
    "pin_ev": -0.256,
    "conf": "Low",
    "tier": "long",
-   "bt_note": null
+   "bt_note": "Posted 6+ legs tickets so far: 64-503, -196.2 units (-34.6% ROI)"
   },
   {
    "label": "6-leg best-chance lottery",
@@ -4226,7 +4226,7 @@
    "pin_ev": 0.027,
    "conf": "Low",
    "tier": "long",
-   "bt_note": null
+   "bt_note": "Posted 6+ legs tickets so far: 64-503, -196.2 units (-34.6% ROI)"
   }
  ],
  "best": {
@@ -4252,7 +4252,7 @@
   "pin_ev": 0.15,
   "conf": "Low",
   "tier": "long",
-  "bt_note": null
+  "bt_note": "Posted 3-5 legs tickets so far: 47-119, -53.9 units (-32.5% ROI)"
  },
  "started": [],
  "games": [
@@ -4262,7 +4262,7 @@
    "name": "New England Patriots at Detroit Lions",
    "start": "2026-11-15T14:30Z",
    "state": "in",
-   "status": "12:06 - 2nd",
+   "status": "11:30 - 2nd",
    "venue": "FC Bayern Munich Stadium",
    "indoor": false,
    "city": {
@@ -10324,7 +10324,7 @@
   "pin_ev": 0.15,
   "conf": "Low",
   "tier": "long",
-  "bt_note": null
+  "bt_note": "Posted 3-5 legs tickets so far: 47-119, -53.9 units (-32.5% ROI)"
  },
  "note": "3396 FanDuel-priced candidates (ml, prop, spread, total) across 26 games; best single market per game kept (odds -950 to +300); 26 not-yet-started games -> parlays up to 6 legs.",
  "model_check": {
@@ -10408,21 +10408,21 @@
    "sharp_covered": 2244,
    "sharp_coverage_pct": 66.1,
    "power": {
-    "nhl": {
-     "teams": 10,
-     "games": 207
-    },
     "college-football": {
      "teams": 2,
      "games": 18
     },
-    "nfl": {
-     "teams": 22,
-     "games": 186
-    },
     "nba": {
      "teams": 18,
      "games": 225
+    },
+    "nhl": {
+     "teams": 10,
+     "games": 207
+    },
+    "nfl": {
+     "teams": 22,
+     "games": 186
     }
    },
    "injury_adjusted_teams": 17
@@ -10455,9 +10455,21 @@
  "value": [],
  "value_rule": {
   "threshold": 0.06,
-  "train": null,
-  "test": null,
-  "split": null,
+  "train": {
+   "n": 11,
+   "won": 10,
+   "win_pct": 0.9091,
+   "units": 1.36,
+   "roi_pct": 12.33
+  },
+  "test": {
+   "n": 13,
+   "won": 12,
+   "win_pct": 0.9231,
+   "units": 1.47,
+   "roi_pct": 11.32
+  },
+  "split": "2026-11-04",
   "text": "A single is listed only when Pinnacle's no-vig fair chance beats FanDuel's break-even chance (the price including vig) by at least 6 points. The threshold was picked on the older half of graded legs and checked on the newer half (backtest.json). Props are excluded (no Pinnacle price). Zero picks is a normal day."
  },
  "value_record": {
