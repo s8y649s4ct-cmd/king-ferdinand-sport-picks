@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 17:33 UTC",
+ "updated": "2026-11-15 17:44 UTC",
  "date": "2026-11-15",
  "bar": {
   "leg": 0.92,
@@ -13,7 +13,7 @@
    "game": "Pittsburgh Steelers at Cincinnati Bengals",
    "sport": "nfl",
    "start": "2026-11-16T01:20Z",
-   "calibrated": 0.891
+   "calibrated": 0.897
   },
   {
    "pick": "Atlanta Hawks +8.5",
@@ -30,13 +30,6 @@
    "calibrated": 0.866
   },
   {
-   "pick": "Under 234.5",
-   "game": "Charlotte Hornets at LA Clippers",
-   "sport": "nba",
-   "start": "2026-11-15T21:30Z",
-   "calibrated": 0.866
-  },
-  {
    "pick": "Houston Rockets +7.5",
    "game": "Houston Rockets at Washington Wizards",
    "sport": "nba",
@@ -49,6 +42,13 @@
    "sport": "nhl",
    "start": "2026-11-16T01:00Z",
    "calibrated": 0.853
+  },
+  {
+   "pick": "Edmonton Oilers +1.5",
+   "game": "Edmonton Oilers at Philadelphia Flyers",
+   "sport": "nhl",
+   "start": "2026-11-16T00:30Z",
+   "calibrated": 0.852
   }
  ],
  "record": {
@@ -58,41 +58,41 @@
   "win_pct": 0.833
  },
  "backtest": {
-  "tickets": 12,
-  "won": 10,
-  "win_pct": 0.833,
-  "avg_joint": 0.906,
-  "days": 21,
+  "tickets": 13,
+  "won": 11,
+  "win_pct": 0.846,
+  "avg_joint": 0.904,
+  "days": 22,
   "grid": [
    {
     "leg_bar": 0.8,
-    "tickets": 12,
-    "won": 10,
-    "win_pct": 0.833
+    "tickets": 13,
+    "won": 11,
+    "win_pct": 0.846
    },
    {
     "leg_bar": 0.86,
-    "tickets": 12,
-    "won": 10,
-    "win_pct": 0.833
+    "tickets": 13,
+    "won": 11,
+    "win_pct": 0.846
    },
    {
     "leg_bar": 0.88,
-    "tickets": 12,
-    "won": 10,
-    "win_pct": 0.833
+    "tickets": 13,
+    "won": 11,
+    "win_pct": 0.846
    },
    {
     "leg_bar": 0.9,
-    "tickets": 12,
-    "won": 10,
-    "win_pct": 0.833
+    "tickets": 13,
+    "won": 11,
+    "win_pct": 0.846
    },
    {
     "leg_bar": 0.92,
-    "tickets": 12,
-    "won": 10,
-    "win_pct": 0.833
+    "tickets": 13,
+    "won": 11,
+    "win_pct": 0.846
    }
   ],
   "tickets_detail": [
@@ -132,28 +132,33 @@
     "won": true
    },
    {
-    "date": "2026-11-07",
-    "joint": 0.894,
+    "date": "2026-10-31",
+    "joint": 0.85,
     "won": true
    },
    {
     "date": "2026-11-07",
-    "joint": 0.893,
+    "joint": 0.902,
+    "won": true
+   },
+   {
+    "date": "2026-11-07",
+    "joint": 0.901,
     "won": false
    },
    {
     "date": "2026-11-07",
-    "joint": 0.891,
+    "joint": 0.9,
     "won": true
    },
    {
     "date": "2026-11-07",
-    "joint": 0.89,
+    "joint": 0.898,
     "won": true
    },
    {
     "date": "2026-11-07",
-    "joint": 0.878,
+    "joint": 0.885,
     "won": false
    }
   ]
