@@ -14,4 +14,5 @@ timeout 300 python3 extra2.py || echo "extra2.py failed; TD / NBA 3s & rebounds 
 timeout 120 python3 twoleg.py || echo "twoleg.py failed; 2-leg board left as-is"
 timeout 300 python3 record.py || echo "record.py failed; enhanced record left as-is"
 timeout 120 python3 md.py || echo "md.py failed; Maryland links left as-is"
+python3 oddsrule.py --enforce || { echo "odds rule check failed; not publishing"; exit 1; }  # 2026-11-15 hard rule: legs/tickets -950..+1,000,000
 ./publish.sh

@@ -47,7 +47,8 @@ for lb in (0.80,0.86,0.88,0.90,0.92):
 # today's board
 B=calib(); LEGS=P.get('legs',{})
 def started(r): return datetime.datetime.fromisoformat(r['start'].replace('Z','+00:00'))<=now
-today=[r for r in SH.values() if r.get('date')==DATE and r.get('result') is None and r.get('start') and not started(r)]
+import oddsrule  # 2026-11-15 hard rule: legs -950..+1,000,000
+today=[r for r in SH.values() if r.get('date')==DATE and r.get('result') is None and r.get('start') and not started(r) and oddsrule.leg_ok(r.get('odds_last') or r.get('odds_first'))]
 def link(ids): return 'https://sportsbook.fanduel.com/addToBetslip?'+'&'.join(f"marketId%5B{i}%5D={x.split(':')[2]}&selectionId%5B{i}%5D={x.split(':')[1]}" for i,x in enumerate(ids))
 def leg(r,c): return {'id':r['id'],'event':r['event'],'sport':r['sport'],'pick':r['pick'],'market':r.get('market'),'game':r['game'],'start':r['start'],
   'odds':r.get('odds_last') or r.get('odds_first'),'model':round(p1(r),4),'calibrated':round(c,4),'fd_link':link([r['id']]),'result':None,
@@ -55,6 +56,7 @@ def leg(r,c): return {'id':r['id'],'event':r['event'],'sport':r['sport'],'pick':
 board=[]
 for (a,c1),(b,c2),j in pairs(today,B):
   if any(len(r['id'].split(':'))<3 for r in (a,b)): continue
+  if not oddsrule.ticket_ok([a.get('odds_last') or a.get('odds_first'),b.get('odds_last') or b.get('odds_first')]): continue
   board.append({'id':f"{DATE}-2L-{a['id']}-{b['id']}",'date':DATE,'n':2,'joint':round(j,4),'legs':[leg(a,c1),leg(b,c2)],'fd_link':link([a['id'],b['id']])})
 nearmiss=sorted([{'pick':r['pick'],'game':r['game'],'sport':r['sport'],'start':r['start'],'calibrated':round(cp(r,B),3)} for r in today if r.get('v1_top')],key=lambda x:-x['calibrated'])[:6]
 # history: tickets added while pregame; unlocked ones that drop below the bar are removed; lock at first leg start; grade from shadow

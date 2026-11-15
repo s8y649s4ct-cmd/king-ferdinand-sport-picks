@@ -281,7 +281,8 @@ for L in nb:
   if L['prob']>L['fd_prob']+0.03: L['prob']=round(max(.01,L['fd_prob']+0.03),4); L['why']+='; capped at FanDuel no-vig +3 pts (big model edges have not held up)'
 ncov.update(players_matched=len({L['player'] for L in nb}),excluded_injury=sorted(excl),unmatched=len(nomatch),lines_scored=len(nb))
 # 2026-10-29 review: rebound UNDERS hit 22/42 (52%) here and 9/20 in Player Props vs ~63% est after haircut - excluded.
-cand=[L for L in nb if -1000<=L['odds']<=150 and L['prob']>=0.6 and L['prob']+L.get('haircut',0)-L['fd_prob']>=-0.02 and not(L['stat']=='totalRebounds' and L['ou']=='under')]  # FD-gap check before the haircut
+import oddsrule  # 2026-11-15 hard rule
+cand=[L for L in nb if oddsrule.LEG_MIN<=L['odds']<=150 and L['prob']>=0.6 and L['prob']+L.get('haircut',0)-L['fd_prob']>=-0.02 and not(L['stat']=='totalRebounds' and L['ou']=='under')]  # FD-gap check before the haircut
 byp={}
 for L in cand:
   if L['player'] not in byp or (L['prob'],L['odds'])>(byp[L['player']]['prob'],byp[L['player']]['odds']): byp[L['player']]=L
@@ -338,5 +339,7 @@ try:
         _ok=set(_keep); _pt=[t for t in (_prev[_k].get('parlays') or []) if all((x if isinstance(x,str) else x.get('id')) in _ok for x in (t.get('legs') or []))]
         out[_k].update({'legs':_keep,'parlays':_pt,'coverage':dict(_prev[_k].get('coverage') or {},stale_since=_prev.get('updated'))}); print('kept last',_k,'board (fetch empty):',len(_keep),'legs',len(_pt),'tix')
 except Exception as _e: print('keep-last check failed',_e)
+for _k in ('td','nba3r'):
+  if isinstance(out.get(_k),dict): print('odds rule removed',_k,oddsrule.scrub_section(out[_k]))
 json.dump(out,open('extra2.json','w'),indent=1)
 print('TD games',len(tpairs),'sel',tcov['fd_selections'],'scored',len(td),'pool',len(tpool),'tix',len(td_tix),'pin',tcov['pinnacle_priced'],'| NBA games',len(npairs),'lines',ncov['fd_lines'],'scored',len(nb),'pool',len(npool),'tix',len(nb_tix),'pin',ncov['pinnacle_priced'])

@@ -12,7 +12,8 @@ DATE=cfg.get('date_override') or (ET-datetime.timedelta(hours=1)).strftime('%Y-%
 NEXT=(datetime.date.fromisoformat(DATE)+datetime.timedelta(days=1)).strftime('%Y-%m-%d')
 # manual team estimates only apply to the slate they were written for
 if cfg.get('date')!=DATE: cfg['models']={}
-FLOOR,CEIL=cfg['odds_floor'],cfg['odds_ceiling']; K='FhMFpcPWXMeyZxOx'; FD='https://sbapi.pa.sportsbook.fanduel.com/api/'; FDNJ='https://sbapi.nj.sportsbook.fanduel.com/api/'
+import oddsrule  # 2026-11-15 10:13 user hard rule: legs -950..+1,000,000, tickets too
+FLOOR,CEIL=max(cfg['odds_floor'],oddsrule.LEG_MIN),min(cfg['odds_ceiling'],oddsrule.LEG_MAX); K='FhMFpcPWXMeyZxOx'; FD='https://sbapi.pa.sportsbook.fanduel.com/api/'; FDNJ='https://sbapi.nj.sportsbook.fanduel.com/api/'
 os.makedirs('.cache',exist_ok=True)
 def load(f,d):
   try: return json.load(open(f))
@@ -582,5 +583,6 @@ out['model_check']={**MC,'live_model':LIVE,'v2_info':V2INFO,'clv_v1_history':CLV
   'sharp_filter':{'active':bool(cfg.get('v2',{}).get('sharp_filter',False)),'note':'Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.','dropped':len(DROPPED),'of':len(ALLC),'rule':f"Legs dropped when FanDuel's price implies a chance more than {-cfg.get('v2',{}).get('filter_edge',-0.03)*100:.0f} pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
     'examples':[f"{L['pick']} ({L['game']}) {L['odds']:+d}: FanDuel implies {v2.imp(L['odds'])*100:.1f}% vs Pinnacle fair {L['sharp_prob']*100:.1f}%" for L in _ex]}}
 out['favorite_rule']="Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with a raw (un-boosted) estimated hit chance of 50% or more."
+_rl=oddsrule.scrub_picks(out); print('odds rule removed (legs, tickets):',_rl)
 json.dump(out,open('picks.json','w'),indent=1)
 print('cands',len(cands),'games w/ leg',len(best),'pool',len(pool),'parlays',len(pars),'best',bestp and bestp['n'],'kinds',kinds)

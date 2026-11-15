@@ -149,7 +149,8 @@ def parse_game_markets(g,mk,live):
         'pick':pick,'odds':o,'fd_prob':round(min(p,.999),4),'fd_market_id':m['marketId'],'fd_selection_id':r['selectionId'],'fd_event':m['eventId']})
       out.append(L)
   return out
-LIVE_FLOOR,LIVE_CEIL,MOVE=-1000,200,0.08
+import oddsrule  # 2026-11-15 hard rule: no leg -1000 or shorter
+LIVE_FLOOR,LIVE_CEIL,MOVE=max(-1000,oddsrule.LEG_MIN),200,0.08
 snap=load('live.snap.json',{}); newsnap={}
 inplay=[]
 for et in (1,6423,7522,7524):
@@ -341,7 +342,7 @@ for g,L in raw:
   L.update({'prob':round(max(.01,min(.97,p)),4),'emp_prob':round(pemp,4),'n_games':len(rc),'injury':inj or 'none listed','why':'; '.join(R),'asof':NOW,'team':g['teams'][side]['name']})
   props.append(L)
 pcov['players_matched']=len({L['player'] for L in props}); pcov['props_scored']=len(props); pcov['excluded_injury']=sorted(excl_inj); pcov['unmatched_players']=len(nomatch)
-P_FLOOR,P_CEIL=-1000,150
+P_FLOOR,P_CEIL=max(-1000,oddsrule.LEG_MIN),150
 # 2026-10-29 review: rebound UNDERS hit 9/20 (45%) here and 22/42 in the NBA tab vs ~63% est even after the haircut - excluded.
 pp=[L for L in props if P_FLOOR<=L['odds']<=P_CEIL and L['prob']>=0.6 and L['prob']+L.get('haircut',0)-L['fd_prob']>=-0.02 and not(L['stat']=='totalRebounds' and L['ou']=='under')]  # FD-gap check before the haircut
 byp={}
@@ -441,5 +442,6 @@ out={'updated':NOW,'live':{'legs':{L['id']:L for L in lpool},'all_legs':len(live
  'props':{'legs':{L['id']:L for L in ppool},'parlays':prop_tix,'coverage':pcov,
   'rule':f"Pregame only. One leg per player (his highest-chance line priced {P_FLOOR} to +{P_CEIL}), at most 2 legs per game in a parlay, each leg in at most 5 tickets. Chance = 50% FanDuel no-vig price + 50% ESPN game-log hit rate (this season, plus last season's final 20 games at 40% weight, shrunk toward FanDuel when few games), then small adjustments: opponent points allowed (±3 pts max), NBA minutes trend, teammates out; rebounds overs -8 pts and made threes -3 pts, because those props have hit below estimate so far; rebound unders are excluded (they hit about 45% so far). Players listed Out/Doubtful/Questionable/Day-To-Day by ESPN are excluded. Only legs with est. chance ≥60% and not worse than FanDuel's own price by >2 pts.",
   'stats':st('props')}}
+for _k in ('live','props'): print('odds rule removed',_k,oddsrule.scrub_section(out[_k]))
 json.dump(out,open('extra.json','w'),indent=1)
 print('live games',len(livegames),'matched',len(pairs),'live legs',len(live_legs),'pool',len(lpool),'| props scored',len(props),'pool',len(ppool),'tix',len(prop_tix),'excl inj',len(excl_inj))
