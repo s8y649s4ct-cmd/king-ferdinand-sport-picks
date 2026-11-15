@@ -140964,21 +140964,21 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2125,
-  "fd_payout_x": 4.48,
+  "est_prob": 0.2166,
+  "fd_payout_x": 4.54,
   "legs_detail": [
    {
-    "id": "401892719:7745647:742.197650294",
+    "id": "401892719:7000397:742.197650294",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": 1.5,
-    "pick": "New York Islanders +1.5",
+    "pick": "Anaheim Ducks +1.5",
     "market": "Alternate Puck Line",
     "odds": -270,
-    "prob": 0.767,
-    "raw_prob": 0.767,
+    "prob": 0.777,
+    "raw_prob": 0.777,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
     "close_odds": -270
@@ -140996,6 +140996,22 @@
     "prob": 0.7306,
     "raw_prob": 0.7306,
     "game": "Ole Miss Rebels at Oklahoma Sooners",
+    "result": null,
+    "close_odds": -280
+   },
+   {
+    "id": "401860917:12386717:742.196719510",
+    "event": "401860917",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 73.5,
+    "ou": "under",
+    "pick": "Under (73.5)",
+    "market": "Alternate Total Points",
+    "odds": -280,
+    "prob": 0.7275,
+    "raw_prob": 0.7275,
+    "game": "Colorado State Rams at Washington State Cougars",
     "result": null,
     "close_odds": -280
    },
@@ -141030,25 +141046,9 @@
     "game": "New England Patriots at Detroit Lions",
     "result": null,
     "close_odds": -295
-   },
-   {
-    "id": "401873055:12194321:742.196794062",
-    "event": "401873055",
-    "sport": "nfl",
-    "kind": "total",
-    "line": 56.5,
-    "ou": "under",
-    "pick": "Under (56.5)",
-    "market": "Alternate Total Points",
-    "odds": -295,
-    "prob": 0.7228,
-    "raw_prob": 0.7228,
-    "game": "Carolina Panthers at New Orleans Saints",
-    "result": null,
-    "close_odds": -295
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -141076,12 +141076,12 @@
     "prob": 0.8812,
     "raw_prob": 0.8812,
     "game": "Denver Nuggets at New Orleans Pelicans",
-    "result": null
+    "result": "win"
    }
   ],
   "logged": "2026-11-15 00:08 UTC",
   "locked": true,
-  "result": null,
+  "result": "win",
   "favorite": false
  },
  {
@@ -143201,7 +143201,7 @@
     "prob": 0.8746,
     "raw_prob": 0.8746,
     "game": "Denver Nuggets at New Orleans Pelicans",
-    "result": null,
+    "result": "win",
     "close_odds": -800
    },
    {
@@ -144373,7 +144373,7 @@
     "prob": 0.8939,
     "raw_prob": 0.8939,
     "game": "Denver Nuggets at New Orleans Pelicans",
-    "result": null,
+    "result": "win",
     "close_odds": -850
    },
    {
@@ -145562,7 +145562,7 @@
     "prob": 0.8754,
     "raw_prob": 0.8754,
     "game": "Denver Nuggets at New Orleans Pelicans",
-    "result": null,
+    "result": "win",
     "close_odds": -670
    },
    {
@@ -146256,7 +146256,7 @@
     "prob": 0.8746,
     "raw_prob": 0.8746,
     "game": "Denver Nuggets at New Orleans Pelicans",
-    "result": null,
+    "result": "win",
     "close_odds": -800
    },
    {
@@ -146591,24 +146591,24 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.045762313212,
-  "fd_payout_x": 29.56,
+  "est_prob": 0.046137222075999997,
+  "fd_payout_x": 30.75,
   "legs_detail": [
    {
-    "id": "401892719:7745648:742.197650294",
+    "id": "401892719:2294077:742.197175857",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": -1.5,
-    "pick": "New York Islanders -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.3906,
-    "raw_prob": 0.3906,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3938,
+    "raw_prob": 0.3938,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": 198
+    "close_odds": 210
    },
    {
     "id": "401892720:7000436:742.197650398",
@@ -146643,7 +146643,7 @@
     "close_odds": 300
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -146654,9 +146654,41 @@
   "type": "lottery",
   "label": "~100x",
   "n": 4,
-  "est_prob": 0.0127229587586728,
-  "fd_payout_x": 104.76,
+  "est_prob": 0.015077644174436798,
+  "fd_payout_x": 101.48,
   "legs_detail": [
+   {
+    "id": "401892719:2294077:742.197175857",
+    "event": "401892719",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3938,
+    "raw_prob": 0.3938,
+    "game": "New York Islanders at Anaheim Ducks",
+    "result": null,
+    "close_odds": 210
+   },
+   {
+    "id": "401892720:7000436:742.197650398",
+    "event": "401892720",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Los Angeles Kings -1.5",
+    "market": "Alternate Puck Line",
+    "odds": 148,
+    "prob": 0.4279,
+    "raw_prob": 0.4279,
+    "game": "Calgary Flames at Los Angeles Kings",
+    "result": null,
+    "close_odds": 148
+   },
    {
     "id": "401873054:12194273:742.196794333",
     "event": "401873054",
@@ -146688,41 +146720,9 @@
     "game": "Kansas City Chiefs at Atlanta Falcons",
     "result": null,
     "close_odds": 230
-   },
-   {
-    "id": "401892720:7000436:742.197650398",
-    "event": "401892720",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Los Angeles Kings -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 148,
-    "prob": 0.4279,
-    "raw_prob": 0.4279,
-    "game": "Calgary Flames at Los Angeles Kings",
-    "result": null,
-    "close_odds": 148
-   },
-   {
-    "id": "401873053:15325379:742.196734200",
-    "event": "401873053",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -7.5,
-    "pick": "Detroit Lions (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 220,
-    "prob": 0.3323,
-    "raw_prob": 0.3323,
-    "game": "New England Patriots at Detroit Lions",
-    "result": null,
-    "close_odds": 220
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -146733,24 +146733,24 @@
   "type": "lottery",
   "label": "~500x",
   "n": 5,
-  "est_prob": 0.0027325817979561686,
-  "fd_payout_x": 565.39,
+  "est_prob": 0.003223500605557888,
+  "fd_payout_x": 504.13,
   "legs_detail": [
    {
-    "id": "401892719:7745648:742.197650294",
+    "id": "401892719:2294077:742.197175857",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": -1.5,
-    "pick": "New York Islanders -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.3906,
-    "raw_prob": 0.3906,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3938,
+    "raw_prob": 0.3938,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": 198
+    "close_odds": 210
    },
    {
     "id": "401873054:12194273:742.196794333",
@@ -146769,36 +146769,20 @@
     "close_odds": 300
    },
    {
-    "id": "401873058:12197164:742.196793340",
+    "id": "401873058:12197156:742.196793340",
     "event": "401873058",
     "sport": "nfl",
     "kind": "spread",
     "side": "away",
-    "line": -10.5,
-    "pick": "Kansas City Chiefs (-10.5)",
+    "line": -8.5,
+    "pick": "Kansas City Chiefs (-8.5)",
     "market": "Alternate Spread",
-    "odds": 285,
-    "prob": 0.2793,
-    "raw_prob": 0.2793,
+    "odds": 230,
+    "prob": 0.3268,
+    "raw_prob": 0.3268,
     "game": "Kansas City Chiefs at Atlanta Falcons",
     "result": null,
-    "close_odds": 285
-   },
-   {
-    "id": "401873055:12267841:742.196794036",
-    "event": "401873055",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -8.5,
-    "pick": "New Orleans Saints (-8.5)",
-    "market": "Alternate Spread",
-    "odds": 285,
-    "prob": 0.2753,
-    "raw_prob": 0.2753,
-    "game": "Carolina Panthers at New Orleans Saints",
-    "result": null,
-    "close_odds": 285
+    "close_odds": 230
    },
    {
     "id": "401873053:15325379:742.196734200",
@@ -146815,9 +146799,25 @@
     "game": "New England Patriots at Detroit Lions",
     "result": null,
     "close_odds": 220
+   },
+   {
+    "id": "401873055:12267841:742.196794036",
+    "event": "401873055",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "home",
+    "line": -8.5,
+    "pick": "New Orleans Saints (-8.5)",
+    "market": "Alternate Spread",
+    "odds": 285,
+    "prob": 0.2753,
+    "raw_prob": 0.2753,
+    "game": "Carolina Panthers at New Orleans Saints",
+    "result": null,
+    "close_odds": 285
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -146828,24 +146828,24 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 6,
-  "est_prob": 0.0013681274913701796,
-  "fd_payout_x": 1201.86,
+  "est_prob": 0.0013793359091182201,
+  "fd_payout_x": 1250.25,
   "legs_detail": [
    {
-    "id": "401892719:7745648:742.197650294",
+    "id": "401892719:2294077:742.197175857",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": -1.5,
-    "pick": "New York Islanders -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.3906,
-    "raw_prob": 0.3906,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3938,
+    "raw_prob": 0.3938,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": 198
+    "close_odds": 210
    },
    {
     "id": "401873054:12194273:742.196794333",
@@ -146928,7 +146928,7 @@
     "close_odds": 285
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -146939,24 +146939,24 @@
   "type": "lottery",
   "label": "~10,000x",
   "n": 7,
-  "est_prob": 0.0001476044937523936,
-  "fd_payout_x": 10611.65,
+  "est_prob": 0.00016269774108491425,
+  "fd_payout_x": 10322.15,
   "legs_detail": [
    {
-    "id": "401892719:7745648:742.197650294",
+    "id": "401892719:2294077:742.197175857",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": -1.5,
-    "pick": "New York Islanders -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.3906,
-    "raw_prob": 0.3906,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3938,
+    "raw_prob": 0.3938,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": 198
+    "close_odds": 210
    },
    {
     "id": "401873054:12194273:742.196794333",
@@ -147023,6 +147023,22 @@
     "close_odds": 300
    },
    {
+    "id": "401892720:7669353:742.197650419",
+    "event": "401892720",
+    "sport": "nhl",
+    "kind": "total",
+    "line": 4.5,
+    "ou": "under",
+    "pick": "Under 4.5",
+    "market": "Alternate Total Goals",
+    "odds": 260,
+    "prob": 0.2871,
+    "raw_prob": 0.2871,
+    "game": "Calgary Flames at Los Angeles Kings",
+    "result": null,
+    "close_odds": 260
+   },
+   {
     "id": "401873056:12197196:742.196793535",
     "event": "401873056",
     "sport": "nfl",
@@ -147037,25 +147053,9 @@
     "game": "Houston Texans at Cleveland Browns",
     "result": null,
     "close_odds": 290
-   },
-   {
-    "id": "401873060:12248293:742.196792551",
-    "event": "401873060",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -10.5,
-    "pick": "Green Bay Packers (-10.5)",
-    "market": "Alternate Spread",
-    "odds": 285,
-    "prob": 0.2626,
-    "raw_prob": 0.2626,
-    "game": "Minnesota Vikings at Green Bay Packers",
-    "result": null,
-    "close_odds": 285
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -147066,24 +147066,24 @@
   "type": "lottery",
   "label": "~100,000x",
   "n": 10,
-  "est_prob": 1.7226613652772505e-05,
-  "fd_payout_x": 105871.05,
+  "est_prob": 1.7367743104100906e-05,
+  "fd_payout_x": 110134.31,
   "legs_detail": [
    {
-    "id": "401892719:7745648:742.197650294",
+    "id": "401892719:2294077:742.197175857",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": -1.5,
-    "pick": "New York Islanders -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.3906,
-    "raw_prob": 0.3906,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3938,
+    "raw_prob": 0.3938,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": 198
+    "close_odds": 210
    },
    {
     "id": "401873054:12194273:742.196794333",
@@ -147230,7 +147230,7 @@
     "close_odds": 196
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -147240,25 +147240,25 @@
   "date": "2026-11-14",
   "type": "lottery",
   "label": "~1,000,000x",
-  "n": 12,
-  "est_prob": 1.8119972055514366e-06,
-  "fd_payout_x": 1029490.09,
+  "n": 13,
+  "est_prob": 1.9165553021380196e-06,
+  "fd_payout_x": 1014061.7,
   "legs_detail": [
    {
-    "id": "401892719:7745648:742.197650294",
+    "id": "401892719:2294077:742.197175857",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": -1.5,
-    "pick": "New York Islanders -1.5",
-    "market": "Alternate Puck Line",
-    "odds": 198,
-    "prob": 0.3906,
-    "raw_prob": 0.3906,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 210,
+    "prob": 0.3938,
+    "raw_prob": 0.3938,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": 198
+    "close_odds": 210
    },
    {
     "id": "401873054:12194273:742.196794333",
@@ -147293,22 +147293,6 @@
     "close_odds": 230
    },
    {
-    "id": "401873053:15325379:742.196734200",
-    "event": "401873053",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -7.5,
-    "pick": "Detroit Lions (-7.5)",
-    "market": "Alternate Spread",
-    "odds": 220,
-    "prob": 0.3323,
-    "raw_prob": 0.3323,
-    "game": "New England Patriots at Detroit Lions",
-    "result": null,
-    "close_odds": 220
-   },
-   {
     "id": "401892720:7000436:742.197650398",
     "event": "401892720",
     "sport": "nhl",
@@ -147323,6 +147307,22 @@
     "game": "Calgary Flames at Los Angeles Kings",
     "result": null,
     "close_odds": 148
+   },
+   {
+    "id": "401873053:15325379:742.196734200",
+    "event": "401873053",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "home",
+    "line": -7.5,
+    "pick": "Detroit Lions (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 220,
+    "prob": 0.3323,
+    "raw_prob": 0.3323,
+    "game": "New England Patriots at Detroit Lions",
+    "result": null,
+    "close_odds": 220
    },
    {
     "id": "401873055:12267841:742.196794036",
@@ -147341,22 +147341,6 @@
     "close_odds": 285
    },
    {
-    "id": "401860917:49077808:742.196719494",
-    "event": "401860917",
-    "sport": "college-football",
-    "kind": "spread",
-    "side": "away",
-    "line": 2.5,
-    "pick": "Colorado State (+2.5)",
-    "market": "Alternate Spread",
-    "odds": 220,
-    "prob": 0.3218,
-    "raw_prob": 0.3218,
-    "game": "Colorado State Rams at Washington State Cougars",
-    "result": null,
-    "close_odds": 220
-   },
-   {
     "id": "401873060:12248290:742.196792551",
     "event": "401873060",
     "sport": "nfl",
@@ -147371,6 +147355,22 @@
     "game": "Minnesota Vikings at Green Bay Packers",
     "result": null,
     "close_odds": 210
+   },
+   {
+    "id": "401860917:49077808:742.196719494",
+    "event": "401860917",
+    "sport": "college-football",
+    "kind": "spread",
+    "side": "away",
+    "line": 2.5,
+    "pick": "Colorado State (+2.5)",
+    "market": "Alternate Spread",
+    "odds": 220,
+    "prob": 0.3218,
+    "raw_prob": 0.3218,
+    "game": "Colorado State Rams at Washington State Cougars",
+    "result": null,
+    "close_odds": 220
    },
    {
     "id": "401856864:48094077:742.196719160",
@@ -147405,39 +147405,55 @@
     "close_odds": 196
    },
    {
-    "id": "401856887:12194315:742.196716299",
+    "id": "401873056:12246850:742.196793539",
+    "event": "401873056",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": -7.5,
+    "pick": "Houston Texans (-7.5)",
+    "market": "Alternate Spread",
+    "odds": 154,
+    "prob": 0.3992,
+    "raw_prob": 0.3992,
+    "game": "Houston Texans at Cleveland Browns",
+    "result": null,
+    "close_odds": 154
+   },
+   {
+    "id": "401856887:12197190:742.196716299",
     "event": "401856887",
     "sport": "college-football",
     "kind": "total",
-    "line": 42.5,
+    "line": 59.5,
     "ou": "under",
-    "pick": "Under (42.5)",
+    "pick": "Under (59.5)",
     "market": "Alternate Total Points",
-    "odds": 186,
-    "prob": 0.3544,
-    "raw_prob": 0.3544,
+    "odds": -400,
+    "prob": 0.7948,
+    "raw_prob": 0.7948,
     "game": "Ole Miss Rebels at Oklahoma Sooners",
     "result": null,
-    "close_odds": 186
+    "close_odds": -400
    },
    {
-    "id": "401873059:12213320:742.196793847",
+    "id": "401873059:12194302:742.196793847",
     "event": "401873059",
     "sport": "nfl",
     "kind": "spread",
     "side": "home",
-    "line": -10.5,
-    "pick": "Indianapolis Colts (-10.5)",
+    "line": -8.5,
+    "pick": "Indianapolis Colts (-8.5)",
     "market": "Alternate Spread",
-    "odds": 240,
-    "prob": 0.2968,
-    "raw_prob": 0.2968,
+    "odds": 190,
+    "prob": 0.3478,
+    "raw_prob": 0.3478,
     "game": "Miami Dolphins at Indianapolis Colts",
     "result": null,
-    "close_odds": 240
+    "close_odds": 190
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -147448,25 +147464,9 @@
   "type": "lottery",
   "label": "16-leg best-chance lottery",
   "n": 16,
-  "est_prob": 0.08895003141509243,
-  "fd_payout_x": 5.94,
+  "est_prob": 0.08836655462001489,
+  "fd_payout_x": 6.03,
   "legs_detail": [
-   {
-    "id": "401860917:12194308:742.196719510",
-    "event": "401860917",
-    "sport": "college-football",
-    "kind": "total",
-    "line": 46.5,
-    "ou": "over",
-    "pick": "Over (46.5)",
-    "market": "Alternate Total Points",
-    "odds": -1000,
-    "prob": 0.8842,
-    "raw_prob": 0.8842,
-    "game": "Colorado State Rams at Washington State Cougars",
-    "result": null,
-    "close_odds": -1000
-   },
    {
     "id": "401873056:12197182:742.196793535",
     "event": "401873056",
@@ -147482,6 +147482,22 @@
     "game": "Houston Texans at Cleveland Browns",
     "result": null,
     "close_odds": -1000
+   },
+   {
+    "id": "401860917:16039630:742.196719510",
+    "event": "401860917",
+    "sport": "college-football",
+    "kind": "total",
+    "line": 83.5,
+    "ou": "under",
+    "pick": "Under (83.5)",
+    "market": "Alternate Total Points",
+    "odds": -850,
+    "prob": 0.8784,
+    "raw_prob": 0.8784,
+    "game": "Colorado State Rams at Washington State Cougars",
+    "result": null,
+    "close_odds": -850
    },
    {
     "id": "401856864:12386717:742.196719141",
@@ -147694,13 +147710,13 @@
     "close_odds": -480
    },
    {
-    "id": "401892719:7745689:742.197650294",
+    "id": "401892719:7737451:742.197650294",
     "event": "401892719",
     "sport": "nhl",
     "kind": "spread",
-    "side": "away",
+    "side": "home",
     "line": 2.5,
-    "pick": "New York Islanders +2.5",
+    "pick": "Anaheim Ducks +2.5",
     "market": "Alternate Puck Line",
     "odds": -550,
     "prob": 0.8,
@@ -147710,7 +147726,7 @@
     "close_odds": -550
    }
   ],
-  "logged": "2026-11-15 02:30 UTC",
+  "logged": "2026-11-15 02:36 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -148012,7 +148028,7 @@
     "raw_prob": 0.8,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": -550
+    "close_odds": -490
    }
   ],
   "logged": "2026-11-15 02:20 UTC",
@@ -148331,7 +148347,7 @@
     "raw_prob": 0.8,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": -550
+    "close_odds": -490
    }
   ],
   "logged": "2026-11-15 01:31 UTC",
@@ -148668,7 +148684,7 @@
     "raw_prob": 0.8,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": -550
+    "close_odds": -490
    }
   ],
   "logged": "2026-11-15 01:58 UTC",
@@ -148954,7 +148970,7 @@
     "raw_prob": 0.845,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": -550
+    "close_odds": -490
    },
    {
     "id": "401864540:12213373:742.196719456",
@@ -149352,7 +149368,7 @@
     "raw_prob": 0.845,
     "game": "New York Islanders at Anaheim Ducks",
     "result": null,
-    "close_odds": -550
+    "close_odds": -490
    },
    {
     "id": "401864540:12213373:742.196719456",
