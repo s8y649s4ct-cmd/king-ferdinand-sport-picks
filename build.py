@@ -195,6 +195,20 @@ for g in games:
         elif re.fullmatch(r'PLAYER_[A-Z]_TOTAL_POINTS',mt) and len(rs)==2:
           p=imp(o)/S; L={'kind':'prop','player':nm.rsplit(' ',1)[0],'stat':'POI','ou':nm.rsplit(' ',1)[1].lower(),'line':r.get('handicap')}
       if not L or p is None or o<FLOOR or o>CEIL: continue
+      # 2026-11-15 (t60u): FanDuel no-vig from BOTH sides of the market where FanDuel lists the opposite runner (alt lines too).
+      # Display/EV only: the model probability p is unchanged.
+      L['fd_nv']=round(p,4); L['nv_src']='FanDuel 2-way de-vig' if mt in('MONEY_LINE','DRAW_NO_BET','MATCH_HANDICAP_(2-WAY)','TOTAL_POINTS_(OVER/UNDER)','WIN-DRAW-WIN') or re.fullmatch(r'OVER_UNDER_\d+',mt) else 'estimated (one-sided price / vig factor)'
+      if L['kind'] in('spread','total') and L['nv_src'].startswith('est') and L.get('line') is not None:
+        try:
+          for r2 in rs:
+            if r2 is r: continue
+            n2=r2['runnerName']; l2=num(n2)
+            if l2 is None: continue
+            if L['kind']=='total': okc=n2.split()[0].lower()!=L['ou'] and n2.split()[0].lower() in('over','under') and abs(l2-L['line'])<1e-6
+            else: okc=L.get('side') and side_of(g,n2) not in(None,L['side']) and abs(l2+L['line'])<1e-6
+            if okc:
+              a,b=imp(o),imp(od(r2)); L['fd_nv']=round(a/(a+b),4); L['nv_src']='FanDuel 2-way de-vig (alt line)'; break
+        except Exception: pass
       if L.get('kind') in('ml','ml3','dnb','dc','spread') and not L.get('side'): continue
       if L.get('kind')=='total' and (L['line'] is None or L['ou'] not in('over','under')): continue
       L.update({'id':f"{g['id']}:{r['selectionId']}:{m['marketId']}",'event':g['id'],'sport':g['sport'],'game':g['name'],'start':g['start'],
@@ -282,10 +296,19 @@ if LIVE=='v2':
 cands,DROPPED=v2.sharp_filter(cands,cfg)
 print('v2',V2INFO,'live',LIVE,'sharp-filtered',len(DROPPED))
 # ---------- per-game best leg; parlays ----------
+# 2026-11-15 (t60u, adopted by out-of-sample test): each game's top leg is ranked by an isotonic calibration of the v1 chance
+# (by sport x market, refit on every graded leg each refresh). 50/50 time split: top-leg hit 85.6% -> 86.4%, units -9.1 -> -3.0
+# (457 games); 70/30: 86.1% -> 87.5%, -2.9 -> +1.2 (216). Shown chances stay v1 (isotonic log loss was slightly worse).
+try:
+  import bt_cal; _CAL=bt_cal.fit_all()
+  for L in cands: L['rank_prob']=round(bt_cal.rank_prob(_CAL,L),4)
+except Exception as e:
+  print('rank calibration fail',e)
+  for L in cands: L['rank_prob']=L['prob']
 best={}
 for L in cands:
   k=L['event']
-  if k not in best or (L['prob'],-abs(L['odds']))>(best[k]['prob'],-abs(best[k]['odds'])): best[k]=L
+  if k not in best or (L['rank_prob'],-abs(L['odds']))>(best[k]['rank_prob'],-abs(best[k]['odds'])): best[k]=L
 pool=sorted([L for L in best.values() if G[L['event']]['state']=='pre'],key=lambda L:-L['prob'])
 started=[L for L in best.values() if G[L['event']]['state']!='pre']
 MAXLEGS=25  # FanDuel max selections per bet slip
@@ -296,8 +319,9 @@ def dec(o): return 1+(o/100 if o>0 else 100/-o)
 byg={}
 for L in cands:
   if G[L['event']]['state']=='pre': byg.setdefault(L['event'],[]).append(L)
-for v in byg.values(): v.sort(key=lambda L:-L['prob'])
-NG=len(byg); NMAX=min(MAXLEGS,NG); CAP=max(1,math.ceil(sum(range(1,NMAX+1))/max(NG,1)))+1
+for v in byg.values(): v.sort(key=lambda L:-L['rank_prob'])  # 2026-11-15: calibrated ranking (see above)
+NG=len(byg); NMAX=min(MAXLEGS,NG,cfg.get('ladder_max_legs',MAXLEGS));  # 2026-11-15 backtest: tickets over 6 legs lost units in both halves
+CAP=max(1,math.ceil(sum(range(1,NMAX+1))/max(NG,1)))+1
 LEG_FLOOR=cfg.get('ladder_leg_floor_5plus',0.0)  # 0 = off; 0.85 tested 11-03 and rejected (payout 11.6x->3.5x)
 guse={}; luse={}; pars=[]
 for n in range(1,NMAX+1):
@@ -397,8 +421,9 @@ def tix(sel,label,target=None):
   return {'label':label,'target_x':target,'n':len(sel),'legs':[L['id'] for L in sel],'est_prob':P,'fd_payout_x':round(D,2),
     'one_in':round(1/P) if P>0 else None,'fd_odds':'+'+str(round((D-1)*100)),'ev':round(P*D-1,3)}
 lot=[]; lotlegs={}
+LOTMAX=cfg.get('lottery_max_legs',MAXLEGS)
 for T in cfg.get('lottery_tiers',[25,100,500,1000,10000,100000,1000000]):
-  r=lottery(cands,G,T)
+  r=lottery(cands,G,T,maxn=LOTMAX)
   if r: lot.append(tix(r[1],f'~{T:,}x',T)); lotlegs.update({L['id']:L for L in r[1]})
 # 25-leg (FanDuel max) lottery: per game the leg with the best chance + 0.25*edge, top 25 (was pure edge until 2026-10-30)
 eg={}
@@ -407,7 +432,7 @@ for L in cands:
   k=L['event']
   # 2026-10-30 review: ranking purely by edge picked legs that hit 61.0% (164) vs 68.9% est; shadow backtest per game 69.9% (edge) vs 84.2% (chance + 0.25*edge).
   if k not in eg or (L['prob']+0.25*edge(L),L['prob'])>(eg[k]['prob']+0.25*edge(eg[k]),eg[k]['prob']): eg[k]=L
-e27=sorted(eg.values(),key=lambda L:(-(L['prob']+0.25*edge(L)),-L['prob']))[:MAXLEGS]
+e27=sorted(eg.values(),key=lambda L:(-(L['prob']+0.25*edge(L)),-L['prob']))[:min(MAXLEGS,LOTMAX)]
 if e27: lot.append(tix(e27,f'{len(e27)}-leg best-chance lottery')); lotlegs.update({L['id']:L for L in e27})
 for L in {**ladlegs,**lotlegs,**bb}.values():
   L.setdefault('why',f"FanDuel no-vig {L.get('fd_prob',0)*100:.1f}%"+(f", line model {L['dist_prob']*100:.1f}%" if L.get('dist_prob') is not None else '')+(f", team model {L['model']*100:.1f}%" if L.get('model') is not None else '')+f" -> est. {L['prob']*100:.1f}% (edge {edge(L)*100:+.1f} pts)"+(f"; research {L['research_adj']*100:+.1f} pts: "+'; '.join(L['research']) if L.get('research') else ''))
@@ -511,7 +536,8 @@ for k,x in H.items():
     continue
   if x['date']==DATE and k in _favids: x['favorite']=True; x['favorite_source']='logged'
   else: x['favorite']=False; x.pop('favorite_source',None)  # not green right now (unlocked tickets follow the board until lock)
-H={k:v for k,v in H.items() if v.get('locked') or v['date']==DATE}
+_onboard={f"{DATE}-{p['n']}" for p in pars}|{f"{DATE}-{typ}-{lab}" for typ,lab,p in ([('best','best',bestp)] if bestp else [])+[('lottery',t['label'],t) for t in lot] if oddsrule.ticket_ok_dec(p['fd_payout_x'])}
+H={k:v for k,v in H.items() if v.get('locked') or (v['date']==DATE and k in _onboard)}
 hist=sorted(H.values(),key=lambda x:(x['date'],x.get('type','ladder'),x['n'])); CLVH=v2.hist_clv(hist,ALLC,G); json.dump(hist,open('picks.history.json','w'),indent=1)
 # stats (unique graded legs)
 seen={}
@@ -583,6 +609,11 @@ out['model_check']={**MC,'live_model':LIVE,'v2_info':V2INFO,'clv_v1_history':CLV
   'sharp_filter':{'active':bool(cfg.get('v2',{}).get('sharp_filter',False)),'note':'Report only: tested live on 2026-10-25, it swapped 16 of 36 game picks and lowered the average Pinnacle-rated win chance of the picks (86.7% -> 85.9%), because the safest alt lines carry the most FanDuel vig. Since the goal is win rate, it stays off.','dropped':len(DROPPED),'of':len(ALLC),'rule':f"Legs dropped when FanDuel's price implies a chance more than {-cfg.get('v2',{}).get('filter_edge',-0.03)*100:.0f} pts above Pinnacle's no-vig fair chance (you'd be overpaying vs the sharp market).",
     'examples':[f"{L['pick']} ({L['game']}) {L['odds']:+d}: FanDuel implies {v2.imp(L['odds'])*100:.1f}% vs Pinnacle fair {L['sharp_prob']*100:.1f}%" for L in _ex]}}
 out['favorite_rule']="Green = King's Favorites: the Best Parlay, plus the 3 ladder parlays (2+ legs) with the highest expected value among those with a raw (un-boosted) estimated hit chance of 50% or more."
+# 2026-11-15 (t60u): EV fields on every leg/ticket + Value (+EV) singles board. Failure never blocks the board.
+try:
+  import ev; ev.annotate(out,cands,G,CTX,LF.get('odds',{}),DATE,NOW,get,SPORTS,fdlink,cfg)
+except Exception as e: print('ev fail',e)
 _rl=oddsrule.scrub_picks(out); print('odds rule removed (legs, tickets):',_rl)
+out['note']=re.sub(r'parlays up to \d+ legs',f"parlays up to {max([p['n'] for p in out['parlays']] or [0])} legs",out['note'])
 json.dump(out,open('picks.json','w'),indent=1)
 print('cands',len(cands),'games w/ leg',len(best),'pool',len(pool),'parlays',len(pars),'best',bestp and bestp['n'],'kinds',kinds)

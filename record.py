@@ -59,7 +59,7 @@ LESSON={'nhl':'NHL legs rated 85%+ now capped at 80% (Oct 26-27 reviews) so hock
  'line moved against us':'Late line move against the pick: closing-line value is tracked per leg and feeds the v2 shadow check.',
  'props':'Rebound props get a haircut and rebound unders are excluded; NBA 3s/rebounds capped at FanDuel no-vig + 3 pts (Oct 30).',
  'lottery':'25-leg lottery now ranks legs by chance + 0.25 x edge instead of pure edge (Oct 30 review: 61% -> 84% per-leg in backtest).',
- 'win':'Win confirms the rule set used that day; kept unchanged (only changes that raise backtested win rate are adopted).'}
+ 'win':'Win confirms the rule set used that day; kept unchanged (changes are adopted only if they raise out-of-sample hit rate AND units won).'}
 # reviews from improvements.md
 REV=[]
 for m in re.finditer(r'^## (\d{4}-\d{2}-\d{2})([^\n]*)\n(.*?)(?=^## |\Z)',open('improvements.md').read(),re.S|re.M):

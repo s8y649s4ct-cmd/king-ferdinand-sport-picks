@@ -1,0 +1,845 @@
+{
+ "split_date": "2026-11-04",
+ "dates": [
+  "2026-10-25",
+  "2026-11-14"
+ ],
+ "legs_graded": 5525,
+ "min_n": 10,
+ "pinnacle": {
+  "grid": [
+   {
+    "min_edge": 0.0,
+    "train": {
+     "n": 472,
+     "won": 390,
+     "win_pct": 0.8263,
+     "units": -19.77,
+     "roi_pct": -4.19
+    },
+    "test": {
+     "n": 494,
+     "won": 411,
+     "win_pct": 0.832,
+     "units": -21.51,
+     "roi_pct": -4.36
+    },
+    "all": {
+     "n": 966,
+     "won": 801,
+     "win_pct": 0.8292,
+     "units": -41.29,
+     "roi_pct": -4.27
+    }
+   },
+   {
+    "min_edge": 0.01,
+    "train": {
+     "n": 259,
+     "won": 213,
+     "win_pct": 0.8224,
+     "units": -13.05,
+     "roi_pct": -5.04
+    },
+    "test": {
+     "n": 263,
+     "won": 219,
+     "win_pct": 0.8327,
+     "units": -11.69,
+     "roi_pct": -4.45
+    },
+    "all": {
+     "n": 522,
+     "won": 432,
+     "win_pct": 0.8276,
+     "units": -24.74,
+     "roi_pct": -4.74
+    }
+   },
+   {
+    "min_edge": 0.02,
+    "train": {
+     "n": 110,
+     "won": 86,
+     "win_pct": 0.7818,
+     "units": -9.98,
+     "roi_pct": -9.07
+    },
+    "test": {
+     "n": 119,
+     "won": 99,
+     "win_pct": 0.8319,
+     "units": -4.55,
+     "roi_pct": -3.82
+    },
+    "all": {
+     "n": 229,
+     "won": 185,
+     "win_pct": 0.8079,
+     "units": -14.53,
+     "roi_pct": -6.34
+    }
+   },
+   {
+    "min_edge": 0.03,
+    "train": {
+     "n": 47,
+     "won": 36,
+     "win_pct": 0.766,
+     "units": -4.3,
+     "roi_pct": -9.14
+    },
+    "test": {
+     "n": 60,
+     "won": 50,
+     "win_pct": 0.8333,
+     "units": -1.77,
+     "roi_pct": -2.96
+    },
+    "all": {
+     "n": 107,
+     "won": 86,
+     "win_pct": 0.8037,
+     "units": -6.07,
+     "roi_pct": -5.67
+    }
+   },
+   {
+    "min_edge": 0.04,
+    "train": {
+     "n": 30,
+     "won": 24,
+     "win_pct": 0.8,
+     "units": -1.22,
+     "roi_pct": -4.06
+    },
+    "test": {
+     "n": 34,
+     "won": 31,
+     "win_pct": 0.9118,
+     "units": 2.29,
+     "roi_pct": 6.73
+    },
+    "all": {
+     "n": 64,
+     "won": 55,
+     "win_pct": 0.8594,
+     "units": 1.07,
+     "roi_pct": 1.68
+    }
+   },
+   {
+    "min_edge": 0.05,
+    "train": {
+     "n": 24,
+     "won": 21,
+     "win_pct": 0.875,
+     "units": 1.23,
+     "roi_pct": 5.12
+    },
+    "test": {
+     "n": 19,
+     "won": 17,
+     "win_pct": 0.8947,
+     "units": 1.25,
+     "roi_pct": 6.59
+    },
+    "all": {
+     "n": 43,
+     "won": 38,
+     "win_pct": 0.8837,
+     "units": 2.48,
+     "roi_pct": 5.77
+    }
+   },
+   {
+    "min_edge": 0.06,
+    "train": {
+     "n": 11,
+     "won": 10,
+     "win_pct": 0.9091,
+     "units": 1.36,
+     "roi_pct": 12.33
+    },
+    "test": {
+     "n": 13,
+     "won": 12,
+     "win_pct": 0.9231,
+     "units": 1.47,
+     "roi_pct": 11.32
+    },
+    "all": {
+     "n": 24,
+     "won": 22,
+     "win_pct": 0.9167,
+     "units": 2.83,
+     "roi_pct": 11.78
+    }
+   },
+   {
+    "min_edge": 0.07,
+    "train": {
+     "n": 6,
+     "won": 6,
+     "win_pct": 1.0,
+     "units": 1.61,
+     "roi_pct": 26.76
+    },
+    "test": {
+     "n": 7,
+     "won": 7,
+     "win_pct": 1.0,
+     "units": 1.21,
+     "roi_pct": 17.35
+    },
+    "all": {
+     "n": 13,
+     "won": 13,
+     "win_pct": 1.0,
+     "units": 2.82,
+     "roi_pct": 21.69
+    }
+   }
+  ],
+  "chosen_on_train": 0.06,
+  "test_at_chosen": {
+   "n": 13,
+   "won": 12,
+   "win_pct": 0.9231,
+   "units": 1.47,
+   "roi_pct": 11.32
+  }
+ },
+ "v1": {
+  "grid": [
+   {
+    "min_edge": 0.0,
+    "train": {
+     "n": 251,
+     "won": 193,
+     "win_pct": 0.7689,
+     "units": -19.01,
+     "roi_pct": -7.57
+    },
+    "test": {
+     "n": 146,
+     "won": 112,
+     "win_pct": 0.7671,
+     "units": 2.69,
+     "roi_pct": 1.84
+    },
+    "all": {
+     "n": 397,
+     "won": 305,
+     "win_pct": 0.7683,
+     "units": -16.32,
+     "roi_pct": -4.11
+    }
+   },
+   {
+    "min_edge": 0.01,
+    "train": {
+     "n": 209,
+     "won": 165,
+     "win_pct": 0.7895,
+     "units": -11.98,
+     "roi_pct": -5.73
+    },
+    "test": {
+     "n": 93,
+     "won": 70,
+     "win_pct": 0.7527,
+     "units": 3.57,
+     "roi_pct": 3.84
+    },
+    "all": {
+     "n": 302,
+     "won": 235,
+     "win_pct": 0.7781,
+     "units": -8.4,
+     "roi_pct": -2.78
+    }
+   },
+   {
+    "min_edge": 0.02,
+    "train": {
+     "n": 171,
+     "won": 137,
+     "win_pct": 0.8012,
+     "units": -11.1,
+     "roi_pct": -6.49
+    },
+    "test": {
+     "n": 52,
+     "won": 39,
+     "win_pct": 0.75,
+     "units": 5.09,
+     "roi_pct": 9.8
+    },
+    "all": {
+     "n": 223,
+     "won": 176,
+     "win_pct": 0.7892,
+     "units": -6.0,
+     "roi_pct": -2.69
+    }
+   },
+   {
+    "min_edge": 0.03,
+    "train": {
+     "n": 131,
+     "won": 108,
+     "win_pct": 0.8244,
+     "units": -7.6,
+     "roi_pct": -5.8
+    },
+    "test": {
+     "n": 32,
+     "won": 21,
+     "win_pct": 0.6562,
+     "units": -0.97,
+     "roi_pct": -3.03
+    },
+    "all": {
+     "n": 163,
+     "won": 129,
+     "win_pct": 0.7914,
+     "units": -8.57,
+     "roi_pct": -5.26
+    }
+   },
+   {
+    "min_edge": 0.04,
+    "train": {
+     "n": 86,
+     "won": 70,
+     "win_pct": 0.814,
+     "units": -6.2,
+     "roi_pct": -7.21
+    },
+    "test": {
+     "n": 20,
+     "won": 13,
+     "win_pct": 0.65,
+     "units": -2.05,
+     "roi_pct": -10.25
+    },
+    "all": {
+     "n": 106,
+     "won": 83,
+     "win_pct": 0.783,
+     "units": -8.25,
+     "roi_pct": -7.78
+    }
+   },
+   {
+    "min_edge": 0.05,
+    "train": {
+     "n": 59,
+     "won": 50,
+     "win_pct": 0.8475,
+     "units": -1.97,
+     "roi_pct": -3.34
+    },
+    "test": {
+     "n": 7,
+     "won": 7,
+     "win_pct": 1.0,
+     "units": 2.06,
+     "roi_pct": 29.43
+    },
+    "all": {
+     "n": 66,
+     "won": 57,
+     "win_pct": 0.8636,
+     "units": 0.09,
+     "roi_pct": 0.13
+    }
+   },
+   {
+    "min_edge": 0.06,
+    "train": {
+     "n": 29,
+     "won": 26,
+     "win_pct": 0.8966,
+     "units": 0.58,
+     "roi_pct": 2.0
+    },
+    "test": {
+     "n": 2,
+     "won": 2,
+     "win_pct": 1.0,
+     "units": 0.55,
+     "roi_pct": 27.47
+    },
+    "all": {
+     "n": 31,
+     "won": 28,
+     "win_pct": 0.9032,
+     "units": 1.13,
+     "roi_pct": 3.64
+    }
+   },
+   {
+    "min_edge": 0.07,
+    "train": {
+     "n": 11,
+     "won": 11,
+     "win_pct": 1.0,
+     "units": 1.46,
+     "roi_pct": 13.26
+    },
+    "test": {
+     "n": 1,
+     "won": 1,
+     "win_pct": 1.0,
+     "units": 0.36,
+     "roi_pct": 35.71
+    },
+    "all": {
+     "n": 12,
+     "won": 12,
+     "win_pct": 1.0,
+     "units": 1.82,
+     "roi_pct": 15.13
+    }
+   }
+  ],
+  "chosen_on_train": 0.07,
+  "test_at_chosen": {
+   "n": 1,
+   "won": 1,
+   "win_pct": 1.0,
+   "units": 0.36,
+   "roi_pct": 35.71
+  }
+ },
+ "value_threshold": 0.06,
+ "qualifying_by_sport": {
+  "soccer": {
+   "n": 12,
+   "won": 10,
+   "win_pct": 0.8333,
+   "units": 0.93,
+   "roi_pct": 7.71
+  },
+  "nfl": {
+   "n": 5,
+   "won": 5,
+   "win_pct": 1.0,
+   "units": 0.84,
+   "roi_pct": 16.72
+  },
+  "college-football": {
+   "n": 4,
+   "won": 4,
+   "win_pct": 1.0,
+   "units": 0.59,
+   "roi_pct": 14.74
+  },
+  "nba": {
+   "n": 3,
+   "won": 3,
+   "win_pct": 1.0,
+   "units": 0.48,
+   "roi_pct": 15.88
+  }
+ },
+ "edge_bands": {
+  "6-8 pts": {
+   "n": 12,
+   "won": 10,
+   "win_pct": 0.8333,
+   "units": 0.17,
+   "roi_pct": 1.41
+  },
+  "8-10 pts": {
+   "n": 4,
+   "won": 4,
+   "win_pct": 1.0,
+   "units": 0.69,
+   "roi_pct": 17.14
+  },
+  "10-100 pts": {
+   "n": 8,
+   "won": 8,
+   "win_pct": 1.0,
+   "units": 1.97,
+   "roi_pct": 24.66
+  }
+ },
+ "value_2leg": {
+  "train": {
+   "n": 2,
+   "won": 2,
+   "win_pct": 1.0,
+   "units": 1.53,
+   "roi_pct": 76.29
+  },
+  "test": {
+   "n": 23,
+   "won": 16,
+   "win_pct": 0.6957,
+   "units": -0.67,
+   "roi_pct": -2.91
+  }
+ },
+ "long_tickets": {
+  "ladder single": {
+   "train": {
+    "n": 11,
+    "won": 11,
+    "win_pct": 1.0,
+    "units": 1.17,
+    "roi_pct": 10.64
+   },
+   "test": {
+    "n": 11,
+    "won": 10,
+    "win_pct": 0.9091,
+    "units": 0.08,
+    "roi_pct": 0.73
+   },
+   "all": {
+    "n": 22,
+    "won": 21,
+    "win_pct": 0.9545,
+    "units": 1.25,
+    "roi_pct": 5.68
+   }
+  },
+  "ladder 2-leg": {
+   "train": {
+    "n": 11,
+    "won": 8,
+    "win_pct": 0.7273,
+    "units": -1.21,
+    "roi_pct": -11.0
+   },
+   "test": {
+    "n": 11,
+    "won": 7,
+    "win_pct": 0.6364,
+    "units": -2.48,
+    "roi_pct": -22.55
+   },
+   "all": {
+    "n": 22,
+    "won": 15,
+    "win_pct": 0.6818,
+    "units": -3.69,
+    "roi_pct": -16.77
+   }
+  },
+  "ladder 3-5 legs": {
+   "train": {
+    "n": 33,
+    "won": 20,
+    "win_pct": 0.6061,
+    "units": -1.91,
+    "roi_pct": -5.79
+   },
+   "test": {
+    "n": 33,
+    "won": 11,
+    "win_pct": 0.3333,
+    "units": -16.06,
+    "roi_pct": -48.67
+   },
+   "all": {
+    "n": 66,
+    "won": 31,
+    "win_pct": 0.4697,
+    "units": -17.97,
+    "roi_pct": -27.23
+   }
+  },
+  "ladder 6-10 legs": {
+   "train": {
+    "n": 55,
+    "won": 13,
+    "win_pct": 0.2364,
+    "units": -19.49,
+    "roi_pct": -35.44
+   },
+   "test": {
+    "n": 54,
+    "won": 19,
+    "win_pct": 0.3519,
+    "units": -5.18,
+    "roi_pct": -9.59
+   },
+   "all": {
+    "n": 109,
+    "won": 32,
+    "win_pct": 0.2936,
+    "units": -24.67,
+    "roi_pct": -22.63
+   }
+  },
+  "ladder 11+ legs": {
+   "train": {
+    "n": 138,
+    "won": 7,
+    "win_pct": 0.0507,
+    "units": -75.52,
+    "roi_pct": -54.72
+   },
+   "test": {
+    "n": 118,
+    "won": 15,
+    "win_pct": 0.1271,
+    "units": -28.12,
+    "roi_pct": -23.83
+   },
+   "all": {
+    "n": 256,
+    "won": 22,
+    "win_pct": 0.0859,
+    "units": -103.64,
+    "roi_pct": -40.48
+   }
+  },
+  "lottery single": {
+   "train": {
+    "n": 2,
+    "won": 2,
+    "win_pct": 1.0,
+    "units": 1.43,
+    "roi_pct": 71.5
+   },
+   "test": {
+    "n": 4,
+    "won": 3,
+    "win_pct": 0.75,
+    "units": -0.42,
+    "roi_pct": -10.5
+   },
+   "all": {
+    "n": 6,
+    "won": 5,
+    "win_pct": 0.8333,
+    "units": 1.01,
+    "roi_pct": 16.83
+   }
+  },
+  "lottery 2-leg": {
+   "train": {
+    "n": 3,
+    "won": 1,
+    "win_pct": 0.3333,
+    "units": -0.94,
+    "roi_pct": -31.33
+   },
+   "test": {
+    "n": 1,
+    "won": 1,
+    "win_pct": 1.0,
+    "units": 0.4,
+    "roi_pct": 40.0
+   },
+   "all": {
+    "n": 4,
+    "won": 2,
+    "win_pct": 0.5,
+    "units": -0.54,
+    "roi_pct": -13.5
+   }
+  },
+  "lottery 3-5 legs": {
+   "train": {
+    "n": 39,
+    "won": 1,
+    "win_pct": 0.0256,
+    "units": -37.28,
+    "roi_pct": -95.59
+   },
+   "test": {
+    "n": 41,
+    "won": 11,
+    "win_pct": 0.2683,
+    "units": 4.53,
+    "roi_pct": 11.05
+   },
+   "all": {
+    "n": 80,
+    "won": 12,
+    "win_pct": 0.15,
+    "units": -32.75,
+    "roi_pct": -40.94
+   }
+  },
+  "lottery 6-10 legs": {
+   "train": {
+    "n": 51,
+    "won": 2,
+    "win_pct": 0.0392,
+    "units": -46.61,
+    "roi_pct": -91.39
+   },
+   "test": {
+    "n": 43,
+    "won": 7,
+    "win_pct": 0.1628,
+    "units": 75.78,
+    "roi_pct": 176.23
+   },
+   "all": {
+    "n": 94,
+    "won": 9,
+    "win_pct": 0.0957,
+    "units": 29.17,
+    "roi_pct": 31.03
+   }
+  },
+  "lottery 11+ legs": {
+   "train": {
+    "n": 63,
+    "won": 1,
+    "win_pct": 0.0159,
+    "units": -52.06,
+    "roi_pct": -82.63
+   },
+   "test": {
+    "n": 45,
+    "won": 0,
+    "win_pct": 0.0,
+    "units": -45,
+    "roi_pct": -100.0
+   },
+   "all": {
+    "n": 108,
+    "won": 1,
+    "win_pct": 0.0093,
+    "units": -97.06,
+    "roi_pct": -89.87
+   }
+  },
+  "best 3-5 legs": {
+   "train": {
+    "n": 10,
+    "won": 1,
+    "win_pct": 0.1,
+    "units": -5.69,
+    "roi_pct": -56.9
+   },
+   "test": {
+    "n": 10,
+    "won": 3,
+    "win_pct": 0.3,
+    "units": 2.53,
+    "roi_pct": 25.3
+   },
+   "all": {
+    "n": 20,
+    "won": 4,
+    "win_pct": 0.2,
+    "units": -3.16,
+    "roi_pct": -15.8
+   }
+  }
+ },
+ "calibration": {
+  "note": "Fit on older dates, scored on newer dates. Top leg per game = 1-unit single at the last pregame FanDuel price.",
+  "split_50_50": {
+   "train_before": "2026-11-04",
+   "test_legs": 2955,
+   "v1 raw (live)": {
+    "brier": 0.1559,
+    "logloss": 0.4878,
+    "top_leg_per_game": {
+     "n": 457,
+     "win_pct": 0.8556,
+     "units": -9.08,
+     "roi_pct": -1.99
+    }
+   },
+   "isotonic by sport x market": {
+    "brier": 0.1566,
+    "logloss": 0.4912,
+    "top_leg_per_game": {
+     "n": 457,
+     "win_pct": 0.8643,
+     "units": -3.01,
+     "roi_pct": -0.66
+    }
+   },
+   "Platt by sport": {
+    "brier": 0.1565,
+    "logloss": 0.4907,
+    "top_leg_per_game": {
+     "n": 457,
+     "win_pct": 0.8556,
+     "units": -9.08,
+     "roi_pct": -1.99
+    }
+   },
+   "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
+    "top_leg_per_game": {
+     "n": 457,
+     "win_pct": 0.8556,
+     "units": -9.01,
+     "roi_pct": -1.97
+    }
+   },
+   "v1 ranked by prob + 0.5 x edge": {
+    "top_leg_per_game": {
+     "n": 457,
+     "win_pct": 0.849,
+     "units": -8.61,
+     "roi_pct": -1.88
+    }
+   }
+  },
+  "split_70_30": {
+   "train_before": "2026-11-08",
+   "test_legs": 1533,
+   "v1 raw (live)": {
+    "brier": 0.1477,
+    "logloss": 0.4675,
+    "top_leg_per_game": {
+     "n": 216,
+     "win_pct": 0.8611,
+     "units": -2.88,
+     "roi_pct": -1.33
+    }
+   },
+   "isotonic by sport x market": {
+    "brier": 0.149,
+    "logloss": 0.472,
+    "top_leg_per_game": {
+     "n": 216,
+     "win_pct": 0.875,
+     "units": 1.21,
+     "roi_pct": 0.56
+    }
+   },
+   "Platt by sport": {
+    "brier": 0.1488,
+    "logloss": 0.4711,
+    "top_leg_per_game": {
+     "n": 216,
+     "win_pct": 0.8611,
+     "units": -2.88,
+     "roi_pct": -1.33
+    }
+   },
+   "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
+    "top_leg_per_game": {
+     "n": 216,
+     "win_pct": 0.8657,
+     "units": -1.76,
+     "roi_pct": -0.81
+    }
+   },
+   "v1 ranked by prob + 0.5 x edge": {
+    "top_leg_per_game": {
+     "n": 216,
+     "win_pct": 0.8565,
+     "units": -1.58,
+     "roi_pct": -0.73
+    }
+   }
+  }
+ }
+}

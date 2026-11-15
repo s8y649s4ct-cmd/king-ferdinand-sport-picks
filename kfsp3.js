@@ -1,0 +1,52 @@
+// EV / ROI layer (2026-11-15): Value singles, ledger & ROI, model changes, safer/longer filter, honest banner. Times in Eastern.
+const K3={pc:p=>p==null?'–':(p*100).toFixed(1)+'%',pts:p=>p==null?'–':(p>0?'+':'')+(p*100).toFixed(1)+' pts',
+ u:x=>x==null?'–':(x>0?'+':'')+Number(x).toFixed(2)+'u',r:x=>x==null?'–':(x>0?'+':'')+Number(x).toFixed(1)+'%',od:o=>o==null?'':(o>0?'+':'')+o,
+ tm:s=>new Date(s).toLocaleString('en-US',{timeZone:'America/New_York',weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET',
+ esc:s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])),
+ cf:c=>`<span class="conf c${(c||'Low').toLowerCase()}">${c||'Low'} confidence</span>`};
+function evLeg(l){if(l.be==null)return '';
+ return `<br><small class=ev>Market: break-even ${K3.pc(l.be)} (FanDuel price incl. vig) · FanDuel no-vig ${K3.pc(l.fd_nv)}${l.sharp_prob!=null?` · Pinnacle no-vig ${K3.pc(l.sharp_prob)}`:''}<br>Model estimate ${K3.pc(l.prob)} · edge vs no-vig ${K3.pts(l.edge_nv)} · vs break-even ${K3.pts(l.edge_be)} · EV ${(l.ev>0?'+':'')+(l.ev||0).toFixed(3)}/unit · ${K3.cf(l.conf)}</small>${l.checks?`<br><small class=chk>✔ Checks: ${K3.esc(l.checks)}</small>`:''}`}
+function evTk(p){if(p.be==null)return '';
+ return `<br><small class=ev>Est. ${K3.pc(p.est_raw||p.est_prob)} vs break-even ${K3.pc(p.be)} (market no-vig ${K3.pc(p.mkt_nv)}) · edge ${K3.pts(p.edge_be)} · EV ${(p.ev_unit>0?'+':'')+(p.ev_unit??0)}/unit${p.pin_ev!=null?` · Pinnacle-priced EV ${(p.pin_ev>0?'+':'')+p.pin_ev}/unit`:''} · ${K3.cf(p.conf)}${p.tier=='long'||p.n>3?' · ⚠️ low-probability, high-variance':''}${p.bt_note?`<br>📒 ${p.bt_note}`:''}</small>`}
+function setTier(t){document.body.dataset.tier=t;localStorage.setItem('kfsp-tier',t);document.querySelectorAll('.tierbar button').forEach(b=>b.classList.toggle('on',b.dataset.v==t))}
+function tierBar(){const t=localStorage.getItem('kfsp-tier')||'short';setTimeout(()=>setTier(t),0);
+ return `<div class="card tierbar"><b>Show:</b> <button data-v=short onclick="setTier('short')">🛡️ Safer short (1-3 legs)</button><button data-v=long onclick="setTier('long')">💰 Higher payout (4-6 legs, Lottery)</button><button data-v=all onclick="setTier('all')">All</button><br><small>Short tickets have higher hit rates; longer tickets pay more but are low-probability and high-variance. Since Nov 15 no ticket is built with more than 6 legs (backtest below).</small></div>`}
+const SLIP=`<details class=card><summary>🧾 If a FanDuel button doesn’t load the slip</summary><small>1) Clear your FanDuel bet slip. 2) Check the PA/MD switch at the top matches where you are. 3) In the FanDuel app, search the team, open the game, pick the market named on the card (e.g. “Alternate Spread”), and tap the exact line and price shown. 4) Confirm the price on the slip is the same or better than the card; if it got worse, the edge may be gone. Nothing here places a bet for you.</small></details>`;
+function vRender(d){const el=document.getElementById('value');if(!el)return;const V=d.value||[],R=d.value_rule||{},rec=d.value_record||{};
+ let h=`<div class=card><h2>💡 Value singles (+EV)</h2><p>${K3.esc(R.text||'')}</p><table><tr><th></th><th>Legs</th><th>Hit</th><th>Units</th><th>ROI</th></tr>
+ ${R.train?`<tr><td>Backtest, older half (before ${R.split})</td><td>${R.train.n}</td><td>${K3.pc(R.train.win_pct)}</td><td>${K3.u(R.train.units)}</td><td>${K3.r(R.train.roi_pct)}</td></tr>`:''}
+ ${R.test?`<tr><td>Backtest, newer half (out of sample)</td><td>${R.test.n}</td><td>${K3.pc(R.test.win_pct)}</td><td>${K3.u(R.test.units)}</td><td>${K3.r(R.test.roi_pct)}</td></tr>`:''}
+ <tr><td><b>Live record since Nov 15</b></td><td>${(rec.won||0)+(rec.lost||0)}</td><td>${rec.won+rec.lost?K3.pc(rec.won/(rec.won+rec.lost)):'–'}</td><td>${K3.u(rec.units)}</td><td>${K3.r(rec.roi_pct)}</td></tr></table>
+ <small>Samples are small, so the edge is unproven. Estimated chance = Pinnacle’s no-vig price (a sharp market), which is an estimate, not a fact. ${rec.pending||0} pending.</small></div>`;
+ h+=V.map(v=>`<div class="card fav"><b>${K3.esc(v.pick)}</b> · ${K3.esc(v.market)} · <span class=v>${K3.od(v.odds)}</span><br><small>${K3.esc(v.game)} · ${K3.tm(v.start)}</small><br>
+  <a class=fdbtn data-pa="${v.fd_link}" href="${v.fd_link}">Bet single on FanDuel</a><br>
+  Est. chance <b>${K3.pc(v.sharp_prob)}</b> (Pinnacle no-vig${v.pin_how?', '+K3.esc(v.pin_how):''}) vs break-even ${K3.pc(v.be)} → edge <b>${K3.pts(v.pin_edge)}</b> · EV ${(v.ev_pin>0?'+':'')+v.ev_pin}/unit · ${K3.cf(v.conf)}<br>
+  <small>FanDuel no-vig ${K3.pc(v.fd_nv)} · our v1 model ${K3.pc(v.prob)}${v.priced_in?' · ⚠️ line already moved: news likely priced in':''}</small><br><small class=chk>✔ Checks: ${K3.esc(v.checks)}</small></div>`).join('')
+  ||`<div class=card><b>No single clears the +EV bar right now.</b> That is normal: most FanDuel prices sit at or below fair value, and nothing is padded in.</div>`;
+ el.innerHTML=h+SLIP+'<div class=card><small>Nothing is guaranteed. Model estimates differ from market prices. 1 unit = your normal stake.</small></div>';}
+function tbl(o,lab){return `<table><tr><th>${lab}</th><th>Tickets</th><th>W-L</th><th>Hit</th><th>Units</th><th>ROI</th></tr>${Object.entries(o||{}).map(([k,a])=>`<tr><td>${K3.esc(k)}</td><td>${a.tickets}</td><td>${a.won}-${a.lost}</td><td>${K3.pc(a.win_pct)}</td><td class=${a.units>=0?'p':'u'}>${K3.u(a.units)}</td><td>${K3.r(a.roi_pct)}</td></tr>`).join('')}</table>`}
+function lRender(L){const el=document.getElementById('ledger');if(!el)return;const o=L.overall||{};
+ const ban=document.getElementById('honestrec');if(ban)ban.innerHTML=`Actual graded results: <b>${o.won}-${o.lost}</b> (${K3.pc(o.win_pct)}) · <b class=${o.units>=0?'p':'u'}>${K3.u(o.units)}</b> · ROI <b>${K3.r(o.roi_pct)}</b> at 1 unit per ticket. <a href="#" onclick="document.querySelector('nav button[data-t=ledger]').click();return false">Ledger →</a>`;
+ const lg=L.legs_as_singles_by_sport||{},mc=L.model_compare||{};
+ let h=`<div class=card><h2>📈 Win/loss & ROI ledger</h2><p><b>${o.tickets} graded tickets: ${o.won}-${o.lost} · ${K3.u(o.units)} · ROI ${K3.r(o.roi_pct)}</b>. ${K3.esc(L.stake)}. ROI is the main score; hit rate alone hides thin payouts. Updated ${L.updated_et}.</p><small>${K3.esc(L.odds_coverage)}</small></div>`;
+ if((L.flags||[]).length)h+=`<div class="card lotnote"><h3>⚠️ Underperforming (flagged)</h3><ul>${L.flags.map(f=>`<li>${K3.esc(f)}</li>`).join('')}</ul></div>`;
+ h+=`<div class=card><h3>By board</h3>${tbl(L.by_board,'Board')}<small>👑 Green favorites (overlay of the boards above): ${L.green.won}-${L.green.lost}, ${K3.u(L.green.units)}, ROI ${K3.r(L.green.roi_pct)}</small></div>`;
+ h+=`<div class=card><h3>By bet type</h3>${tbl(L.by_type,'Type')}</div><div class=card><h3>By sport (single-sport tickets)</h3>${tbl(L.by_sport,'Sport')}</div>`;
+ h+=`<div class=card><h3>Legs used in tickets, as 1-unit singles</h3><table><tr><th>Sport</th><th>Legs</th><th>Hit</th><th>Est.</th><th>Units</th><th>ROI</th></tr>${Object.entries(lg).map(([k,a])=>`<tr><td>${k}</td><td>${a.legs}</td><td>${K3.pc(a.win_pct)}</td><td>${K3.pc(a.avg_est)}</td><td>${K3.u(a.units)}</td><td>${K3.r(a.roi_pct)}</td></tr>`).join('')}</table></div>`;
+ h+=`<div class=card><h3>By model version</h3>${tbl(L.by_model,'Model')}<table><tr><th>Same games, top leg per game</th><th>Legs</th><th>Hit</th><th>Units</th><th>ROI</th></tr>${Object.entries(mc).filter(([k,a])=>typeof a=='object').map(([k,a])=>`<tr><td>${k}</td><td>${a.legs}</td><td>${K3.pc(a.win_pct)}</td><td>${K3.u(a.units)}</td><td>${K3.r(a.roi_pct)}</td></tr>`).join('')}</table><small>${K3.esc(mc.note||'')}</small></div>`;
+ const S=L.separate_boards||{};h+=`<div class=card><h3>Separate boards</h3><table><tr><th>Board</th><th>Tickets</th><th>W-L</th><th>Units</th><th>ROI</th></tr>${Object.entries(S).map(([k,a])=>`<tr><td>${k}</td><td>${a.tickets}</td><td>${a.won}-${a.lost}</td><td>${K3.u(a.units)}</td><td>${K3.r(a.roi_pct)}</td></tr>`).join('')}</table><small>${K3.esc(L.separate_note)}</small></div>`;
+ h+=`<details class=card><summary><b>Researched 2-leg comparisons, graded</b></summary><ul>${(L.researched_2leg||[]).map(r=>`<li>${r.result=='win'?'✅':r.result=='loss'?'❌':'⏳'} ${r.date} ${K3.esc(r.id)}: ${r.legs.map(K3.esc).join(' + ')} · ~${r.payout_x}x</li>`).join('')}</ul></details>`;
+ h+=`<details class=card><summary><b>By day</b></summary>${tbl(L.by_day,'Day')}</details>`;
+ el.innerHTML=h+'<div class=card><small>Nothing is guaranteed. Past results do not predict future results.</small></div>';}
+function cRender(C,B){const el=document.getElementById('changes');if(!el)return;
+ el.innerHTML=`<div class=card><h2>🧪 Model changes</h2><p>Major changes go live only after an out-of-sample test (fit on older graded results, scored on newer ones), and each is listed here with what improved and what did not.</p></div>`+
+ (C.changes||[]).map(c=>`<div class="card ${c.status=='adopted'?'fav':''}"><b>${K3.esc(c.date)} · ${K3.esc(c.title)}</b> · <i>${K3.esc(c.status)}</i><br><small>${K3.esc(c.detail)}</small></div>`).join('')+
+ (B&&B.long_tickets?`<details class=card><summary><b>Backtest: posted tickets by size (older half / newer half)</b></summary><table><tr><th>Board/size</th><th>Older</th><th>Newer</th><th>All units</th></tr>${Object.entries(B.long_tickets).map(([k,v])=>`<tr><td>${k}</td><td>${v.train.n} · ${K3.r(v.train.roi_pct)}</td><td>${v.test.n} · ${K3.r(v.test.roi_pct)}</td><td>${K3.u(v.all.units)}</td></tr>`).join('')}</table></details>`:'');}
+function k3load(){fetch('picks.json?'+Date.now()).then(r=>r.json()).then(vRender).catch(()=>{});
+ fetch('ledger.json?'+Date.now()).then(r=>r.json()).then(lRender).catch(()=>{});
+ Promise.all([fetch('changes.json?'+Date.now()).then(r=>r.json()).catch(()=>({})),fetch('backtest.json?'+Date.now()).then(r=>r.json()).catch(()=>null)]).then(([c,b])=>cRender(c,b));}
+document.addEventListener('DOMContentLoaded',()=>{document.body.dataset.tier=localStorage.getItem('kfsp-tier')||'short';k3load();setInterval(k3load,120000);
+ // deep links: #ledger, #parlays ... open that tab; tapping a tab updates the address so it can be bookmarked
+ const go=()=>{const t=location.hash.slice(1),b=t&&document.querySelector(`nav button[data-t="${t}"]`);if(b)b.click();};
+ setTimeout(()=>{document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>history.replaceState(null,'','#'+b.dataset.t)));go();},0);
+ window.addEventListener('hashchange',go);});
