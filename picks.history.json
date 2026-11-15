@@ -150854,8 +150854,8 @@
   "type": "best",
   "label": "best",
   "n": 5,
-  "est_prob": 0.2107,
-  "fd_payout_x": 4.42,
+  "est_prob": 0.2075,
+  "fd_payout_x": 4.46,
   "legs_detail": [
    {
     "id": "401909990:7901111:742.197763082",
@@ -150890,22 +150890,6 @@
     "close_odds": -300
    },
    {
-    "id": "401909988:7890488:742.197762665",
-    "event": "401909988",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 22.5,
-    "pick": "Utah Jazz +22.5",
-    "market": "Alternate Spread",
-    "odds": -300,
-    "prob": 0.7276,
-    "raw_prob": 0.7276,
-    "game": "San Antonio Spurs at Utah Jazz",
-    "result": null,
-    "close_odds": -300
-   },
-   {
     "id": "401909993:7890434:742.197763476",
     "event": "401909993",
     "sport": "nba",
@@ -150936,9 +150920,25 @@
     "game": "Houston Rockets at Washington Wizards",
     "result": null,
     "close_odds": -280
+   },
+   {
+    "id": "401909992:7712377:742.197763349",
+    "event": "401909992",
+    "sport": "nba",
+    "kind": "total",
+    "line": 223.5,
+    "ou": "over",
+    "pick": "Over 223.5",
+    "market": "Alternate Total Points",
+    "odds": -290,
+    "prob": 0.7167,
+    "raw_prob": 0.7167,
+    "game": "Atlanta Hawks at Milwaukee Bucks",
+    "result": null,
+    "close_odds": -290
    }
   ],
-  "logged": "2026-11-15 21:49 UTC",
+  "logged": "2026-11-15 22:00 UTC",
   "locked": false,
   "result": null,
   "favorite": true,
@@ -150970,7 +150970,7 @@
     "close_odds": -950
    }
   ],
-  "logged": "2026-11-15 21:49 UTC",
+  "logged": "2026-11-15 22:00 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -156011,7 +156011,7 @@
     "raw_prob": 0.8359,
     "game": "Nashville Predators at San Jose Sharks",
     "result": null,
-    "close_odds": -460
+    "close_odds": -430
    },
    {
     "id": "401892723:7000397:742.197788112",
@@ -156454,88 +156454,9 @@
   "date": "2026-11-15",
   "type": "lottery",
   "label": "~100x",
-  "n": 4,
-  "est_prob": 0.012815843582015998,
-  "fd_payout_x": 102.45,
-  "legs_detail": [
-   {
-    "id": "401892722:7742395:742.197786756",
-    "event": "401892722",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -2.5,
-    "pick": "Dallas Stars -2.5",
-    "market": "Alternate Puck Line",
-    "odds": 300,
-    "prob": 0.2727,
-    "raw_prob": 0.2727,
-    "game": "Florida Panthers at Dallas Stars",
-    "result": null,
-    "close_odds": 300
-   },
-   {
-    "id": "401892721:25603:742.197175861",
-    "event": "401892721",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "away",
-    "line": -1.5,
-    "pick": "Edmonton Oilers -1.5",
-    "market": "Puck Line",
-    "odds": 164,
-    "prob": 0.4142,
-    "raw_prob": 0.4142,
-    "game": "Edmonton Oilers at Philadelphia Flyers",
-    "result": null,
-    "close_odds": 164
-   },
-   {
-    "id": "401892723:2294077:742.197175832",
-    "event": "401892723",
-    "sport": "nhl",
-    "kind": "spread",
-    "side": "home",
-    "line": -1.5,
-    "pick": "Anaheim Ducks -1.5",
-    "market": "Puck Line",
-    "odds": 152,
-    "prob": 0.424,
-    "raw_prob": 0.424,
-    "game": "Calgary Flames at Anaheim Ducks",
-    "result": null,
-    "close_odds": 152
-   },
-   {
-    "id": "401873064:12213273:742.196795509",
-    "event": "401873064",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "away",
-    "line": -4.5,
-    "pick": "Pittsburgh Steelers (-4.5)",
-    "market": "Alternate Spread",
-    "odds": 285,
-    "prob": 0.2676,
-    "raw_prob": 0.2676,
-    "game": "Pittsburgh Steelers at Cincinnati Bengals",
-    "result": null,
-    "close_odds": 285
-   }
-  ],
-  "logged": "2026-11-15 21:49 UTC",
-  "locked": false,
-  "result": null,
-  "favorite": false
- },
- {
-  "id": "2026-11-15-lottery-~25x",
-  "date": "2026-11-15",
-  "type": "lottery",
-  "label": "~25x",
   "n": 5,
-  "est_prob": 0.04885898930008688,
-  "fd_payout_x": 27.99,
+  "est_prob": 0.013559835574175921,
+  "fd_payout_x": 101.64,
   "legs_detail": [
    {
     "id": "401892722:25612:742.197175828",
@@ -156562,28 +156483,107 @@
     "line": -1.5,
     "pick": "Nashville Predators -1.5",
     "market": "Puck Line",
-    "odds": 140,
-    "prob": 0.4536,
-    "raw_prob": 0.4536,
+    "odds": 144,
+    "prob": 0.4501,
+    "raw_prob": 0.4501,
     "game": "Nashville Predators at San Jose Sharks",
     "result": null,
-    "close_odds": 140
+    "close_odds": 144
    },
    {
-    "id": "401892721:25603:742.197175861",
-    "event": "401892721",
+    "id": "401892723:2294077:742.197175832",
+    "event": "401892723",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Anaheim Ducks -1.5",
+    "market": "Puck Line",
+    "odds": 152,
+    "prob": 0.424,
+    "raw_prob": 0.424,
+    "game": "Calgary Flames at Anaheim Ducks",
+    "result": null,
+    "close_odds": 152
+   },
+   {
+    "id": "401909990:7889682:742.197763082",
+    "event": "401909990",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "New York Knicks +1.5",
+    "market": "Alternate Spread",
+    "odds": -180,
+    "prob": 0.6628,
+    "raw_prob": 0.6628,
+    "game": "New York Knicks at Toronto Raptors",
+    "result": null,
+    "close_odds": -180
+   },
+   {
+    "id": "401873064:12213273:742.196795509",
+    "event": "401873064",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": -4.5,
+    "pick": "Pittsburgh Steelers (-4.5)",
+    "market": "Alternate Spread",
+    "odds": 285,
+    "prob": 0.2676,
+    "raw_prob": 0.2676,
+    "game": "Pittsburgh Steelers at Cincinnati Bengals",
+    "result": null,
+    "close_odds": 285
+   }
+  ],
+  "logged": "2026-11-15 22:00 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-15-lottery-~25x",
+  "date": "2026-11-15",
+  "type": "lottery",
+  "label": "~25x",
+  "n": 5,
+  "est_prob": 0.04848199092585782,
+  "fd_payout_x": 28.45,
+  "legs_detail": [
+   {
+    "id": "401892725:25594:742.197175817",
+    "event": "401892725",
     "sport": "nhl",
     "kind": "spread",
     "side": "away",
     "line": -1.5,
-    "pick": "Edmonton Oilers -1.5",
+    "pick": "Nashville Predators -1.5",
     "market": "Puck Line",
-    "odds": 164,
-    "prob": 0.4142,
-    "raw_prob": 0.4142,
-    "game": "Edmonton Oilers at Philadelphia Flyers",
+    "odds": 144,
+    "prob": 0.4501,
+    "raw_prob": 0.4501,
+    "game": "Nashville Predators at San Jose Sharks",
     "result": null,
-    "close_odds": 164
+    "close_odds": 144
+   },
+   {
+    "id": "401892722:25612:742.197175828",
+    "event": "401892722",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "home",
+    "line": -1.5,
+    "pick": "Dallas Stars -1.5",
+    "market": "Puck Line",
+    "odds": 176,
+    "prob": 0.4006,
+    "raw_prob": 0.4006,
+    "game": "Florida Panthers at Dallas Stars",
+    "result": null,
+    "close_odds": 176
    },
    {
     "id": "401909990:7889765:742.197763082",
@@ -156616,9 +156616,25 @@
     "game": "Atlanta Hawks at Milwaukee Bucks",
     "result": null,
     "close_odds": -430
+   },
+   {
+    "id": "401892721:25603:742.197175861",
+    "event": "401892721",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": -1.5,
+    "pick": "Edmonton Oilers -1.5",
+    "market": "Puck Line",
+    "odds": 164,
+    "prob": 0.4142,
+    "raw_prob": 0.4142,
+    "game": "Edmonton Oilers at Philadelphia Flyers",
+    "result": null,
+    "close_odds": 164
    }
   ],
-  "logged": "2026-11-15 21:49 UTC",
+  "logged": "2026-11-15 22:00 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -156629,8 +156645,8 @@
   "type": "lottery",
   "label": "~500x",
   "n": 6,
-  "est_prob": 0.0027258340673848094,
-  "fd_payout_x": 541.86,
+  "est_prob": 0.0027436721837497463,
+  "fd_payout_x": 533.89,
   "legs_detail": [
    {
     "id": "401892722:7742395:742.197786756",
@@ -156657,12 +156673,12 @@
     "line": -2.5,
     "pick": "Nashville Predators -2.5",
     "market": "Alternate Puck Line",
-    "odds": 240,
-    "prob": 0.3209,
-    "raw_prob": 0.3209,
+    "odds": 235,
+    "prob": 0.323,
+    "raw_prob": 0.323,
     "game": "Nashville Predators at San Jose Sharks",
     "result": null,
-    "close_odds": 240
+    "close_odds": 235
    },
    {
     "id": "401892721:25603:742.197175861",
@@ -156729,7 +156745,7 @@
     "close_odds": -180
    }
   ],
-  "logged": "2026-11-15 21:49 UTC",
+  "logged": "2026-11-15 22:00 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -156740,8 +156756,8 @@
   "type": "lottery",
   "label": "~1,000x",
   "n": 6,
-  "est_prob": 0.0009040171274433387,
-  "fd_payout_x": 1537.84,
+  "est_prob": 0.0009099331011660903,
+  "fd_payout_x": 1515.23,
   "legs_detail": [
    {
     "id": "401892722:7742395:742.197786756",
@@ -156768,12 +156784,12 @@
     "line": -2.5,
     "pick": "Nashville Predators -2.5",
     "market": "Alternate Puck Line",
-    "odds": 240,
-    "prob": 0.3209,
-    "raw_prob": 0.3209,
+    "odds": 235,
+    "prob": 0.323,
+    "raw_prob": 0.323,
     "game": "Nashville Predators at San Jose Sharks",
     "result": null,
-    "close_odds": 240
+    "close_odds": 235
    },
    {
     "id": "401892721:7735507:742.197783649",
@@ -156840,7 +156856,7 @@
     "close_odds": 215
    }
   ],
-  "logged": "2026-11-15 21:49 UTC",
+  "logged": "2026-11-15 22:00 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -156851,8 +156867,8 @@
   "type": "lottery",
   "label": "6-leg best-chance lottery",
   "n": 6,
-  "est_prob": 0.481798331031781,
-  "fd_payout_x": 1.84,
+  "est_prob": 0.46992108388468395,
+  "fd_payout_x": 1.85,
   "legs_detail": [
    {
     "id": "401909992:7891153:742.197763360",
@@ -156919,22 +156935,6 @@
     "close_odds": -950
    },
    {
-    "id": "401909988:7921023:742.197762665",
-    "event": "401909988",
-    "sport": "nba",
-    "kind": "spread",
-    "side": "home",
-    "line": 30.5,
-    "pick": "Utah Jazz +30.5",
-    "market": "Alternate Spread",
-    "odds": -950,
-    "prob": 0.8762,
-    "raw_prob": 0.8762,
-    "game": "San Antonio Spurs at Utah Jazz",
-    "result": null,
-    "close_odds": -950
-   },
-   {
     "id": "401909989:7889235:742.197758756",
     "event": "401909989",
     "sport": "nba",
@@ -156949,9 +156949,25 @@
     "game": "Dallas Mavericks at Boston Celtics",
     "result": null,
     "close_odds": -850
+   },
+   {
+    "id": "401873064:15778771:742.196795509",
+    "event": "401873064",
+    "sport": "nfl",
+    "kind": "spread",
+    "side": "away",
+    "line": 17.5,
+    "pick": "Pittsburgh Steelers (+17.5)",
+    "market": "Alternate Spread",
+    "odds": -900,
+    "prob": 0.8546,
+    "raw_prob": 0.8546,
+    "game": "Pittsburgh Steelers at Cincinnati Bengals",
+    "result": null,
+    "close_odds": -900
    }
   ],
-  "logged": "2026-11-15 21:49 UTC",
+  "logged": "2026-11-15 22:00 UTC",
   "locked": false,
   "result": null,
   "favorite": false
