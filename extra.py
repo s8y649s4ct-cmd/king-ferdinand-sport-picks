@@ -351,7 +351,7 @@ for L in pp:
   if k not in byp or (L['prob'],L['odds'])>(byp[k]['prob'],byp[k]['odds']): byp[k]=L
 ppool=sorted(byp.values(),key=lambda L:-L['prob'])
 uses={}; prop_tix=[]
-for n in range(1,min(15,len(ppool))+1):
+for n in range(1,min(6,len(ppool))+1):  # 2026-11-15 backtest: props tickets over 6 legs; capped at 6: older half 32.7%->63.3% hit, -64.0->-7.9u; newer 38.4%->58.5%, -34.6->-12.4u
   sel=[]; pg={}
   for L in sorted(ppool,key=lambda L:-(L['prob']-0.006*uses.get(L['id'],0))):
     if pg.get(L['event'],0)>=2 or uses.get(L['id'],0)>=5: continue

@@ -88,6 +88,7 @@ def ticket(legs,typ):
   for L in legs: p*=L['prob']; x*=dec(L['odds'])
   return {'n':len(legs),'legs':[L['id'] for L in legs],'est_prob':round(p,4),'fd_payout_x':round(x,2),'ev':round(p*x-1,4),'fd_link':fdlink(legs),'type':typ,'favorite':False}
 def ladder(pool,nmax,per_game,per_team,reuse,typ):
+  nmax=min(nmax,6)  # 2026-11-15 backtest: 3s & rebounds capped at 6 legs: older half 23.5%->43.3% hit, -67.3->-25.3u; newer 35.7%->63.6%, -50.6->-5.1u (TD tickets already <=6)
   uses={}; tix=[]
   for n in range(1,min(nmax,len(pool))+1):
     sel=[]; pg={}; pt={}
