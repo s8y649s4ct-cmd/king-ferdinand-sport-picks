@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 04:14 UTC",
+ "updated": "2026-11-16 04:25 UTC",
  "date": "2026-11-15",
  "ladder_stats": {
   "tickets": 25,
@@ -525,7 +525,7 @@
    "pin_edge": -0.0076,
    "pin_how": "Pinnacle total 62.5 extrapolated",
    "conf": "Low",
-   "checks": "Inj: SF 8 out/0 Q; DAL 9 out/2 Q (Tyler Booker, DaRon Bland) \u00b7 Wx: indoor \u00b7 Line: -800 \u2192 -850",
+   "checks": "Inj: SF 8 out/0 Q; DAL 8 out/2 Q (Tyler Booker, DaRon Bland) \u00b7 Wx: indoor \u00b7 Line: -800 \u2192 -850",
    "priced_in": false
   },
   "401873064:12194337:742.196795536": {
@@ -3788,7 +3788,7 @@
    "name": "Pittsburgh Steelers at Cincinnati Bengals",
    "start": "2026-11-16T01:20Z",
    "state": "in",
-   "status": "5:02 - 4th",
+   "status": "0:20 - 4th",
    "venue": "Paycor Stadium",
    "indoor": false,
    "city": {
@@ -3798,8 +3798,8 @@
    },
    "espn_wx": {
     "displayValue": "38",
-    "temperature": 38,
-    "highTemperature": 38,
+    "temperature": 42,
+    "highTemperature": 42,
     "conditionId": "Mostly cloudy",
     "link": {
      "language": "en-US",
@@ -4781,8 +4781,8 @@
    "sport": "nba",
    "name": "Oklahoma City Thunder at Sacramento Kings",
    "start": "2026-11-16T02:00Z",
-   "state": "in",
-   "status": "3:51 - 4th",
+   "state": "post",
+   "status": "Final",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -4797,28 +4797,28 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "99",
-     "winner": null,
-     "record": "1-11",
+     "score": "103",
+     "winner": false,
+     "record": "1-12",
      "ml_open": null,
      "ml": null,
      "tid": "23",
      "abbr": "SAC",
-     "home_rec": "0-7",
+     "home_rec": "0-8",
      "road_rec": "1-4"
     },
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "120",
-     "winner": null,
-     "record": "8-5",
+     "score": "125",
+     "winner": true,
+     "record": "9-5",
      "ml_open": null,
      "ml": null,
      "tid": "25",
      "abbr": "OKC",
      "home_rec": "5-0",
-     "road_rec": "3-5"
+     "road_rec": "4-5"
     }
    }
   },
@@ -4969,7 +4969,7 @@
    "name": "Vancouver Canucks at Vegas Golden Knights",
    "start": "2026-11-16T02:00Z",
    "state": "in",
-   "status": "16:20 - 3rd",
+   "status": "10:55 - 3rd",
    "venue": "T-Mobile Arena",
    "indoor": true,
    "city": {
@@ -5016,7 +5016,7 @@
    "name": "Nashville Predators at San Jose Sharks",
    "start": "2026-11-16T02:00Z",
    "state": "in",
-   "status": "10:55 - 3rd",
+   "status": "5:44 - 3rd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -5658,20 +5658,20 @@
  "weather": [
   {
    "g": "Pittsburgh Steelers at Cincinnati Bengals",
-   "w": "38, 38F",
+   "w": "38, 42F",
    "src": "ESPN/AccuWeather"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-16 04:14 UTC",
-  "graded_legs": 2778,
+  "updated": "2026-11-16 04:25 UTC",
+  "graded_legs": 2785,
   "calibration": {
    "85-90%": {
-    "n": 1394,
-    "wins": 1202,
+    "n": 1398,
+    "wins": 1206,
     "pred": 0.872,
-    "hit": 0.862
+    "hit": 0.863
    },
    "75-80%": {
     "n": 194,
@@ -5704,10 +5704,10 @@
     "hit": 0.945
    },
    "70-75%": {
-    "n": 78,
-    "wins": 65,
+    "n": 79,
+    "wins": 66,
     "pred": 0.731,
-    "hit": 0.833
+    "hit": 0.835
    },
    "40-45%": {
     "n": 55,
@@ -5722,10 +5722,10 @@
     "hit": 0.444
    },
    "25-30%": {
-    "n": 150,
+    "n": 151,
     "wins": 35,
     "pred": 0.275,
-    "hit": 0.233
+    "hit": 0.232
    },
    "60-65%": {
     "n": 30,
@@ -5740,10 +5740,10 @@
     "hit": 0.297
    },
    "20-25%": {
-    "n": 72,
+    "n": 73,
     "wins": 13,
     "pred": 0.236,
-    "hit": 0.181
+    "hit": 0.178
    },
    "35-40%": {
     "n": 58,
@@ -5778,8 +5778,8 @@
     "hit": 0.804
    },
    "nba": {
-    "n": 961,
-    "wins": 749,
+    "n": 968,
+    "wins": 754,
     "pred": 0.792,
     "hit": 0.779
    },
@@ -5834,16 +5834,16 @@
   },
   "by_market": {
    "total": {
-    "n": 1262,
+    "n": 1264,
     "wins": 1031,
-    "pred": 0.827,
-    "hit": 0.817
+    "pred": 0.826,
+    "hit": 0.816
    },
    "spread": {
-    "n": 1228,
-    "wins": 913,
-    "pred": 0.754,
-    "hit": 0.743
+    "n": 1233,
+    "wins": 918,
+    "pred": 0.755,
+    "hit": 0.745
    },
    "dc": {
     "n": 71,
@@ -5877,15 +5877,15 @@
    }
   },
   "parlays": {
-   "graded": 827,
-   "won": 163,
-   "expected": 169.78,
-   "pending": 7,
+   "graded": 830,
+   "won": 164,
+   "expected": 170.02,
+   "pending": 4,
    "by_type": {
     "ladder": {
-     "graded": 500,
-     "won": 126,
-     "expected": 134.89
+     "graded": 501,
+     "won": 127,
+     "expected": 135.08
     },
     "best": {
      "graded": 21,
@@ -5893,9 +5893,9 @@
      "expected": 4.29
     },
     "lottery": {
-     "graded": 306,
+     "graded": 308,
      "won": 32,
-     "expected": 30.53
+     "expected": 30.57
     }
    },
    "note": "Since 2026-10-25 ladder tickets are built separately with spread-out legs (before that they were nested, so one loss sank every larger ticket)."
@@ -5966,7 +5966,7 @@
       "pick": "Oklahoma City Thunder -5.5",
       "game": "Oklahoma City Thunder at Sacramento Kings",
       "odds": -290,
-      "result": null
+      "result": "win"
      },
      {
       "pick": "Under (56.5)",
@@ -8970,43 +8970,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -950 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 8083,
-   "brier": 0.1477,
-   "logloss": 0.4695,
+   "n": 8104,
+   "brier": 0.1474,
+   "logloss": 0.4687,
    "picks": 2138,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 2111,
-   "top_picks_won": 1778,
-   "top_picks_expected": 1765.3,
-   "top_win_rate": 0.8422548555187115
+   "top_picks_graded": 2122,
+   "top_picks_won": 1789,
+   "top_picks_expected": 1774.81,
+   "top_win_rate": 0.8430725730442978
   },
   "v2": {
-   "n": 8083,
-   "brier": 0.1472,
-   "logloss": 0.4689,
+   "n": 8104,
+   "brier": 0.1468,
+   "logloss": 0.468,
    "picks": 719,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.39,
-   "top_picks_graded": 715,
-   "top_picks_won": 621,
-   "top_picks_expected": 632.85,
-   "top_win_rate": 0.8685314685314686
+   "top_picks_graded": 716,
+   "top_picks_won": 622,
+   "top_picks_expected": 633.76,
+   "top_win_rate": 0.8687150837988827
   },
-  "graded": 8083,
+  "graded": 8104,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 8083,
-    "v2": 8083,
+    "v1": 8104,
+    "v2": 8104,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4695,
-    "v2": 0.4689,
+    "v1": 0.4687,
+    "v2": 0.468,
     "pass": true
    },
    {
@@ -9023,14 +9023,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 2111,
-    "v2": 715,
+    "v1": 2122,
+    "v2": 716,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1778/2111",
-    "v2": "621/715",
+    "v1": "1789/2122",
+    "v2": "622/716",
     "pass": true
    }
   ],
