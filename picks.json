@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 03:33 UTC",
+ "updated": "2026-11-16 03:50 UTC",
  "date": "2026-11-15",
  "ladder_stats": {
   "tickets": 25,
@@ -73,7 +73,7 @@
    "pin_edge": 0.0201,
    "pin_how": "Pinnacle +6 line extrapolated 13.5 pts",
    "conf": "Low",
-   "checks": "Inj: ATL 6 out/0 Q; MIL 2 out/0 Q \u00b7 Wx: indoor \u00b7 Line: -700 \u2192 -800",
+   "checks": "Inj: ATL 5 out/0 Q; MIL 2 out/0 Q \u00b7 Wx: indoor \u00b7 Line: -700 \u2192 -800",
    "priced_in": false
   },
   "401909986:7884326:742.197761786": {
@@ -1041,7 +1041,7 @@
    "pin_edge": -0.0099,
    "pin_how": "Pinnacle total 236 extrapolated",
    "conf": "Low",
-   "checks": "Inj: ATL 6 out/0 Q; MIL 2 out/0 Q \u00b7 Wx: indoor \u00b7 Line: no FanDuel move today",
+   "checks": "Inj: ATL 5 out/0 Q; MIL 2 out/0 Q \u00b7 Wx: indoor \u00b7 Line: no FanDuel move today",
    "priced_in": false
   },
   "401909985:7700492:742.197761386": {
@@ -1877,7 +1877,7 @@
    "pin_edge": 0.0188,
    "pin_how": "Pinnacle +5 line extrapolated 13.5 pts",
    "conf": "Low",
-   "checks": "Inj: ATL 6 out/0 Q; MIL 2 out/0 Q \u00b7 Wx: indoor \u00b7 Line: no FanDuel move today",
+   "checks": "Inj: ATL 5 out/0 Q; MIL 2 out/0 Q \u00b7 Wx: indoor \u00b7 Line: no FanDuel move today",
    "priced_in": false
   },
   "401909989:7889290:742.197758756": {
@@ -3444,7 +3444,7 @@
    "pin_edge": -0.0056,
    "pin_how": "Pinnacle total 5 extrapolated",
    "conf": "Low",
-   "checks": "Inj: FLA 3 out/0 Q; DAL 5 out/0 Q \u00b7 Wx: indoor \u00b7 Line: no FanDuel move today",
+   "checks": "Inj: FLA 3 out/0 Q; DAL 6 out/0 Q \u00b7 Wx: indoor \u00b7 Line: no FanDuel move today",
    "priced_in": false
   },
   "401892724:8359782:742.197788546": {
@@ -3788,7 +3788,7 @@
    "name": "Pittsburgh Steelers at Cincinnati Bengals",
    "start": "2026-11-16T01:20Z",
    "state": "in",
-   "status": "2:42 - 3rd",
+   "status": "12:16 - 4th",
    "venue": "Paycor Stadium",
    "indoor": false,
    "city": {
@@ -3797,10 +3797,10 @@
     "country": "USA"
    },
    "espn_wx": {
-    "displayValue": "34",
-    "temperature": 38,
-    "highTemperature": 38,
-    "conditionId": "Mostly clear",
+    "displayValue": "38",
+    "temperature": 42,
+    "highTemperature": 42,
+    "conditionId": "Mostly cloudy",
     "link": {
      "language": "en-US",
      "rel": [
@@ -3833,7 +3833,7 @@
     "away": {
      "name": "Pittsburgh Steelers",
      "short": "Steelers",
-     "score": "3",
+     "score": "11",
      "winner": null,
      "record": "6-2",
      "ml_open": null,
@@ -4782,7 +4782,7 @@
    "name": "Oklahoma City Thunder at Sacramento Kings",
    "start": "2026-11-16T02:00Z",
    "state": "in",
-   "status": "7:02 - 3rd",
+   "status": "End of 3rd",
    "venue": "Golden 1 Center",
    "indoor": true,
    "city": {
@@ -4797,7 +4797,7 @@
     "home": {
      "name": "Sacramento Kings",
      "short": "Kings",
-     "score": "62",
+     "score": "80",
      "winner": null,
      "record": "1-11",
      "ml_open": null,
@@ -4810,7 +4810,7 @@
     "away": {
      "name": "Oklahoma City Thunder",
      "short": "Thunder",
-     "score": "78",
+     "score": "94",
      "winner": null,
      "record": "8-5",
      "ml_open": null,
@@ -4874,8 +4874,8 @@
    "sport": "nhl",
    "name": "Florida Panthers at Dallas Stars",
    "start": "2026-11-16T01:00Z",
-   "state": "in",
-   "status": "2:03 - 3rd",
+   "state": "post",
+   "status": "Final/OT",
    "venue": "American Airlines Center",
    "indoor": true,
    "city": {
@@ -4891,28 +4891,28 @@
     "home": {
      "name": "Dallas Stars",
      "short": "Stars",
-     "score": "1",
-     "winner": null,
-     "record": "11-6-2",
+     "score": "2",
+     "winner": true,
+     "record": "12-6-2",
      "ml_open": null,
      "ml": null,
      "tid": "9",
      "abbr": "DAL",
-     "home_rec": "7-5-0",
+     "home_rec": "8-5-0",
      "road_rec": "4-1-2"
     },
     "away": {
      "name": "Florida Panthers",
      "short": "Panthers",
      "score": "1",
-     "winner": null,
-     "record": "12-7-2",
+     "winner": false,
+     "record": "12-7-3",
      "ml_open": null,
      "ml": null,
      "tid": "26",
      "abbr": "FLA",
      "home_rec": "5-2-0",
-     "road_rec": "7-5-2"
+     "road_rec": "7-5-3"
     }
    }
   },
@@ -4969,7 +4969,7 @@
    "name": "Vancouver Canucks at Vegas Golden Knights",
    "start": "2026-11-16T02:00Z",
    "state": "in",
-   "status": "6:24 - 2nd",
+   "status": "End of 2nd",
    "venue": "T-Mobile Arena",
    "indoor": true,
    "city": {
@@ -5016,7 +5016,7 @@
    "name": "Nashville Predators at San Jose Sharks",
    "start": "2026-11-16T02:00Z",
    "state": "in",
-   "status": "4:21 - 2nd",
+   "status": "End of 2nd",
    "venue": "SAP Center at San Jose",
    "indoor": true,
    "city": {
@@ -5045,7 +5045,7 @@
     "away": {
      "name": "Nashville Predators",
      "short": "Predators",
-     "score": "0",
+     "score": "1",
      "winner": null,
      "record": "11-4-5",
      "ml_open": null,
@@ -5217,11 +5217,6 @@
   {
    "team": "Atlanta Hawks",
    "t": "Mouhamed Gueye - Out: Gueye (foot) is ready to begin on-court activities and will be re-evaluated in four weeks, Brad Rowland of the Locked On Podcast Network reports.",
-   "src": "ESPN injuries feed"
-  },
-  {
-   "team": "Atlanta Hawks",
-   "t": "Keshon Gilbert - Out: Gilbert (knee) has been ruled out for Friday's game against the Bulls.",
    "src": "ESPN injuries feed"
   },
   {
@@ -5531,6 +5526,11 @@
   },
   {
    "team": "Dallas Stars",
+   "t": "Tyler Myers - Out: out",
+   "src": "ESPN injuries feed"
+  },
+  {
+   "team": "Dallas Stars",
    "t": "Miro Heiskanen - Out: Heiskanen (upper body) is doubtful for Sunday's matchup against Florida, per Mike Heika of the Stars' official site.",
    "src": "ESPN injuries feed"
   },
@@ -5658,14 +5658,14 @@
  "weather": [
   {
    "g": "Pittsburgh Steelers at Cincinnati Bengals",
-   "w": "34, 38F",
+   "w": "38, 42F",
    "src": "ESPN/AccuWeather"
   }
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-16 03:33 UTC",
-  "graded_legs": 2775,
+  "updated": "2026-11-16 03:50 UTC",
+  "graded_legs": 2778,
   "calibration": {
    "85-90%": {
     "n": 1394,
@@ -5674,16 +5674,16 @@
     "hit": 0.862
    },
    "75-80%": {
-    "n": 193,
-    "wins": 159,
+    "n": 194,
+    "wins": 160,
     "pred": 0.785,
-    "hit": 0.824
+    "hit": 0.825
    },
    "80-85%": {
-    "n": 477,
+    "n": 478,
     "wins": 403,
     "pred": 0.826,
-    "hit": 0.845
+    "hit": 0.843
    },
    "65-70%": {
     "n": 29,
@@ -5746,10 +5746,10 @@
     "hit": 0.181
    },
    "35-40%": {
-    "n": 57,
+    "n": 58,
     "wins": 16,
     "pred": 0.38,
-    "hit": 0.281
+    "hit": 0.276
    },
    "55-60%": {
     "n": 16,
@@ -5784,10 +5784,10 @@
     "hit": 0.779
    },
    "nhl": {
-    "n": 472,
-    "wins": 299,
+    "n": 475,
+    "wins": 300,
     "pred": 0.673,
-    "hit": 0.633
+    "hit": 0.632
    },
    "mlb": {
     "n": 10,
@@ -5834,16 +5834,16 @@
   },
   "by_market": {
    "total": {
-    "n": 1261,
+    "n": 1262,
     "wins": 1031,
     "pred": 0.827,
-    "hit": 0.818
+    "hit": 0.817
    },
    "spread": {
-    "n": 1226,
-    "wins": 912,
+    "n": 1228,
+    "wins": 913,
     "pred": 0.754,
-    "hit": 0.744
+    "hit": 0.743
    },
    "dc": {
     "n": 71,
@@ -5877,10 +5877,10 @@
    }
   },
   "parlays": {
-   "graded": 826,
+   "graded": 827,
    "won": 163,
    "expected": 169.78,
-   "pending": 8,
+   "pending": 7,
    "by_type": {
     "ladder": {
      "graded": 500,
@@ -5893,7 +5893,7 @@
      "expected": 4.29
     },
     "lottery": {
-     "graded": 305,
+     "graded": 306,
      "won": 32,
      "expected": 30.53
     }
@@ -8970,43 +8970,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -950 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 8072,
+   "n": 8083,
    "brier": 0.1477,
-   "logloss": 0.4694,
+   "logloss": 0.4695,
    "picks": 2138,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 2108,
-   "top_picks_won": 1776,
-   "top_picks_expected": 1763.13,
-   "top_win_rate": 0.8425047438330171
+   "top_picks_graded": 2111,
+   "top_picks_won": 1778,
+   "top_picks_expected": 1765.3,
+   "top_win_rate": 0.8422548555187115
   },
   "v2": {
-   "n": 8072,
-   "brier": 0.1471,
-   "logloss": 0.4687,
+   "n": 8083,
+   "brier": 0.1472,
+   "logloss": 0.4689,
    "picks": 719,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.39,
-   "top_picks_graded": 714,
+   "top_picks_graded": 715,
    "top_picks_won": 621,
-   "top_picks_expected": 631.97,
-   "top_win_rate": 0.8697478991596639
+   "top_picks_expected": 632.85,
+   "top_win_rate": 0.8685314685314686
   },
-  "graded": 8072,
+  "graded": 8083,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 8072,
-    "v2": 8072,
+    "v1": 8083,
+    "v2": 8083,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4694,
-    "v2": 0.4687,
+    "v1": 0.4695,
+    "v2": 0.4689,
     "pass": true
    },
    {
@@ -9023,14 +9023,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 2108,
-    "v2": 714,
+    "v1": 2111,
+    "v2": 715,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1776/2108",
-    "v2": "621/714",
+    "v1": "1778/2111",
+    "v2": "621/715",
     "pass": true
    }
   ],
