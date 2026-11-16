@@ -150871,7 +150871,7 @@
     "raw_prob": 0.7309,
     "game": "Oklahoma City Thunder at Sacramento Kings",
     "result": null,
-    "close_odds": -290
+    "close_odds": -320
    },
    {
     "id": "401873064:12194321:742.196795536",
@@ -150922,7 +150922,7 @@
    }
   ],
   "logged": "2026-11-16 01:15 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": true,
   "favorite_source": "logged"
@@ -156437,8 +156437,8 @@
   "type": "lottery",
   "label": "~25x",
   "n": 3,
-  "est_prob": 0.04135990248,
-  "fd_payout_x": 26.03,
+  "est_prob": 0.032804079516,
+  "fd_payout_x": 30.76,
   "legs_detail": [
    {
     "id": "401892725:7744997:742.197788313",
@@ -156457,20 +156457,20 @@
     "close_odds": 240
    },
    {
-    "id": "401873064:12213418:742.196795509",
-    "event": "401873064",
-    "sport": "nfl",
-    "kind": "spread",
-    "side": "home",
-    "line": -10.5,
-    "pick": "Cincinnati Bengals (-10.5)",
-    "market": "Alternate Spread",
-    "odds": 230,
-    "prob": 0.306,
-    "raw_prob": 0.306,
-    "game": "Pittsburgh Steelers at Cincinnati Bengals",
+    "id": "401909993:7711203:742.197763493",
+    "event": "401909993",
+    "sport": "nba",
+    "kind": "total",
+    "line": 209.5,
+    "ou": "under",
+    "pick": "Under 209.5",
+    "market": "Alternate Total Points",
+    "odds": 290,
+    "prob": 0.2427,
+    "raw_prob": 0.2427,
+    "game": "Oklahoma City Thunder at Sacramento Kings",
     "result": null,
-    "close_odds": 230
+    "close_odds": 290
    },
    {
     "id": "401892724:7000422:742.197788584",
@@ -156489,7 +156489,69 @@
     "close_odds": 132
    }
   ],
-  "logged": "2026-11-16 01:15 UTC",
+  "logged": "2026-11-16 01:25 UTC",
+  "locked": false,
+  "result": null,
+  "favorite": false
+ },
+ {
+  "id": "2026-11-15-lottery-3-leg best-chance lottery",
+  "date": "2026-11-15",
+  "type": "lottery",
+  "label": "3-leg best-chance lottery",
+  "n": 3,
+  "est_prob": 0.5745067809519999,
+  "fd_payout_x": 1.68,
+  "legs_detail": [
+   {
+    "id": "401909993:7890445:742.197763476",
+    "event": "401909993",
+    "sport": "nba",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Oklahoma City Thunder +1.5",
+    "market": "Alternate Spread",
+    "odds": -850,
+    "prob": 0.8762,
+    "raw_prob": 0.8762,
+    "game": "Oklahoma City Thunder at Sacramento Kings",
+    "result": null,
+    "close_odds": -850
+   },
+   {
+    "id": "401892725:7000412:742.197788313",
+    "event": "401892725",
+    "sport": "nhl",
+    "kind": "spread",
+    "side": "away",
+    "line": 1.5,
+    "pick": "Nashville Predators +1.5",
+    "market": "Alternate Puck Line",
+    "odds": -460,
+    "prob": 0.8359,
+    "raw_prob": 0.8359,
+    "game": "Nashville Predators at San Jose Sharks",
+    "result": null,
+    "close_odds": -460
+   },
+   {
+    "id": "401892724:13305501:742.197175815",
+    "event": "401892724",
+    "sport": "nhl",
+    "kind": "ml",
+    "side": "home",
+    "pick": "Vegas Golden Knights",
+    "market": "Moneyline",
+    "odds": -430,
+    "prob": 0.7844,
+    "raw_prob": 0.7844,
+    "game": "Vancouver Canucks at Vegas Golden Knights",
+    "result": null,
+    "close_odds": -430
+   }
+  ],
+  "logged": "2026-11-16 01:25 UTC",
   "locked": false,
   "result": null,
   "favorite": false
@@ -156569,7 +156631,7 @@
    }
   ],
   "logged": "2026-11-16 01:15 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
@@ -156647,7 +156709,7 @@
    }
   ],
   "logged": "2026-11-16 01:15 UTC",
-  "locked": false,
+  "locked": true,
   "result": null,
   "favorite": false
  },
