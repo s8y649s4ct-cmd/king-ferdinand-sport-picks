@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 04:46 UTC",
+ "updated": "2026-11-16 04:58 UTC",
  "date": "2026-11-15",
  "ladder_stats": {
   "tickets": 25,
@@ -3570,7 +3570,7 @@
    "pin_ev": -0.053,
    "conf": "Low",
    "tier": "short",
-   "bt_note": "Posted 3-5 legs tickets so far: 49-127, -58.1 units (-33.0% ROI)"
+   "bt_note": "Posted 3-5 legs tickets so far: 49-130, -61.1 units (-34.1% ROI)"
   },
   {
    "n": 5,
@@ -3599,7 +3599,7 @@
    "pin_ev": null,
    "conf": "Low",
    "tier": "long",
-   "bt_note": "Posted 3-5 legs tickets so far: 49-127, -58.1 units (-33.0% ROI)"
+   "bt_note": "Posted 3-5 legs tickets so far: 49-130, -61.1 units (-34.1% ROI)"
   },
   {
    "n": 6,
@@ -3629,7 +3629,7 @@
    "pin_ev": -0.187,
    "conf": "Low",
    "tier": "long",
-   "bt_note": "Posted 6+ legs tickets so far: 70-528, -199.8 units (-33.4% ROI)"
+   "bt_note": "Posted 6+ legs tickets so far: 70-529, -200.8 units (-33.5% ROI)"
   },
   {
    "n": 9,
@@ -3662,7 +3662,7 @@
    "pin_ev": -0.265,
    "conf": "Low",
    "tier": "long",
-   "bt_note": "Posted 6+ legs tickets so far: 70-528, -199.8 units (-33.4% ROI)"
+   "bt_note": "Posted 6+ legs tickets so far: 70-529, -200.8 units (-33.5% ROI)"
   },
   {
    "n": 10,
@@ -3696,7 +3696,7 @@
    "pin_ev": null,
    "conf": "Low",
    "tier": "long",
-   "bt_note": "Posted 6+ legs tickets so far: 70-528, -199.8 units (-33.4% ROI)"
+   "bt_note": "Posted 6+ legs tickets so far: 70-529, -200.8 units (-33.5% ROI)"
   },
   {
    "n": 13,
@@ -3733,7 +3733,7 @@
    "pin_ev": null,
    "conf": "Low",
    "tier": "long",
-   "bt_note": "Posted 6+ legs tickets so far: 70-528, -199.8 units (-33.4% ROI)"
+   "bt_note": "Posted 6+ legs tickets so far: 70-529, -200.8 units (-33.5% ROI)"
   },
   {
    "n": 18,
@@ -3775,7 +3775,7 @@
    "pin_ev": null,
    "conf": "Low",
    "tier": "long",
-   "bt_note": "Posted 6+ legs tickets so far: 70-528, -199.8 units (-33.4% ROI)"
+   "bt_note": "Posted 6+ legs tickets so far: 70-529, -200.8 units (-33.5% ROI)"
   }
  ],
  "lottery": [],
@@ -4952,8 +4952,8 @@
    "sport": "nhl",
    "name": "Vancouver Canucks at Vegas Golden Knights",
    "start": "2026-11-16T02:00Z",
-   "state": "in",
-   "status": "0:10 - 3rd",
+   "state": "post",
+   "status": "Final",
    "venue": "T-Mobile Arena",
    "indoor": true,
    "city": {
@@ -4970,27 +4970,27 @@
      "name": "Vegas Golden Knights",
      "short": "Golden Knights",
      "score": "3",
-     "winner": null,
-     "record": "13-5-3",
+     "winner": false,
+     "record": "13-6-3",
      "ml_open": null,
      "ml": null,
      "tid": "37",
      "abbr": "VGK",
-     "home_rec": "7-3-1",
+     "home_rec": "7-4-1",
      "road_rec": "6-2-2"
     },
     "away": {
      "name": "Vancouver Canucks",
      "short": "Canucks",
      "score": "6",
-     "winner": null,
-     "record": "3-17-1",
+     "winner": true,
+     "record": "4-17-1",
      "ml_open": null,
      "ml": null,
      "tid": "22",
      "abbr": "VAN",
      "home_rec": "1-9-0",
-     "road_rec": "2-8-1"
+     "road_rec": "3-8-1"
     }
    }
   },
@@ -5648,8 +5648,8 @@
  ],
  "moves": [],
  "stats": {
-  "updated": "2026-11-16 04:46 UTC",
-  "graded_legs": 2797,
+  "updated": "2026-11-16 04:58 UTC",
+  "graded_legs": 2802,
   "calibration": {
    "85-90%": {
     "n": 1402,
@@ -5658,10 +5658,10 @@
     "hit": 0.862
    },
    "75-80%": {
-    "n": 194,
+    "n": 196,
     "wins": 160,
     "pred": 0.785,
-    "hit": 0.825
+    "hit": 0.816
    },
    "80-85%": {
     "n": 481,
@@ -5670,10 +5670,10 @@
     "hit": 0.842
    },
    "65-70%": {
-    "n": 29,
+    "n": 30,
     "wins": 19,
     "pred": 0.674,
-    "hit": 0.655
+    "hit": 0.633
    },
    "90-95%": {
     "n": 66,
@@ -5694,10 +5694,10 @@
     "hit": 0.838
    },
    "40-45%": {
-    "n": 55,
-    "wins": 17,
+    "n": 57,
+    "wins": 19,
     "pred": 0.422,
-    "hit": 0.309
+    "hit": 0.333
    },
    "45-50%": {
     "n": 18,
@@ -5768,10 +5768,10 @@
     "hit": 0.779
    },
    "nhl": {
-    "n": 478,
-    "wins": 300,
+    "n": 483,
+    "wins": 302,
     "pred": 0.672,
-    "hit": 0.628
+    "hit": 0.625
    },
    "mlb": {
     "n": 10,
@@ -5818,16 +5818,16 @@
   },
   "by_market": {
    "total": {
-    "n": 1270,
+    "n": 1272,
     "wins": 1037,
     "pred": 0.826,
-    "hit": 0.817
+    "hit": 0.815
    },
    "spread": {
-    "n": 1238,
-    "wins": 919,
-    "pred": 0.754,
-    "hit": 0.742
+    "n": 1240,
+    "wins": 921,
+    "pred": 0.753,
+    "hit": 0.743
    },
    "dc": {
     "n": 71,
@@ -5836,10 +5836,10 @@
     "hit": 0.831
    },
    "ml": {
-    "n": 48,
+    "n": 49,
     "wins": 35,
-    "pred": 0.675,
-    "hit": 0.729
+    "pred": 0.677,
+    "hit": 0.714
    },
    "dnb": {
     "n": 15,
@@ -5962,7 +5962,7 @@
       "pick": "Under 7.5",
       "game": "Vancouver Canucks at Vegas Golden Knights",
       "odds": -280,
-      "result": null
+      "result": "loss"
      },
      {
       "pick": "Nashville Predators",
@@ -8954,43 +8954,43 @@
  "note": "0 FanDuel-priced candidates () across 0 games; best single market per game kept (odds -950 to +300); 0 not-yet-started games -> parlays up to 18 legs.",
  "model_check": {
   "v1": {
-   "n": 8126,
-   "brier": 0.1475,
-   "logloss": 0.4689,
+   "n": 8135,
+   "brier": 0.1477,
+   "logloss": 0.4694,
    "picks": 2138,
    "avg_clv_fd_pts": 0.12,
    "avg_clv_sharp_pts": 0.08,
-   "top_picks_graded": 2127,
+   "top_picks_graded": 2129,
    "top_picks_won": 1791,
-   "top_picks_expected": 1778.83,
-   "top_win_rate": 0.842031029619182
+   "top_picks_expected": 1780.41,
+   "top_win_rate": 0.8412400187881635
   },
   "v2": {
-   "n": 8126,
-   "brier": 0.1469,
-   "logloss": 0.4682,
+   "n": 8135,
+   "brier": 0.1471,
+   "logloss": 0.4687,
    "picks": 719,
    "avg_clv_fd_pts": 0.31,
    "avg_clv_sharp_pts": 0.39,
-   "top_picks_graded": 718,
+   "top_picks_graded": 719,
    "top_picks_won": 624,
-   "top_picks_expected": 635.53,
-   "top_win_rate": 0.8690807799442897
+   "top_picks_expected": 636.37,
+   "top_win_rate": 0.8678720445062587
   },
-  "graded": 8126,
+  "graded": 8135,
   "need": 100,
   "need_top": 30,
   "conditions": [
    {
     "name": "At least 100 graded legs",
-    "v1": 8126,
-    "v2": 8126,
+    "v1": 8135,
+    "v2": 8135,
     "pass": true
    },
    {
     "name": "v2 lower log loss",
-    "v1": 0.4689,
-    "v2": 0.4682,
+    "v1": 0.4694,
+    "v2": 0.4687,
     "pass": true
    },
    {
@@ -9007,14 +9007,14 @@
    },
    {
     "name": "At least 30 top picks graded (each model)",
-    "v1": 2127,
-    "v2": 718,
+    "v1": 2129,
+    "v2": 719,
     "pass": true
    },
    {
     "name": "v2 top-pick win rate >= v1",
-    "v1": "1791/2127",
-    "v2": "624/718",
+    "v1": "1791/2129",
+    "v2": "624/719",
     "pass": true
    }
   ],

@@ -4,7 +4,7 @@
   "2026-10-25",
   "2026-11-15"
  ],
- "legs_graded": 5820,
+ "legs_graded": 5829,
  "min_n": 10,
  "pinnacle": {
   "grid": [
@@ -743,101 +743,101 @@
   "note": "Fit on older dates, scored on newer dates. Top leg per game = 1-unit single at the last pregame FanDuel price.",
   "split_50_50": {
    "train_before": "2026-11-05",
-   "test_legs": 3009,
+   "test_legs": 3018,
    "v1 raw (live)": {
-    "brier": 0.1573,
-    "logloss": 0.4912,
+    "brier": 0.1578,
+    "logloss": 0.4924,
     "top_leg_per_game": {
-     "n": 481,
-     "win_pct": 0.8586,
-     "units": -8.52,
-     "roi_pct": -1.77
+     "n": 482,
+     "win_pct": 0.8568,
+     "units": -9.52,
+     "roi_pct": -1.98
     }
    },
    "isotonic by sport x market": {
-    "brier": 0.1578,
-    "logloss": 0.4937,
+    "brier": 0.1585,
+    "logloss": 0.4953,
     "top_leg_per_game": {
-     "n": 481,
-     "win_pct": 0.8503,
-     "units": -11.38,
-     "roi_pct": -2.37
+     "n": 482,
+     "win_pct": 0.8485,
+     "units": -12.38,
+     "roi_pct": -2.57
     }
    },
    "Platt by sport": {
-    "brier": 0.1573,
-    "logloss": 0.4914,
+    "brier": 0.1578,
+    "logloss": 0.4926,
     "top_leg_per_game": {
-     "n": 481,
-     "win_pct": 0.8586,
-     "units": -8.52,
-     "roi_pct": -1.77
+     "n": 482,
+     "win_pct": 0.8568,
+     "units": -9.52,
+     "roi_pct": -1.98
     }
    },
    "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
     "top_leg_per_game": {
-     "n": 481,
-     "win_pct": 0.8586,
-     "units": -8.45,
-     "roi_pct": -1.76
+     "n": 482,
+     "win_pct": 0.8568,
+     "units": -9.45,
+     "roi_pct": -1.96
     }
    },
    "v1 ranked by prob + 0.5 x edge": {
     "top_leg_per_game": {
-     "n": 481,
-     "win_pct": 0.8503,
-     "units": -8.97,
-     "roi_pct": -1.87
+     "n": 482,
+     "win_pct": 0.8485,
+     "units": -9.97,
+     "roi_pct": -2.07
     }
    }
   },
   "split_70_30": {
    "train_before": "2026-11-09",
-   "test_legs": 1684,
+   "test_legs": 1693,
    "v1 raw (live)": {
-    "brier": 0.1503,
-    "logloss": 0.4734,
+    "brier": 0.1512,
+    "logloss": 0.4755,
     "top_leg_per_game": {
-     "n": 231,
-     "win_pct": 0.8658,
-     "units": -4.8,
-     "roi_pct": -2.08
+     "n": 232,
+     "win_pct": 0.8621,
+     "units": -5.8,
+     "roi_pct": -2.5
     }
    },
    "isotonic by sport x market": {
-    "brier": 0.1522,
-    "logloss": 0.4798,
+    "brier": 0.1535,
+    "logloss": 0.4831,
     "top_leg_per_game": {
-     "n": 231,
-     "win_pct": 0.8658,
-     "units": -3.78,
-     "roi_pct": -1.64
+     "n": 232,
+     "win_pct": 0.8621,
+     "units": -4.78,
+     "roi_pct": -2.06
     }
    },
    "Platt by sport": {
-    "brier": 0.1513,
-    "logloss": 0.4767,
+    "brier": 0.1523,
+    "logloss": 0.479,
     "top_leg_per_game": {
-     "n": 231,
-     "win_pct": 0.8658,
-     "units": -4.8,
-     "roi_pct": -2.08
+     "n": 232,
+     "win_pct": 0.8621,
+     "units": -5.8,
+     "roi_pct": -2.5
     }
    },
    "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
     "top_leg_per_game": {
-     "n": 231,
-     "win_pct": 0.8701,
-     "units": -3.67,
-     "roi_pct": -1.59
+     "n": 232,
+     "win_pct": 0.8664,
+     "units": -4.67,
+     "roi_pct": -2.01
     }
    },
    "v1 ranked by prob + 0.5 x edge": {
     "top_leg_per_game": {
-     "n": 231,
-     "win_pct": 0.8571,
-     "units": -4.45,
-     "roi_pct": -1.93
+     "n": 232,
+     "win_pct": 0.8534,
+     "units": -5.45,
+     "roi_pct": -2.35
     }
    }
   }
