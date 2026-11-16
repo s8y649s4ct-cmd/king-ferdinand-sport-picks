@@ -4,7 +4,7 @@
   "2026-10-25",
   "2026-11-15"
  ],
- "legs_graded": 5631,
+ "legs_graded": 5655,
  "min_n": 10,
  "pinnacle": {
   "grid": [
@@ -563,18 +563,18 @@
     "roi_pct": -32.73
    },
    "test": {
-    "n": 53,
-    "won": 18,
-    "win_pct": 0.3396,
-    "units": -7.21,
-    "roi_pct": -13.6
+    "n": 54,
+    "won": 19,
+    "win_pct": 0.3519,
+    "units": -6.33,
+    "roi_pct": -11.72
    },
    "all": {
-    "n": 113,
-    "won": 33,
-    "win_pct": 0.292,
-    "units": -26.85,
-    "roi_pct": -23.76
+    "n": 114,
+    "won": 34,
+    "win_pct": 0.2982,
+    "units": -25.97,
+    "roi_pct": -22.78
    }
   },
   "ladder 11+ legs": {
@@ -743,101 +743,101 @@
   "note": "Fit on older dates, scored on newer dates. Top leg per game = 1-unit single at the last pregame FanDuel price.",
   "split_50_50": {
    "train_before": "2026-11-05",
-   "test_legs": 2820,
+   "test_legs": 2844,
    "v1 raw (live)": {
-    "brier": 0.1578,
-    "logloss": 0.4926,
+    "brier": 0.1571,
+    "logloss": 0.4909,
     "top_leg_per_game": {
-     "n": 461,
-     "win_pct": 0.8568,
-     "units": -8.59,
-     "roi_pct": -1.86
-    }
-   },
-   "isotonic by sport x market": {
-    "brier": 0.1579,
-    "logloss": 0.494,
-    "top_leg_per_game": {
-     "n": 461,
-     "win_pct": 0.8547,
-     "units": -8.07,
+     "n": 465,
+     "win_pct": 0.8581,
+     "units": -8.14,
      "roi_pct": -1.75
     }
    },
-   "Platt by sport": {
-    "brier": 0.1577,
-    "logloss": 0.4926,
+   "isotonic by sport x market": {
+    "brier": 0.1573,
+    "logloss": 0.4925,
     "top_leg_per_game": {
-     "n": 461,
-     "win_pct": 0.8568,
-     "units": -8.59,
-     "roi_pct": -1.86
+     "n": 465,
+     "win_pct": 0.8559,
+     "units": -7.62,
+     "roi_pct": -1.64
+    }
+   },
+   "Platt by sport": {
+    "brier": 0.1571,
+    "logloss": 0.4912,
+    "top_leg_per_game": {
+     "n": 465,
+     "win_pct": 0.8581,
+     "units": -8.14,
+     "roi_pct": -1.75
     }
    },
    "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
     "top_leg_per_game": {
-     "n": 461,
-     "win_pct": 0.8568,
-     "units": -8.53,
-     "roi_pct": -1.85
+     "n": 465,
+     "win_pct": 0.8581,
+     "units": -8.07,
+     "roi_pct": -1.74
     }
    },
    "v1 ranked by prob + 0.5 x edge": {
     "top_leg_per_game": {
-     "n": 461,
-     "win_pct": 0.8503,
-     "units": -8.36,
-     "roi_pct": -1.81
+     "n": 465,
+     "win_pct": 0.8516,
+     "units": -7.91,
+     "roi_pct": -1.7
     }
    }
   },
   "split_70_30": {
    "train_before": "2026-11-09",
-   "test_legs": 1495,
+   "test_legs": 1519,
    "v1 raw (live)": {
-    "brier": 0.1503,
-    "logloss": 0.4738,
+    "brier": 0.1492,
+    "logloss": 0.471,
     "top_leg_per_game": {
-     "n": 211,
-     "win_pct": 0.8626,
-     "units": -4.87,
-     "roi_pct": -2.31
+     "n": 215,
+     "win_pct": 0.8651,
+     "units": -4.42,
+     "roi_pct": -2.06
     }
    },
    "isotonic by sport x market": {
-    "brier": 0.1518,
-    "logloss": 0.4792,
+    "brier": 0.1507,
+    "logloss": 0.4765,
     "top_leg_per_game": {
-     "n": 211,
-     "win_pct": 0.872,
-     "units": -1.78,
-     "roi_pct": -0.84
+     "n": 215,
+     "win_pct": 0.8744,
+     "units": -1.32,
+     "roi_pct": -0.61
     }
    },
    "Platt by sport": {
-    "brier": 0.1514,
-    "logloss": 0.4772,
+    "brier": 0.1503,
+    "logloss": 0.4747,
     "top_leg_per_game": {
-     "n": 211,
-     "win_pct": 0.8626,
-     "units": -4.87,
-     "roi_pct": -2.31
+     "n": 215,
+     "win_pct": 0.8651,
+     "units": -4.42,
+     "roi_pct": -2.06
     }
    },
    "v1 + skip legs whose FanDuel price moved against by 2+ pts": {
     "top_leg_per_game": {
-     "n": 211,
-     "win_pct": 0.8673,
-     "units": -3.75,
-     "roi_pct": -1.78
+     "n": 215,
+     "win_pct": 0.8698,
+     "units": -3.29,
+     "roi_pct": -1.53
     }
    },
    "v1 ranked by prob + 0.5 x edge": {
     "top_leg_per_game": {
-     "n": 211,
-     "win_pct": 0.8578,
-     "units": -3.83,
-     "roi_pct": -1.82
+     "n": 215,
+     "win_pct": 0.8605,
+     "units": -3.38,
+     "roi_pct": -1.57
     }
    }
   }
